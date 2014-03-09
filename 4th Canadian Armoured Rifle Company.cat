@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="1.13b" id="9dd2d658-85fc-4e87-a7b9-24bec9b3182f" revision="1" gameSystemId="6f905f96-08d9-4b54-8ed7-cd0a2a747bf4" gameSystemRevision="1" name="4th Canadian Armoured Rifle Company"><entries>
+    <entry categoryId="Support Platoons###DATA###" id="db44b824-1ec1-43bf-8060-d7aa77f0e19f" name="Anti-tank Platoon (SP), Royal Canadian Artillery" points="10.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="de120441-ade0-4b14-b9cd-026fc3d12932" name="Anti-tank Section" points="130.0" type="upgrade" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="fcf4892c-3658-4ea8-af86-9dc8e89499fe" name="M10C 17 pdr SP" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="M10C 17 pdr SP###DATA###" name="M10C 17 pdr SP" profileTypeId="Tank Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Fully-tracked"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="32&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="13"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="3"/>
+                    <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="4"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="2"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value=".50 cal AA MG, No HE, Slow Traverse"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="023a59bd-e509-41dd-9966-c0bff2448390" field="selections" type="at least" value="1.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules/><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="023a59bd-e509-41dd-9966-c0bff2448390" name="Anti-tank Platoon, Royal Canadian Artillery" points="20.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="09556a12-6ff0-495e-a59b-44c672d9ca88" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="8e9f0027-6b9a-4795-b65c-38064567718e" name="Troop Carrier" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Troop Carrier###DATA###" name="Troop Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-tracked"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="ea8df873-da45-4f8f-abff-344d931e8109" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="03a36aad-0ce9-4eda-9eba-0e073f6be01d" name="Anti-Tank Section" points="90.0" type="upgrade" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="f3d226b6-05ba-4a22-a030-7b1196ec066b" name="OQF 17 pdr gun" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="OQF 17 pdr Gun###DATA###" name="OQF 17 pdr Gun" profileTypeId="Gun Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Immobile"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="32&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="13"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="3"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Gun shield, No HE"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="f611d578-616b-435e-b2f8-9f5640b5a956" name="M5 Half-track" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="M5 half-track###DATA###" name="M5 half-track" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-tracked"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="1"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="db44b824-1ec1-43bf-8060-d7aa77f0e19f" field="selections" type="at least" value="1.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules/><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="6f32bc0d-2548-4d61-a4f3-08b72523fb4b" name="AOP" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="24bbaa5a-d7ac-49b5-b6a2-00ee46d6e83e" field="selections" type="at most" value="0.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules/><profiles>
+        <profile id="Auster AOP###DATA###" name="Auster AOP" profileTypeId="Aerial Observation Post###DATA###"><characteristics/></profile>
+      </profiles></entry>
+    <entry categoryId="Weapons Platoons###DATA###" id="a798accc-c142-4468-a827-abef451dec04" name="Armoured Recce Platoon" points="10.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="2" collective="false"><entries>
+        <entry categoryId="(No Category)" id="0d5706e6-8954-40ec-aa7a-5fdeac1a2893" name="Sherman V" points="85.0" type="upgrade" minSelections="3" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="a4679627-65c6-4193-b446-c7e4bbe2fbd5" name=".50 cal AA MG" points="5.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Sherman V###DATA###" name="Sherman V" profileTypeId="Tank Team###DATA###"><characteristics>
+                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Fully-tracked"/>
+                <characteristic characteristicId="Range###DATA###" name="Range" value="32&quot;"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="10"/>
+                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="3"/>
+                <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="6"/>
+                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="4"/>
+                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="1"/>
+                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull MG"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Confident Veteran###DATA###" name="Confident Veteran"/>
+      </rules><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="f1794848-1e0a-4d12-b4c4-919e1c604c57" name="Artillery Battery" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+        <entryGroup id="98465b95-e2fc-4497-af5b-d60a670b8f01" name="Artillery Battery" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="Support Platoons###DATA###" id="0139ffbf-c900-4dd2-8ad3-12a269bfe9df" name="Field Battery (SP), Royal Canadian Artillery" points="55.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries>
+                <entry categoryId="(No Category)" id="792b5ce7-03e1-478b-8b61-5da36f161e17" name="Gun Troop" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="af2a2325-34f2-4a8b-879c-dc60e1d7db5c" name="Gun Section" points="85.0" type="upgrade" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="ee1460f8-6b91-4348-a3ea-6b0c4ab1d70f" name="Sexton" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Sexton###DATA###" name="Sexton" profileTypeId="SP Bombardment###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Full-tracked"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="24&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="9"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="3"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull mounted, Smoke OQF 25 pdr AA MG"/>
+                                <characteristic characteristicId="Front###DATA###" name="Front" value="1"/>
+                                <characteristic characteristicId="Side###DATA###" name="Side" value="0"/>
+                                <characteristic characteristicId="Top###DATA###" name="Top" value="0"/>
+                                <characteristic characteristicId="Range2###DATA###" name="Range2" value="80&quot;"/>
+                                <characteristic characteristicId="ROF2###DATA###" name="ROF2" value="-"/>
+                                <characteristic characteristicId="Anti-tank2###DATA###" name="Anti-tank2" value="4"/>
+                                <characteristic characteristicId="Firepower2###DATA###" name="Firepower2" value="5"/>
+                                <characteristic characteristicId="Equipment and Notes2###DATA###" name="Equipment and Notes2" value="Smoke Bombardment"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="76fc2d03-8a28-4bb1-9e9b-343609bc20b5" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="bd1649a5-4d64-4b0d-ad38-02d945af0bad" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="e1d8f997-27e7-4b23-8d70-6cdbf3f8a8a5" name="15cwt Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="15cwt Truck###DATA###" name="15cwt Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="88e6cba6-caeb-4361-bcaf-e5b361de4908" name="Sherman OP Tank" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+                            <rule id="Observer Sherman OP tanks###DATA###" name="Observer Sherman OP tanks"><description>cannot launch assaults</description></rule>
+                          </rules><profiles>
+                            <profile id="Sherman OP Tank###DATA###" name="Sherman OP Tank" profileTypeId="Tank Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Fully-tracked"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="6"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="4"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="1"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull MG"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                  </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="47eb99b0-b62a-4a1e-ba50-5c22545e9f5c" name="Gun Troop" points="-10.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="baf4625f-13f2-4221-9d3e-54dcf9ad11c6" name="Gun Section" points="85.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="8bf000ed-4cf9-44d6-8b97-5645836ac22a" name="Sexton" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Sexton###DATA###" name="Sexton" profileTypeId="SP Bombardment###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Full-tracked"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="24&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="9"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="3"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull mounted, Smoke OQF 25 pdr AA MG"/>
+                                <characteristic characteristicId="Front###DATA###" name="Front" value="1"/>
+                                <characteristic characteristicId="Side###DATA###" name="Side" value="0"/>
+                                <characteristic characteristicId="Top###DATA###" name="Top" value="0"/>
+                                <characteristic characteristicId="Range2###DATA###" name="Range2" value="80&quot;"/>
+                                <characteristic characteristicId="ROF2###DATA###" name="ROF2" value="-"/>
+                                <characteristic characteristicId="Anti-tank2###DATA###" name="Anti-tank2" value="4"/>
+                                <characteristic characteristicId="Firepower2###DATA###" name="Firepower2" value="5"/>
+                                <characteristic characteristicId="Equipment and Notes2###DATA###" name="Equipment and Notes2" value="Smoke Bombardment"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="a4ed0c0d-922c-4d13-a32c-86c14952c662" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="365943ac-dc26-4478-a541-efe60bc984d5" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="f684ddc1-94a7-4043-acdc-865ae31d4252" name="15cwt Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="15cwt Truck###DATA###" name="15cwt Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="a5ef04c3-8141-4f2d-8fe3-5a6ed9843966" name="Sherman OP Tank" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+                            <rule id="Observer Sherman OP tanks###DATA###" name="Observer Sherman OP tanks"><description>cannot launch assaults</description></rule>
+                          </rules><profiles>
+                            <profile id="Sherman OP Tank###DATA###" name="Sherman OP Tank" profileTypeId="Tank Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Fully-tracked"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="6"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="4"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="1"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull MG"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                  </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="e09555d7-b67e-4c46-b2ed-467b99738ed3" name="HQ Troop" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="eb17f71f-7658-474f-8f9b-532f276a4c83" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                            <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                            <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                            <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                            <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                    <entry categoryId="(No Category)" id="1aefc10c-877b-4f1c-ab22-ae167ebc9095" name="Staff Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="Staff Team###DATA###" name="Staff Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Heavy"/>
+                            <characteristic characteristicId="Range###DATA###" name="Range" value="-"/>
+                            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                            <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="-"/>
+                            <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="-"/>
+                            <characteristic characteristicId="Notes###DATA###" name="Notes" value="cannot shoot"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                    <entry categoryId="(No Category)" id="7c5d4bd6-005d-43e4-9718-1c1a75438011" name="Jeep" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="Jeep###DATA###" name="Jeep" profileTypeId="Transport Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Jeep"/>
+                            <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                            <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                            <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                            <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                    <entry categoryId="(No Category)" id="80bfc515-e279-411e-921c-1a10259760a8" name="15cwt Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="15cwt Truck###DATA###" name="15cwt Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                            <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                            <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                            <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                            <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                  </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="Support Platoons###DATA###" id="e25d12c9-845c-4b7d-be71-fbf8ba1cc951" name="Field Battery, Royal Canadian Artillery" points="45.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries>
+                <entry categoryId="(No Category)" id="2c0dc0b9-8311-41ae-8bd6-da2fc194a511" name="Gun Troop" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="2f58db6c-aceb-4fac-8806-5644b8678f53" name="Gun Section" points="65.0" type="upgrade" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="9ba8fc48-a5a1-4f67-9305-5066142858de" name="OQF 25 pdr" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="OQF 25 pdr###DATA###" name="OQF 25 pdr" profileTypeId="Gun Bombardment###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Heavy"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="24&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="9"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="3"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes" value="Gun Shield, Smoke, Turntable"/>
+                                <characteristic characteristicId="Range2###DATA###" name="Range2" value="80&quot;"/>
+                                <characteristic characteristicId="ROF2###DATA###" name="ROF2" value="-"/>
+                                <characteristic characteristicId="Anti-tank2###DATA###" name="Anti-tank2" value="4"/>
+                                <characteristic characteristicId="Firepower2###DATA###" name="Firepower2" value="5"/>
+                                <characteristic characteristicId="Notes2###DATA###" name="Notes2" value="Smoke Bombardment"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="34a7c56f-755d-4448-a1e1-c9960380c5f3" name="Quad Tractor with Limber" points="0.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Quad Tractor with Limber###DATA###" name="Quad Tractor with Limber" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="d285617d-8d71-4cc6-9d21-d39e0b4dbbab" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="5bc4e89c-c799-489a-a95c-6735e907d65c" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="16c3cd75-cbec-43fe-ba8a-a974e4466a20" name="15cwt Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="15cwt Truck###DATA###" name="15cwt Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="d3b89106-e1ec-4ba0-a9a2-e14ab6e93819" name="Sherman OP Tank" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+                            <rule id="Observer Sherman OP tanks###DATA###" name="Observer Sherman OP tanks"><description>cannot launch assaults</description></rule>
+                          </rules><profiles>
+                            <profile id="Sherman OP Tank###DATA###" name="Sherman OP Tank" profileTypeId="Tank Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Fully-tracked"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="6"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="4"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="1"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull MG"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                  </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="89f1e8c1-4124-43ea-9491-c25435065264" name="Gun Troop" points="-20.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="205f4b99-5559-48ce-8b4f-a6c32704e23a" name="Gun Section" points="65.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="74b61a53-74a1-4d20-b821-0c521928107a" name="OQF 25 pdr" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="OQF 25 pdr###DATA###" name="OQF 25 pdr" profileTypeId="Gun Bombardment###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Heavy"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="24&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="9"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="3"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes" value="Gun Shield, Smoke, Turntable"/>
+                                <characteristic characteristicId="Range2###DATA###" name="Range2" value="80&quot;"/>
+                                <characteristic characteristicId="ROF2###DATA###" name="ROF2" value="-"/>
+                                <characteristic characteristicId="Anti-tank2###DATA###" name="Anti-tank2" value="4"/>
+                                <characteristic characteristicId="Firepower2###DATA###" name="Firepower2" value="5"/>
+                                <characteristic characteristicId="Notes2###DATA###" name="Notes2" value="Smoke Bombardment"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="cf1c2f9a-1b22-4282-b2b3-4a07dd3ea3fd" name="Quad Tractor with Limber" points="0.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Quad Tractor with Limber###DATA###" name="Quad Tractor with Limber" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="0aca66d6-7301-4066-95aa-9f65f7a419e2" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="5d849092-c583-498e-b0f5-a663512b1835" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="cf8edf15-fe38-49b3-9f0d-ef8d7dbf1b16" name="15cwt Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="15cwt Truck###DATA###" name="15cwt Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="4760ec24-9b2a-4fe1-85ab-3241047c5323" name="Sherman OP Tank" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+                            <rule id="Observer Sherman OP tanks###DATA###" name="Observer Sherman OP tanks"><description>cannot launch assaults</description></rule>
+                          </rules><profiles>
+                            <profile id="Sherman OP Tank###DATA###" name="Sherman OP Tank" profileTypeId="Tank Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Fully-tracked"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="6"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="4"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="1"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull MG"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                  </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="31c9bc0b-bec9-472c-b702-ba9dbea6f81e" name="HQ Troop" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="1b063437-497c-43a6-ba7b-b9632a80e982" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                            <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                            <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                            <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                            <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                    <entry categoryId="(No Category)" id="6d00d814-e0f1-4168-b07e-76ff9e1c6c20" name="Staff Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="Staff Team###DATA###" name="Staff Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Heavy"/>
+                            <characteristic characteristicId="Range###DATA###" name="Range" value="-"/>
+                            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                            <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="-"/>
+                            <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="-"/>
+                            <characteristic characteristicId="Notes###DATA###" name="Notes" value="cannot shoot"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                    <entry categoryId="(No Category)" id="21a653b3-0e26-4c47-86b1-9e05addea5c6" name="Jeep" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="Jeep###DATA###" name="Jeep" profileTypeId="Transport Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Jeep"/>
+                            <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                            <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                            <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                            <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                    <entry categoryId="(No Category)" id="9aa33950-29e1-4bba-905e-f12678724f25" name="15cwt Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="15cwt Truck###DATA###" name="15cwt Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                            <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                            <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                            <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                            <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                  </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+            <entry categoryId="Support Platoons###DATA###" id="24bbaa5a-d7ac-49b5-b6a2-00ee46d6e83e" name="Medium Battery, Royal Canadian Artillery" points="35.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="8f64dd42-049c-45f1-8aaa-b24c1c18d9f8" name="Gun Troop" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="d5db3058-1771-4e4d-8b94-149792794c83" name="Gun Section" points="100.0" type="upgrade" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="ed136df6-606d-4961-b71a-82ddd3ba4e54" name="BL 5.5&quot; gun" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="BL 5.5&quot; gun###DATA###" name="BL 5.5&quot; gun" profileTypeId="Gun Bombardment###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Immobile"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="32&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="13"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="1"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes" value="Bunker Buster"/>
+                                <characteristic characteristicId="Range2###DATA###" name="Range2" value="88&quot;"/>
+                                <characteristic characteristicId="ROF2###DATA###" name="ROF2" value="-"/>
+                                <characteristic characteristicId="Anti-tank2###DATA###" name="Anti-tank2" value="5"/>
+                                <characteristic characteristicId="Firepower2###DATA###" name="Firepower2" value="2"/>
+                                <characteristic characteristicId="Notes2###DATA###" name="Notes2"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="faeabf07-f171-40f7-a7be-c943ad33f77c" name="Matador Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Matador Truck###DATA###" name="Matador Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="29aba541-7b66-4479-be97-112595757e37" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="2bc83505-648f-4483-8320-79ba58abe19d" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="00a56632-6d2c-45a6-8265-d9b6cd117a85" name="15cwt Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="15cwt Truck###DATA###" name="15cwt Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="3aae1662-4a9f-4b55-936d-219c6bf46734" name="OP Carrier" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="OP Carrier###DATA###" name="OP Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="half-tracked"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="7a354e02-1eea-41cc-8a9e-aa092e120c58" name="Observer Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Observer Rifle Team###DATA###" name="Observer Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                  </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="b76addb3-aacf-4079-a336-6f51abac2f77" name="Gun Troop" points="-35.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="41f99b63-d134-404b-9152-d8bb7acabbf0" name="Gun Section" points="100.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="de84d07e-fedb-4537-80dc-e00e673dbebe" name="BL 5.5&quot; gun" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="BL 5.5&quot; gun###DATA###" name="BL 5.5&quot; gun" profileTypeId="Gun Bombardment###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Immobile"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="32&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="13"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="1"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes" value="Bunker Buster"/>
+                                <characteristic characteristicId="Range2###DATA###" name="Range2" value="88&quot;"/>
+                                <characteristic characteristicId="ROF2###DATA###" name="ROF2" value="-"/>
+                                <characteristic characteristicId="Anti-tank2###DATA###" name="Anti-tank2" value="5"/>
+                                <characteristic characteristicId="Firepower2###DATA###" name="Firepower2" value="2"/>
+                                <characteristic characteristicId="Notes2###DATA###" name="Notes2"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="c067a05d-67e9-48e8-b811-ae6dfb96e3a1" name="Matador Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Matador Truck###DATA###" name="Matador Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="4b7a1da4-4192-4c18-9b16-a8e04688b0b6" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                        <entry categoryId="(No Category)" id="e7d9b740-1581-40f4-9af2-24a5a114f575" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="20e07ac7-dc2a-47a6-9a91-da494d14f7d3" name="15cwt Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="15cwt Truck###DATA###" name="15cwt Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="db404427-bcbf-4579-9b7c-17f0722da99a" name="OP Carrier" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="OP Carrier###DATA###" name="OP Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="half-tracked"/>
+                                <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                        <entry categoryId="(No Category)" id="0b68b307-8cf4-4f60-b3d2-ce6200678480" name="Observer Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                            <profile id="Observer Rifle Team###DATA###" name="Observer Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                              </characteristics></profile>
+                          </profiles></entry>
+                      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                  </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="040370f4-78c9-4b3c-88b4-ab81a64cb8ca" name="HQ Troop" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="6f87ce52-b88c-41a1-9675-c804569e4b6c" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                            <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                            <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                            <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                            <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                    <entry categoryId="(No Category)" id="79512cb9-8435-44bd-a19e-0f531c9ddfa7" name="Staff Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="Staff Team###DATA###" name="Staff Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Heavy"/>
+                            <characteristic characteristicId="Range###DATA###" name="Range" value="-"/>
+                            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                            <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="-"/>
+                            <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="-"/>
+                            <characteristic characteristicId="Notes###DATA###" name="Notes" value="cannot shoot"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                    <entry categoryId="(No Category)" id="85b7aa7b-2f21-4ef4-8dd8-7f47bd5d46ec" name="Jeep" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="Jeep###DATA###" name="Jeep" profileTypeId="Transport Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Jeep"/>
+                            <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                            <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                            <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                            <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                    <entry categoryId="(No Category)" id="afbfbcf8-cb7c-4b24-85d6-7848192616e8" name="15cwt Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="15cwt Truck###DATA###" name="15cwt Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                            <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                            <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                            <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                            <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                  </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules/><profiles/></entry>
+    <entry categoryId="Weapons Platoons###DATA###" id="41913544-f640-4937-9a24-7f160ec1b355" name="Carrier Platoon" points="15.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups>
+        <entryGroup id="f985c569-f32b-4c46-b068-ee0f687eff25" name="Carrier Patrol" minSelections="1" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="3b21debb-e0f2-479d-9a5e-6deb70d1d273" name="Wasp Patrol" points="90.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="6c08ccab-a4a1-4700-9eeb-239cc0989ffd" name="Wasp Patrol" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                    <profile id="Wasp Carrier###DATA###" name="Wasp Carrier" profileTypeId="Tank Team###DATA###"><characteristics>
+                        <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-Tracked"/>
+                        <characteristic characteristicId="Range###DATA###" name="Range" value="4&quot;"/>
+                        <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+                        <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="-"/>
+                        <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                        <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="0"/>
+                        <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                        <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                        <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull-mounted, flame-thrower"/>
+                      </characteristics></profile>
+                  </profiles></entry>
+                <entry categoryId="(No Category)" id="ac03e2ea-b4ff-43ac-8056-6613d5205cd9" name="Wasp Patrol" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                    <profile id="Wasp Carrier###DATA###" name="Wasp Carrier" profileTypeId="Tank Team###DATA###"><characteristics>
+                        <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-Tracked"/>
+                        <characteristic characteristicId="Range###DATA###" name="Range" value="4&quot;"/>
+                        <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+                        <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="-"/>
+                        <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                        <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="0"/>
+                        <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                        <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                        <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull-mounted, flame-thrower"/>
+                      </characteristics></profile>
+                  </profiles></entry>
+                <entry categoryId="(No Category)" id="00f0d74b-9901-4958-9154-5c91b2978022" name="Wasp Patrol" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                    <profile id="Wasp Carrier###DATA###" name="Wasp Carrier" profileTypeId="Tank Team###DATA###"><characteristics>
+                        <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-Tracked"/>
+                        <characteristic characteristicId="Range###DATA###" name="Range" value="4&quot;"/>
+                        <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+                        <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="-"/>
+                        <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                        <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="0"/>
+                        <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                        <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                        <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull-mounted, flame-thrower"/>
+                      </characteristics></profile>
+                  </profiles></entry>
+              </entries><entryGroups/><modifiers/><rules>
+                <rule id="Wasp Patrol###DATA###" name="Wasp Patrol"><description>Not ReconnaisanceMay not assault or Counterattack if assaulted</description></rule>
+              </rules><profiles/></entry>
+            <entry categoryId="(No Category)" id="a7b3b52c-fd6c-4e78-807b-11454765b369" name="Carrier Patrol" points="65.0" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="a55539a0-a75d-4a13-8222-259275c678d5" name="Universal Carrier" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                    <profile id="Universal Carrier###DATA###" name="Universal Carrier" profileTypeId="Tank Team###DATA###"><characteristics>
+                        <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-Tracked"/>
+                        <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                        <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+                        <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                        <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                        <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="0"/>
+                        <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                        <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                        <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull MG"/>
+                      </characteristics></profile>
+                  </profiles></entry>
+                <entry categoryId="(No Category)" id="522f9216-796e-4a52-bcc8-3c738672edcb" name="Universal Carrier" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                    <profile id="Universal Carrier###DATA###" name="Universal Carrier" profileTypeId="Tank Team###DATA###"><characteristics>
+                        <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-Tracked"/>
+                        <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                        <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+                        <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                        <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                        <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="0"/>
+                        <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                        <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                        <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull MG"/>
+                      </characteristics></profile>
+                  </profiles></entry>
+                <entry categoryId="(No Category)" id="c6a1b1be-b058-482e-9fe8-e33a1c584c45" name="Universal Carrier" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                    <profile id="Universal Carrier###DATA###" name="Universal Carrier" profileTypeId="Tank Team###DATA###"><characteristics>
+                        <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-Tracked"/>
+                        <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                        <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+                        <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                        <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                        <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="0"/>
+                        <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                        <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                        <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Hull MG"/>
+                      </characteristics></profile>
+                  </profiles></entry>
+              </entries><entryGroups>
+                <entryGroup id="3bce0246-c8c6-4435-bbf1-694f54e11113" name="Weapon Upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                    <entry categoryId="(No Category)" id="8a0ba43f-345d-433d-bfdc-da8a84428343" name="Extra Hull-Mounted MG" points="5.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="758295fc-6944-42fb-b5f5-29d23adb0a9b" name=".50 Cal MG" points="10.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                    <entry categoryId="(No Category)" id="2ad8f623-7a6c-4f41-aa13-18b9a2865602" name="Piat" points="5.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+                  </entries><entryGroups/><modifiers/></entryGroup>
+              </entryGroups><modifiers/><rules>
+                <rule id="Reconnaisance Platoon###DATA###" name="Reconnaisance Platoon"><description>Reconnaisance Platoon</description></rule>
+              </rules><profiles/></entry>
+          </entries><entryGroups/><modifiers/></entryGroup>
+      </entryGroups><modifiers/><rules/><profiles/></entry>
+    <entry categoryId="Headquarters###DATA###" id="1a715239-21d1-4199-9d2e-3547fa18e060" name="Company HQ" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="8d01f0e5-9945-4245-b28d-05c99b1d2917" name="Transport" points="5.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="602055f1-9c9f-4225-bcfd-dc32de9f5dc8" name="Jeep" points="0.0" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers>
+                <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                    <condition parentId="8d01f0e5-9945-4245-b28d-05c99b1d2917" childId="a20909e2-7e00-4fe4-93b6-f358e4c3afc8" field="selections" type="at least" value="1.0"/>
+                  </conditions><conditionGroups/></modifier>
+              </modifiers><rules/><profiles>
+                <profile id="Jeep###DATA###" name="Jeep" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Jeep"/>
+                    <characteristic characteristicId="Morale Rating###DATA###" name="Morale Rating" value="Confident"/>
+                    <characteristic characteristicId="Skill Rating###DATA###" name="Skill Rating" value="Trained"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="a20909e2-7e00-4fe4-93b6-f358e4c3afc8" name="Troop Carrier" points="0.0" type="upgrade" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers>
+                <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                    <condition parentId="8d01f0e5-9945-4245-b28d-05c99b1d2917" childId="602055f1-9c9f-4225-bcfd-dc32de9f5dc8" field="selections" type="at least" value="1.0"/>
+                  </conditions><conditionGroups/></modifier>
+              </modifiers><rules/><profiles>
+                <profile id="Troop Carrier###DATA###" name="Troop Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-Tracked"/>
+                    <characteristic characteristicId="Morale Rating###DATA###" name="Morale Rating" value="Confident"/>
+                    <characteristic characteristicId="Skill Rating###DATA###" name="Skill Rating" value="Trained"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="6003d99d-097a-47e1-b33d-223a230a0bee" name="Major David V Currie, VC" points="105.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="a7800227-5f8c-41fd-a105-928bd2768615" name="Fearless Veteran" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+          </entries><entryGroups/><modifiers>
+            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                <condition parentId="1a715239-21d1-4199-9d2e-3547fa18e060" childId="5247f394-c38b-4ea1-8e53-377f5e93877d" field="selections" type="at least" value="1.0"/>
+              </conditions><conditionGroups/></modifier>
+          </modifiers><rules/><profiles>
+            <profile id="Major David V Currie,VC###DATA###" name="Major David V Currie,VC" profileTypeId="Tank Team###DATA###"><characteristics>
+                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Fully-tracked"/>
+                <characteristic characteristicId="Range###DATA###" name="Range" value="32&quot;"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="10"/>
+                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="3"/>
+                <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="6"/>
+                <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="4"/>
+                <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="1"/>
+                <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Sherman V, Hull MG"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="5247f394-c38b-4ea1-8e53-377f5e93877d" name="Company Command Rifle Team" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers>
+            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                <condition parentId="1a715239-21d1-4199-9d2e-3547fa18e060" childId="6003d99d-097a-47e1-b33d-223a230a0bee" field="selections" type="equal to" value="0.0"/>
+              </conditions><conditionGroups/></modifier>
+            <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+                <condition parentId="1a715239-21d1-4199-9d2e-3547fa18e060" childId="6003d99d-097a-47e1-b33d-223a230a0bee" field="selections" type="equal to" value="0.0"/>
+              </conditions><conditionGroups/></modifier>
+          </modifiers><rules/><profiles>
+            <profile id="Company Command Rifle Team###DATA###" name="Company Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="78b89173-8ce6-4f66-811a-696c05e85895" name="2iC Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="2iC Command Rifle Team###DATA###" name="2iC Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+    <entry categoryId="Army Rating###DATA###" id="b7f5a0d8-5b12-4c7b-8453-8b99b4393a1c" name="Confident Trained" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="1" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="17b1479e-083b-4d16-9235-1575094f6700" name="Field Platoon, Royal Canadian Engineers" points="30.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="ac562fd6-cbb7-4fbb-a368-6de3107283c7" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="f2da690f-e63d-437d-8ea5-c8885164135a" name="Jeep" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Jeep###DATA###" name="Jeep" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Jeep"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="928c7be2-cf83-4af1-acfe-04f6d9166100" name="Command Pioneer Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Command Pioneer Rifle Team###DATA###" name="Command Pioneer Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Tank Assault 3"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="1256b3ed-ce0d-44f1-b180-c0174d5b01a8" name="Pioneer Supply 3-ton Truck" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Pioneer Supply 3-ton Truck###DATA###" name="Pioneer Supply 3-ton Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="6c1d54e6-f169-4012-ae36-9c972dd81670" name="Field Squad" points="25.0" type="upgrade" minSelections="2" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="7f5cdff3-11af-465d-8569-9d869896ccd2" name="3-ton Lorry" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="3-ton Lorry###DATA###" name="3-ton Lorry" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="bc3e2e12-3a8c-4999-97dc-55b6dc3dfae8" name="Pioneer Rifle Team" points="0.0" type="upgrade" minSelections="3" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Pioneer Rifle Team###DATA###" name="Pioneer Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Tank Assault 3"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="ff389bf5-6a5c-4499-8d30-913b88ae2cd1" field="selections" type="at least" value="1.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules>
+        <rule id="Field Platoon, Royal Canadian Engineers###DATA###" name="Field Platoon, Royal Canadian Engineers"><description>may not launch assaults, nor may they counterattack if assaulted. Field Platoons, Royal Canadian Engineers will always attempt to Break Off at the earliest opportunity</description></rule>
+        <rule id="Replacement###DATA###" name="Replacement"><description>When you deploy your force at the start of the game you may elect to replace a Field Platoon, Royal Canadian Engineers with a Rifle or Motor Platoon of the same or lower points value</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="d06c0495-8d5a-456f-9bec-fa46f9c1bba7" name="Heavy Mortar Platoon" points="30.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="6ab435a3-58b9-4a91-b808-9293911b4537" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="d2afae27-b1ed-4f73-aa93-5ae04df8bddb" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="537f185f-550e-4f99-bed0-f8adda4d6472" name="Troop Carrier" points="0.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Troop Carrier###DATA###" name="Troop Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-tracked"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="1494306d-833e-46eb-bdd1-9c71181cbf4a" name="Observer Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Observer Rifle Team###DATA###" name="Observer Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="7ca97e65-e08b-4cf8-aecc-ada3f78738d0" name="PIAT team" points="15.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="PIAT Team###DATA###" name="PIAT Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="8&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="10"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="5"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Tank Assault 4"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="baec083e-6b82-467e-b7a9-a20f5913772e" name="Mortar Section" points="60.0" type="upgrade" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="78433ddf-d57d-4de5-85af-2da6936e5aa6" name="Loyd Carrier" points="0.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Loyd Carrier###DATA###" name="Loyd Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-tracked"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="9ddb64ed-e16b-4702-b6f3-604a4ba13762" name="4.2&quot; Mortar" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="4.2&quot; Mortar###DATA###" name="4.2&quot; Mortar" profileTypeId="Gun Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Medium"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="48&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="3"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="4"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Smoke Bombardment"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="20a0fe54-447d-496e-b2ba-1d173d507a42" field="selections" type="at least" value="2.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules/><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="aaa890b4-9996-47e1-8b08-1f95268a7420" name="Light Anti-aircraft Platoon" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="05a279c2-e937-4c7f-8a95-e1ae54008382" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="44b9de75-8bcf-405a-9bde-a3c462ac81a8" name="Jeep" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Jeep###DATA###" name="Jeep" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Jeep"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="bed8bad2-55d0-445b-84cf-ee2da3eac62e" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="6dd64562-05b7-4380-bdf0-4794eb1992e8" name="Anti-aircraft Section" points="55.0" type="upgrade" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="0b9ccf5c-b800-47d2-895f-20d35bac6bd1" name="Bofors 40mm gun" points="0.0" type="upgrade" minSelections="3" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Bofors 40mm gun###DATA###" name="Bofors 40mm gun" profileTypeId="Gun Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Immobile"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="24&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="4"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="6"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="4"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Anti-aircraft, Turntable"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="b1f19a7e-e9ac-49f0-b5f1-c4505384ea7f" name="AA Tractor" points="0.0" type="upgrade" minSelections="3" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="AA Tractor###DATA###" name="AA Tractor" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="fe3f48b6-bc82-48cc-9c57-90af4384f80c" field="selections" type="at least" value="1.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules/><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="fe3f48b6-bc82-48cc-9c57-90af4384f80c" name="Light Anti-Aircraft Platoon (SP)" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="24efc40d-9048-4dcc-acfe-51d949df758b" name="Anti-aircraft Section" points="0.0" type="upgrade" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups>
+            <entryGroup id="1d91f15f-5be4-4838-bd00-1ae1182aa7fb" name="Anti-Aircraft Section" defaultEntryId="9b9e1717-1566-42ff-9f21-75374390db86" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="9b9e1717-1566-42ff-9f21-75374390db86" name="Bofors 40mm SP" points="85.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true"><entries>
+                    <entry categoryId="(No Category)" id="7718407a-bc10-4590-986d-722044f446bf" name="Bofors 40mm SP" points="0.0" type="upgrade" minSelections="3" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="Bofors 40mm SP###DATA###" name="Bofors 40mm SP" profileTypeId="Tank Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                            <characteristic characteristicId="Range###DATA###" name="Range" value="24&quot;"/>
+                            <characteristic characteristicId="ROF###DATA###" name="ROF" value="4"/>
+                            <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="6"/>
+                            <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="4"/>
+                            <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="-"/>
+                            <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                            <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                            <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Awkward layout,Anti-aircraft"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                  </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+                <entry categoryId="(No Category)" id="44773712-d3bc-4963-a366-9f32c465307d" name="Oerlikon 20mm SP" points="60.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true"><entries>
+                    <entry categoryId="(No Category)" id="9d806f01-fcae-4fdb-be20-bc8f313322fd" name="Oerlikon 20mm SP" points="0.0" type="upgrade" minSelections="3" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                        <profile id="Oerlikon 20mm SP###DATA###" name="Oerlikon 20mm SP" profileTypeId="Tank Team###DATA###"><characteristics>
+                            <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                            <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                            <characteristic characteristicId="ROF###DATA###" name="ROF" value="4"/>
+                            <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="5"/>
+                            <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="5"/>
+                            <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="-"/>
+                            <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                            <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                            <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Awkward layout,Anti-aircraft"/>
+                          </characteristics></profile>
+                      </profiles></entry>
+                  </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="aaa890b4-9996-47e1-8b08-1f95268a7420" field="selections" type="at least" value="1.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules/><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="46f69531-ff14-4c4b-95f7-6deb701ba0aa" name="Limited Air Support" points="170.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="ad1c805b-8d51-4ce4-a387-0cd72a50cd33" name="Typhoon" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Typhoon###DATA###" name="Typhoon" profileTypeId="Aircraft###DATA###"><characteristics>
+                <characteristic characteristicId="Weapon###DATA###" name="Weapon" value="Cannon"/>
+                <characteristic characteristicId="To Hit###DATA###" name="To Hit" value="3"/>
+                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="8"/>
+                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="5"/>
+                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                <characteristic characteristicId="Weapon2###DATA###" name="Weapon2" value="Rockets"/>
+                <characteristic characteristicId="To Hit2###DATA###" name="To Hit2" value="3"/>
+                <characteristic characteristicId="Anti-tank2###DATA###" name="Anti-tank2" value="6"/>
+                <characteristic characteristicId="Firepower2###DATA###" name="Firepower2" value="3"/>
+                <characteristic characteristicId="Notes2###DATA###" name="Notes2"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="1921e015-6695-4301-bcf2-4c27d949fcb0" field="selections" type="at least" value="1.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules/><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="20a0fe54-447d-496e-b2ba-1d173d507a42" name="Machine-Gun Platoon" points="20.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries>
+        <entry categoryId="(No Category)" id="1a247c72-f09e-45a3-a2f6-908246a159d5" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="52aa1062-82ac-4976-98b8-03409a6e577d" name="Troop Carrier" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Troop Carrier###DATA###" name="Troop Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-tracked"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="a063ad5e-f8a0-47d0-8251-56e9c07c725b" name="PIAT team" points="15.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="PIAT Team###DATA###" name="PIAT Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="8&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="10"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="5"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Tank Assault 4"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="448e70c9-19b3-4423-97c1-f6d3ee32a462" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="78913a11-a4a8-4058-91da-3f9a07b63c52" name="Machine-Gun Section" points="70.0" type="upgrade" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="9e4c8ee8-4412-4093-a561-8c5f302cdb37" name="MMG Carrier" points="0.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="MMG Carrier###DATA###" name="MMG Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-tracked"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="HMG Carrier, Passenger-fired hull MG"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="823be693-4edb-4c8d-ab57-ba9b058e779c" name="Vickers HMG" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Vickers HMG###DATA###" name="Vickers HMG" profileTypeId="Gun Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Man Packed"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="24&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="6"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="ROF 2 when pinned"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+    <entry categoryId="Weapons Platoons###DATA###" id="943e3df6-31b3-42b1-a16d-381cc605561f" name="Mortar Platoon" points="25.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="7fe04e66-a683-4445-a9fa-8ab5b12716ac" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="8cadb943-cf85-478b-a039-41edf403aaf9" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="8eb07c69-b1b0-4826-a5a9-6e44633cede8" name="Troop Carrier" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Troop Carrier###DATA###" name="Troop Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-tracked"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="53509145-25f5-4a27-83e2-4f71606f1fb2" name="Mortar Section" points="50.0" type="upgrade" minSelections="1" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="d9b35d98-b332-4256-8661-df0605fd1749" name="PIAT team" points="15.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="PIAT Team###DATA###" name="PIAT Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="8&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="10"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="5"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Tank Assault 4"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="e9b5020d-40f4-4191-b40b-f4e2befce069" name="Mortar Carrier" points="0.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Mortar Carrier###DATA###" name="Mortar Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-tracked"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="af3d64aa-63db-4b8d-af5b-410490e85a3a" name="3&quot; Mortar" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="3&quot; Mortar###DATA###" name="3&quot; Mortar" profileTypeId="Gun Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Medium"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="40&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Smoke Bombardment"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="1a60407d-769d-44ab-bda3-3f1e7a270c49" name="Observer Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Observer Rifle Team###DATA###" name="Observer Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+    <entry categoryId="Weapons Platoons###DATA###" id="4f99e8af-f93d-4df9-a009-b3107f22c769" name="Motor Anti-tank Platoon" points="20.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="0edabd3e-3667-415c-a349-5dbe2cfe9a53" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="c1f5d535-dae6-4d1a-b187-e8af48a973a8" name="Troop Carrier" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Troop Carrier###DATA###" name="Troop Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-tracked"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="37d46c5c-0c20-442f-b3dd-4d11558c9984" name="Command Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Command Rifle Team###DATA###" name="Command Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="e28a8d6e-3ab1-4d30-a547-f5d236ac610d" name="Anti-Tank Section" points="55.0" type="upgrade" minSelections="1" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="7d369c4a-bbf8-4282-8170-d5e797bc2538" name="6 pdr Gun" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="OQF 6 pdr Gun###DATA###" name="OQF 6 pdr Gun" profileTypeId="Gun Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Medium"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="24&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="10"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="4"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Gun shield"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="9bdf1505-f383-45a4-831b-1c85e0e6afa0" name="Loyd Carrier" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Loyd Carrier###DATA###" name="Loyd Carrier" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-tracked"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="0"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+    <entry categoryId="Weapons Platoons###DATA###" id="51543275-df4a-4996-a2a5-b32d3b8f3bfa" name="Pioneer Platoon" points="50.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="8d55b915-0390-494f-a66c-039b4bb64c9e" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="5f00110e-57d1-4ac7-ba02-96fd8b8e2f46" name="Command Pioneer Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Command Pioneer Rifle Team###DATA###" name="Command Pioneer Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Tank Assault 3"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="c45cc045-3653-4bb5-a610-d90bbca0e305" name=" Pioneer Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Pioneer Rifle Team###DATA###" name="Pioneer Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Tank Assault 3"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups>
+            <entryGroup id="06cdbf09-23e9-435f-8718-c9be4dc07134" name="Transport Option" defaultEntryId="72707a7e-17a1-485d-aaf3-8f88216356af" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+                <entry categoryId="(No Category)" id="72707a7e-17a1-485d-aaf3-8f88216356af" name="15cwt Truck" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                    <profile id="15cwt Truck###DATA###" name="15cwt Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                        <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                        <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                        <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                        <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                        <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                      </characteristics></profile>
+                  </profiles></entry>
+                <entry categoryId="(No Category)" id="f7d9feb3-5f80-4141-8061-37a4e7544da2" name="M5 Half-track" points="0.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                    <profile id="M5 half-track###DATA###" name="M5 half-track" profileTypeId="Transport Team###DATA###"><characteristics>
+                        <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Half-tracked"/>
+                        <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="1"/>
+                        <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="0"/>
+                        <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="0"/>
+                        <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                      </characteristics></profile>
+                  </profiles></entry>
+              </entries><entryGroups/><modifiers/></entryGroup>
+          </entryGroups><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="001017b7-d57f-45e3-b9a2-bd68200b1930" name="Assault Squad" points="15.0" type="upgrade" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="5d8e5c91-dbe9-4eaf-859c-e43ed72123a4" name="Jeep with Trailer" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Jeep with trailer###DATA###" name="Jeep with trailer" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Jeep"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="3423097e-df08-4606-aa83-d8a16f98f616" name="Pioneer Rifle Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Pioneer Rifle Team###DATA###" name="Pioneer Rifle Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Tank Assault 3"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Flame-thrower Team###DATA###" name="Flame-thrower Team"><description>May replace up to one Pioneer Rifle Team with a Flame-thrower team at the start of the game before deployment</description></rule>
+      </rules><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="1921e015-6695-4301-bcf2-4c27d949fcb0" name="Priority Air Support" points="220.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="14eeb8c8-812d-4aa5-82bb-6bfc2d9febe1" name="Typhoon" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+            <profile id="Typhoon###DATA###" name="Typhoon" profileTypeId="Aircraft###DATA###"><characteristics>
+                <characteristic characteristicId="Weapon###DATA###" name="Weapon" value="Cannon"/>
+                <characteristic characteristicId="To Hit###DATA###" name="To Hit" value="3"/>
+                <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="8"/>
+                <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="5"/>
+                <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                <characteristic characteristicId="Weapon2###DATA###" name="Weapon2" value="Rockets"/>
+                <characteristic characteristicId="To Hit2###DATA###" name="To Hit2" value="3"/>
+                <characteristic characteristicId="Anti-tank2###DATA###" name="Anti-tank2" value="6"/>
+                <characteristic characteristicId="Firepower2###DATA###" name="Firepower2" value="3"/>
+                <characteristic characteristicId="Notes2###DATA###" name="Notes2"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="46f69531-ff14-4c4b-95f7-6deb701ba0aa" field="selections" type="at least" value="1.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules/><profiles/></entry>
+    <entry categoryId="Combat Platoons###DATA###" id="71c13e08-fa99-4c12-9dc1-2d5e935fdae6" name="Rifle Platoon" points="55.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false"><entries>
+        <entry categoryId="(No Category)" id="b8efc62c-fa8d-4b67-b84e-c56f12bc6f37" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="9b8ac8a8-503d-4040-ae5d-2b3cc18cf901" name="Command Rifle/MG Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Command Rifle/MG Team###DATA###" name="Command Rifle/MG Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="2ee86b7c-ea1f-4e95-b8a2-d547d788a5ab" name="PIAT Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="PIAT Team###DATA###" name="PIAT Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="8&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="10"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="5"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Tank Assault 4"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="66e43d8d-2664-4504-af6c-661d195c123e" name="Light Mortar Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Light Mortar Team###DATA###" name="Light Mortar Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="1"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="4"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Smoke, can fire over friendly teams"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="24e48a04-99e0-4b68-bf34-d913a4c6aa24" name="Rifle Squad" points="30.0" type="upgrade" minSelections="2" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="003bb5e0-80e5-44c2-9028-b7a859a2f5b9" name="Rifle/MG Team" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Rifle/MG Team###DATA###" name="Rifle/MG Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+    <entry categoryId="Weapons Platoons###DATA###" id="bcc32cb3-54bc-4c92-8adb-d2e48666c53c" name="SAR Recce Platoon" points="10.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="4e3b1dba-64a9-405a-a5d2-26b492e5d118" name="Reece Patrol" points="105.0" type="upgrade" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="1f8840b4-e7dc-437e-9f19-df363575fc84" name="Stuart V" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Stuart V###DATA###" name="Stuart V" profileTypeId="Tank Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Fully-tracked"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="24&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="7"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="4"/>
+                    <characteristic characteristicId="Front Armour###DATA###" name="Front Armour" value="4"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="2"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="1"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes" value="Co-ax MG, Hull MG, Light Tank"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="a798accc-c142-4468-a827-abef451dec04" field="selections" type="at least" value="2.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules>
+        <rule id="Confident Veteran###DATA###" name="Confident Veteran"/>
+      </rules><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="ff389bf5-6a5c-4499-8d30-913b88ae2cd1" name="Support Rifle Platoon" points="55.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="1eec8e40-7c97-4775-9e3a-bbc693b3011d" name="HQ Section" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="5340eec5-e62a-44f9-ba44-bffecd01186e" name="Command Rifle/MG Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Command Rifle/MG Team###DATA###" name="Command Rifle/MG Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="a5cf529f-a139-4949-a464-88358343e2b6" name="PIAT Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="PIAT Team###DATA###" name="PIAT Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="8&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="10"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="5"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Tank Assault 4"/>
+                  </characteristics></profile>
+              </profiles></entry>
+            <entry categoryId="(No Category)" id="c89b1503-ead6-4997-8f26-fec9904bc3ff" name="Light Mortar Team" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Light Mortar Team###DATA###" name="Light Mortar Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="1"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="4"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes" value="Smoke, can fire over friendly teams"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="16698f77-8927-4623-a275-ab6227d544fb" name="Rifle Squad" points="30.0" type="upgrade" minSelections="2" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="86286abf-ff88-49cc-a6f6-6e76395d8268" name="Rifle/MG Team" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="Rifle/MG Team###DATA###" name="Rifle/MG Team" profileTypeId="Infantry Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Infantry"/>
+                    <characteristic characteristicId="Range###DATA###" name="Range" value="16&quot;"/>
+                    <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+                    <characteristic characteristicId="Anti-tank###DATA###" name="Anti-tank" value="2"/>
+                    <characteristic characteristicId="Firepower###DATA###" name="Firepower" value="6"/>
+                    <characteristic characteristicId="Notes###DATA###" name="Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="17b1479e-083b-4d16-9235-1575094f6700" field="selections" type="at least" value="1.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules/><profiles/></entry>
+    <entry categoryId="Support Platoons###DATA###" id="22d41a12-7e20-4245-a10d-0c771f038306" name="Transport Section" points="10.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="3b0e6a98-bba5-40f7-af82-639387592c9d" name="Transport Squad" points="5.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="c371440a-e809-4ae0-82fc-edbafe43a603" name="3-ton Truck" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="3-ton Truck###DATA###" name="3-ton Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="1bda024f-721f-414c-a158-ebddad536d78" name="HQ Squad" points="0.0" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries>
+            <entry categoryId="(No Category)" id="7b8b21cf-5250-4908-a115-4455525a4146" name="3-ton Truck" points="0.0" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+                <profile id="3-ton Truck###DATA###" name="3-ton Truck" profileTypeId="Transport Team###DATA###"><characteristics>
+                    <characteristic characteristicId="Mobility###DATA###" name="Mobility" value="Wheeled"/>
+                    <characteristic characteristicId="Front Armor###DATA###" name="Front Armor" value="-"/>
+                    <characteristic characteristicId="Side Armor###DATA###" name="Side Armor" value="-"/>
+                    <characteristic characteristicId="Top Armour###DATA###" name="Top Armour" value="-"/>
+                    <characteristic characteristicId="Equipment and Notes###DATA###" name="Equipment and Notes"/>
+                  </characteristics></profile>
+              </profiles></entry>
+          </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules/><profiles/></entry>
+  </entries><rules>
+    <rule id="Confident Trained###DATA###" name="Confident Trained"/>
+  </rules></catalogue>
