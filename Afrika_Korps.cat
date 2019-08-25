@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d336-d155-8011-e884" name="Afrika Korps" revision="4" battleScribeVersion="2.02" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d336-d155-8011-e884" name="Afrika Korps" revision="5" battleScribeVersion="2.02" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f360-763b-89fe-19d6" name="Panzer III Tank Company" hidden="false" collective="false" type="upgrade">
       <categoryLinks>
@@ -2316,7 +2316,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fa2-bb9d-94f9-9e32" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="7d74-0652-4698-d7bc" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="7d74-0652-4698-d7bc" name="4x MG34, 1x 2.8cm anti-tank rifle" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="883b-2dee-6197-5c45" name="4x MG34 team" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -2346,7 +2346,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="3fb9-65b4-47c1-6f40" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="3fb9-65b4-47c1-6f40" name="3x MG34, 1x 2.8cm anti-tank rifle" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="a457-7d62-3053-d4fd" name="3x MG34 team" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -2583,7 +2583,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a76d-3384-3c23-3c89" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="5b2c-6f1b-4529-cc45" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="5b2c-6f1b-4529-cc45" name="4x MG34, 1x 2.8cm anti-tank rifle" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="977d-f267-93ec-7c6f" name="4x MG34 team" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -2613,7 +2613,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="d3c8-1b3e-30d3-edca" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="d3c8-1b3e-30d3-edca" name="3x MG34, 1x 2.8cm anti-tank rifle" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="2b3c-1cce-328f-410e" name="3x MG34 team" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -2710,7 +2710,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4716-5202-e577-5bda" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="ae90-cd89-e4a1-c527" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="ae90-cd89-e4a1-c527" name="4x MG34, 1x 2.8cm anti-tank rifle" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="a4b2-4c2a-5800-32dc" name="4x MG34 team" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -2740,7 +2740,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="8042-fd02-d176-7dfe" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="8042-fd02-d176-7dfe" name="3x MG34, 1x 2.8cm anti-tank rifle" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="d14d-5aa0-0435-5f8a" name="3x MG34 team" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -3399,7 +3399,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8952-5350-b50e-c00e" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="4a83-bb73-1371-39a9" name="Small" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="4a83-bb73-1371-39a9" name="2x Sd Kfz 222 1x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                       <selectionEntries>
                         <selectionEntry id="70ed-1c36-242a-4f34" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                           <constraints>
@@ -3441,7 +3441,7 @@
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="32ca-90ce-a708-cf98" name="Large" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="32ca-90ce-a708-cf98" name="2x Sd Kfz 222 2x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                       <selectionEntries>
                         <selectionEntry id="22d1-2eb2-867f-70ef" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                           <constraints>
@@ -4168,7 +4168,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94bc-8ce2-01ea-79fb" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5998-3374-28a4-b806" name="Large" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="5998-3374-28a4-b806" name="4x MG34, 1x 2.8cm anti-tank rifle" hidden="false" collective="false" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="39de-cd57-a421-a47c" name="4x MG34 team" hidden="false" collective="false" type="upgrade">
                   <constraints>
@@ -4198,7 +4198,7 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8ad2-9221-d8b9-0644" name="Small" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="8ad2-9221-d8b9-0644" name="3x MG34, 1x 2.8cm anti-tank rifle" hidden="false" collective="false" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="5fa8-118e-bc65-996b" name="3x MG34 team" hidden="false" collective="false" type="upgrade">
                   <constraints>
@@ -4264,7 +4264,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4561-3022-079f-60fa" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="f737-746d-6b33-861e" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="f737-746d-6b33-861e" name="2x Sd Kfz 222 1x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="dcad-b424-2a1a-2ec0" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -4306,7 +4306,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="db32-5063-6d07-0885" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="db32-5063-6d07-0885" name="2x Sd Kfz 222 2x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="bfb9-1552-a78f-16db" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -4421,7 +4421,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5088-be5d-922f-2a0a" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="f34e-ccfb-4bb8-dc3f" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="f34e-ccfb-4bb8-dc3f" name="2x Sd Kfz 222 1x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="2eba-c26d-e573-ba43" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -4463,7 +4463,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="b77d-d1f2-cc0a-0268" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="b77d-d1f2-cc0a-0268" name="2x Sd Kfz 222 2x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="aa79-c9ec-0df7-3501" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -4615,7 +4615,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a462-1e0a-57c5-ad09" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="15db-1d47-a57a-6ef0" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="15db-1d47-a57a-6ef0" name="4x MG34, 1x 2.8cm anti-tank rifle" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="5d21-25d4-17b1-4aaf" name="4x MG34 team" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -4645,7 +4645,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="93eb-7780-1c11-c0ec" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="93eb-7780-1c11-c0ec" name="3x MG34, 1x 2.8cm anti-tank rifle" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="5ea6-ce47-506c-e15b" name="3x MG34 team" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -4744,7 +4744,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54fa-cf5c-f330-f372" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="cd60-6cef-6b36-33e5" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="cd60-6cef-6b36-33e5" name="2x Sd Kfz 222 1x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="a9ca-9d2c-8035-aca0" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -4786,7 +4786,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="b30d-03fe-999f-5006" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="b30d-03fe-999f-5006" name="2x Sd Kfz 222 2x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="d93a-d389-c397-b9bf" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -4869,7 +4869,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a475-af1d-13a4-1a4c" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="4154-a653-0e4d-a029" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="4154-a653-0e4d-a029" name="2x Sd Kfz 222 1x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="3e3a-61ca-da06-fb32" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -4911,7 +4911,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="7059-1749-7f45-1736" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="7059-1749-7f45-1736" name="2x Sd Kfz 222 2x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="6cc2-a27b-08f8-3bbd" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -4994,7 +4994,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b7a-46f0-f150-a6f7" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="b181-8b3e-545d-09ee" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="b181-8b3e-545d-09ee" name="2x Sd Kfz 222 1x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="530c-3201-8d81-d270" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -5036,7 +5036,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="18a5-7c04-b5a9-a009" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="18a5-7c04-b5a9-a009" name="2x Sd Kfz 222 2x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="dc61-d2a2-aa0b-1fee" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -5119,7 +5119,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69ef-4dd2-d041-f583" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="c148-5e15-64b0-ad7f" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="c148-5e15-64b0-ad7f" name="2x Sd Kfz 222 1x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="4161-1291-77a8-7914" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -5161,7 +5161,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="3d58-ced4-3ddd-8283" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="3d58-ced4-3ddd-8283" name="2x Sd Kfz 222 2x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="f4b9-0034-2039-7fde" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -5244,7 +5244,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aad3-ea52-741b-e604" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="4144-fa4e-db4d-27c2" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="4144-fa4e-db4d-27c2" name="2x Sd Kfz 222 1x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="2052-bc5a-e833-a86f" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -5286,7 +5286,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="a461-2f16-bdc7-e999" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="a461-2f16-bdc7-e999" name="2x Sd Kfz 222 2x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="494e-b1ed-d0c5-00a9" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -5369,7 +5369,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9d4-c8b0-3eb5-ad54" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="4266-0bf8-194f-d4e4" name="Small" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="4266-0bf8-194f-d4e4" name="2x Sd Kfz 222 1x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="5b6b-eabb-c8f4-facb" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
@@ -5411,7 +5411,7 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="4cc6-e89e-d57c-9339" name="Large" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="4cc6-e89e-d57c-9339" name="2x Sd Kfz 222 2x Sd Kfz 221" hidden="false" collective="false" type="upgrade">
                   <selectionEntries>
                     <selectionEntry id="1e2d-e2dd-edcc-72f2" name="2x Sd Kfz 222 (2cm)" hidden="false" collective="false" type="upgrade">
                       <constraints>
