@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6618-762a-7a49-aa31" name="Fortress Europe Soviet" revision="4" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6618-762a-7a49-aa31" name="Fortress Europe Soviet" revision="5" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e485-4801-af6c-e580" name="KV-1s Guards Heavy Tank Regiment" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -10880,16 +10880,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">6</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">35cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">50cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">60cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
       </characteristics>
     </profile>
     <profile id="356f-3d5b-26a1-2df8" name="KV-1s (76mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
@@ -10899,7 +10899,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="8ce8-f5ab-2641-5189" name="KV-1s (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -10915,10 +10915,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">8</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">35cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">14&quot;/35cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
@@ -10930,16 +10930,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">8</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">7</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">35cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">35cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">14&quot;/35cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
       </characteristics>
     </profile>
     <profile id="4278-2eb4-eca9-dc95" name="Churchill (6 pdr)" publicationId="b8e5-51cf-456c-eafb" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">70cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
@@ -10949,7 +10949,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="02c2-281f-2438-2811" name="Churchill (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -10965,16 +10965,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">30cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">40cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">60cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">70cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
       </characteristics>
     </profile>
     <profile id="d30a-b121-070d-c62d" name="T-34 (76mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
@@ -10984,7 +10984,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="f1f5-5b01-8928-fd0d" name="T-34 (85mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">70cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
@@ -10994,7 +10994,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="108e-3e73-ca84-639e" name="T-34 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11010,16 +11010,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">30cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">45cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">50cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
       </characteristics>
     </profile>
     <profile id="e1fe-a0e7-8c5b-597f" name="T-70 (45mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">50cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
@@ -11035,16 +11035,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">35cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">40cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="9eda-62d0-d510-620a" name="Valentine (2 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
@@ -11054,7 +11054,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="9446-8b7c-76c1-6f53" name="Valentine (6 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">70cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
@@ -11064,7 +11064,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="ecbc-0a57-d5f2-1be2" name="Valentine (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11074,7 +11074,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="1708-eef1-d480-767f" name="T-70 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11084,7 +11084,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="5e29-7b0a-4545-a130" name="KV-1 (76mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
@@ -11098,16 +11098,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
     <profile id="faef-ba04-ffab-f625" name="PPSh SMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">10cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
@@ -11121,16 +11121,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
     <profile id="46c8-810c-ec25-993b" name="DP MG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11140,7 +11140,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="3f5f-8dd4-acee-5a84" name="Maksim HMG" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">6</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11150,7 +11150,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="5039-9cce-6f7e-5194" name="PTRD anti-tank rifle" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
@@ -11164,16 +11164,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
     <profile id="927f-6eb0-94c9-d88f" name="Flame-thower team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">10cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11187,10 +11187,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
@@ -11200,16 +11200,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
     <profile id="0392-af27-d57a-17b4" name="82mm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">100cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
@@ -11223,16 +11223,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">10cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">10cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">15cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">20cm</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="2a02-59d3-ce32-6f78" name="120mm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">140cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">56&quot;/140cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11246,10 +11246,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
@@ -11259,16 +11259,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">15cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">15cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">20cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">25cm</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">6&quot;/15cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">6&quot;/15cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">8&quot;/20cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">10&quot;/25cm</characteristic>
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="72bf-f01d-7376-c491" name="45mm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">8</characteristic>
@@ -11282,16 +11282,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">10cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">10cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">15cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">20cm</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">4+</characteristic>
       </characteristics>
     </profile>
     <profile id="68c4-c967-b4b5-cdc1" name="76mm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
@@ -11305,10 +11305,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
@@ -11318,16 +11318,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
     <profile id="677f-f319-a72b-2894" name="DP MG and M1891 rifle team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11337,7 +11337,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="2acf-583e-cf29-f8d6" name="50mm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11351,10 +11351,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
@@ -11366,10 +11366,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">30cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">40cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">60cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">70cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
       </characteristics>
     </profile>
@@ -11381,10 +11381,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">30cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">45cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">50cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
       </characteristics>
     </profile>
@@ -11396,10 +11396,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">35cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">40cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
@@ -11411,16 +11411,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">4</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">30cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">45cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">50cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
       </characteristics>
     </profile>
     <profile id="80bf-f0d3-813a-417c" name="M3 Lee (long 75mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">70cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
@@ -11430,7 +11430,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="e999-5fc0-27d5-56b5" name="M3 Lee (37mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
@@ -11440,7 +11440,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="d1ec-2b74-2d3a-9799" name="M3 Lee (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11456,16 +11456,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">30cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">40cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">60cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">70cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
       </characteristics>
     </profile>
     <profile id="4ae9-5129-cd83-a5ab" name="M3 Stuart (37mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
@@ -11475,7 +11475,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="63eb-65e2-5058-65cd" name="M3 Stuart (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">5</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11489,10 +11489,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">4+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
@@ -11502,10 +11502,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">4+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
@@ -11515,10 +11515,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">5+ Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">4+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
@@ -11528,10 +11528,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">5+ Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">4+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
@@ -11541,10 +11541,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
@@ -11556,10 +11556,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">0</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">35cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">90cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">36&quot;/90cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">5+</characteristic>
       </characteristics>
     </profile>
@@ -11571,10 +11571,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">40cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">70cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
@@ -11584,16 +11584,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
     <profile id="2da2-d2be-2af2-5ce7" name="Recce DP MG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11603,7 +11603,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="0289-05a7-5f2f-1ba1" name="M3 Scout (.50 cal MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">50cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
@@ -11613,7 +11613,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="1519-eb1f-8d45-767e" name="Sd Kfz 251 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11629,16 +11629,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">25cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">60cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">10&quot;/25cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">5+</characteristic>
       </characteristics>
     </profile>
     <profile id="63e9-f139-4d49-c68f" name="BA-10 (45mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">50cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
@@ -11648,7 +11648,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="3680-add3-1118-9a31" name="BA-10 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11658,7 +11658,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="6066-2d3a-728b-a857" name="KV-1 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11668,7 +11668,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="e5c8-0e2c-faaa-e40e" name="DShK AA MG" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">50cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
@@ -11682,10 +11682,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">4+</characteristic>
         <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">3+</characteristic>
         <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">5+</characteristic>
-        <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">25cm</characteristic>
-        <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">70cm</characteristic>
+        <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">10&quot;/25cm</characteristic>
+        <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">28&quot;/70cm</characteristic>
         <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">5+</characteristic>
       </characteristics>
     </profile>
@@ -11695,10 +11695,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">30cm</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
@@ -11710,16 +11710,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">30cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">35cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">50cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">60cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="5d3d-9732-b6ff-6616" name="OT-34 (76mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
@@ -11729,7 +11729,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="b9ee-d4d6-64c3-2373" name="OT-34 (Flame-thrower)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">10cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11739,7 +11739,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="bc41-6ee1-88fc-c7dc" name="OT-34 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11755,16 +11755,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">8</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">30cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">35cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">14&quot;/35cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="a7c6-5558-aaa8-04f8" name="KV-8 (45mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">50cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
@@ -11774,7 +11774,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="64da-0c84-f0f5-4dfa" name="KV-8 (Flame-thrower)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">10cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">5</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11784,7 +11784,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="1726-5d43-3206-800c" name="KV-8 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11800,16 +11800,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">35cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">50cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">60cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="a434-44bd-147c-f428" name="SU-76 (76mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">180cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11819,7 +11819,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="9084-e974-b294-3816" name="SU-76 (76mm) Direct Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
@@ -11829,7 +11829,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="9ab3-d616-8d97-7e2f" name="SU-122 (122mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">180cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
@@ -11839,7 +11839,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="a7d6-ae43-f9f3-7c5e" name="SU-122 (122mm) Direct Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">50cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
@@ -11855,10 +11855,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">40cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">60cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">70cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
@@ -11870,16 +11870,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">6</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">35cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">45cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">60cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
       </characteristics>
     </profile>
     <profile id="5877-43b6-a2cb-e093" name="SU-152 (152mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">160cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">64&quot;/160cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
@@ -11889,7 +11889,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="3026-0c66-125b-5f51" name="SU-152 (152mm) Direct Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">50cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">13</characteristic>
@@ -11905,16 +11905,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">40cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">60cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">70cm</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
       </characteristics>
     </profile>
     <profile id="aaa5-8968-5a9a-7d7f" name="SU-85 (85mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">70cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
@@ -11928,10 +11928,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">15cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">15cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">20cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">25cm</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">6&quot;/15cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">6&quot;/15cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">8&quot;/20cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">10&quot;/25cm</characteristic>
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
       </characteristics>
     </profile>
@@ -11941,10 +11941,10 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">10cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">10cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">15cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">20cm</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">4+</characteristic>
       </characteristics>
     </profile>
@@ -11954,16 +11954,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">10cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">10cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">15cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">20cm</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">4+</characteristic>
       </characteristics>
     </profile>
     <profile id="5a41-fe00-af5d-244d" name="57mm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">70cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">11</characteristic>
@@ -11977,16 +11977,16 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">4+</characteristic>
         <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">3+</characteristic>
         <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">5+</characteristic>
-        <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">25cm</characteristic>
-        <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">70cm</characteristic>
+        <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">10&quot;/25cm</characteristic>
+        <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">28&quot;/70cm</characteristic>
         <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">5+</characteristic>
       </characteristics>
     </profile>
     <profile id="d682-33cd-6b58-fd31" name="BM-13-16 rocket launcher" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">160cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">64&quot;/160cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">SALVO</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -11996,7 +11996,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="b3c4-291c-9564-be41" name="76mm gun ART" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">200cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">80&quot;/200cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
@@ -12006,7 +12006,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="1413-c71c-b634-77ac" name="76mm gun Direkt Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">60cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
@@ -12021,15 +12021,15 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">5cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">10cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
       </characteristics>
     </profile>
     <profile id="cce0-387e-aaa6-aeb7" name="122mm howitzer" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">200cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">80&quot;/200cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
@@ -12039,7 +12039,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="affc-b9e5-ab05-bdf7" name="122mm howitzer Direct Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
@@ -12062,7 +12062,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="f8fe-9204-0936-ff79" name="23mm guns" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">15cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">-</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
@@ -12072,7 +12072,7 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     </profile>
     <profile id="1994-165f-d52d-4160" name="Bombs and Rockets" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">15cm</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
