@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="4" battleScribeVersion="2.02" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="5" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
     <publication id="453d-401b-fd1e-0f95" name="Rulebook"/>
@@ -98,7 +98,7 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="5630-abd3-15d8-5cc6" name="Combat Platoons" hidden="false"/>
+    <categoryEntry id="5630-abd3-15d8-5cc6" name="Combat Formations" hidden="false"/>
     <categoryEntry id="9be3-4dab-91f0-f7c5" name="Support Platoons" hidden="false"/>
     <categoryEntry id="2739-fb2a-059a-ccb0" name="Headquaters" hidden="false"/>
     <categoryEntry id="c5b6-63ee-3f81-25f2" name="Command Cards" hidden="false"/>
@@ -106,13 +106,13 @@
   <forceEntries>
     <forceEntry id="a4b2-2825-7956-92b9" name="Standard" publicationId="b8e5-51cf-456c-eafb" hidden="false">
       <categoryLinks>
-        <categoryLink id="a848-4467-9550-eafd" name="Combat Platoons" publicationId="b8e5-51cf-456c-eafb" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="false">
+        <categoryLink id="a848-4467-9550-eafd" name="Combat Platoons" publicationId="453d-401b-fd1e-0f95" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="796f-9354-b70c-b554" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="1f7f-6695-e57f-8964" name="Support Platoons" publicationId="b8e5-51cf-456c-eafb" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
-        <categoryLink id="3be3-d725-1f59-a527" name="Headquaters" publicationId="b8e5-51cf-456c-eafb" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="false"/>
+        <categoryLink id="1f7f-6695-e57f-8964" name="Support Platoons" publicationId="453d-401b-fd1e-0f95" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
+        <categoryLink id="3be3-d725-1f59-a527" name="Headquaters" publicationId="453d-401b-fd1e-0f95" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="false"/>
         <categoryLink id="61ba-d032-dbe5-150b" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6cf-ee7a-5984-b727" type="max"/>
@@ -173,5 +173,14 @@ Scouts have a worse Last Stand rating, Open or Wheeled Scout tanks have a signif
     <rule id="78a2-7146-034e-a601" name="Bombs" hidden="false"/>
     <rule id="6015-3f65-cd0c-42cd" name="Overhead fire" hidden="false"/>
     <rule id="8f5c-f2be-1174-4b0e" name="Secondary Weapon" hidden="false"/>
+    <rule id="23e1-f5f2-1523-0d4c" name="Passengers 2" hidden="false"/>
+    <rule id="cd0d-0113-cc7e-c00d" name="Passengers 1" hidden="false"/>
+    <rule id="31e3-3b2b-d53c-cd03" name="Assault 6+" hidden="false">
+      <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
+    </rule>
+    <rule id="8e04-1fed-e341-7e82" name="Assault 3+" hidden="false">
+      <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
+    </rule>
+    <rule id="9003-7173-8595-9d4f" name="Pinned ROF 2" hidden="false"/>
   </sharedRules>
 </gameSystem>
