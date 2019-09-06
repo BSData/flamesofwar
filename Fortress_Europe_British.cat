@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80bf-7e42-7351-cce3" name="Fortress Europe British" revision="4" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="80bf-7e42-7351-cce3" name="Fortress Europe British" revision="5" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="00d1-a6b9-a2d9-d031" name="Sherman Armoured Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -2570,7 +2570,6 @@
     </selectionEntry>
     <selectionEntry id="ae3d-35cb-71b2-a394" name="Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96b2-e52e-455f-7248" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d03-ec45-e999-9d66" type="max"/>
       </constraints>
       <infoLinks>
