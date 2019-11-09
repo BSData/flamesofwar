@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c97d-9ffb-d8c2-9cd8" name="D-Day American" revision="6" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c97d-9ffb-d8c2-9cd8" name="D-Day American" revision="7" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="567b-dc5a-c654-5ad4" name="D-Day: American"/>
+    <publication id="567b-dc5a-c654-5ad4" name="D-Day American"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="d726-5043-b04e-c08a" name="Parachute Rifle Company" hidden="false" collective="false" import="true" type="upgrade">
@@ -2984,6 +2984,7 @@
                     <infoLink id="3609-de73-43a6-999c" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
                     <infoLink id="96e0-d789-91db-564f" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
                     <infoLink id="1f4d-3561-8a32-2442" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                    <infoLink id="5c8f-67db-f9cd-f76e" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
@@ -3027,6 +3028,7 @@
                 <infoLink id="a90c-9f68-3bf9-c373" name="MG Transport" hidden="false" targetId="575e-4c7e-095f-1fb4" type="rule"/>
                 <infoLink id="43f1-ca1f-ae84-d45e" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                 <infoLink id="9a65-b949-a6d4-3d8f" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                <infoLink id="ead5-d39b-10ed-da38" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="c9d1-59d0-f4fe-ea81" name="2x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3119,6 +3121,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="ec83-a77f-d2e8-1b25" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="07cb-1326-408c-a0a9" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="dd7b-474d-b3f4-11cb" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3132,6 +3136,8 @@
                       <infoLinks>
                         <infoLink id="362e-f31e-a2e8-3028" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="aba8-2d77-3e99-9805" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="a506-122f-d851-ab44" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="08c9-9c0d-1327-0c87" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3206,6 +3212,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="3e02-8416-ea85-0f72" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="e3ae-0323-0d81-5558" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="55d8-667a-b1d6-0638" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3219,6 +3227,8 @@
                       <infoLinks>
                         <infoLink id="489b-3a75-ac42-95cb" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="8674-6718-1319-ae7e" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="a2ff-33ae-fdce-9df6" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="4e59-cf7e-5398-35d6" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3389,6 +3399,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="d918-1fb7-6cc3-8a11" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="2bab-4038-a84d-78b7" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                        <infoLink id="7619-4bae-f80c-97d0" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3402,6 +3414,8 @@
                       <infoLinks>
                         <infoLink id="4da1-3804-1783-a320" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="80a4-dcab-8b28-4d80" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="6f08-8510-914d-aec1" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                        <infoLink id="6396-8fc5-32f0-4b15" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3476,6 +3490,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="359e-60c9-b05a-61f3" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="f836-a57b-8bbf-c1d6" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                        <infoLink id="6f32-9055-ac5a-d3e0" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3489,6 +3505,8 @@
                       <infoLinks>
                         <infoLink id="372a-cf2f-5dba-e272" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="bbc3-aa71-ce80-64bf" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="4760-4ebf-2adc-a316" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                        <infoLink id="8743-1e6f-fef5-61b3" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3585,6 +3603,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="d539-0fd0-5cad-4e7c" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="7a32-352b-2dab-a5d9" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="0b19-fb69-ec16-1520" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3598,6 +3618,8 @@
                       <infoLinks>
                         <infoLink id="eb54-48f4-6aa3-e886" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="7263-72e1-9614-2f4f" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="0571-8072-f75a-7af0" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="178f-afb9-25be-f5ba" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3672,6 +3694,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="442b-e860-514d-abaf" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="0aec-3b9b-b7a5-b68c" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                        <infoLink id="9c08-b927-42f7-18af" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3685,6 +3709,8 @@
                       <infoLinks>
                         <infoLink id="5511-ed17-43d0-19ba" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="32e8-35d1-918b-ffbe" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="2332-bf0c-2d72-5ff0" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                        <infoLink id="7c3d-b435-c80e-8543" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3730,6 +3756,8 @@
                       <infoLinks>
                         <infoLink id="e1c7-c4a1-1661-beff" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
                         <infoLink id="c8da-fbae-de29-ce9e" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="7b1d-a71b-5c38-a992" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="8b87-75b1-721e-cb2d" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="1cbc-a0d1-a959-42fd" name="2x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3753,6 +3781,8 @@
                       <infoLinks>
                         <infoLink id="5398-0936-d75b-6607" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
                         <infoLink id="2463-0bd8-d1a7-a471" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="75a5-d1e8-38af-e718" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="28b6-f802-3280-5c09" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="1f45-6402-fc5c-2059" name="3x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
@@ -5790,6 +5820,7 @@
                     <infoLink id="7e34-8b66-aa47-06a9" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
                     <infoLink id="af6e-e7dc-330a-c138" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
                     <infoLink id="0250-c0ba-fa29-e60f" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                    <infoLink id="7fda-208d-8d8d-e55c" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
@@ -5833,6 +5864,7 @@
                 <infoLink id="4070-95dc-a10c-462c" name="MG Transport" hidden="false" targetId="575e-4c7e-095f-1fb4" type="rule"/>
                 <infoLink id="d232-e1fd-d4c7-a69c" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                 <infoLink id="1164-baa3-d9c4-b6f1" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+                <infoLink id="39df-64e7-18b2-37db" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="388d-c9f4-3289-bc80" name="2x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
@@ -5925,6 +5957,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="112e-5f83-c07e-aff0" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="152d-21e0-4e85-e10d" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="edd0-21bd-a6fe-fe20" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -5938,6 +5972,8 @@
                       <infoLinks>
                         <infoLink id="9e66-b681-6b6c-5f4e" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="b54f-a65d-8d9e-fad1" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+                        <infoLink id="eac8-125d-79cf-1b8e" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="252a-5525-f192-e82f" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6012,6 +6048,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="8d8f-4bda-e813-6bfb" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="6273-b261-993a-612b" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="f010-c54f-57f9-4a99" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6025,6 +6063,8 @@
                       <infoLinks>
                         <infoLink id="7383-cfde-cfc1-29ee" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="39ba-5479-24b2-0e3d" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+                        <infoLink id="bcd7-5cb3-5acb-7a09" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="44dd-d416-1b29-52a3" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6144,6 +6184,8 @@
                       <infoLinks>
                         <infoLink id="dac6-672a-94dc-7db6" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
                         <infoLink id="9e79-089c-c827-2504" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="ca16-1c10-2848-df93" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="b05b-ac67-49be-f78c" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="3174-9036-aeff-207a" name="2x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6167,6 +6209,8 @@
                       <infoLinks>
                         <infoLink id="2733-f1ef-e64f-2637" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
                         <infoLink id="9349-1337-403a-3a4f" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="726d-1c0b-65cc-f362" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="50e7-f901-da07-ef68" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="4ea7-ef37-2071-1b91" name="3x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6267,6 +6311,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="1d5e-bb34-eee6-70b2" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="833c-f17b-f3d9-7512" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="a2c8-852c-d0aa-89dc" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6280,6 +6326,8 @@
                       <infoLinks>
                         <infoLink id="680d-e420-e652-0f97" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="b9d8-443c-ae1f-b59a" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+                        <infoLink id="3add-25bb-8978-f92d" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="8f66-586f-cd7d-b4bb" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6354,6 +6402,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="8154-ae0e-6e29-06c8" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="56b6-3336-0c74-20ac" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="4809-220a-49d1-5204" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6367,6 +6417,8 @@
                       <infoLinks>
                         <infoLink id="3e36-1fee-bc54-5196" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="1617-1f60-db6e-2b4e" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+                        <infoLink id="5267-c568-f7b9-80b1" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="7ed9-b7fd-56d7-6a1e" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6463,6 +6515,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="68b8-2f21-5939-6663" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="2bbc-59d6-d3cc-7078" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="5d30-224e-2166-dbad" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6476,6 +6530,8 @@
                       <infoLinks>
                         <infoLink id="899e-f920-95d7-4f08" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="17b4-8c60-efd6-f16b" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+                        <infoLink id="b39c-f813-d9b2-a4ce" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="d441-aee6-00b5-6d93" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6550,6 +6606,8 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="dd1e-2d7a-c0d5-162a" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                        <infoLink id="ecad-9554-ce32-f0ce" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="842f-ee27-ddc4-03e5" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6563,6 +6621,8 @@
                       <infoLinks>
                         <infoLink id="aada-89c0-8372-6f1f" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                         <infoLink id="b14b-0dcb-e22b-b9e7" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+                        <infoLink id="f87d-3f8c-f76c-20ca" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                        <infoLink id="5371-9cd8-e1bf-2bea" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -9315,6 +9375,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="cc6a-823b-52e9-aa67" name="Bombs" hidden="false" targetId="78a2-7146-034e-a601" type="rule"/>
+            <infoLink id="8fdc-e314-b099-f43a" name="Rockets" hidden="false" targetId="e8ff-3c3f-0f0a-04c2" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
@@ -9834,6 +9895,8 @@
                   </constraints>
                   <infoLinks>
                     <infoLink id="a430-895f-b246-21d1" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                    <infoLink id="70dc-522c-2bd1-9a02" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                    <infoLink id="0336-dffe-8bd6-73ab" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -9847,6 +9910,8 @@
                   <infoLinks>
                     <infoLink id="026f-e754-0a39-f69e" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                     <infoLink id="7ca6-fa39-df47-c1a6" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+                    <infoLink id="2a20-b440-1573-f47d" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+                    <infoLink id="0553-5a86-17c6-3f82" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -9921,6 +9986,8 @@
                   </constraints>
                   <infoLinks>
                     <infoLink id="6219-7e91-6b9d-0144" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                    <infoLink id="1578-ae13-9d37-de12" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                    <infoLink id="ce1e-4792-795e-bf22" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -9934,6 +10001,8 @@
                   <infoLinks>
                     <infoLink id="f5b8-5d79-2d98-d675" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                     <infoLink id="3c8c-5e7a-c782-c836" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+                    <infoLink id="38f6-1fc9-bec5-8e9b" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                    <infoLink id="387c-74c1-1eae-bd59" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -10421,6 +10490,8 @@
                   </constraints>
                   <infoLinks>
                     <infoLink id="9633-dae9-8112-836c" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                    <infoLink id="ec68-1055-12f0-d2b0" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                    <infoLink id="7c6b-dbb6-6f58-f3b7" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -10434,6 +10505,8 @@
                   <infoLinks>
                     <infoLink id="6830-cfb3-60dd-afcf" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                     <infoLink id="16fb-e2a8-114e-878a" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                    <infoLink id="5f98-a915-ec62-ee9e" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                    <infoLink id="58f2-2f21-a765-c579" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -10508,6 +10581,8 @@
                   </constraints>
                   <infoLinks>
                     <infoLink id="a6ae-b5ed-65a5-1a73" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
+                    <infoLink id="9d15-6096-d9ac-05ae" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                    <infoLink id="dc8f-384d-84ff-0077" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -10521,6 +10596,8 @@
                   <infoLinks>
                     <infoLink id="6f3d-901a-2cad-317e" name="M3 half-track (.30 cal MG)" hidden="false" targetId="cdc6-8cbc-2c42-8ae3" type="profile"/>
                     <infoLink id="6f4c-d797-3c60-ae1e" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                    <infoLink id="5e1b-b350-5690-1049" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+                    <infoLink id="61f1-93bf-577e-9f0b" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
