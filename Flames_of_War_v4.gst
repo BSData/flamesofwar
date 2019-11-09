@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="5" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="6" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
     <publication id="453d-401b-fd1e-0f95" name="Rulebook"/>
@@ -125,27 +125,45 @@
     <rule id="c061-64c4-cd6f-ced0" name="Assault 5+" hidden="false">
       <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
     </rule>
-    <rule id="97da-9a33-4ff1-56f2" name="Brutal" hidden="false"/>
-    <rule id="f4bc-db53-7a0d-0aeb" name="Dedicated AA" hidden="false"/>
-    <rule id="fa9d-68f6-57d9-dc5d" name="Forward Firing" hidden="false"/>
+    <rule id="97da-9a33-4ff1-56f2" name="Brutal" hidden="false">
+      <description>Intantry, Gun and Unarmoured Tank Teams re-roll successful Saves.</description>
+    </rule>
+    <rule id="f4bc-db53-7a0d-0aeb" name="Dedicated AA" hidden="false">
+      <description>Use full ROF when firing at Aircraft</description>
+    </rule>
+    <rule id="fa9d-68f6-57d9-dc5d" name="Forward Firing" hidden="false">
+      <description>Weapons can only hit targets fully in front of the Team.</description>
+    </rule>
     <rule id="2f2d-c5a9-ef7e-1b5e" name="Gun Shield" hidden="false">
       <description>A Gun Team with the Gun Shield is in Bulletproof Cover when Shot at from in front of the Team&apos;s base. A Gun Shield does not offer any protection against Artillery Bombardments or if the Team moved at Dash speed.</description>
     </rule>
     <rule id="edf7-ad9c-029c-94fe" name="Heavy Weapon" hidden="false">
       <description>A Heavy Weapon Team cannot Charge into Contact, but may be an Assaulting Team if in Contact with an enemy Team. Heavy Weapons have a worse Assault rating.</description>
     </rule>
-    <rule id="7de4-d921-ff24-9632" name="HQ Transport" hidden="false"/>
-    <rule id="b650-398e-5817-50fb" name="Independent Tank Unit" hidden="false"/>
-    <rule id="183b-aef0-86e1-693f" name="Large Gun" hidden="false"/>
+    <rule id="7de4-d921-ff24-9632" name="HQ Transport" hidden="false">
+      <description>Transports are part of the HQ Unit.</description>
+    </rule>
+    <rule id="b650-398e-5817-50fb" name="Independent Tank Unit" hidden="false">
+      <description>Unit cannot Charge into Contact or take an Objective, an is ignored for Victory Points.</description>
+    </rule>
+    <rule id="183b-aef0-86e1-693f" name="Large Gun" hidden="false">
+      <description>Cannot be placed from Ambush within 16&quot;/40cm of the enemy.</description>
+    </rule>
     <rule id="b000-d0f1-08fd-0d43" name="No HE" hidden="false">
       <description>A weapon with No HE targeting an Infantry or Gun Team, adds +1 to the score needed To Hit.</description>
     </rule>
-    <rule id="8153-56ce-71c0-391b" name="Observer" hidden="false"/>
+    <rule id="8153-56ce-71c0-391b" name="Observer" hidden="false">
+      <description>Team can Spot for any friendly Artillery Unit</description>
+    </rule>
     <rule id="4c99-f2b8-5818-72b1" name="Overworked" hidden="false">
       <description>Overworked weapons add +1 to the scort To Hit when moving.</description>
     </rule>
-    <rule id="3284-2a9d-b7f4-e17a" name="Pinned ROF 1" hidden="false"/>
-    <rule id="e9e5-f5de-e0ef-9e90" name="Rear Firing" hidden="false"/>
+    <rule id="3284-2a9d-b7f4-e17a" name="Pinned ROF 1" hidden="false">
+      <description>Reduce ROF to 1 when Pinned Down</description>
+    </rule>
+    <rule id="e9e5-f5de-e0ef-9e90" name="Rear Firing" hidden="false">
+      <description>Weapons can only hit targets fully to the rear of the Team.</description>
+    </rule>
     <rule id="967a-118e-dc01-7e0b" name="Scout" hidden="false">
       <description>Scouts are Gone to Ground unless they Shoot or Assault. This means that if they are Conseald, they enemy will suffer an additional +1 penelty to hit them.
 
@@ -154,33 +172,66 @@ Scouts have a worse Last Stand rating, Open or Wheeled Scout tanks have a signif
     <rule id="6c0b-8d39-70b6-9d1c" name="Self-Defence AA" hidden="false">
       <description>Self-Defence AA weapons can Shoot at Aircraft with ROF 1.</description>
     </rule>
-    <rule id="e215-d5bf-83ce-606a" name="Slow Firing" hidden="false"/>
+    <rule id="e215-d5bf-83ce-606a" name="Slow Firing" hidden="false">
+      <description>+1 To Hit for Moving ROF.</description>
+    </rule>
     <rule id="6f51-dbfe-55b0-a6d0" name="Smoke" hidden="false">
       <description>Smoke weapons can Shoot Smoke ammunition.</description>
     </rule>
-    <rule id="5450-1722-5ad1-1d61" name="Smoke Bombardment" hidden="false"/>
+    <rule id="5450-1722-5ad1-1d61" name="Smoke Bombardment" hidden="false">
+      <description>Once per game can fire a Smoke Bombardment.</description>
+    </rule>
     <rule id="8f04-5766-b365-655a" name="SP Gun" hidden="false">
       <description>SP Guns have a worse Counterattack rating and a worse Assault rating. If they are Open-topped they have a significantly worse Counterattack rating.</description>
     </rule>
-    <rule id="70fc-43a3-1ed1-1b01" name="Spearhead" hidden="false"/>
-    <rule id="ad4a-22fc-2234-7874" name="Protected Ammo" hidden="false"/>
+    <rule id="70fc-43a3-1ed1-1b01" name="Spearhead" hidden="false">
+      <description>Unit can move before the game to expand the Deployment Area.</description>
+    </rule>
+    <rule id="ad4a-22fc-2234-7874" name="Protected Ammo" hidden="false">
+      <description>Tanks with Protected Ammo have a better Remount rating.</description>
+    </rule>
     <rule id="dc00-41ba-b4dd-f068" name="Assault 4+" hidden="false">
       <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
     </rule>
-    <rule id="1dcd-ee7f-6116-8df5" name="Passengers 3" hidden="false"/>
-    <rule id="956c-27fc-6880-7738" name="Transport Attachment" hidden="false"/>
-    <rule id="139e-9d64-28a3-a3dd" name="Gun" hidden="false"/>
-    <rule id="78a2-7146-034e-a601" name="Bombs" hidden="false"/>
-    <rule id="6015-3f65-cd0c-42cd" name="Overhead fire" hidden="false"/>
-    <rule id="8f5c-f2be-1174-4b0e" name="Secondary Weapon" hidden="false"/>
-    <rule id="23e1-f5f2-1523-0d4c" name="Passengers 2" hidden="false"/>
-    <rule id="cd0d-0113-cc7e-c00d" name="Passengers 1" hidden="false"/>
+    <rule id="1dcd-ee7f-6116-8df5" name="Passengers 3" hidden="false">
+      <description>Team can carry three Infantry Teams as Passangers</description>
+    </rule>
+    <rule id="956c-27fc-6880-7738" name="Transport Attachment" hidden="false">
+      <description>Attachment are additional Teams associated with a Unit.
+Infantry and Gun Units containing Transport Teams as a Tank Attachment (ore vice versa) are split into two Units, an Infantry or Gun Unit and an Transport Unit (each with their Unit Leader). Both parts of the Unit operate independently as seperate Units, supporting each other, altough they deploy as a single Unit.</description>
+    </rule>
+    <rule id="139e-9d64-28a3-a3dd" name="Gun" hidden="false">
+      <description>Gun Teams has a worse Assault rating.</description>
+    </rule>
+    <rule id="78a2-7146-034e-a601" name="Bombs" hidden="false">
+      <description>No penalty for having only 1 or 2 weapons firing, Only Teams from this Unic can Spot for it.</description>
+    </rule>
+    <rule id="6015-3f65-cd0c-42cd" name="Overhead fire" hidden="false">
+      <description>Grenade launchers and light mortars capable of Overhead Fire can fire over friendly teams.</description>
+    </rule>
+    <rule id="8f5c-f2be-1174-4b0e" name="Secondary Weapon" hidden="false">
+      <description>Weapons with this rule my fire at the same or a different target at the same time as another weapon at ROT 1 and +1 To Hit.</description>
+    </rule>
+    <rule id="23e1-f5f2-1523-0d4c" name="Passengers 2" hidden="false">
+      <description>Team can carry two Infantry Teams as Passangers</description>
+    </rule>
+    <rule id="cd0d-0113-cc7e-c00d" name="Passengers 1" hidden="false">
+      <description>Team can carry one Infantry Team as Passangers</description>
+    </rule>
     <rule id="31e3-3b2b-d53c-cd03" name="Assault 6+" hidden="false">
       <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
     </rule>
     <rule id="8e04-1fed-e341-7e82" name="Assault 3+" hidden="false">
       <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
     </rule>
-    <rule id="9003-7173-8595-9d4f" name="Pinned ROF 2" hidden="false"/>
+    <rule id="9003-7173-8595-9d4f" name="Pinned ROF 2" hidden="false">
+      <description>Reduce ROF to 2 when Pinned Down</description>
+    </rule>
+    <rule id="e8ff-3c3f-0f0a-04c2" name="Rockets" hidden="false">
+      <description>No penalty for having only 1 or 2 weapons firing, Only Teams from this Unic can Spot for it.</description>
+    </rule>
+    <rule id="1add-f696-3ad3-0243" name="Tractor" hidden="false">
+      <description>Team can carry one Gun Team as Passangers.	</description>
+    </rule>
   </sharedRules>
 </gameSystem>
