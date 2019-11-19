@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ef50-df93-9d30-fd28" name="Fortress Europa German" revision="6" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ef50-df93-9d30-fd28" name="Fortress Europa German" revision="7" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="ad16-e387-64eb-dce8" name="Panther Tank Company" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -99,6 +99,19 @@
                 <infoLink id="677f-f20b-f699-77ad" name="Stormtroopers" hidden="false" targetId="65b8-ace5-2b18-a299" type="rule"/>
                 <infoLink id="e35d-f7b7-8a32-68d0" name="Tiger Ace" hidden="false" targetId="d1c5-7b76-8261-8463" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="b7b5-d9ff-6df6-d503" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="035e-4a2d-c588-2630" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="27dc-1d66-8f61-7fa7" name="Tiger Ace" hidden="false" collective="false" import="true" targetId="0cf3-d6c8-c6e5-b7b3" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="3a0d-880d-11b1-f3a2" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="51e6-31ea-0961-388e">
                   <constraints>
@@ -286,6 +299,19 @@
             <infoLink id="2fdd-760a-992c-0348" name="Stormtroopers" hidden="false" targetId="65b8-ace5-2b18-a299" type="rule"/>
             <infoLink id="6c1f-0e92-07ca-c620" name="Tiger (8.8cm)" hidden="false" targetId="2a5a-1dc7-f508-66f8" type="profile"/>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="2d3f-e65e-94bc-ca94" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b86-c0f7-a45c-5154" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="4630-69ac-85ed-df61" name="Tiger Ace" hidden="false" collective="false" import="true" targetId="0cf3-d6c8-c6e5-b7b3" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="38c5-eb01-ba30-dd8d" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6816-df66-298f-02e9">
               <constraints>
@@ -322,6 +348,19 @@
             <infoLink id="3848-6088-32b4-6371" name="Stormtroopers" hidden="false" targetId="65b8-ace5-2b18-a299" type="rule"/>
             <infoLink id="063f-7b84-e3a1-cf74" name="Tiger Ace" hidden="false" targetId="d1c5-7b76-8261-8463" type="rule"/>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="dbd6-bb10-c45a-24df" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc8f-bde9-0ee5-26bd" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="98de-a45a-7929-375d" name="Tiger Ace" hidden="false" collective="false" import="true" targetId="0cf3-d6c8-c6e5-b7b3" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="9bcf-cc2d-a93d-a2da" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="39ed-873f-e12d-8eda">
               <constraints>
@@ -362,6 +401,19 @@
             <infoLink id="d814-844e-0b2e-aca1" name="Stormtroopers" hidden="false" targetId="65b8-ace5-2b18-a299" type="rule"/>
             <infoLink id="a1b9-a199-4bec-ee73" name="Tiger Ace" hidden="false" targetId="d1c5-7b76-8261-8463" type="rule"/>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="fa67-2feb-0c91-bc5d" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18bc-d9ce-783a-901f" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="37e8-298e-70af-96f2" name="Tiger Ace" hidden="false" collective="false" import="true" targetId="0cf3-d6c8-c6e5-b7b3" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="0ade-44e3-ada7-035c" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="ce55-f3f1-497b-9e1f">
               <constraints>
@@ -403,6 +455,19 @@
             <infoLink id="7ef2-87a8-928a-9ffa" name="Stormtroopers" hidden="false" targetId="65b8-ace5-2b18-a299" type="rule"/>
             <infoLink id="3283-e90b-b36b-abdf" name="Tiger Ace" hidden="false" targetId="d1c5-7b76-8261-8463" type="rule"/>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="ab64-9f8d-c2d8-968a" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c08-31cc-e481-3961" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="f34b-d388-c3ec-405e" name="Tiger Ace" hidden="false" collective="false" import="true" targetId="0cf3-d6c8-c6e5-b7b3" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="a874-a763-32a6-fc69" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="9753-7f3d-b3d7-e56c">
               <constraints>
@@ -794,6 +859,19 @@
                 <infoLink id="88cb-d5c6-b1d9-1a3a" name="Stormtroopers" hidden="false" targetId="65b8-ace5-2b18-a299" type="rule"/>
                 <infoLink id="e774-473d-645e-4082" name="Tiger Ace" hidden="false" targetId="d1c5-7b76-8261-8463" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="b2ca-0882-4e9e-e9c0" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbbf-f183-fddd-d54f" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="401d-bf96-5696-0f37" name="Tiger Ace" hidden="false" collective="false" import="true" targetId="0cf3-d6c8-c6e5-b7b3" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="1fc1-7a25-4aaf-8484" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="0739-bb0b-28f8-572e">
                   <constraints>
@@ -1533,6 +1611,18 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="a051-d40c-46cc-68f1" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127e-4264-9eb6-7fee" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="d592-bcae-4b19-d9c8" name="Pioneer Company" hidden="false" collective="false" import="true" targetId="3869-43a0-6551-42ba" type="selectionEntry"/>
+                <entryLink id="d10a-ac08-7030-32c3" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -1574,6 +1664,17 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="96d3-a4b5-180f-1883" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f15f-eb25-7d7d-c106" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="dc50-4e79-eab1-1376" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1771,6 +1872,17 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="0ae7-4fa9-8562-a238" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e9c-ff23-495e-1c2c" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="e034-f342-39fd-6ea7" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="7e14-8618-99ce-9fee" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="7660-f839-1a3c-bd7c">
@@ -1965,6 +2077,17 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="61e7-9f61-1080-be3a" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3399-e2ca-1424-43e7" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1965-698f-3be8-ccae" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="5408-dc77-24b7-cc44" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa56-1090-82b1-2ecb">
@@ -2132,6 +2255,19 @@
             <infoLink id="aa40-b68e-94bb-3a09" name="Stormtroopers" hidden="false" targetId="65b8-ace5-2b18-a299" type="rule"/>
             <infoLink id="81df-3e90-b815-71d3" name="sMG34 HMG" hidden="false" targetId="8f17-159d-fa4c-4fe7" type="profile"/>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="36ab-9ebd-390a-d512" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84e6-5684-8821-68be" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="e0b1-8deb-2f0b-64a5" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="c0e2-0f46-0ffb-4605" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="c3a0-0cba-57bc-48d6">
               <constraints>
@@ -2330,6 +2466,17 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="4fc4-d81b-e78d-ecb5" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5ad-a88d-9982-8248" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="be4a-b368-ae14-f331" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -2429,6 +2576,19 @@
                 <infoLink id="5106-56c9-1f69-5beb" name="7.5cm infantry gun Direct Fire" hidden="false" targetId="74c8-4bb7-538f-4d25" type="profile"/>
                 <infoLink id="b721-8134-88cc-7d44" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="8c33-a6fa-8c21-dc17" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba51-287e-e9e2-eaba" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="7c24-5490-562c-5b73" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="a0f7-35a6-c79c-b95b" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="0d1f-e9f5-7185-80d8">
                   <constraints>
@@ -2510,6 +2670,17 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="ae51-a21d-9941-af7c" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a18-b0db-2a43-fac6" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="26ef-4c3c-57bc-b6b0" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -2531,6 +2702,19 @@
                 <infoLink id="0f76-11a6-5fb2-2a22" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
                 <infoLink id="dc57-6aee-be08-bef4" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="a78f-6f63-11af-9209" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdee-4f17-51c8-2079" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="81e2-4731-40d5-5c62" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="04f5-8e28-812b-8440" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="3d07-7aee-7fc6-9b86">
                   <constraints>
@@ -2564,6 +2748,19 @@
                 <infoLink id="7cb3-59b6-d8bb-d42e" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
                 <infoLink id="2590-024d-c695-acad" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="b6da-3799-8eab-fe99" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38a4-fe9c-a6b3-836a" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="656e-e306-13d3-af3b" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="85cc-ba8e-1437-f26c" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc35-ac5b-c732-78b0">
                   <constraints>
@@ -2642,6 +2839,18 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="1f9b-de89-0ead-7a90" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4531-80db-212b-0e9d" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="b28f-d641-439a-ba73" name="Pioneer Company" hidden="false" collective="false" import="true" targetId="3869-43a0-6551-42ba" type="selectionEntry"/>
+                <entryLink id="8077-e34d-f19f-d5bb" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -2696,6 +2905,17 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="35f2-92a8-9b4f-56dd" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ca4-6cda-07c9-7431" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="75f1-1cd3-614a-7029" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2849,6 +3069,17 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="0f48-641f-0be8-4882" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe4-83b5-cbef-8188" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="3e08-cc6b-0c31-d429" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="1725-4ba1-933c-fa17" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="80bf-9126-137b-bb9a">
@@ -2999,6 +3230,17 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="bf23-5f81-3903-8d46" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f734-7b50-9d11-0d86" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="595d-160e-3a16-e782" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="ec3f-5d12-ae2d-db53" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="39b8-6b5b-185a-3cd4">
@@ -3109,6 +3351,19 @@
             <infoLink id="7161-505d-64c9-2b15" name="Stormtroopers" hidden="false" targetId="65b8-ace5-2b18-a299" type="rule"/>
             <infoLink id="55fb-db02-76d1-d482" name="sMG34 HMG" hidden="false" targetId="8f17-159d-fa4c-4fe7" type="profile"/>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="520e-dfe9-5c9f-3836" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d7c-43e1-7c78-0997" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="3b76-1c96-22a4-b317" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="7207-43bd-231d-42bb" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="2c97-e4b1-cbd7-8650">
               <constraints>
@@ -3144,6 +3399,19 @@
             <infoLink id="088f-70ab-9d01-2ba4" name="8cm mortar" hidden="false" targetId="2111-6c3c-be54-f796" type="profile"/>
             <infoLink id="2fb5-76aa-4ad6-9892" name="8cm mortar" hidden="false" targetId="fd52-ae3a-af40-1901" type="profile"/>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="9f3d-50c2-3caa-cdbf" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a25-c8da-d5b3-52af" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="46fe-ff85-3002-f200" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="4145-c106-9fc7-dac6" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="6bf8-cd66-e3c1-ffe0">
               <constraints>
@@ -3187,6 +3455,19 @@
             <infoLink id="3a14-9ba4-20a3-2685" name="7.5cm infantry gun Direct Fire" hidden="false" targetId="74c8-4bb7-538f-4d25" type="profile"/>
             <infoLink id="eea6-5b59-2a20-40f2" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="3f39-db10-89e9-dc29" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acfd-051e-0759-477f" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="9b60-de01-60ff-4d14" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="e3d8-2c63-39ef-759e" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="a44d-3230-4fe4-31d2">
               <constraints>
@@ -3237,6 +3518,17 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="b636-07cd-f19d-d112" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98f2-a134-67f2-aa47" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="d1a0-d348-e04b-c58b" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3260,6 +3552,19 @@
                 <infoLink id="b0e9-fb46-5f01-dda5" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
                 <infoLink id="d2d9-8ed9-1eec-9b43" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="1ea5-887a-485f-2c1f" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="971a-0497-b7a9-e923" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="c826-cbc2-51b6-7cea" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="186c-78ee-9f1a-e01f" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="703f-abfe-a244-e0a3">
                   <constraints>
@@ -3298,6 +3603,19 @@
                 <infoLink id="d5f9-46e1-18a0-3d7a" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
                 <infoLink id="ed0d-3ab4-d895-184d" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="2698-447b-e068-6d63" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60bb-0a48-6d0d-af09" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="0a49-02cc-f4d2-25e5" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="cf37-94df-9fe4-8ce0" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="0f35-b5a8-2c64-db22">
                   <constraints>
@@ -3331,6 +3649,19 @@
                 <infoLink id="8de3-9e5a-eac4-b3e0" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
                 <infoLink id="770c-3025-2255-e258" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="2e57-aa4a-49ab-eed6" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ff4-4281-55e2-20b4" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="4fed-5017-f7d7-c9c1" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="da3b-b047-c5f3-b8c7" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="b5d1-bac7-741b-7f68">
                   <constraints>
@@ -3480,6 +3811,19 @@
       <categoryLinks>
         <categoryLink id="ad25-33ea-0dbf-6ae1" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9018-6537-cf06-0b97" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1672-ed69-eb73-27c5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8ba6-6596-eea2-d383" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="53d9-1a95-ed1e-32ff" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="fea2-8f6f-e1ab-1a0f">
           <constraints>
@@ -3575,6 +3919,19 @@
       <categoryLinks>
         <categoryLink id="d471-80a9-ee07-5b5c" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0bb7-0f79-cb10-db45" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a837-764e-af14-683f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5d8e-500a-569d-0c02" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="201f-56d6-2e18-e464" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="e2db-cf75-80a6-50f6">
           <constraints>
@@ -3727,6 +4084,19 @@
                 <infoLink id="9b04-83ef-bd88-596f" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
                 <infoLink id="0414-0c70-00e0-e2df" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="ba2b-d4ef-d06d-12b1" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="926d-ff89-d1e5-5063" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="9ec8-c2d3-98a1-46ca" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="e9d8-c4cf-7153-588d" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="12f9-3b5c-9f89-2f18">
                   <constraints>
@@ -3763,6 +4133,19 @@
               <categoryLinks>
                 <categoryLink id="2b5e-6f69-7030-80ab" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
               </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="7e71-0c73-f62e-8cb8" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15d0-9ca4-4b52-0e46" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="56e1-0ba0-ef43-d061" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="1705-8251-2586-30a3" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="373e-a4a5-5e54-a71c">
                   <constraints>
@@ -3805,6 +4188,19 @@
               <categoryLinks>
                 <categoryLink id="fd1b-4731-84fb-1aa1" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
               </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="9864-d405-032f-5ac8" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe5-1a51-6c2d-7046" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="dbaa-ee99-1156-c9f1" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="8843-1a30-2406-fcb4" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="0141-4861-4588-2bd0">
                   <constraints>
@@ -4199,6 +4595,19 @@
               <categoryLinks>
                 <categoryLink id="15a5-e606-96be-af46" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
               </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="f7bd-6167-5b23-5254" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43c0-c7e1-f75f-76d5" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="9258-e75e-a26c-d892" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="3c18-bfca-2ab5-9cfa" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="b689-374e-6d61-c712">
                   <constraints>
@@ -4340,6 +4749,19 @@
               <categoryLinks>
                 <categoryLink id="d1d8-c479-a0ad-896b" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
               </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="a76f-af2c-e770-9690" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c676-c310-894f-2e92" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="790f-4ca3-b44f-0f7a" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="87cf-7022-76d5-50cb" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="35e5-823c-9f4b-1ad6">
                   <constraints>
@@ -4489,6 +4911,19 @@
       <categoryLinks>
         <categoryLink id="3f92-fb39-0998-0f34" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a691-8842-a64b-cdda" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f56-fab2-87d2-0c0f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3208-ef57-fe96-e378" name="Tiger Ace" hidden="false" collective="false" import="true" targetId="0cf3-d6c8-c6e5-b7b3" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="8cbf-bf61-4aeb-5c9c" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="2159-410c-b5c8-e00b">
           <constraints>
@@ -4776,6 +5211,17 @@
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="4496-fb1e-d855-3c3e" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce57-aa90-8d5d-9957" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0fdd-a100-4845-9d4d" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="9a96-b606-a765-147e" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="f6d6-96fd-e248-bf69">
@@ -4986,6 +5432,17 @@
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="c05f-01a1-3804-7de5" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0581-3442-7714-12a8" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d60a-8c39-4bf3-fe86" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="74c5-5f83-72ee-2637" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="1d20-a412-6c7a-a59c">
@@ -5086,7 +5543,127 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="de6e-23e8-3f87-e874" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9996-c394-3656-e003" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0016-33a5-c0b0-f2ea" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9ba9-2497-7dda-a02a" name="Lucky" hidden="false" collective="false" import="true" targetId="ce1f-1ea0-c8a1-fb61" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="ce1f-1ea0-c8a1-fb61" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6805-34c7-5465-80c4" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="833f-a2c8-6bef-127c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="d418-ac4e-5602-e840" name="Lucky" hidden="false">
+          <description>Discard this card to re-roll any one die. The second result must be used.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3869-43a0-6551-42ba" name="Pioneer Company" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc29-dcaf-3b9c-2ff6" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="5456-a810-9a4f-71e2" name="Pioneer Company" hidden="false">
+          <description>Infantry Teams in this Formation cross Minefields safely on a roll of 2+.
+Indantry Units in this Formatiopn Dig In on a roll of 2+.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cf3-d6c8-c6e5-b7b3" name="Tiger Ace" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a6a-7762-9195-2b7e" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="f1aa-af96-0933-3680" name="Tiger Ace" hidden="false">
+          <description>Before Deploying this Unit, roll a die and give this Unit the following command card at no additional point cost:
+1: Clever Hans
+2: Deadly Gunner
+3: Rapid Fire
+4: Schnell!
+5: Roll Over Them
+6: Choose one of the above</description>
+        </rule>
+        <rule id="f825-f69a-57df-beb6" name="Clever Hans" hidden="false">
+          <description>This unit gains the Scout Rule</description>
+        </rule>
+        <rule id="3d80-1a41-a87c-99a8" name="Deadly Gunner" hidden="false">
+          <description>The Unit Leader may re-roll one failed Firepower Test during the Shooting Step</description>
+        </rule>
+        <rule id="4e28-747e-4ca5-0a57" name="Scout" hidden="false">
+          <description>Scouts are Gone to Ground unless they Shoot or Assault. This means that if they are Conseald, they enemy will suffer an additional +1 penelty to hit them.
+
+Scouts have a worse Last Stand rating, Open or Wheeled Scout tanks have a significantly worse Counterattack rating and a worse Assault rating as well.</description>
+        </rule>
+        <rule id="0798-9d5d-9c0d-84af" name="Rapid Fire" hidden="false">
+          <description>The Unit Leader&apos;s Tiger tank has Halted ROF 3 with it&apos;s 8.8cm gun</description>
+        </rule>
+        <rule id="e0ff-a465-deb4-07bf" name="Schnell!" hidden="false">
+          <description>This Unit passes Blitz Move tests on 2+</description>
+        </rule>
+        <rule id="794c-0862-6374-2742" name="Roll Over Them" hidden="false">
+          <description>The Unit Leader&apos;s Tiger tank hits in Assaults on 2+</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a439-60eb-f975-594d" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b34-79a4-ccae-30ff" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a5fc-4d2d-1a75-ef41" name="Softskin Transport" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank">
+          <characteristics>
+            <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+</characteristic>
+            <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
+            <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">5+</characteristic>
+            <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">-</characteristic>
+            <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">40&quot;/100cm</characteristic>
+            <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e1b5-a917-b792-c431" name="Passengers 2" hidden="false">
+          <description>Team can carry two Infantry Teams as Passangers</description>
+        </rule>
+        <rule id="7c8a-7d8c-b476-6cf9" name="Tractor" hidden="false">
+          <description>Team can carry one Gun Team as Passangers.	</description>
+        </rule>
+        <rule id="70d5-5a3e-cea7-be53" name="Softskin" hidden="false">
+          <description>If a Transport is Destroyed, any Passangers it is carrying are also Destroyed, and all Tranports must be Sent to the Rear immediately. All Passangers must Dismount from this Unit at the same time. Empty Tranpost Teams must be Sent to the Rear</description>
+        </rule>
+        <rule id="8927-ea76-ac26-a514" name="Unarmoured" hidden="false">
+          <description>Tram cannot Charge into Contact and must Break Off if Assaulted</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedRules>
     <rule id="65b8-ace5-2b18-a299" name="Stormtroopers" hidden="false">
       <description>A unit may attempt a second Movement Order after succeeding in its first Movement Order. The second Movement Order must be different from the first.</description>
