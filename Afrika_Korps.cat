@@ -5694,6 +5694,35 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aeb-d2b2-128b-ad5e" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="0c07-a565-f6f3-2681" name="Softskin Transport" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank">
+          <characteristics>
+            <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+</characteristic>
+            <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
+            <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">5+</characteristic>
+            <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">-</characteristic>
+            <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">40&quot;/100cm</characteristic>
+            <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c3fe-b4f6-7fdd-b67e" name="Passengers 2" hidden="false">
+          <description>Team can carry two Infantry Teams as Passangers</description>
+        </rule>
+        <rule id="7c18-9b7d-59dd-20d3" name="Softskin" hidden="false">
+          <description>If a Transport is Destroyed, any Passangers it is carrying are also Destroyed, and all Tranports must be Sent to the Rear immediately. All Passangers must Dismount from this Unit at the same time. Empty Tranpost Teams must be Sent to the Rear</description>
+        </rule>
+        <rule id="bedb-8e9f-5b77-dd5e" name="Tractor" hidden="false">
+          <description>Team can carry one Gun Team as Passangers.	</description>
+        </rule>
+        <rule id="e73d-bfec-f43f-1e1d" name="Unarmoured" hidden="false">
+          <description>Tram cannot Charge into Contact and must Break Off if Assaulted</description>
+        </rule>
+      </rules>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
       </costs>
