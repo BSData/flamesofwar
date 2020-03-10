@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c97d-9ffb-d8c2-9cd8" name="D-Day American" revision="7" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c97d-9ffb-d8c2-9cd8" name="D-Day American" revision="8" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="567b-dc5a-c654-5ad4" name="D-Day American"/>
   </publications>
@@ -11004,6 +11004,51 @@
             <selectionEntry id="e3dd-f5f7-be65-5e09" name="5x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db57-2036-e23e-3091" name="M4 Sherman (76mm) Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7716-f06d-4f62-36bc" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="194c-a146-9662-3c6d" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
+        <infoLink id="8f39-2e92-eaa0-88a2" name="M4 Sherman (76mm)" hidden="false" targetId="eaa3-3f66-96c9-0700" type="profile"/>
+        <infoLink id="51f3-d902-da1e-7db8" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
+        <infoLink id="de41-aa0e-08e3-0475" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
+        <infoLink id="41e5-3f3a-982d-b7fb" name="M4 Sherman (76mm)" hidden="false" targetId="ca10-bfac-b0e2-85aa" type="profile"/>
+        <infoLink id="88d6-a93d-4443-10e4" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
+        <infoLink id="2078-2a17-8da3-2230" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0741-3a58-259a-83bc" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="94b3-a5f6-9c3a-06a2" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e80b-1ea5-e043-f344">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f83-9d0b-53ef-8187" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="076a-2361-4ab1-0846" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e80b-1ea5-e043-f344" name="3x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aac2-e409-a920-d27d" name="4x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5f5b-60ca-1e3c-4569" name="5x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
