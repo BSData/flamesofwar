@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="6" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="7" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
     <publication id="453d-401b-fd1e-0f95" name="Rulebook"/>
@@ -14,6 +14,9 @@
     <publication id="f4e1-10cd-8e77-b4b2" name="Ghost Panzers"/>
     <publication id="9c95-3df5-45e4-4f28" name="Red Banner"/>
     <publication id="10a4-8008-66c3-952e" name="D-Day: German"/>
+    <publication id="0071-7fad-4956-579d" name="D-Day: British"/>
+    <publication id="5ab4-5ce9-268b-6f05" name="Death From Above"/>
+    <publication id="7dad-f562-34ff-9ca3" name="All American"/>
   </publications>
   <costTypes>
     <costType id="995a-4d67-6920-bfe4" name="pts" defaultCostLimit="-1.0"/>
@@ -204,7 +207,7 @@ Infantry and Gun Units containing Transport Teams as a Tank Attachment (ore vice
       <description>Gun Teams has a worse Assault rating.</description>
     </rule>
     <rule id="78a2-7146-034e-a601" name="Bombs" hidden="false">
-      <description>No penalty for having only 1 or 2 weapons firing, Only Teams from this Unic can Spot for it.</description>
+      <description>No penalty for having only 1 or 2 weapons firing, Only Teams from this Unit can Spot for it.</description>
     </rule>
     <rule id="6015-3f65-cd0c-42cd" name="Overhead fire" hidden="false">
       <description>Grenade launchers and light mortars capable of Overhead Fire can fire over friendly teams.</description>
@@ -228,7 +231,7 @@ Infantry and Gun Units containing Transport Teams as a Tank Attachment (ore vice
       <description>Reduce ROF to 2 when Pinned Down</description>
     </rule>
     <rule id="e8ff-3c3f-0f0a-04c2" name="Rockets" hidden="false">
-      <description>No penalty for having only 1 or 2 weapons firing, Only Teams from this Unic can Spot for it.</description>
+      <description>No penalty for having only 1 or 2 weapons firing, Only Teams from this Unit can Spot for it.</description>
     </rule>
     <rule id="1add-f696-3ad3-0243" name="Tractor" hidden="false">
       <description>Team can carry one Gun Team as Passangers.	</description>
