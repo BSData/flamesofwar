@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d223-d561-b7be-7f4d" name="D-Day British" revision="2" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d223-d561-b7be-7f4d" name="D-Day British" revision="3" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="1264-ae58-312f-c0a4" name="Rifle Company" publicationId="0071-7fad-4956-579d" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -7927,6 +7927,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9cfb-0d3f-9ed9-6d21" name="Bofors Light AA Troop" publicationId="0071-7fad-4956-579d" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -9872,7 +9875,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="221d-c9de-7d12-e71e" name="Sten SMG team Desert Rat" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="221d-c9de-7d12-e71e" name="Sten SMG team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 3+</characteristic>
@@ -9885,7 +9888,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="51cb-089c-616f-a234" name="Bren gun team Desert Rat" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="51cb-089c-616f-a234" name="Bren gun team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 3+</characteristic>
@@ -9898,7 +9901,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="34a7-c722-b561-d7eb" name="6 pdr gun Desert Rat" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+    <profile id="34a7-c722-b561-d7eb" name="6 pdr gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">5+ Counterattach 4+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 5+</characteristic>
@@ -9911,7 +9914,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="202a-6093-77bc-f11b" name="Bren gun &amp; SMLE team Desert Rat" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="202a-6093-77bc-f11b" name="Bren gun &amp; SMLE team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 3+</characteristic>
@@ -9924,7 +9927,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="bd9c-1c0a-66e0-182c" name="3-inch mortar team Desert Rat" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="bd9c-1c0a-66e0-182c" name="3-inch mortar team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 4+</characteristic>
@@ -9937,7 +9940,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="5d60-100e-c2e0-0388" name="Vickers MMG Desert Rat" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="5d60-100e-c2e0-0388" name="Vickers MMG" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 5+</characteristic>
@@ -9950,7 +9953,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="eb98-bfb9-e466-850c" name="MMG Carrier Desert Rat" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="eb98-bfb9-e466-850c" name="MMG Carrier" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Counterattack 6 Remount 4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 6+</characteristic>
@@ -9965,7 +9968,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="2ff9-9ee1-ff3b-ad78" name="Universal Carrier (MG) Desert Rat" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="2ff9-9ee1-ff3b-ad78" name="Universal Carrier (MG)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Remount 4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
@@ -9980,7 +9983,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="f67d-957b-fb29-c04d" name="Wasp (Flame-thrower) Desert Rat" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="f67d-957b-fb29-c04d" name="Wasp (Flame-thrower)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 6</characteristic>
@@ -10420,7 +10423,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="7a8a-8bb3-58af-2f20" name="Sten SMG team Para/Air" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="7a8a-8bb3-58af-2f20" name="Sten SMG team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 3+</characteristic>
@@ -10433,7 +10436,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="4fae-1a3a-da56-bf3c" name="Bren gun &amp; SMLE team Para/air" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="4fae-1a3a-da56-bf3c" name="Bren gun &amp; SMLE team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 3+</characteristic>
@@ -10446,7 +10449,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="37b3-3ae4-aade-1963" name="Vickers MMG Para/air" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="37b3-3ae4-aade-1963" name="Vickers MMG" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 5+</characteristic>
@@ -10459,7 +10462,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="b318-c61f-1c56-f999" name="3-inch mortar team Para/air" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="b318-c61f-1c56-f999" name="3-inch mortar team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 4+</characteristic>
@@ -10505,7 +10508,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke</characteristic>
       </characteristics>
     </profile>
-    <profile id="6a5c-9e97-defa-f4e1" name="6 pdr gun Para/air" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+    <profile id="6a5c-9e97-defa-f4e1" name="6 pdr gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 5+</characteristic>
@@ -10518,7 +10521,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="ef42-b31d-d070-e709" name="17 pdr gun Para/air" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+    <profile id="ef42-b31d-d070-e709" name="17 pdr gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 5+</characteristic>
@@ -10531,7 +10534,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
       </characteristics>
     </profile>
-    <profile id="bf73-d3d2-8585-b1be" name="Sten SMG team Commando" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="bf73-d3d2-8585-b1be" name="Sten SMG team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
@@ -10544,7 +10547,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="c57c-a7fb-618c-e617" name="Bren gun &amp; SMLE team Commando" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="c57c-a7fb-618c-e617" name="Bren gun &amp; SMLE team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
@@ -10557,7 +10560,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="2919-cfcc-dbb6-fe01" name="Vickers MMG Commando" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="2919-cfcc-dbb6-fe01" name="Vickers MMG" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 4+</characteristic>
@@ -10570,7 +10573,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="a5bd-0f1e-7449-6065" name="3-inch mortar team Commando" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="a5bd-0f1e-7449-6065" name="3-inch mortar team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 4+</characteristic>
@@ -10583,7 +10586,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="f934-0349-bc1d-77ed" name="Cromwell (75mm) Desert rat" publicationId="0071-7fad-4956-579d" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="f934-0349-bc1d-77ed" name="Cromwell (75mm)" publicationId="0071-7fad-4956-579d" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
@@ -10598,7 +10601,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="a4f2-83bc-9751-4bb9" name="Firefly (17 pdr) desert rat" publicationId="0071-7fad-4956-579d" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="a4f2-83bc-9751-4bb9" name="Firefly (17 pdr)" publicationId="0071-7fad-4956-579d" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
@@ -10613,7 +10616,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="76b6-131d-1131-38ee" name="Stuart (37mm) desert rat" publicationId="0071-7fad-4956-579d" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="76b6-131d-1131-38ee" name="Stuart (37mm)" publicationId="0071-7fad-4956-579d" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Remount 4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
@@ -10628,7 +10631,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="c82e-0ece-d2b4-5b80" name="Crusader AA (Twin 20mm) Desert rat" publicationId="0071-7fad-4956-579d" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="c82e-0ece-d2b4-5b80" name="Crusader AA (Twin 20mm)" publicationId="0071-7fad-4956-579d" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Counterattack 6 Remount 4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 6</characteristic>
@@ -10643,7 +10646,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="7534-0518-58d6-399d" name="Cromwell CS (95mm) Desert Rat" publicationId="0071-7fad-4956-579d" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="7534-0518-58d6-399d" name="Cromwell CS (95mm)" publicationId="0071-7fad-4956-579d" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
