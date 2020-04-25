@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d223-d561-b7be-7f4d" name="D-Day British" revision="3" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d223-d561-b7be-7f4d" name="D-Day British" revision="4" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="1264-ae58-312f-c0a4" name="Rifle Company" publicationId="0071-7fad-4956-579d" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -5070,7 +5070,6 @@
         <selectionEntry id="b6f8-b613-cf95-fd09" name="Cromwell Armoured Recce Troop" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="863c-9501-f93a-dca2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c1e-e804-d46c-57b6" type="min"/>
           </constraints>
           <infoLinks>
             <infoLink id="85a9-0502-2f34-2bbc" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
