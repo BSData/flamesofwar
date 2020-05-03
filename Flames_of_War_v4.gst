@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="7" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="8" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
     <publication id="453d-401b-fd1e-0f95" name="Rulebook"/>
@@ -105,6 +105,8 @@
     <categoryEntry id="9be3-4dab-91f0-f7c5" name="Support Platoons" hidden="false"/>
     <categoryEntry id="2739-fb2a-059a-ccb0" name="Headquaters" hidden="false"/>
     <categoryEntry id="c5b6-63ee-3f81-25f2" name="Command Cards" hidden="false"/>
+    <categoryEntry id="02e3-24e6-27f8-653f" name="Allied Formation" hidden="false"/>
+    <categoryEntry id="bf21-c7f3-1de8-efb9" name="Allied Support" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="a4b2-2825-7956-92b9" name="Standard" publicationId="b8e5-51cf-456c-eafb" hidden="false">
@@ -235,6 +237,14 @@ Infantry and Gun Units containing Transport Teams as a Tank Attachment (ore vice
     </rule>
     <rule id="1add-f696-3ad3-0243" name="Tractor" hidden="false">
       <description>Team can carry one Gun Team as Passangers.	</description>
+    </rule>
+    <rule id="0291-289f-7711-31bb" name="Salvo" hidden="false">
+      <description>Weapons with a ROF of &quot;salvo&quot; are Artillery weapons and fire Artillery Bombardments, but use a 10”/25cm square Salvo Template rather than the normal 6”/15cm Artillery Template. 
+A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</description>
+    </rule>
+    <rule id="f8ec-4aba-faa0-f2d0" name="Flame-thrower" hidden="false">
+      <description>Infantry, Gun, and Unarmoured Tank Teams re-roll successful Saves when hit by a Flame-thrower and the Unit is automatically Pinned Down. Armoured Tank Teams use their Top armour for Armour Saves when hit by a Flame-thrower.
+Flame-throwers may shoot in Defensive Fire. However, while a Unit that is Hit by a Flame-thrower is Pinned Down, this does not automatically stop the assault. The defender still needs to score five (or eight) hits as normal to stop the assault as normal.</description>
     </rule>
   </sharedRules>
 </gameSystem>
