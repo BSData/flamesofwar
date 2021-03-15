@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d223-d561-b7be-7f4d" name="D-Day British" revision="4" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d223-d561-b7be-7f4d" name="D-Day British" revision="5" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="1264-ae58-312f-c0a4" name="Rifle Company" publicationId="0071-7fad-4956-579d" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -4416,7 +4416,6 @@
           <selectionEntries>
             <selectionEntry id="d285-0cf3-f140-96f5" name="Sherman Armoured Troop" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a47-496f-96ad-7155" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27b6-12bc-4e49-541e" type="max"/>
               </constraints>
               <infoLinks>
@@ -4994,7 +4993,7 @@
             <infoLink id="1e27-cafe-5624-9e1e" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="8602-6749-7472-8505" name="Unit Size" publicationId="0071-7fad-4956-579d" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="8602-6749-7472-8505" name="Unit Size" publicationId="0071-7fad-4956-579d" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c7e-d1a1-8b00-0875">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e134-3e74-3192-8812" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ede1-9bb9-094f-ba9a" type="max"/>
@@ -5701,7 +5700,7 @@
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1d25-cfc3-a0b0-bba3" name="Desert Rat 6 pdr Anti-Tank Platoon" publicationId="0071-7fad-4956-579d" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="1d25-cfc3-a0b0-bba3" name="Desert Rat 6 pdr Motor Anti-Tank Platoon" publicationId="0071-7fad-4956-579d" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d660-d540-0501-967b" type="max"/>
           </constraints>
@@ -5732,17 +5731,6 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="18f5-39fa-f07e-ff73" name="6x 6 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="1956-ba7b-bde4-4b80" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-                    <infoLink id="a9b9-21d3-f62d-45db" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-                    <infoLink id="73f1-04fc-d57e-4f84" name="6 pdr gun Desert Rat" hidden="false" targetId="34a7-c722-b561-d7eb" type="profile"/>
-                    <infoLink id="432d-148d-391c-309e" name="6 pdr gun" hidden="false" targetId="7023-1e60-a815-1cbe" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6163,7 +6151,7 @@
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6bd4-7c55-82f3-1927" name="Desert Rat 6 pdr Anti-Tank Platoon" publicationId="0071-7fad-4956-579d" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="6bd4-7c55-82f3-1927" name="Desert Rat 6 pdr Motor Anti-Tank Platoon" publicationId="0071-7fad-4956-579d" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9ef-9b56-ef82-300e" type="max"/>
           </constraints>
@@ -6194,17 +6182,6 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="9911-a14e-c8dd-ca26" name="6x 6 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="5adb-83d8-c808-5626" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-                    <infoLink id="b9e5-0f6b-403a-173c" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-                    <infoLink id="d7e8-98b6-6794-80ab" name="6 pdr gun Desert Rat" hidden="false" targetId="34a7-c722-b561-d7eb" type="profile"/>
-                    <infoLink id="a8b8-bebf-7f95-c0c2" name="6 pdr gun" hidden="false" targetId="7023-1e60-a815-1cbe" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
