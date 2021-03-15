@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c97d-9ffb-d8c2-9cd8" name="D-Day American" revision="8" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c97d-9ffb-d8c2-9cd8" name="D-Day American" revision="9" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="567b-dc5a-c654-5ad4" name="D-Day American"/>
   </publications>
@@ -1283,7 +1283,7 @@
               <selectionEntries>
                 <selectionEntry id="2672-7cc4-aa8f-ffc6" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="de44-39f7-5a4d-f035" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="upgrade">
@@ -1308,7 +1308,7 @@
             <infoLink id="9b9a-0579-d885-7acc" name="Rangers Lead The Way" hidden="false" targetId="58c8-f0e0-9bca-a3a3" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="df57-b9cc-8470-af35" name="Replace 60mm mortar with M1 Grand" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="df57-b9cc-8470-af35" name="Replace 60mm mortar with M1 Garand" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f76-1638-c348-a485" type="max"/>
               </constraints>
@@ -1316,7 +1316,7 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3635-a0fb-2716-88bb" name="Replace M1 Grand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3635-a0fb-2716-88bb" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7c4-9175-9dcb-aa0a" type="max"/>
               </constraints>
@@ -1365,7 +1365,7 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e454-611b-cff9-eda4" name="Replace M1 Grand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e454-611b-cff9-eda4" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5005-689c-a1d1-da9b" type="max"/>
               </constraints>
@@ -1392,7 +1392,7 @@
             <infoLink id="41d5-b215-79b8-0291" name="Rangers Lead The Way" hidden="false" targetId="58c8-f0e0-9bca-a3a3" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="4618-cb86-a12a-8359" name="Replace 60mm mortar with M1 Grand" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4618-cb86-a12a-8359" name="Replace 60mm mortar with M1 Garand" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a76-5ec3-eb2d-a6ab" type="max"/>
               </constraints>
@@ -1400,7 +1400,7 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="32e3-77ca-41ef-581c" name="Replace M1 Grand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="32e3-77ca-41ef-581c" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ea-e528-f484-97df" type="max"/>
               </constraints>
@@ -1449,7 +1449,7 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9611-3a58-f950-0fdc" name="Replace M1 Grand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9611-3a58-f950-0fdc" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cff0-402f-51f9-f5fa" type="max"/>
               </constraints>
@@ -2373,7 +2373,7 @@
                     <infoLink id="7fcf-d159-65ef-992f" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4034,110 +4034,6 @@
                         <infoLink id="2deb-f7ff-7506-d529" name="Assault 5+" hidden="false" targetId="c061-64c4-cd6f-ced0" type="rule"/>
                         <infoLink id="f88a-f26b-4049-edfc" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
                         <infoLink id="9201-ec1a-ac5d-cf3f" name="Flame-thrower" hidden="false" targetId="b841-503f-5485-214f" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c902-fdf3-0157-98b3" name="Assault Boat Section" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af9b-ad5c-d9f1-6687" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="1029-9d3f-2897-a0fe" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
-            <infoLink id="fb02-b79a-0ba8-bb42" name="Pioneers" hidden="false" targetId="0eb1-db92-78fe-4748" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="a291-d10a-209c-24a9" name="Replace one Bazooka with M1919 LMG" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9516-442f-6f18-2399" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="01a0-cd42-b27a-a304" name="M1919 LMG" hidden="false" targetId="137d-398a-7f52-5705" type="profile"/>
-                <infoLink id="1fbb-fffc-07a9-b257" name="M1919 team" hidden="false" targetId="cd4e-b4b0-4ea7-fbf8" type="profile"/>
-                <infoLink id="a6f8-d559-8900-d6fd" name="Assault 5+" hidden="false" targetId="c061-64c4-cd6f-ced0" type="rule"/>
-                <infoLink id="ff33-e424-3f28-f7a4" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="6697-fbf6-c6f6-d097" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="df24-fa67-07ef-2899">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b91c-d5e2-c179-78d9" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4635-a638-fdb0-d983" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="df24-fa67-07ef-2899" name="5x M1 Garand, 2x M1 Bazooka, 1x 60mm mortar, 1x Flame-thrower" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="2305-42cc-bb07-9638" name="5x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7b0-24c6-b850-c2c6" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fab-8bd4-86b3-2772" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="90bf-e303-1323-fb5b" name="M1 Garand rifle team" hidden="false" targetId="0242-e28a-6b6f-1fbd" type="profile"/>
-                        <infoLink id="8363-c8dc-880f-f80b" name="M1 Garand rifle team" hidden="false" targetId="396b-35dc-3cb0-aeb7" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="8ccc-71ad-e1e0-9b4e" name="2x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ab1-2c5c-56a4-93a0" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="448c-a7a5-f318-1aef" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="a91b-969c-a90f-5a7c" name="M1 Bazooka team" hidden="false" targetId="63e6-ee65-f238-6fda" type="profile"/>
-                        <infoLink id="8bb6-bdef-37be-0578" name="M1 Bazooka team" hidden="false" targetId="aad8-e1d5-b063-90de" type="profile"/>
-                        <infoLink id="62ba-bde0-af30-27a9" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="8240-b1b3-0213-75c0" name="1x 60mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ad-fa35-e5a2-0631" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ebc-e0d8-bbe7-4842" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="f2b5-b95a-19e7-e2e3" name="60mm mortar team" hidden="false" targetId="93f3-7a18-6fd5-a2df" type="profile"/>
-                        <infoLink id="89b3-6bc2-a739-32e9" name="60mm mortar" hidden="false" targetId="c8bd-3a6c-6ac6-2933" type="profile"/>
-                        <infoLink id="bb88-ed7b-27dd-c034" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                        <infoLink id="d543-d938-e156-cf52" name="Assault 5+" hidden="false" targetId="c061-64c4-cd6f-ced0" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="34a0-9fdb-b259-5208" name="1x Flame-thrower" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1745-7374-ee0f-c880" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f396-2e8c-b9f8-0f6e" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="8fc9-d7d1-85a9-c91e" name="Flame-thrower team" hidden="false" targetId="8d27-0be3-2e03-7264" type="profile"/>
-                        <infoLink id="da4d-a2db-7e92-b8b5" name="Flame-thrower team" hidden="false" targetId="c40b-b19b-fbed-03b6" type="profile"/>
-                        <infoLink id="50b8-3cba-3d8c-7be3" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                        <infoLink id="867c-fc14-88d1-085a" name="Assault 5+" hidden="false" targetId="c061-64c4-cd6f-ced0" type="rule"/>
-                        <infoLink id="ced7-03a9-e8e6-eb9f" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
-                        <infoLink id="d45c-40af-12e2-c5a2" name="Flame-thrower" hidden="false" targetId="b841-503f-5485-214f" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6146,7 +6042,7 @@
                     <infoLink id="79c9-7db4-2119-fc92" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -9356,7 +9252,7 @@
     </selectionEntry>
     <selectionEntry id="902b-9cf1-c1cf-e2d8" name="P-47 Thunderbolt Fighter Flight" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd1f-8bad-0365-f86d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd1f-8bad-0365-f86d" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="776a-08bc-85fc-23a7" name="P-47 Thunderbolt" hidden="false" targetId="53ee-1024-e45e-ed77" type="profile"/>
@@ -9591,7 +9487,7 @@
         <categoryLink id="c380-f933-f819-14a4" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="df41-a770-ad04-d476" name="Replace 60mm mortar with M1 Grand" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="df41-a770-ad04-d476" name="Replace 60mm mortar with M1 Garand" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="895b-9bef-b748-fca1" type="max"/>
           </constraints>
@@ -9599,7 +9495,7 @@
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2af0-a52f-9515-1802" name="Replace M1 Grand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2af0-a52f-9515-1802" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2e4-41db-69c1-4bff" type="max"/>
           </constraints>
@@ -9648,7 +9544,7 @@
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="923f-2c9a-97b0-4f2e" name="Replace M1 Grand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="923f-2c9a-97b0-4f2e" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b8d-e7ae-0d09-f9aa" type="max"/>
           </constraints>

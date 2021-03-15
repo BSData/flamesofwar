@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="8" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="9" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
     <publication id="453d-401b-fd1e-0f95" name="Rulebook"/>
@@ -239,7 +239,7 @@ Infantry and Gun Units containing Transport Teams as a Tank Attachment (ore vice
       <description>Team can carry one Gun Team as Passangers.	</description>
     </rule>
     <rule id="0291-289f-7711-31bb" name="Salvo" hidden="false">
-      <description>Weapons with a ROF of &quot;salvo&quot; are Artillery weapons and fire Artillery Bombardments, but use a 10”/25cm square Salvo Template rather than the normal 6”/15cm Artillery Template. 
+      <description>Weapons with a ROF of &quot;salvo&quot; are Artillery weapons and fire Artillery Bombardments, but use a 10”/25cm square Salvo Template rather than the normal 6”/15cm Artillery Template.
 A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</description>
     </rule>
     <rule id="f8ec-4aba-faa0-f2d0" name="Flame-thrower" hidden="false">
