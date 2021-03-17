@@ -10954,23 +10954,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f371-ac21-8cf9-1568" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfac-6f60-1118-39d4" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="1df7-711e-d7e0-e125" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="db04-4d6c-75c8-85ab" name="Single Use" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="8f50-045d-ffb5-a74b" name="Lucky" hidden="false" collective="false" import="true" targetId="cc09-bb6a-6216-2c3d" type="selectionEntry"/>
-            <entryLink id="8d41-ed22-14e1-bac8" name="Div Arty, All In!" hidden="false" collective="false" import="true" targetId="5b4a-c201-c5ea-e82b" type="selectionEntry"/>
-            <entryLink id="11e5-d007-bd83-4fad" name="French Resistance Raid" hidden="false" collective="false" import="true" targetId="f6c8-6752-d61a-d24d" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntry>
     <selectionEntry id="d32c-5011-cbf1-2bd7" name="FFI Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39b7-1185-f162-f9d4" type="max"/>
@@ -11272,6 +11255,23 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <entryLinks>
+    <entryLink id="f6b9-c878-175d-5708" name="Div Arty, All In!" hidden="false" collective="false" import="true" targetId="5b4a-c201-c5ea-e82b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8f11-20ba-9c18-0ef1" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b2cc-4ceb-a158-b428" name="French Resistance Raid" hidden="false" collective="false" import="true" targetId="f6c8-6752-d61a-d24d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4294-ca61-9562-5cd9" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="107e-5fc0-e7f9-336c" name="Lucky" hidden="false" collective="false" import="true" targetId="cc09-bb6a-6216-2c3d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bbe5-eb11-2fcb-e646" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cc09-bb6a-6216-2c3d" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -11388,7 +11388,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       </characteristics>
     </profile>
     <profile id="0242-e28a-6b6f-1fbd" name="M1 Garand rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-      <comment></comment>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Rally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
