@@ -10486,7 +10486,19 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f35-4dfd-21e4-3820" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="5c0e-3155-c019-c7bf" name="Parachute Rifle Company MK2" hidden="false" collective="false" import="true" targetId="521d-a4c0-069f-b275" type="selectionEntry"/>
+    <entryLink id="5c0e-3155-c019-c7bf" name="Parachute Rifle Company" hidden="false" collective="false" import="true" targetId="521d-a4c0-069f-b275" type="selectionEntry"/>
+    <entryLink id="a8d5-d6f1-c16c-6bcf" name="Total Air Superiority" hidden="false" collective="false" import="true" targetId="79e1-d73d-4797-0b77" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="df7f-c657-6a69-e636" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+        <categoryLink id="5af2-dae5-88ee-8cec" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b9da-d8fe-7748-6969" name="Naval Gunfire" hidden="false" collective="false" import="true" targetId="be14-fd16-f458-f844" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9f56-e292-b2e2-0dd2" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+        <categoryLink id="910f-5821-35ed-71cb" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cc09-bb6a-6216-2c3d" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
@@ -10679,6 +10691,29 @@ Then remove all markers.</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="283c-91a3-8fab-5f11" name="Unit Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="610f-5363-972f-ea1e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0a1a-aa16-1824-d56b" name="Sticky Bombs" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b344-5183-a96a-9d15" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="4cdf-6010-e78d-06dc" name="Sticky Bombs" hidden="false">
+                  <description>Discard.  Infantry teams in unit are AT3 FP1+ against Top Arm, in assault until EoT</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="f97e-77bd-0513-d4ec" name="Turner Turnbull" hidden="false" collective="false" import="true" targetId="0dfb-68c2-aa30-55a1" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -10862,7 +10897,7 @@ Then remove all markers.</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="ab0b-e126-0f21-6378" name="Parachute Rifle Platoon MK2" hidden="false" collective="false" import="true" targetId="9304-7c31-8244-4efe" type="selectionEntry">
+        <entryLink id="ab0b-e126-0f21-6378" name="Parachute Rifle Platoon" hidden="false" collective="false" import="true" targetId="9304-7c31-8244-4efe" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0331-9504-7d02-a2dd" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a29-5729-9c6b-ff31" type="max"/>
@@ -10871,6 +10906,52 @@ Then remove all markers.</description>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="79e1-d73d-4797-0b77" name="Total Air Superiority" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="512f-5738-ea9e-72a9" name="Fighter interdiction" hidden="false">
+          <description>Opponent needs 5+ instead of 4+ for aircraft arrival</description>
+        </rule>
+        <rule id="916f-8911-8264-5010" name="Perfect Timing" hidden="false">
+          <description>Discard card.  You need 3+ instead of 4+ for aircraft arrival this turn.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be14-fd16-f458-f844" name="Naval Gunfire" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="28a1-2d62-e28d-b4bd" name="Naval Gunfire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">UNLIMITED</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="80cf-d9bc-fb3b-ab7f" name="Naval Gunfire" hidden="false">
+          <description>Each Shooting step, choose Formation HQ or Observer
+On a 5+ (4+ for teams from Assault, Vet Assault or Ranger Companies) they can spot for the gun
+No range marker left after shot</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0dfb-68c2-aa30-55a1" name="Turner Turnbull" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="762e-1907-4464-cf24" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e48-0466-5c57-9d6c" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
