@@ -8614,38 +8614,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="902b-9cf1-c1cf-e2d8" name="P-47 Thunderbolt Fighter Flight" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd1f-8bad-0365-f86d" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="776a-08bc-85fc-23a7" name="P-47 Thunderbolt" hidden="false" targetId="53ee-1024-e45e-ed77" type="profile"/>
-        <infoLink id="668a-2546-cc8f-6614" name=".50 cal MGs" hidden="false" targetId="ee1c-7e88-1b4a-214b" type="profile"/>
-        <infoLink id="0dff-8544-4b86-bb65" name="HVAR rockets" hidden="false" targetId="dbf6-f7ef-db09-828b" type="profile"/>
-        <infoLink id="c879-5583-d876-dfc0" name="500 lb bombs" hidden="false" targetId="bf4d-30b5-b23c-e561" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="94a0-36cf-22fc-457d" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8629-261b-5f61-4fe3" name="2x P-47 Thunderbolt " hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc27-6dfe-2ce6-3eb3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40c4-617b-1ff8-5931" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="cc6a-823b-52e9-aa67" name="Bombs" hidden="false" targetId="78a2-7146-034e-a601" type="rule"/>
-            <infoLink id="8fdc-e314-b099-f43a" name="Rockets" hidden="false" targetId="e8ff-3c3f-0f0a-04c2" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="cf27-172c-64d2-6835" name="M15 &amp; M16 AAA Platoon" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66f3-12d0-a808-58c1" type="max"/>
@@ -10499,6 +10467,7 @@
         <categoryLink id="910f-5821-35ed-71cb" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="5f0a-f11f-40c7-d507" name="P-47 Thunderbolt Fighter Flight" hidden="false" collective="false" import="true" targetId="26a7-5bd1-10c4-e08d" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cc09-bb6a-6216-2c3d" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
@@ -10631,7 +10600,7 @@ Then remove all markers.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a945-2c64-37df-5f5a" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="21cd-d4b0-e284-3f7b" name="60mm mortar team Para" hidden="false" targetId="7d3c-3934-ef42-4b8b" type="profile"/>
+                    <infoLink id="21cd-d4b0-e284-3f7b" name="60mm mortar team" hidden="false" targetId="7d3c-3934-ef42-4b8b" type="profile"/>
                     <infoLink id="d20c-96f5-28de-40d4" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
                   </infoLinks>
                   <costs>
@@ -10691,17 +10660,16 @@ Then remove all markers.</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="283c-91a3-8fab-5f11" name="Unit Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="610f-5363-972f-ea1e" type="max"/>
-          </constraints>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="30b3-a53c-63c5-996f" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
           <selectionEntries>
-            <selectionEntry id="0a1a-aa16-1824-d56b" name="Sticky Bombs" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="be7f-3e6a-9560-3178" name="Sticky Bombs" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b344-5183-a96a-9d15" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20e2-e34d-4361-2fb7" type="max"/>
               </constraints>
               <rules>
-                <rule id="4cdf-6010-e78d-06dc" name="Sticky Bombs" hidden="false">
+                <rule id="f0ad-530e-ce88-5bdf" name="Sticky Bombs" hidden="false">
                   <description>Discard.  Infantry teams in unit are AT3 FP1+ against Top Arm, in assault until EoT</description>
                 </rule>
               </rules>
@@ -10711,10 +10679,10 @@ Then remove all markers.</description>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="f97e-77bd-0513-d4ec" name="Turner Turnbull" hidden="false" collective="false" import="true" targetId="0dfb-68c2-aa30-55a1" type="selectionEntry"/>
+            <entryLink id="13a1-6a4d-59de-373c" name="Turner Turnbull" hidden="false" collective="false" import="true" targetId="0dfb-68c2-aa30-55a1" type="selectionEntry"/>
           </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -10731,7 +10699,7 @@ Then remove all markers.</description>
           </constraints>
           <infoLinks>
             <infoLink id="1f2c-302f-dae5-c52b" name="Thompson SMG team" hidden="false" targetId="9145-3716-e597-f4cd" type="profile"/>
-            <infoLink id="e7db-e749-8fd6-4d19" name="Thompson SMG team Para" hidden="false" targetId="52a9-c5ba-e659-405c" type="profile"/>
+            <infoLink id="e7db-e749-8fd6-4d19" name="Thompson SMG team" hidden="false" targetId="52a9-c5ba-e659-405c" type="profile"/>
             <infoLink id="dac4-e9aa-c7f1-f67e" name="Airborne" hidden="false" targetId="0934-1108-d913-4163" type="rule"/>
           </infoLinks>
           <selectionEntries>
@@ -10954,7 +10922,54 @@ No range marker left after shot</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="26a7-5bd1-10c4-e08d" name="P-47 Thunderbolt Fighter Flight" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d386-2e24-220e-56a2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3514-7814-97ba-705e" name="P-47 Thunderbolt" hidden="false" targetId="53ee-1024-e45e-ed77" type="profile"/>
+        <infoLink id="755e-2b6d-e1c0-b86e" name=".50 cal MGs" hidden="false" targetId="ee1c-7e88-1b4a-214b" type="profile"/>
+        <infoLink id="90ab-b3a1-b67a-0e08" name="HVAR rockets" hidden="false" targetId="dbf6-f7ef-db09-828b" type="profile"/>
+        <infoLink id="ba23-5970-00cd-d98c" name="500 lb bombs" hidden="false" targetId="bf4d-30b5-b23c-e561" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fda3-6065-948c-a74b" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c584-6cf7-71a6-325a" name="2x P-47 Thunderbolt " hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95ad-1465-83a9-fe82" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c9-48fb-d39b-2aa0" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6a84-9b2c-8cec-d2ae" name="Bombs" hidden="false" targetId="78a2-7146-034e-a601" type="rule"/>
+            <infoLink id="191f-f93a-36d2-7bee" name="Rockets" hidden="false" targetId="e8ff-3c3f-0f0a-04c2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f4bf-74a3-a4ea-22cd" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="6674-d53c-196f-6c7c" name="dogger" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="c7c1-969d-6c89-553d" name="dooder" hidden="false" collective="false" import="true" type="upgrade"/>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="1791-3aa3-d6a0-e951" name="Upgrade from Cards" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f57d-fea2-adc5-804f" type="max"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="048e-4cee-802c-bf9c" name="Component" hidden="false">
       <description>Component Teams rule use the same rating of their parent Unit.</description>
