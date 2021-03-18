@@ -1389,351 +1389,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b79b-d3ee-898d-f32e" name="Veteran M4 Sherman Tank Company" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="82e0-e30b-1eb2-04b1" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5e75-5827-8cbe-7ce8" name="Veteran M4 Sherman Tank Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf0c-216d-f84f-e8cd" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b48a-cd51-647b-5fe5" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="5179-bcc7-7693-860b" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
-            <infoLink id="3389-e34b-eedd-4c50" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
-            <infoLink id="5b9b-7ca2-cd94-309c" name="M4 Sherman (75mm)" hidden="false" targetId="b62f-bb5c-75ac-f852" type="profile"/>
-            <infoLink id="16e3-88bc-6bf4-8986" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
-            <infoLink id="9223-cae8-7272-2d2f" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="66a0-c2b3-c376-41c6" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-            <infoLink id="5075-4b89-fa8c-50aa" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="4364-eb74-2b9e-9fd3" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="930e-010c-a32a-f214">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7126-e038-a1f1-a494" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d5e-b965-c411-9112" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="930e-010c-a32a-f214" name="2x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b2dd-6e66-0c94-69d4" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef8f-ffbc-400e-2167" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="9962-98cd-f11f-4876" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-            <infoLink id="d50c-d2fa-d2a9-1fa6" name="M4 Sherman (75mm)" hidden="false" targetId="b62f-bb5c-75ac-f852" type="profile"/>
-            <infoLink id="cd4e-3b11-e1bb-d5d1" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
-            <infoLink id="d227-96b3-0e3e-ead4" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
-            <infoLink id="4450-0808-0969-c130" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
-            <infoLink id="3f45-3d85-8687-d3e9" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
-            <infoLink id="8a2d-bffd-fb17-76b1" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="f2e2-f077-fce0-e6c5" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="4bf3-776f-0c09-b208">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18c2-0e69-db4b-1406" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b8-f102-2234-a21c" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="4bf3-776f-0c09-b208" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="101e-8a64-f020-c45f" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="ce56-1243-d5cf-b361" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2789-b03a-5238-d1d1" name="Veteran 81mm Mortar Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69db-931f-940c-5285" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="25fe-38a9-589f-ca81" name="M4 (.50 cal MG)" hidden="false" targetId="8ef2-553a-61ca-a474" type="profile"/>
-            <infoLink id="87e6-1350-e527-ec83" name="M4 (.50 cal MG)" hidden="false" targetId="8ef2-553a-61ca-a474" type="profile"/>
-            <infoLink id="7fb5-37f5-008a-4070" name="Veteran M4 (81mm mortar)" hidden="false" targetId="c97e-7d99-2e58-010e" type="profile"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="e975-fbca-2c37-d62e" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="1427-e321-7343-ae04">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c803-946c-b9da-f6c0" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eef-7b2a-247b-1a6b" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="1427-e321-7343-ae04" name="3x M4 (81mm mortar)" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caaa-d468-3fbb-eb74" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde6-75fb-53a8-7384" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="a0f2-054a-1839-08c5" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-                    <infoLink id="4634-995c-57b5-6cc1" name="Rear Firing" hidden="false" targetId="e9e5-f5de-e0ef-9e90" type="rule"/>
-                    <infoLink id="7fcf-d159-65ef-992f" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7c13-9785-7bd5-3315" name="Veteran M4 Sherman (105mm) Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6668-624a-c8c2-e698" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="f0c8-1345-a9dc-2ba6" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-            <infoLink id="9fa6-cbcf-ab11-e768" name="M4 Sherman (105mm)" hidden="false" targetId="cc44-93df-aaf6-91e6" type="profile"/>
-            <infoLink id="0c1c-36a0-ffc7-4d03" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
-            <infoLink id="6252-4e49-253a-3e8c" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
-            <infoLink id="cbc1-0794-fc6a-ceb7" name="Veteran M4 Sherman (105mm)" hidden="false" targetId="8aec-aed4-76d6-4d48" type="profile"/>
-            <infoLink id="62ec-bda4-bc8f-6fd6" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-            <infoLink id="d073-e4bc-f566-3ff6" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="e330-54a3-aec5-08fa" name="M4 Sherman (105mm) Direct Fire" hidden="false" targetId="aa63-cf9a-572d-bdf8" type="profile"/>
-            <infoLink id="19a6-7396-1ec9-5db4" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
-            <infoLink id="19f1-6a43-da7b-89ee" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="e670-6c58-bddb-e910" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="4712-15d1-b3aa-399c">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f5a-852e-5ae8-4cb8" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14b8-d688-ba1f-b846" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="4712-15d1-b3aa-399c" name="2x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d6a4-161b-2661-3189" name="4x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="f320-d14d-3702-c7ab" name="6x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="270f-62a7-2e98-19d7" name="Veteran M4 Sherman or M4 Sherman (76mm) Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e66-4862-6c4e-7d75">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e58c-9892-3bc2-cd06" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae31-3be8-492f-a18f" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="5e66-4862-6c4e-7d75" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec8b-daea-131d-007e" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="641c-6d8e-ff9d-1ed7" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                <infoLink id="ce46-b41d-798a-2357" name="M4 Sherman (75mm)" hidden="false" targetId="b62f-bb5c-75ac-f852" type="profile"/>
-                <infoLink id="42c8-ab3a-67d8-2416" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
-                <infoLink id="5a84-2546-af06-860e" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
-                <infoLink id="dcb8-ae2d-8369-ce8f" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
-                <infoLink id="4c55-660b-cbaf-50a8" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
-                <infoLink id="875a-cb48-ab54-afb8" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="77bd-d59e-cf1e-4b5d" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="03c2-957d-973c-8e82">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b07-87e9-37dd-51d9" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="104c-ae12-9d66-0c34" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="03c2-957d-973c-8e82" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="fcd6-f855-9d16-c976" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="9b1c-7c82-2ce8-77b6" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3cd4-528a-0115-fcb8" name="Veteran M4 Sherman (76mm) Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a345-489c-0aea-f46d" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="92f2-09db-fc82-342c" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
-                <infoLink id="bb01-1c6e-06cf-5ef8" name="M4 Sherman (76mm)" hidden="false" targetId="eaa3-3f66-96c9-0700" type="profile"/>
-                <infoLink id="78b9-d9f6-89f4-d44a" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
-                <infoLink id="28ab-b84b-262e-d6a5" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
-                <infoLink id="49a2-3b56-9371-44c2" name="Veteran M4 Sherman (76mm)" hidden="false" targetId="6b33-3a6f-bba4-7ceb" type="profile"/>
-                <infoLink id="8125-70f8-f956-6000" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
-                <infoLink id="a375-82c8-0c92-64d1" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="5892-51c1-8642-49a5" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="d644-d7cf-730f-b822">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1887-3afa-468d-f9fc" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e266-a144-b10a-aef7" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="d644-d7cf-730f-b822" name="3x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4260-a3f6-e3d4-bfa9" name="4x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="79ad-facf-d96f-b7dc" name="5x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="1d61-7fab-0566-961d" name="Veteran M4 Sherman or M5 Stuart Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="28d8-1eea-0fcc-5b93">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4785-de05-6513-7455" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="107e-89a5-d6b2-d6f7" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="28d8-1eea-0fcc-5b93" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="1fd1-8b13-f0b8-0cdd" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                <infoLink id="2f91-a56b-3f36-718b" name="M4 Sherman (75mm)" hidden="false" targetId="b62f-bb5c-75ac-f852" type="profile"/>
-                <infoLink id="c7cf-caaf-c753-2cf5" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
-                <infoLink id="c4da-7ca4-fd88-68f3" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
-                <infoLink id="3607-3504-e962-015a" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
-                <infoLink id="4007-d89f-880e-720a" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
-                <infoLink id="6126-edcb-9806-99c3" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="1cc5-9e9d-034c-8134" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="da46-8fad-0ab2-d496">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baa2-9867-5ee0-2436" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed01-5f26-05e9-f6d6" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="da46-8fad-0ab2-d496" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="29a2-93ea-785b-06b6" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7b23-64f1-6b1e-aa8c" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="dba3-49a3-717a-a60d" name="Veteran M5 Stuart Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="1c79-f50b-e25b-6151" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
-                <infoLink id="979e-d91e-2ec2-ebca" name="Veteran M5 Stuart" hidden="false" targetId="82ee-93b9-711f-b859" type="profile"/>
-                <infoLink id="e0b6-0b58-5466-f099" name="M5 Stuart (37mm)" hidden="false" targetId="e86d-9db5-0e5d-523d" type="profile"/>
-                <infoLink id="5c4e-781e-052f-e42c" name="M5 Stuart (MGs)" hidden="false" targetId="1514-6578-ee9d-0332" type="profile"/>
-                <infoLink id="0e88-7a26-83c6-100f" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="46b7-f451-415f-50a3" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="2582-15c0-56a2-971b">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9702-f93b-cd7f-ef54" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3fa-f9e3-f63e-9840" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="2582-15c0-56a2-971b" name="3x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="203d-da24-d2c5-5b1c" name="4x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7788-4fbd-43dc-3204" name="5x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="c583-8c78-9e1f-1794" name="M5 Stuart Tank Company" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="27f4-478c-590b-4810" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
@@ -8250,139 +7905,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1f72-5b17-6cda-4657" name="Veteran M4 Sherman (76mm) Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9553-c92a-2b8e-81c8" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="2076-9c18-1dfb-1510" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
-        <infoLink id="edcf-9354-6382-adae" name="M4 Sherman (76mm)" hidden="false" targetId="eaa3-3f66-96c9-0700" type="profile"/>
-        <infoLink id="a250-277d-1496-9f3e" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
-        <infoLink id="d9e7-9eec-5a88-4b74" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
-        <infoLink id="8269-67ff-db51-edf0" name="Veteran M4 Sherman (76mm)" hidden="false" targetId="6b33-3a6f-bba4-7ceb" type="profile"/>
-        <infoLink id="fc9c-f5e0-3635-3adb" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
-        <infoLink id="c1d6-1036-a91c-d0d5" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="2092-18c0-c3f2-63a9" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="93b4-93e5-7150-17a2" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="c74d-903d-01a2-d658">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1925-fa5c-7401-6660" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6898-40bd-34d0-ab6b" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="c74d-903d-01a2-d658" name="3x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c916-200b-8d33-cf38" name="4x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="af41-6eca-6330-466d" name="5x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="13d0-202c-80d2-a99c" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a72-91ac-7f51-f47c" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="c5c9-964f-16d2-8c98" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-        <infoLink id="3ee6-83c0-acdb-f106" name="M4 Sherman (75mm)" hidden="false" targetId="b62f-bb5c-75ac-f852" type="profile"/>
-        <infoLink id="6492-873d-ccf0-6a7a" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
-        <infoLink id="0b4b-8e01-a533-20a3" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
-        <infoLink id="65a5-ebcf-dec9-6654" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
-        <infoLink id="1fcd-8a47-6a17-1f50" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
-        <infoLink id="f3a6-a878-2227-7f97" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="773c-f23f-d568-8170" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5c10-1d38-59c5-3bf1" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e4b-411d-0ffb-ad7a">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a02-d73d-16a3-784a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecef-df30-350b-06f7" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="9e4b-411d-0ffb-ad7a" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7db3-06ed-dfbe-3d67" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1cc3-5479-7af9-1381" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="79c3-4d3e-b2d9-60f2" name="Veteran M5 Stuart Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d748-33fe-ddfe-5585" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="c807-8419-e65d-7f14" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
-        <infoLink id="fdf9-52e5-db79-3450" name="Veteran M5 Stuart" hidden="false" targetId="82ee-93b9-711f-b859" type="profile"/>
-        <infoLink id="780c-12aa-7386-b0a3" name="M5 Stuart (37mm)" hidden="false" targetId="e86d-9db5-0e5d-523d" type="profile"/>
-        <infoLink id="7fa4-078b-bad4-a9dc" name="M5 Stuart (MGs)" hidden="false" targetId="1514-6578-ee9d-0332" type="profile"/>
-        <infoLink id="dbdb-8b78-0999-f3ea" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="9d3f-cfd0-28e6-4566" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="4f51-62ae-9a8c-6826" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="99df-3d5c-eeab-cc30">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="927a-8693-ee98-8674" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ab2-b958-d07d-a32e" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="99df-3d5c-eeab-cc30" name="3x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9c9a-84c7-aba7-f72b" name="4x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ae10-bc7d-77d3-795a" name="5x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="3a3c-3299-013d-eeab" name="Veteran Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a08-eb5f-59c2-e03d" type="max"/>
@@ -9349,12 +8871,12 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="5f0a-f11f-40c7-d507" name="P-47 Thunderbolt Fighter Flight" hidden="false" collective="false" import="true" targetId="26a7-5bd1-10c4-e08d" type="selectionEntry"/>
-    <entryLink id="7674-8337-4d1e-a28f" name="Ranger Platoon MK2" hidden="false" collective="false" import="true" targetId="26c4-6dfd-347d-4b71" type="selectionEntry">
+    <entryLink id="7674-8337-4d1e-a28f" name="Ranger Platoon" hidden="false" collective="false" import="true" targetId="26c4-6dfd-347d-4b71" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1d-4dec-8883-ad01" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="bfb3-c1cb-0726-b946" name="Ranger Company MK2" hidden="false" collective="false" import="true" targetId="e9db-8afd-f417-db93" type="selectionEntry"/>
+    <entryLink id="bfb3-c1cb-0726-b946" name="Ranger Company" hidden="false" collective="false" import="true" targetId="e9db-8afd-f417-db93" type="selectionEntry"/>
     <entryLink id="0553-1238-d5fa-5266" name="M10 Tank Destroyer Company" hidden="false" collective="false" import="true" targetId="1c1f-dac1-c644-35b4" type="selectionEntry"/>
     <entryLink id="76d0-f7ad-c613-f357" name="M10 Tank Destroyer Platoon MK2" hidden="false" collective="false" import="true" targetId="59c3-3306-e00a-09b2" type="selectionEntry">
       <constraints>
@@ -9373,6 +8895,18 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a35-c725-52bc-c8d7" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="fc85-f086-e69f-bc02" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" targetId="66be-f0a7-5916-49fe" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e35-865c-40c9-d747" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="49fa-053a-3e8f-736c" name="Veteran M4 Sherman Tank Company" hidden="false" collective="false" import="true" targetId="a737-0df8-44fc-aed4" type="selectionEntry"/>
+    <entryLink id="5833-ada6-4f85-e911" name="Veteran M4 Sherman (76mm) Tank Platoon" hidden="false" collective="false" import="true" targetId="4eb9-a9fa-0912-545e" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a99f-1b50-9af8-502b" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="3461-08ce-877b-8d44" name="Veteran M5 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="6cd9-d536-c7d6-86ca" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cc09-bb6a-6216-2c3d" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
@@ -10622,6 +10156,9 @@ Cannot shoot or launch an assault from impassable water terrain
         <infoLink id="0044-55fa-142b-514e" name="M5 Stuart (MGs)" hidden="false" targetId="1514-6578-ee9d-0332" type="profile"/>
         <infoLink id="e748-6b59-5e1e-b110" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="de55-950d-8e5a-ae5d" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="11f2-05b5-99df-caf9" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="00eb-dd69-82fa-21a2">
           <constraints>
@@ -10696,6 +10233,312 @@ Cannot shoot or launch an assault from impassable water terrain
           </entryLinks>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a737-0df8-44fc-aed4" name="Veteran M4 Sherman Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="459e-bd29-1d55-462e" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="90f6-115c-d2d2-33fd" name="Veteran M4 Sherman Tank Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3926-f6de-3cc4-2ad1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0e1-9e2a-ee49-1bda" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e29f-1460-0c1c-7eb0" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
+            <infoLink id="d8f8-c537-b1a0-faa9" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
+            <infoLink id="8b22-7da2-9f01-882b" name="M4 Sherman (75mm)" hidden="false" targetId="b62f-bb5c-75ac-f852" type="profile"/>
+            <infoLink id="9ecd-e2b1-5205-1fd6" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
+            <infoLink id="2642-3976-1a25-7125" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+            <infoLink id="2e27-5a78-b284-44a5" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+            <infoLink id="a626-8b06-e7f5-6522" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="e2e5-7828-008a-e2a7" name="2x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5c9-b3fa-54c8-1953" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10e4-b5cd-f930-49c0" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="3c6d-67d7-63c2-ec1c" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink id="7082-e841-d91a-746c" name="Sherman DD" hidden="false" collective="false" import="true" targetId="6f9f-69fa-6173-5d5f" type="selectionEntry"/>
+              </entryLinks>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7156-cfde-b85c-57a1" name="Veteran M4 Sherman or M4 Sherman (76mm) Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="90b0-3137-6ac6-10eb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3287-7cbb-163d-0c45" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2e1-7b3c-6ee3-88be" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="90b0-3137-6ac6-10eb" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" targetId="66be-f0a7-5916-49fe" type="selectionEntry"/>
+            <entryLink id="7b83-b445-3355-108b" name="Veteran M4 Sherman (76mm) Tank Platoon" hidden="false" collective="false" import="true" targetId="4eb9-a9fa-0912-545e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0c1b-04b0-e556-4225" name="Veteran M4 Sherman or M5 Stuart Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="6cae-8445-da71-66b6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff1-205b-48e0-977a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d94-6751-0b96-36b0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6cae-8445-da71-66b6" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" targetId="66be-f0a7-5916-49fe" type="selectionEntry"/>
+            <entryLink id="c8ed-ec62-7cfe-6d49" name="Veteran M5 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="6cd9-d536-c7d6-86ca" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f2eb-d0a5-9055-cecb" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" targetId="66be-f0a7-5916-49fe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="52c5-8347-4cde-6a11" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9ff0-d469-87e3-f71c" name="Veteran M4 Sherman (105mm) Tank Platoon" hidden="false" collective="false" import="true" targetId="6030-d903-c72b-deee" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b2b-79d3-7b03-590a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3085-26bb-e598-7714" name="Veteran Armoured M4 81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="91d3-95fb-81c3-5ffa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5491-a0cd-9405-4df1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66be-f0a7-5916-49fe" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d409-0000-7de3-6eea" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+        <infoLink id="0791-1659-2133-22ab" name="M4 Sherman (75mm)" hidden="false" targetId="b62f-bb5c-75ac-f852" type="profile"/>
+        <infoLink id="6741-0f0b-3b87-69b0" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
+        <infoLink id="7472-3683-de05-0643" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
+        <infoLink id="d236-d5ee-a5a6-9de0" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
+        <infoLink id="748d-0756-13fa-8630" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
+        <infoLink id="5e73-8d3d-224e-fe30" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6ce9-1633-2827-0ac7" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5f5b-dadd-a7aa-0961" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="9dfb-27d9-8141-ff43">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c836-330e-e410-ac7e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c052-19c4-1f79-3bf8" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9dfb-27d9-8141-ff43" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e2b3-1eb8-6bac-f12e" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="79ed-ff16-1ae9-ad2a" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="885d-11c7-89dc-5b6d" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="85da-8c80-b90a-0854" name="Sherman DD" hidden="false" collective="false" import="true" targetId="6f9f-69fa-6173-5d5f" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4eb9-a9fa-0912-545e" name="Veteran M4 Sherman (76mm) Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c125-249b-b757-6421" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
+        <infoLink id="fa6e-6ed8-468b-5b14" name="M4 Sherman (76mm)" hidden="false" targetId="eaa3-3f66-96c9-0700" type="profile"/>
+        <infoLink id="9492-8efb-1aa4-82f7" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
+        <infoLink id="39af-ffb4-039e-2248" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
+        <infoLink id="69e2-d419-a30a-186e" name="Veteran M4 Sherman (76mm)" hidden="false" targetId="6b33-3a6f-bba4-7ceb" type="profile"/>
+        <infoLink id="f075-7b7b-fa96-414f" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
+        <infoLink id="e537-3319-6b28-57aa" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fa31-bb44-fab2-dcb4" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="36b5-ff24-d2cc-9280" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="6cca-3dbd-26a0-a809">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5551-57cc-0b3c-28ac" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c27-e206-5e96-c780" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6cca-3dbd-26a0-a809" name="3x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eb65-a157-b442-78fd" name="4x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="92b6-1c66-83e8-9b04" name="5x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3827-87e3-0244-375e" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="abc9-be5f-9fb9-c320" name="Sherman DD" hidden="false" collective="false" import="true" targetId="6f9f-69fa-6173-5d5f" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6cd9-d536-c7d6-86ca" name="Veteran M5 Stuart Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="34db-8adb-3b7f-95a3" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
+        <infoLink id="ad9c-c181-bc07-21f3" name="Veteran M5 Stuart" hidden="false" targetId="82ee-93b9-711f-b859" type="profile"/>
+        <infoLink id="8626-b78f-ac7c-d8d8" name="M5 Stuart (37mm)" hidden="false" targetId="e86d-9db5-0e5d-523d" type="profile"/>
+        <infoLink id="ca75-73a5-5bb7-9dda" name="M5 Stuart (MGs)" hidden="false" targetId="1514-6578-ee9d-0332" type="profile"/>
+        <infoLink id="a41c-ac6f-9763-5b04" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2465-40a4-c0d2-d087" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b4eb-403f-ef08-78c2" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ae4-21f6-41ad-c653">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42c9-3122-d6e3-5dd8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba70-3ff9-7337-02d5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4ae4-21f6-41ad-c653" name="3x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0efe-d888-e283-5282" name="4x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="41ee-9fd6-2dc1-f6e2" name="5x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6030-d903-c72b-deee" name="Veteran M4 Sherman (105mm) Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9f55-0569-d270-2f3c" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+        <infoLink id="0f86-22fd-4445-e659" name="M4 Sherman (105mm)" hidden="false" targetId="cc44-93df-aaf6-91e6" type="profile"/>
+        <infoLink id="ea3b-c706-0237-f525" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
+        <infoLink id="3ef8-7118-1746-4634" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
+        <infoLink id="00c0-e17d-f41d-5c0b" name="Veteran M4 Sherman (105mm)" hidden="false" targetId="8aec-aed4-76d6-4d48" type="profile"/>
+        <infoLink id="8045-70fb-6982-e58e" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+        <infoLink id="43ae-c849-e0f2-f639" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="edad-2d99-672c-bc35" name="M4 Sherman (105mm) Direct Fire" hidden="false" targetId="aa63-cf9a-572d-bdf8" type="profile"/>
+        <infoLink id="8f8e-ee1b-304a-ccaf" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="64fe-2368-a864-9b5e" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cd53-191b-e0d7-e696" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="09b7-69a6-14c0-7acb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea62-8a3a-a910-ac43" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1f4-7808-0542-1fbe" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="09b7-69a6-14c0-7acb" name="2x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ef47-e49d-2059-efc9" name="4x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="943b-176a-361e-660a" name="6x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="89c0-37c5-decd-95e1" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1df5-7b80-80b1-069a" name="Sherman DD" hidden="false" collective="false" import="true" targetId="6f9f-69fa-6173-5d5f" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91d3-95fb-81c3-5ffa" name="Veteran Armoured M4 81mm Mortar Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="df50-1fff-714c-438a" name="M4 (.50 cal MG)" hidden="false" targetId="8ef2-553a-61ca-a474" type="profile"/>
+        <infoLink id="5f5c-381f-a145-4711" name="M4 (.50 cal MG)" hidden="false" targetId="8ef2-553a-61ca-a474" type="profile"/>
+        <infoLink id="2683-242d-d09e-0531" name="Veteran M4 (81mm mortar)" hidden="false" targetId="c97e-7d99-2e58-010e" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="02b1-3b96-868a-4cae" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="25c3-e2ad-0dfb-a1df">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3a7-94fd-52bd-d41d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b334-c9c3-7f4d-495b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="25c3-e2ad-0dfb-a1df" name="3x M4 (81mm mortar)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c28-6cce-4ee2-12d3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f468-5113-3210-47b1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1ce3-2fd2-e42a-9951" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+                <infoLink id="9425-2cd2-020e-0065" name="Rear Firing" hidden="false" targetId="e9e5-f5de-e0ef-9e90" type="rule"/>
+                <infoLink id="fd81-0379-6070-fae5" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
