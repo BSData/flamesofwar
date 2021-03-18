@@ -10830,6 +10830,26 @@ rally 3+</description>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="187a-ca10-cd0e-53e1" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="206f-18cf-5b45-0da8" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="d71e-4a9d-b3ad-ce9e" name="Ranger (brash and bold)" hidden="true" targetId="d504-2a4c-bcff-65fe" type="profile">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e9db-8afd-f417-db93" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b944-d34b-02f7-34ae" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="8ef7-9617-1793-44d0" name="Ranger" hidden="false" targetId="9e13-a72e-9726-e8cb" type="profile">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e9db-8afd-f417-db93" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b944-d34b-02f7-34ae" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
         </entryLink>
         <entryLink id="9c6c-a3ec-4027-a63e" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
           <entryLinks>
@@ -10847,7 +10867,16 @@ rally 3+</description>
       <infoLinks>
         <infoLink id="0dde-7fdc-6eb7-ced1" name="Rangers Lead The Way" hidden="false" targetId="58c8-f0e0-9bca-a3a3" type="rule"/>
         <infoLink id="ea1c-083c-bf4d-ce61" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
-        <infoLink id="57d7-cf32-fd69-4585" name="Ranger" hidden="false" targetId="9e13-a72e-9726-e8cb" type="profile"/>
+        <infoLink id="be7e-3635-2f72-17da" name="Ranger" hidden="false" targetId="9e13-a72e-9726-e8cb" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <comment>This is done because if they are part of a formation, James Earl Rudder could possibly override their profile.</comment>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9db-8afd-f417-db93" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0884-c59e-60df-a227" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
