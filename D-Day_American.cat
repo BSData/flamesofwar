@@ -4214,7 +4214,11 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a99f-1b50-9af8-502b" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="3461-08ce-877b-8d44" name="Veteran M5 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="6cd9-d536-c7d6-86ca" type="selectionEntry"/>
+    <entryLink id="3461-08ce-877b-8d44" name="Veteran M5 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="6cd9-d536-c7d6-86ca" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dbd-0d5e-881a-0a8e" type="max"/>
+      </constraints>
+    </entryLink>
     <entryLink id="3348-a65e-5d8a-768e" name="M5 Stuart Tank Company" hidden="false" collective="false" import="true" targetId="5034-ca2f-bc97-7bd9" type="selectionEntry"/>
     <entryLink id="e369-c96e-13e6-1d9b" name="Veteran M5 Stuart Tank Company" hidden="false" collective="false" import="true" targetId="41c1-c944-a0e7-0d15" type="selectionEntry"/>
     <entryLink id="d182-cc7d-3ce9-c379" name="Armoured Rifle Platoon" hidden="false" collective="false" import="true" targetId="a157-16e9-10d9-f3e4" type="selectionEntry">
