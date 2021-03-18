@@ -594,247 +594,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b18-17d6-119a-f46f" name="Ranger Company" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="04a0-70ec-1964-30e9" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="1583-bb30-9746-4217" name="Ranger Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be1e-4dab-36f0-8654" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b00-fbaa-4f04-2c4c" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="57a3-387f-4e4a-3946" name="Thompson SMG team" hidden="false" targetId="9145-3716-e597-f4cd" type="profile"/>
-            <infoLink id="5db1-211a-fd80-4c46" name="Thompson SMG team Ranger" hidden="false" targetId="ef9d-0b4d-1aac-f279" type="profile"/>
-            <infoLink id="deae-828d-3ec0-4194" name="Rangers Lead The Way" hidden="false" targetId="58c8-f0e0-9bca-a3a3" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="d98b-9651-8b76-4c83" name="1x Thompson SMG Team" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c7d-8bfd-ea7e-8b3d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acdb-4256-a1dc-fa7f" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="259b-9991-8859-c165" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9d95-6067-9aeb-b57d" name="Ranger Mortar Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8064-11fa-9d9c-a5b8" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="a0cd-d558-5f81-2e34" name="81mm mortar Ranger" hidden="false" targetId="db2f-4da1-0ad7-9720" type="profile"/>
-            <infoLink id="e161-1cde-e263-be5a" name="81mm mortar team" hidden="false" targetId="fcc3-3e11-c95d-0bb9" type="profile"/>
-            <infoLink id="88a2-2264-3a8a-1511" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-            <infoLink id="8189-0a78-c1b6-1780" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-            <infoLink id="0b78-5df8-59aa-c4b9" name="Rangers Lead The Way" hidden="false" targetId="58c8-f0e0-9bca-a3a3" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="8f18-9174-98ee-a767" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="2672-7cc4-aa8f-ffc6">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b87-4fb3-d3a7-23ed" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb7c-652e-4f1d-1c5a" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="2672-7cc4-aa8f-ffc6" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="de44-39f7-5a4d-f035" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="51d2-55c3-1799-e9fc" name="Ranger Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="631a-31d2-f3aa-e475" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1276-19cf-dab5-f8af" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="baf5-40d3-d63b-343f" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
-            <infoLink id="9b9a-0579-d885-7acc" name="Rangers Lead The Way" hidden="false" targetId="58c8-f0e0-9bca-a3a3" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="df57-b9cc-8470-af35" name="Replace 60mm mortar with M1 Garand" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f76-1638-c348-a485" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3635-a0fb-2716-88bb" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7c4-9175-9dcb-aa0a" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="5837-90ed-7b5e-d57a" name="M1 Bazooka team Ranger" hidden="false" targetId="93ea-7170-b224-1d8d" type="profile"/>
-                <infoLink id="94dc-8651-ced6-ee36" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e38b-a50b-100c-b6a8" name="7x M1 Garand, 1x 60mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56d7-3432-77e6-db39" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c40-0c0d-b3b0-0f55" type="min"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="5a12-d80e-d4cb-c90e" name="7x M1919 &amp; M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07ac-ae68-b8e2-ee08" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95ba-846a-de8b-d8ca" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="e60f-fe06-7cd4-e7cf" name="M1 Garand rifle team Ranger" hidden="false" targetId="02e5-e154-cc2c-24eb" type="profile"/>
-                    <infoLink id="97f4-c6b2-413a-d82b" name="M1 Garand rifle team" hidden="false" targetId="396b-35dc-3cb0-aeb7" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="0c60-ffd4-b00b-bba5" name="1x 60mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1478-d435-60ae-60e8" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c3-07c8-27a6-aae4" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="55c4-8b58-881f-f654" name="60mm mortar team Ranger" hidden="false" targetId="a1a8-9cde-5d5a-b645" type="profile"/>
-                    <infoLink id="153f-0019-b13c-41bc" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e454-611b-cff9-eda4" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5005-689c-a1d1-da9b" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="0b1d-57b3-15f2-a24f" name="M1 Bazooka team Ranger" hidden="false" targetId="93ea-7170-b224-1d8d" type="profile"/>
-                <infoLink id="0b48-4459-4259-aa8c" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8453-73b9-33cd-cf3d" name="Ranger Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d44-5b41-ff3d-e353" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d6b-e482-cb05-e1ef" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="7219-ca73-0fda-1eaa" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
-            <infoLink id="41d5-b215-79b8-0291" name="Rangers Lead The Way" hidden="false" targetId="58c8-f0e0-9bca-a3a3" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="4618-cb86-a12a-8359" name="Replace 60mm mortar with M1 Garand" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a76-5ec3-eb2d-a6ab" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="32e3-77ca-41ef-581c" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ea-e528-f484-97df" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="9be6-a38a-d72e-6658" name="M1 Bazooka team Ranger" hidden="false" targetId="93ea-7170-b224-1d8d" type="profile"/>
-                <infoLink id="8e12-7edb-d9aa-7612" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2abe-a806-aac2-85f0" name="7x M1 Garand, 1x 60mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b0-2286-2ecd-02d7" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="836e-18a4-c5d4-b169" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="885e-a3ef-b157-c19a" name="7x M1919 &amp; M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eb3-d6ce-000b-d9c9" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1572-f50a-e3ae-e9f0" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="d588-6272-0a0a-30c7" name="M1 Garand rifle team Ranger" hidden="false" targetId="02e5-e154-cc2c-24eb" type="profile"/>
-                    <infoLink id="a1d1-780f-d84f-1dcc" name="M1 Garand rifle team" hidden="false" targetId="396b-35dc-3cb0-aeb7" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="9ef9-629d-8b65-0329" name="1x 60mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0b9-cda6-ea0c-a1b2" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef94-7c05-3df4-d077" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="4d5a-cc1b-9f86-4241" name="60mm mortar team Ranger" hidden="false" targetId="a1a8-9cde-5d5a-b645" type="profile"/>
-                    <infoLink id="32df-9eca-5cf3-367f" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9611-3a58-f950-0fdc" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cff0-402f-51f9-f5fa" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1d55-3c03-5f7e-f17b" name="M1 Bazooka team Ranger" hidden="false" targetId="93ea-7170-b224-1d8d" type="profile"/>
-                <infoLink id="6edd-6ec9-923a-3ded" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="ca1c-7a58-5856-d715" name="Rifle Company" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="0caf-a3a5-bbab-0c65" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
@@ -8653,92 +8412,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc8e-70e1-efb8-a2d6" name="Ranger Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6043-177b-c7ed-d016" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="ef62-f6c7-995b-f412" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
-        <infoLink id="8a99-758d-9ea7-98fd" name="Rangers Lead The Way" hidden="false" targetId="58c8-f0e0-9bca-a3a3" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="c380-f933-f819-14a4" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="df41-a770-ad04-d476" name="Replace 60mm mortar with M1 Garand" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="895b-9bef-b748-fca1" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2af0-a52f-9515-1802" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2e4-41db-69c1-4bff" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="41cf-4cd0-fbe9-beda" name="M1 Bazooka team Ranger" hidden="false" targetId="93ea-7170-b224-1d8d" type="profile"/>
-            <infoLink id="f1c2-7fef-0e18-4378" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="56ae-1a20-2114-d7cd" name="7x M1 Garand, 1x 60mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="201f-6edf-1c1d-edd8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f62a-5721-bd05-1c77" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="5afd-22de-23ef-fdf6" name="7x M1919 &amp; M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed31-777a-6a93-0f66" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="242d-dd19-bfcb-8ad5" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="f4e3-f286-9be2-c098" name="M1 Garand rifle team Ranger" hidden="false" targetId="02e5-e154-cc2c-24eb" type="profile"/>
-                <infoLink id="4954-e016-1ade-fe40" name="M1 Garand rifle team" hidden="false" targetId="396b-35dc-3cb0-aeb7" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4d3f-ad7b-8e74-cde2" name="1x 60mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be93-4731-baef-4b1a" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c53-ee76-a85e-8e2d" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1b9a-5c9f-5512-2de6" name="60mm mortar team Ranger" hidden="false" targetId="a1a8-9cde-5d5a-b645" type="profile"/>
-                <infoLink id="2bdd-607b-26e6-9790" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="923f-2c9a-97b0-4f2e" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b8d-e7ae-0d09-f9aa" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="45ef-7fac-fea0-9cdc" name="M1 Bazooka team Ranger" hidden="false" targetId="93ea-7170-b224-1d8d" type="profile"/>
-            <infoLink id="f266-e450-ceb1-96df" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="75da-0a4f-4b9a-0037" name="Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f941-d297-dbb4-870e" type="max"/>
@@ -10449,7 +10122,7 @@
         <categoryLink id="bbe5-eb11-2fcb-e646" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="aef2-b358-887b-e977" name="Parachute Rifle Platoon MK2" hidden="false" collective="false" import="true" targetId="9304-7c31-8244-4efe" type="selectionEntry">
+    <entryLink id="aef2-b358-887b-e977" name="Parachute Rifle Platoon" hidden="false" collective="false" import="true" targetId="9304-7c31-8244-4efe" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f35-4dfd-21e4-3820" type="max"/>
       </constraints>
@@ -10468,6 +10141,12 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="5f0a-f11f-40c7-d507" name="P-47 Thunderbolt Fighter Flight" hidden="false" collective="false" import="true" targetId="26a7-5bd1-10c4-e08d" type="selectionEntry"/>
+    <entryLink id="7674-8337-4d1e-a28f" name="Ranger Platoon MK2" hidden="false" collective="false" import="true" targetId="26c4-6dfd-347d-4b71" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1d-4dec-8883-ad01" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="bfb3-c1cb-0726-b946" name="Ranger Company MK2" hidden="false" collective="false" import="true" targetId="e9db-8afd-f417-db93" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cc09-bb6a-6216-2c3d" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
@@ -10514,9 +10193,9 @@ Then remove all markers.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9304-7c31-8244-4efe" name="Parachute Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9304-7c31-8244-4efe" name="Parachute Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="2eeb-cc3c-bdf8-375f" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
+        <infoLink id="f68b-1c52-0a7b-8162" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b0c1-4434-d59e-1cd5" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -10914,10 +10593,14 @@ No range marker left after shot</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="0dfb-68c2-aa30-55a1" name="Turner Turnbull" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="762e-1907-4464-cf24" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e48-0466-5c57-9d6c" type="max"/>
-      </constraints>
+      <rules>
+        <rule id="ec1d-e2bd-8e87-b51d" name="Turner Turnbull" hidden="false">
+          <description>M1919 &amp; m1 garand teams in this unit may re-roll failed to hit in defensive fire.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink id="a4c3-322a-1c33-9aac" name="Unique Warrior" hidden="false" collective="false" import="true" targetId="3bf7-7a62-ca18-c39d" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
       </costs>
@@ -10953,11 +10636,280 @@ No range marker left after shot</description>
       <entryLinks>
         <entryLink id="f4bf-74a3-a4ea-22cd" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
           <selectionEntries>
-            <selectionEntry id="6674-d53c-196f-6c7c" name="dogger" hidden="false" collective="false" import="true" type="upgrade"/>
-            <selectionEntry id="c7c1-969d-6c89-553d" name="dooder" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="6674-d53c-196f-6c7c" name="370th Fighter Group" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f71a-a017-c60c-5640" name="370th Fighter Group" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
+                    <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+                    <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+                    <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+                    <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
+                    <characteristic name="Notes" typeId="d939-5084-e654-44c6">Napalm Bombs</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="c2c6-b8b4-925b-050d" name="Napalm Bombs" hidden="false">
+                  <description>No penalty for 1 or 2 weapons firing.  Only this unit can spot it.  Infantry, Gun &amp; Unarmoured tank teams reroll success.  Arm. Tanks use Top Armour</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c7c1-969d-6c89-553d" name="2000 lbs Bomb Load" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0224-b6f4-9dda-5abb" name="2000 lbs Bomb Load" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
+                    <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+                    <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+                    <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+                    <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+                    <characteristic name="Notes" typeId="d939-5084-e654-44c6">Bombs</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="0430-5175-9cf3-516a" name="Bombs" hidden="false">
+                  <description>No penalty for having only 1 or 2 weapons firing</description>
+                </rule>
+                <rule id="8dfe-2647-75ba-be93" name="2000 lbs Bomb Load" hidden="false">
+                  <description>Replace bombs &amp; rockets w/ profile</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c3b-4bda-4b6b-ec2d" name="Norman &apos;Dutch&apos; Cota" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>apply to rangers, rifle or any assault company</comment>
+      <rules>
+        <rule id="d479-184a-a09d-c788" name="Norman &apos;Dutch&apos; Cota" hidden="false">
+          <description>When assult involving this Formation Commander is falling back from assault, roll motivation.  If success, immediately rally (unpinning) and charge a second time</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink id="7af6-b5c2-baac-6f7f" name="Unique Warrior" hidden="false" collective="false" import="true" targetId="3bf7-7a62-ca18-c39d" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b944-d34b-02f7-34ae" name="James Earl Rudder" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="88a3-1834-e361-4ea6" name="James Earl Rudder" hidden="false">
+          <description>Ranger Platoons in this formation w/ Blood&apos;n&apos;Guts exchange for Brash and Bold ratings
+
+Motivation
+counterattack +2
+rally 3+</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink id="e80b-b583-6c17-5070" name="Unique Warrior" hidden="false" collective="false" import="true" targetId="3bf7-7a62-ca18-c39d" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e9db-8afd-f417-db93" name="Ranger Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="5e85-c07e-93bd-16e9" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d7c1-b98f-b725-0705" name="Ranger Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56df-0559-8051-1275" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f97-d989-457d-58f3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e188-709d-1d77-91ef" name="Thompson SMG team" hidden="false" targetId="9145-3716-e597-f4cd" type="profile"/>
+            <infoLink id="5f95-71f3-e503-f9d1" name="Rangers Lead The Way" hidden="false" targetId="58c8-f0e0-9bca-a3a3" type="rule"/>
+            <infoLink id="d6f2-d324-76ee-f369" name="Ranger" hidden="false" targetId="9e13-a72e-9726-e8cb" type="profile">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e9db-8afd-f417-db93" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b944-d34b-02f7-34ae" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="2a2d-e91c-3475-7963" name="Ranger (brash and bold)" hidden="true" targetId="d504-2a4c-bcff-65fe" type="profile">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e9db-8afd-f417-db93" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b944-d34b-02f7-34ae" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="3fe4-1eff-1b07-585e" name="1x Thompson SMG Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de1e-40da-96ac-3426" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf9-12c9-a2e7-1da8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4463-e0ea-d4bb-ebb7" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="80e7-be34-fe21-ba97" name="Ranger Mortar Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e55-0cf7-e91e-e686" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f513-65fa-b1e0-12bf" name="81mm mortar team" hidden="false" targetId="fcc3-3e11-c95d-0bb9" type="profile"/>
+            <infoLink id="b30e-dbab-ee80-ae3f" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+            <infoLink id="dc00-2ef3-cb52-3fb2" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+            <infoLink id="a7c8-748d-4904-bb11" name="Rangers Lead The Way" hidden="false" targetId="58c8-f0e0-9bca-a3a3" type="rule"/>
+            <infoLink id="d0c0-5568-07de-a2b3" name="Ranger" hidden="false" targetId="9e13-a72e-9726-e8cb" type="profile">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e9db-8afd-f417-db93" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b944-d34b-02f7-34ae" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="a5a2-6cfe-97ed-3320" name="Ranger (brash and bold)" hidden="true" targetId="d504-2a4c-bcff-65fe" type="profile">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e9db-8afd-f417-db93" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b944-d34b-02f7-34ae" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="b676-1342-cd73-6a89" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f126-14d7-33f4-0087">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc75-c0af-64fe-4a8c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f56-f117-d964-fccf" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="f126-14d7-33f4-0087" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="88e3-65f9-c2df-58f9" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2560-2950-5a40-c254" name="Ranger Platoon" hidden="false" collective="false" import="true" targetId="26c4-6dfd-347d-4b71" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="187a-ca10-cd0e-53e1" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="206f-18cf-5b45-0da8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9c6c-a3ec-4027-a63e" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1ee6-0bd9-d296-a000" name="James Earl Rudder" hidden="false" collective="false" import="true" targetId="b944-d34b-02f7-34ae" type="selectionEntry"/>
+            <entryLink id="dc4a-a97e-7e75-a0c3" name="Norman &apos;Dutch&apos; Cota" hidden="false" collective="false" import="true" targetId="9c3b-4bda-4b6b-ec2d" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="26c4-6dfd-347d-4b71" name="Ranger Platoon" hidden="false" collective="false" import="true" type="unit">
+      <comment>Need to find a way to make the M1/Mortar/Bazooka Swaps make more sense</comment>
+      <infoLinks>
+        <infoLink id="0dde-7fdc-6eb7-ced1" name="Rangers Lead The Way" hidden="false" targetId="58c8-f0e0-9bca-a3a3" type="rule"/>
+        <infoLink id="ea1c-083c-bf4d-ce61" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
+        <infoLink id="57d7-cf32-fd69-4585" name="Ranger" hidden="false" targetId="9e13-a72e-9726-e8cb" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0884-c59e-60df-a227" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ae52-11dc-ed9f-840e" name="Replace 60mm mortar with M1 Garand" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="196c-7cc6-f22f-b66c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2f41-5bf8-9786-fa05" name="Replace M1 Garand with Bazooka" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ae3-4b62-6047-6977" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="88d1-c527-1fff-3ee6" name="M1 Bazooka team" hidden="false" targetId="93ea-7170-b224-1d8d" type="profile"/>
+            <infoLink id="2ba5-e2c7-0847-7b5e" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e89a-96d1-abc1-79dd" name="7x M1 Garand, 1x 60mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80cb-60fb-365d-6ec7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff1-2546-6e37-85fc" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="df5f-905a-46de-0b42" name="7x M1919 &amp; M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="417a-f365-5865-a8ab" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fc4-6924-883a-cf3b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="caaa-238d-be90-87e5" name="M1 Garand rifle team" hidden="false" targetId="396b-35dc-3cb0-aeb7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fe32-b4ad-ac86-e0b4" name="1x 60mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb1e-e6d4-cf10-eae3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd9-e927-c67e-39e4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ca95-6246-f48a-e7f1" name="60mm mortar team Ranger" hidden="false" targetId="a1a8-9cde-5d5a-b645" type="profile"/>
+                <infoLink id="96a1-f408-e5e4-0286" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -11392,19 +11344,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
         <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ef9d-0b4d-1aac-f279" name="Thompson SMG team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-      <characteristics>
-        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ Rally 2+</characteristic>
-        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
-        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
-        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">14&quot;/35cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">14&quot;/35cm</characteristic>
-        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
     <profile id="a1a8-9cde-5d5a-b645" name="60mm mortar team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -12551,6 +12490,34 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">14&quot;/35cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9e13-a72e-9726-e8cb" name="Ranger" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+      <comment>Blood &amp; Guts</comment>
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ Rally 2+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d504-2a4c-bcff-65fe" name="Ranger (brash and bold)" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+      <comment>Brash and Bold</comment>
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ Counterattack 2+ Rally 3+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>

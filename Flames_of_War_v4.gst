@@ -19,7 +19,7 @@
     <publication id="7dad-f562-34ff-9ca3" name="All American"/>
   </publications>
   <costTypes>
-    <costType id="995a-4d67-6920-bfe4" name="pts" defaultCostLimit="-1.0"/>
+    <costType id="995a-4d67-6920-bfe4" name="pts" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="55ec-3ef5-ca51-e647" name="Tank Team">
@@ -126,6 +126,19 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="3bf7-7a62-ca18-c39d" name="Warrior" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>This is included into warrior upgrades so that there are no other warriors added to the force</comment>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a065-acf0-6a9f-9660" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8934-fece-6741-7d26" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59c4-e838-af9b-4966" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedRules>
     <rule id="c061-64c4-cd6f-ced0" name="Assault 5+" hidden="false">
       <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
