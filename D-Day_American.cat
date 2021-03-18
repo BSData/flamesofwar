@@ -7648,285 +7648,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e00-76a3-06bf-eaec" name="M10 Tank Destroyer Company" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="955c-2e26-c3ce-a7c8" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="475e-84f2-4350-1445" name="M10 Tank Destroyer Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eb5-37db-3008-0c78" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5fc-f4f5-3fce-f2a9" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ee73-603e-3f46-25c0" name="M20 (.50 cal MG)" hidden="false" targetId="9440-f072-5e97-522b" type="profile"/>
-            <infoLink id="18af-b4bc-fe13-2190" name="M20 Scout Car" hidden="false" targetId="0f9d-f355-8571-eb2b" type="profile"/>
-            <infoLink id="bfaa-23f8-ad3a-eb41" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="3d73-cf11-236d-48f3" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="1dc4-9b0a-1e9e-a13f" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="69ec-6977-8def-7726">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3626-20b9-3235-7968" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8599-a0e9-45a5-ba2c" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="69ec-6977-8def-7726" name="2x M20 Scout Car" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="29ad-62c4-42ea-4dcb" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5141-3254-aac8-49d8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7c8-ba0b-746b-6bf5" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="928e-0b62-1b0b-b1c0" name="M10 (3-inch)" hidden="false" targetId="5246-5264-6c6a-708e" type="profile"/>
-            <infoLink id="5f87-6d47-aea1-f4ed" name="M10 (50 .cal MG)" hidden="false" targetId="9fad-83d7-d0fb-cafd" type="profile"/>
-            <infoLink id="5d4d-b9bf-1bea-cb9c" name="Seek, Strike and Destroy" hidden="false" targetId="9a65-4d39-e6b4-bb94" type="rule"/>
-            <infoLink id="f5ba-0244-871b-ec7d" name="M10 (3-inch)" hidden="false" targetId="b08b-fbdc-cdc1-2db2" type="profile"/>
-            <infoLink id="075d-d631-2808-a389" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
-            <infoLink id="8768-2536-c4c6-d642" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="4ce2-1753-4060-8d1e" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="0b9b-b948-ce39-82b3">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7911-4233-dfdb-8ebb" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9d2-e14c-610b-31ce" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="0b9b-b948-ce39-82b3" name="2x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="6342-bfdd-475d-d707" name="4x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7285-12af-e6d5-4126" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab51-3a40-b57c-42fe" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1de-f3a8-2410-545e" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="8cf3-e758-fd09-e223" name="M10 (3-inch)" hidden="false" targetId="5246-5264-6c6a-708e" type="profile"/>
-            <infoLink id="f990-b408-3303-e7c1" name="M10 (50 .cal MG)" hidden="false" targetId="9fad-83d7-d0fb-cafd" type="profile"/>
-            <infoLink id="737f-f517-34f9-8330" name="Seek, Strike and Destroy" hidden="false" targetId="9a65-4d39-e6b4-bb94" type="rule"/>
-            <infoLink id="0cfe-a1bc-6956-aa50" name="M10 (3-inch)" hidden="false" targetId="b08b-fbdc-cdc1-2db2" type="profile"/>
-            <infoLink id="053a-99ef-9265-4a02" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
-            <infoLink id="024a-26f1-34d7-ee68" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="b3e2-0557-2ff8-7f84" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="f18c-2521-c9ee-a5fe">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e436-7d2d-fdcb-0eac" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4cb-0ce5-9969-6d59" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="f18c-2521-c9ee-a5fe" name="2x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="e575-80b7-a280-2116" name="4x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="360d-5538-ea7a-84b4" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05bc-2fde-f60a-48a6" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="00e9-50b2-3369-16f0" name="M10 (3-inch)" hidden="false" targetId="5246-5264-6c6a-708e" type="profile"/>
-            <infoLink id="b256-7466-9a0e-3ca7" name="M10 (50 .cal MG)" hidden="false" targetId="9fad-83d7-d0fb-cafd" type="profile"/>
-            <infoLink id="573c-d42d-e38d-44e3" name="Seek, Strike and Destroy" hidden="false" targetId="9a65-4d39-e6b4-bb94" type="rule"/>
-            <infoLink id="418c-7b2a-7251-5d59" name="M10 (3-inch)" hidden="false" targetId="b08b-fbdc-cdc1-2db2" type="profile"/>
-            <infoLink id="99bc-26d1-0894-d06d" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
-            <infoLink id="69d5-0ff5-59d6-8253" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="1268-04ab-8d55-1012" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="bff2-aaf9-565e-a870">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="361c-acf4-4e9a-b41b" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="230d-5165-6490-0f27" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="bff2-aaf9-565e-a870" name="2x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="fd63-5896-b998-ebd7" name="4x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fe77-b966-95a4-37c7" name="M20 Security Section" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5735-75b4-2e9b-1d84" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="676c-c232-44bc-cdd7" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="85b1-e654-c6f3-1f2b" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-            <infoLink id="2c73-3d3c-655c-127a" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-            <infoLink id="fb28-74a0-c60f-f6d1" name="Jeep (MG)" hidden="false" targetId="61c4-47de-1489-9d0c" type="profile"/>
-            <infoLink id="3312-5593-297a-998d" name="Jeep (.50 cal MG)" hidden="false" targetId="3228-2d38-a747-e65a" type="profile"/>
-            <infoLink id="c37c-247e-ee1e-4a9d" name="M20 (.50 cal MG)" hidden="false" targetId="9440-f072-5e97-522b" type="profile"/>
-            <infoLink id="f24e-fd19-7745-0ad2" name="M20 Scout Car Security" hidden="false" targetId="8cd3-02a9-7169-fb96" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="a568-314b-7bf4-f69f" name="2x M20 Scout Car" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9d7-9cd6-7f4a-9f9b" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5acb-b1b5-b664-b8ca" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="2d8d-1b2c-184d-9a1e" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3632-d4dd-6dfb-4ec4" name="1x Jeep (M.50 cal G)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a8a-31fc-9a6f-3d41" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f6e-6400-260e-2313" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="9b94-b267-65fd-57dc" name="Component" hidden="false" targetId="048e-4cee-802c-bf9c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c02d-5e18-4dbb-14a6" name="M20 Security Section" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38b5-56ee-5483-bec4" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="619e-bbc1-0a41-8c11" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="7ec1-54be-54c6-da0c" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-            <infoLink id="f976-48b3-ebeb-1b1e" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-            <infoLink id="50ae-ca51-2696-2aa2" name="Jeep (MG)" hidden="false" targetId="61c4-47de-1489-9d0c" type="profile"/>
-            <infoLink id="80a4-be78-77f7-9538" name="Jeep (.50 cal MG)" hidden="false" targetId="3228-2d38-a747-e65a" type="profile"/>
-            <infoLink id="f3da-03c4-1f0c-f3c5" name="M20 (.50 cal MG)" hidden="false" targetId="9440-f072-5e97-522b" type="profile"/>
-            <infoLink id="0e50-3899-3b64-d973" name="M20 Scout Car Security" hidden="false" targetId="8cd3-02a9-7169-fb96" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="a3cf-2218-c8df-e436" name="2x M20 Scout Car" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e92-7af8-2f93-3d33" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d53-f8a1-fedf-180f" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="7a8b-b62b-d999-6ed5" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="430a-1b4c-772c-9147" name="1x Jeep (M.50 cal G)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1459-6057-38f7-f2f6" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6342-52e0-1e13-990c" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="c58e-405a-b0c4-5826" name="Component" hidden="false" targetId="048e-4cee-802c-bf9c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c6b4-67b5-d9b0-c97f" name="M20 Security Section" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e323-f850-b486-1e30" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b857-167b-91c4-3474" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="c617-33ba-2842-1743" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-            <infoLink id="e688-0e01-a14a-3950" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-            <infoLink id="9c2f-1ccf-1177-baa1" name="Jeep (MG)" hidden="false" targetId="61c4-47de-1489-9d0c" type="profile"/>
-            <infoLink id="3628-0827-29c0-211f" name="Jeep (.50 cal MG)" hidden="false" targetId="3228-2d38-a747-e65a" type="profile"/>
-            <infoLink id="907d-e3cc-6d1b-79a2" name="M20 (.50 cal MG)" hidden="false" targetId="9440-f072-5e97-522b" type="profile"/>
-            <infoLink id="6075-6b65-1a41-856f" name="M20 Scout Car Security" hidden="false" targetId="8cd3-02a9-7169-fb96" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="cfb6-f237-bcc7-a939" name="2x M20 Scout Car" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecbc-658b-1eca-dba8" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b871-db7e-23a7-fb3b" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="672a-1baf-165b-3bd8" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9bd2-3b5a-b9d9-d417" name="1x Jeep (M.50 cal G)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce5b-5e6a-20c6-9f25" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf4c-79dd-135b-02cf" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="116a-4cd0-cf59-5f76" name="Component" hidden="false" targetId="048e-4cee-802c-bf9c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="746b-dc24-d5ad-8250" name="M8 Greyhound Cavalry Recon Patrol" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a5-73cc-85c6-b6ee" type="max"/>
@@ -9637,45 +9358,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7112-1596-1d97-5f3d" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a66c-2eb1-b4cb-7263" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="a67d-3340-070e-f076" name="M10 (3-inch)" hidden="false" targetId="5246-5264-6c6a-708e" type="profile"/>
-        <infoLink id="5d2c-5ffa-bc74-7264" name="M10 (50 .cal MG)" hidden="false" targetId="9fad-83d7-d0fb-cafd" type="profile"/>
-        <infoLink id="ff7e-7e2c-4209-64c4" name="Seek, Strike and Destroy" hidden="false" targetId="9a65-4d39-e6b4-bb94" type="rule"/>
-        <infoLink id="b355-1d5c-6075-abe4" name="M10 (3-inch)" hidden="false" targetId="b08b-fbdc-cdc1-2db2" type="profile"/>
-        <infoLink id="112b-acbe-83c5-0ce8" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
-        <infoLink id="589d-4c3a-e33b-fb37" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="184b-f8ac-42c8-fc44" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="60a9-0957-ed9a-d1e3" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="18d6-e638-5dc1-7dbf">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f60-1965-98d7-3b62" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c713-57a2-9922-5f92" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="18d6-e638-5dc1-7dbf" name="2x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a186-cbe7-afdf-901b" name="4x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="6435-dc66-64e2-f583" name="M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="714f-9b18-90d2-d413" type="max"/>
@@ -10147,6 +9829,12 @@
       </constraints>
     </entryLink>
     <entryLink id="bfb3-c1cb-0726-b946" name="Ranger Company MK2" hidden="false" collective="false" import="true" targetId="e9db-8afd-f417-db93" type="selectionEntry"/>
+    <entryLink id="0553-1238-d5fa-5266" name="M10 Tank Destroyer Company MK2" hidden="false" collective="false" import="true" targetId="1c1f-dac1-c644-35b4" type="selectionEntry"/>
+    <entryLink id="76d0-f7ad-c613-f357" name="M10 Tank Destroyer Platoon MK2" hidden="false" collective="false" import="true" targetId="59c3-3306-e00a-09b2" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ca-e771-0dea-4997" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cc09-bb6a-6216-2c3d" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
@@ -10715,7 +10403,7 @@ rally 3+</description>
         </rule>
       </rules>
       <entryLinks>
-        <entryLink id="e80b-b583-6c17-5070" name="Unique Warrior" hidden="false" collective="false" import="true" targetId="3bf7-7a62-ca18-c39d" type="selectionEntry"/>
+        <entryLink id="e80b-b583-6c17-5070" name="Warrior" hidden="false" collective="false" import="true" targetId="3bf7-7a62-ca18-c39d" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
@@ -10942,6 +10630,227 @@ rally 3+</description>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="59c3-3306-e00a-09b2" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4ae9-ad41-d12e-f7b1" name="M10" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counter Attack 6</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8507-bdf3-a390-80dc" name="M10 (3-inch)" hidden="false" targetId="5246-5264-6c6a-708e" type="profile"/>
+        <infoLink id="cef6-b537-66a5-fbe0" name="M10 (50 .cal MG)" hidden="false" targetId="9fad-83d7-d0fb-cafd" type="profile"/>
+        <infoLink id="b501-5a82-0240-4b74" name="Seek, Strike and Destroy" hidden="false" targetId="9a65-4d39-e6b4-bb94" type="rule"/>
+        <infoLink id="5106-198f-1bce-c487" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
+        <infoLink id="f3be-eab6-b3df-383b" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1ed7-3d04-9a8d-e1c2" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2dd6-ffae-16b6-685d" name="Unit Size" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4e4-9d7e-675c-9e34">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="405d-67e0-7c44-236e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8366-f821-4a79-ee4f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a4e4-9d7e-675c-9e34" name="2x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a15d-dede-c6fe-7fea" name="4x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c1f-dac1-c644-35b4" name="M10 Tank Destroyer Company" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="85ac-3a15-ac48-5812" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0656-f819-920f-3d26" name="M10 Tank Destroyer Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64a5-5a82-3c21-6632" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95fb-8f62-81d5-c400" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d292-af98-0c8c-5994" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cd86-1a16-b00d-5833" name="M10" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+              <characteristics>
+                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counter Attack 6</characteristic>
+                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
+                <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+                <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
+                <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+                <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+                <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+                <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+                <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="c95f-68ff-931a-0784" name="2 x M20 Scout Car" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="458d-dcc2-c25d-782f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c566-86cc-f4df-2cda" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="57d7-504e-9f09-9516" name="M20 Scout Car" hidden="false" targetId="0f9d-f355-8571-eb2b" type="profile"/>
+                <infoLink id="505f-8f93-24c7-b95c" name="M20 (.50 cal MG)" hidden="false" targetId="9440-f072-5e97-522b" type="profile"/>
+                <infoLink id="99b4-bc08-8d2b-756a" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+                <infoLink id="33ec-74c6-0620-ecb2" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="150e-a6a2-3b97-60b7" name="M20 Security Section" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64a5-5a82-3c21-6632" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1b4-5f9d-10b5-89d7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9d22-69b7-991b-767d" name="M10" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+              <characteristics>
+                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counter Attack 6</characteristic>
+                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
+                <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+                <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
+                <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+                <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+                <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+                <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+                <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e7e1-c08b-c161-c47a" name="M10" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+              <characteristics>
+                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counter Attack 6</characteristic>
+                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
+                <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+                <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
+                <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+                <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+                <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+                <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+                <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="14d2-b0a9-0b5b-5b8d" name="2x M20 Scout Car" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35eb-4caf-501a-282f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c85c-6f0a-5170-1477" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="619c-6fea-4c4d-430f" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
+                <infoLink id="9bc8-e007-790e-fa4f" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+                <infoLink id="541e-b2fb-2572-fe8b" name="M20 Scout Car" hidden="false" targetId="8cd3-02a9-7169-fb96" type="profile"/>
+                <infoLink id="7aae-fcd1-1596-b519" name="M20 (.50 cal MG)" hidden="false" targetId="9440-f072-5e97-522b" type="profile"/>
+                <infoLink id="c7a9-50cc-ed2e-a9e2" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+                <infoLink id="a1e1-810b-74c9-9ad1" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9170-425c-7f2b-86f2" name="1x Jeep (M.50 cal G)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49ce-7dee-7768-6113" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f244-73d6-a784-11d4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8a79-828b-f6e2-8ab6" name="Component" hidden="false" targetId="048e-4cee-802c-bf9c" type="rule"/>
+                <infoLink id="039e-2854-e100-eb49" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+                <infoLink id="9d10-f4d4-0d65-e1bb" name="Jeep (MG)" hidden="false" targetId="61c4-47de-1489-9d0c" type="profile"/>
+                <infoLink id="a6de-20fa-b3b2-f351" name="Jeep (.50 cal MG)" hidden="false" targetId="3228-2d38-a747-e65a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5fc7-8b2a-2e59-1dae" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" targetId="59c3-3306-e00a-09b2" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64a5-5a82-3c21-6632" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e53-4ee1-a566-cdbb" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ec4-7320-3f60-14ee" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a395-dc4e-935c-542b" name="Desert Veteran" hidden="false" collective="false" import="true" targetId="64a5-5a82-3c21-6632" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64a5-5a82-3c21-6632" name="Desert Veteran" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e717-33cb-89d2-be06" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8f8-2cc5-debc-24ed" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="784f-94fb-2719-727c" name="Desert Veteran" hidden="false">
+          <description>All units in this formation have Skill: 3+, Assault 4+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="14c0-0737-f1de-7f48" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+        <categoryLink id="1ec7-90b4-dc42-2fee" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -11981,6 +11890,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       </characteristics>
     </profile>
     <profile id="0f9d-f355-8571-eb2b" name="M20 Scout Car" publicationId="567b-dc5a-c654-5ad4" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+      <comment>HQ Variant</comment>
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
@@ -11993,21 +11903,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">40&quot;/100cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b08b-fbdc-cdc1-2db2" name="M10 (3-inch)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
-      <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counter Attack 6</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
-        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
-        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="8cd3-02a9-7169-fb96" name="M20 Scout Car" publicationId="567b-dc5a-c654-5ad4" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
