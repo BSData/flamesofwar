@@ -3056,211 +3056,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4160-86a3-e083-682e" name="105mm Field Artillery Battery" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="c285-ffe0-b006-6430" value="2.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="497d-c19f-9833-a92b" type="equalTo"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed89-43b1-ea81-9ffe" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="c285-ffe0-b006-6430" value="1.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="497d-c19f-9833-a92b" type="equalTo"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed89-43b1-ea81-9ffe" type="equalTo"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="497d-c19f-9833-a92b" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="c285-ffe0-b006-6430" value="0.0">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed89-43b1-ea81-9ffe" type="equalTo"/>
-                <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="497d-c19f-9833-a92b" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c285-ffe0-b006-6430" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="afee-2e60-d46d-17a3" name="105mm howitzer Direct Fire" hidden="false" targetId="2c57-651c-5093-4ee9" type="profile"/>
-        <infoLink id="df71-ec01-058a-718e" name="105mm howitzer" hidden="false" targetId="49e1-4963-c258-d846" type="profile"/>
-        <infoLink id="c505-112c-0097-2dbc" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-        <infoLink id="cfd9-9630-a6f1-d183" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
-        <infoLink id="04f0-2cba-322c-906b" name="105mm howitzer" hidden="false" targetId="5df0-cd89-2516-f0f2" type="profile"/>
-        <infoLink id="15c9-07c5-7684-616d" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-        <infoLink id="ceb0-9c9c-04e6-5a2c" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-        <infoLink id="8558-0ec7-7b24-da5c" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
-        <infoLink id="2091-32a7-21b1-e032" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-        <infoLink id="5ec3-d1f3-6c95-8bed" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-        <infoLink id="6564-49d1-4792-fdfb" name="Time on Target" hidden="false" targetId="362d-f3a8-928b-fba2" type="rule"/>
-        <infoLink id="211d-0ede-9df0-4604" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="1848-efa8-0b13-8a6a" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="909f-94ea-7490-3cfb" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e0ce-eabc-055a-110a">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1938-379e-bebb-83bf" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbee-7af4-4425-b169" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="e0ce-eabc-055a-110a" name="2x 105mm howitzer" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="23ee-a0db-1acd-8999" name="4x 105mm howitzer" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="497d-c19f-9833-a92b" name="M7 Priest Artillery Battery" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="16bc-a557-dfc7-185e" value="1.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4160-86a3-e083-682e" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="16bc-a557-dfc7-185e" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4160-86a3-e083-682e" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16bc-a557-dfc7-185e" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="9533-c3b8-0096-168f" name="M7 Priest (105mm)" hidden="false" targetId="cffe-fbf9-fe0c-813a" type="profile"/>
-        <infoLink id="7132-fb15-d1e6-091d" name="M7 Priest (105mm) Direct Fire" hidden="false" targetId="8ed3-a4aa-af7e-62ef" type="profile"/>
-        <infoLink id="3c6a-d569-fdf7-6f1a" name="Time on Target" hidden="false" targetId="362d-f3a8-928b-fba2" type="rule"/>
-        <infoLink id="2f5c-a97c-47ee-4a18" name="M7 Priest (105mm)" hidden="false" targetId="88bf-696c-d69e-c9e9" type="profile"/>
-        <infoLink id="9fb6-9946-48e9-4249" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-        <infoLink id="9caa-1eb4-4099-7e61" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-        <infoLink id="da41-cf43-166a-7fab" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-        <infoLink id="7aca-4136-4b19-f136" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
-        <infoLink id="7a42-c5d8-1928-0a81" name="M7 Priest (.50 cal MG)" hidden="false" targetId="ff1d-7bc4-c1ad-4121" type="profile"/>
-        <infoLink id="6704-aa12-7c08-4c48" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-        <infoLink id="9573-4567-0b65-2e1f" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="4639-a611-30fe-1694" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="f7ca-aacd-0508-4b0b" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="14fc-3724-1a87-22c8">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8ea-d72b-3e88-9978" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e31d-d956-f3de-5a12" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="14fc-3724-1a87-22c8" name="3x M7 Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="566f-c76d-a609-8fcd" name="6x M7 Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ed89-43b1-ea81-9ffe" name="M12 155mm Artillery Battery" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="d867-092b-b290-0abc" value="0.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4160-86a3-e083-682e" type="equalTo"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4160-86a3-e083-682e" type="equalTo"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="497d-c19f-9833-a92b" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4160-86a3-e083-682e" type="equalTo"/>
-                    <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="497d-c19f-9833-a92b" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d867-092b-b290-0abc" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="d5dc-235d-77e1-e3ba" name="M12 (155mm)" hidden="false" targetId="e73c-cb62-1339-dc0e" type="profile"/>
-        <infoLink id="985e-f277-7908-8ff2" name="Time on Target" hidden="false" targetId="362d-f3a8-928b-fba2" type="rule"/>
-        <infoLink id="aec0-dc67-d584-a9d1" name="M12 (155mm) Direct Fire" hidden="false" targetId="0ab3-9136-a969-9846" type="profile"/>
-        <infoLink id="10e7-d671-7060-5100" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
-        <infoLink id="bd03-e13b-47d4-91e0" name="M12 (155mm)" hidden="false" targetId="1c05-acbf-f91f-8050" type="profile"/>
-        <infoLink id="dc07-42f6-d333-a2f5" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-        <infoLink id="ef61-6317-d59b-c8f8" name="Gigantic" hidden="false" targetId="fd27-8b6a-33d6-22d0" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="e923-aee7-863a-870a" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="b13f-e44c-180a-45ec" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f4d3-1e1d-060d-1039">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5c8-b232-295b-8f79" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ba-a134-759b-30aa" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="f4d3-1e1d-060d-1039" name="2x M12 (155mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c0a0-709c-153f-5419" name="4x M12 (155mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="bfe8-807d-d51e-835e" name="M4 Sherman OP Observation Post" publicationId="567b-dc5a-c654-5ad4" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="7c21-8f5d-04fe-09cf" value="1.0">
@@ -3272,9 +3067,9 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed89-43b1-ea81-9ffe" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="497d-c19f-9833-a92b" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4160-86a3-e083-682e" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56fb-e8f2-e027-08b9" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4296-7e5f-b54a-0cc7" type="atLeast"/>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b48-7139-4ee4-4988" type="atLeast"/>
                   </conditions>
@@ -3292,9 +3087,9 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed89-43b1-ea81-9ffe" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="497d-c19f-9833-a92b" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4160-86a3-e083-682e" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56fb-e8f2-e027-08b9" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4296-7e5f-b54a-0cc7" type="atLeast"/>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b48-7139-4ee4-4988" type="atLeast"/>
                   </conditions>
@@ -3353,9 +3148,9 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed89-43b1-ea81-9ffe" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="497d-c19f-9833-a92b" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4160-86a3-e083-682e" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56fb-e8f2-e027-08b9" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b48-7139-4ee4-4988" type="atLeast"/>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4296-7e5f-b54a-0cc7" type="atLeast"/>
                   </conditions>
@@ -3373,9 +3168,9 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed89-43b1-ea81-9ffe" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="497d-c19f-9833-a92b" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4160-86a3-e083-682e" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56fb-e8f2-e027-08b9" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b48-7139-4ee4-4988" type="atLeast"/>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4296-7e5f-b54a-0cc7" type="atLeast"/>
                   </conditions>
@@ -4099,6 +3894,48 @@
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="64b2-8f94-f47b-2192" name="M7 Priest or 105mm Field Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40f3-51cf-a42b-c9fc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2b68-c0c2-442d-eda1" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
+        <categoryLink id="27e4-a503-922f-6935" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1e28-f414-5a06-7049" name="Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="cbbc-198b-7eaf-0b43">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba6c-bebb-cbb1-cee5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="589d-f868-b686-0c08" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="cbbc-198b-7eaf-0b43" name="M7 Priest Artillery Battery" hidden="false" collective="false" import="true" targetId="56fb-e8f2-e027-08b9" type="selectionEntry"/>
+            <entryLink id="ca5f-109a-3bdb-7312" name="105mm Field Artillery Battery" hidden="false" collective="false" import="true" targetId="fc4f-276c-a224-770f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="aa4e-be3a-5103-59b1" name="M12 155mm or 105mm Field Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f23-186a-65e4-4eb7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a7da-67c9-f398-1473" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
+        <categoryLink id="5fd5-be5b-804c-4be7" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="937c-4854-e25a-3aae" name="Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="0518-d8dc-ec19-cee1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a76a-f646-a26e-2208" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62e2-f8e3-9e48-0fdf" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0518-d8dc-ec19-cee1" name="M12 155mm Artillery Battery" hidden="false" collective="false" import="true" targetId="accd-7f6e-fe88-df86" type="selectionEntry"/>
+            <entryLink id="9ad7-bdf4-fc58-e024" name="105mm Field Artillery Battery" hidden="false" collective="false" import="true" targetId="fc4f-276c-a224-770f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -7022,8 +6859,25 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a3c-eb7f-c337-2d00" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9e67-4988-b067-a4d5" name="105mm Cannon Platoon" hidden="false" collective="false" import="true" targetId="fa70-d6f6-7291-91e1" type="selectionEntry"/>
+            <entryLink id="9e67-4988-b067-a4d5" name="105mm Cannon Platoon" hidden="false" collective="false" import="true" targetId="fa70-d6f6-7291-91e1" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="848b-6b56-9673-70ec" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="595f-2b5a-9d81-9e94" name="M4 Sherman (105mm) Tank Platoon" hidden="false" collective="false" import="true" targetId="9b0e-3e5d-1c2c-2754" type="selectionEntry"/>
+            <entryLink id="a997-dcc2-6751-0291" name="M7 Priest Artillery Battery" hidden="true" collective="false" import="true" targetId="56fb-e8f2-e027-08b9" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="848b-6b56-9673-70ec" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7070,6 +6924,7 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
         <entryLink id="f758-ed87-1bfc-afce" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="37e8-9201-56d8-f628" name="2nd Infantry Division - Indian Head" hidden="false" collective="false" import="true" targetId="16b9-3530-7fc3-3dbd" type="selectionEntry"/>
+            <entryLink id="f592-db42-169f-3b7a" name="4th Infantry Division - Ivy" hidden="false" collective="false" import="true" targetId="848b-6b56-9673-70ec" type="selectionEntry"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -7834,6 +7689,10 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d289-dd4d-cce4-3b5a" name="4x 4.2&quot; Chemical Mortars" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a12d-91d1-ebba-5619" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fc4-3f0f-f7f1-606c" type="min"/>
+          </constraints>
           <profiles>
             <profile id="74c0-7cfd-a0f1-a84b" name="4x 4.2&quot; Chemical Mortars" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
               <characteristics>
@@ -7942,6 +7801,241 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
             <selectionEntry id="73bd-6632-ed99-48d4" name="1x M15 (37mm &amp; .50 cal), 1x M16 (Quad .50 cal)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="848b-6b56-9673-70ec" name="4th Infantry Division - Ivy" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="bd0a-ff16-09fe-25cc" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="56fb-e8f2-e027-08b9" name="M7 Priest Artillery Battery" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="61e0-b2ee-481b-322a" name="M7 Priest" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counter Attack 6</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 6</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="680b-3b9d-a15b-670d" name="M7 Priest (.50 cal MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dff2-c2b4-f078-c1ad" name="M7 Priest (105mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5cb2-c2f5-0d3f-62bd" name="M7 Priest (105mm) Direct Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing, Smoke</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9c62-0188-76ed-cc64" name="Time on Target" hidden="false" targetId="362d-f3a8-928b-fba2" type="rule"/>
+        <infoLink id="2749-e809-95e2-6971" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+        <infoLink id="8b43-4b38-a4c2-9d24" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="8bba-7a4d-7703-0244" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="7213-2cb7-cd8b-c9f3" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="8e98-e992-0d59-7955" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+        <infoLink id="b9cf-5d62-68ec-c061" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9435-5dd2-4a02-0822" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bb8d-d201-0c33-b38f" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a756-467f-8dcf-a47d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b650-ddc3-6e4a-9309" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50fe-e68f-4dbd-28db" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a756-467f-8dcf-a47d" name="3x M7 Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d863-e89a-fe95-b85b" name="6x M7 Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc4f-276c-a224-770f" name="105mm Field Artillery Battery" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
+      <comment></comment>
+      <profiles>
+        <profile id="45b5-dba6-4343-919e" name="105mm howitzer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="730c-ace9-f205-51e2" name="105mm howitzer" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="29f0-505f-928b-0d05" name="105mm howitzer Direct Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing, Smoke</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0c30-10d8-231c-18a3" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
+        <infoLink id="7ee2-432a-7552-acf0" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
+        <infoLink id="7e34-96e1-dd93-392a" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="8efc-a654-6d78-8e80" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+        <infoLink id="ccf1-4ea3-cb37-2df0" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="0de9-cc8f-2ac1-c059" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="ba1d-4296-75b1-bba2" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+        <infoLink id="4709-f757-f6b5-0b04" name="Time on Target" hidden="false" targetId="362d-f3a8-928b-fba2" type="rule"/>
+        <infoLink id="9be2-f48a-928f-4f62" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2ad8-9f6b-b37a-0964" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6afb-9a89-fd7a-8d8d" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="3490-0b10-7490-d1b5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab36-f482-f010-eb46" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cd0-1b93-d30e-f0cc" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3490-0b10-7490-d1b5" name="2x 105mm howitzer" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b1d9-bab1-0bde-3244" name="4x 105mm howitzer" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="accd-7f6e-fe88-df86" name="M12 155mm Artillery Battery" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fca9-76e2-28cf-97cf" name="M12 (155mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 6</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">0</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">0</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4e8a-a8ed-fe99-c9a1" name="M12 (155mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">96&quot;/240cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="062f-9e1a-cd61-87e8" name="M12 (155mm) Direct Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">-</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">15</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="41f5-60ce-a438-40a9" name="Time on Target" hidden="false" targetId="362d-f3a8-928b-fba2" type="rule"/>
+        <infoLink id="c1ff-90ad-a6e1-3aa8" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="3e4e-e5a5-9131-2369" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="bd60-1cb1-7544-624a" name="Gigantic" hidden="false" targetId="fd27-8b6a-33d6-22d0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6366-319b-124b-3a27" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="45e2-75bd-8bc5-5f64" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="84c9-6cb0-4cab-147d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb41-4311-c894-74a4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3a1-a495-bddb-edbd" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="84c9-6cb0-4cab-147d" name="2x M12 (155mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b1b4-6c7f-afa2-2868" name="4x M12 (155mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9143,119 +9237,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, No HE</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5df0-cd89-2516-f0f2" name="105mm howitzer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 5+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="49e1-4963-c258-d846" name="105mm howitzer" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2c57-651c-5093-4ee9" name="105mm howitzer Direct Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing, Smoke</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="cffe-fbf9-fe0c-813a" name="M7 Priest (105mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
-      <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counter Attack 6</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 6</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
-        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
-        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
-        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ff1d-7bc4-c1ad-4121" name="M7 Priest (.50 cal MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="88bf-696c-d69e-c9e9" name="M7 Priest (105mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8ed3-a4aa-af7e-62ef" name="M7 Priest (105mm) Direct Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing, Smoke</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e73c-cb62-1339-dc0e" name="M12 (155mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
-      <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 6</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
-        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">0</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">0</characteristic>
-        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
-        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="1c05-acbf-f91f-8050" name="M12 (155mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">96&quot;/240cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="0ab3-9136-a969-9846" name="M12 (155mm) Direct Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">-</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">15</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing</characteristic>
       </characteristics>
     </profile>
     <profile id="77cb-c397-f532-951b" name="L4 Grashopper OP" publicationId="567b-dc5a-c654-5ad4" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft">
