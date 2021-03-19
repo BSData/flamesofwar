@@ -3056,163 +3056,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bfe8-807d-d51e-835e" name="M4 Sherman OP Observation Post" publicationId="567b-dc5a-c654-5ad4" hidden="true" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="7c21-8f5d-04fe-09cf" value="1.0">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4124-b4b0-867c-2909" type="equalTo"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56fb-e8f2-e027-08b9" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4296-7e5f-b54a-0cc7" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b48-7139-4ee4-4988" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4124-b4b0-867c-2909" type="equalTo"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56fb-e8f2-e027-08b9" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4296-7e5f-b54a-0cc7" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b48-7139-4ee4-4988" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4124-b4b0-867c-2909" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c21-8f5d-04fe-09cf" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="79b9-8ba7-1373-eda6" name="M4 Sherman OP" hidden="false" targetId="3cd1-864f-6279-0ca6" type="profile"/>
-        <infoLink id="fa84-675d-88ae-51a3" name="M4 Sherman OP (MGs)" hidden="false" targetId="5706-434a-6f12-7591" type="profile"/>
-        <infoLink id="d844-a202-7eab-3759" name="M4 Sherman OP (75mm)" hidden="false" targetId="4473-2796-b4e7-e59b" type="profile"/>
-        <infoLink id="9608-84ad-3475-d508" name="M4 Sherman OP (.50 cal MG)" hidden="false" targetId="337a-3373-c418-dbdf" type="profile"/>
-        <infoLink id="8d0a-ff86-cf0d-b840" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="7087-0c30-43a8-4ea5" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="24ea-0fdb-d484-e33d" name="1x M4 Sherman OP (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a520-0efb-4f5a-3cba" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9ef-62b4-afa6-0919" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="1a9a-0046-62b0-b282" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
-            <infoLink id="0036-b4a2-0d0d-3901" name="Independent Tank Unit" hidden="false" targetId="b650-398e-5817-50fb" type="rule"/>
-            <infoLink id="6e7b-1c9a-dbfe-32c2" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4124-b4b0-867c-2909" name="L4 Grashopper OP Observation Post" publicationId="567b-dc5a-c654-5ad4" hidden="true" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="9d1a-6512-b44d-898a" value="1.0">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfe8-807d-d51e-835e" type="equalTo"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56fb-e8f2-e027-08b9" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b48-7139-4ee4-4988" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4296-7e5f-b54a-0cc7" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfe8-807d-d51e-835e" type="equalTo"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56fb-e8f2-e027-08b9" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b48-7139-4ee4-4988" type="atLeast"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4296-7e5f-b54a-0cc7" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfe8-807d-d51e-835e" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d1a-6512-b44d-898a" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="cc57-2e43-7ba2-4257" name="L4 Grashopper OP" hidden="false" targetId="77cb-c397-f532-951b" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="36b0-a2f7-3418-31ce" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7d0b-fd37-4b2a-65cc" name="1x L4 Grashopper OP" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d654-47aa-e71b-9fbb" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1416-184f-564d-5dba" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b8dd-7843-8611-d66a" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
-            <infoLink id="4a8b-def2-26cc-7e0f" name="Air Observer Post" hidden="false" targetId="23b4-2aa9-c7ec-25fa" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="fcb7-2c2f-7c2c-db39" name="Veteran Assault Boat Section" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3b3-ce35-64a4-e8aa" type="max"/>
@@ -3895,27 +3738,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="64b2-8f94-f47b-2192" name="M7 Priest or 105mm Field Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40f3-51cf-a42b-c9fc" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="2b68-c0c2-442d-eda1" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
-        <categoryLink id="27e4-a503-922f-6935" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="1e28-f414-5a06-7049" name="Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="cbbc-198b-7eaf-0b43">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba6c-bebb-cbb1-cee5" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="589d-f868-b686-0c08" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="cbbc-198b-7eaf-0b43" name="M7 Priest Artillery Battery" hidden="false" collective="false" import="true" targetId="56fb-e8f2-e027-08b9" type="selectionEntry"/>
-            <entryLink id="ca5f-109a-3bdb-7312" name="105mm Field Artillery Battery" hidden="false" collective="false" import="true" targetId="fc4f-276c-a224-770f" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntry>
     <selectionEntry id="aa4e-be3a-5103-59b1" name="M12 155mm or 105mm Field Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f23-186a-65e4-4eb7" type="max"/>
@@ -3936,6 +3758,51 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="974f-0e91-78f7-ea25" name="L4 Grasshopper or M4 Sherman OP Observeration Post" hidden="true" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fc4f-276c-a224-770f" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4296-7e5f-b54a-0cc7" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b48-7139-4ee4-4988" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56fb-e8f2-e027-08b9" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="accd-7f6e-fe88-df86" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false"/>
+            <modifier type="set" field="4ee7-03dc-7a5c-1b2c" value="1.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ee7-03dc-7a5c-1b2c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c4ee-da8d-3433-c951" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9bc4-468a-734b-3ede" name="Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="166b-2636-3ff5-26f3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eca4-3be6-b653-5170" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e45d-638c-0503-ba93" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="166b-2636-3ff5-26f3" name="L4 Grashopper OP Observation Post" hidden="false" collective="false" import="true" targetId="7346-c81b-b2f3-3425" type="selectionEntry"/>
+            <entryLink id="52e4-2763-ca3d-2c1d" name="M4 Sherman OP Observation Post" hidden="false" collective="false" import="true" targetId="f020-6b93-0f73-96c3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -4051,6 +3918,11 @@
     <entryLink id="18e5-a388-94e0-1295" name="M15 &amp; M16 AAA Platoon" hidden="false" collective="false" import="true" targetId="8cd3-2705-45f6-1a2a" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbc7-a981-e0f8-5997" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="cefd-3c20-e82e-648a" name="M7 Priest or 105mm Field Artillery Battery" hidden="false" collective="false" import="true" targetId="0916-4a22-1e79-fb05" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d9-a412-9866-0e9b" type="max"/>
       </constraints>
     </entryLink>
   </entryLinks>
@@ -4515,8 +4387,22 @@ No range marker left after shot</description>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d386-2e24-220e-56a2" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="05b1-e411-17cd-9eff" name="P-47 Thunderbolt" publicationId="567b-dc5a-c654-5ad4" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">4+</characteristic>
+            <characteristic name="Skill" typeId="e506-9161-836a-5e2d">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="9691-8132-58f7-5f86">5+</characteristic>
+            <characteristic name="Save" typeId="3a7a-29d5-008e-09f7">3+</characteristic>
+            <characteristic name="Tactical" typeId="8791-6355-ebcf-f430">UNLIMITED</characteristic>
+            <characteristic name="Terrain Dash" typeId="e6d2-8608-f213-ef1f"/>
+            <characteristic name="Cross Country Dash" typeId="037d-b1be-ca62-5c3e"/>
+            <characteristic name="Road Dash" typeId="207b-99f1-9a35-12d8"/>
+            <characteristic name="Cross" typeId="07b3-6909-7897-f282">AUTO</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="3514-7814-97ba-705e" name="P-47 Thunderbolt" hidden="false" targetId="53ee-1024-e45e-ed77" type="profile"/>
         <infoLink id="755e-2b6d-e1c0-b86e" name=".50 cal MGs" hidden="false" targetId="ee1c-7e88-1b4a-214b" type="profile"/>
         <infoLink id="90ab-b3a1-b67a-0e08" name="HVAR rockets" hidden="false" targetId="dbf6-f7ef-db09-828b" type="profile"/>
         <infoLink id="ba23-5970-00cd-d98c" name="500 lb bombs" hidden="false" targetId="bf4d-30b5-b23c-e561" type="profile"/>
@@ -4954,6 +4840,9 @@ rally 3+</description>
                 <infoLink id="99b4-bc08-8d2b-756a" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
                 <infoLink id="33ec-74c6-0620-ecb2" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -5065,7 +4954,6 @@ rally 3+</description>
     <selectionEntry id="64a5-5a82-3c21-6632" name="Desert Veteran" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e717-33cb-89d2-be06" type="max"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8f8-2cc5-debc-24ed" type="min"/>
       </constraints>
       <rules>
         <rule id="784f-94fb-2719-727c" name="Desert Veteran" hidden="false">
@@ -5076,6 +4964,9 @@ rally 3+</description>
         <categoryLink id="14c0-0737-f1de-7f48" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
         <categoryLink id="1ec7-90b4-dc42-2fee" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6f9f-69fa-6173-5d5f" name="Sherman DD" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -5091,6 +4982,9 @@ Cannot shoot or launch an assault from impassable water terrain
       <categoryLinks>
         <categoryLink id="54f4-c812-e069-d545" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7dcc-a935-5f5b-1862" name="M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -6943,6 +6837,39 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           </constraints>
         </entryLink>
         <entryLink id="f758-ed87-1bfc-afce" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="0652-0a1a-c75e-d361" name="28th Infantry Division - Keystone" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="beb8-c372-ee34-e6a7" name="Keystone" hidden="false">
+                  <description>Arrived units from scatter reserves can re-roll where unit arrives</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5c8b-a32f-235d-cdc5" name="80th Infantry Division - Blue Ridge" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="3dd5-9a84-66c3-32c3" name="Blue Ridge" hidden="false">
+                  <description>When a spotting team successfully ranges in an artillery unit with ToT, may immediately roll to range in another artillery unit.  If sucess, 2nd unit treats  as ranging in on same attempt as first</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="17e4-e21a-3638-1f8e" name="8th Infantry Division - Pathfinder" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="8013-a39e-036c-10da" name="Pathfinder" hidden="false">
+                  <description>If attacker and defender has minefiles, you can attak at night (Night Fight p113)
+Units from this formation can move freely at start of the game.  Other friendly cannot.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <entryLinks>
             <entryLink id="37e8-9201-56d8-f628" name="2nd Infantry Division - Indian Head" hidden="false" collective="false" import="true" targetId="16b9-3530-7fc3-3dbd" type="selectionEntry"/>
             <entryLink id="f592-db42-169f-3b7a" name="4th Infantry Division - Ivy" hidden="false" collective="false" import="true" targetId="848b-6b56-9673-70ec" type="selectionEntry"/>
@@ -7687,6 +7614,9 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           <description>Swap Garands for SMGs and give &quot;SMG Assault&quot; to those riflemen</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d6e8-f263-100d-9885" name="Indian Head" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -7730,6 +7660,9 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           <infoLinks>
             <infoLink id="d801-3c44-972d-f351" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -7836,6 +7769,9 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
       <categoryLinks>
         <categoryLink id="bd0a-ff16-09fe-25cc" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="56fb-e8f2-e027-08b9" name="M7 Priest Artillery Battery" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -7894,9 +7830,6 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
         <infoLink id="8e98-e992-0d59-7955" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
         <infoLink id="b9cf-5d62-68ec-c061" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="9435-5dd2-4a02-0822" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bb8d-d201-0c33-b38f" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a756-467f-8dcf-a47d">
           <constraints>
@@ -7922,7 +7855,6 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc4f-276c-a224-770f" name="105mm Field Artillery Battery" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <profiles>
         <profile id="45b5-dba6-4343-919e" name="105mm howitzer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
           <characteristics>
@@ -7969,9 +7901,6 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
         <infoLink id="4709-f757-f6b5-0b04" name="Time on Target" hidden="false" targetId="362d-f3a8-928b-fba2" type="rule"/>
         <infoLink id="9be2-f48a-928f-4f62" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="2ad8-9f6b-b37a-0964" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6afb-9a89-fd7a-8d8d" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="3490-0b10-7490-d1b5">
           <constraints>
@@ -8073,6 +8002,9 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           <description>Rifle HQ &amp; Patoons can gain &apos;Tank Riders&apos;</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b416-52ca-e455-fe69" name="Tank Riders (35th)" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -8084,6 +8016,96 @@ Can dismount when charging into contact
       </rules>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f020-6b93-0f73-96c3" name="M4 Sherman OP Observation Post" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="d162-cb72-30e9-3611" name="M4 Sherman OP" hidden="false" targetId="3cd1-864f-6279-0ca6" type="profile"/>
+        <infoLink id="3d74-6349-d07b-367a" name="M4 Sherman OP (MGs)" hidden="false" targetId="5706-434a-6f12-7591" type="profile"/>
+        <infoLink id="d12d-9ff5-7ff1-3d95" name="M4 Sherman OP (75mm)" hidden="false" targetId="4473-2796-b4e7-e59b" type="profile"/>
+        <infoLink id="c755-56a5-fba9-8ab7" name="M4 Sherman OP (.50 cal MG)" hidden="false" targetId="337a-3373-c418-dbdf" type="profile"/>
+        <infoLink id="5399-d805-1bf5-ff3f" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5f3b-bf80-f908-8b19" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b33c-be65-b271-3727" name="1x M4 Sherman OP (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b98e-ea4e-d82e-d2a4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d37a-1810-1fb3-a646" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b528-a7d4-f09e-4cfa" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
+            <infoLink id="823d-7023-0adc-3c62" name="Independent Tank Unit" hidden="false" targetId="b650-398e-5817-50fb" type="rule"/>
+            <infoLink id="5f2d-c4d0-659b-914a" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7346-c81b-b2f3-3425" name="L4 Grashopper OP Observation Post" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e665-01d4-6d87-fe7e" name="L4 Grashopper OP" publicationId="567b-dc5a-c654-5ad4" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">3+</characteristic>
+            <characteristic name="Skill" typeId="e506-9161-836a-5e2d">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="9691-8132-58f7-5f86">5+</characteristic>
+            <characteristic name="Save" typeId="3a7a-29d5-008e-09f7">3+</characteristic>
+            <characteristic name="Tactical" typeId="8791-6355-ebcf-f430">UNLIMITED</characteristic>
+            <characteristic name="Terrain Dash" typeId="e6d2-8608-f213-ef1f"/>
+            <characteristic name="Cross Country Dash" typeId="037d-b1be-ca62-5c3e"/>
+            <characteristic name="Road Dash" typeId="207b-99f1-9a35-12d8"/>
+            <characteristic name="Cross" typeId="07b3-6909-7897-f282">AUTO</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="67c1-4e2c-6faa-c30d" name="Air Observer Post" hidden="false" targetId="23b4-2aa9-c7ec-25fa" type="rule"/>
+        <infoLink id="d216-2de1-8cf1-d21a" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ad12-311e-f79a-aae2" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f0c1-307e-52d5-21d4" name="1x L4 Grashopper OP" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09fe-1986-99a2-887b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d4-5a32-1414-ebc5" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0916-4a22-1e79-fb05" name="M7 Priest or 105mm Field Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="f55e-ea72-04bd-f64f" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
+        <categoryLink id="1df4-41c3-36bc-22ef" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6823-f6fc-4fd0-7288" name="Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="080d-b11b-17d7-63b4">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c8a-407b-3edd-12c3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="205f-f9e6-d76e-a9e3" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="080d-b11b-17d7-63b4" name="M7 Priest Artillery Battery" hidden="false" collective="false" import="true" targetId="56fb-e8f2-e027-08b9" type="selectionEntry"/>
+            <entryLink id="9057-c5ee-8731-6433" name="105mm Field Artillery Battery" hidden="false" collective="false" import="true" targetId="fc4f-276c-a224-770f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -8261,7 +8283,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       </characteristics>
     </profile>
     <profile id="01e0-5a04-42e6-170f" name="81mm mortar" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-      <comment></comment>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Rally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 5+</characteristic>
@@ -9094,7 +9115,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       </characteristics>
     </profile>
     <profile id="b70b-974a-5622-727a" name="Veteran 81mm mortar" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-      <comment></comment>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 5+ Tactics 3+</characteristic>
@@ -9285,19 +9305,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, No HE</characteristic>
       </characteristics>
     </profile>
-    <profile id="77cb-c397-f532-951b" name="L4 Grashopper OP" publicationId="567b-dc5a-c654-5ad4" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft">
-      <characteristics>
-        <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">3+</characteristic>
-        <characteristic name="Skill" typeId="e506-9161-836a-5e2d">3+</characteristic>
-        <characteristic name="Is Hit On" typeId="9691-8132-58f7-5f86">5+</characteristic>
-        <characteristic name="Save" typeId="3a7a-29d5-008e-09f7">3+</characteristic>
-        <characteristic name="Tactical" typeId="8791-6355-ebcf-f430">UNLIMITED</characteristic>
-        <characteristic name="Terrain Dash" typeId="e6d2-8608-f213-ef1f"/>
-        <characteristic name="Cross Country Dash" typeId="037d-b1be-ca62-5c3e"/>
-        <characteristic name="Road Dash" typeId="207b-99f1-9a35-12d8"/>
-        <characteristic name="Cross" typeId="07b3-6909-7897-f282">AUTO</characteristic>
-      </characteristics>
-    </profile>
     <profile id="3cd1-864f-6279-0ca6" name="M4 Sherman OP" publicationId="b8e5-51cf-456c-eafb" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 5+ Counterattack 5+</characteristic>
@@ -9341,19 +9348,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="53ee-1024-e45e-ed77" name="P-47 Thunderbolt" publicationId="567b-dc5a-c654-5ad4" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft">
-      <characteristics>
-        <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">4+</characteristic>
-        <characteristic name="Skill" typeId="e506-9161-836a-5e2d">4+</characteristic>
-        <characteristic name="Is Hit On" typeId="9691-8132-58f7-5f86">5+</characteristic>
-        <characteristic name="Save" typeId="3a7a-29d5-008e-09f7">3+</characteristic>
-        <characteristic name="Tactical" typeId="8791-6355-ebcf-f430">UNLIMITED</characteristic>
-        <characteristic name="Terrain Dash" typeId="e6d2-8608-f213-ef1f"/>
-        <characteristic name="Cross Country Dash" typeId="037d-b1be-ca62-5c3e"/>
-        <characteristic name="Road Dash" typeId="207b-99f1-9a35-12d8"/>
-        <characteristic name="Cross" typeId="07b3-6909-7897-f282">AUTO</characteristic>
       </characteristics>
     </profile>
     <profile id="ee1c-7e88-1b4a-214b" name=".50 cal MGs" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -9565,7 +9559,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       </characteristics>
     </profile>
     <profile id="15ef-770d-9d69-9ace" name="Mortar Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-      <comment></comment>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Rally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 5+</characteristic>
@@ -9579,7 +9572,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       </characteristics>
     </profile>
     <profile id="3d16-c538-c630-1f91" name="Veteran Mortar Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-      <comment></comment>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 5+ Tactics 3+</characteristic>
