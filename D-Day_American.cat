@@ -6848,6 +6848,21 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="4f70-2f0c-c369-7532" name="Formation Card Upgrades" hidden="false" collective="false" import="true" targetId="1313-f00d-5817-ff93" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink id="b5b7-0e53-7862-0d66" name="Tank Riders (35th)" hidden="true" collective="false" import="true" targetId="b416-52ca-e455-fe69" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1463-6a25-365e-b57b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -6887,13 +6902,10 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a3c-483c-1f70-ccfd" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3332-9c68-f167-5829" type="min"/>
           </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="eac7-3e64-f362-fb73" name="Formation Card Upgrades" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c91-eeca-8c40-00a5" type="max"/>
-              </constraints>
+          <entryLinks>
+            <entryLink id="119c-3f2f-acbb-b173" name="Formation Card Upgrades" hidden="false" collective="false" import="true" targetId="1313-f00d-5817-ff93" type="selectionEntryGroup">
               <entryLinks>
-                <entryLink id="5e2c-ebcd-b25f-80ed" name="Indian Head" hidden="true" collective="false" import="true" targetId="d6e8-f263-100d-9885" type="selectionEntry">
+                <entryLink id="cd9c-1e87-b5fb-ea0f" name="Indian Head" hidden="true" collective="false" import="true" targetId="d6e8-f263-100d-9885" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -6902,9 +6914,18 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink id="ba36-23fe-f11c-c1a4" name="Tank Riders (35th)" hidden="true" collective="false" import="true" targetId="b416-52ca-e455-fe69" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1463-6a25-365e-b57b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+            </entryLink>
+          </entryLinks>
         </entryLink>
         <entryLink id="a9fa-6cf2-3bc9-080f" name="Mortar Platoon" hidden="false" collective="false" import="true" targetId="2390-5c66-17d6-3b59" type="selectionEntry">
           <constraints>
@@ -6925,6 +6946,7 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           <entryLinks>
             <entryLink id="37e8-9201-56d8-f628" name="2nd Infantry Division - Indian Head" hidden="false" collective="false" import="true" targetId="16b9-3530-7fc3-3dbd" type="selectionEntry"/>
             <entryLink id="f592-db42-169f-3b7a" name="4th Infantry Division - Ivy" hidden="false" collective="false" import="true" targetId="848b-6b56-9673-70ec" type="selectionEntry"/>
+            <entryLink id="c887-197e-1d0d-b74d" name="35th Infantry Division - Santa Fe" hidden="false" collective="false" import="true" targetId="1463-6a25-365e-b57b" type="selectionEntry"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -8045,11 +8067,35 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1463-6a25-365e-b57b" name="35th Infantry Division - Santa Fe" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8ce1-c0be-877d-3616" name="35th Infantry Division - Santa Fe" hidden="false">
+          <description>Rifle HQ &amp; Patoons can gain &apos;Tank Riders&apos;</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry id="b416-52ca-e455-fe69" name="Tank Riders (35th)" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="7211-4691-eb30-a384" name="Tank Riders" hidden="false">
+          <description>Can mount and shoot from M4 Sherman teams (1 team per tank).
+Can dismount when charging into contact
+</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1791-3aa3-d6a0-e951" name="Upgrade from Cards" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f57d-fea2-adc5-804f" type="max"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1313-f00d-5817-ff93" name="Formation Card Upgrades" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e986-5cdf-ce0f-85f4" type="max"/>
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
