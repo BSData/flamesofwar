@@ -3418,45 +3418,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cf27-172c-64d2-6835" name="M15 &amp; M16 AAA Platoon" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66f3-12d0-a808-58c1" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="ebf9-1dc2-0a96-2e7e" name="M15 (37mm)" hidden="false" targetId="db03-e71c-c082-e3d2" type="profile"/>
-        <infoLink id="104f-3b91-71bf-611c" name="M16 (Quad .50 cal)" hidden="false" targetId="fde1-6000-b008-e732" type="profile"/>
-        <infoLink id="0fd0-f5f5-099f-a4a0" name="M15 (37mm &amp; .50 cal)" hidden="false" targetId="f532-36bd-9cbf-fe35" type="profile"/>
-        <infoLink id="9849-ab24-dd88-bc01" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-        <infoLink id="cf4b-d0dc-9c3b-309b" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-        <infoLink id="7d79-12b2-98b7-d8d8" name="M16 (Quad .50 cal)" hidden="false" targetId="fde1-6000-b008-e732" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="b18c-c3b8-457a-1858" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="237b-42da-39dc-ebab" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="c988-a71d-9535-13a7">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd19-de4f-d15b-2f6f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a69-ec9d-6528-cb04" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="ff25-2db3-deac-faf1" name="2x M15 (37mm &amp; .50 cal), 2x M16 (Quad .50 cal)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c988-a71d-9535-13a7" name="1x M15 (37mm &amp; .50 cal), 1x M16 (Quad .50 cal)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="fcb7-2c2f-7c2c-db39" name="Veteran Assault Boat Section" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3b3-ce35-64a4-e8aa" type="max"/>
@@ -4248,6 +4209,11 @@
     <entryLink id="2d30-5984-014a-6551" name="4.2 Inch Chemical Mortars" hidden="false" collective="false" import="true" targetId="9f46-2303-4a05-35cb" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5d5-9837-75d2-e6aa" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="18e5-a388-94e0-1295" name="M15 &amp; M16 AAA Platoon" hidden="false" collective="false" import="true" targetId="8cd3-2705-45f6-1a2a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbc7-a981-e0f8-5997" type="max"/>
       </constraints>
     </entryLink>
   </entryLinks>
@@ -7889,6 +7855,102 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8cd3-2705-45f6-1a2a" name="M15 &amp; M16 AAA Platoon" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="28e7-e174-181f-8e56" name="AAA Platoon" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattach 6</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 6</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">0</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="04b4-afd6-88ad-9d5d" name="M16 (Quad .50 cal)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f9ec-c653-787c-ea4c" name="M15 (37mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA, Slow Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c545-c143-e0fd-181a" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
+        <infoLink id="77ee-71e4-8fae-670c" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="59f2-12b0-15ef-5910" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="86e6-bc90-8168-3795" name="Ivory X" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ae5-c9d7-2734-04e8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3622-eeda-7163-9868" name="Ivory X" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic>
+                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+                <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="55e2-deba-aed9-db0a" name="Ivory X" hidden="false">
+              <description>M15 &amp; M16 half-tracks gain additional bombardment option</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9388-31bf-2d75-a2e6" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="73bd-6632-ed99-48d4">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcf7-ee44-82fe-cd70" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d422-98e1-991f-5ece" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f833-6560-a8fb-3089" name="2x M15 (37mm &amp; .50 cal), 2x M16 (Quad .50 cal)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="73bd-6632-ed99-48d4" name="1x M15 (37mm &amp; .50 cal), 1x M16 (Quad .50 cal)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1791-3aa3-d6a0-e951" name="Upgrade from Cards" hidden="false" collective="false" import="true">
@@ -9297,21 +9359,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Rockets</characteristic>
       </characteristics>
     </profile>
-    <profile id="f532-36bd-9cbf-fe35" name="M15 (37mm &amp; .50 cal)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
-      <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattach 6</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 6</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
-        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">0</characteristic>
-        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
-        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
-      </characteristics>
-    </profile>
     <profile id="8375-dde5-91a3-16d0" name="M16 (Quad .50 cal)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattach 6</characteristic>
@@ -9325,26 +9372,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="db03-e71c-c082-e3d2" name="M15 (37mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA, Slow Firing</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="fde1-6000-b008-e732" name="M16 (Quad .50 cal)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
       </characteristics>
     </profile>
     <profile id="89b0-9c15-5445-8a62" name="M1 Garand rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
