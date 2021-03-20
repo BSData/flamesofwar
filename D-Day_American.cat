@@ -2972,51 +2972,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="746b-dc24-d5ad-8250" name="M8 Greyhound Cavalry Recon Patrol" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a5-73cc-85c6-b6ee" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="47dd-5ffb-9dbc-f47e" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-        <infoLink id="8323-42d4-a2da-5b52" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-        <infoLink id="fd25-9fff-65ca-7894" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-        <infoLink id="9be7-220c-9b02-167b" name="Jeep (MG)" hidden="false" targetId="61c4-47de-1489-9d0c" type="profile"/>
-        <infoLink id="28b5-6508-116c-57b1" name="Jeep (MG)" hidden="false" targetId="de77-db6d-4796-ae2c" type="profile"/>
-        <infoLink id="c946-1155-c89f-6a5e" name="M8 (.50 cal MG)" hidden="false" targetId="b38a-6b81-2df2-35d0" type="profile"/>
-        <infoLink id="7e52-98e3-c3bd-c3a2" name="M8 Greyhound" hidden="false" targetId="3857-4c52-3051-f368" type="profile"/>
-        <infoLink id="4cbc-9b67-f55d-f3a3" name="M8 (37mm)" hidden="false" targetId="c4a6-5aab-83f3-ba1c" type="profile"/>
-        <infoLink id="3db1-d428-ba9e-fe55" name="Jeep (60mm)" hidden="false" targetId="aaea-8735-0214-f54a" type="profile"/>
-        <infoLink id="10e7-9353-c73e-2805" name="Jeep (60mm)" hidden="false" targetId="91b3-b2dc-766b-3c02" type="profile"/>
-        <infoLink id="f998-f6cd-3e4f-a491" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
-        <infoLink id="e641-d7a3-6470-c204" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="5481-f209-382c-f3c9" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="625e-2963-6458-933c" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e8f-4c44-549e-dc8c">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ef-53bd-1e1b-13d3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40c3-5604-cd6b-fab1" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="9946-7fbb-57a0-de27" name="2x M8 Greyhound, 1 x Jeep (MG), 1x Jeep (60mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5e8f-4c44-549e-dc8c" name="1x M8 Greyhound, 1 x Jeep (MG), 1x Jeep (60mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="28ff-eceb-b115-c465" name="3-inch Towed Tank Destroyer Platoon" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad02-4011-8aa3-dd2a" type="max"/>
@@ -3852,7 +3807,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ca-e771-0dea-4997" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="345a-6e48-e015-5b5e" name="M4 Sherman Tank Company MK2" hidden="false" collective="false" import="true" targetId="e3da-8c2d-074b-7481" type="selectionEntry"/>
+    <entryLink id="345a-6e48-e015-5b5e" name="M4 Sherman Tank Company" hidden="false" collective="false" import="true" targetId="e3da-8c2d-074b-7481" type="selectionEntry"/>
     <entryLink id="0a09-ed4a-ee11-c42f" name="M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" targetId="7dcc-a935-5f5b-1862" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a55a-a430-5eaf-4154" type="max"/>
@@ -3931,6 +3886,16 @@
       </constraints>
     </entryLink>
     <entryLink id="df8e-0402-01dc-3530" name="Engineer Combat Company" hidden="false" collective="false" import="true" targetId="4e85-d8b9-ea5d-5636" type="selectionEntry"/>
+    <entryLink id="836b-afe3-bda9-7ba0" name="M8 Greyhound Cavalry Recon Patrol" hidden="false" collective="false" import="true" targetId="0eb7-501d-9603-49f0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="664d-67c5-0440-5537" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="2edb-95ea-2266-da65" name="Cavalry Recon Troop" hidden="false" collective="false" import="true" targetId="bf10-15eb-b033-5b4d" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a9-9c91-02bc-36cf" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cc09-bb6a-6216-2c3d" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
@@ -5507,6 +5472,13 @@ Cannot shoot or launch an assault from impassable water terrain
               </costs>
             </selectionEntry>
             <selectionEntry id="41ee-9fd6-2dc1-f6e2" name="5x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf10-15eb-b033-5b4d" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
               </costs>
@@ -5872,6 +5844,42 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
             <selectionEntry id="2fa0-97dd-4a9d-d33e" name="2x M8 Scott(75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6542-8bf8-c7ea-fb2c" name="4x M8 Scott(75mm)" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf10-15eb-b033-5b4d" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6894-d997-c12d-05d6" name="5x M8 Scott(75mm)" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf10-15eb-b033-5b4d" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0089-ef41-370a-5495" name="6x M8 Scott(75mm)" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf10-15eb-b033-5b4d" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8866,6 +8874,100 @@ Follow Me 3+/Rally 4+</description>
       </rules>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf10-15eb-b033-5b4d" name="Cavalry Recon Troop" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="b760-9631-212c-e17b" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="false"/>
+        <categoryLink id="a81a-f4ac-4f30-c837" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b31a-62be-839c-5fd5" name="Cavalry Recon Troop HQ" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdae-c8a7-f018-2802" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da79-68d9-3a68-f246" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7377-35c7-cd34-21fc" name="M8 Greyhound" hidden="false" targetId="3857-4c52-3051-f368" type="profile"/>
+            <infoLink id="9ce9-d63c-b5e3-e377" name="M8 (.50 cal MG)" hidden="false" targetId="b38a-6b81-2df2-35d0" type="profile"/>
+            <infoLink id="010c-c8cc-18c5-3cbf" name="M8 (37mm)" hidden="false" targetId="c4a6-5aab-83f3-ba1c" type="profile"/>
+            <infoLink id="7f0b-c87a-f819-d644" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+            <infoLink id="4959-edf3-6502-e402" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
+            <infoLink id="c6c2-7cde-500c-cc93" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
+            <infoLink id="4e06-0d58-b620-2e83" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="be39-60e1-6d18-ad4f" name="2x M8 Greyhound" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da2b-6c2d-8b79-eb45" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cad5-1802-e613-85d2" type="max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6b80-8941-602f-9d7b" name="M8 Greyhound Cavalry Recon Patrol" hidden="false" collective="false" import="true" targetId="0eb7-501d-9603-49f0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d7c-a9ac-a240-58c3" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edd1-c8c9-cfa3-ddd5" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="556d-afd6-694e-841a" name="Veteran M5 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="6cd9-d536-c7d6-86ca" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a421-5a3a-4ca0-ac1e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fd73-1fe6-a0ed-9f39" name="Veteran M8 Scott Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="b498-653f-4eb6-464c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="014a-e1a7-57e4-fc55" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="0eb7-501d-9603-49f0" name="M8 Greyhound Cavalry Recon Patrol" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="2cd0-8a96-7c95-2ade" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="db16-d2d8-70bd-9b8c" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+        <infoLink id="2f38-7b37-d656-ad02" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
+        <infoLink id="9bf1-79c6-41fe-7ed1" name="Jeep (MG)" hidden="false" targetId="61c4-47de-1489-9d0c" type="profile"/>
+        <infoLink id="4293-bce6-3887-e0e1" name="Jeep (MG)" hidden="false" targetId="de77-db6d-4796-ae2c" type="profile"/>
+        <infoLink id="26dd-a3be-b256-7058" name="M8 (.50 cal MG)" hidden="false" targetId="b38a-6b81-2df2-35d0" type="profile"/>
+        <infoLink id="f525-8918-c8b3-94fd" name="M8 Greyhound" hidden="false" targetId="3857-4c52-3051-f368" type="profile"/>
+        <infoLink id="817e-b941-c1e3-0c8e" name="M8 (37mm)" hidden="false" targetId="c4a6-5aab-83f3-ba1c" type="profile"/>
+        <infoLink id="1ac1-4bdb-d899-bd73" name="Jeep (60mm)" hidden="false" targetId="aaea-8735-0214-f54a" type="profile"/>
+        <infoLink id="3aec-0652-7678-ead0" name="Jeep (60mm)" hidden="false" targetId="91b3-b2dc-766b-3c02" type="profile"/>
+        <infoLink id="22d7-2a90-3e9a-92de" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
+        <infoLink id="2a8f-a29e-6e4e-0a77" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6581-8440-65e9-af91" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="129b-52fb-dbf1-84bf" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="3d77-baac-dfda-2264">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8dc-89ea-77fb-7b94" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="386e-dd46-a309-3f92" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d3fc-cc4f-eefb-28e4" name="2x M8 Greyhound, 1 x Jeep (MG), 1x Jeep (60mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3d77-baac-dfda-2264" name="1x M8 Greyhound, 1 x Jeep (MG), 1x Jeep (60mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
