@@ -3930,6 +3930,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dded-c4fe-e5b4-8d52" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="df8e-0402-01dc-3530" name="Engineer Combat Company" hidden="false" collective="false" import="true" targetId="4e85-d8b9-ea5d-5636" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cc09-bb6a-6216-2c3d" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
@@ -6701,6 +6702,7 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="21bd-4715-bcc3-e405" name="Rifle Company" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>og</comment>
       <categoryLinks>
         <categoryLink id="7792-be22-95a9-8bb3" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
@@ -8399,6 +8401,52 @@ Can dismount when charging into contact
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e85-d8b9-ea5d-5636" name="Engineer Combat Company" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="153b-c776-b8e0-3781" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="847a-9f41-8862-5a95" name="Engineer Combat Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f218-1555-15bf-3ba0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2d0-d6b2-1cb5-4625" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8c81-642d-4b7e-5191" name="Thompson SMG team" hidden="false" targetId="9145-3716-e597-f4cd" type="profile"/>
+            <infoLink id="e571-7121-edf8-2f59" name="Thompson SMG team" hidden="false" targetId="eac1-e1a1-2b4c-a3ac" type="profile"/>
+            <infoLink id="fe36-3525-9f11-b731" name="Pioneers" hidden="false" targetId="0eb1-db92-78fe-4748" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="3d83-170e-1cc9-a1e1" name="2x Thompson SMG Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e5e-9ca0-0225-a01d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c443-ab43-d99c-7eab" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="797a-0fa6-cf86-6415" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e104-4661-5d8a-052b" name="Engineer Combat Platoon" hidden="false" collective="false" import="true" targetId="56c8-0501-58dd-6111" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2720-6664-e375-44fb" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8932-89e2-1756-a2d0" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
