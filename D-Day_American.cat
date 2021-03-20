@@ -5103,7 +5103,15 @@ Cannot shoot or launch an assault from impassable water terrain
         <infoLink id="b3fc-7d20-2b81-af9b" name="M4 Sherman (105mm)" hidden="false" targetId="cc44-93df-aaf6-91e6" type="profile"/>
         <infoLink id="e22d-cd07-570a-ac09" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
         <infoLink id="c71c-b1f1-ebd0-1ff8" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
-        <infoLink id="29ae-657f-5904-05a4" name="M4 Sherman (105mm)" hidden="false" targetId="d80d-d13e-33ec-f3f4" type="profile"/>
+        <infoLink id="29ae-657f-5904-05a4" name="M4 Sherman (105mm)" hidden="false" targetId="d80d-d13e-33ec-f3f4" type="profile">
+          <modifiers>
+            <modifier type="set" field="046a-7f27-8072-dedb" value="5+">
+              <conditions>
+                <condition field="selections" scope="9b0e-3e5d-1c2c-2754" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4331-8d2a-f990-a752" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="72f3-16c4-168c-e8c2" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
         <infoLink id="bcef-b62e-f67d-14f8" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
         <infoLink id="ea4b-abd1-e005-cf46" name="M4 Sherman (105mm) Direct Fire" hidden="false" targetId="aa63-cf9a-572d-bdf8" type="profile"/>
@@ -6698,7 +6706,15 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e17f-a35c-fee3-85f0" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="76e0-14db-f8a8-a6a8" name="Thompson SMG team" hidden="false" targetId="eac1-e1a1-2b4c-a3ac" type="profile"/>
+            <infoLink id="76e0-14db-f8a8-a6a8" name="Thompson SMG team" hidden="false" targetId="eac1-e1a1-2b4c-a3ac" type="profile">
+              <modifiers>
+                <modifier type="set" field="4aa0-1b18-70af-9474" value="5+">
+                  <conditions>
+                    <condition field="selections" scope="68b6-faec-9fbf-1bb3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4331-8d2a-f990-a752" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
             <infoLink id="4bb0-6988-c4bf-a94b" name="Thompson SMG team" hidden="false" targetId="9145-3716-e597-f4cd" type="profile"/>
           </infoLinks>
           <selectionEntries>
@@ -6715,10 +6731,35 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <entryLinks>
-            <entryLink id="4f70-2f0c-c369-7532" name="Formation Card Upgrades" hidden="false" collective="false" import="true" targetId="1313-f00d-5817-ff93" type="selectionEntryGroup">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="4c1f-9f09-0eaf-8053" name="Required Upgrades" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="b5b7-0e53-7862-0d66" name="Tank Riders (35th)" hidden="true" collective="false" import="true" targetId="b416-52ca-e455-fe69" type="selectionEntry">
+                <entryLink id="926a-654a-0034-1cae" name="Tough &apos;Ombres (90th)" hidden="true" collective="false" import="true" targetId="4331-8d2a-f990-a752" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="c52a-ed4e-d99d-29ff" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="ac63-b19b-243d-c7f2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="8980-92a2-5bef-ac81" name="Optional Upgrades" hidden="false" collective="false" import="true" targetId="1313-f00d-5817-ff93" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink id="28c0-9b1c-6c98-94eb" name="Tank Riders (35th)" hidden="true" collective="false" import="true" targetId="b416-52ca-e455-fe69" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -6749,8 +6790,59 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                   </conditions>
                 </modifier>
               </modifiers>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="c352-18f7-997c-233f" name="Required Upgrades" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="508d-e213-0816-95c6" name="Tough &apos;Ombres (90th)" hidden="true" collective="false" import="true" targetId="4331-8d2a-f990-a752" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" field="c52a-ed4e-d99d-29ff" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" field="ac63-b19b-243d-c7f2" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </entryLink>
-            <entryLink id="595f-2b5a-9d81-9e94" name="M4 Sherman (105mm) Tank Platoon" hidden="false" collective="false" import="true" targetId="9b0e-3e5d-1c2c-2754" type="selectionEntry"/>
+            <entryLink id="595f-2b5a-9d81-9e94" name="M4 Sherman (105mm) Tank Platoon" hidden="false" collective="false" import="true" targetId="9b0e-3e5d-1c2c-2754" type="selectionEntry">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="f27d-c1d7-570a-b5bd" name="Required Upgrades" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="8358-1dae-0ece-f8c6" name="Tough &apos;Ombres (90th)" hidden="true" collective="false" import="true" targetId="4331-8d2a-f990-a752" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" field="c52a-ed4e-d99d-29ff" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" field="ac63-b19b-243d-c7f2" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </entryLink>
             <entryLink id="a997-dcc2-6751-0291" name="M7 Priest Artillery Battery" hidden="true" collective="false" import="true" targetId="56fb-e8f2-e027-08b9" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
@@ -6769,8 +6861,33 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a3c-483c-1f70-ccfd" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3332-9c68-f167-5829" type="min"/>
           </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="3639-f1e1-0f3b-0976" name="Required Upgrades" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="f233-f91d-f3ce-3361" name="Tough &apos;Ombres (r 90th)" hidden="true" collective="false" import="true" targetId="4560-082c-a7a6-7718" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="4a73-84cd-524f-9722" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="8123-5491-d363-3edc" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="119c-3f2f-acbb-b173" name="Formation Card Upgrades" hidden="false" collective="false" import="true" targetId="1313-f00d-5817-ff93" type="selectionEntryGroup">
+            <entryLink id="119c-3f2f-acbb-b173" name="Optional Upgrades" hidden="false" collective="false" import="true" targetId="1313-f00d-5817-ff93" type="selectionEntryGroup">
               <entryLinks>
                 <entryLink id="cd9c-1e87-b5fb-ea0f" name="Indian Head" hidden="true" collective="false" import="true" targetId="d6e8-f263-100d-9885" type="selectionEntry">
                   <modifiers>
@@ -6798,16 +6915,91 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="520a-6d0b-d3db-ed55" type="max"/>
           </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d5b7-eaa5-9d1d-421f" name="Required Upgrades" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="4b80-791f-3e58-0e52" name="Tough &apos;Ombres (90th)" hidden="true" collective="false" import="true" targetId="4331-8d2a-f990-a752" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="c52a-ed4e-d99d-29ff" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="ac63-b19b-243d-c7f2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </entryLink>
         <entryLink id="3224-2163-7b4e-9cf3" name="57mm Anti-Tank Platoon" hidden="false" collective="false" import="true" targetId="73b4-b4bd-df9d-6ceb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc84-ec78-e149-5b95" type="max"/>
           </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2096-412f-392e-cde7" name="Required Upgrades" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="7fe5-e47e-2cde-9c7f" name="Tough &apos;Ombres (90th)" hidden="true" collective="false" import="true" targetId="4331-8d2a-f990-a752" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="c52a-ed4e-d99d-29ff" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="ac63-b19b-243d-c7f2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </entryLink>
         <entryLink id="941e-1b28-dbf9-695b" name="M1917 Machine-Gun Platoon" hidden="false" collective="false" import="true" targetId="6cd9-4705-14ad-3d5f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd6d-9275-3ad5-1392" type="max"/>
           </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="28f2-bb94-fc75-2504" name="Required Upgrades" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="720c-1ae6-72fb-ca7e" name="Tough &apos;Ombres (90th)" hidden="true" collective="false" import="true" targetId="4331-8d2a-f990-a752" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="c52a-ed4e-d99d-29ff" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="ac63-b19b-243d-c7f2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </entryLink>
         <entryLink id="f758-ed87-1bfc-afce" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
           <selectionEntries>
@@ -6847,6 +7039,10 @@ Units from this formation can move freely at start of the game.  Other friendly 
             <entryLink id="37e8-9201-56d8-f628" name="2nd Infantry Division - Indian Head" hidden="false" collective="false" import="true" targetId="16b9-3530-7fc3-3dbd" type="selectionEntry"/>
             <entryLink id="f592-db42-169f-3b7a" name="4th Infantry Division - Ivy" hidden="false" collective="false" import="true" targetId="848b-6b56-9673-70ec" type="selectionEntry"/>
             <entryLink id="c887-197e-1d0d-b74d" name="35th Infantry Division - Santa Fe" hidden="false" collective="false" import="true" targetId="1463-6a25-365e-b57b" type="selectionEntry"/>
+            <entryLink id="db62-a97f-16d1-16da" name="Norman &apos;Dutch&apos; Cota" hidden="false" collective="false" import="true" targetId="9c3b-4bda-4b6b-ec2d" type="selectionEntry"/>
+            <entryLink id="dff0-400b-8daa-4db2" name="90th Infantry Division - Tough &apos;Ombres" hidden="false" collective="false" import="true" targetId="b604-dd06-c65b-ecc0" type="selectionEntry">
+              <comment>-2 pts for Rplatoons and -1 for others.  motivation is 5+</comment>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -6862,6 +7058,11 @@ Units from this formation can move freely at start of the game.  Other friendly 
             <modifier type="set" field="7258-881d-dc2d-e80b" value="4+ Assault 3+">
               <conditions>
                 <condition field="selections" scope="55d9-d9eb-8935-03cb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d6e8-f263-100d-9885" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="4aa0-1b18-70af-9474" value="5+">
+              <conditions>
+                <condition field="selections" scope="55d9-d9eb-8935-03cb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4560-082c-a7a6-7718" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7076,7 +7277,15 @@ Units from this formation can move freely at start of the game.  Other friendly 
     <selectionEntry id="2390-5c66-17d6-3b59" name="Mortar Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="7ab3-bedf-307a-244a" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-        <infoLink id="a511-6891-8538-f14c" name="Mortar Platoon" hidden="false" targetId="15ef-770d-9d69-9ace" type="profile"/>
+        <infoLink id="a511-6891-8538-f14c" name="Mortar Platoon" hidden="false" targetId="15ef-770d-9d69-9ace" type="profile">
+          <modifiers>
+            <modifier type="set" field="4aa0-1b18-70af-9474" value="5+">
+              <conditions>
+                <condition field="selections" scope="2390-5c66-17d6-3b59" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4331-8d2a-f990-a752" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="fb57-0ff2-76c9-b34f" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="d165-a5f5-4a09-1e35">
@@ -7134,7 +7343,15 @@ Units from this formation can move freely at start of the game.  Other friendly 
         <infoLink id="ac49-b122-56f2-46be" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
         <infoLink id="aa47-f088-4135-498f" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
         <infoLink id="686b-28ea-f3ca-ece5" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-        <infoLink id="c7eb-b2de-ce60-274e" name="57mm gun" hidden="false" targetId="5d9e-ca7d-aad3-fe4f" type="profile"/>
+        <infoLink id="c7eb-b2de-ce60-274e" name="57mm gun" hidden="false" targetId="5d9e-ca7d-aad3-fe4f" type="profile">
+          <modifiers>
+            <modifier type="set" field="0954-f596-53ea-4ef7" value="5+">
+              <conditions>
+                <condition field="selections" scope="73b4-b4bd-df9d-6ceb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4331-8d2a-f990-a752" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5314-d5a8-2de2-0fab" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="3600-8a02-71cf-6220">
@@ -7163,7 +7380,15 @@ Units from this formation can move freely at start of the game.  Other friendly 
     <selectionEntry id="6cd9-4705-14ad-3d5f" name="M1917 Machine-Gun Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="0668-fbc3-c992-a145" name="M1917 team" hidden="false" targetId="4116-5da7-3f78-4c98" type="profile"/>
-        <infoLink id="0707-df18-97fc-7760" name="M1917 HMG" hidden="false" targetId="45b4-475f-9d19-7ff9" type="profile"/>
+        <infoLink id="0707-df18-97fc-7760" name="M1917 HMG" hidden="false" targetId="45b4-475f-9d19-7ff9" type="profile">
+          <modifiers>
+            <modifier type="set" field="4aa0-1b18-70af-9474" value="5+">
+              <conditions>
+                <condition field="selections" scope="6cd9-4705-14ad-3d5f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4331-8d2a-f990-a752" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="4e8a-27d0-6842-6b97" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
       </infoLinks>
       <selectionEntries>
@@ -7184,9 +7409,17 @@ Units from this formation can move freely at start of the game.  Other friendly 
     <selectionEntry id="fa70-d6f6-7291-91e1" name="105mm Cannon Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="f7ed-a019-54b3-3f2d" name="105mm light howitzer Direct Fire" hidden="false" targetId="926f-ff12-120e-e24f" type="profile"/>
-        <infoLink id="3590-8fbd-bfc9-dd4f" name="105mm light howitzer Artillery" hidden="false" targetId="827f-fa4e-02cd-662c" type="profile"/>
+        <infoLink id="3590-8fbd-bfc9-dd4f" name="105mm light howitzer" hidden="false" targetId="827f-fa4e-02cd-662c" type="profile"/>
         <infoLink id="d807-777a-985b-4033" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
-        <infoLink id="a76e-f830-d9b8-a0e9" name="105mm light howitzer" hidden="false" targetId="9ab3-2be5-3f30-5a46" type="profile"/>
+        <infoLink id="a76e-f830-d9b8-a0e9" name="105mm light howitzer" hidden="false" targetId="9ab3-2be5-3f30-5a46" type="profile">
+          <modifiers>
+            <modifier type="set" field="0954-f596-53ea-4ef7" value="5+">
+              <conditions>
+                <condition field="selections" scope="fa70-d6f6-7291-91e1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4331-8d2a-f990-a752" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="e103-92e4-9d4c-d693" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
         <infoLink id="d078-c6cb-0c06-8cf1" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
         <infoLink id="3150-1f6f-e3f9-786c" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
@@ -8081,6 +8314,27 @@ Can dismount when charging into contact
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b604-dd06-c65b-ecc0" name="90th Infantry Division - Tough &apos;Ombres" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="4331-8d2a-f990-a752" name="Tough &apos;Ombres (90th)" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>og</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c52a-ed4e-d99d-29ff" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac63-b19b-243d-c7f2" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4560-082c-a7a6-7718" name="Tough &apos;Ombres (r 90th)" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>For Riflemen Platoons</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a73-84cd-524f-9722" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8123-5491-d363-3edc" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="-2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1791-3aa3-d6a0-e951" name="Upgrade from Cards" hidden="false" collective="false" import="true">
@@ -8088,7 +8342,7 @@ Can dismount when charging into contact
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f57d-fea2-adc5-804f" type="max"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1313-f00d-5817-ff93" name="Formation Card Upgrades" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1313-f00d-5817-ff93" name="Optional Upgrades" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e986-5cdf-ce0f-85f4" type="max"/>
       </constraints>
