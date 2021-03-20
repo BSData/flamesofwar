@@ -5257,12 +5257,27 @@ Cannot shoot or launch an assault from impassable water terrain
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="90f6-115c-d2d2-33fd" name="Veteran M4 Sherman Tank Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3926-f6de-3cc4-2ad1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0e1-9e2a-ee49-1bda" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="e29f-1460-0c1c-7eb0" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
+            <infoLink id="e29f-1460-0c1c-7eb0" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile">
+              <modifiers>
+                <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
             <infoLink id="d8f8-c537-b1a0-faa9" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
             <infoLink id="8b22-7da2-9f01-882b" name="M4 Sherman (75mm)" hidden="false" targetId="b62f-bb5c-75ac-f852" type="profile"/>
             <infoLink id="9ecd-e2b1-5205-1fd6" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
@@ -5304,13 +5319,43 @@ Cannot shoot or launch an assault from impassable water terrain
           </constraints>
           <entryLinks>
             <entryLink id="90b0-3137-6ac6-10eb" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" targetId="66be-f0a7-5916-49fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
-                <infoLink id="fc4b-be39-ee9f-5b09" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
+                <infoLink id="fc4b-be39-ee9f-5b09" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                      <conditions>
+                        <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
             </entryLink>
             <entryLink id="7b83-b445-3355-108b" name="Veteran M4 Sherman (76mm) Tank Platoon" hidden="false" collective="false" import="true" targetId="4eb9-a9fa-0912-545e" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
-                <infoLink id="7450-2cd4-9428-368d" name="Veteran M4 Sherman (76mm)" hidden="false" targetId="6b33-3a6f-bba4-7ceb" type="profile"/>
+                <infoLink id="7450-2cd4-9428-368d" name="Veteran M4 Sherman (76mm)" hidden="false" targetId="6b33-3a6f-bba4-7ceb" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                      <conditions>
+                        <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
             </entryLink>
           </entryLinks>
@@ -5322,13 +5367,43 @@ Cannot shoot or launch an assault from impassable water terrain
           </constraints>
           <entryLinks>
             <entryLink id="6cae-8445-da71-66b6" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" targetId="66be-f0a7-5916-49fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
-                <infoLink id="265e-de4f-f2a0-9f7f" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
+                <infoLink id="265e-de4f-f2a0-9f7f" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                      <conditions>
+                        <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
             </entryLink>
             <entryLink id="c8ed-ec62-7cfe-6d49" name="Veteran M5 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="6cd9-d536-c7d6-86ca" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
-                <infoLink id="9b11-e557-0498-e3ab" name="Veteran M5 Stuart" hidden="false" targetId="82ee-93b9-711f-b859" type="profile"/>
+                <infoLink id="9b11-e557-0498-e3ab" name="Veteran M5 Stuart" hidden="false" targetId="82ee-93b9-711f-b859" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                      <conditions>
+                        <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
             </entryLink>
           </entryLinks>
@@ -5336,28 +5411,78 @@ Cannot shoot or launch an assault from impassable water terrain
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f2eb-d0a5-9055-cecb" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" targetId="66be-f0a7-5916-49fe" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="52c5-8347-4cde-6a11" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="4d77-f116-5bf1-deb3" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
+            <infoLink id="4d77-f116-5bf1-deb3" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile">
+              <modifiers>
+                <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
         </entryLink>
         <entryLink id="9ff0-d469-87e3-f71c" name="Veteran M4 Sherman (105mm) Tank Platoon" hidden="false" collective="false" import="true" targetId="6030-d903-c72b-deee" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b2b-79d3-7b03-590a" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="6f04-9e64-90e8-49fe" name="Veteran M4 Sherman (105mm)" hidden="false" targetId="8aec-aed4-76d6-4d48" type="profile"/>
+            <infoLink id="6f04-9e64-90e8-49fe" name="Veteran M4 Sherman (105mm)" hidden="false" targetId="8aec-aed4-76d6-4d48" type="profile">
+              <modifiers>
+                <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
         </entryLink>
         <entryLink id="3085-26bb-e598-7714" name="Veteran Armoured M4 81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="91d3-95fb-81c3-5ffa" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5491-a0cd-9405-4df1" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="108d-6c28-9f9b-e891" name="Veteran M4 (81mm mortar)" hidden="false" targetId="c97e-7d99-2e58-010e" type="profile"/>
+            <infoLink id="108d-6c28-9f9b-e891" name="Veteran M4 (81mm mortar)" hidden="false" targetId="c97e-7d99-2e58-010e" type="profile">
+              <modifiers>
+                <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="a737-0df8-44fc-aed4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
+        </entryLink>
+        <entryLink id="4fa7-a8cb-8125-c799" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="bfb2-4ebe-16ff-71c1" name="Division LeCleric" hidden="false" collective="false" import="true" targetId="16a5-8a76-cbea-0604" type="selectionEntry"/>
+          </entryLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -5826,13 +5951,28 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9963-19c0-2b42-4f3d" name="Veteran M5 Stuart Tank Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ba3-247d-1fcc-d813" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b3c-1f78-2bff-a1cd" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="4c4b-f7ea-7f16-022b" name="Stabiliser" hidden="false" targetId="b7db-3fef-3b94-7c08" type="rule"/>
-            <infoLink id="dcef-b3bc-e64a-e592" name="Veteran M5 Stuart" hidden="false" targetId="82ee-93b9-711f-b859" type="profile"/>
+            <infoLink id="dcef-b3bc-e64a-e592" name="Veteran M5 Stuart" hidden="false" targetId="82ee-93b9-711f-b859" type="profile">
+              <modifiers>
+                <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
             <infoLink id="cac5-20a1-9b58-6256" name="M5 Stuart (MGs)" hidden="false" targetId="1514-6578-ee9d-0332" type="profile"/>
             <infoLink id="757b-6245-5b27-73fd" name="M5 Stuart (37mm)" hidden="false" targetId="e86d-9db5-0e5d-523d" type="profile"/>
             <infoLink id="7317-6fea-3d4a-008c" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
@@ -5868,13 +6008,43 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           </constraints>
           <entryLinks>
             <entryLink id="6402-20f3-3b89-c382" name="Veteran M5 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="6cd9-d536-c7d6-86ca" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
-                <infoLink id="c5ef-d13d-a164-c4a0" name="Veteran M5 Stuart" hidden="false" targetId="82ee-93b9-711f-b859" type="profile"/>
+                <infoLink id="c5ef-d13d-a164-c4a0" name="Veteran M5 Stuart" hidden="false" targetId="82ee-93b9-711f-b859" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                      <conditions>
+                        <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
             </entryLink>
             <entryLink id="33dd-ab5a-d6ec-f75f" name="Veteran M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" targetId="66be-f0a7-5916-49fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
-                <infoLink id="af66-e4fd-c220-33ee" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile"/>
+                <infoLink id="af66-e4fd-c220-33ee" name="Veteran M4 Sherman (75mm)" hidden="false" targetId="c289-9dbf-ee08-3029" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                      <conditions>
+                        <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
             </entryLink>
           </entryLinks>
@@ -5885,13 +6055,43 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           </constraints>
           <entryLinks>
             <entryLink id="bda8-d2fd-c3ed-30a3" name="Veteran M4 Sherman (105mm) Tank Platoon" hidden="false" collective="false" import="true" targetId="6030-d903-c72b-deee" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
-                <infoLink id="5746-f06f-799b-b0ca" name="Veteran M4 Sherman (105mm)" hidden="false" targetId="8aec-aed4-76d6-4d48" type="profile"/>
+                <infoLink id="5746-f06f-799b-b0ca" name="Veteran M4 Sherman (105mm)" hidden="false" targetId="8aec-aed4-76d6-4d48" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                      <conditions>
+                        <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
             </entryLink>
             <entryLink id="91a1-e9d1-ba5b-0a1d" name="Veteran M8 Scott Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="b498-653f-4eb6-464c" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
-                <infoLink id="b597-75a7-f815-9c7a" name="Veteran M8 Scott (75mm)" hidden="false" targetId="d995-7cbb-87e0-c994" type="profile"/>
+                <infoLink id="b597-75a7-f815-9c7a" name="Veteran M8 Scott (75mm)" hidden="false" targetId="d995-7cbb-87e0-c994" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                      <conditions>
+                        <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
             </entryLink>
           </entryLinks>
@@ -5899,21 +6099,56 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="bb74-9c89-5183-85da" name="Veteran Armoured M4 81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="91d3-95fb-81c3-5ffa" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="587d-0afc-294d-40ee" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="fa33-230e-b546-4aab" name="Veteran M4 (81mm mortar)" hidden="false" targetId="c97e-7d99-2e58-010e" type="profile"/>
+            <infoLink id="fa33-230e-b546-4aab" name="Veteran M4 (81mm mortar)" hidden="false" targetId="c97e-7d99-2e58-010e" type="profile">
+              <modifiers>
+                <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
         </entryLink>
         <entryLink id="1658-3a68-c4cc-5971" name="Veteran M5 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="6cd9-d536-c7d6-86ca" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc90-5450-4283-0669" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c06d-92ff-4e60-410b" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="a25f-cce5-0551-e1a0" name="Veteran M5 Stuart" hidden="false" targetId="82ee-93b9-711f-b859" type="profile"/>
+            <infoLink id="a25f-cce5-0551-e1a0" name="Veteran M5 Stuart" hidden="false" targetId="82ee-93b9-711f-b859" type="profile">
+              <modifiers>
+                <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="41c1-c944-a0e7-0d15" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
+        </entryLink>
+        <entryLink id="178d-67d1-4c54-a6ac" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="2455-9e31-c86c-ddbf" name="Division LeCleric" hidden="false" collective="false" import="true" targetId="16a5-8a76-cbea-0604" type="selectionEntry"/>
+          </entryLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -6423,12 +6658,27 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c3e8-0648-6ba3-2ff6" name="Veteran Armoured Rifle Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0987-85fb-3e5c-0740" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ece-b614-94bd-dd04" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="56eb-527b-eb0c-43ef" name="Veteran Thompson SMG team" hidden="false" targetId="bb64-c079-d313-d0fc" type="profile"/>
+            <infoLink id="56eb-527b-eb0c-43ef" name="Veteran Thompson SMG team" hidden="false" targetId="bb64-c079-d313-d0fc" type="profile">
+              <modifiers>
+                <modifier type="append" field="4aa0-1b18-70af-9474" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
             <infoLink id="e3e5-960f-e300-bc32" name="Thompson SMG team" hidden="false" targetId="9145-3716-e597-f4cd" type="profile"/>
             <infoLink id="674f-97f9-3d37-0bd8" name="HQ Transport" hidden="false" targetId="7de4-d921-ff24-9632" type="rule"/>
           </infoLinks>
@@ -6458,7 +6708,15 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
               <selectionEntries>
                 <selectionEntry id="bb03-77e3-4bed-1b2a" name="2x Jeep (MG)" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="4f0a-8190-49bc-f1e0" name="Jeep (MG)" hidden="false" targetId="61c4-47de-1489-9d0c" type="profile"/>
+                    <infoLink id="4f0a-8190-49bc-f1e0" name="Jeep (MG)" hidden="false" targetId="61c4-47de-1489-9d0c" type="profile">
+                      <modifiers>
+                        <modifier type="append" field="55ef-8653-887d-4642" value=" Last Stand 3+">
+                          <conditions>
+                            <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
                     <infoLink id="25f4-7314-59b8-d92e" name="Jeep (.50 cal MG)" hidden="false" targetId="3228-2d38-a747-e65a" type="profile"/>
                   </infoLinks>
                   <costs>
@@ -6467,7 +6725,15 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                 </selectionEntry>
                 <selectionEntry id="a9e5-deae-3405-cc84" name="1x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="7763-b455-322b-8414" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+                    <infoLink id="7763-b455-322b-8414" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile">
+                      <modifiers>
+                        <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                          <conditions>
+                            <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
                     <infoLink id="0852-a5b6-5fc9-3962" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
                     <infoLink id="5061-9c2a-fac1-96ce" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                     <infoLink id="907a-39d9-eff5-a7f5" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
@@ -6484,12 +6750,27 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="c882-c5e4-8da5-fb19" name="Veteran M1917 Machine-Gun Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef42-2bd2-8867-bf50" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="8803-b8da-1fdf-ba79" name="M1917 team" hidden="false" targetId="4116-5da7-3f78-4c98" type="profile"/>
-            <infoLink id="3234-1a60-32ea-8b2c" name="Veteran M1917 HMG" hidden="false" targetId="6d21-8935-ec71-4b27" type="profile"/>
+            <infoLink id="8803-b8da-1fdf-ba79" name="M1917 HMG team" hidden="false" targetId="4116-5da7-3f78-4c98" type="profile"/>
+            <infoLink id="3234-1a60-32ea-8b2c" name="Veteran M1917 HMG" hidden="false" targetId="6d21-8935-ec71-4b27" type="profile">
+              <modifiers>
+                <modifier type="append" field="4aa0-1b18-70af-9474" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
             <infoLink id="6237-702b-243f-0813" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
           </infoLinks>
           <selectionEntries>
@@ -6513,7 +6794,15 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                 <infoLink id="5221-d878-be38-8014" name="Passenger MG" hidden="false" targetId="2eba-857b-14f3-7fd7" type="profile"/>
                 <infoLink id="1d6b-07ee-d7fe-ae8d" name="MG Transport" hidden="false" targetId="575e-4c7e-095f-1fb4" type="rule"/>
                 <infoLink id="10b0-1e51-7db2-781a" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
-                <infoLink id="cda9-d095-36e4-8fd1" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+                <infoLink id="cda9-d095-36e4-8fd1" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                      <conditions>
+                        <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
                 <infoLink id="4b45-6086-6564-ab80" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
               </infoLinks>
               <selectionEntries>
@@ -6530,6 +6819,13 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="80ea-692e-d29a-ab41" name="Veteran 57mm Anti-Tank Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1312-7b06-3faa-db77" type="max"/>
           </constraints>
@@ -6539,7 +6835,15 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
             <infoLink id="5299-1400-8e67-0f40" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
             <infoLink id="7ba6-4b9d-a59b-7de5" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
             <infoLink id="1d18-e034-3d25-4803" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-            <infoLink id="9f8c-4da6-5961-169f" name="Veteran 57mm gun" hidden="false" targetId="1405-ca2d-8ac7-29f3" type="profile"/>
+            <infoLink id="9f8c-4da6-5961-169f" name="Veteran 57mm gun" hidden="false" targetId="1405-ca2d-8ac7-29f3" type="profile">
+              <modifiers>
+                <modifier type="append" field="0954-f596-53ea-4ef7" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="1883-fa9a-3713-6aa8" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="035d-fb18-180c-9028">
@@ -6556,7 +6860,15 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                       </constraints>
                       <infoLinks>
                         <infoLink id="2578-94f2-8ebf-b440" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
-                        <infoLink id="55fe-ff03-30d5-fe54" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="55fe-ff03-30d5-fe54" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile">
+                          <modifiers>
+                            <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                              <conditions>
+                                <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
                         <infoLink id="9ef7-dde1-bfc7-9af8" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                         <infoLink id="296b-d75a-0946-f3f3" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
@@ -6581,7 +6893,15 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                       </constraints>
                       <infoLinks>
                         <infoLink id="6081-5cf8-cb22-97d9" name="M3 half-track (.50 cal MG)" hidden="false" targetId="6b4c-dd25-5f1d-0ed3" type="profile"/>
-                        <infoLink id="0a77-e70d-d1ec-7ba1" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile"/>
+                        <infoLink id="0a77-e70d-d1ec-7ba1" name="M3 half-track" hidden="false" targetId="15f4-780e-dd21-bef2" type="profile">
+                          <modifiers>
+                            <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                              <conditions>
+                                <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
                         <infoLink id="25cf-ad07-d246-582d" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                         <infoLink id="b9a9-b604-ced1-e708" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
@@ -6608,26 +6928,88 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
       </selectionEntries>
       <entryLinks>
         <entryLink id="a5e7-2c0c-dbd3-c28a" name="Veteran Armoured Rifle Platoon" hidden="false" collective="false" import="true" targetId="a6a2-e58d-a90d-0479" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1edc-d191-81c4-2e92" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d1a-b09c-e87d-c888" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="6091-f586-1aad-619f" name="Veteran Armoured Rifleman" hidden="false" targetId="4dc5-fc73-9aaa-bb1d" type="profile">
+              <modifiers>
+                <modifier type="append" field="4aa0-1b18-70af-9474" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="bdbe-94c5-a688-be3b" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile">
+              <modifiers>
+                <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
         </entryLink>
         <entryLink id="3dae-77ab-3d17-8af8" name="Veteran M8 Scott Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="b498-653f-4eb6-464c" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f812-5260-d9ef-f6cc" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="260b-7fc9-c911-c822" name="Veteran M8 Scott (75mm)" hidden="false" targetId="d995-7cbb-87e0-c994" type="profile"/>
+            <infoLink id="260b-7fc9-c911-c822" name="Veteran M8 Scott (75mm)" hidden="false" targetId="d995-7cbb-87e0-c994" type="profile">
+              <modifiers>
+                <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
         </entryLink>
         <entryLink id="be4a-c7a7-ab09-a615" name="Veteran Armoured M4 81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="91d3-95fb-81c3-5ffa" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27e0-9b5e-bdec-d68a" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="4fb8-0aaa-c995-8b47" name="Veteran M4 (81mm mortar)" hidden="false" targetId="c97e-7d99-2e58-010e" type="profile"/>
+            <infoLink id="4fb8-0aaa-c995-8b47" name="Veteran M4 (81mm mortar)" hidden="false" targetId="c97e-7d99-2e58-010e" type="profile">
+              <modifiers>
+                <modifier type="append" field="046a-7f27-8072-dedb" value=" Last Stand 3+">
+                  <conditions>
+                    <condition field="selections" scope="beea-1b37-924f-c6ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16a5-8a76-cbea-0604" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
+        </entryLink>
+        <entryLink id="ff54-498f-1726-204a" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="4472-b504-fd63-6d16" name="Division LeCleric" hidden="false" collective="false" import="true" targetId="16a5-8a76-cbea-0604" type="selectionEntry"/>
+          </entryLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -6637,8 +7019,24 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
     <selectionEntry id="a6a2-e58d-a90d-0479" name="Veteran Armoured Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a3fd-ce2d-45f8-f140" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
-        <infoLink id="60a2-a810-77d9-b4fc" name="Veteran Armoured Rifleman" hidden="false" targetId="4dc5-fc73-9aaa-bb1d" type="profile"/>
-        <infoLink id="1f93-5fc4-79f1-5352" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
+        <infoLink id="60a2-a810-77d9-b4fc" name="Veteran Armoured Rifleman" hidden="false" targetId="4dc5-fc73-9aaa-bb1d" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="beea-1b37-924f-c6ad" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1f93-5fc4-79f1-5352" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="beea-1b37-924f-c6ad" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="cfa8-89b7-06b5-27ce" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
         <infoLink id="1e42-8894-4a4d-f04e" name="60mm mortar team" hidden="false" targetId="93f3-7a18-6fd5-a2df" type="profile"/>
         <infoLink id="aa20-1558-4456-0687" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
@@ -6715,7 +7113,6 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb29-17cb-e0ca-26f4" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="09b1-a0ff-36e3-5751" name="Veteran M3 half-track" hidden="false" targetId="e4f3-f030-0751-2234" type="profile"/>
                     <infoLink id="7e50-378e-1bae-486d" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
                     <infoLink id="eb2b-9bde-0d25-4c5e" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                   </infoLinks>
@@ -9056,6 +9453,14 @@ Follow Me 3+/Rally 4+</description>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="16a5-8a76-cbea-0604" name="Division LeClerc" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="d367-0686-65ee-7038" name="Division LeCleric" hidden="false">
+          <description>Gain LeClerc&apos;s Oath for +1 per unit
+Motivation Last Stand 3+</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
