@@ -6739,6 +6739,16 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                     <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00ea-cf03-c6a5-5ff0" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="4aa0-1b18-70af-9474" value="4+ Last Stand 3+ Rally 4+">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d98a-f8fe-f862-50ef" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="4aa0-1b18-70af-9474" value="4+ Follow Me 3+ Rally 4+">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c1c6-3cd6-46e3-5258" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </infoLink>
             <infoLink id="4bb0-6988-c4bf-a94b" name="Thompson SMG team" hidden="false" targetId="9145-3716-e597-f4cd" type="profile"/>
@@ -6758,18 +6768,14 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="8980-92a2-5bef-ac81" name="Optional Upgrades" hidden="false" collective="false" import="true" targetId="1313-f00d-5817-ff93" type="selectionEntryGroup">
-              <entryLinks>
-                <entryLink id="28c0-9b1c-6c98-94eb" name="Tank Riders (35th)" hidden="true" collective="false" import="true" targetId="b416-52ca-e455-fe69" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="false">
-                      <conditions>
-                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1463-6a25-365e-b57b" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
-              </entryLinks>
+            <entryLink id="729e-1f9e-c84c-4ebd" name="Tank Riders (35th)" hidden="true" collective="false" import="true" targetId="b416-52ca-e455-fe69" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1463-6a25-365e-b57b" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
           <costs>
@@ -6809,6 +6815,16 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                         <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00ea-cf03-c6a5-5ff0" type="equalTo"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" field="0954-f596-53ea-4ef7" value="4+ Last Stand 3+ Rally 4+">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d98a-f8fe-f862-50ef" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="0954-f596-53ea-4ef7" value="4+ Follow Me 3+ Rally 4+">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c1c6-3cd6-46e3-5258" type="equalTo"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -6832,6 +6848,16 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                     <modifier type="set" field="046a-7f27-8072-dedb" value="4+ Counterattack 3+ Rally 4+ Remount 3+">
                       <conditions>
                         <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00ea-cf03-c6a5-5ff0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="046a-7f27-8072-dedb" value="4+ Last Stand 3+ Rally 4+ Remount 3+">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d98a-f8fe-f862-50ef" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="046a-7f27-8072-dedb" value="4+ Follow Me 3+ Rally 4+ Remount 3+">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c1c6-3cd6-46e3-5258" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -6887,6 +6913,16 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                     <condition field="selections" scope="c02c-b405-10f5-8a91" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="d6e8-f263-100d-9885" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="4aa0-1b18-70af-9474" value="4+ Last Stand 3+ Rally 4+">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d98a-f8fe-f862-50ef" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="4aa0-1b18-70af-9474" value="4+ Follow Me 3+ Rally 4+">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c1c6-3cd6-46e3-5258" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -6910,27 +6946,23 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="086b-a4b3-f84a-ab2a" name="Optional Upgrades" hidden="false" collective="false" import="true" targetId="1313-f00d-5817-ff93" type="selectionEntryGroup">
-              <entryLinks>
-                <entryLink id="4d6f-a290-356c-39bc" name="Indian Head" hidden="true" collective="false" import="true" targetId="d6e8-f263-100d-9885" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="false">
-                      <conditions>
-                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16b9-3530-7fc3-3dbd" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
-                <entryLink id="1639-2206-b59c-a4b0" name="Tank Riders (35th)" hidden="true" collective="false" import="true" targetId="b416-52ca-e455-fe69" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="false">
-                      <conditions>
-                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1463-6a25-365e-b57b" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
-              </entryLinks>
+            <entryLink id="ddc5-f6fb-16dc-6704" name="Tank Riders (35th)" hidden="true" collective="false" import="true" targetId="b416-52ca-e455-fe69" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1463-6a25-365e-b57b" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="e6e1-be06-eb24-8031" name="Indian Head (2nd)" hidden="true" collective="false" import="true" targetId="d6e8-f263-100d-9885" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16b9-3530-7fc3-3dbd" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -6956,6 +6988,16 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                 <modifier type="set" field="4aa0-1b18-70af-9474" value="4+ Counterattack 3+ Rally 4+">
                   <conditions>
                     <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00ea-cf03-c6a5-5ff0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="4aa0-1b18-70af-9474" value="4+ Last Stand 3+ Rally 4+">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d98a-f8fe-f862-50ef" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="4aa0-1b18-70af-9474" value="4+ Follow Me 3+ Rally 4+">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c1c6-3cd6-46e3-5258" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6986,6 +7028,16 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                     <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="0954-f596-53ea-4ef7" value="4+ Follow Me 3+ Rally 4+">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c1c6-3cd6-46e3-5258" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="0954-f596-53ea-4ef7" value="4+ Last Stand 3+ Rally 4+">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d98a-f8fe-f862-50ef" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -7012,6 +7064,16 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                 <modifier type="set" field="4aa0-1b18-70af-9474" value="5+">
                   <conditions>
                     <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b604-dd06-c65b-ecc0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="4aa0-1b18-70af-9474" value="4+ Last Stand 3+ Rally 4+">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d98a-f8fe-f862-50ef" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="4aa0-1b18-70af-9474" value="4+ Follow Me 3+ Rally 4+">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c1c6-3cd6-46e3-5258" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -7062,6 +7124,8 @@ Units from this formation can move freely at start of the game.  Other friendly 
             </entryLink>
             <entryLink id="ee3a-501a-7693-6954" name="Demolitions Specialists" hidden="false" collective="false" import="true" targetId="2b59-7ffa-8cbd-c9a1" type="selectionEntry"/>
             <entryLink id="e36f-2996-46a8-c4e3" name="83rd Infintry Division - Thunderbolt" hidden="false" collective="false" import="true" targetId="00ea-cf03-c6a5-5ff0" type="selectionEntry"/>
+            <entryLink id="584d-3c83-f6cc-46b3" name="5th Infantry Division - Red Devils" hidden="false" collective="false" import="true" targetId="c1c6-3cd6-46e3-5258" type="selectionEntry"/>
+            <entryLink id="8ac5-b0fd-8f28-0a9a" name="30th Infantry Division - Old Hickory" hidden="false" collective="false" import="true" targetId="d98a-f8fe-f862-50ef" type="selectionEntry"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -7960,7 +8024,7 @@ Units from this formation can move freely at start of the game.  Other friendly 
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6e8-f263-100d-9885" name="Indian Head" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d6e8-f263-100d-9885" name="Indian Head (2nd)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c04-910d-2a31-55a5" type="max"/>
       </constraints>
@@ -8349,6 +8413,9 @@ Units from this formation can move freely at start of the game.  Other friendly 
       </costs>
     </selectionEntry>
     <selectionEntry id="b416-52ca-e455-fe69" name="Tank Riders (35th)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d39-d91f-df82-d95e" type="max"/>
+      </constraints>
       <rules>
         <rule id="7211-4691-eb30-a384" name="Tank Riders" hidden="false">
           <description>Can mount and shoot from M4 Sherman teams (1 team per tank).
@@ -8600,16 +8667,36 @@ Can dismount when charging into contact
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d98a-f8fe-f862-50ef" name="30th Infantry Division - Old Hickory" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="a20f-6510-68ae-a35d" name="30th Infantry Division - Old Hickory" hidden="false">
+          <comment></comment>
+          <description>Swap Blood and Guts for Old Hickory Motivation rating
+
+Last Stand 3+/Rally 4+</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c1c6-3cd6-46e3-5258" name="5th Infantry Division - Red Devils" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="e49f-8524-14e8-c1e0" name="5th Infantry Division - Red Devils" hidden="false">
+          <description>Swap Blood and Guts for Red Devils Motivation
+
+Follow Me 3+/Rally 4+</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1791-3aa3-d6a0-e951" name="Upgrade from Cards" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f57d-fea2-adc5-804f" type="max"/>
-      </constraints>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="1313-f00d-5817-ff93" name="Optional Upgrades" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e986-5cdf-ce0f-85f4" type="max"/>
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
