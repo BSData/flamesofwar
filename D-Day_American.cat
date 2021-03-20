@@ -6910,7 +6910,7 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                 <modifier type="set" field="7258-881d-dc2d-e80b" value="4+ Assault 3+">
                   <comment>BROKEN</comment>
                   <conditions>
-                    <condition field="selections" scope="c02c-b405-10f5-8a91" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="d6e8-f263-100d-9885" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="d6e8-f263-100d-9885" type="equalTo"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="4aa0-1b18-70af-9474" value="4+ Last Stand 3+ Rally 4+">
