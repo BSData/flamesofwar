@@ -6703,6 +6703,13 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
     </selectionEntry>
     <selectionEntry id="21bd-4715-bcc3-e405" name="Rifle Company" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="upgrade">
       <comment>og</comment>
+      <modifiers>
+        <modifier type="append" field="name" value="- Demo Specialists">
+          <conditions>
+            <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b59-7ffa-8cbd-c9a1" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="7792-be22-95a9-8bb3" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
@@ -6871,7 +6878,26 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           <selectionEntryGroups>
             <selectionEntryGroup id="3639-f1e1-0f3b-0976" name="Required Upgrades" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="f233-f91d-f3ce-3361" name="Tough &apos;Ombres (r 90th)" hidden="true" collective="false" import="true" targetId="4560-082c-a7a6-7718" type="selectionEntry">
+                <entryLink id="f233-f91d-f3ce-3361" name="Demo Spec" hidden="true" collective="false" import="true" targetId="046a-e8b0-ead2-36d0" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b59-7ffa-8cbd-c9a1" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="b55c-6b1d-0806-44b0" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b59-7ffa-8cbd-c9a1" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="9533-587f-751e-d17e" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b59-7ffa-8cbd-c9a1" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="2ac7-f148-53a8-e3c9" name="Tough &apos;Ombres (r 90th)" hidden="true" collective="false" import="true" targetId="4560-082c-a7a6-7718" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -6893,30 +6919,6 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="119c-3f2f-acbb-b173" name="Optional Upgrades" hidden="false" collective="false" import="true" targetId="1313-f00d-5817-ff93" type="selectionEntryGroup">
-              <entryLinks>
-                <entryLink id="cd9c-1e87-b5fb-ea0f" name="Indian Head" hidden="true" collective="false" import="true" targetId="d6e8-f263-100d-9885" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="false">
-                      <conditions>
-                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16b9-3530-7fc3-3dbd" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
-                <entryLink id="ba36-23fe-f11c-c1a4" name="Tank Riders (35th)" hidden="true" collective="false" import="true" targetId="b416-52ca-e455-fe69" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="false">
-                      <conditions>
-                        <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1463-6a25-365e-b57b" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
-              </entryLinks>
-            </entryLink>
-          </entryLinks>
         </entryLink>
         <entryLink id="a9fa-6cf2-3bc9-080f" name="Mortar Platoon" hidden="false" collective="false" import="true" targetId="2390-5c66-17d6-3b59" type="selectionEntry">
           <constraints>
@@ -7050,6 +7052,29 @@ Units from this formation can move freely at start of the game.  Other friendly 
             <entryLink id="dff0-400b-8daa-4db2" name="90th Infantry Division - Tough &apos;Ombres" hidden="false" collective="false" import="true" targetId="b604-dd06-c65b-ecc0" type="selectionEntry">
               <comment>-2 pts for Rplatoons and -1 for others.  motivation is 5+</comment>
             </entryLink>
+            <entryLink id="ee3a-501a-7693-6954" name="Demolitions Specialists" hidden="false" collective="false" import="true" targetId="2b59-7ffa-8cbd-c9a1" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="34c9-77c3-3198-85de" name="Optional Upgrades" hidden="false" collective="false" import="true" targetId="1313-f00d-5817-ff93" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="be96-2a80-5afb-631f" name="Indian Head" hidden="true" collective="false" import="true" targetId="d6e8-f263-100d-9885" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16b9-3530-7fc3-3dbd" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="3f1c-709e-7143-dd98" name="Tank Riders (35th)" hidden="true" collective="false" import="true" targetId="b416-52ca-e455-fe69" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="21bd-4715-bcc3-e405" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1463-6a25-365e-b57b" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -7058,6 +7083,13 @@ Units from this formation can move freely at start of the game.  Other friendly 
       </costs>
     </selectionEntry>
     <selectionEntry id="55d9-d9eb-8935-03cb" name="Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Demo Specialists Platoon">
+          <conditions>
+            <condition field="selections" scope="55d9-d9eb-8935-03cb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-e8b0-ead2-36d0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="1460-b978-63a6-af51" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
         <infoLink id="3457-93fd-88b3-8a2f" name="Rifleman" hidden="false" targetId="1fc8-0019-2559-a005" type="profile">
@@ -7162,9 +7194,14 @@ Units from this formation can move freely at start of the game.  Other friendly 
             <selectionEntry id="b7e9-cade-2349-5120" name="7x M1 Garand, 1x M1 Bazooka" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="55d9-d9eb-8935-03cb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d6e8-f263-100d-9885" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="55d9-d9eb-8935-03cb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d6e8-f263-100d-9885" type="equalTo"/>
+                        <condition field="selections" scope="55d9-d9eb-8935-03cb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-e8b0-ead2-36d0" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <selectionEntries>
@@ -7197,16 +7234,19 @@ Units from this formation can move freely at start of the game.  Other friendly 
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e8a8-1c10-6813-459d" name="10x M1 Garand, 1x M1 Bazooka" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e8a8-1c10-6813-459d" name="9x M1 Garand, 1x M1 Bazooka, 1x Flame-Thrower" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="hidden" value="true">
+                <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="55d9-d9eb-8935-03cb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d6e8-f263-100d-9885" type="equalTo"/>
+                    <condition field="selections" scope="55d9-d9eb-8935-03cb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-e8b0-ead2-36d0" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="1fad-195a-38fd-e154" name="Pioneers" hidden="false" targetId="0eb1-db92-78fe-4748" type="rule"/>
+              </infoLinks>
               <selectionEntries>
-                <selectionEntry id="5294-6400-1bf6-9083" name="10x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="5294-6400-1bf6-9083" name="9x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="584c-9d63-7982-77e5" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="314e-fecf-968a-e337" type="max"/>
@@ -7230,9 +7270,21 @@ Units from this formation can move freely at start of the game.  Other friendly 
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="f54a-c69b-f4b8-7aa0" name="1x Flame-thrower team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d7c-79af-bfd3-8bc1" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8a1-4eeb-e588-f348" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="f8d2-df1c-a092-cd1c" name="Flame-thrower team" hidden="false" targetId="8d27-0be3-2e03-7264" type="profile"/>
+                    <infoLink id="1d27-b418-89f7-d773" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+                    <infoLink id="5b99-797c-4621-dac2" name="Flame-thrower" hidden="false" targetId="b841-503f-5485-214f" type="rule"/>
+                    <infoLink id="1d23-43ce-ffa1-3593" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7168-f7b7-9b4d-626b" name="7x Thompson SMG, 1x M1 Bazooka" hidden="true" collective="false" import="true" type="upgrade">
@@ -7271,6 +7323,103 @@ Units from this formation can move freely at start of the game.  Other friendly 
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9c21-dfc5-3c92-168a" name="10x M1 Garand, 1x M1 Bazooka" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="55d9-d9eb-8935-03cb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d6e8-f263-100d-9885" type="equalTo"/>
+                        <condition field="selections" scope="55d9-d9eb-8935-03cb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-e8b0-ead2-36d0" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <selectionEntries>
+                <selectionEntry id="fbae-0e5c-62da-633f" name="10x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ef9-d565-bca6-7aaf" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="734b-fd25-6543-ff32" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="5d7c-7ed1-16fa-f46a" name="M1 Garand rifle team" hidden="false" targetId="396b-35dc-3cb0-aeb7" type="profile"/>
+                    <infoLink id="8c74-da53-241f-b1d4" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e0a9-c465-f0dd-babe" name="1x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7a5-54e4-279c-e741" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c12b-6b1e-196c-4755" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="c2f7-f56c-c6c2-8c1e" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ec7-be21-8000-d841" name="6x M1 Garand, 1x M1 Bazooka, 1x Flame-Thrower" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="55d9-d9eb-8935-03cb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-e8b0-ead2-36d0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="039c-1026-e73d-9b46" name="Pioneers" hidden="false" targetId="0eb1-db92-78fe-4748" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="7a8d-d587-d159-8434" name="6x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2e7-d2ae-a492-ff13" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3853-9ef8-e212-6db1" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="cd4a-7512-e1e9-13b0" name="M1 Garand rifle team" hidden="false" targetId="396b-35dc-3cb0-aeb7" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f91c-ad3f-f101-451b" name="1x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9b1-3aa9-67d5-8669" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b192-2e90-0df9-1f76" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="8776-b1e7-2a37-0fdf" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1800-68de-204b-4db8" name="1x Flame-thrower team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf0f-6d10-6077-ee7c" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aae7-d599-c389-d2f2" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="fa5e-9ae9-3173-fe1b" name="Flame-thrower team" hidden="false" targetId="8d27-0be3-2e03-7264" type="profile"/>
+                    <infoLink id="a267-02d8-38bd-f14b" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+                    <infoLink id="0ab8-57e2-a349-f658" name="Flame-thrower" hidden="false" targetId="b841-503f-5485-214f" type="rule"/>
+                    <infoLink id="630d-f1a3-133e-edcb" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8448,6 +8597,19 @@ Can dismount when charging into contact
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="2b59-7ffa-8cbd-c9a1" name="Demolitions Specialists" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="6bfc-55bf-caa7-ed22" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+        <categoryLink id="9545-070c-73b5-1acb" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="046a-e8b0-ead2-36d0" name="Demo Spec" hidden="false" collective="false" import="true" type="upgrade">
+      <comment></comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b55c-6b1d-0806-44b0" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9533-587f-751e-d17e" type="min"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
