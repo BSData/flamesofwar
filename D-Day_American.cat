@@ -5532,7 +5532,15 @@ Cannot shoot or launch an assault from impassable water terrain
         <infoLink id="0f86-22fd-4445-e659" name="M4 Sherman (105mm)" hidden="false" targetId="cc44-93df-aaf6-91e6" type="profile"/>
         <infoLink id="ea3b-c706-0237-f525" name="M4 Sherman (MGs)" hidden="false" targetId="4e96-b950-a3a3-1009" type="profile"/>
         <infoLink id="3ef8-7118-1746-4634" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="3788-197b-5623-cd6a" type="profile"/>
-        <infoLink id="00c0-e17d-f41d-5c0b" name="Veteran M4 Sherman (105mm)" hidden="false" targetId="8aec-aed4-76d6-4d48" type="profile"/>
+        <infoLink id="00c0-e17d-f41d-5c0b" name="Veteran M4 Sherman (105mm)" hidden="false" targetId="8aec-aed4-76d6-4d48" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e0e-f212-65f8-2866" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="8045-70fb-6982-e58e" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
         <infoLink id="43ae-c849-e0f2-f639" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
         <infoLink id="edad-2d99-672c-bc35" name="M4 Sherman (105mm) Direct Fire" hidden="false" targetId="aa63-cf9a-572d-bdf8" type="profile"/>
@@ -7126,6 +7134,7 @@ Units from this formation can move freely at start of the game.  Other friendly 
             <entryLink id="e36f-2996-46a8-c4e3" name="83rd Infintry Division - Thunderbolt" hidden="false" collective="false" import="true" targetId="00ea-cf03-c6a5-5ff0" type="selectionEntry"/>
             <entryLink id="584d-3c83-f6cc-46b3" name="5th Infantry Division - Red Devils" hidden="false" collective="false" import="true" targetId="c1c6-3cd6-46e3-5258" type="selectionEntry"/>
             <entryLink id="8ac5-b0fd-8f28-0a9a" name="30th Infantry Division - Old Hickory" hidden="false" collective="false" import="true" targetId="d98a-f8fe-f862-50ef" type="selectionEntry"/>
+            <entryLink id="9a4c-0ca3-0b60-1c84" name="79th Infantry Division - Cross of Lorraine" hidden="false" collective="false" import="true" targetId="67a5-af70-e607-af6f" type="selectionEntry"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -7670,7 +7679,19 @@ Units from this formation can move freely at start of the game.  Other friendly 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efed-b422-0b75-24a5" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="9077-a72a-b5d7-526c" name="Veteran Thompson SMG team" hidden="false" targetId="bb64-c079-d313-d0fc" type="profile"/>
+            <infoLink id="9077-a72a-b5d7-526c" name="Veteran Thompson SMG team" hidden="false" targetId="bb64-c079-d313-d0fc" type="profile">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="6e0e-f212-65f8-2866" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b09-9892-1585-db26" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="append" field="4aa0-1b18-70af-9474" value=" Rally 3+"/>
+                    <modifier type="set" field="7258-881d-dc2d-e80b" value="4+ Tactics 4+"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </infoLink>
             <infoLink id="88e9-8bb9-4f0c-172d" name="Thompson SMG team" hidden="false" targetId="9145-3716-e597-f4cd" type="profile"/>
           </infoLinks>
           <selectionEntries>
@@ -7698,8 +7719,40 @@ Units from this formation can move freely at start of the game.  Other friendly 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f38-7f0a-c42a-fc9a" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a2d6-3bb5-7824-3dc4" name="Veteran M4 Sherman (105mm) Tank Platoon" hidden="false" collective="false" import="true" targetId="6030-d903-c72b-deee" type="selectionEntry"/>
-            <entryLink id="f0c1-d9b3-4f4a-03e9" name="Veteran 105mm Cannon Platoon" hidden="false" collective="false" import="true" targetId="efee-6f6a-ada0-c9c5" type="selectionEntry"/>
+            <entryLink id="a2d6-3bb5-7824-3dc4" name="Veteran M4 Sherman (105mm) Tank Platoon" hidden="false" collective="false" import="true" targetId="6030-d903-c72b-deee" type="selectionEntry">
+              <infoLinks>
+                <infoLink id="d2b7-dd8f-8cbd-7f26" name="Veteran M4 Sherman (105mm)" hidden="false" targetId="8aec-aed4-76d6-4d48" type="profile">
+                  <modifierGroups>
+                    <modifierGroup>
+                      <conditions>
+                        <condition field="selections" scope="6e0e-f212-65f8-2866" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b09-9892-1585-db26" type="equalTo"/>
+                      </conditions>
+                      <modifiers>
+                        <modifier type="append" field="046a-7f27-8072-dedb" value=" Rally 3+"/>
+                        <modifier type="set" field="6334-745a-f712-a0aa" value="4+ Tactics 4+"/>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
+            <entryLink id="f0c1-d9b3-4f4a-03e9" name="Veteran 105mm Cannon Platoon" hidden="false" collective="false" import="true" targetId="efee-6f6a-ada0-c9c5" type="selectionEntry">
+              <infoLinks>
+                <infoLink id="d02f-8f99-e779-18f2" name="Veteran 105mm light howitzer" hidden="false" targetId="1f31-c9ad-10f3-f01a" type="profile">
+                  <modifierGroups>
+                    <modifierGroup>
+                      <conditions>
+                        <condition field="selections" scope="6e0e-f212-65f8-2866" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b09-9892-1585-db26" type="equalTo"/>
+                      </conditions>
+                      <modifiers>
+                        <modifier type="append" field="0954-f596-53ea-4ef7" value=" Rally 3+"/>
+                        <modifier type="set" field="a907-592d-ab2d-5ead" value="4+ Assault 5+ Tactics 4+"/>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                </infoLink>
+              </infoLinks>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7709,21 +7762,86 @@ Units from this formation can move freely at start of the game.  Other friendly 
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8537-24ae-b2e6-b015" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a8c-3a29-7cb6-7eb6" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="d2ea-70c1-feec-bcd6" name="Veteran Rifleman" hidden="false" targetId="6d17-b0ab-0d55-595b" type="profile">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="6e0e-f212-65f8-2866" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b09-9892-1585-db26" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="append" field="4aa0-1b18-70af-9474" value=" Rally 3+"/>
+                    <modifier type="set" field="7258-881d-dc2d-e80b" value="4+ Tactics 4+"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </infoLink>
+          </infoLinks>
         </entryLink>
         <entryLink id="a2fd-5f8c-3187-2f79" name="Veteran Mortar Platoon" hidden="false" collective="false" import="true" targetId="9015-26ec-6f4c-a0f8" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75df-1cbe-903c-70da" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="046a-9e2d-893c-7b1c" name="Veteran Mortar Platoon" hidden="false" targetId="3d16-c538-c630-1f91" type="profile">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="6e0e-f212-65f8-2866" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b09-9892-1585-db26" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="append" field="4aa0-1b18-70af-9474" value=" Rally 3+"/>
+                    <modifier type="set" field="7258-881d-dc2d-e80b" value="4+ Assault 5+ Tactics 4+"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </infoLink>
+          </infoLinks>
         </entryLink>
         <entryLink id="f00f-2897-8cc1-13cb" name="Veteran M1917 Machine-Gun Platoon" hidden="false" collective="false" import="true" targetId="e436-1104-0971-3e3c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aef7-cc05-fc54-c849" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="117c-c353-1119-b200" name="Veteran M1917 HMG" hidden="false" targetId="6d21-8935-ec71-4b27" type="profile">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="6e0e-f212-65f8-2866" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b09-9892-1585-db26" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="append" field="4aa0-1b18-70af-9474" value=" Rally 3+"/>
+                    <modifier type="set" field="7258-881d-dc2d-e80b" value="4+ Assault 5+ Tactics 4+"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </infoLink>
+          </infoLinks>
         </entryLink>
         <entryLink id="0907-c87e-368d-1ffe" name="Veteran 57mm Anti-Tank Platoon" hidden="false" collective="false" import="true" targetId="d015-741e-a1e3-3f53" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7f3-5135-e656-de01" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2d52-875d-73fa-3f09" name="Veteran 57mm gun" hidden="false" targetId="1405-ca2d-8ac7-29f3" type="profile">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="6e0e-f212-65f8-2866" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b09-9892-1585-db26" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="append" field="0954-f596-53ea-4ef7" value=" Rally 3+"/>
+                    <modifier type="set" field="a907-592d-ab2d-5ead" value="4+ Assault 5+ Tactics 4+"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </infoLink>
+          </infoLinks>
+        </entryLink>
+        <entryLink id="3c60-6bfe-d145-1775" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="2ef2-d32e-ba59-a120" name="9th Infantry Division - Old Reliables" hidden="false" collective="false" import="true" targetId="8b09-9892-1585-db26" type="selectionEntry"/>
+          </entryLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -7733,6 +7851,18 @@ Units from this formation can move freely at start of the game.  Other friendly 
     <selectionEntry id="daa9-73c8-4b8e-3525" name="Veteran Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="81e7-28e5-c3f9-2daa" name="Observer" hidden="false" targetId="d378-9566-3e40-0747" type="rule"/>
+        <infoLink id="a851-1b36-a679-1aa0" name="Veteran Rifleman" hidden="false" targetId="6d17-b0ab-0d55-595b" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e0e-f212-65f8-2866" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="93fb-be87-e4f1-4332" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="551c-5409-be4d-cc3b" name="M1 Bazooka team" hidden="false" targetId="63e6-ee65-f238-6fda" type="profile"/>
+        <infoLink id="99e7-5cdc-815c-ca79" name="M1 Garand rifle team" hidden="false" targetId="396b-35dc-3cb0-aeb7" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="12a1-1520-31f3-01df" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -7742,11 +7872,6 @@ Units from this formation can move freely at start of the game.  Other friendly 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3795-1eb1-92fc-00e5" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="9d87-cef6-569a-a9f0" name="M1 Bazooka team" hidden="false" targetId="63e6-ee65-f238-6fda" type="profile"/>
-            <infoLink id="c811-5cf5-7745-3639" name="Veteran M1 Bazooka team" hidden="false" targetId="45b7-9145-5e53-c644" type="profile"/>
-            <infoLink id="eec5-5e0b-e80c-76d6" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
           </costs>
@@ -7756,9 +7881,7 @@ Units from this formation can move freely at start of the game.  Other friendly 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6829-3d51-79d8-e808" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="18ab-9266-fffa-d900" name="Veteran M1917 HMG" hidden="false" targetId="6d21-8935-ec71-4b27" type="profile"/>
-            <infoLink id="768c-8d99-5fa7-ca8d" name="M1917 team" hidden="false" targetId="4116-5da7-3f78-4c98" type="profile"/>
-            <infoLink id="5f04-9745-fb12-aced" name="Assault 5+" hidden="false" targetId="c061-64c4-cd6f-ced0" type="rule"/>
+            <infoLink id="768c-8d99-5fa7-ca8d" name="M1917 HMG team" hidden="false" targetId="4116-5da7-3f78-4c98" type="profile"/>
             <infoLink id="b49e-0d9d-7808-69cf" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
           </infoLinks>
           <costs>
@@ -7770,9 +7893,7 @@ Units from this formation can move freely at start of the game.  Other friendly 
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c295-da2b-f14e-e3e3" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="d8e3-7db8-07af-c586" name="Veteran M1919 LMG" hidden="false" targetId="819e-5237-2ae8-2a3a" type="profile"/>
             <infoLink id="709f-bef4-973c-e668" name="M1919 team" hidden="false" targetId="cd4e-b4b0-4ea7-fbf8" type="profile"/>
-            <infoLink id="cfd1-fd4f-9709-6c3f" name="Assault 5+" hidden="false" targetId="c061-64c4-cd6f-ced0" type="rule"/>
             <infoLink id="d412-6964-c309-afd1" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
           </infoLinks>
           <costs>
@@ -7794,10 +7915,6 @@ Units from this formation can move freely at start of the game.  Other friendly 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="016a-e06d-0492-0f30" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7021-3eae-b730-b1c7" type="max"/>
                   </constraints>
-                  <infoLinks>
-                    <infoLink id="f3d6-7293-d0f2-ab16" name="Veteran M1 Garand rifle team" hidden="false" targetId="a113-a115-8830-5208" type="profile"/>
-                    <infoLink id="b2a9-2bbb-9b80-4d15" name="M1 Garand rifle team" hidden="false" targetId="396b-35dc-3cb0-aeb7" type="profile"/>
-                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
                   </costs>
@@ -7807,11 +7924,6 @@ Units from this formation can move freely at start of the game.  Other friendly 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a26c-ddbc-6686-3251" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d73c-f990-68f6-1269" type="max"/>
                   </constraints>
-                  <infoLinks>
-                    <infoLink id="cc41-f90f-0568-d000" name="M1 Bazooka team" hidden="false" targetId="63e6-ee65-f238-6fda" type="profile"/>
-                    <infoLink id="7ef4-dce0-eb8c-dd36" name="Veteran M1 Bazooka team" hidden="false" targetId="45b7-9145-5e53-c644" type="profile"/>
-                    <infoLink id="f7f8-cda5-d925-7a68" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
                   </costs>
@@ -7828,10 +7940,6 @@ Units from this formation can move freely at start of the game.  Other friendly 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0b2-81bf-3bf6-d9b6" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64bd-e278-bb59-96f9" type="max"/>
                   </constraints>
-                  <infoLinks>
-                    <infoLink id="c293-179a-a2b7-6332" name="Veteran M1 Garand rifle team" hidden="false" targetId="a113-a115-8830-5208" type="profile"/>
-                    <infoLink id="15a8-edd2-7fb8-46ce" name="M1 Garand rifle team" hidden="false" targetId="396b-35dc-3cb0-aeb7" type="profile"/>
-                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
                   </costs>
@@ -7841,11 +7949,6 @@ Units from this formation can move freely at start of the game.  Other friendly 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="004a-6294-d71f-b3ad" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33dd-b47a-8ad1-e06d" type="max"/>
                   </constraints>
-                  <infoLinks>
-                    <infoLink id="4c6d-1e12-742b-aadc" name="M1 Bazooka team" hidden="false" targetId="63e6-ee65-f238-6fda" type="profile"/>
-                    <infoLink id="e0e2-9e56-2d6e-a60b" name="Veteran M1 Bazooka team" hidden="false" targetId="45b7-9145-5e53-c644" type="profile"/>
-                    <infoLink id="12eb-d883-bebd-a25a" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
                   </costs>
@@ -7867,7 +7970,15 @@ Units from this formation can move freely at start of the game.  Other friendly 
         <infoLink id="f9f9-acfb-8435-a492" name="105mm light howitzer Direct Fire" hidden="false" targetId="926f-ff12-120e-e24f" type="profile"/>
         <infoLink id="1221-ef2b-d477-fe91" name="105mm light howitzer Artillery" hidden="false" targetId="827f-fa4e-02cd-662c" type="profile"/>
         <infoLink id="1878-35cb-a085-5005" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
-        <infoLink id="781d-2344-b1e0-a327" name="Veteran 105mm light howitzer" hidden="false" targetId="1f31-c9ad-10f3-f01a" type="profile"/>
+        <infoLink id="781d-2344-b1e0-a327" name="Veteran 105mm light howitzer" hidden="false" targetId="1f31-c9ad-10f3-f01a" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e0e-f212-65f8-2866" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="8df4-44a1-acc3-344f" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
         <infoLink id="c08f-fc67-238a-a599" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
         <infoLink id="4dea-cf47-fad1-968b" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
@@ -7910,7 +8021,15 @@ Units from this formation can move freely at start of the game.  Other friendly 
     <selectionEntry id="9015-26ec-6f4c-a0f8" name="Veteran Mortar Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="e025-9372-420d-9466" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-        <infoLink id="5c28-a14c-4980-56a0" name="Veteran Mortar Platoon" hidden="false" targetId="3d16-c538-c630-1f91" type="profile"/>
+        <infoLink id="5c28-a14c-4980-56a0" name="Veteran Mortar Platoon" hidden="false" targetId="3d16-c538-c630-1f91" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e0e-f212-65f8-2866" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="becb-a424-d45a-1135" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="06d5-91a5-43f2-cdad">
@@ -7963,7 +8082,15 @@ Units from this formation can move freely at start of the game.  Other friendly 
     <selectionEntry id="e436-1104-0971-3e3c" name="Veteran M1917 Machine-Gun Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="40e8-6927-30bb-d018" name="M1917 team" hidden="false" targetId="4116-5da7-3f78-4c98" type="profile"/>
-        <infoLink id="bf12-0d4c-a5f5-b9af" name="Veteran M1917 HMG" hidden="false" targetId="6d21-8935-ec71-4b27" type="profile"/>
+        <infoLink id="bf12-0d4c-a5f5-b9af" name="Veteran M1917 HMG" hidden="false" targetId="6d21-8935-ec71-4b27" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e0e-f212-65f8-2866" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="abce-dd44-18be-c03d" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
       </infoLinks>
       <selectionEntries>
@@ -7988,7 +8115,15 @@ Units from this formation can move freely at start of the game.  Other friendly 
         <infoLink id="8257-d334-9c5f-a51e" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
         <infoLink id="50b4-3c21-e610-2e09" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
         <infoLink id="22f8-eb35-8748-10b9" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-        <infoLink id="9a18-7d8b-9f3e-292f" name="Veteran 57mm gun" hidden="false" targetId="1405-ca2d-8ac7-29f3" type="profile"/>
+        <infoLink id="9a18-7d8b-9f3e-292f" name="Veteran 57mm gun" hidden="false" targetId="1405-ca2d-8ac7-29f3" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e0e-f212-65f8-2866" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="92fc-016f-77a8-bd56" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed08-419a-e734-f058">
@@ -8327,6 +8462,17 @@ Units from this formation can move freely at start of the game.  Other friendly 
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2e06-6de2-1238-7933" name="Cross of Lorraine (79th)" hidden="false" collective="false" import="true" targetId="be2a-6446-8165-53c6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67a5-af70-e607-af6f" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -8692,6 +8838,36 @@ Follow Me 3+/Rally 4+</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="67a5-af70-e607-af6f" name="79th Infantry Division - Cross of Lorraine" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="e487-bf42-b233-5179" name="79th Infantry Division - Cross of Lorraine" hidden="false">
+          <description>When Attacker,105mm Field Artillery Batteries increase Fire Power</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry id="be2a-6446-8165-53c6" name="Cross of Lorraine (79th)" hidden="true" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdf0-6dc5-e7dc-de75" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="d21c-3e9c-2e6d-7f70" name="Cross of Lorraine (79th)" hidden="false">
+          <description>When Attacker, FP of 2+ instead of 3+</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b09-9892-1585-db26" name="9th Infantry Division - Old Reliables" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="4292-e125-707b-8170" name="9th Infantry Division - Old Reliables" hidden="false">
+          <description>Swap Yank Ing for Motivation Rally 3+, Skill Tactics 4+</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1791-3aa3-d6a0-e951" name="Upgrade from Cards" hidden="false" collective="false" import="true">
@@ -8747,6 +8923,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
   </sharedRules>
   <sharedProfiles>
     <profile id="eac1-e1a1-2b4c-a3ac" name="Thompson SMG team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+      <comment>og</comment>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Rally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
@@ -8825,7 +9002,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="cd4e-b4b0-4ea7-fbf8" name="M1919 team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+    <profile id="cd4e-b4b0-4ea7-fbf8" name="M1919 LMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
@@ -9588,6 +9765,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       </characteristics>
     </profile>
     <profile id="a113-a115-8830-5208" name="Veteran M1 Garand rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+      <comment></comment>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Tactics 3+</characteristic>
@@ -10146,6 +10324,20 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">4&quot;/10cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6d17-b0ab-0d55-595b" name="Veteran Rifleman" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+      <comment>new</comment>
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Tactics 3+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">14&quot;/35cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">14&quot;/35cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
