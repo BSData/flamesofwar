@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c97d-9ffb-d8c2-9cd8" name="D-Day American" revision="10" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c97d-9ffb-d8c2-9cd8" name="D-Day American" revision="10" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="567b-dc5a-c654-5ad4" name="D-Day American"/>
   </publications>
@@ -1312,6 +1312,16 @@
       </constraints>
     </entryLink>
     <entryLink id="5ff3-7f08-b966-fcda" name="Veteran Assault Company" hidden="false" collective="false" import="true" targetId="2bb4-e694-c3d6-fdc6" type="selectionEntry"/>
+    <entryLink id="f313-083b-b307-6bed" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="ba7a-13e4-780d-ec8a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="045a-2000-7fe1-dbbd" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="4d49-ba17-5fef-8358" name="Amphibious Transport" hidden="false" collective="false" import="true" targetId="d341-f518-7584-7eb5" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95f8-3fbd-1e15-334b" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cc09-bb6a-6216-2c3d" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
@@ -2336,10 +2346,10 @@ rally 3+</description>
 Cannot shoot or launch an assault from impassable water terrain
 </description>
         </rule>
-        <rule id="95c4-f734-3108-80d5" name="Amphibious" hidden="false">
-          <description>treats impassable water as difficult terrain</description>
-        </rule>
       </rules>
+      <infoLinks>
+        <infoLink id="7ee5-49d2-b71d-03ac" name="Amphibious" hidden="false" targetId="ae17-5a95-a5f5-63b5" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="54f4-c812-e069-d545" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
       </categoryLinks>
@@ -6751,7 +6761,6 @@ Can dismount when charging into contact
     <selectionEntry id="d98a-f8fe-f862-50ef" name="30th Infantry Division - Old Hickory" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="a20f-6510-68ae-a35d" name="30th Infantry Division - Old Hickory" hidden="false">
-          <comment></comment>
           <description>Swap Blood and Guts for Old Hickory Motivation rating
 
 Last Stand 3+/Rally 4+</description>
@@ -6779,6 +6788,9 @@ Follow Me 3+/Rally 4+</description>
           <description>When Attacker,105mm Field Artillery Batteries increase Fire Power</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="be2a-6446-8165-53c6" name="Cross of Lorraine (79th)" hidden="true" collective="false" import="true" type="upgrade">
       <constraints>
@@ -6829,6 +6841,9 @@ Follow Me 3+/Rally 4+</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da2b-6c2d-8b79-eb45" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cad5-1802-e613-85d2" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -6857,6 +6872,9 @@ Follow Me 3+/Rally 4+</description>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0eb7-501d-9603-49f0" name="M8 Greyhound Cavalry Recon Patrol" publicationId="567b-dc5a-c654-5ad4" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -6910,11 +6928,13 @@ Follow Me 3+/Rally 4+</description>
 Motivation Last Stand 3+</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2a66-aa4a-0586-b5ad" name="Assault Boat Section" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="44d5-5d88-3b26-1e34" name="Assault Boat Section" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-          <comment></comment>
           <characteristics>
             <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Rally 3+</characteristic>
             <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
@@ -7107,7 +7127,6 @@ Motivation Last Stand 3+</description>
     <selectionEntry id="dfb9-1211-0837-e1d5" name="Support Boat Section" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="9484-6d81-32c9-ac48" name="Support Boat Section" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-          <comment></comment>
           <characteristics>
             <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Rally 3+</characteristic>
             <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
@@ -7381,7 +7400,6 @@ Motivation Last Stand 3+</description>
       </constraints>
       <profiles>
         <profile id="f6f7-c369-1ddf-645d" name="Veteran Support Boat" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-          <comment></comment>
           <characteristics>
             <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
             <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Tactics 3+</characteristic>
@@ -7458,7 +7476,8 @@ Motivation Last Stand 3+</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="c31a-3b12-49b9-10aa" name="Sandbag Arnour" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>Need to fix the +1pt per tank.  Right now it is flat 2 pts because that is usually the min per unit</comment>
+      <comment>Need to fix the +1pt per tank.  Right now it is flat 2 pts because that is usually the min per unit
+Also needs to reduce dash speeds by 2&quot;/5cm</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c5a-7172-6e59-75f3" type="max"/>
       </constraints>
@@ -7472,6 +7491,58 @@ If a tank in this unit fails its armour save vs weapons with FP 5 or 6+ roll aga
       </rules>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d341-f518-7584-7eb5" name="Amphibious Transport" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="9b2c-b9f6-5a13-401d" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="be8a-ec6b-e1bc-a15b" name="Transport" hidden="false" collective="false" import="true" targetId="bfa2-77e6-cbda-0605" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" field="name" value=" - Amphibious"/>
+          </modifiers>
+          <infoLinks>
+            <infoLink id="48bb-73c1-88c6-5da1" name="Amphibious" hidden="false" targetId="ae17-5a95-a5f5-63b5" type="rule"/>
+          </infoLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba7a-13e4-780d-ec8a" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="c90a-c461-36ee-10f9" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0cfc-1a40-35d9-2cb9" name="Transport" hidden="false" collective="false" import="true" targetId="bfa2-77e6-cbda-0605" type="selectionEntry">
+          <modifiers>
+            <modifier type="append" field="name" value=" - Softskin"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfa2-77e6-cbda-0605" name="Transport" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="b9c2-a9ce-b90f-4002" name="Transport" hidden="false">
+          <description>Add one transport for every 6 infantry in unit
+Add one transport for each gun team in unit</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="291b-5c89-3902-6838" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+        <infoLink id="cede-724c-c66a-b0b9" name="Unarmoured" hidden="false" targetId="a5c7-5baa-4aad-ed13" type="rule"/>
+        <infoLink id="718a-4a1c-7e21-9a02" name="Unarmoured Tank" hidden="false" targetId="a1e7-43cb-e04a-f7a6" type="rule"/>
+        <infoLink id="fd2d-d4e5-e5fd-8cf5" name="Passengers 6" hidden="false" targetId="cf99-c640-bffb-48e2" type="rule"/>
+        <infoLink id="cd1d-bad7-de70-c941" name="Softskin" hidden="false" targetId="c72e-a283-4a87-3078" type="rule"/>
+        <infoLink id="13af-8c94-3fbc-f98d" name="Transport" hidden="false" targetId="e6b0-8391-2123-41cf" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -7553,7 +7624,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       </characteristics>
     </profile>
     <profile id="0242-e28a-6b6f-1fbd" name="M1 Garand rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-      <comment></comment>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Rally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
@@ -8372,7 +8442,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       </characteristics>
     </profile>
     <profile id="a113-a115-8830-5208" name="Veteran M1 Garand rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-      <comment></comment>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Tactics 3+</characteristic>
@@ -8949,7 +9018,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       </characteristics>
     </profile>
     <profile id="4dc5-fc73-9aaa-bb1d" name="Veteran Armoured Rifleman" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-      <comment></comment>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Tactics 3+</characteristic>
@@ -8960,6 +9028,19 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">14&quot;/35cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e6b0-8391-2123-41cf" name="Transport" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank">
+      <characteristics>
+        <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+</characteristic>
+        <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">5+</characteristic>
+        <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
+        <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">5+</characteristic>
+        <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">-</characteristic>
+        <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">32&quot;/80cm</characteristic>
+        <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
