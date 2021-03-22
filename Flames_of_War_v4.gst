@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="9" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="10" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
     <publication id="453d-401b-fd1e-0f95" name="Rulebook"/>
@@ -19,7 +19,7 @@
     <publication id="7dad-f562-34ff-9ca3" name="All American"/>
   </publications>
   <costTypes>
-    <costType id="995a-4d67-6920-bfe4" name="pts" defaultCostLimit="-1.0"/>
+    <costType id="995a-4d67-6920-bfe4" name="pts" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="55ec-3ef5-ca51-e647" name="Tank Team">
@@ -126,6 +126,19 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="3bf7-7a62-ca18-c39d" name="Warrior" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>This is included into warrior upgrades so that there are no other warriors added to the force</comment>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a065-acf0-6a9f-9660" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8934-fece-6741-7d26" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59c4-e838-af9b-4966" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedRules>
     <rule id="c061-64c4-cd6f-ced0" name="Assault 5+" hidden="false">
       <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
@@ -246,5 +259,18 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
       <description>Infantry, Gun, and Unarmoured Tank Teams re-roll successful Saves when hit by a Flame-thrower and the Unit is automatically Pinned Down. Armoured Tank Teams use their Top armour for Armour Saves when hit by a Flame-thrower.
 Flame-throwers may shoot in Defensive Fire. However, while a Unit that is Hit by a Flame-thrower is Pinned Down, this does not automatically stop the assault. The defender still needs to score five (or eight) hits as normal to stop the assault as normal.</description>
     </rule>
+    <rule id="cf99-c640-bffb-48e2" name="Passengers 6" hidden="false">
+      <description>Team can carry six Infantry Teams as Passangers</description>
+    </rule>
+    <rule id="ae17-5a95-a5f5-63b5" name="Amphibious" hidden="false">
+      <description>This vehicle treats impassable water as Difficult Terrain</description>
+    </rule>
+    <rule id="c72e-a283-4a87-3078" name="Softskin" hidden="false">
+      <description>If transport destroyed, passengers ddestroyed.  the rest are sent to the rear and passengers must dismount.</description>
+    </rule>
+    <rule id="a5c7-5baa-4aad-ed13" name="Unarmoured" hidden="false">
+      <description>Team cannot charge into contact and must break off if assaulted</description>
+    </rule>
+    <rule id="a1e7-43cb-e04a-f7a6" name="Unarmoured Tank" hidden="false"/>
   </sharedRules>
 </gameSystem>
