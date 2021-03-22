@@ -483,12 +483,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6e68-6062-01ef-35e9" name="7.5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f2c7-98e5-9b5e-9b7d" name="7.5cm anti-tank gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="2878-ecd8-6f10-e67a" name="7.5cm gun" hidden="false" targetId="68a9-ae0d-7018-62ed" type="profile"/>
         <infoLink id="3ebf-ca0b-775d-513e" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="e881-fe53-728b-d5c0" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
         <infoLink id="c244-78d2-1523-2b7f" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-        <infoLink id="5f0a-e704-9c0f-36fd" name="7.5cm anti-tank gun" hidden="false" targetId="6995-f922-f8fc-d5f3" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="84da-6781-29ec-26bc" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="5942-e049-a525-1082">
@@ -594,13 +608,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5250-ced4-c1bf-761e" name="Armoured Flame-Thrower Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="d0d3-d90a-81ea-9c43" name="Flame Tank" hidden="false">
+          <description>Flame tanks cannont Charge Into Contact and have an Assault rating of 5+.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="3406-e4b7-3b8a-2c13" name="Sd Kfz 251 (Flame)" hidden="false" targetId="3faf-1a76-5a81-ebd2" type="profile"/>
         <infoLink id="e420-b0c8-783d-a2bb" name="Sd Kfz 251 (Flame)" hidden="false" targetId="0843-ebd0-d84c-898a" type="profile"/>
         <infoLink id="3929-9413-da81-8328" name="Sd Kfz 251 (MG)" hidden="false" targetId="ef15-40da-0123-1f13" type="profile"/>
         <infoLink id="2895-b617-8671-0061" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
         <infoLink id="5383-56f7-5161-d494" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-        <infoLink id="f0a9-ac16-d972-c61f" name="Flame Tank" hidden="false" targetId="02e5-9b22-76e5-a117" type="rule"/>
         <infoLink id="5396-7ea7-cdbc-827d" name="Flame-thrower" hidden="false" targetId="1e42-809f-4ca6-cad2" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -723,8 +741,22 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d4d9-0de5-ee7f-d86c" name="15cm Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f601-44ac-c54a-8cab" name="15cm infantry gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 4+</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="e707-9550-e815-433b" name="15cm infantry gun" hidden="false" targetId="51ac-c4de-5da4-67d7" type="profile"/>
         <infoLink id="1481-1acc-3d67-1d1b" name="15cm infantry gun Direct Fire" hidden="false" targetId="513e-42dc-a781-d662" type="profile"/>
         <infoLink id="097b-5674-d200-5006" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="d5d2-7ed8-1400-9c84" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
@@ -1063,9 +1095,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e75c-3cbd-2379-0276" name="2cm Light AA Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7756-930a-4628-2492" name="2cm AA gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="50f7-95da-c32e-8a41" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-        <infoLink id="796a-49eb-0654-6498" name="2cm AA gun" hidden="false" targetId="644f-a8e0-2034-0efb" type="profile"/>
         <infoLink id="6574-c203-b1de-967f" name="2cm AA gun" hidden="false" targetId="107c-a9bd-433d-7616" type="profile"/>
         <infoLink id="469e-d806-7610-3143" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
         <infoLink id="3542-13dc-aaae-5cd1" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
@@ -1098,9 +1144,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6339-7749-144e-e9d0" name="12cm Mortar Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="580a-2203-ae4b-eee5" name="12cm mortar" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="9bac-3606-2f28-f348" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-        <infoLink id="1945-c1be-cedc-08da" name="12cm mortar" hidden="false" targetId="bd0f-b99b-23b2-ffd6" type="profile"/>
         <infoLink id="4266-844f-c969-a335" name="12cm mortar" hidden="false" targetId="c5fb-8c18-eb60-0615" type="profile"/>
         <infoLink id="5f0f-058d-4319-f04d" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
       </infoLinks>
@@ -1634,8 +1694,22 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fcb2-85d8-074a-978f" name="10.5cm Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e4a2-e91d-ac1c-b562" name="10.5cm howitzer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="90d8-503b-92ae-5ac6" name="10.5cm howitzer" hidden="false" targetId="7422-946b-ea23-da72" type="profile"/>
         <infoLink id="5bd3-ffbb-d969-be66" name="10.5cm howitzer" hidden="false" targetId="f3f4-fe5c-05c8-cc0f" type="profile"/>
         <infoLink id="2889-7e22-4f77-d02a" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="eeea-a9cd-a1ed-0c47" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
@@ -1754,12 +1828,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="dace-3b54-229e-60b2" name="15cm Nebelwerfer Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a5fa-01e1-7387-1cd6" name="15cm Nebelwerfer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="d6ec-e40e-93be-5a33" name="15cm Nebelwerfer" hidden="false" targetId="d72c-33b2-3ac8-a56d" type="profile"/>
         <infoLink id="f2ab-930e-e43c-fa17" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="8ad5-c192-c361-c52b" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
         <infoLink id="3dd9-3fcc-41f3-5f0c" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-        <infoLink id="bf97-40cc-5d24-e33f" name="15cm Nebelwerfer" hidden="false" targetId="1d24-ac73-b036-dc9b" type="profile"/>
         <infoLink id="d9ee-d2d0-23f6-838c" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1938,8 +2026,22 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f26-c64a-35cd-24ca" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="a901-d4c2-7d53-24a3" name="15cm infantry gun beach" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+              <characteristics>
+                <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 5+</characteristic>
+                <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 6</characteristic>
+                <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
+                <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+                <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+                <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
+                <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <infoLinks>
-            <infoLink id="845e-87ad-a0c1-ec16" name="15cm infantry gun beach" hidden="false" targetId="ac54-7bdb-7cf6-8ee9" type="profile"/>
             <infoLink id="1ec9-c1e7-4ec4-4f40" name="15cm infantry gun Direct Fire" hidden="false" targetId="513e-42dc-a781-d662" type="profile"/>
             <infoLink id="d1b9-0982-c900-f591" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
             <infoLink id="2ba8-224c-5ced-5926" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
@@ -1972,8 +2074,22 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="c6c3-7eb1-021c-ea92" name="Beach Defence 5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9f19-e620-92e3-1dcd" name="5cm gun beach" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+                  <characteristics>
+                    <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 5+</characteristic>
+                    <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">5+ Assault 6</characteristic>
+                    <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+                    <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+                    <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+                    <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+                    <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+                    <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <infoLinks>
-                <infoLink id="9c3e-e43d-f83e-c35c" name="5cm gun beach" hidden="false" targetId="262a-c691-a3d5-d658" type="profile"/>
                 <infoLink id="eea3-d448-e1d9-d8de" name="5cm gun" hidden="false" targetId="0e5e-1455-b7a9-408f" type="profile"/>
                 <infoLink id="c208-dcc2-2030-77cc" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
                 <infoLink id="bdd2-a2b8-c1a4-8045" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
@@ -2085,9 +2201,23 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7a5-e8bc-042c-9d10" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="5aff-3182-2900-6304" name="12cm mortar beach" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+                  <characteristics>
+                    <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 5+</characteristic>
+                    <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 6</characteristic>
+                    <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
+                    <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+                    <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+                    <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+                    <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+                    <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <infoLinks>
                 <infoLink id="8502-17f1-7bdb-bd4a" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-                <infoLink id="0cb2-30a6-7d04-52de" name="12cm mortar beach" hidden="false" targetId="870b-165b-f920-bad5" type="profile"/>
                 <infoLink id="dee6-2947-2896-9000" name="12cm mortar" hidden="false" targetId="c5fb-8c18-eb60-0615" type="profile"/>
                 <infoLink id="adc8-e288-3cdf-48e6" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
               </infoLinks>
@@ -2357,9 +2487,23 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ce-9e46-ecad-b96b" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="0498-42d9-a066-8af0" name="12cm mortar fallschirm" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+                  <characteristics>
+                    <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
+                    <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
+                    <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+                    <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+                    <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+                    <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+                    <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+                    <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <infoLinks>
                 <infoLink id="e7b4-0b4d-0fd7-b6a8" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-                <infoLink id="3030-56ce-9243-90f5" name="12cm mortar fallschirm" hidden="false" targetId="c94b-faea-e287-0219" type="profile"/>
                 <infoLink id="6974-2a8d-8364-489c" name="12cm mortar" hidden="false" targetId="c5fb-8c18-eb60-0615" type="profile"/>
                 <infoLink id="a576-0a7a-5718-4349" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
               </infoLinks>
@@ -3173,16 +3317,10 @@ Each time this Unit rolls To Hit in an assault, one of its Teams may attack with
     <rule id="771b-7bea-b110-37cd" name="Bazooka Skirts" hidden="false">
       <description>A Tank Team with Bazooka Skirts increases its Side armour to 5 against weapons with Firepower 5+ or 6.</description>
     </rule>
-    <rule id="02e5-9b22-76e5-a117" name="Flame Tank" hidden="false">
-      <description>Flame tanks cannont Charge Into Contact and have an Assault rating of 5+.</description>
-    </rule>
     <rule id="1e42-809f-4ca6-cad2" name="Flame-thrower" hidden="false">
       <description>Infantry, Gun and Unarmoured Tank Teams re-roll successful Saves when hit by a Flame-thrower and the Unit is automatically Pinned Down. Armoured Tank Teams use their Top armour for Armour Saves when hit by a Flame-thrower.
 
 Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by a Flame-thrower is Pinned Down, this does not automatically stop the assault, The defender still needs to score five (or eight) hits to sop the assault as normal.</description>
-    </rule>
-    <rule id="ad7d-ce61-3a38-4017" name="Flying Tank" hidden="false">
-      <description>Flying Tanks have a worse Is Hit On rating, but a better Save.</description>
     </rule>
     <rule id="54ea-35b4-80ec-afc8" name="HEAT" hidden="false">
       <description>A Team&apos;s Armour rating is not increased by +1 if it is more than 16&quot;/40cm away when hit by HEAT weapons.</description>
@@ -3190,16 +3328,8 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
     <rule id="029e-6707-426e-489f" name="Mounted Assault" hidden="false">
       <description>This Team has Assault 4+ and Counterattack 4+ with one Passanger and Assault 3+ and Counterattack 4+ with two or three Passangers. This is shown on the Sd Kfz 251 Transport unit card as an additional motivation and skill column. </description>
     </rule>
-    <rule id="ca61-95c4-8fc0-6b07" name="Salvo" hidden="false">
-      <description>Weapons with a ROF of &apos;SALVO&apos; are Artillery weapons and fire Artillery Bombardments, but use a 10&quot;/25cm square Salvo Template rather than the normal 6&quot;/15cm Artillery Template.
-
-A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</description>
-    </rule>
     <rule id="f61c-04e9-b2cc-0d94" name="Stormtroopers" hidden="false">
       <description>A unit may attempt a second Movement Order after succeeding in its first Movement Order. The second Movement Order must be different from the first.</description>
-    </rule>
-    <rule id="5d1c-069a-e04a-76e9" name="Third Reich" hidden="false">
-      <description>Troops of the Third Reich have a better Last Stand rating.</description>
     </rule>
     <rule id="1ad8-f121-f28a-d2d1" name="Tiger Ace" hidden="false">
       <description>Tiger Aces have a better Last Stand rating and a significantly better Remount rating.</description>
@@ -3331,19 +3461,6 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="870b-165b-f920-bad5" name="12cm mortar beach" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 5+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 6</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
-      </characteristics>
-    </profile>
     <profile id="c5fb-8c18-eb60-0615" name="12cm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">56&quot;/140cm</characteristic>
@@ -3387,19 +3504,6 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke</characteristic>
       </characteristics>
     </profile>
-    <profile id="ac54-7bdb-7cf6-8ee9" name="15cm infantry gun beach" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 5+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 6</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
-      </characteristics>
-    </profile>
     <profile id="494c-3a2a-c8ac-4060" name="15cm infantry gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">56&quot;/140cm</characteristic>
@@ -3418,19 +3522,6 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Butal, Forward Firing, Slow Firing</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="262a-c691-a3d5-d658" name="5cm gun beach" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 5+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">5+ Assault 6</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="0e5e-1455-b7a9-408f" name="5cm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3653,19 +3744,6 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="c94b-faea-e287-0219" name="12cm mortar fallschirm" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="81c4-e267-4a4c-1dce" name="7.5cm anti-tank gun fallschirm" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
@@ -3993,32 +4071,6 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="51ac-c4de-5da4-67d7" name="15cm infantry gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6995-f922-f8fc-d5f3" name="7.5cm anti-tank gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
-      </characteristics>
-    </profile>
     <profile id="59cb-0adf-6e82-15cf" name="Sd Kfz 251 (MG) forward" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
@@ -4050,32 +4102,6 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="bd0f-b99b-23b2-ffd6" name="12cm mortar" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="644f-a8e0-2034-0efb" name="2cm AA gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="107c-a9bd-433d-7616" name="2cm AA gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -4574,19 +4600,6 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="7422-946b-ea23-da72" name="10.5cm howitzer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
-      </characteristics>
-    </profile>
     <profile id="f3f4-fe5c-05c8-cc0f" name="10.5cm howitzer" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
@@ -4605,19 +4618,6 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing, Smoke</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="1d24-ac73-b036-dc9b" name="15cm Nebelwerfer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
       </characteristics>
     </profile>
     <profile id="d72c-33b2-3ac8-a56d" name="15cm Nebelwerfer" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
