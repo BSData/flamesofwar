@@ -1,1588 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="17b9-5bac-7fa8-f9ee" name="D-Day German" revision="7" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="9049-e7d4-426a-030a" name="Tiger Tank Company" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="bb8d-9915-ccd2-7685" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="b207-3981-1ece-7cfa" name="Tiger Tank Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7162-3823-5d9a-982e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b929-15d6-7138-d774" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="22c1-6f50-2d41-a45e" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-            <infoLink id="db53-d338-3d3e-510a" name="Tiger (8.8cm)" hidden="false" targetId="5a75-4c2c-ef6c-0834" type="profile"/>
-            <infoLink id="f6a6-fa95-1e41-3dc0" name="Tiger (8.8cm)" hidden="false" targetId="7533-54b0-a023-a8e4" type="profile"/>
-            <infoLink id="f14b-368d-d341-1db2" name="Tiger Ace" hidden="false" targetId="1ad8-f121-f28a-d2d1" type="rule"/>
-            <infoLink id="c8d6-97ab-6737-d3c2" name="Tiger (MGs)" hidden="false" targetId="20a8-9287-3b20-525b" type="profile"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="e8dd-9f3b-808e-c110" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="1c8d-79b3-db60-9474">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f1-7c82-6274-2393" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0583-9c70-6b0d-4373" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="7938-fcbe-eee4-e6c3" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="1c8d-79b3-db60-9474" name="1x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6133-302b-5f44-171e" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32bd-a4d5-9290-1bc8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0283-b274-92e9-aef2" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="71d1-d274-c757-eef1" name="Tiger (MGs)" hidden="false" targetId="20a8-9287-3b20-525b" type="profile"/>
-            <infoLink id="4ad1-ef5c-bd57-6079" name="Tiger (8.8cm)" hidden="false" targetId="7533-54b0-a023-a8e4" type="profile"/>
-            <infoLink id="b100-4288-fcce-9257" name="Tiger (8.8cm)" hidden="false" targetId="5a75-4c2c-ef6c-0834" type="profile"/>
-            <infoLink id="62db-f03e-c8d8-94a9" name="Tiger Ace" hidden="false" targetId="1ad8-f121-f28a-d2d1" type="rule"/>
-            <infoLink id="61f8-a686-6e66-31ce" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="4610-6811-ae26-11a1" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="a586-3938-c3a3-80d2">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3eb-6071-467f-87b3" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca25-7032-74cc-5b60" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="864d-0089-18a6-3914" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="7481-7514-b17c-0ef3" name="4x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a586-3938-c3a3-80d2" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a4e9-e5e5-9ee1-5da5" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c397-a7db-3e61-276b" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b20f-be84-9af8-2abd" name="Tiger (MGs)" hidden="false" targetId="20a8-9287-3b20-525b" type="profile"/>
-            <infoLink id="ea9e-b44d-0bb1-fea9" name="Tiger (8.8cm)" hidden="false" targetId="7533-54b0-a023-a8e4" type="profile"/>
-            <infoLink id="a1b6-5614-fcf6-cbbc" name="Tiger (8.8cm)" hidden="false" targetId="5a75-4c2c-ef6c-0834" type="profile"/>
-            <infoLink id="e142-890b-8954-e42b" name="Tiger Ace" hidden="false" targetId="1ad8-f121-f28a-d2d1" type="rule"/>
-            <infoLink id="9121-5df3-9fae-4858" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="d195-0cd0-9115-7eb2" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="0dd6-91f3-dcc1-d0ad">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94eb-62ca-c8c9-5e36" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f409-f107-39fe-6d0c" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="94eb-ad1b-6811-4764" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="5551-ad45-2fda-efaf" name="4x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="0dd6-91f3-dcc1-d0ad" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a61e-7dc4-27a4-400d" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="485c-12e9-a192-1d93" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d0e-4ba8-b61a-ab29" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ce0a-90ee-e9c3-5e48" name="Tiger (MGs)" hidden="false" targetId="20a8-9287-3b20-525b" type="profile"/>
-            <infoLink id="5dbf-b8ae-9e87-66f6" name="Tiger (8.8cm)" hidden="false" targetId="7533-54b0-a023-a8e4" type="profile"/>
-            <infoLink id="e374-83b4-6ac8-3438" name="Tiger (8.8cm)" hidden="false" targetId="5a75-4c2c-ef6c-0834" type="profile"/>
-            <infoLink id="4b2a-5a28-b4ee-d620" name="Tiger Ace" hidden="false" targetId="1ad8-f121-f28a-d2d1" type="rule"/>
-            <infoLink id="767a-dda9-a772-c1ed" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="06ad-0968-dc16-f238" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="a807-f5cd-72c3-8197">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eab-02d0-12af-6b70" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="807d-1203-7d30-e076" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="c514-feec-4937-1c6a" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a957-f07f-1415-497c" name="4x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a807-f5cd-72c3-8197" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8451-bfdb-3238-2e20" name="Sd Kfz 10/4 or Sd Kfz 7/1 Anti-Aircraft Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="019a-5804-9644-7239" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="3b9c-2f9c-f650-cdc3" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="de89-4b8b-ec6e-bf5d">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a662-2256-0958-f75d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fbc-481f-316f-9520" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="de89-4b8b-ec6e-bf5d" name="Sd Kfz 10/4 Light AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-                  <infoLinks>
-                    <infoLink id="8762-24ad-27bb-aa59" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-                    <infoLink id="1929-9d33-f9aa-9b34" name="Sd Kfz 10/4 (2cm)" hidden="false" targetId="b699-9ec0-94aa-036d" type="profile"/>
-                    <infoLink id="73e8-3d60-0433-da95" name="Sd Kfz 10/4 (2cm)" hidden="false" targetId="7589-a28c-5865-ed25" type="profile"/>
-                    <infoLink id="ca88-dc0b-6d3a-4fb8" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                  </infoLinks>
-                  <categoryLinks>
-                    <categoryLink id="207a-e7cf-a7de-8fe4" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-                  </categoryLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="8e09-5e4c-7c47-660e" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="9eaf-3920-b864-b40a">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="316b-58ea-09eb-c5b6" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34ec-9638-353c-6e4c" type="max"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="7dbe-4ab8-5193-acc0" name="4x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="9eaf-3920-b864-b40a" name="2x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="5248-2154-0265-3d9d" name="Sd Kfz 7/1 Quad AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-                  <infoLinks>
-                    <infoLink id="0650-53bd-20aa-32f6" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-                    <infoLink id="dafb-b6d3-e7a5-0630" name="Sd Kfz 7/1 (2cm quad)" hidden="false" targetId="e8a7-465a-104e-e8d6" type="profile"/>
-                    <infoLink id="c94c-c4b0-1650-9860" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                    <infoLink id="897f-10b9-2d2d-5e7e" name="Sd Kfz 7/1 (2cm quad)" hidden="false" targetId="6eed-fa52-40f1-77f6" type="profile"/>
-                  </infoLinks>
-                  <categoryLinks>
-                    <categoryLink id="41cc-2b61-978c-0d3c" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-                  </categoryLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="5058-2b82-4738-9fa8" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="32fe-d3d3-095b-367c">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0ac-71f8-8a54-788d" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="846b-7510-effc-445d" type="max"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="834d-ebec-b0d7-db8d" name="3x Sd Kfz 7/1 (2cm quad)" hidden="false" collective="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="32fe-d3d3-095b-367c" name="2x Sd Kfz 7/1 (2cm quad)" hidden="false" collective="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f32b-4e3a-d896-3e76" name="Panther Tank Company" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="5465-6030-0cf6-ed58" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="1995-f0f6-0975-f9aa" name="Panther Tank Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61e8-6d3d-234f-e360" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0538-803a-ba3a-dcc5" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="5f2b-bc56-3d24-72a4" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-            <infoLink id="8918-db35-b0ec-538c" name="Panther (MGs)" hidden="false" targetId="aa7d-a2c3-f0b7-8a62" type="profile"/>
-            <infoLink id="d191-70bc-2f3c-8b6f" name="Panther (7.5cm)" hidden="false" targetId="4140-fc83-9933-9b1d" type="profile"/>
-            <infoLink id="496e-2cab-412c-f351" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="79af-13c9-7a8d-dfef" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ea39-b6a7-33cf-f2c8">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a21-bc4a-ae9a-c4df" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a78-ace1-9ae1-f04b" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="db31-6a10-6873-d6d0" name="2x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="ea39-b6a7-33cf-f2c8" name="1x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="487f-4be0-5487-73e1" name="Panther Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9427-9fe5-3365-fe01" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c19-b76a-d84e-de0a" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="60e6-8cce-5305-9389" name="Panther (MGs)" hidden="false" targetId="aa7d-a2c3-f0b7-8a62" type="profile"/>
-            <infoLink id="7850-939f-91e6-10ee" name="Panther (7.5cm)" hidden="false" targetId="4140-fc83-9933-9b1d" type="profile"/>
-            <infoLink id="fccf-c656-19c4-adbc" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile"/>
-            <infoLink id="b8f8-025e-0a9c-175b" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="8f77-03a7-037e-1ace" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="2acb-039a-ea3f-fd6b">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf61-7ba4-5c3e-76f9" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efbe-9eea-c706-e2cc" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="2acb-039a-ea3f-fd6b" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="8416-6e21-e83f-57ef" name="4x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="44.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="8316-9390-69e7-93ba" name="5x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="c57b-43dd-dd56-c9ad" name="Panther or Tiger Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a8bd-ca68-1b4d-d49a">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a727-65e1-4edf-ba4e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0611-447d-f0a8-641a" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="a8bd-ca68-1b4d-d49a" name="Panther Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2990-1822-b521-cea2" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="3107-0712-e01f-e5c7" name="Panther (MGs)" hidden="false" targetId="aa7d-a2c3-f0b7-8a62" type="profile"/>
-                <infoLink id="14f0-5633-97aa-45fb" name="Panther (7.5cm)" hidden="false" targetId="4140-fc83-9933-9b1d" type="profile"/>
-                <infoLink id="ac32-a59c-3edb-a4db" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile"/>
-                <infoLink id="84f0-d923-16fc-aae6" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="9bf5-0941-58e6-c33a" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="e65d-6810-ae78-53c3">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5814-780c-4466-4cb1" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7404-11f2-35c6-48af" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="e65d-6810-ae78-53c3" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="c02c-b2da-8434-8bcb" name="4x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="44.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a93b-5946-75e6-c270" name="5x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2ddb-85d7-a925-1eb8" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8d8-46e6-6469-567d" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="77fc-8968-6571-31be" name="Tiger (MGs)" hidden="false" targetId="20a8-9287-3b20-525b" type="profile"/>
-                <infoLink id="89bd-70a7-f56d-8a21" name="Tiger (8.8cm)" hidden="false" targetId="7533-54b0-a023-a8e4" type="profile"/>
-                <infoLink id="a1bd-02e9-f42c-e451" name="Tiger (8.8cm)" hidden="false" targetId="5a75-4c2c-ef6c-0834" type="profile"/>
-                <infoLink id="1aed-f89b-c84b-718a" name="Tiger Ace" hidden="false" targetId="1ad8-f121-f28a-d2d1" type="rule"/>
-                <infoLink id="606e-3d5d-409e-a3e7" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="0548-6855-decb-b6d7" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="1d81-dd62-bb00-98d4">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="117d-f951-83d6-9517" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cbb-fe08-53c2-6b2d" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="5e30-fb59-3970-0cbf" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6161-0d3f-928b-8ac7" name="4x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1d81-dd62-bb00-98d4" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="d5b5-8d2c-4442-423b" name="Panther or Panzer IV Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="74c9-d8dd-d564-0195">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4b4-3cbc-caf9-5c6c" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="5058-96be-23d3-f391" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="7a68-6f07-b9f2-cd0d" name="Panzer IV (7.5cm)" hidden="false" targetId="c058-5e56-6fb2-ecd8" type="profile"/>
-                <infoLink id="978d-78ab-8ce1-8215" name="Panzer IV (MGs)" hidden="false" targetId="d667-52e8-8270-1acc" type="profile"/>
-                <infoLink id="0655-f603-cb00-0c22" name="Panzer IV (7.5cm)" hidden="false" targetId="7359-3b12-948c-0aeb" type="profile"/>
-                <infoLink id="e21d-e84b-19cb-c676" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                <infoLink id="b21b-2a4a-8611-588c" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-                <infoLink id="aff5-3e5c-1a2e-a699" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="ccad-c061-4148-5078" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="1f38-770b-dd62-7453">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa2c-d6a4-2ccb-f605" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02c1-1a2f-438e-35e8" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="1f38-770b-dd62-7453" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="3556-4cbc-ed58-3058" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="849a-a600-5c8f-c6e7" name="5x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="74c9-d8dd-d564-0195" name="Panther Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7335-0bf4-0f4e-6657" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1b4b-9351-ddcc-f936" name="Panther (MGs)" hidden="false" targetId="aa7d-a2c3-f0b7-8a62" type="profile"/>
-                <infoLink id="dbd6-41b9-1bf4-792d" name="Panther (7.5cm)" hidden="false" targetId="4140-fc83-9933-9b1d" type="profile"/>
-                <infoLink id="8c8c-e485-3a57-9458" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile"/>
-                <infoLink id="b8e2-4cb6-176c-1df0" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="921a-f757-300c-a2d8" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="0a54-0692-61ed-0fe3">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b6-59fa-93f0-85f2" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6ef-ea11-1fff-c292" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="0a54-0692-61ed-0fe3" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1366-164f-29db-1adc" name="4x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="44.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="eb2d-e65b-b3e6-e276" name="5x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="71cf-58c7-f829-66bf" name="Möbelwagen or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="e4fd-674b-4bf8-1ddb">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="291d-6534-3062-2d86" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="e4fd-674b-4bf8-1ddb" name="Möbelwagen AA Tank Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="24bc-af58-76d1-d7fa" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-                <infoLink id="043d-4545-cc13-c217" name="Möbelwagen (3.7cm)" hidden="false" targetId="a288-ab8b-9ceb-706d" type="profile"/>
-                <infoLink id="d584-0124-6bf6-5a60" name="Möbelwagen (3.7cm)" hidden="false" targetId="af4b-7533-097f-9cba" type="profile"/>
-                <infoLink id="c6b8-2a58-58f0-13ef" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="0ef7-f366-1b50-8c02" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="d611-218f-00ff-58d2" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="56ec-2aa5-fbc5-13cb">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="058f-78e1-e144-fca3" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1143-1e67-5ec5-3aa8" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="5014-ed93-cc89-5db9" name="4x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="56ec-2aa5-fbc5-13cb" name="2x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="97f0-2d3b-d1a8-49d5" name="3x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3b97-abbb-fcf4-fbbd" name="Sd Kfz 10/4 Light AA Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="303d-84cc-04b9-8ff4" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-                <infoLink id="fb95-ff2a-2289-0848" name="Sd Kfz 10/4 (2cm)" hidden="false" targetId="b699-9ec0-94aa-036d" type="profile"/>
-                <infoLink id="2825-ece5-7d23-d5fb" name="Sd Kfz 10/4 (2cm)" hidden="false" targetId="7589-a28c-5865-ed25" type="profile"/>
-                <infoLink id="b3f8-54cd-db19-4fd1" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="ad5c-d6c0-618e-d2d3" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="f2b5-fcf1-6859-3b08" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="a818-31d0-f127-dc15">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bda-d837-7c68-35d9" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa1d-57a9-d9ef-9d3f" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="e80a-aeda-a39c-8ead" name="4x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a818-31d0-f127-dc15" name="2x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cdd9-a384-d683-283c" name="Panzer IV Tank Company" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="e940-e0a6-be3e-0192" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="e8fe-7334-e869-6a7a" name="Panzer IV Tank Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ce-c191-6aa6-f019" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b49-977c-d07d-1150" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="79d0-4aab-d8d5-fc5b" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-            <infoLink id="f26a-b15b-7b55-5cbd" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
-            <infoLink id="8d86-3f97-849b-1f20" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-            <infoLink id="e272-9f0a-461e-32bc" name="Panzer IV (MGs)" hidden="false" targetId="d667-52e8-8270-1acc" type="profile"/>
-            <infoLink id="b4c6-da57-b1d4-c3c2" name="Panzer IV (7.5cm)" hidden="false" targetId="c058-5e56-6fb2-ecd8" type="profile"/>
-            <infoLink id="5b64-639d-63fa-92f7" name="Panzer IV (7.5cm)" hidden="false" targetId="7359-3b12-948c-0aeb" type="profile"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="049c-86bb-626d-4c55" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e9f-8609-a643-aa14">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f273-db49-27d1-2b33" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b5-7b63-b48a-6acb" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="2e9f-8609-a643-aa14" name="2x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="02a1-36b3-6370-f35d" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e85-923a-a00f-cd83" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eb1-4b96-e6e9-8eb4" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="89c3-ab51-7d03-1a53" name="Panzer IV (7.5cm)" hidden="false" targetId="c058-5e56-6fb2-ecd8" type="profile"/>
-            <infoLink id="06f8-be39-fa7e-cb86" name="Panzer IV (MGs)" hidden="false" targetId="d667-52e8-8270-1acc" type="profile"/>
-            <infoLink id="2da3-f7ab-f3f4-861d" name="Panzer IV (7.5cm)" hidden="false" targetId="7359-3b12-948c-0aeb" type="profile"/>
-            <infoLink id="142e-36bc-18a7-519b" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-            <infoLink id="77c4-3dcb-f5a8-c3ec" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-            <infoLink id="b49f-b5cf-e214-8ad0" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="24f7-93a0-391a-b2a4" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="8c77-e526-0581-17a5">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7bc-a6ff-f3b0-70d6" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66f7-5e1b-f4c8-51e8" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="8c77-e526-0581-17a5" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="e683-2748-0960-2cbb" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="0dd6-701b-f725-84e5" name="5x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1ca3-da2c-40e6-f2b0" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8785-e94f-b418-0cb4" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b525-81cd-8f30-8be8" name="Panzer IV (7.5cm)" hidden="false" targetId="c058-5e56-6fb2-ecd8" type="profile"/>
-            <infoLink id="279b-5b21-d722-4717" name="Panzer IV (MGs)" hidden="false" targetId="d667-52e8-8270-1acc" type="profile"/>
-            <infoLink id="b259-d9a2-9dc7-e1f9" name="Panzer IV (7.5cm)" hidden="false" targetId="7359-3b12-948c-0aeb" type="profile"/>
-            <infoLink id="f34b-ad3f-ed06-ffd3" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-            <infoLink id="48c8-55d2-e86c-3412" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-            <infoLink id="8bbc-7914-d732-193c" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="3935-9b44-5933-2fdb" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="861d-b9fe-4c4d-b8f0">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bb1-cfe5-12c8-0420" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d63-a9f8-d239-3ca7" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="861d-b9fe-4c4d-b8f0" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a134-1f54-e66b-3709" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="c671-6910-da01-1811" name="5x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0c8f-3bca-30ed-9e94" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70cc-e514-7360-52a9" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="0d53-5de9-47c7-52bd" name="Panzer IV (7.5cm)" hidden="false" targetId="c058-5e56-6fb2-ecd8" type="profile"/>
-            <infoLink id="747b-da25-0a91-0e84" name="Panzer IV (MGs)" hidden="false" targetId="d667-52e8-8270-1acc" type="profile"/>
-            <infoLink id="c8f8-37e5-78b6-e11f" name="Panzer IV (7.5cm)" hidden="false" targetId="7359-3b12-948c-0aeb" type="profile"/>
-            <infoLink id="df8b-b52f-c2c4-f0f3" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-            <infoLink id="dda9-c00a-b946-b496" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-            <infoLink id="864d-6c7b-9cc0-1db1" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="e2e0-bfcc-7596-29e7" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e57-7f71-be16-6704">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e0b-2858-9923-0036" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ef-f053-3364-abff" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="5e57-7f71-be16-6704" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="56e7-c6ae-514a-7eed" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="f8af-219d-a479-91d5" name="5x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="7cf8-4e75-e7ec-ccb2" name="Panzer IV or Panther or Tiger Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2acc-6d1e-844b-ce24">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4694-6a66-e6e2-efb2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b57-22b0-eaf3-ec32" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="2acc-6d1e-844b-ce24" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba5d-9b2d-eeca-54bd" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="6018-ea1c-180d-e7b6" name="Panzer IV (7.5cm)" hidden="false" targetId="c058-5e56-6fb2-ecd8" type="profile"/>
-                <infoLink id="f8d0-5207-523f-db98" name="Panzer IV (MGs)" hidden="false" targetId="d667-52e8-8270-1acc" type="profile"/>
-                <infoLink id="cae1-210c-606d-4b80" name="Panzer IV (7.5cm)" hidden="false" targetId="7359-3b12-948c-0aeb" type="profile"/>
-                <infoLink id="7cdb-fd14-a8e3-ea69" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                <infoLink id="063a-2bb9-3d45-5a86" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-                <infoLink id="7d89-9dd0-d9b2-b071" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="d89c-8715-0b86-fffb" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a01-72cb-b14b-ef93">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df79-72fc-41f1-6530" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2167-b0db-e113-a2a3" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="5a01-72cb-b14b-ef93" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="91d1-1efe-7af5-0a9d" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="5772-9a06-f872-c8f8" name="5x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="abdd-ed1d-d7c5-acb7" name="Panther Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e242-c4fa-804a-26dc" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="8211-374b-1286-f9da" name="Panther (MGs)" hidden="false" targetId="aa7d-a2c3-f0b7-8a62" type="profile"/>
-                <infoLink id="b50a-d635-5dd6-3753" name="Panther (7.5cm)" hidden="false" targetId="4140-fc83-9933-9b1d" type="profile"/>
-                <infoLink id="7b23-dcf0-b42d-e63f" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile"/>
-                <infoLink id="8f87-a660-dd75-e596" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="eccb-519f-5c9b-d969" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="a51e-af01-6bf1-7c85">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="470b-97b9-8e2a-2d51" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b966-350f-55da-9d16" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="a51e-af01-6bf1-7c85" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="3c2d-a699-5eb9-aeb6" name="4x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="44.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="0b37-c2e3-e667-0513" name="5x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b81b-abf7-bc3d-8c08" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="febf-aa19-2743-2853" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="2dcd-8e18-6b76-30e8" name="Tiger (MGs)" hidden="false" targetId="20a8-9287-3b20-525b" type="profile"/>
-                <infoLink id="34d1-4fe1-2a63-5845" name="Tiger (8.8cm)" hidden="false" targetId="7533-54b0-a023-a8e4" type="profile"/>
-                <infoLink id="f4ef-c248-1fa6-0185" name="Tiger (8.8cm)" hidden="false" targetId="5a75-4c2c-ef6c-0834" type="profile"/>
-                <infoLink id="7170-3d89-ef72-e348" name="Tiger Ace" hidden="false" targetId="1ad8-f121-f28a-d2d1" type="rule"/>
-                <infoLink id="b610-d102-92d2-c974" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="9219-7719-4b66-205d" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="81e4-5576-a27e-62a5">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69e9-af24-912d-4d60" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67ec-806e-a654-5b5b" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="d35d-2970-11ed-2a4c" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="99d9-ff43-4067-b1b4" name="4x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="81e4-5576-a27e-62a5" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="a38a-b5fd-6ef3-c991" name="Möbelwagen or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="29ed-823b-a0e7-ee76">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca0b-765c-6327-069e" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="29ed-823b-a0e7-ee76" name="Möbelwagen AA Tank Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="4a3f-6735-d689-da86" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-                <infoLink id="4aaa-a181-e024-a7b7" name="Möbelwagen (3.7cm)" hidden="false" targetId="a288-ab8b-9ceb-706d" type="profile"/>
-                <infoLink id="821a-67b7-cf9e-bb28" name="Möbelwagen (3.7cm)" hidden="false" targetId="af4b-7533-097f-9cba" type="profile"/>
-                <infoLink id="3fd5-bd79-f375-4e61" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="bad7-1b9d-dc11-c555" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="adac-289b-3b35-816d" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="6b5f-38ad-f7cb-5d82">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffaf-a7fc-a316-f322" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3445-434b-e0d3-985a" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="2d41-1d54-d327-f695" name="4x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6b5f-38ad-f7cb-5d82" name="2x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="2f4d-c82f-633f-96b3" name="3x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="42c4-21bd-bcc2-6ad3" name="Sd Kfz 10/4 Light AA Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="5c50-9589-1e83-b927" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-                <infoLink id="ddfd-247d-35d9-7cab" name="Sd Kfz 10/4 (2cm)" hidden="false" targetId="b699-9ec0-94aa-036d" type="profile"/>
-                <infoLink id="7ee0-735b-ab66-900a" name="Sd Kfz 10/4 (2cm)" hidden="false" targetId="7589-a28c-5865-ed25" type="profile"/>
-                <infoLink id="663c-5433-156d-f00e" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="84d2-7906-81c5-1879" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="f9ac-ef0e-e6c4-6a83" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="0579-38a4-bea2-9df0">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc7b-ae76-8d82-33fa" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3a7-14b9-3a7c-5b29" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="80a0-7c33-8d96-2bdf" name="4x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="0579-38a4-bea2-9df0" name="2x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ca1e-e1e5-2006-0b52" name="Fallschirmjäger StuG Assault Gun Company" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="66ca-a587-8b88-b74f" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="dff2-3bcd-7ad0-723d" name="StuG Assault Gun Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86ff-4dbb-f7dd-33c2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9427-47f4-24da-1b52" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="e415-7789-e4ae-0fa5" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-            <infoLink id="3a82-1a66-3537-5eb4" name="StuG (7.5cm)" hidden="false" targetId="d7b4-cd03-f648-9c4d" type="profile"/>
-            <infoLink id="97bf-997b-c025-b56f" name="StuG (MG)" hidden="false" targetId="d97c-cde1-f83c-5c6d" type="profile"/>
-            <infoLink id="b5c9-0869-cb26-3984" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-            <infoLink id="a639-8b84-0bc8-8b73" name="StuG (7.5cm)" hidden="false" targetId="fb5d-d6ce-b5c4-9a12" type="profile"/>
-            <infoLink id="2937-310f-4ca3-3549" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-            <infoLink id="8f1b-18ef-c31b-179e" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="6e93-e5cc-4cce-e48a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="996d-8a02-bea3-d885">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d85a-8704-0c81-9be0" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e411-8b49-6d9c-4ef0" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="e7c4-a34d-fe19-9149" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="996d-8a02-bea3-d885" name="1x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9c49-cc65-2a2b-9d54" name="StuG Assault Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afea-985a-3218-19e3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cbd-7e3b-a8d2-d986" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="707f-9a7e-1df4-50c3" name="StuG (MG)" hidden="false" targetId="d97c-cde1-f83c-5c6d" type="profile"/>
-            <infoLink id="4753-11a1-88bf-17a5" name="StuG (7.5cm)" hidden="false" targetId="fb5d-d6ce-b5c4-9a12" type="profile"/>
-            <infoLink id="1622-6e7e-b19c-58c8" name="StuG (7.5cm)" hidden="false" targetId="d7b4-cd03-f648-9c4d" type="profile"/>
-            <infoLink id="241f-6fd0-2a0a-14db" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-            <infoLink id="e24c-7648-abb3-5d50" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-            <infoLink id="49f6-82a9-86ca-616c" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-            <infoLink id="b77d-5a41-ae9a-ea3c" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="c416-4345-7717-fe38" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="aeb3-9e14-1ff3-846e">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a77-6ec6-3dbb-71cb" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f1-2fd0-00d5-8f5c" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="37ab-7ab4-fbec-bd4d" name="3x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a79f-32fc-cd18-abcb" name="4x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="aeb3-9e14-1ff3-846e" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4bfa-f58f-d961-c6a7" name="StuG Assault Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e519-0135-4f4d-baf1" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="3981-bfca-3753-5d6f" name="StuG (MG)" hidden="false" targetId="d97c-cde1-f83c-5c6d" type="profile"/>
-            <infoLink id="73bc-6303-0ca1-a2a3" name="StuG (7.5cm)" hidden="false" targetId="fb5d-d6ce-b5c4-9a12" type="profile"/>
-            <infoLink id="3c54-0eae-6b5a-ed3b" name="StuG (7.5cm)" hidden="false" targetId="d7b4-cd03-f648-9c4d" type="profile"/>
-            <infoLink id="f47f-a53e-256b-b15a" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-            <infoLink id="8002-1128-a6c4-0036" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-            <infoLink id="6f5e-121f-668f-cd4f" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-            <infoLink id="aa7c-3816-0213-e43e" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="f001-7872-9f51-726f" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="7e23-6747-ed8a-fb1f">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1af-f80a-ec2f-2b8d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f34-4d72-bc73-8e6a" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="0b46-19b6-3334-1477" name="3x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="529b-0dcd-f5d8-dc78" name="4x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="7e23-6747-ed8a-fb1f" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="521a-0cc0-f9cb-ade5" name="StuG or StuH Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="49dc-6e0f-f601-2117">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe23-6bb9-5894-e7f4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="026f-680d-a255-8826" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="49dc-6e0f-f601-2117" name="StuG Assault Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5c0-1435-161a-6ffd" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="5e3c-652e-c0e3-b0f7" name="StuG (MG)" hidden="false" targetId="d97c-cde1-f83c-5c6d" type="profile"/>
-                <infoLink id="67f7-59c6-446e-3e4e" name="StuG (7.5cm)" hidden="false" targetId="fb5d-d6ce-b5c4-9a12" type="profile"/>
-                <infoLink id="b1e0-5fe0-2554-1653" name="StuG (7.5cm)" hidden="false" targetId="d7b4-cd03-f648-9c4d" type="profile"/>
-                <infoLink id="f7df-7d30-dbc0-040a" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                <infoLink id="0dc0-72d4-5bcd-acef" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-                <infoLink id="5625-2bfb-be5d-1f91" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-                <infoLink id="f200-5cc5-b1ae-09fa" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="b843-3a33-f7c9-43c9" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b22-e320-47ff-d5ec">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6078-f7ba-caae-202a" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cf4-c5c7-4cd5-a412" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="3f92-65f0-66fe-7744" name="3x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="15c3-c085-6c1e-377b" name="4x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="2b22-e320-47ff-d5ec" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b48b-4c17-b704-459e" name="StuH Assault Howitzer Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd34-b23a-4bf6-fde2" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="53ff-96ab-bd84-84e6" name="StuH (10.5cm) Direct Fire" hidden="false" targetId="198e-c4e6-292a-b7ed" type="profile"/>
-                <infoLink id="64fb-d6da-df1a-43f8" name="StuH (10.5cm)" hidden="false" targetId="3a10-7dbd-c192-d00c" type="profile"/>
-                <infoLink id="a280-5237-b198-8f44" name="StuH (10.5cm)" hidden="false" targetId="9011-b1fc-e2d1-0d79" type="profile"/>
-                <infoLink id="f65e-2906-6ed7-de63" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                <infoLink id="aee2-7380-48f7-5776" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-                <infoLink id="b8bd-d8f0-a23c-bd43" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-                <infoLink id="96e0-a146-be68-966b" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                <infoLink id="c004-a7e1-b8dd-a272" name="StuH (MG)" hidden="false" targetId="44bc-5216-43f6-8415" type="profile"/>
-                <infoLink id="5f67-9f4c-e5ec-dd7c" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                <infoLink id="871a-f275-97a1-f700" name="HEAT" hidden="false" targetId="54ea-35b4-80ec-afc8" type="rule"/>
-                <infoLink id="9ef2-0c1f-9188-176d" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="f735-27d2-b950-8de9" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="9a9f-fbc4-d66e-c778" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="55d7-bcb9-4ee1-f229">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3be-708f-6ec9-1cf3" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36c1-54be-1cbd-42d4" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="76b8-175c-993e-b5b3" name="3x StuH (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a402-5809-462d-767d" name="4x StuH (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="55d7-bcb9-4ee1-f229" name="2x StuH (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="d974-731f-0ab5-2f59" name="Fallschirmjäger or Beach Defence Grenadier Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="aff6-068e-29e9-c743">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="603f-806b-aa4d-7d00" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="7824-0952-96a3-470c" name="Beach Defence Grenadier Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="146c-91a6-ac75-4570" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="77e9-b58b-3072-1b6b" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="71b7-8ba2-5986-6a85" name="Panzerfausts" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7504-3497-9842-bf07" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="abf4-3436-a7ff-bf31" name="Panzerfaust anti-tank" hidden="false" targetId="4ca3-0cb0-917d-1c24" type="profile"/>
-                    <infoLink id="34a8-a6ff-6365-0cce" name="Panzerfaust - Limited 1" hidden="false" targetId="d933-b4ee-739a-f94f" type="rule"/>
-                    <infoLink id="a457-b14b-2fb9-21d5" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="3a50-bf1b-342b-d3e8" name="sMG34 HMG" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="001b-09ad-209d-922d" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="32d3-75c5-1336-ba3d" name="sMG34 HMG beach" hidden="false" targetId="8e47-232c-499c-927b" type="profile"/>
-                    <infoLink id="bbb9-9fa6-7f42-f132" name="Assault 6+" hidden="false" targetId="31e3-3b2b-d53c-cd03" type="rule"/>
-                    <infoLink id="2382-9ab8-dbd2-22a6" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="0124-ca66-c422-1198" name="sMG34 HMG" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2242-3b1c-28ef-8c59" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="8cc6-ec65-2ece-adb4" name="sMG34 HMG beach" hidden="false" targetId="8e47-232c-499c-927b" type="profile"/>
-                    <infoLink id="7f5a-aba4-74f7-d023" name="Assault 6+" hidden="false" targetId="31e3-3b2b-d53c-cd03" type="rule"/>
-                    <infoLink id="054b-00ca-3f50-34cd" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d21d-86e6-80cb-f512" name="Panzerschreck anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="765e-1113-0e54-cb44" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="a9b6-9bdf-8099-1399" name="Panzerschreck anti-tank beach" hidden="false" targetId="e333-0ffe-b33e-f855" type="profile"/>
-                    <infoLink id="32c7-239d-0ac4-2a20" name="Assault 6+" hidden="false" targetId="31e3-3b2b-d53c-cd03" type="rule"/>
-                    <infoLink id="bba9-9bcb-ff64-e35e" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="bea6-fac3-f9e7-43df" name="Panzerschreck anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49e2-51b3-e46b-1d37" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="06b7-6baa-f53d-b5a7" name="Panzerschreck anti-tank beach" hidden="false" targetId="e333-0ffe-b33e-f855" type="profile"/>
-                    <infoLink id="225c-5164-87bf-d002" name="Assault 6+" hidden="false" targetId="31e3-3b2b-d53c-cd03" type="rule"/>
-                    <infoLink id="15d1-2afc-87a3-152b" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="0ab2-56b5-4dbd-245b" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="4567-241e-6c82-5cb6">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae15-ad24-f976-1ce1" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a238-0149-d340-d06f" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="a777-1ecf-51c0-9166" name="7x MG42 &amp; K98 rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="c55a-3431-4eb9-aa54" name="MG42 &amp; K98 rifle team" hidden="false" targetId="1bd8-ccbb-2078-5aa2" type="profile"/>
-                        <infoLink id="b9a4-89bb-90ae-7c26" name="MG42 &amp; K98 rifle team" hidden="false" targetId="c411-adbf-0ff5-7925" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4567-241e-6c82-5cb6" name="5x MG42 &amp; K98 rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="6363-f126-2dcd-00a1" name="MG42 &amp; K98 rifle team" hidden="false" targetId="1bd8-ccbb-2078-5aa2" type="profile"/>
-                        <infoLink id="580c-0a0d-9714-3ec1" name="MG42 &amp; K98 rifle team" hidden="false" targetId="c411-adbf-0ff5-7925" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="f5ee-9060-f2d6-a2ef" name="7x MG42 team" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="7a19-838f-4e0e-b58c" name="MG42 team" hidden="false" targetId="046d-e8a2-fb32-e86d" type="profile"/>
-                        <infoLink id="66f4-6d48-e20a-4f53" name="MG42 team" hidden="false" targetId="da94-2904-9dad-ee35" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a15e-e523-e915-527e" name="5x MG42 team" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="7038-1fc8-f55b-d3f9" name="MG42 team" hidden="false" targetId="da94-2904-9dad-ee35" type="profile"/>
-                        <infoLink id="81ae-2642-e603-1763" name="MG42 team" hidden="false" targetId="046d-e8a2-fb32-e86d" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="aff6-068e-29e9-c743" name="Fallschrirmjäger Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="596c-9a0c-ac07-e62c" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="f18a-2097-7997-062f" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="3219-5abd-7f8d-279b" name="Panzerfausts" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8206-6a4c-1ab0-0fbf" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="c1c9-295b-3d13-2147" name="Panzerfaust anti-tank" hidden="false" targetId="4ca3-0cb0-917d-1c24" type="profile"/>
-                    <infoLink id="78ab-ec46-9beb-8372" name="Panzerfaust - Limited 1" hidden="false" targetId="d933-b4ee-739a-f94f" type="rule"/>
-                    <infoLink id="228e-863c-5357-48c2" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="2774-a0f3-3945-f22e" name="sMG42 HMG" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6524-f257-5f72-1ece" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="7c2c-f5bc-1479-0232" name="sMG42 HMG Fallschirm" hidden="false" targetId="3acc-cbbb-ce3e-bb22" type="profile"/>
-                    <infoLink id="9c75-9c83-bfce-c2e7" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                    <infoLink id="f6b3-f360-d217-9fef" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="5fc5-391c-6d0f-7c8a" name="Panzerschreck anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd76-089b-7a7d-96da" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="e99c-659d-6a57-ed0a" name="Panzerschreck anti-tank fallschirm" hidden="false" targetId="b5fd-4714-13b3-d503" type="profile"/>
-                    <infoLink id="c53f-0963-642e-7695" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                    <infoLink id="e9bc-c53b-2887-79db" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="b5d4-343d-5b54-1a11" name="sMG42 HMG" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8b1-f68f-4a5c-c494" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="3115-f67a-3061-7f6d" name="sMG42 HMG Fallschirm" hidden="false" targetId="3acc-cbbb-ce3e-bb22" type="profile"/>
-                    <infoLink id="1bde-9dc6-518c-b324" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                    <infoLink id="e68c-b76b-5621-e0ce" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="90fe-0205-df46-9fed" name="Panzerschreck anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69a3-29c1-3dad-2760" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="2886-27d7-5cb1-c6c6" name="Panzerschreck anti-tank fallschirm" hidden="false" targetId="b5fd-4714-13b3-d503" type="profile"/>
-                    <infoLink id="94f1-81c5-ad15-e343" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                    <infoLink id="0e69-e5ee-1258-e91d" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="6147-760f-63b0-ec22" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="deb8-9b0e-856e-0d8d">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8113-2c83-ef96-70ae" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b84-1fde-fd61-af98" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="deb8-9b0e-856e-0d8d" name="7x MG42 &amp; K98 rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="9048-a751-2c4b-fbbf" name="MG42 &amp; K98 rifle team Fallschirm" hidden="false" targetId="724f-a2f5-aad2-9dac" type="profile"/>
-                        <infoLink id="a133-8b47-0276-e97d" name="MG42 &amp; K98 rifle team" hidden="false" targetId="c411-adbf-0ff5-7925" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="3910-270d-0ec2-c57d" name="10x MG42 &amp; K98 rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="f91e-eb82-4f9f-0fce" name="MG42 &amp; K98 rifle team Fallschirm" hidden="false" targetId="724f-a2f5-aad2-9dac" type="profile"/>
-                        <infoLink id="b25b-5a15-9d66-0370" name="MG42 &amp; K98 rifle team" hidden="false" targetId="c411-adbf-0ff5-7925" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="39cb-25d5-47a0-0d8d" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ca2-3bd9-4823-e9aa" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="493a-bbf3-cc8f-48e3" name="Panzer IV (7.5cm)" hidden="false" targetId="c058-5e56-6fb2-ecd8" type="profile"/>
-        <infoLink id="ebc5-753e-51fd-89fd" name="Panzer IV (MGs)" hidden="false" targetId="d667-52e8-8270-1acc" type="profile"/>
-        <infoLink id="5aaa-68af-3c49-36aa" name="Panzer IV (7.5cm)" hidden="false" targetId="7359-3b12-948c-0aeb" type="profile"/>
-        <infoLink id="810a-0be2-3cf4-316b" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-        <infoLink id="7b05-69e5-a1ea-1ca6" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-        <infoLink id="e51c-db5f-85a9-4d14" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="e8ce-d541-5834-e021" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="e30e-9015-17ec-6a22" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="c54a-559e-6c3b-0587">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd4d-4ada-8ae7-7c65" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef7-f1ad-2fdc-5b04" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="c54a-559e-6c3b-0587" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b515-73d2-0946-ad80" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0efc-7a96-f129-c421" name="5x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d62f-ebad-a08e-8fb7" name="8.8cm Heavy AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1f6-6900-21cb-095f" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="b5a4-5138-e58d-073f" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-        <infoLink id="d4ed-5d3f-52df-2e0c" name="8.8cm AA gun" hidden="false" targetId="cbd7-f58b-2142-6c39" type="profile"/>
-        <infoLink id="bcfc-b24d-fee4-ce2e" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
-        <infoLink id="d2b5-8c11-d671-e1e7" name="8.8cm AA gun" hidden="false" targetId="b655-e3c9-aa5b-5ae9" type="profile"/>
-        <infoLink id="931e-dc07-4c83-9d2b" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-        <infoLink id="2357-8416-c408-c97c" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="e1ad-3266-08ff-1a1c" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="2412-068f-a103-535f" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="5bf9-cade-d94c-1684">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3403-5080-e537-8c0e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf57-af81-c4c0-2237" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="1f70-29e1-7cdc-fd10" name="4x 8.8cm AA gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5bf9-cade-d94c-1684" name="2x 8.8cm AA gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2001-a651-ca58-db96" name="Panzer III OP Observation Post " publicationId="10a4-8008-66c3-952e" hidden="true" collective="false" import="true" type="unit">
-      <comment>FIX THE RULES HERE</comment>
-      <modifiers>
-        <modifier type="set" field="e267-2f4e-6a07-d311" value="1.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="19b2-be91-fefe-7e6c" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cea-39d6-cd3f-5e85" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan">
-                  <comment>missing thing</comment>
-                </condition>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cea-39d6-cd3f-5e85" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="19b2-be91-fefe-7e6c" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e267-2f4e-6a07-d311" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="23f9-72d4-baef-90dc" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
-        <infoLink id="2951-dc69-9a4b-f0d7" name="Panzer III OP (MG)" hidden="false" targetId="1c08-ca98-6c83-a846" type="profile"/>
-        <infoLink id="604a-d10a-b623-a65a" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-        <infoLink id="4e5b-c4a1-e725-2c87" name="Panzer III OP (MG)" hidden="false" targetId="73d1-36b4-5a0c-6634" type="profile"/>
-        <infoLink id="c02d-9584-53c7-9eb5" name="Independent Tank Unit" hidden="false" targetId="b650-398e-5817-50fb" type="rule"/>
-        <infoLink id="9438-9744-495f-4d7c" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-        <infoLink id="fb30-96bd-6eae-466c" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="64cb-16a1-efde-e846" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="692b-360d-979d-58cc" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="61c1-45ee-66ba-1f3f">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c99-45fd-7079-8d15" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6a0-52ed-016c-72d4" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="61c1-45ee-66ba-1f3f" name="1x Panzer III OP (MG)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="6441-e19b-436b-0a58" name="Jagdpanzer IV or 8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <comment>rev2</comment>
       <constraints>
@@ -1729,186 +147,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e029-e04a-5697-795e" name="Panther Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8a-117f-d97c-4bc7" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="28b7-819e-8e9c-4a6e" name="Panther (MGs)" hidden="false" targetId="aa7d-a2c3-f0b7-8a62" type="profile"/>
-        <infoLink id="3bee-6581-1a8c-9b53" name="Panther (7.5cm)" hidden="false" targetId="4140-fc83-9933-9b1d" type="profile"/>
-        <infoLink id="b065-d00d-3dc2-7b9e" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile"/>
-        <infoLink id="384f-7d4b-4993-b958" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="e051-3414-e9f8-69c5" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ebf0-c941-1aef-f635" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="1032-982e-7090-2574">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0bb-dbdd-6b84-e2cd" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d525-db44-7fee-e87a" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="1032-982e-7090-2574" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6e99-b912-c15b-4e78" name="4x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="44.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c51d-fcef-bb1e-c413" name="5x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2363-44b1-04a7-fff4" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e03b-14aa-2e80-f320" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="d250-61a6-6463-c04c" name="Tiger (MGs)" hidden="false" targetId="20a8-9287-3b20-525b" type="profile"/>
-        <infoLink id="797e-7b8b-9dad-b59b" name="Tiger (8.8cm)" hidden="false" targetId="7533-54b0-a023-a8e4" type="profile"/>
-        <infoLink id="1a93-57c9-4f03-3c01" name="Tiger (8.8cm)" hidden="false" targetId="5a75-4c2c-ef6c-0834" type="profile"/>
-        <infoLink id="9b54-219b-3fe6-e88e" name="Tiger Ace" hidden="false" targetId="1ad8-f121-f28a-d2d1" type="rule"/>
-        <infoLink id="5625-1399-5a57-c511" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="a240-b3c7-b680-a41b" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="47bd-625e-1001-b97d" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4f0-92b8-f01a-ade0">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46cf-03df-909b-8cdf" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb69-741a-2acc-8b98" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="b524-bb00-a02c-5f95" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d9e0-fa6f-ce88-a249" name="4x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a4f0-92b8-f01a-ade0" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ee91-6833-3bdd-ad8d" name="StuG Assault Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed93-c02d-9c3e-5207" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="41ff-ca79-36a0-fe3d" name="StuG (MG)" hidden="false" targetId="d97c-cde1-f83c-5c6d" type="profile"/>
-        <infoLink id="af3d-e403-6930-6abd" name="StuG (7.5cm)" hidden="false" targetId="fb5d-d6ce-b5c4-9a12" type="profile"/>
-        <infoLink id="c0e4-c8d5-c14f-7549" name="StuG (7.5cm)" hidden="false" targetId="d7b4-cd03-f648-9c4d" type="profile"/>
-        <infoLink id="e598-411b-0dbd-60f6" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-        <infoLink id="9cb1-7543-6a99-a053" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-        <infoLink id="1ed7-0f5b-0bfd-8f51" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-        <infoLink id="5211-3a28-b5a6-d05c" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="ae0b-7128-55f4-8e7c" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="c937-5b01-cded-6ac2" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="e0ea-51c2-8f1a-663c">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3a7-6370-e7d6-227f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae8e-f0d6-d807-92a5" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="138d-5b09-cad3-56fd" name="3x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="22f6-dd8f-02bd-7609" name="4x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e0ea-51c2-8f1a-663c" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b51c-56f9-ab34-4ea5" name="StuH Assault Howitzer Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c04e-5423-960e-2fe8" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="3a2f-12a5-0c46-498a" name="StuH (10.5cm) Direct Fire" hidden="false" targetId="198e-c4e6-292a-b7ed" type="profile"/>
-        <infoLink id="d898-41f8-4e10-9444" name="StuH (10.5cm)" hidden="false" targetId="3a10-7dbd-c192-d00c" type="profile"/>
-        <infoLink id="0ab5-6e9d-2cc0-7088" name="StuH (10.5cm)" hidden="false" targetId="9011-b1fc-e2d1-0d79" type="profile"/>
-        <infoLink id="57bf-691c-26fa-1925" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-        <infoLink id="692e-7d35-ae3f-dffe" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-        <infoLink id="22c6-4667-a86f-9c7a" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-        <infoLink id="738b-d488-e3f3-8e8f" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-        <infoLink id="1e49-0ecb-131a-8502" name="StuH (MG)" hidden="false" targetId="44bc-5216-43f6-8415" type="profile"/>
-        <infoLink id="a599-6713-5321-64d6" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-        <infoLink id="7ff8-5fa0-e19b-4a37" name="HEAT" hidden="false" targetId="54ea-35b4-80ec-afc8" type="rule"/>
-        <infoLink id="5337-9b63-8f84-9bb9" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-        <infoLink id="ed4b-faee-a0cf-3ecd" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="7cf8-6e57-f470-3329" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="21bf-0616-01b4-0af8" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="eb8e-7b6d-1c5a-c29e">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60d2-ca85-3cbf-f7fa" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e07-b260-15d7-dcfa" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="d9c0-41c6-9396-eb20" name="3x StuH (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fac9-56cb-0928-0fe7" name="4x StuH (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="eb8e-7b6d-1c5a-c29e" name="2x StuH (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="1e0b-12da-5c07-25d7" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="dbef-035b-adfb-7fa0" type="selectionEntry">
@@ -1934,7 +172,11 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61be-bc32-6f31-97ef" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="fc11-b5c4-1cac-63a4" name="15cm Nebelwerfer Battery" hidden="false" collective="false" import="true" targetId="dace-3b54-229e-60b2" type="selectionEntry"/>
+    <entryLink id="fc11-b5c4-1cac-63a4" name="15cm Nebelwerfer Battery" hidden="false" collective="false" import="true" targetId="dace-3b54-229e-60b2" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bdc-80b4-c8c0-4eb8" type="max"/>
+      </constraints>
+    </entryLink>
     <entryLink id="b0c8-c361-1de6-60cf" name="Beach Defence Grenadier Platoon" hidden="false" collective="false" import="true" targetId="8f81-c9b7-2f39-6451" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1280-e4f0-3106-d09e" type="max"/>
@@ -1947,6 +189,41 @@
       </constraints>
     </entryLink>
     <entryLink id="8ef1-0a0c-a70f-2203" name="Fallschirmjäger Company" hidden="false" collective="false" import="true" targetId="0819-7284-2541-b2f2" type="selectionEntry"/>
+    <entryLink id="7ba5-6972-41f8-a55d" name="Fallschirmjäger StuG Assault Gun Company" hidden="false" collective="false" import="true" targetId="5c5a-c627-3e2b-1e4b" type="selectionEntry"/>
+    <entryLink id="0070-f57d-4cb6-14b9" name="Fallschrirmjäger StuH Assault Howitzer Platoon" hidden="false" collective="false" import="true" targetId="0577-617c-f6ed-80bf" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89b7-509c-64fb-21ac" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="03ea-15f1-a1be-8ba6" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8509-5694-f8c1-9b80" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="26e1-82c6-3c62-c92d" name="Panther Tank Company" hidden="false" collective="false" import="true" targetId="6cab-ac9a-1c04-d231" type="selectionEntry"/>
+    <entryLink id="3a26-2ac4-d25f-e384" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aea-fb96-b3fd-ab63" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="df91-8cb8-cd65-7908" name="8.8cm Heavy AA Platoon" hidden="false" collective="false" import="true" targetId="1651-2e60-9d01-0bc6" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bfc-4429-8be8-c23f" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="3dc0-9512-a8b1-39e3" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a34d-fda7-a49d-244f" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="da2a-372b-5630-abf5" name="Panzer IV Tank Company" hidden="false" collective="false" import="true" targetId="bce4-9398-3021-c1ac" type="selectionEntry"/>
+    <entryLink id="366b-6ac3-12d5-9d23" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbf4-d679-4805-2149" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="43cf-7dcd-1142-83d4" name="Tiger Tank Company" hidden="false" collective="false" import="true" targetId="95b1-3ebc-6eb1-e20f" type="selectionEntry"/>
+    <entryLink id="b88d-84d1-fa28-38a8" name="Panzer III OP Observation Post " hidden="false" collective="false" import="true" targetId="82b7-f19c-f147-16cd" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="dbef-035b-adfb-7fa0" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4240,6 +2517,648 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c5a-c627-3e2b-1e4b" name="Fallschirmjäger StuG Assault Gun Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="3069-4c79-77fd-9526" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9427-50e9-8534-ce9a" name="Fallschirmjäger StuG Assault Gun Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="464a-9802-5310-d828" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efa1-dde5-d9ef-21f7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2669-0c2a-ee08-5561" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
+            <infoLink id="9e27-4515-e0ee-a1b8" name="StuG (7.5cm)" hidden="false" targetId="d7b4-cd03-f648-9c4d" type="profile"/>
+            <infoLink id="8262-f0f1-1f0a-2463" name="StuG (MG)" hidden="false" targetId="d97c-cde1-f83c-5c6d" type="profile"/>
+            <infoLink id="8483-dd25-d375-267a" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
+            <infoLink id="ea16-1609-97d0-5071" name="StuG (7.5cm)" hidden="false" targetId="fb5d-d6ce-b5c4-9a12" type="profile"/>
+            <infoLink id="5f5d-bad7-b5ec-fc36" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+            <infoLink id="2630-0896-439f-8bd5" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8981-0bb2-b74c-3659" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c52-6e82-a313-da68">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e0f-4275-a288-728f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe2-5309-4168-e7b7" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="857b-4824-0d51-3b71" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6c52-6e82-a313-da68" name="1x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d1e9-f0fc-3299-46c1" name="StuG or StuH Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4dc-6f76-3036-b245">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5195-56a6-7e3d-ef2d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87e3-909f-bfd9-50fd" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a4dc-6f76-3036-b245" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry"/>
+            <entryLink id="8b2e-fe7c-f3d7-1e71" name="Fallschrirmjäger StuH Assault Howitzer Platoon" hidden="false" collective="false" import="true" targetId="0577-617c-f6ed-80bf" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5911-5345-ee03-e563" name="Fallschirmjäger or Beach Defence Grenadier Platoon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68f9-442e-e86b-fc0e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e232-d0f0-de1a-201d" name="Fallschrirmjäger Platoon" hidden="false" collective="false" import="true" targetId="9672-c587-75bb-70c6" type="selectionEntry"/>
+            <entryLink id="0ec6-8685-95c0-4db8" name="Beach Defence Grenadier Platoon" hidden="false" collective="false" import="true" targetId="8f81-c9b7-2f39-6451" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8de8-d56c-490c-7a58" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3996-a5db-976c-df1e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91a3-953e-7a1a-c767" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="088b-7f7e-5dd1-5aca" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5669-05e4-4010-bbea" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6170-c630-c3e0-66b3" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c888-7432-1684-ff5a" name="StuG (MG)" hidden="false" targetId="d97c-cde1-f83c-5c6d" type="profile"/>
+        <infoLink id="88ff-a710-9a99-6907" name="StuG (7.5cm)" hidden="false" targetId="fb5d-d6ce-b5c4-9a12" type="profile"/>
+        <infoLink id="059c-425e-bfa0-0ca4" name="StuG (7.5cm)" hidden="false" targetId="d7b4-cd03-f648-9c4d" type="profile"/>
+        <infoLink id="76f5-1384-8cb9-2013" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="d83f-9bfe-98bc-6663" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
+        <infoLink id="0fb2-bd76-5c53-7eb0" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
+        <infoLink id="0726-56b7-38ed-1135" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cb5d-a791-347d-e7f1" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9cca-3e49-59fc-c69e" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="fe99-cc4a-7c29-70b0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b45-4acf-f0e0-d507" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1893-441b-3b35-d235" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4f94-c537-f397-a778" name="3x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cfee-c528-800c-4163" name="4x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fe99-cc4a-7c29-70b0" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0577-617c-f6ed-80bf" name="Fallschrirmjäger StuH Assault Howitzer Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d16-85e5-d467-dffe" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f0dc-1ba3-3ac9-1055" name="StuH (10.5cm) Direct Fire" hidden="false" targetId="198e-c4e6-292a-b7ed" type="profile"/>
+        <infoLink id="f69b-1510-ca68-fd24" name="StuH (10.5cm)" hidden="false" targetId="3a10-7dbd-c192-d00c" type="profile"/>
+        <infoLink id="67f8-61f9-0aff-31df" name="StuH (10.5cm)" hidden="false" targetId="9011-b1fc-e2d1-0d79" type="profile"/>
+        <infoLink id="25f3-75d6-89a8-7c19" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="22df-b047-ee6d-7cee" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
+        <infoLink id="178c-ed7c-51ae-bbd0" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
+        <infoLink id="3ba5-b485-932c-7592" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="187d-0f6f-f1aa-8903" name="StuH (MG)" hidden="false" targetId="44bc-5216-43f6-8415" type="profile"/>
+        <infoLink id="2cd1-8698-c80a-e375" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+        <infoLink id="bdf8-5416-5cd3-8af0" name="HEAT" hidden="false" targetId="54ea-35b4-80ec-afc8" type="rule"/>
+        <infoLink id="db68-276e-a875-7e10" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="b326-9c00-fe76-c2b5" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4e78-ab29-3554-37e2" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="041d-56ef-93a2-1134" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5d9-02da-f808-01b9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeb0-9a53-24d5-b149" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8976-93fa-a4dc-b398" name="3x StuH (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fd90-1ec5-681a-5302" name="4x StuH (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cf0a-2889-d858-9874" name="2x StuH (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6cab-ac9a-1c04-d231" name="Panther Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="fa2a-0bc9-a445-f2d7" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4427-0d57-0e87-2809" name="Panther Tank Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7288-56c2-1758-93c6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="271e-be29-79d6-4ce1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="74cf-1d24-8d5f-5779" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+            <infoLink id="f8cb-0507-f503-383e" name="Panther (MGs)" hidden="false" targetId="aa7d-a2c3-f0b7-8a62" type="profile"/>
+            <infoLink id="2828-862f-2c2d-d071" name="Panther (7.5cm)" hidden="false" targetId="4140-fc83-9933-9b1d" type="profile"/>
+            <infoLink id="ad9f-2654-660e-b267" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7a0e-c99a-f610-d0be" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a2fa-a3a4-be91-0489">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9673-6e09-6897-8d49" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b231-02e7-018d-c42a" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="241a-9bb6-82f7-8459" name="2x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="a2fa-a3a4-be91-0489" name="1x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="15cc-cfd3-f5b6-d762" name="Panther or Tiger Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="bc5a-de1b-6157-8ca4">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f76d-a56f-0965-b2f4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d80-dc32-6f7b-5fca" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bc5a-de1b-6157-8ca4" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
+            <entryLink id="23f1-fe62-3361-75d7" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5a98-11b9-3c9f-3e46" name="Panther or Panzer IV Platoon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1765-6fa3-4ccf-4409" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3a86-7ce7-4383-9ccf" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
+            <entryLink id="0d09-6a1b-eea6-95c2" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0c12-46a3-d4e7-1e7b" name="Möbelwagen or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b9f-58d1-cc09-06a3" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="659e-9d73-9c85-877b" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
+            <entryLink id="43a6-93e8-7e3f-1edf" name="Möbelwagen AA Tank Platoon" hidden="false" collective="false" import="true" targetId="777f-a227-0a6b-c138" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d316-5c40-7bbb-62c0" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="760b-c25d-a5e5-4205" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab6b-b584-89fb-ff8a" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2203-1bbb-e22b-449f" name="Panther Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8eed-5ab6-d5dd-a78a" name="Panther (MGs)" hidden="false" targetId="aa7d-a2c3-f0b7-8a62" type="profile"/>
+        <infoLink id="3bf0-0732-21ba-17ec" name="Panther (7.5cm)" hidden="false" targetId="4140-fc83-9933-9b1d" type="profile"/>
+        <infoLink id="9ff7-6e1a-5302-32c0" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile"/>
+        <infoLink id="3c00-0c3a-585f-a57e" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="73c9-af9b-1d73-1244" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2cb8-a27b-d2b7-3783" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="79f0-3d46-ce80-728b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4275-5d9e-0bf0-4720" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b32b-c5d4-29cf-c18a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="79f0-3d46-ce80-728b" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9c36-17ea-4f4f-d2a7" name="4x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="44.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4851-b3b7-ad39-7c5b" name="5x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1651-2e60-9d01-0bc6" name="8.8cm Heavy AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="c16f-ff02-8012-1c83" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="1006-1355-f8bb-5f06" name="8.8cm AA gun" hidden="false" targetId="cbd7-f58b-2142-6c39" type="profile"/>
+        <infoLink id="ed55-9f47-e581-faad" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
+        <infoLink id="27aa-d3fb-cc07-41bd" name="8.8cm AA gun" hidden="false" targetId="b655-e3c9-aa5b-5ae9" type="profile"/>
+        <infoLink id="1cf5-1e06-cfcc-0d83" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
+        <infoLink id="ebf8-b826-ef1a-ade8" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e14f-7383-4cf7-4b10" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f590-5318-1c77-c7c0" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="feec-89ea-4f31-a1ee">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d7e-0070-df5c-b050" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a12e-07a0-7887-0160" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f154-06a3-cb1b-f38c" name="4x 8.8cm AA gun" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="feec-89ea-4f31-a1ee" name="2x 8.8cm AA gun" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bce4-9398-3021-c1ac" name="Panzer IV Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="6ce8-b797-bbff-8862" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="14ff-863c-e99b-14d8" name="Panzer IV Tank Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32f1-3d4d-9a7a-72ca" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc55-5a91-268f-8efe" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f8f6-e83a-ce1f-e27e" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+            <infoLink id="50d5-d689-b7ec-a949" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
+            <infoLink id="65a6-f7e5-3839-9c27" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
+            <infoLink id="d429-33dd-1e63-1ab2" name="Panzer IV (MGs)" hidden="false" targetId="d667-52e8-8270-1acc" type="profile"/>
+            <infoLink id="871a-161f-87cf-31f0" name="Panzer IV (7.5cm)" hidden="false" targetId="c058-5e56-6fb2-ecd8" type="profile"/>
+            <infoLink id="ee4d-32c7-1c79-11be" name="Panzer IV (7.5cm)" hidden="false" targetId="7359-3b12-948c-0aeb" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="d597-68b7-bbf3-a44b" name="2x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca06-bad2-41ba-f702" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6519-05f3-6099-d5c3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7679-b793-1e3c-1e45" name="Panzer IV or Panther or Tiger Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8646-b0eb-0ee6-ef96">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ae6-260e-53a1-a708" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fc6-1e8b-ded7-447b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8646-b0eb-0ee6-ef96" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry"/>
+            <entryLink id="b6fd-784b-b4fe-a0c6" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b863-d571-f13c-f0f1" name="Möbelwagen or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0db-c2d5-26f3-5e70" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7dac-28d4-635c-c0c7" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
+            <entryLink id="9670-2d51-5878-63c7" name="Möbelwagen AA Tank Platoon" hidden="false" collective="false" import="true" targetId="777f-a227-0a6b-c138" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8b8e-51b8-96d5-5504" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a5a-3e30-2084-37ca" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ae-5a12-5b52-e3ba" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3642-df18-1304-c38d" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="62e8-d685-0649-c5b7" name="Panzer IV (7.5cm)" hidden="false" targetId="c058-5e56-6fb2-ecd8" type="profile"/>
+        <infoLink id="b2ef-a8b5-4acd-78a7" name="Panzer IV (MGs)" hidden="false" targetId="d667-52e8-8270-1acc" type="profile"/>
+        <infoLink id="9ce8-ffe4-90e8-3b2f" name="Panzer IV (7.5cm)" hidden="false" targetId="7359-3b12-948c-0aeb" type="profile"/>
+        <infoLink id="1b3a-652b-ba0f-4747" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="db27-91f4-6d34-1a86" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
+        <infoLink id="cbc0-c767-07d0-f8ef" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f2e0-9248-6988-b57a" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7133-6780-7509-4b6d" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="4dbc-2fe6-e963-0d7c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14c3-090c-48fa-62bd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="189c-6139-f993-0f01" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4dbc-2fe6-e963-0d7c" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bd37-1216-183d-a5c7" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6bcb-ce41-ab9a-8dde" name="5x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47ee-b8bc-0561-5ab9" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="50e4-9ef3-c469-ba27" name="Tiger (MGs)" hidden="false" targetId="20a8-9287-3b20-525b" type="profile"/>
+        <infoLink id="3b10-5b5f-7401-1da9" name="Tiger (8.8cm)" hidden="false" targetId="7533-54b0-a023-a8e4" type="profile"/>
+        <infoLink id="56d7-788d-d437-19c6" name="Tiger (8.8cm)" hidden="false" targetId="5a75-4c2c-ef6c-0834" type="profile"/>
+        <infoLink id="d194-8c03-ce92-4f0d" name="Tiger Ace" hidden="false" targetId="1ad8-f121-f28a-d2d1" type="rule"/>
+        <infoLink id="b944-a95e-a65c-15eb" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e403-5904-f572-8790" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3f1d-249e-0559-ec6c" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="367e-78e6-8897-4879">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e53c-2c7a-a53f-f272" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c870-e539-38e7-5cf4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="91b8-bc69-7246-356c" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3c22-f495-aa18-c794" name="4x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="367e-78e6-8897-4879" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="777f-a227-0a6b-c138" name="Möbelwagen AA Tank Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="3e7e-b442-4b26-b541" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
+        <infoLink id="cff6-daed-19e9-f615" name="Möbelwagen (3.7cm)" hidden="false" targetId="a288-ab8b-9ceb-706d" type="profile"/>
+        <infoLink id="5acb-348b-ea66-43c9" name="Möbelwagen (3.7cm)" hidden="false" targetId="af4b-7533-097f-9cba" type="profile"/>
+        <infoLink id="8109-1b25-be38-f522" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7335-0ea1-da12-4c0a" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1a55-3920-ba1c-4c4d" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="3d04-12f2-96d7-bd83">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7e2-e5ba-490b-214c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2fb-5eb6-ef5c-cea8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2f01-8932-e1fa-d79e" name="4x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3d04-12f2-96d7-bd83" name="2x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ee0f-628b-73e1-b746" name="3x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95b1-3ebc-6eb1-e20f" name="Tiger Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="1e99-b079-906a-ebe1" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9d10-79cd-d414-36d7" name="Tiger Tank Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0fb-eebc-1570-d621" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6b7-3794-6f6c-3817" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="04e6-7e54-0f82-722a" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+            <infoLink id="3004-3968-3184-09a5" name="Tiger (8.8cm)" hidden="false" targetId="5a75-4c2c-ef6c-0834" type="profile"/>
+            <infoLink id="cd35-032d-2049-8419" name="Tiger (8.8cm)" hidden="false" targetId="7533-54b0-a023-a8e4" type="profile"/>
+            <infoLink id="9fea-80ce-3643-8d45" name="Tiger Ace" hidden="false" targetId="1ad8-f121-f28a-d2d1" type="rule"/>
+            <infoLink id="4402-ce98-5a0e-f410" name="Tiger (MGs)" hidden="false" targetId="20a8-9287-3b20-525b" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8295-de1f-6be1-b145" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="d824-92cc-c9cf-d1c4">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a16-3199-b2e3-a970" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6638-920d-118e-bb8f" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="f03c-51ae-b03e-c8c3" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d824-92cc-c9cf-d1c4" name="1x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4e7a-d4cf-274a-8dd1" name="Sd Kfz 10/4 or Sd Kfz 7/1 Anti-Aircraft Platoon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1640-3c1d-79b3-1bd4" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="cd36-d942-4207-a8ce" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="63c9-8e4d-a2c2-f3ac">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a186-1fb8-11de-4892" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde0-60f2-4e89-3a48" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="63c9-8e4d-a2c2-f3ac" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
+                <entryLink id="3672-2e4b-8560-36c3" name="Sd Kfz 7/1 Quad AA Platoon" hidden="false" collective="false" import="true" targetId="9adb-03e6-89f6-0b24" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="89bd-872e-0f39-b54e" name="Tiger Tank Platoon (max 3)" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b87-af18-ff82-cf6d" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76b0-ff7e-7844-c817" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="82b7-f19c-f147-16cd" name="Panzer III OP Observation Post " publicationId="10a4-8008-66c3-952e" hidden="true" collective="false" import="true" type="unit">
+      <comment>FIX THE RULES HERE</comment>
+      <modifierGroups>
+        <modifierGroup>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dace-3b54-229e-60b2" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cea-39d6-cd3f-5e85" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="19b2-be91-fefe-7e6c" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="set" field="bfad-60f3-8ea2-6ce2" value="1.0"/>
+            <modifier type="set" field="hidden" value="false"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfad-60f3-8ea2-6ce2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="938d-645f-de62-1af0" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
+        <infoLink id="8950-bb97-0cb8-91fc" name="Panzer III OP (MG)" hidden="false" targetId="1c08-ca98-6c83-a846" type="profile"/>
+        <infoLink id="f144-760f-0a55-e389" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="d757-b99a-998e-f415" name="Panzer III OP (MG)" hidden="false" targetId="73d1-36b4-5a0c-6634" type="profile"/>
+        <infoLink id="752e-b169-f064-7d83" name="Independent Tank Unit" hidden="false" targetId="b650-398e-5817-50fb" type="rule"/>
+        <infoLink id="82bf-f01a-b35e-309f" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+        <infoLink id="89ab-7915-e5de-c855" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fd07-6e11-048e-b82c" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bc10-aa08-c697-c0b0" name="1x Panzer III OP (MG)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e12a-d136-cb35-82f6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cf7-422f-a4b5-0560" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
