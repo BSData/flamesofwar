@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="10" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="11" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
     <publication id="453d-401b-fd1e-0f95" name="Rulebook"/>
@@ -118,11 +118,7 @@
         </categoryLink>
         <categoryLink id="1f7f-6695-e57f-8964" name="Support Platoons" publicationId="453d-401b-fd1e-0f95" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
         <categoryLink id="3be3-d725-1f59-a527" name="Headquaters" publicationId="453d-401b-fd1e-0f95" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="false"/>
-        <categoryLink id="61ba-d032-dbe5-150b" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6cf-ee7a-5984-b727" type="max"/>
-          </constraints>
-        </categoryLink>
+        <categoryLink id="61ba-d032-dbe5-150b" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
