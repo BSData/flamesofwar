@@ -2141,11 +2141,25 @@ rally 3+</description>
           </constraints>
           <selectionEntries>
             <selectionEntry id="a4e4-9d7e-675c-9e34" name="2x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="59c3-3306-e00a-09b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a15d-dede-c6fe-7fea" name="4x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="4.0">
+                  <conditions>
+                    <condition field="selections" scope="59c3-3306-e00a-09b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
               </costs>
@@ -2378,16 +2392,37 @@ Cannot shoot or launch an assault from impassable water terrain
           </constraints>
           <selectionEntries>
             <selectionEntry id="972b-51a2-cd58-ccde" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="3.0">
+                  <conditions>
+                    <condition field="selections" scope="7dcc-a935-5f5b-1862" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="be10-f1c5-9017-581f" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="4.0">
+                  <conditions>
+                    <condition field="selections" scope="7dcc-a935-5f5b-1862" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="915e-ccdd-ac99-38f5" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="7dcc-a935-5f5b-1862" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
               </costs>
@@ -2445,6 +2480,11 @@ Cannot shoot or launch an assault from impassable water terrain
                 <entryLink id="a1a0-afcf-1084-1043" name="Sherman DD" hidden="false" collective="false" import="true" targetId="6f9f-69fa-6173-5d5f" type="selectionEntry"/>
                 <entryLink id="513d-d06e-be11-f37d" name="Lafayette Poole" hidden="false" collective="false" import="true" targetId="b3b0-6476-a809-cce3" type="selectionEntry"/>
                 <entryLink id="2f3a-4feb-f141-bad0" name="Cullin Hedge Cutter" hidden="false" collective="false" import="true" targetId="21a8-72cc-84b5-2a99" type="selectionEntry"/>
+                <entryLink id="d45e-ca66-9e40-88cc" name="Sandbag Arnour" hidden="false" collective="false" import="true" targetId="c31a-3b12-49b9-10aa" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </entryLink>
           </entryLinks>
@@ -2525,16 +2565,37 @@ Cannot shoot or launch an assault from impassable water terrain
           </constraints>
           <selectionEntries>
             <selectionEntry id="39a5-ed4c-a077-6e5d" name="2x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="9b0e-3e5d-1c2c-2754" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c0c8-f54f-a2cc-2282" name="4x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="4.0">
+                  <conditions>
+                    <condition field="selections" scope="9b0e-3e5d-1c2c-2754" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="56f1-6165-d844-0cd9" name="6x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="6.0">
+                  <conditions>
+                    <condition field="selections" scope="9b0e-3e5d-1c2c-2754" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
               </costs>
@@ -2579,7 +2640,11 @@ Cannot shoot or launch an assault from impassable water terrain
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="fa80-a45e-08ee-41ed" name="Sandbag Arnour" hidden="false" collective="false" import="true" targetId="c31a-3b12-49b9-10aa" type="selectionEntry"/>
+        <entryLink id="fa80-a45e-08ee-41ed" name="Sandbag Arnour" hidden="false" collective="false" import="true" targetId="c31a-3b12-49b9-10aa" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -2604,16 +2669,37 @@ Cannot shoot or launch an assault from impassable water terrain
           </constraints>
           <selectionEntries>
             <selectionEntry id="00eb-dd69-82fa-21a2" name="3x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="3.0">
+                  <conditions>
+                    <condition field="selections" scope="8a49-36ac-85de-bfd1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8b1a-f2bf-07ed-3438" name="4x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="4.0">
+                  <conditions>
+                    <condition field="selections" scope="8a49-36ac-85de-bfd1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="91f4-66fa-2213-8271" name="5x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="8a49-36ac-85de-bfd1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
@@ -2654,16 +2740,37 @@ Cannot shoot or launch an assault from impassable water terrain
           </constraints>
           <selectionEntries>
             <selectionEntry id="0a08-713f-661d-b6c2" name="3x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="3.0">
+                  <conditions>
+                    <condition field="selections" scope="63bd-4184-34cb-b147" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ce76-38c3-6881-0a7f" name="4x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="4.0">
+                  <conditions>
+                    <condition field="selections" scope="63bd-4184-34cb-b147" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="96b3-c5c3-bd1c-3560" name="5x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="63bd-4184-34cb-b147" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
               </costs>
@@ -2737,6 +2844,11 @@ Cannot shoot or launch an assault from impassable water terrain
                 <entryLink id="943d-46a4-4dd7-55a4" name="Lafayette Poole" hidden="false" collective="false" import="true" targetId="b3b0-6476-a809-cce3" type="selectionEntry"/>
                 <entryLink id="1cd4-5088-ef54-74a2" name="Tank Telephones" hidden="false" collective="false" import="true" targetId="cde9-913b-1ed9-4c63" type="selectionEntry"/>
                 <entryLink id="986b-0760-bf5f-29a4" name="Cullin Hedge Cutter" hidden="false" collective="false" import="true" targetId="21a8-72cc-84b5-2a99" type="selectionEntry"/>
+                <entryLink id="da10-2e1b-8297-55a6" name="Sandbag Arnour" hidden="false" collective="false" import="true" targetId="c31a-3b12-49b9-10aa" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </entryLink>
           </entryLinks>
@@ -2957,16 +3069,37 @@ Cannot shoot or launch an assault from impassable water terrain
           </constraints>
           <selectionEntries>
             <selectionEntry id="9dfb-27d9-8141-ff43" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="3.0">
+                  <conditions>
+                    <condition field="selections" scope="66be-f0a7-5916-49fe" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e2b3-1eb8-6bac-f12e" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="4.0">
+                  <conditions>
+                    <condition field="selections" scope="66be-f0a7-5916-49fe" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="79ed-ff16-1ae9-ad2a" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="66be-f0a7-5916-49fe" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
               </costs>
@@ -3018,16 +3151,37 @@ Cannot shoot or launch an assault from impassable water terrain
           </constraints>
           <selectionEntries>
             <selectionEntry id="6cca-3dbd-26a0-a809" name="3x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="3.0">
+                  <conditions>
+                    <condition field="selections" scope="4eb9-a9fa-0912-545e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="eb65-a157-b442-78fd" name="4x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="4.0">
+                  <conditions>
+                    <condition field="selections" scope="4eb9-a9fa-0912-545e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="92b6-1c66-83e8-9b04" name="5x M4 Sherman (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="4eb9-a9fa-0912-545e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
               </costs>
@@ -3082,11 +3236,25 @@ Cannot shoot or launch an assault from impassable water terrain
           </constraints>
           <selectionEntries>
             <selectionEntry id="4ae4-21f6-41ad-c653" name="3x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="3.0">
+                  <conditions>
+                    <condition field="selections" scope="6cd9-d536-c7d6-86ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0efe-d888-e283-5282" name="4x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="4.0">
+                  <conditions>
+                    <condition field="selections" scope="6cd9-d536-c7d6-86ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
@@ -3096,6 +3264,11 @@ Cannot shoot or launch an assault from impassable water terrain
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf10-15eb-b033-5b4d" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="5.0">
+                  <conditions>
+                    <condition field="selections" scope="6cd9-d536-c7d6-86ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3154,16 +3327,37 @@ Cannot shoot or launch an assault from impassable water terrain
           </constraints>
           <selectionEntries>
             <selectionEntry id="09b7-69a6-14c0-7acb" name="2x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="6030-d903-c72b-deee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ef47-e49d-2059-efc9" name="4x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="4.0">
+                  <conditions>
+                    <condition field="selections" scope="6030-d903-c72b-deee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="943b-176a-361e-660a" name="6x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="6.0">
+                  <conditions>
+                    <condition field="selections" scope="6030-d903-c72b-deee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
               </costs>
@@ -3231,7 +3425,11 @@ Cannot shoot or launch an assault from impassable water terrain
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="3788-28df-61db-32d1" name="Sandbag Arnour" hidden="false" collective="false" import="true" targetId="c31a-3b12-49b9-10aa" type="selectionEntry"/>
+        <entryLink id="3788-28df-61db-32d1" name="Sandbag Arnour" hidden="false" collective="false" import="true" targetId="c31a-3b12-49b9-10aa" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -3307,6 +3505,11 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
             <entryLink id="51fd-db2b-09ce-154d" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="1791-3aa3-d6a0-e951" type="selectionEntryGroup">
               <entryLinks>
                 <entryLink id="1e19-10b5-13b7-5a08" name="Cullin Hedge Cutter" hidden="false" collective="false" import="true" targetId="21a8-72cc-84b5-2a99" type="selectionEntry"/>
+                <entryLink id="6d64-696d-2bf4-0b74" name="Sandbag Arnour" hidden="false" collective="false" import="true" targetId="c31a-3b12-49b9-10aa" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </entryLink>
           </entryLinks>
@@ -3370,11 +3573,25 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           </constraints>
           <selectionEntries>
             <selectionEntry id="24e9-6daa-7b04-0d8d" name="3x M8 Scott(75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="3.0">
+                  <conditions>
+                    <condition field="selections" scope="60a4-7a8d-620b-2e1d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8e93-735a-2e1c-c902" name="2x M8 Scott(75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="60a4-7a8d-620b-2e1d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
@@ -3437,6 +3654,11 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
               <entryLinks>
                 <entryLink id="64f1-2ce7-4b8d-b717" name="Tank Telephones" hidden="false" collective="false" import="true" targetId="cde9-913b-1ed9-4c63" type="selectionEntry"/>
                 <entryLink id="2df6-b34b-86c1-6044" name="Cullin Hedge Cutter" hidden="false" collective="false" import="true" targetId="21a8-72cc-84b5-2a99" type="selectionEntry"/>
+                <entryLink id="e999-0273-6861-cb9b" name="Sandbag Arnour" hidden="false" collective="false" import="true" targetId="c31a-3b12-49b9-10aa" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </entryLink>
           </entryLinks>
@@ -3630,11 +3852,25 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
           </constraints>
           <selectionEntries>
             <selectionEntry id="21b6-921e-1f06-5459" name="3x M8 Scott(75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="b498-653f-4eb6-464c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2fa0-97dd-4a9d-d33e" name="2x M8 Scott(75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="b498-653f-4eb6-464c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
               </costs>
@@ -3644,6 +3880,11 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf10-15eb-b033-5b4d" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="b498-653f-4eb6-464c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3658,6 +3899,11 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf10-15eb-b033-5b4d" type="instanceOf"/>
                   </conditions>
                 </modifier>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="b498-653f-4eb6-464c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
@@ -3668,6 +3914,11 @@ Unit leader does not suffer stabilizer +1 shooting penalty.</description>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf10-15eb-b033-5b4d" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="b498-653f-4eb6-464c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6246,6 +6497,11 @@ Units from this formation can move freely at start of the game.  Other friendly 
       </costs>
     </selectionEntry>
     <selectionEntry id="848b-6b56-9673-70ec" name="4th Infantry Division - Ivy" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="51a2-dd3f-7172-b6f7" name="4th Infantry Division - Ivy" hidden="false">
+          <description>Can field priests instead of 105mm cannons</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="bd0a-ff16-09fe-25cc" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
       </categoryLinks>
@@ -6318,11 +6574,25 @@ Units from this formation can move freely at start of the game.  Other friendly 
           </constraints>
           <selectionEntries>
             <selectionEntry id="a756-467f-8dcf-a47d" name="3x M7 Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="3.0">
+                  <conditions>
+                    <condition field="selections" scope="56fb-e8f2-e027-08b9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d863-e89a-fe95-b85b" name="6x M7 Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="6.0">
+                  <conditions>
+                    <condition field="selections" scope="56fb-e8f2-e027-08b9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
               </costs>
@@ -6474,11 +6744,25 @@ Units from this formation can move freely at start of the game.  Other friendly 
           </constraints>
           <selectionEntries>
             <selectionEntry id="84c9-6cb0-4cab-147d" name="2x M12 (155mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="accd-7f6e-fe88-df86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b1b4-6c7f-afa2-2868" name="4x M12 (155mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="4.0">
+                  <conditions>
+                    <condition field="selections" scope="accd-7f6e-fe88-df86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c31a-3b12-49b9-10aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
@@ -6486,6 +6770,9 @@ Units from this formation can move freely at start of the game.  Other friendly 
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9f27-99ba-5f3d-a4c6" name="Sandbag Arnour" hidden="false" collective="false" import="true" targetId="c31a-3b12-49b9-10aa" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -6543,7 +6830,11 @@ Can dismount when charging into contact
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="ecfd-86cf-3276-3c1e" name="Sandbag Arnour" hidden="false" collective="false" import="true" targetId="c31a-3b12-49b9-10aa" type="selectionEntry"/>
+        <entryLink id="ecfd-86cf-3276-3c1e" name="Sandbag Arnour" hidden="false" collective="false" import="true" targetId="c31a-3b12-49b9-10aa" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -6609,6 +6900,11 @@ Can dismount when charging into contact
       </costs>
     </selectionEntry>
     <selectionEntry id="b604-dd06-c65b-ecc0" name="90th Infantry Division - Tough &apos;Ombres" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="1c89-4e2a-4984-da7c" name="90th Infantry Division - Tough &apos;Ombres" hidden="false">
+          <description>Motivation becomes 5+ and Rifle Platoons are -2, the rest are -1 pt</description>
+        </rule>
+      </rules>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -7489,9 +7785,6 @@ If a tank in this unit fails its armour save vs weapons with FP 5 or 6+ roll aga
 5+ ignore failed save</description>
         </rule>
       </rules>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="d341-f518-7584-7eb5" name="Amphibious Transport" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
