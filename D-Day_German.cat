@@ -2763,44 +2763,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fad7-a57c-8450-32ef" name="2cm Light AA Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb7-4ce4-031d-3ee5" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="5ad7-9175-c860-ae0a" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-        <infoLink id="daa3-fecf-a24f-fdc8" name="2cm AA gun" hidden="false" targetId="644f-a8e0-2034-0efb" type="profile"/>
-        <infoLink id="09fc-af50-8b8c-ac8d" name="2cm AA gun" hidden="false" targetId="107c-a9bd-433d-7616" type="profile"/>
-        <infoLink id="06c0-7032-0d0a-87aa" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-        <infoLink id="9dff-16b3-769f-5f99" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="b22c-4e61-113c-d8d4" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3edb-e998-242e-720c" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="8475-c09a-9645-7443">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="333c-9567-3d3e-9da0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2afb-5aed-dc81-76f8" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="e0ca-e306-9b5a-7109" name="4x 2cm AA gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8475-c09a-9645-7443" name="2x 2cm AA gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="d62f-ebad-a08e-8fb7" name="8.8cm Heavy AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1f6-6900-21cb-095f" type="max"/>
@@ -2939,6 +2901,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6441-e19b-436b-0a58" name="Jagdpanzer IV or 8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>rev2</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="979e-9bc2-e1ff-306a" type="max"/>
       </constraints>
@@ -2946,98 +2909,15 @@
         <categoryLink id="d90d-c517-7f24-4788" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="da82-e434-687e-1fa7" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="c082-b477-9e7d-af6d">
+        <selectionEntryGroup id="da82-e434-687e-1fa7" name="Type" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab06-23a6-79dd-bdf8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77d1-a5bd-1a1c-37bf" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="c082-b477-9e7d-af6d" name="Jagdpanzer IV Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a66-afae-daf4-6295" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1521-3653-c42b-ebac" name="Jagdpanzer IV (7.5cm)" hidden="false" targetId="12a0-e7a1-a0ce-337c" type="profile"/>
-                <infoLink id="87e9-0a88-d158-afd4" name="Jagdpanzer IV (MG)" hidden="false" targetId="9414-57e3-d0ab-2d6a" type="profile"/>
-                <infoLink id="51e9-7b9c-d738-0d2f" name="Jagdpanzer IV (7.5cm)" hidden="false" targetId="8e03-73cf-9b07-3783" type="profile"/>
-                <infoLink id="e92f-ec3d-5c28-233c" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                <infoLink id="8414-d4b6-1dff-2ebc" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
-                <infoLink id="e5b1-fd03-6f85-32c6" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-                <infoLink id="6281-8457-6b8a-f621" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="d775-c079-1d28-d7f7" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="6d56-a395-b325-6128" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="6119-bdaa-0680-efe1">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4307-d4a0-30bb-aa8a" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d7-fa57-23bf-1435" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="5c46-741e-1044-715a" name="3x Jagdpanzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1453-4448-17b9-be68" name="4x Jagdpanzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6119-bdaa-0680-efe1" name="2x Jagdpanzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="684a-67d7-4a29-1643" name="8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="913f-e3b1-4531-59fa" name="8.8cm gun" hidden="false" targetId="78e9-9dea-c821-9639" type="profile"/>
-                <infoLink id="c92c-99f8-2eb1-892d" name="8.8cm gun" hidden="false" targetId="86d1-75ef-ebbf-378c" type="profile"/>
-                <infoLink id="70c3-f08f-ddc2-a2db" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-                <infoLink id="3e52-46a7-fd69-f743" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-                <infoLink id="70d3-3d04-a6c1-cf60" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="ef14-db59-008b-bc60" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="1104-0fa9-8511-8f21" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="f3b0-5913-8689-f41e">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b221-3de0-f5c8-d647" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0931-1d8e-d7dc-a2f2" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="7d7c-cf7d-e18a-2f51" name="3x 8.8cm gun" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1297-cd5d-d69c-02bc" name="4x 8.8cm gun" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="f3b0-5913-8689-f41e" name="2x 8.8cm gun" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="d081-7f9c-68c4-1154" name="8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="2500-c062-d7c1-c67f" type="selectionEntry"/>
+            <entryLink id="b2b7-3799-a75b-a061" name="Jagdpanzer IV Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="7b39-c0fb-5da4-59a3" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -3045,6 +2925,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="74ca-2f8e-88c7-47d6" name="7.5cm or 8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>rev2</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d38-22ba-d068-6214" type="max"/>
       </constraints>
@@ -3052,93 +2933,15 @@
         <categoryLink id="91ac-9791-9ef8-9c4c" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9727-c626-e44b-abb6" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="2298-c860-7e80-72a5">
+        <selectionEntryGroup id="9727-c626-e44b-abb6" name="Type" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4984-a30a-dda3-52bc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4278-00a6-369a-671e" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="e32f-b44c-e4ec-3c8c" name="8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="6801-aeaf-2433-0d08" name="8.8cm gun" hidden="false" targetId="78e9-9dea-c821-9639" type="profile"/>
-                <infoLink id="ced0-42a2-5974-d94f" name="8.8cm gun" hidden="false" targetId="86d1-75ef-ebbf-378c" type="profile"/>
-                <infoLink id="d63a-6bf1-0310-dc72" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-                <infoLink id="4970-881c-06bb-791a" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-                <infoLink id="4146-a7b2-bb44-f74a" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="5738-fa61-6782-acde" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="6aff-f140-ce20-3442" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e8c-899b-144d-73bd">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcd0-a217-a8e3-afae" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d4-17f3-26a7-5ec6" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="1e30-e27c-ae00-d38d" name="3x 8.8cm gun" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="9992-836d-af42-a1b8" name="4x 8.8cm gun" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="5e8c-899b-144d-73bd" name="2x 8.8cm gun" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2298-c860-7e80-72a5" name="7.5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe8a-4a23-ac85-0447" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="8dd0-527b-fe31-25bb" name="7.5cm gun" hidden="false" targetId="68a9-ae0d-7018-62ed" type="profile"/>
-                <infoLink id="5c48-0952-8c94-61a9" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="5819-998a-e434-520e" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-                <infoLink id="e6fe-9c75-5722-36c4" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-                <infoLink id="21fd-5cf9-90bd-d4f7" name="7.5cm anti-tank gun" hidden="false" targetId="6995-f922-f8fc-d5f3" type="profile"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="0e32-aaee-956a-2a82" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="664e-d734-a7c8-4e33">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d2-ce3a-69f5-928b" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2c2-6ac5-0893-89e0" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="f0b1-67c0-1934-0885" name="4x 7.5cm gun" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="664e-d734-a7c8-4e33" name="2x 7.5cm gun" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7be3-6b9b-2240-6821" name="3x 7.5cm gun" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="e24e-a824-3e6e-d9d6" name="7.5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="6e68-6062-01ef-35e9" type="selectionEntry"/>
+            <entryLink id="6131-da1d-2f63-d9cb" name="8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="2500-c062-d7c1-c67f" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -3153,89 +2956,17 @@
         <categoryLink id="81e0-5763-cfe3-092f" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c435-3bfe-6071-441e" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="cd80-9be3-4083-2303">
+        <selectionEntryGroup id="c435-3bfe-6071-441e" name="Type" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff6f-9612-3004-1af0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d3a-5925-0275-cd21" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="cd80-9be3-4083-2303" name="Puma Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34af-20e1-2e5c-af7a" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="ba1d-0eeb-7099-6cb4" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                <infoLink id="cedb-3384-7a10-63cc" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-                <infoLink id="3710-3a44-ad8a-697c" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="783f-004e-4366-5c23" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="1450-51e9-b919-cb41">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f79d-5a3b-223f-b54f" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c23-d576-6d9a-0a34" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="4ad8-1651-1c4c-2fd8" name="2x Sd Kfz 234 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="9c25-0bae-ef12-1e56" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                        <infoLink id="6d4f-e048-5f03-bd2f" name="Sd Kfc 234 (2cm)" hidden="false" targetId="da6e-4685-41bf-eef1" type="profile"/>
-                        <infoLink id="2ba9-468a-17cf-48c4" name="Sd Kfc 234 (MG)" hidden="false" targetId="ff36-640a-e25a-2d22" type="profile"/>
-                        <infoLink id="65bd-f72e-d2a6-81e6" name="Sd Kfz 234 (2cm)" hidden="false" targetId="8791-21fe-0be0-3733" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1450-51e9-b919-cb41" name="2x Puma (5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="ef47-6bcd-2b18-6841" name="Puma (5cm)" hidden="false" targetId="fd78-9c12-1049-f7ea" type="profile"/>
-                        <infoLink id="dc10-356c-eceb-5da2" name="Puma (MG)" hidden="false" targetId="c769-7b3e-78fe-70fe" type="profile"/>
-                        <infoLink id="0207-150e-7989-cfe1" name="Puma (5cm)" hidden="false" targetId="3ac6-056d-be98-82df" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f7cc-7c24-d7c2-ef00" name="Sd Kfc 250 Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20e3-dc37-bd04-8428" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="2f9b-7bfe-a3c7-7ca9" name="Sd Kfz 250 (MG)" hidden="false" targetId="cd43-cd89-72b1-687c" type="profile"/>
-                <infoLink id="b1f5-2a10-6de2-7922" name="Sd Kfz 250/9 (2cm)" hidden="false" targetId="0d35-ff57-c178-1fdc" type="profile"/>
-                <infoLink id="1c17-9d9d-2083-8f14" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                <infoLink id="4d09-874f-b082-59c6" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-                <infoLink id="9e55-42a3-e698-ec5a" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                <infoLink id="19ea-b3ed-53c3-a5c3" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-                <infoLink id="066c-ed9d-9b20-b70f" name="Sd Kfz 250/9 (2cm)" hidden="false" targetId="3bba-4112-b11e-cc3d" type="profile"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="0e8b-922e-0030-f840" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="f3e8-1870-6053-c46f">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76ad-bc12-f2b7-7f79" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b46-4380-04cf-143a" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="f3e8-1870-6053-c46f" name="2x Sd Kfz 250 (2cm), 1x Sd Kfc 250 (MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="31f6-f029-753a-8a1c" name="Puma Scout Troop" hidden="false" collective="false" import="true" targetId="c453-ac58-bdab-c62b" type="selectionEntry">
+              <comment>rev2</comment>
+            </entryLink>
+            <entryLink id="d594-c43a-9e53-2760" name="Sd Kfc 250 Scout Troop" hidden="false" collective="false" import="true" targetId="e412-f7dd-0ee3-90ba" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -3243,102 +2974,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="19b2-be91-fefe-7e6c" name="10.5cm or Wespe Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>rev2</comment>
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d6c-c6c4-f065-0070" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d6c-c6c4-f065-0070" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="a0de-f71e-32e9-bfe4" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7993-1487-acf2-a6b4" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a11-42d9-7a61-3977">
+        <selectionEntryGroup id="7993-1487-acf2-a6b4" name="Type" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7e5-697a-ca5e-e7bc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be11-00f2-0b96-6351" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="5a11-42d9-7a61-3977" name="10.5cm Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="9a57-c967-5964-6e3d" name="10.5cm howitzer" hidden="false" targetId="7422-946b-ea23-da72" type="profile"/>
-                <infoLink id="4526-a7b2-c5b1-6a56" name="10.5cm howitzer" hidden="false" targetId="f3f4-fe5c-05c8-cc0f" type="profile"/>
-                <infoLink id="7785-5e96-f2a6-2b6e" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="88df-f6ac-3e7f-f84b" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
-                <infoLink id="0382-8748-3b32-9605" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                <infoLink id="f53b-790d-0a50-c514" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-                <infoLink id="63eb-bca4-2fe5-2dd2" name="10.5cm howitzer Direct Fire" hidden="false" targetId="f8b6-a0a2-9106-1205" type="profile"/>
-                <infoLink id="3742-0a86-68aa-67bd" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                <infoLink id="d442-f298-c4ef-11f0" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
-                <infoLink id="b6e2-8a88-d3c3-8902" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-                <infoLink id="ecb0-3e2d-d522-1e60" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="b6a1-0e38-06f7-7a23" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="32b0-2529-4343-21c6" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c8a-200d-6417-0298">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ddb-69a6-6678-cf65" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5680-bd26-aff6-1d1e" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="6c8a-200d-6417-0298" name="2x 10.5cm howitzer" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="3a71-8da5-0b4e-2e63" name="4x 10.5cm howitzer" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="35e0-2c45-6542-8554" name="Wespe Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="a38e-5dd8-7521-1e7b" name="Wespe (10.5cm)" hidden="false" targetId="b2c6-69e0-922e-c143" type="profile"/>
-                <infoLink id="a535-5bba-5e77-35d3" name="Wespe (10.5cm) Direct Fire" hidden="false" targetId="3b9f-38da-8a96-0888" type="profile"/>
-                <infoLink id="3d25-b40f-53a4-89ef" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="1f0d-2789-d0c4-dc9c" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                <infoLink id="6b1c-d213-43eb-433a" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                <infoLink id="4629-1092-1632-345b" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-                <infoLink id="4141-66de-8c56-dcbc" name="Wespe (MG)" hidden="false" targetId="38f0-bfd7-9b59-73f1" type="profile"/>
-                <infoLink id="aaff-84a5-f218-009b" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                <infoLink id="d7db-036b-050b-3f92" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
-                <infoLink id="b202-3c1a-2abc-e344" name="Wespe (10.5cm) Artillery" hidden="false" targetId="0354-fbcd-2a7c-329f" type="profile"/>
-                <infoLink id="2043-9da4-fef7-d3e6" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="1b8a-d073-89c4-f40d" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="4e3b-1191-8e0c-067e" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="e415-e2de-dbeb-bccc">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e5d-05e6-0155-984d" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e553-9e56-bfa4-e696" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="e415-e2de-dbeb-bccc" name="3x Wespe (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7b98-d1b9-b240-2e45" name="6x Wespe (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="2453-a786-86aa-39a9" name="10.5cm Artillery Battery" hidden="false" collective="false" import="true" targetId="fcb2-85d8-074a-978f" type="selectionEntry"/>
+            <entryLink id="2f07-f2ca-4a58-0ee0" name="Wespe Artillery Battery" hidden="false" collective="false" import="true" targetId="17d1-62a8-d8f2-0eeb" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -3346,99 +2998,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5cea-39d6-cd3f-5e85" name="10.5cm or Hummel Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>rev2</comment>
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d43-3218-3819-470a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d43-3218-3819-470a" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="4ea0-bb26-72c9-4286" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cf4d-3c1e-aa2f-c334" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="a569-2df6-b06e-8569">
+        <selectionEntryGroup id="cf4d-3c1e-aa2f-c334" name="Type" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="989e-fd9c-52ba-d851" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88f2-f6a8-d5c5-5446" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="a569-2df6-b06e-8569" name="10.5cm Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="9eac-748e-7a8c-7d8b" name="10.5cm howitzer" hidden="false" targetId="7422-946b-ea23-da72" type="profile"/>
-                <infoLink id="480d-3e9f-9dc1-03f8" name="10.5cm howitzer" hidden="false" targetId="f3f4-fe5c-05c8-cc0f" type="profile"/>
-                <infoLink id="a318-1959-a3da-217b" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="5234-8247-88be-11bb" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
-                <infoLink id="74d9-5b12-43af-8fa2" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                <infoLink id="f5e5-952a-258f-6792" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-                <infoLink id="2a71-08a6-da72-e828" name="10.5cm howitzer Direct Fire" hidden="false" targetId="f8b6-a0a2-9106-1205" type="profile"/>
-                <infoLink id="a43b-5a24-fcb5-d56f" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                <infoLink id="4f8a-d1a8-a296-813c" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
-                <infoLink id="408c-99f3-15e1-697b" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-                <infoLink id="014e-e951-aba7-79e5" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="2dc1-8434-2ff4-bcac" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="c9a5-2411-8c5e-cd14" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="ea46-9325-3187-ba41">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ea-eafb-b707-da2d" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="738b-dc1d-d7bc-06eb" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="ea46-9325-3187-ba41" name="2x 10.5cm howitzer" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="74cf-3eb3-4d53-359a" name="4x 10.5cm howitzer" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0e3f-5b42-9bbd-2e53" name="Hummel Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="1e62-617e-3259-afa2" name="Hummel (15cm)" hidden="false" targetId="f586-79cb-d32f-42ee" type="profile"/>
-                <infoLink id="c766-e404-e71a-9a42" name="Hummel (15cm) Direct Fire" hidden="false" targetId="7c9c-66b0-6db4-707b" type="profile"/>
-                <infoLink id="e841-40eb-ee51-0ffb" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="61c0-c6d5-991a-484b" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                <infoLink id="620f-c68b-ca49-99f2" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-                <infoLink id="6e16-df10-400c-16b8" name="Hummel (MG)" hidden="false" targetId="7bb0-c2d0-5c20-4f25" type="profile"/>
-                <infoLink id="af54-8038-6cd9-4fea" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
-                <infoLink id="d9c3-5570-9d1f-f2f1" name="Hummel (15cm)" hidden="false" targetId="955e-7bde-40b3-6aa8" type="profile"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="f40a-1310-a621-06f0" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="e2ba-d52c-560b-4a72" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="77ab-03b8-2821-93d8">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67fb-0cd8-1996-9166" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="522f-a16e-90ed-d3da" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="77ab-03b8-2821-93d8" name="3x Hummel (15cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6250-2273-c7a1-480b" name="6x Hummel (15cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="dbd3-c297-1ed3-81ad" name="10.5cm Artillery Battery" hidden="false" collective="false" import="true" targetId="fcb2-85d8-074a-978f" type="selectionEntry"/>
+            <entryLink id="c70b-66ea-8244-aa4b" name="Hummel Artillery Battery" hidden="false" collective="false" import="true" targetId="b6de-c5a6-d9a6-399a" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -3446,6 +3022,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="dd7b-774d-aafe-f089" name="Sd Kfz 10/4 or Sd Kfz 7/1 Anti-Aircraft Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>rev2</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01e4-52fd-b83c-f670" type="max"/>
       </constraints>
@@ -3453,81 +3030,15 @@
         <categoryLink id="c8c6-9873-c4f4-8866" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8fd9-8b46-ec1d-fd74" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="fe59-eccc-d9cb-7eef">
+        <selectionEntryGroup id="8fd9-8b46-ec1d-fd74" name="Type" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="febd-2fdf-b86b-9ae7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bb3-c110-6ce8-a7e6" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="fe59-eccc-d9cb-7eef" name="Sd Kfz 10/4 Light AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="0478-4b3e-78a4-3fdb" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-                <infoLink id="1217-3abf-3d93-bb05" name="Sd Kfz 10/4 (2cm)" hidden="false" targetId="b699-9ec0-94aa-036d" type="profile"/>
-                <infoLink id="cd5d-72ad-33e4-e4c5" name="Sd Kfz 10/4 (2cm)" hidden="false" targetId="7589-a28c-5865-ed25" type="profile"/>
-                <infoLink id="22dc-5d8b-ae18-605d" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="61bc-caa6-d6b6-7471" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="6619-2783-1508-6e58" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="60c1-dcdc-e080-5c81">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cb3-9e65-038b-6c1d" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c7b-333e-ad61-ba72" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="5263-17d6-b8f8-6311" name="4x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="60c1-dcdc-e080-5c81" name="2x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a777-1c6c-30d7-a534" name="Sd Kfz 7/1 Quad AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="1b8a-8d69-95dd-c478" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-                <infoLink id="35cb-c25d-1b6b-fb73" name="Sd Kfz 7/1 (2cm quad)" hidden="false" targetId="e8a7-465a-104e-e8d6" type="profile"/>
-                <infoLink id="c705-e42c-5d36-5a10" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-                <infoLink id="175f-8db7-097f-df03" name="Sd Kfz 7/1 (2cm quad)" hidden="false" targetId="6eed-fa52-40f1-77f6" type="profile"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="abd7-2b0c-434a-6a17" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-              </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="b2f4-59fe-84af-2bc1" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="4964-dfb8-51bd-c960">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6b7-4c51-5173-3028" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afec-f263-4954-e543" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="f476-3172-b0ad-ff20" name="3x Sd Kfz 7/1 (2cm quad)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4964-dfb8-51bd-c960" name="2x Sd Kfz 7/1 (2cm quad)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="9558-d045-09a9-4423" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
+            <entryLink id="76b2-1fb9-7509-0ffe" name="Sd Kfz 7/1 Quad AA Platoon" hidden="false" collective="false" import="true" targetId="9adb-03e6-89f6-0b24" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -3970,6 +3481,11 @@
     </entryLink>
     <entryLink id="6dc2-2b26-3344-77ba" name="Panzergrenadier Company" hidden="false" collective="false" import="true" targetId="9795-04f7-b042-f5b6" type="selectionEntry"/>
     <entryLink id="a112-1f19-4936-9c99" name="Reconnaissance Company" hidden="false" collective="false" import="true" targetId="6c41-dd6b-65f5-0f37" type="selectionEntry"/>
+    <entryLink id="471f-d291-6dfc-9a8a" name="2cm Light AA Platoon" hidden="false" collective="false" import="true" targetId="e75c-3cbd-2379-0276" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61be-bc32-6f31-97ef" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="dbef-035b-adfb-7fa0" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4813,6 +4329,9 @@
         <infoLink id="469e-d806-7610-3143" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
         <infoLink id="3542-13dc-aaae-5cd1" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7cca-8ac9-43e6-c2de" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2068-f943-388e-d359" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="150f-6846-e6f1-f1b5">
           <constraints>
@@ -5251,6 +4770,243 @@
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2500-c062-d7c1-c67f" name="8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>rev2</comment>
+      <infoLinks>
+        <infoLink id="be80-fb37-8850-2a48" name="8.8cm gun" hidden="false" targetId="78e9-9dea-c821-9639" type="profile"/>
+        <infoLink id="587e-e516-9d05-51e6" name="8.8cm gun" hidden="false" targetId="86d1-75ef-ebbf-378c" type="profile"/>
+        <infoLink id="8f50-1e66-3339-e9b4" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
+        <infoLink id="ea3d-14e5-edf4-d563" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
+        <infoLink id="6114-ebcb-1ed5-3267" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7be0-6c9d-848a-a06a" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="543b-4aba-ab1e-15e3" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="7af3-8fc3-ddaf-1141">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae31-af74-a18e-9032" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07ed-8217-9572-f64e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1efd-e935-c619-6f69" name="3x 8.8cm gun" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aef4-3689-85a2-249e" name="4x 8.8cm gun" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7af3-8fc3-ddaf-1141" name="2x 8.8cm gun" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b39-c0fb-5da4-59a3" name="Jagdpanzer IV Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c4d1-0550-96bc-8e12" name="Jagdpanzer IV (7.5cm)" hidden="false" targetId="12a0-e7a1-a0ce-337c" type="profile"/>
+        <infoLink id="5ebc-1f49-1dbc-f739" name="Jagdpanzer IV (MG)" hidden="false" targetId="9414-57e3-d0ab-2d6a" type="profile"/>
+        <infoLink id="a659-e29b-4973-b1e9" name="Jagdpanzer IV (7.5cm)" hidden="false" targetId="8e03-73cf-9b07-3783" type="profile"/>
+        <infoLink id="7d72-b8ba-844d-d7f8" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="ec7c-36e6-9c50-b27b" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
+        <infoLink id="3e23-e230-6d54-d4d0" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
+        <infoLink id="7899-66a7-09bb-c7a5" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7482-ded2-651b-d63a" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c3c1-f659-ecdb-6206" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="8147-8c70-4a2e-e821">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d749-30f2-5a8a-39a2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="494f-caf9-043b-f78d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8436-8628-7574-d064" name="3x Jagdpanzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c560-2903-b892-669d" name="4x Jagdpanzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8147-8c70-4a2e-e821" name="2x Jagdpanzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9adb-03e6-89f6-0b24" name="Sd Kfz 7/1 Quad AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="2d9f-1dbb-3a97-73cc" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
+        <infoLink id="9a73-bef8-138e-95b7" name="Sd Kfz 7/1 (2cm quad)" hidden="false" targetId="e8a7-465a-104e-e8d6" type="profile"/>
+        <infoLink id="88a2-4117-dd3a-be31" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="f32f-3693-c906-c543" name="Sd Kfz 7/1 (2cm quad)" hidden="false" targetId="6eed-fa52-40f1-77f6" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0a90-6d72-98f4-ef5b" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a3c5-57c4-278f-1f0a" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="e07c-416b-4c67-1c14">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7233-0259-b7c5-afe8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5cb-e032-a7c5-2ffb" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a0d9-e37c-4127-b3e8" name="3x Sd Kfz 7/1 (2cm quad)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e07c-416b-4c67-1c14" name="2x Sd Kfz 7/1 (2cm quad)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fcb2-85d8-074a-978f" name="10.5cm Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="90d8-503b-92ae-5ac6" name="10.5cm howitzer" hidden="false" targetId="7422-946b-ea23-da72" type="profile"/>
+        <infoLink id="5bd3-ffbb-d969-be66" name="10.5cm howitzer" hidden="false" targetId="f3f4-fe5c-05c8-cc0f" type="profile"/>
+        <infoLink id="2889-7e22-4f77-d02a" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="eeea-a9cd-a1ed-0c47" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
+        <infoLink id="0bb1-425f-8c10-7974" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+        <infoLink id="46e8-9948-c1b9-e933" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
+        <infoLink id="8a61-ad28-6168-4480" name="10.5cm howitzer Direct Fire" hidden="false" targetId="f8b6-a0a2-9106-1205" type="profile"/>
+        <infoLink id="7780-47b1-cd53-88e9" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="50ee-0404-09df-4078" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="e3d9-4a10-5e2f-7426" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+        <infoLink id="b565-286b-1288-04a5" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d636-0bb5-bced-e4f0" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="777c-06f6-a046-54f0" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="9ebf-8211-d3b3-dc84">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd7a-3e25-928c-255b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9297-f8de-9c36-78bb" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9ebf-8211-d3b3-dc84" name="2x 10.5cm howitzer" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="68a5-b7dc-b466-f8d6" name="4x 10.5cm howitzer" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b6de-c5a6-d9a6-399a" name="Hummel Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e476-d638-f624-76f0" name="Hummel (15cm)" hidden="false" targetId="f586-79cb-d32f-42ee" type="profile"/>
+        <infoLink id="b88f-5498-3c67-d6ea" name="Hummel (15cm) Direct Fire" hidden="false" targetId="7c9c-66b0-6db4-707b" type="profile"/>
+        <infoLink id="cfa5-6fce-d89e-5e62" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="4d71-668d-d56b-d19e" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="9a4d-1e9b-2b4c-a781" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
+        <infoLink id="9768-16ff-b824-df45" name="Hummel (MG)" hidden="false" targetId="7bb0-c2d0-5c20-4f25" type="profile"/>
+        <infoLink id="cbd9-ce79-045b-7e33" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="ef6e-4984-b6f1-80a5" name="Hummel (15cm)" hidden="false" targetId="955e-7bde-40b3-6aa8" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="caa1-17ec-490a-46bf" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3100-dbe2-88d8-6e80" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="26fa-14e6-18b1-160e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3bc-118e-fcd9-199f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fe2-8140-402e-8b17" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="26fa-14e6-18b1-160e" name="3x Hummel (15cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0bb0-9691-bcb8-8a54" name="6x Hummel (15cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="17d1-62a8-d8f2-0eeb" name="Wespe Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e523-baa8-e4dc-00fe" name="Wespe (10.5cm)" hidden="false" targetId="b2c6-69e0-922e-c143" type="profile"/>
+        <infoLink id="f9cb-5e8a-8f77-cec0" name="Wespe (10.5cm) Direct Fire" hidden="false" targetId="3b9f-38da-8a96-0888" type="profile"/>
+        <infoLink id="8ea1-12db-3e4f-9b40" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="9316-54ec-3acf-6d5e" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="3a89-9d73-ebe1-bf12" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+        <infoLink id="86d7-61ec-5f0f-1f69" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
+        <infoLink id="43d1-c24b-e432-ca73" name="Wespe (MG)" hidden="false" targetId="38f0-bfd7-9b59-73f1" type="profile"/>
+        <infoLink id="cf38-1e86-220f-d633" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="b4d4-c48e-9498-ab3f" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="6138-8d43-b42a-a6f9" name="Wespe (10.5cm) Artillery" hidden="false" targetId="0354-fbcd-2a7c-329f" type="profile"/>
+        <infoLink id="3775-0498-8977-b48b" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="212c-b01f-70c5-5d6e" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="24b0-2646-a274-ca3c" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="c70d-ae50-70ec-44a1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c54e-09be-6b17-ad81" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7db5-1e05-14a1-63ef" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c70d-ae50-70ec-44a1" name="3x Wespe (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0fc9-6d17-e5f3-388f" name="6x Wespe (10.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
