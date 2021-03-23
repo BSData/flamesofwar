@@ -3895,12 +3895,13 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="7679-b793-1e3c-1e45" name="Panzer IV or Panther or Tiger Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8646-b0eb-0ee6-ef96">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ae6-260e-53a1-a708" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fc6-1e8b-ded7-447b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ae6-260e-53a1-a708" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0fc6-1e8b-ded7-447b" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="8646-b0eb-0ee6-ef96" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry"/>
             <entryLink id="b6fd-784b-b4fe-a0c6" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry"/>
+            <entryLink id="6996-f1b7-cb32-b3be" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b863-d571-f13c-f0f1" name="Möbelwagen or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
@@ -3917,7 +3918,7 @@
         <entryLink id="8b8e-51b8-96d5-5504" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a5a-3e30-2084-37ca" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ae-5a12-5b52-e3ba" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="04ae-5a12-5b52-e3ba" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>

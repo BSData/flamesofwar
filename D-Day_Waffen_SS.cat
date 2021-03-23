@@ -3460,12 +3460,12 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5c5a-c627-3e2b-1e4b" name="Fallschirmjäger StuG Assault Gun Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5c5a-c627-3e2b-1e4b" name="StuG SS Tank Company" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="3069-4c79-77fd-9526" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9427-50e9-8534-ce9a" name="Fallschirmjäger StuG Assault Gun Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="9427-50e9-8534-ce9a" name="StuG SS Tank Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="464a-9802-5310-d828" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efa1-dde5-d9ef-21f7" type="max"/>
@@ -3478,63 +3478,60 @@
             <infoLink id="ea16-1609-97d0-5071" name="StuG (7.5cm)" hidden="false" targetId="fb5d-d6ce-b5c4-9a12" type="profile"/>
             <infoLink id="5f5d-bad7-b5ec-fc36" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
             <infoLink id="2630-0896-439f-8bd5" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+            <infoLink id="8b14-5740-9986-7dc8" name="Old Hand" hidden="false" targetId="f5f1-41c0-ef85-7cd6" type="rule"/>
           </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="8981-0bb2-b74c-3659" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c52-6e82-a313-da68">
+          <selectionEntries>
+            <selectionEntry id="8897-45c0-361f-072e" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e0f-4275-a288-728f" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe2-5309-4168-e7b7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e011-02c4-9d61-0bf1" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad09-5b28-8aca-2e7f" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="857b-4824-0d51-3b71" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="6c52-6e82-a313-da68" name="1x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d1e9-f0fc-3299-46c1" name="StuG or StuH Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4dc-6f76-3036-b245">
+        <selectionEntryGroup id="d1e9-f0fc-3299-46c1" name="StuG or Panzer IV" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4dc-6f76-3036-b245">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5195-56a6-7e3d-ef2d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87e3-909f-bfd9-50fd" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a4dc-6f76-3036-b245" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry"/>
-            <entryLink id="8b2e-fe7c-f3d7-1e71" name="Fallschrirmjäger StuH Assault Howitzer Platoon" hidden="false" collective="false" import="true" targetId="0577-617c-f6ed-80bf" type="selectionEntry"/>
+            <entryLink id="a4dc-6f76-3036-b245" name="StuG SS Tank Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry"/>
+            <entryLink id="8b2e-fe7c-f3d7-1e71" name="Panther SS Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
+            <entryLink id="94eb-5413-df1d-867b" name="Tiger SS Tank Platoon" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5911-5345-ee03-e563" name="Fallschirmjäger or Beach Defence Grenadier Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a863-aa87-1811-115d" name="Sd Kfz 7/1 Quad or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68f9-442e-e86b-fc0e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02a3-d2b9-1325-ea82" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="e232-d0f0-de1a-201d" name="Fallschrirmjäger Platoon" hidden="false" collective="false" import="true" targetId="9672-c587-75bb-70c6" type="selectionEntry"/>
-            <entryLink id="0ec6-8685-95c0-4db8" name="Beach Defence Grenadier Platoon" hidden="false" collective="false" import="true" targetId="8f81-c9b7-2f39-6451" type="selectionEntry"/>
+            <entryLink id="82c6-80b5-8b5b-dfc0" name="Sd Kfz 10/4 SS Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
+            <entryLink id="5eff-8da5-5ce0-50e8" name="Sd Kfz 7/1 SS Quad AA Platoon" hidden="false" collective="false" import="true" targetId="9adb-03e6-89f6-0b24" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d00a-f551-d027-6268" name="StuG or Panzer IV" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29c5-82e6-ea3d-cecd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d72c-5131-3db1-abf9" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry"/>
+            <entryLink id="fd5e-c268-bf2d-9686" name="Panzer IV SS Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8de8-d56c-490c-7a58" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
+        <entryLink id="8de8-d56c-490c-7a58" name="StuG SS Tank Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3996-a5db-976c-df1e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91a3-953e-7a1a-c767" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="088b-7f7e-5dd1-5aca" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5669-05e4-4010-bbea" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -3542,7 +3539,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6170-c630-c3e0-66b3" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6170-c630-c3e0-66b3" name="StuG SS Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c888-7432-1684-ff5a" name="StuG (MG)" hidden="false" targetId="d97c-cde1-f83c-5c6d" type="profile"/>
         <infoLink id="88ff-a710-9a99-6907" name="StuG (7.5cm)" hidden="false" targetId="fb5d-d6ce-b5c4-9a12" type="profile"/>
@@ -3564,17 +3561,17 @@
           <selectionEntries>
             <selectionEntry id="4f94-c537-f397-a778" name="3x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cfee-c528-800c-4163" name="4x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fe99-cc4a-7c29-70b0" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="fe99-cc4a-7c29-70b0" name="5x StuG (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3585,6 +3582,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0577-617c-f6ed-80bf" name="Fallschrirmjäger StuH Assault Howitzer Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>DELETE?</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d16-85e5-d467-dffe" type="max"/>
       </constraints>
@@ -3677,12 +3675,12 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6cab-ac9a-1c04-d231" name="Panther Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6cab-ac9a-1c04-d231" name="Panther SS Tank Company" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="fa2a-0bc9-a445-f2d7" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4427-0d57-0e87-2809" name="Panther Tank Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="4427-0d57-0e87-2809" name="Panther SS Tank Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7288-56c2-1758-93c6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="271e-be29-79d6-4ce1" type="max"/>
@@ -3691,7 +3689,8 @@
             <infoLink id="74cf-1d24-8d5f-5779" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
             <infoLink id="f8cb-0507-f503-383e" name="Panther (MGs)" hidden="false" targetId="aa7d-a2c3-f0b7-8a62" type="profile"/>
             <infoLink id="2828-862f-2c2d-d071" name="Panther (7.5cm)" hidden="false" targetId="4140-fc83-9933-9b1d" type="profile"/>
-            <infoLink id="ad9f-2654-660e-b267" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile"/>
+            <infoLink id="ad9f-2654-660e-b267" name="Panther (7.5cm)" hidden="false" targetId="f59b-4896-3d6a-cfee" type="profile"/>
+            <infoLink id="ba4c-7293-5b72-3553" name="Old Hand" hidden="false" targetId="f5f1-41c0-ef85-7cd6" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="7a0e-c99a-f610-d0be" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a2fa-a3a4-be91-0489">
@@ -3702,12 +3701,12 @@
               <selectionEntries>
                 <selectionEntry id="241a-9bb6-82f7-8459" name="2x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="a2fa-a3a4-be91-0489" name="1x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3736,20 +3735,21 @@
           <entryLinks>
             <entryLink id="3a86-7ce7-4383-9ccf" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
             <entryLink id="0d09-6a1b-eea6-95c2" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry"/>
+            <entryLink id="40d1-9d02-b9de-6112" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0c12-46a3-d4e7-1e7b" name="Möbelwagen or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0c12-46a3-d4e7-1e7b" name="Sd Kfz 7/1 Quad or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b9f-58d1-cc09-06a3" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="659e-9d73-9c85-877b" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
-            <entryLink id="43a6-93e8-7e3f-1edf" name="Möbelwagen AA Tank Platoon" hidden="false" collective="false" import="true" targetId="777f-a227-0a6b-c138" type="selectionEntry"/>
+            <entryLink id="659e-9d73-9c85-877b" name="Sd Kfz 10/4 SS Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
+            <entryLink id="7593-523e-2f1e-c904" name="Sd Kfz 7/1 SS Quad AA Platoon" hidden="false" collective="false" import="true" targetId="9adb-03e6-89f6-0b24" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d316-5c40-7bbb-62c0" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry">
+        <entryLink id="d316-5c40-7bbb-62c0" name="Panther SS Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="760b-c25d-a5e5-4205" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab6b-b584-89fb-ff8a" type="min"/>
@@ -3760,12 +3760,12 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2203-1bbb-e22b-449f" name="Panther Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2203-1bbb-e22b-449f" name="Panther SS Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8eed-5ab6-d5dd-a78a" name="Panther (MGs)" hidden="false" targetId="aa7d-a2c3-f0b7-8a62" type="profile"/>
         <infoLink id="3bf0-0732-21ba-17ec" name="Panther (7.5cm)" hidden="false" targetId="4140-fc83-9933-9b1d" type="profile"/>
-        <infoLink id="9ff7-6e1a-5302-32c0" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile"/>
         <infoLink id="3c00-0c3a-585f-a57e" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="29a0-ca4c-254e-4851" name="Panther (7.5cm)" hidden="false" targetId="f59b-4896-3d6a-cfee" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="73c9-af9b-1d73-1244" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -3779,17 +3779,17 @@
           <selectionEntries>
             <selectionEntry id="79f0-3d46-ce80-728b" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="26.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9c36-17ea-4f4f-d2a7" name="4x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="44.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="35.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4851-b3b7-ad39-7c5b" name="5x Panther (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="44.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3858,12 +3858,12 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bce4-9398-3021-c1ac" name="Panzer IV Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bce4-9398-3021-c1ac" name="Panzer IV SS Tank Company" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="6ce8-b797-bbff-8862" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="14ff-863c-e99b-14d8" name="Panzer IV Tank Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="14ff-863c-e99b-14d8" name="Panzer IV SS Tank Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32f1-3d4d-9a7a-72ca" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc55-5a91-268f-8efe" type="max"/>
@@ -3875,6 +3875,7 @@
             <infoLink id="d429-33dd-1e63-1ab2" name="Panzer IV (MGs)" hidden="false" targetId="d667-52e8-8270-1acc" type="profile"/>
             <infoLink id="871a-161f-87cf-31f0" name="Panzer IV (7.5cm)" hidden="false" targetId="c058-5e56-6fb2-ecd8" type="profile"/>
             <infoLink id="ee4d-32c7-1c79-11be" name="Panzer IV (7.5cm)" hidden="false" targetId="7359-3b12-948c-0aeb" type="profile"/>
+            <infoLink id="494a-884d-617c-9d49" name="Old Hand" hidden="false" targetId="f5f1-41c0-ef85-7cd6" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="d597-68b7-bbf3-a44b" name="2x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3883,7 +3884,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6519-05f3-6099-d5c3" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3899,25 +3900,40 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fc6-1e8b-ded7-447b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8646-b0eb-0ee6-ef96" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry"/>
+            <entryLink id="8646-b0eb-0ee6-ef96" name="Panther SS Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
             <entryLink id="b6fd-784b-b4fe-a0c6" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry"/>
+            <entryLink id="5b18-4314-ffe5-389b" name="Panzer IV SS Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b863-d571-f13c-f0f1" name="Möbelwagen or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6eef-a62c-909e-f77a" name="Sd Kfz 7/1 Quad or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0db-c2d5-26f3-5e70" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="007f-b2c4-506b-2140" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7dac-28d4-635c-c0c7" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
-            <entryLink id="9670-2d51-5878-63c7" name="Möbelwagen AA Tank Platoon" hidden="false" collective="false" import="true" targetId="777f-a227-0a6b-c138" type="selectionEntry"/>
+            <entryLink id="55a7-8ac0-dbcf-561b" name="Sd Kfz 10/4 SS Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
+            <entryLink id="c38f-4c2d-6a57-40c2" name="Sd Kfz 7/1 SS Quad AA Platoon" hidden="false" collective="false" import="true" targetId="9adb-03e6-89f6-0b24" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3ad9-719d-8e94-1d1c" name="Panzer IV or StuG" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef99-c332-afcb-aedb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7836-d7be-42ba-9b97" name="Panzer IV SS Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry"/>
+            <entryLink id="3b7f-4c4d-ff68-24c4" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8b8e-51b8-96d5-5504" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry">
+        <entryLink id="8b8e-51b8-96d5-5504" name="Panzer IV SS Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a5a-3e30-2084-37ca" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ae-5a12-5b52-e3ba" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a5a-3e30-2084-37ca" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="04ae-5a12-5b52-e3ba" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8589-3b2b-83cc-09c2" name="Panzer IV SS Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="36c9-716d-e332-2db0" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -3925,7 +3941,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3642-df18-1304-c38d" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3642-df18-1304-c38d" name="Panzer IV SS Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="62e8-d685-0649-c5b7" name="Panzer IV (7.5cm)" hidden="false" targetId="c058-5e56-6fb2-ecd8" type="profile"/>
         <infoLink id="b2ef-a8b5-4acd-78a7" name="Panzer IV (MGs)" hidden="false" targetId="d667-52e8-8270-1acc" type="profile"/>
@@ -3946,17 +3962,17 @@
           <selectionEntries>
             <selectionEntry id="4dbc-2fe6-e963-0d7c" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bd37-1216-183d-a5c7" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6bcb-ce41-ab9a-8dde" name="5x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4075,7 +4091,7 @@
         <categoryLink id="1e99-b079-906a-ebe1" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9d10-79cd-d414-36d7" name="Tiger Tank Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="9d10-79cd-d414-36d7" name="Tiger SS Tank Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0fb-eebc-1570-d621" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6b7-3794-6f6c-3817" type="max"/>
@@ -4473,21 +4489,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="6666-de08-159f-cb24" name="Panther (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
-      <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
-        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
-        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
-      </characteristics>
-    </profile>
     <profile id="4140-fc83-9933-9b1d" name="Panther (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
@@ -4510,9 +4511,9 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
     </profile>
     <profile id="c058-5e56-6fb2-ecd8" name="Panzer IV (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 3+ Remount 3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Remount 2+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
@@ -4604,9 +4605,9 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
     </profile>
     <profile id="d7b4-cd03-f648-9c4d" name="StuG (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 5+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 4+ Remount 2+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
@@ -4635,6 +4636,21 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="f59b-4896-3d6a-cfee" name="Panther (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
+        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
