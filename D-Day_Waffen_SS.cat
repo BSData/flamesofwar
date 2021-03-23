@@ -480,8 +480,8 @@
       <profiles>
         <profile id="eaa6-f275-b1d6-8bfe" name="Sd Kfz 251 Half-Track" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 -&gt; 4+ Remount 5+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ -&gt; 4+ -&gt; 3+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Remount 5+ Counterattack 6+ (MA 4+ )</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ (MA 4+ for 1, 3+ 2 or more)</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -827,13 +827,13 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d5f4-7aa4-e8d3-b597" name="Sd Kfz 10/4 Light AA Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d5f4-7aa4-e8d3-b597" name="Sd Kfz 10/4 SS Light AA Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="8db5-52a2-f407-ff14" name="Sd Kfz 10/4 (2cm)" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank">
           <characteristics>
-            <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+ Last Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
-            <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
+            <characteristic name="Motivation" typeId="55ef-8653-887d-4642">3+</characteristic>
+            <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">3+</characteristic>
             <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">4+</characteristic>
             <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">12&quot;/30cm</characteristic>
@@ -866,12 +866,12 @@
           <selectionEntries>
             <selectionEntry id="b2d9-3b17-48c0-cc12" name="2x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7907-42b0-6652-6af3" name="4x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1164,8 +1164,8 @@
         </profile>
         <profile id="9077-0deb-c94c-3d41" name="Sd Kfz 250 Half-Track" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 -&gt; 4+ Remount 5+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ -&gt; 4+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Remount 5+ Counterattack 6+ (MA 4+ )</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ (MA 4+)</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -2168,13 +2168,13 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9adb-03e6-89f6-0b24" name="Sd Kfz 7/1 Quad AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9adb-03e6-89f6-0b24" name="Sd Kfz 7/1 SS Quad AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="f352-01c3-0dbf-d740" name="Sd Kfz 7/1 (2cm quad)" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank">
           <characteristics>
-            <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+ Last Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
-            <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
+            <characteristic name="Motivation" typeId="55ef-8653-887d-4642">3+</characteristic>
+            <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">3+</characteristic>
             <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">4+</characteristic>
             <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">8&quot;/20cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">10&quot;/25cm</characteristic>
@@ -2210,12 +2210,12 @@
           <selectionEntries>
             <selectionEntry id="a0d9-e37c-4127-b3e8" name="3x Sd Kfz 7/1 (2cm quad)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e07c-416b-4c67-1c14" name="2x Sd Kfz 7/1 (2cm quad)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3966,7 +3966,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="47ee-b8bc-0561-5ab9" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="47ee-b8bc-0561-5ab9" name="Tiger SS Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="50e4-9ef3-c469-ba27" name="Tiger (MGs)" hidden="false" targetId="20a8-9287-3b20-525b" type="profile"/>
         <infoLink id="3b10-5b5f-7401-1da9" name="Tiger (8.8cm)" hidden="false" targetId="7533-54b0-a023-a8e4" type="profile"/>
@@ -3986,17 +3986,17 @@
           <selectionEntries>
             <selectionEntry id="91b8-bc69-7246-356c" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="37.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3c22-f495-aa18-c794" name="4x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="49.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="367e-78e6-8897-4879" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4070,7 +4070,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="95b1-3ebc-6eb1-e20f" name="Tiger Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="95b1-3ebc-6eb1-e20f" name="Tiger SS Tank Company" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="1e99-b079-906a-ebe1" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
@@ -4096,12 +4096,12 @@
               <selectionEntries>
                 <selectionEntry id="f03c-51ae-b03e-c8c3" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d824-92cc-c9cf-d1c4" name="1x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4237,7 +4237,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       <description>A Team&apos;s Armour rating is not increased by +1 if it is more than 16&quot;/40cm away when hit by HEAT weapons.</description>
     </rule>
     <rule id="029e-6707-426e-489f" name="Mounted Assault" hidden="false">
-      <description>This Team has Assault 4+ and Counterattack 4+ with one Passanger and Assault 3+ and Counterattack 4+ with two or three Passangers. This is shown on the Sd Kfz 251 Transport unit card as an additional motivation and skill column. </description>
+      <description>This team has a bonus in Assaults and Counterattack when mounted with passengers.  Review &apos;MA&apos; entries under Motivation and Skill.</description>
     </rule>
     <rule id="f61c-04e9-b2cc-0d94" name="Stormtroopers" hidden="false">
       <description>A unit may attempt a second Movement Order after succeeding in its first Movement Order. The second Movement Order must be different from the first.</description>
@@ -4247,6 +4247,12 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
     </rule>
     <rule id="d2a0-cce6-81b6-b903" name="Unit Transport" hidden="false">
       <description>The Unit Leader of the Transport Attachment must end the Movement Step within 6&quot;/15cm of the Unit Leader of its Passenger Unit while on the table. If it cannot do this, then the Transport Attachment must be Sent to the Rear (see page 45 of the rulebook)</description>
+    </rule>
+    <rule id="f5f1-41c0-ef85-7cd6" name="Old Hand" hidden="false">
+      <description>Old Hand Formation Commander gives its units Tactics 3+ when it has a unit leader within 6&quot;/15cm</description>
+    </rule>
+    <rule id="563e-597c-1f00-2d2a" name="Flame Tank" hidden="false">
+      <description>Cannot charge into contact and have an assault of 5+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -4401,7 +4407,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
     </profile>
     <profile id="5a75-4c2c-ef6c-0834" name="Tiger (8.8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 2+ Remount 2+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">2+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>

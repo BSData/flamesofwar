@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="17b9-5bac-7fa8-f9ee" name="D-Day German" revision="7" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="17b9-5bac-7fa8-f9ee" name="D-Day German" revision="8" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="6441-e19b-436b-0a58" name="Jagdpanzer IV or 8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <comment>rev2</comment>
@@ -480,8 +480,8 @@
       <profiles>
         <profile id="eaa6-f275-b1d6-8bfe" name="Sd Kfz 251 Half-Track" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 -&gt; 4+ Remount 5+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ -&gt; 4+ -&gt; 3+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Remount 5+ Counterattack 6+ (MA 4+ )</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ (MA 4+ for 1, 3+ 2 or more)</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -1164,8 +1164,8 @@
         </profile>
         <profile id="9077-0deb-c94c-3d41" name="Sd Kfz 250 Half-Track" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 -&gt; 4+ Remount 5+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ -&gt; 4+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Remount 5+ Counterattack 6+ (MA 4+ )</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ (MA 4+)</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -4237,7 +4237,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
       <description>A Team&apos;s Armour rating is not increased by +1 if it is more than 16&quot;/40cm away when hit by HEAT weapons.</description>
     </rule>
     <rule id="029e-6707-426e-489f" name="Mounted Assault" hidden="false">
-      <description>This Team has Assault 4+ and Counterattack 4+ with one Passanger and Assault 3+ and Counterattack 4+ with two or three Passangers. This is shown on the Sd Kfz 251 Transport unit card as an additional motivation and skill column. </description>
+      <description>This team has a bonus in Assaults and Counterattack when mounted with passengers.  Review &apos;MA&apos; entries under Motivation and Skill.</description>
     </rule>
     <rule id="f61c-04e9-b2cc-0d94" name="Stormtroopers" hidden="false">
       <description>A unit may attempt a second Movement Order after succeeding in its first Movement Order. The second Movement Order must be different from the first.</description>
