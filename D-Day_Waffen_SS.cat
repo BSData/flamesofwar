@@ -1008,7 +1008,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f28a-3d1b-2e82-6e25" name="Reconnaissance Platoon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f28a-3d1b-2e82-6e25" name="SS Reconnaissance Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3346-d64e-dce2-75bd" name="MG42 team" hidden="false" targetId="ba5d-12be-7472-6679" type="profile"/>
         <infoLink id="ce1f-944c-4cec-b513" name="MG42 team" hidden="false" targetId="046d-e8a2-fb32-e86d" type="profile"/>
@@ -1077,7 +1077,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c16a-76d6-4fa8-e92a" name="5x MG42" hidden="false" collective="false" import="true" type="upgrade">
@@ -1095,7 +1095,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1119,9 +1119,9 @@
         </profile>
         <profile id="9077-0deb-c94c-3d41" name="Sd Kfz 250 Half-Track" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Remount 5+ Counterattack 6+ (MA 4+ )</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ (MA 4+)</characteristic>
-            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Remount 4+ Counterattack 5+ (MA 3+ )</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+ (MA 4+)</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
@@ -1497,7 +1497,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c41-dd6b-65f5-0f37" name="Reconnaissance Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6c41-dd6b-65f5-0f37" name="SS Reconnaissance Company" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="0143-1c92-825b-a2e5" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
@@ -1556,13 +1556,13 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2aef-79a1-f880-f130" name="Puma or Sd Kfc 250 Scout Troop (Max 2)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2aef-79a1-f880-f130" name="Puma or Sd Kfc 221 &amp; 222 Scout Troop" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="929a-e542-39e1-bfb6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="929a-e542-39e1-bfb6" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="2cc4-58fc-02a0-98d8" name="Puma Scout Troop" hidden="false" collective="false" import="true" targetId="c453-ac58-bdab-c62b" type="selectionEntry"/>
-            <entryLink id="7a28-754a-3a55-b113" name="Sd Kfc 250 Scout Troop" hidden="false" collective="false" import="true" targetId="e412-f7dd-0ee3-90ba" type="selectionEntry"/>
+            <entryLink id="ec53-bda0-d811-c023" name="Sd Kfz 221 &amp; 222 SS Scout Troop" hidden="false" collective="false" import="true" targetId="e98d-16d0-c47b-9282" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="3f7c-1ca7-a2cd-22f0" name="Armoured Panzergrenadier or Panzergrenadier or Reconnaissance Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="afd7-b69d-7ca9-93b6">
@@ -1584,6 +1584,15 @@
             <entryLink id="fd70-6608-7312-93d9" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="dbef-035b-adfb-7fa0" type="selectionEntry"/>
             <entryLink id="1c5e-384c-7acd-d3d7" name="Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="55a6-8218-b0cc-b4b2" type="selectionEntry"/>
             <entryLink id="aecd-0ddd-9041-0f3a" name="Reconnaissance Platoon" hidden="false" collective="false" import="true" targetId="f28a-3d1b-2e82-6e25" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a734-00c5-5f81-b6fe" name="Puma or Sd Kfz 231 SS Heavy Scout Troop" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4c0-15dd-0f9a-c4d6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0491-5543-3a7c-196b" name="Puma Scout Troop" hidden="false" collective="false" import="true" targetId="c453-ac58-bdab-c62b" type="selectionEntry"/>
+            <entryLink id="2a42-5617-4fcc-4a97" name="Sd Kfz 231 SS Heavy Scout Troop" hidden="false" collective="false" import="true" targetId="332c-eb28-739b-cb71" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1609,14 +1618,19 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50d5-f9ee-b4f8-b25e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="82e3-1d9f-d18d-188e" name="Reconnaissance 8cm Mortar Section" hidden="false" collective="false" import="true" targetId="8245-424c-8a3f-aef3" type="selectionEntry">
+        <entryLink id="82e3-1d9f-d18d-188e" name="Reconnaissance 8cm SS Mortar Section" hidden="false" collective="false" import="true" targetId="8245-424c-8a3f-aef3" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17d9-5bc2-b81c-59b4" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ba46-ce70-425a-5800" name="Sd Kfc 234 (7.5cm) Gun Platoon" hidden="false" collective="false" import="true" targetId="f5ae-9a95-a66e-ac18" type="selectionEntry">
+        <entryLink id="21e8-b32e-2ced-cc07" name="Sd Kfc 250 SS Scout Troop" hidden="false" collective="false" import="true" targetId="e412-f7dd-0ee3-90ba" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2d9-5f0b-3d7b-3a8f" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="164e-98a3-b1a3-084c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9f98-bfc1-cca1-b895" name="7.5cm SS Gun Platoon" hidden="false" collective="false" import="true" targetId="bbd7-bb3e-576a-edb8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab3c-a797-1dff-8deb" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1624,7 +1638,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8f8-3abd-6ce7-1ed2" name="Reconnaissance 7.5cm Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a8f8-3abd-6ce7-1ed2" name="Reconnaissance 7.5cm SS Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="2bb2-21e9-028e-97c1" name="Sd Kfz 250 (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -1648,9 +1662,9 @@
         </profile>
         <profile id="2db7-a0b3-b858-0e4b" name="Sd Kfz 250 (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ -&gt; 4+</characteristic>
-            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 5+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
@@ -1678,12 +1692,12 @@
           <selectionEntries>
             <selectionEntry id="f591-23e4-71ec-9909" name="2x Sd Kfz 250 (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b386-4928-b918-a38e" name="3x Sd Kfz 250 (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1693,7 +1707,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8245-424c-8a3f-aef3" name="Reconnaissance 8cm Mortar Section" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8245-424c-8a3f-aef3" name="Reconnaissance 8cm SS Mortar Section" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="9e12-57d2-e367-6c67" name="Sd Kfz 250 (8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -1707,9 +1721,9 @@
         </profile>
         <profile id="350b-77b6-f632-a236" name="Sd Kfz 250 (8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ -&gt; 4+</characteristic>
-            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 5+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
@@ -1739,12 +1753,12 @@
           <selectionEntries>
             <selectionEntry id="41ab-20d6-ee7e-3944" name="2x Sd Kfz 250 (8cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="52be-93a4-f7a6-b706" name="3x Sd Kfz 250 (8cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1755,6 +1769,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f5ae-9a95-a66e-ac18" name="Sd Kfc 234 (7.5cm) Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>DELETE?</comment>
       <profiles>
         <profile id="67a8-82b8-5b7c-f705" name="Sd Kfc 234 (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
           <characteristics>
@@ -1929,7 +1944,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e412-f7dd-0ee3-90ba" name="Sd Kfc 250 Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e412-f7dd-0ee3-90ba" name="Sd Kfc 250 SS Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="2978-dc76-711e-b1c7" name="Sd Kfz 250/9 (2cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -1941,11 +1956,11 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
           </characteristics>
         </profile>
-        <profile id="e0ab-ef34-bba6-f573" name="Sd Kfz 250/9 (2cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="e0ab-ef34-bba6-f573" name="Sd Kfz 250" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Counterattack 6 Last Stand 4+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
-            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 5+ Last Stand 4+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
@@ -1965,13 +1980,13 @@
         <infoLink id="c350-7686-7203-62ab" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="aa91-5c5f-35f3-4899" name="2x Sd Kfz 250 (2cm), 1x Sd Kfc 250 (MG)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9685-91ab-6874-778c" name="2x Sd Kfz 250/9 (2cm), 1x Sd Kfc 250 (MG)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="106d-3f3b-7f09-6dff" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="997d-6fd6-1a9d-d80c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c726-e839-dba2-9aa1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3043-c18d-439b-ccd7" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3298,6 +3313,124 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e98d-16d0-c47b-9282" name="Sd Kfz 221 &amp; 222 SS Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e86c-2574-8bb0-1038" name="Sd Kfz 222 (2cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d83f-9202-1164-2690" name="Sd Kfz 221 &amp; 222" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 5+ Last Stand 4+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">0</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">40&quot;/100cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="df59-e553-9709-def1" name="Sd Kfz 221 &amp; 222 (MG)" hidden="false" targetId="ef15-40da-0123-1f13" type="profile"/>
+        <infoLink id="6943-8099-d122-90c7" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="5617-0712-9e55-da0e" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
+        <infoLink id="af88-026f-b396-53d8" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="261b-de08-0de8-4ac1" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="8bb1-1c9b-8c3d-a820" name="2x Sd Kfz222 (2cm), 1x Sd Kfz 221 (MG)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3988-2b45-93dc-3d69" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a7-fd22-d42f-4472" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a2b7-af57-107c-aeec" name="Relapce Sd Kfz 221 (MG) with (2.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="e3db-5045-b19e-0a43" name="Sd Kfz 221 (2.8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
+                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+                <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, No HE, Slow Firing</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9b6f-5d1f-c3f0-ac9d" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+            <infoLink id="db21-c0dc-0240-4736" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
+            <infoLink id="8b03-c277-174c-7b0e" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="332c-eb28-739b-cb71" name="Sd Kfz 231 SS Heavy Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="404c-4824-319e-566a" name="Sd Kfz 231 (2cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="003a-c9e1-2d69-c311" name="Sd Kfz 231" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 5+ Last Stand 4+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">40&quot;/100cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e9ab-488c-d8a6-d78b" name="Sd Kfz (MG)" hidden="false" targetId="cd43-cd89-72b1-687c" type="profile"/>
+        <infoLink id="d9c9-893b-429c-6356" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="acc1-5bd6-c1f1-833c" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
+        <infoLink id="6e61-1dc2-5ea3-6cc1" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="158f-c6f3-a354-0bd1" name="2x Sd Kfz 231 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ce9-0e6b-197f-396f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="480d-fbd1-9816-4646" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d933-b4ee-739a-f94f" name="Panzerfaust - Limited 1" hidden="false">
@@ -3564,7 +3697,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="ef15-40da-0123-1f13" name="Sd Kfz 251 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+    <profile id="ef15-40da-0123-1f13" name="Sd Kfz 221 &amp; 222 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
@@ -3574,7 +3707,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="cd43-cd89-72b1-687c" name="Sd Kfz 250 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+    <profile id="cd43-cd89-72b1-687c" name="Sd Kfz (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
