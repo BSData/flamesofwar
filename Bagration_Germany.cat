@@ -219,6 +219,12 @@
     </entryLink>
     <entryLink id="43cf-7dcd-1142-83d4" name="Tiger Tank Company" hidden="false" collective="false" import="true" targetId="95b1-3ebc-6eb1-e20f" type="selectionEntry"/>
     <entryLink id="b88d-84d1-fa28-38a8" name="Panzer III OP Observation Post " hidden="false" collective="false" import="true" targetId="82b7-f19c-f147-16cd" type="selectionEntry"/>
+    <entryLink id="db7a-3112-7d77-b41c" name="Panzer IV/70 Tank Company" hidden="false" collective="false" import="true" targetId="decc-46d3-f37f-496e" type="selectionEntry"/>
+    <entryLink id="bb74-57a7-1617-bd8a" name="Panzer IV/70 Tank Platoon" hidden="false" collective="false" import="true" targetId="b14f-65d1-9efe-4654" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e37-4709-d97c-ce92" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="dbef-035b-adfb-7fa0" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4179,6 +4185,120 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b14f-65d1-9efe-4654" name="Panzer IV/70 Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="69c5-61b8-b79c-badb" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="b55a-d519-0008-5689" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
+        <infoLink id="9ea8-6237-8c0e-94b4" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
+        <infoLink id="2bfc-e1d9-db0e-65a0" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="2944-8989-c4c7-41db" name="Panzer IV/70" hidden="false" targetId="4b7b-0c92-92b9-968c" type="profile"/>
+        <infoLink id="735f-697b-b8ab-b2c6" name="Panzer IV/70 (7.5cm)" hidden="false" targetId="30f9-261d-b20c-c490" type="profile"/>
+        <infoLink id="f6e2-970b-17f8-3f73" name="Panzer IV/70 (MG)" hidden="false" targetId="7f73-ea7a-1b45-1f71" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f59e-ea12-2165-37f1" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fb23-8fcb-ff93-3433" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="1b11-5d76-6b9d-1502">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42e7-03ea-d75b-9b3a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5127-efcf-c636-78b8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1b11-5d76-6b9d-1502" name="3x Panzer IV/70 (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5075-cc37-3d27-66fc" name="4x Panzer IV/70 (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="decc-46d3-f37f-496e" name="Panzer IV/70 Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="350b-1eea-ec97-16cf" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d0ea-08e7-84d1-2d43" name="Panzer IV/70 Tank Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d2a-454c-f6ba-6efd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f78-faec-88a4-da0c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="77f2-84be-6b76-fb4f" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+            <infoLink id="281b-5f3d-8a3f-6c88" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
+            <infoLink id="fbb2-0a98-1b85-945f" name="Panzer IV/70 (MG)" hidden="false" targetId="7f73-ea7a-1b45-1f71" type="profile"/>
+            <infoLink id="ee55-043b-6626-3f06" name="Panzer IV/70" hidden="false" targetId="4b7b-0c92-92b9-968c" type="profile"/>
+            <infoLink id="7bf3-702d-578e-fbc5" name="Panzer IV/70 (7.5cm)" hidden="false" targetId="30f9-261d-b20c-c490" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="130c-879d-6c43-647c" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="b4f7-c0d2-2089-c798">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04dd-d5ad-fc88-1c3a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36d5-5e4b-de53-85a9" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="b4f7-c0d2-2089-c798" name="1x Panzer IV/70 (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5b63-1884-dc8e-dd50" name="2x Panzer IV/70 (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cd30-5f31-e379-dd08" name="Panzer IV/70 or Panther or Tiger Platoon or Armoured Panzergrenadier" hidden="false" collective="false" import="true" defaultSelectionEntryId="0fe9-fd7b-6701-002f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c12e-b525-0241-ef6c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a2bb-5dd7-831a-f067" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0fe9-fd7b-6701-002f" name="Panzer IV/70 Tank Platoon" hidden="false" collective="false" import="true" targetId="b14f-65d1-9efe-4654" type="selectionEntry"/>
+            <entryLink id="ba2d-8173-f089-4502" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry"/>
+            <entryLink id="284e-7bed-f801-39ee" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
+            <entryLink id="27e1-83e8-cb77-ba97" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="dbef-035b-adfb-7fa0" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7f45-2d1e-ede3-32d6" name="Möbelwagen or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75cf-af3a-ec4b-fab4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8552-5163-a3a1-3d3e" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
+            <entryLink id="01f7-18e6-1eda-7d8f" name="Möbelwagen AA Tank Platoon" hidden="false" collective="false" import="true" targetId="777f-a227-0a6b-c138" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1cdb-4cb9-9458-3f42" name="Panzer IV/70 Tank Platoon" hidden="false" collective="false" import="true" targetId="b14f-65d1-9efe-4654" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ce6-1e10-027a-0214" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="96f2-07f4-bde6-f8a0" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d933-b4ee-739a-f94f" name="Panzerfaust - Limited 1" hidden="false">
@@ -4590,6 +4710,41 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="7f73-ea7a-1b45-1f71" name="Panzer IV/70 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="30f9-261d-b20c-c490" name="Panzer IV/70 (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4b7b-0c92-92b9-968c" name="Panzer IV/70" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 5+ Last Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
+        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">4</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">5+</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
