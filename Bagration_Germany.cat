@@ -219,6 +219,12 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e37-4709-d97c-ce92" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="9c8d-9d9a-727a-ca7c" name="Hetzer Tank-Hunter Company" hidden="false" collective="false" import="true" targetId="e856-e8d3-4623-4984" type="selectionEntry"/>
+    <entryLink id="88dc-ed99-8fad-8690" name="Hetzer Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="5b6e-8e0a-810e-4c31" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="365e-4daf-d5ff-4b14" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="dbef-035b-adfb-7fa0" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4185,6 +4191,99 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5b6e-8e0a-810e-4c31" name="Hetzer Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7ff9-6e25-d421-645d" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="3922-067d-747d-9108" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="29b6-c4c2-dab0-6d94" name="Hetzer" hidden="false" targetId="f11f-0a7c-a7f3-0043" type="profile"/>
+        <infoLink id="d8c0-e057-6ea5-728b" name="Hetzer (7.5cm)" hidden="false" targetId="6f02-221c-c0f8-dcc9" type="profile"/>
+        <infoLink id="2c98-69cc-6dd6-1220" name="Hetzer (MG)" hidden="false" targetId="ca33-58f9-f792-dd8d" type="profile"/>
+        <infoLink id="c172-4218-8c14-7d4e" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b353-076e-9bb4-24b6" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c72d-6224-976e-695f" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="40b8-bfe0-5b72-8df5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39c1-e969-de84-8c6d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e876-7b42-0c98-80e1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="40b8-bfe0-5b72-8df5" name="3x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="adba-1f30-8238-3014" name="4x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e856-e8d3-4623-4984" name="Hetzer Tank-Hunter Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="90b9-0065-45de-4d15" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="61c2-7bc5-e747-e8e7" name="Hetzer Tank-Hunter Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2db-3119-e930-804c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0c1-9570-138b-1158" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a411-bb09-e339-c1d3" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+            <infoLink id="6a94-8745-9561-6e77" name="Hetzer (MG)" hidden="false" targetId="ca33-58f9-f792-dd8d" type="profile"/>
+            <infoLink id="ec60-0ef1-eafa-fd7e" name="Hetzer" hidden="false" targetId="f11f-0a7c-a7f3-0043" type="profile"/>
+            <infoLink id="fc72-8c87-cb24-4f63" name="Hetzer (7.5cm)" hidden="false" targetId="6f02-221c-c0f8-dcc9" type="profile"/>
+            <infoLink id="9b6e-0f7a-77d7-186a" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+            <infoLink id="8069-2eb9-4e3f-c81d" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="edd6-1093-7f35-2b67" name="2x Panzer IV/70 (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e04-9717-5550-bbdc" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d086-54f9-4591-ad9c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b090-d664-714c-8957" name="Hetzer Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="5b6e-8e0a-810e-4c31" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="66a4-32c7-850d-9860" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c1f-0de0-d2ed-1664" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1a1e-633d-18a9-f84f" name="Hetzer Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="5b6e-8e0a-810e-4c31" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4e9f-907f-7411-ae56" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1ee8-f2c9-1539-d764" name="Hetzer Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="5b6e-8e0a-810e-4c31" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="29ea-5ae4-16cf-5749" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="347c-d2f3-6561-09b5" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d933-b4ee-739a-f94f" name="Panzerfaust - Limited 1" hidden="false">
@@ -4631,6 +4730,41 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f11f-0a7c-a7f3-0043" name="Hetzer" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 5+ Last Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
+        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6f02-221c-c0f8-dcc9" name="Hetzer (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">11</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Overworked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ca33-58f9-f792-dd8d" name="Hetzer (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
