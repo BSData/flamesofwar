@@ -177,7 +177,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bdc-80b4-c8c0-4eb8" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="b0c8-c361-1de6-60cf" name="Beach Defence Grenadier Platoon" hidden="false" collective="false" import="true" targetId="8f81-c9b7-2f39-6451" type="selectionEntry">
+    <entryLink id="b0c8-c361-1de6-60cf" name="Grenadier Platoon" hidden="false" collective="false" import="true" targetId="8f81-c9b7-2f39-6451" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1280-e4f0-3106-d09e" type="max"/>
       </constraints>
@@ -223,6 +223,12 @@
     <entryLink id="88dc-ed99-8fad-8690" name="Hetzer Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="5b6e-8e0a-810e-4c31" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="365e-4daf-d5ff-4b14" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="0639-99ed-b540-146d" name="Storm Grenadier Company" hidden="false" collective="false" import="true" targetId="3b80-7687-318a-d0d1" type="selectionEntry"/>
+    <entryLink id="6ab6-41b3-618f-9b93" name="Storm Grenadier Platoon" hidden="false" collective="false" import="true" targetId="d440-986b-74df-6444" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ab-a087-7ed8-3dfb" type="max"/>
       </constraints>
     </entryLink>
   </entryLinks>
@@ -2555,82 +2561,6 @@
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e857-5453-60f7-5656" name="Grenadier Scout Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19d3-c7ea-de1e-a457" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="6b12-c825-705b-2b07" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-            <infoLink id="5a31-7052-ccac-17af" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-            <infoLink id="71dd-f610-b0e1-858d" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-            <infoLink id="2fe7-f19f-41a7-da27" name="Grenadier Scout Team" hidden="false" targetId="a3ef-b5c9-b478-2c70" type="profile"/>
-          </infoLinks>
-          <categoryLinks>
-            <categoryLink id="7056-52bd-99f0-e3b0" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-          </categoryLinks>
-          <selectionEntries>
-            <selectionEntry id="9f7b-68ba-dd78-7b5d" name="Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96b1-7f1b-db86-476d" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="9e1c-ffa0-d69d-f86a" name="Panzerfaust anti-tank" hidden="false" targetId="4ca3-0cb0-917d-1c24" type="profile"/>
-                <infoLink id="4fc4-806c-a4d0-1a8e" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                <infoLink id="3b6e-3f32-e65d-a0da" name="Panzerfaust - Limited 1" hidden="false" targetId="d933-b4ee-739a-f94f" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="dd0f-20f3-bbfd-0993" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="bc63-64f9-9284-c5e6">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0a4-8cb8-801d-222c" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ae8-d41f-8171-d627" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="59f4-d358-5688-d973" name="5x K98 rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="15f5-d4df-30b0-caa9" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                    <infoLink id="f8a1-9d1c-21d7-9516" name="K98 rifle team" hidden="false" targetId="24dc-55e7-be8c-a1f8" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="bc63-64f9-9284-c5e6" name="3x K98 rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="c0bf-e331-fe33-9e15" name="K98 rifle team" hidden="false" targetId="24dc-55e7-be8c-a1f8" type="profile"/>
-                    <infoLink id="f5b6-37e4-560c-387c" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="4e54-8c34-fd1e-7486" name="3x MP40 SMG" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="e1bb-c2ce-6695-7c4d" name="MP40 SMG team" hidden="false" targetId="c24a-b87a-1421-3642" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="4218-fafd-326a-2a00" name="5x MP40 SMG" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="4686-8ae1-1057-43f2" name="MP40 SMG team" hidden="false" targetId="c24a-b87a-1421-3642" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="d239-4bc6-2da9-a11b" name="5cm or 7.5cm Tank-hunter Platoon" hidden="false" collective="false" import="true">
@@ -2744,6 +2674,11 @@
         <entryLink id="d517-15cf-5115-8d89" name="2cm Light AA Platoon" hidden="false" collective="false" import="true" targetId="e75c-3cbd-2379-0276" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e9b-cce9-708e-d03a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4795-e761-4d90-4758" name="Grenadier Scout Platoon" hidden="false" collective="false" import="true" targetId="6da0-0f9f-ecc8-1a21" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b398-fdb3-c769-9bde" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -4041,6 +3976,238 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d440-986b-74df-6444" name="Storm Grenadier Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6474-ae1c-50de-77c2" name="MG42 team" hidden="false" targetId="ba5d-12be-7472-6679" type="profile"/>
+        <infoLink id="2536-0241-739b-4b38" name="MG42 team" hidden="false" targetId="046d-e8a2-fb32-e86d" type="profile"/>
+        <infoLink id="590a-7d22-c894-0fa3" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="8abe-9309-ef00-c755" name="Panzerfaust anti-tank" hidden="false" targetId="4ca3-0cb0-917d-1c24" type="profile"/>
+        <infoLink id="d906-a43a-2ff4-8309" name="Panzerfaust - Limited 1" hidden="false" targetId="d933-b4ee-739a-f94f" type="rule"/>
+        <infoLink id="dd51-a770-542c-4786" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4c07-83b8-e259-d0ce" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6b18-aeae-45c3-cb7d" name="Panzerschreck anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cc8-3c0e-0125-5e7d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="26e3-b460-7343-69dc" name="Panzerschreck anti-tank" hidden="false" targetId="b5fd-4714-13b3-d503" type="profile"/>
+            <infoLink id="eba5-4002-a63a-92e8" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
+            <infoLink id="084e-0a8c-ffbc-a471" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1599-812b-d622-05fb" name="sMG42 HMG" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8851-e5ee-582c-7b99" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7316-35eb-bd46-6295" name="sMG42 HMG" hidden="false" targetId="3acc-cbbb-ce3e-bb22" type="profile"/>
+            <infoLink id="15a5-43d2-aa84-5a01" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
+            <infoLink id="153d-f9a2-99d9-aa12" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4f90-1e56-8c57-7c05" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="29af-7002-29aa-2a93">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3235-51ab-a9e1-6cec" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8a4-8454-6a36-df44" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="529a-3dcb-8f68-dfbc" name="7x MG42 team with Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="29af-7002-29aa-2a93" name="5x MG42 team with Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b80-7687-318a-d0d1" name="Storm Grenadier Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="13ff-aefc-0932-c7ab" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6cb6-ef07-ea28-4a1c" name="Storm Grenadier Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c823-82b8-34f2-3d9f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ff-2f6a-a70e-ef98" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="869f-62a0-5c0a-01e0" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+            <infoLink id="a767-2e2b-eed5-59e9" name="MP40 SMG team" hidden="false" targetId="f62d-9c8a-f2b3-0143" type="profile"/>
+            <infoLink id="ab3f-8e50-f491-3391" name="MP40 SMG team" hidden="false" targetId="e3ec-7e04-252b-a02b" type="profile"/>
+            <infoLink id="845f-9b20-4d78-0797" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
+            <infoLink id="77df-4af0-a28e-68fa" name="Panzerfaust anti-tank" hidden="false" targetId="4ca3-0cb0-917d-1c24" type="profile"/>
+            <infoLink id="d2dd-46e7-c45b-6c19" name="Panzerfaust - Limited 1" hidden="false" targetId="d933-b4ee-739a-f94f" type="rule"/>
+            <infoLink id="f3b5-0c2f-eff7-e0db" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="aa24-8abb-784f-665f" name="2x MP40 SMG team with Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2473-9627-2a89-9549" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c1d-93f5-7945-95b6" type="min"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5699-90ea-cf31-69ee" name="7.5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="6e68-6062-01ef-35e9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16a8-3eed-d48a-8abd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2531-e2d9-5c62-ed24" name="sMG34 Machine-Gun Platoon" hidden="false" collective="false" import="true" targetId="70de-b0db-5e7c-0816" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="776a-96b0-9547-f880" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="623c-e5ca-091f-d9a9" name="8cm Mortar Platoon" hidden="false" collective="false" import="true" targetId="ad83-f9b3-bd18-bb69" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84cc-1e34-7128-2303" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c0ae-dc3f-f322-ac5c" name="Storm Grenadier Platoon" hidden="false" collective="false" import="true" targetId="d440-986b-74df-6444" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8de9-89bf-a59d-34c3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="dfd9-e30a-4e05-aec8" name="Grenadier Scout Platoon" hidden="false" collective="false" import="true" targetId="6da0-0f9f-ecc8-1a21" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f359-d9ef-4470-059e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3e0c-b3cb-ad4f-32ed" name="Storm Grenadier Platoon" hidden="false" collective="false" import="true" targetId="d440-986b-74df-6444" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e5d8-3a2e-6579-aa5a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1bbc-79f4-5f99-328b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f423-c67c-f4dc-7938" name="Storm Grenadier Platoon" hidden="false" collective="false" import="true" targetId="d440-986b-74df-6444" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7754-75cd-32fc-33a2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8cb5-5194-74b3-3c00" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="df7c-f113-8b4e-91d6" name="2cm Light AA Platoon" hidden="false" collective="false" import="true" targetId="e75c-3cbd-2379-0276" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03c2-a6eb-56a6-0bb7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d9d3-3850-2897-db19" name="12cm Mortar Platoon" hidden="false" collective="false" import="true" targetId="6339-7749-144e-e9d0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3970-1af9-8a89-ea58" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="39b7-b91b-829b-391d" name="7.5cm Gun Platoon" hidden="false" collective="false" import="true" targetId="bbd7-bb3e-576a-edb8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42bc-0867-e35d-feca" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6de8-3f80-602e-cd50" name="15cm Gun Platoon" hidden="false" collective="false" import="true" targetId="d4d9-0de5-ee7f-d86c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="680d-5dde-7292-ab87" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6da0-0f9f-ecc8-1a21" name="Grenadier Scout Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fba6-dae0-459b-8cfc" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="2c80-eafd-af13-ce8c" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+        <infoLink id="716f-30a2-e031-3548" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
+        <infoLink id="14d3-7c89-3ae5-9350" name="Grenadier Scout Team" hidden="false" targetId="a3ef-b5c9-b478-2c70" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2974-3611-3876-b6ce" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4372-9556-8987-f009" name="Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c3c-3c2c-b52a-b8b7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8c11-6d7a-ef89-44cb" name="Panzerfaust anti-tank" hidden="false" targetId="4ca3-0cb0-917d-1c24" type="profile"/>
+            <infoLink id="90f8-3494-ddfc-8723" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+            <infoLink id="f0ae-6f6f-7aa1-085d" name="Panzerfaust - Limited 1" hidden="false" targetId="d933-b4ee-739a-f94f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="deeb-0092-ecd7-f673" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="14f1-617d-7371-c506">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5fe-6570-e251-2835" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4328-949a-2ea2-bb3f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="74cc-ba79-68ca-3541" name="5x K98 rifle team" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="dc69-1bfb-2016-1d00" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+                <infoLink id="e423-da2e-8fc8-3c49" name="K98 rifle team" hidden="false" targetId="24dc-55e7-be8c-a1f8" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="14f1-617d-7371-c506" name="3x K98 rifle team" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f261-2823-8948-77e8" name="K98 rifle team" hidden="false" targetId="24dc-55e7-be8c-a1f8" type="profile"/>
+                <infoLink id="c0ce-c322-3423-6e39" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a5a7-dc43-9852-017e" name="3x MP40 SMG" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7cfa-e04c-0db4-65ad" name="MP40 SMG team" hidden="false" targetId="c24a-b87a-1421-3642" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2633-4f40-2a4e-458d" name="5x MP40 SMG" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="fa0d-02f1-538f-1f20" name="MP40 SMG team" hidden="false" targetId="c24a-b87a-1421-3642" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
