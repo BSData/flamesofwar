@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="aed3-3f3a-acd8-0f8e" name="Bagration: Germany" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="6441-e19b-436b-0a58" name="Jagdpanzer IV or 8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6441-e19b-436b-0a58" name="Marder, Jagdpanzer IV, Hornisse, Elephant, or 8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <comment>rev2</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="979e-9bc2-e1ff-306a" type="max"/>
@@ -10,14 +10,17 @@
         <categoryLink id="d90d-c517-7f24-4788" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="da82-e434-687e-1fa7" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="b2b7-3799-a75b-a061">
+        <selectionEntryGroup id="da82-e434-687e-1fa7" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="b4b9-a40a-1bfa-b77f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab06-23a6-79dd-bdf8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77d1-a5bd-1a1c-37bf" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d081-7f9c-68c4-1154" name="8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="2500-c062-d7c1-c67f" type="selectionEntry"/>
+            <entryLink id="d081-7f9c-68c4-1154" name="Elephant Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="c328-003d-b63f-7e69" type="selectionEntry"/>
             <entryLink id="b2b7-3799-a75b-a061" name="Jagdpanzer IV Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="7b39-c0fb-5da4-59a3" type="selectionEntry"/>
+            <entryLink id="b4b9-a40a-1bfa-b77f" name="Marder Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="473f-75af-4f6f-8c07" type="selectionEntry"/>
+            <entryLink id="ddfe-eddb-992c-73cd" name="Horniesse Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="4635-91da-68c6-afc4" type="selectionEntry"/>
+            <entryLink id="4694-9b5c-3197-4339" name="8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="2500-c062-d7c1-c67f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -25,7 +28,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74ca-2f8e-88c7-47d6" name="7.5cm or 8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="74ca-2f8e-88c7-47d6" name="Marder, 7.5cm or 8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <comment>rev2</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d38-22ba-d068-6214" type="max"/>
@@ -34,7 +37,7 @@
         <categoryLink id="91ac-9791-9ef8-9c4c" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9727-c626-e44b-abb6" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="e24e-a824-3e6e-d9d6">
+        <selectionEntryGroup id="9727-c626-e44b-abb6" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="b7a3-bf68-a175-2761">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4984-a30a-dda3-52bc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4278-00a6-369a-671e" type="max"/>
@@ -42,6 +45,7 @@
           <entryLinks>
             <entryLink id="e24e-a824-3e6e-d9d6" name="7.5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="6e68-6062-01ef-35e9" type="selectionEntry"/>
             <entryLink id="6131-da1d-2f63-d9cb" name="8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="2500-c062-d7c1-c67f" type="selectionEntry"/>
+            <entryLink id="b7a3-bf68-a175-2761" name="Marder Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="473f-75af-4f6f-8c07" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -175,6 +179,73 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4db1-ac02-4b83-7627" name="Panzerwerfer 42 or 15cm Nebelwerfer Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>rev2</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9512-e237-f449-713c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a9c6-176f-cdc2-adce" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e892-6177-88af-47b8" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="a10e-b544-2b56-feb2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0dc-62d5-e6aa-a65c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d550-7733-cb93-9667" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="29ef-4da9-9358-8092" name="15cm Nebelwerfer Battery" hidden="false" collective="false" import="true" targetId="dace-3b54-229e-60b2" type="selectionEntry"/>
+            <entryLink id="a10e-b544-2b56-feb2" name="Panzerwerfer 42 Battery" hidden="false" collective="false" import="true" targetId="2af9-9f2a-6df6-7a9d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ccbf-7089-96d6-a427" name="Panzer III or Sd Kfz 250 OP Observation Post" hidden="true" collective="false" import="true" type="upgrade">
+      <comment>rev2</comment>
+      <modifierGroups>
+        <modifierGroup>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b6de-c5a6-d9a6-399a" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2af9-9f2a-6df6-7a9d" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dace-3b54-229e-60b2" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fcb2-85d8-074a-978f" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17d1-62a8-d8f2-0eeb" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false"/>
+            <modifier type="set" field="6051-1c86-393f-5e4a" value="1.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6051-1c86-393f-5e4a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e4b6-b254-6b39-a4ee" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e02d-7d22-6ede-ee1e" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="2648-3b37-f5d4-4516">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3155-870b-5a9e-ae40" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a944-6369-8295-fddc" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2648-3b37-f5d4-4516" name="Panzer III OP Observation Post " hidden="false" collective="false" import="true" targetId="82b7-f19c-f147-16cd" type="selectionEntry"/>
+            <entryLink id="f0dd-bce1-e0a1-9d74" name="Sd Kfz 250 OP Observation Post " hidden="false" collective="false" import="true" targetId="eb8f-eb29-efd6-d34b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="1e0b-12da-5c07-25d7" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="dbef-035b-adfb-7fa0" type="selectionEntry">
@@ -202,7 +273,7 @@
     </entryLink>
     <entryLink id="ae42-79c9-0e86-d937" name="Beach Defence Grenadier Company" hidden="false" collective="false" import="true" targetId="34b7-3af0-ec16-5e90" type="selectionEntry"/>
     <entryLink id="7ba5-6972-41f8-a55d" name="Fallschirmjäger StuG Assault Gun Company" hidden="false" collective="false" import="true" targetId="5c5a-c627-3e2b-1e4b" type="selectionEntry"/>
-    <entryLink id="03ea-15f1-a1be-8ba6" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
+    <entryLink id="03ea-15f1-a1be-8ba6" name="StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8509-5694-f8c1-9b80" type="max"/>
       </constraints>
@@ -246,6 +317,11 @@
     <entryLink id="6ab6-41b3-618f-9b93" name="Storm Grenadier Platoon" hidden="false" collective="false" import="true" targetId="d440-986b-74df-6444" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ab-a087-7ed8-3dfb" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="0303-101f-c53f-a031" name="Brummnär Assault Tank Platoon" hidden="false" collective="false" import="true" targetId="f695-53d2-2105-5c94" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="594f-a4bd-2937-af91" type="max"/>
       </constraints>
     </entryLink>
   </entryLinks>
@@ -3390,7 +3466,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="82b7-f19c-f147-16cd" name="Panzer III OP Observation Post " publicationId="10a4-8008-66c3-952e" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="82b7-f19c-f147-16cd" name="Panzer III OP Observation Post " publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
         <modifierGroup>
           <conditionGroups>
@@ -4263,6 +4339,442 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="473f-75af-4f6f-8c07" name="Marder Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5c21-d51a-338e-927e" name="Marder (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6+ Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4473-86a0-b113-11df" name="Marder (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="339d-2a2c-617b-65b8" name="Marder (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9ce5-8c59-e372-d3a7" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="6ef7-0c25-ff3a-d170" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4fef-fb1f-47a6-29a3" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="302d-4ca0-bb89-5a7d" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="ade0-c2c0-584c-9829">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84aa-3cf0-b26e-6300" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="243a-399e-a188-41f4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ade0-c2c0-584c-9829" name="3x Marder (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5aa9-081e-d757-79dd" name="4x Marder (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4c7e-7fde-8d4f-ef7f" name="2x Marder (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4635-91da-68c6-afc4" name="Horniesse Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4e76-8503-2c95-0003" name="Horniesse (8.8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 6+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d09e-5841-fa08-ba2b" name="Horniesse (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="03c7-5f43-c143-c5bf" name="Horniesse (8.8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">17</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="81bb-fb32-b174-d95d" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="34f2-c839-4f5b-d08e" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="efaa-20a1-4602-ec62" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ccca-fe33-9347-d0aa" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="e61f-9732-29b5-263f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c843-77be-6483-4a2e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05fb-5c8f-d71d-e7a1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e61f-9732-29b5-263f" name="3x Horniesse (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="12af-f58d-8d06-8fa7" name="4x Horniesse (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0df7-f392-43af-4745" name="2x Horniesse (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c328-003d-b63f-7e69" name="Elephant Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2317-1025-6958-5da0" name="Elephant (8.8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 5+ Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">16</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">7</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c643-e667-be9b-a3cd" name="Elephant (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dc20-598a-3ad5-76a7" name="Elephant (8.8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">17</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bd2f-9f79-dc8f-4840" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="4375-cee8-4a26-e120" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="81d5-cedc-3616-5991" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="98f2-bbb2-ff5a-565f" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="29cc-5249-3afd-23d9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adb7-cd50-030e-286b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ccc-492e-481f-62db" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a53e-5e20-a5c9-33e6" name="3x Elephant (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="43.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="29cc-5249-3afd-23d9" name="1x Elephant (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c720-8916-ff50-8a72" name="2x Elephant (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="29.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bb02-c4f5-7253-bdce" name="4x Elephant (8.8cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="57.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f695-53d2-2105-5c94" name="Brummnär Assault Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="fda2-737d-3a24-961f" name="Brummnär (15cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">56&quot;/140cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6981-80a9-fdd8-9e21" name="Brummnär (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c9f6-d6d2-a59f-976a" name="Brummnär (15cm) Direct Fire" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e112-1129-2c7e-caab" name="Brummnär" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 5+ Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">4</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0248-7cce-be28-656a" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="ca88-4e06-ff18-baba" name="Bazooka Skirts" hidden="false" targetId="771b-7bea-b110-37cd" type="rule"/>
+        <infoLink id="842f-0bc6-2a7d-39bb" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="540c-e538-dc94-b478" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="49fe-c08d-cece-783a" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="969e-8e06-0f81-25c6" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8964-fd1e-87d2-4354" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="1910-ce8f-6542-1fbc">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ee7-57b3-1125-b15a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aaa-8cc4-99ad-45c3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="976b-032b-9543-b59e" name="4x Brummnär (15cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1910-ce8f-6542-1fbc" name="2x Brummnär (15cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="67f1-9f7e-406b-a57b" name="3x Brummnär (15cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2af9-9f2a-6df6-7a9d" name="Panzerwerfer 42 Battery" publicationId="10a4-8008-66c3-952e" hidden="true" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2133-f6d0-2eea-1f95" name=" Panzerwerfer 42" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 3+ Counterattack 6</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ce09-efc9-5f20-6858" name=" Panzerwerfer 42 (15cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">64&quot;/160cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">SALVO</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">SALVO</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="45e8-9414-bebb-7565" name=" Panzerwerfer 42 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9cbe-3d46-528e-fc31" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="ce8e-449f-adb7-e0c1" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="edd4-d739-b7a1-a23d" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9115-9411-0b7e-8342" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" defaultSelectionEntryId="b0db-b82b-3105-9a45">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35c0-3256-74f0-f677" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f1b-2314-e529-eea2" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b0db-b82b-3105-9a45" name="2x Panzerwerfer 42 (15cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="223f-334f-3512-130f" name="4x Panzerwerfer 42 (15cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb8f-eb29-efd6-d34b" name="Sd Kfz 250 OP Observation Post " publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4210-4285-1833-a899" name="Sd Kfz 250 OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 5+ Counterattack 6</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5cfe-31f0-1598-e343" name="Sd Kfz 250 OP (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e03e-892f-bdec-d609" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
+        <infoLink id="f59a-90ae-f274-2f3d" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="f415-ff9f-dc0b-a0fb" name="Independent Tank Unit" hidden="false" targetId="b650-398e-5817-50fb" type="rule"/>
+        <infoLink id="934c-cc54-d6a0-d94f" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+        <infoLink id="673c-6a25-2c7a-132b" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="49fb-7d4b-ee69-1153" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c949-f8ae-0174-fee8" name="1x Sd Kfz 250 OP (MG)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3437-4a33-c290-9387" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4007-3188-ee0f-7590" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
