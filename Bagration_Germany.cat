@@ -3508,13 +3508,24 @@
       <entryLinks>
         <entryLink id="8de8-d56c-490c-7a58" name="StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3996-a5db-976c-df1e" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91a3-953e-7a1a-c767" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3996-a5db-976c-df1e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91a3-953e-7a1a-c767" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="068a-28aa-4a2b-0716" name="Escort Platoon" hidden="false" collective="false" import="true" targetId="64c1-5c6c-1f83-abe9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fb6-7fe3-97ac-66d7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c51e-d287-c9d9-0b7c" name="StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="954a-1365-c8eb-5bd8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b651-a428-0054-34d6" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b212-4fb2-3e98-04d1" name="StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5559-22e3-8e6e-ea9a" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -3629,32 +3640,28 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="15cc-cfd3-f5b6-d762" name="Panther or Tiger Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="bc5a-de1b-6157-8ca4">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f76d-a56f-0965-b2f4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d80-dc32-6f7b-5fca" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="bc5a-de1b-6157-8ca4" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
-            <entryLink id="23f1-fe62-3361-75d7" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="5a98-11b9-3c9f-3e46" name="Panther or Panzer IV Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5a98-11b9-3c9f-3e46" name="Panther, Panzer IV, Panzer IV/70,  Tiger Tank or Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7b28-5d33-33e1-c8f7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1765-6fa3-4ccf-4409" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eb82-3f32-391c-d20a" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3a86-7ce7-4383-9ccf" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
+            <entryLink id="3a86-7ce7-4383-9ccf" name="Panzer IV/70 Tank Platoon" hidden="false" collective="false" import="true" targetId="b14f-65d1-9efe-4654" type="selectionEntry"/>
             <entryLink id="0d09-6a1b-eea6-95c2" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry"/>
+            <entryLink id="527a-6e38-2ecf-d891" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry"/>
+            <entryLink id="c818-0473-83ba-6ac2" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="dbef-035b-adfb-7fa0" type="selectionEntry"/>
+            <entryLink id="7b28-5d33-33e1-c8f7" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0c12-46a3-d4e7-1e7b" name="Möbelwagen or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f971-8339-e0d3-fb89" name="Möbelwagen, Ostwind, Wirbelwind or Sd Kfz 7/1 Quad Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b9f-58d1-cc09-06a3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ae-b3c7-e048-6136" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="659e-9d73-9c85-877b" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
-            <entryLink id="43a6-93e8-7e3f-1edf" name="Möbelwagen AA Tank Platoon" hidden="false" collective="false" import="true" targetId="777f-a227-0a6b-c138" type="selectionEntry"/>
+            <entryLink id="ce7e-7a1a-043e-28fd" name="Möbelwagen AA Tank Platoon" hidden="false" collective="false" import="true" targetId="777f-a227-0a6b-c138" type="selectionEntry"/>
+            <entryLink id="96a1-be30-9900-3ec4" name="Sd Kfz 7/1 Quad AA Platoon" hidden="false" collective="false" import="true" targetId="9adb-03e6-89f6-0b24" type="selectionEntry"/>
+            <entryLink id="634f-db90-976c-3ff0" name="Wirbelwind AA Tank Platoon" hidden="false" collective="false" import="true" targetId="394b-d882-333a-c4f9" type="selectionEntry"/>
+            <entryLink id="50a2-5d8c-1379-be7d" name="Ostwing AA Tank Platoon" hidden="false" collective="false" import="true" targetId="2f5a-904f-0465-26cb" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3663,6 +3670,11 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="760b-c25d-a5e5-4205" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab6b-b584-89fb-ff8a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b0e8-9c95-5fa1-7e49" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c01-4dc3-26d7-932c" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -3803,7 +3815,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7679-b793-1e3c-1e45" name="Panzer IV or Panther or Tiger Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8646-b0eb-0ee6-ef96">
+        <selectionEntryGroup id="7679-b793-1e3c-1e45" name="Panzer IV, Panther, Stug, Tiger Tank or Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8646-b0eb-0ee6-ef96">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ae6-260e-53a1-a708" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0fc6-1e8b-ded7-447b" type="max"/>
@@ -3811,24 +3823,38 @@
           <entryLinks>
             <entryLink id="8646-b0eb-0ee6-ef96" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry"/>
             <entryLink id="b6fd-784b-b4fe-a0c6" name="Tiger Tank Platoon" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry"/>
-            <entryLink id="6996-f1b7-cb32-b3be" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
+            <entryLink id="6996-f1b7-cb32-b3be" name="StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry"/>
+            <entryLink id="e2c2-c4c2-0abf-c3ee" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="dbef-035b-adfb-7fa0" type="selectionEntry"/>
+            <entryLink id="08c2-c78b-e532-4d77" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b863-d571-f13c-f0f1" name="Möbelwagen or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="00bd-e143-6d0c-07f1" name="Möbelwagen, Ostwind, Wirbelwind or Sd Kfz 7/1 Quad Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0db-c2d5-26f3-5e70" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9268-1dda-19b2-982a" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7dac-28d4-635c-c0c7" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
-            <entryLink id="9670-2d51-5878-63c7" name="Möbelwagen AA Tank Platoon" hidden="false" collective="false" import="true" targetId="777f-a227-0a6b-c138" type="selectionEntry"/>
+            <entryLink id="652c-e46c-086a-0d08" name="Möbelwagen AA Tank Platoon" hidden="false" collective="false" import="true" targetId="777f-a227-0a6b-c138" type="selectionEntry"/>
+            <entryLink id="42c5-6848-3394-e163" name="Sd Kfz 7/1 Quad AA Platoon" hidden="false" collective="false" import="true" targetId="9adb-03e6-89f6-0b24" type="selectionEntry"/>
+            <entryLink id="cdbb-3db1-a30e-2cb6" name="Wirbelwind AA Tank Platoon" hidden="false" collective="false" import="true" targetId="394b-d882-333a-c4f9" type="selectionEntry"/>
+            <entryLink id="e251-a685-3339-6013" name="Ostwing AA Tank Platoon" hidden="false" collective="false" import="true" targetId="2f5a-904f-0465-26cb" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8b8e-51b8-96d5-5504" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a5a-3e30-2084-37ca" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a5a-3e30-2084-37ca" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="04ae-5a12-5b52-e3ba" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f191-6e94-c59d-b079" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="408c-5df0-6d16-3226" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="60d0-e0d4-a23d-f38e" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3fb8-700e-f029-3f9c" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -4022,27 +4048,20 @@
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4e7a-d4cf-274a-8dd1" name="Sd Kfz 10/4 or Sd Kfz 7/1 Anti-Aircraft Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1640-3c1d-79b3-1bd4" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="cd36-d942-4207-a8ce" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="63c9-8e4d-a2c2-f3ac">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a186-1fb8-11de-4892" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde0-60f2-4e89-3a48" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="63c9-8e4d-a2c2-f3ac" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
-                <entryLink id="3672-2e4b-8560-36c3" name="Sd Kfz 7/1 Quad AA Platoon" hidden="false" collective="false" import="true" targetId="9adb-03e6-89f6-0b24" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5236-a5bb-9681-2513" name="Möbelwagen, Ostwind, Wirbelwind or Sd Kfz 7/1 Quad Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94e5-0726-4fc8-16f9" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5c1b-f029-4bb8-1b8b" name="Möbelwagen AA Tank Platoon" hidden="false" collective="false" import="true" targetId="777f-a227-0a6b-c138" type="selectionEntry"/>
+            <entryLink id="6fbe-fd2f-542b-1926" name="Sd Kfz 7/1 Quad AA Platoon" hidden="false" collective="false" import="true" targetId="9adb-03e6-89f6-0b24" type="selectionEntry"/>
+            <entryLink id="2f71-3467-2cc8-4273" name="Wirbelwind AA Tank Platoon" hidden="false" collective="false" import="true" targetId="394b-d882-333a-c4f9" type="selectionEntry"/>
+            <entryLink id="d020-b1ed-3891-86ac" name="Ostwing AA Tank Platoon" hidden="false" collective="false" import="true" targetId="2f5a-904f-0465-26cb" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="89bd-872e-0f39-b54e" name="Tiger Tank Platoon (max 3)" hidden="false" collective="false" import="true" targetId="47ee-b8bc-0561-5ab9" type="selectionEntry">
           <constraints>
@@ -4292,8 +4311,13 @@
       <entryLinks>
         <entryLink id="1cdb-4cb9-9458-3f42" name="Panzer IV/70 Tank Platoon" hidden="false" collective="false" import="true" targetId="b14f-65d1-9efe-4654" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ce6-1e10-027a-0214" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ce6-1e10-027a-0214" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="96f2-07f4-bde6-f8a0" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bdbc-3b6a-7697-e8ef" name="Panzer IV/70 Tank Platoon" hidden="false" collective="false" import="true" targetId="b14f-65d1-9efe-4654" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c395-89cd-5194-2e13" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
