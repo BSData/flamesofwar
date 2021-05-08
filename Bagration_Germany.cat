@@ -49,7 +49,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="13be-d1b1-98a9-b2ec" name="Puma or Sd Kfc 250 Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="13be-d1b1-98a9-b2ec" name="Puma, Sd Kfz 250, or Sd Kfz 221&amp;222 Light Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
       <comment>rev2</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee9c-a9cd-2945-32b7" type="max"/>
@@ -68,6 +68,9 @@
               <comment>rev2</comment>
             </entryLink>
             <entryLink id="d594-c43a-9e53-2760" name="Sd Kfc 250 Scout Troop" hidden="false" collective="false" import="true" targetId="e412-f7dd-0ee3-90ba" type="selectionEntry"/>
+            <entryLink id="8120-1374-c6b6-160e" name="SD Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="9122-99ba-61dc-4679" type="selectionEntry">
+              <comment>rev2</comment>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -123,7 +126,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dd7b-774d-aafe-f089" name="Sd Kfz 10/4 or Sd Kfz 7/1 Anti-Aircraft Platoon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dd7b-774d-aafe-f089" name="Sd Kfz 10/4, Sd Kfz 7/1, or 2cm Light AA Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <comment>rev2</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01e4-52fd-b83c-f670" type="max"/>
@@ -140,6 +143,31 @@
           <entryLinks>
             <entryLink id="9558-d045-09a9-4423" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
             <entryLink id="76b2-1fb9-7509-0ffe" name="Sd Kfz 7/1 Quad AA Platoon" hidden="false" collective="false" import="true" targetId="9adb-03e6-89f6-0b24" type="selectionEntry"/>
+            <entryLink id="e169-908a-44de-9132" name="2cm Light AA Platoon" hidden="false" collective="false" import="true" targetId="e75c-3cbd-2379-0276" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7282-f442-7f8e-5631" name="Ju 87 Stuka Dive Bomber or Tank-Hunter" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>rev2</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a280-016e-db14-fe08" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7241-229f-8c2d-1014" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ed49-dfc5-2de7-389c" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a44-45a8-088a-de10">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e10b-0ce4-8b1a-def0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6155-5e41-d8db-4ee4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0e1c-58bc-77d6-ea2d" name="JU 87 Stuka (3.7cm) Tank-Hunger" hidden="false" collective="false" import="true" targetId="fabc-a5d1-ec02-ed0b" type="selectionEntry"/>
+            <entryLink id="9a44-45a8-088a-de10" name="JU 87 Stuka Dive Bomber Flight" hidden="false" collective="false" import="true" targetId="28f0-99b6-01d6-ecb8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -167,16 +195,6 @@
     </entryLink>
     <entryLink id="6dc2-2b26-3344-77ba" name="Panzergrenadier Company" hidden="false" collective="false" import="true" targetId="9795-04f7-b042-f5b6" type="selectionEntry"/>
     <entryLink id="a112-1f19-4936-9c99" name="Reconnaissance Company" hidden="false" collective="false" import="true" targetId="6c41-dd6b-65f5-0f37" type="selectionEntry"/>
-    <entryLink id="471f-d291-6dfc-9a8a" name="2cm Light AA Platoon" hidden="false" collective="false" import="true" targetId="e75c-3cbd-2379-0276" type="selectionEntry">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61be-bc32-6f31-97ef" type="max"/>
-      </constraints>
-    </entryLink>
-    <entryLink id="fc11-b5c4-1cac-63a4" name="15cm Nebelwerfer Battery" hidden="false" collective="false" import="true" targetId="dace-3b54-229e-60b2" type="selectionEntry">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bdc-80b4-c8c0-4eb8" type="max"/>
-      </constraints>
-    </entryLink>
     <entryLink id="b0c8-c361-1de6-60cf" name="Grenadier Platoon" hidden="false" collective="false" import="true" targetId="8f81-c9b7-2f39-6451" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1280-e4f0-3106-d09e" type="max"/>
@@ -212,7 +230,6 @@
       </constraints>
     </entryLink>
     <entryLink id="43cf-7dcd-1142-83d4" name="Tiger Tank Company" hidden="false" collective="false" import="true" targetId="95b1-3ebc-6eb1-e20f" type="selectionEntry"/>
-    <entryLink id="b88d-84d1-fa28-38a8" name="Panzer III OP Observation Post " hidden="false" collective="false" import="true" targetId="82b7-f19c-f147-16cd" type="selectionEntry"/>
     <entryLink id="db7a-3112-7d77-b41c" name="Panzer IV/70 Tank Company" hidden="false" collective="false" import="true" targetId="decc-46d3-f37f-496e" type="selectionEntry"/>
     <entryLink id="bb74-57a7-1617-bd8a" name="Panzer IV/70 Tank Platoon" hidden="false" collective="false" import="true" targetId="b14f-65d1-9efe-4654" type="selectionEntry">
       <constraints>
@@ -1969,7 +1986,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e412-f7dd-0ee3-90ba" name="Sd Kfc 250 Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e412-f7dd-0ee3-90ba" name="Sd Kfz 250 Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="2978-dc76-711e-b1c7" name="Sd Kfz 250/9 (2cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -2005,7 +2022,7 @@
         <infoLink id="c350-7686-7203-62ab" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="aa91-5c5f-35f3-4899" name="2x Sd Kfz 250 (2cm), 1x Sd Kfc 250 (MG)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="aa91-5c5f-35f3-4899" name="2x Sd Kfz 250 (2cm), 1x Sd Kfz 250 (MG)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="106d-3f3b-7f09-6dff" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="997d-6fd6-1a9d-d80c" type="max"/>
@@ -4212,6 +4229,41 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="28f0-99b6-01d6-ecb8" name="JU 87 Stuka Dive Bomber Flight" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2cc6-074f-1d43-b4ae" name="Bombs" hidden="false" targetId="78a2-7146-034e-a601" type="rule"/>
+        <infoLink id="2ba1-d282-34e8-d685" name="Ju 87 Stuka" hidden="false" targetId="ec90-7b58-423a-b00d" type="profile"/>
+        <infoLink id="6e3a-0091-dfd0-10e5" name="500kg bombs" hidden="false" targetId="a6ec-f4bb-54d0-60bc" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="2fdb-e1f0-3e26-bf22" name="2x Ju 87 Stuka" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="416a-c57f-2b1d-6517" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4508-9815-34cb-e914" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="fabc-a5d1-ec02-ed0b" name="JU 87 Stuka (3.7cm) Tank-Hunger" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4e45-d406-5f6c-78e4" name="Ju 87 Stuka" hidden="false" targetId="ec90-7b58-423a-b00d" type="profile"/>
+        <infoLink id="5f67-5f32-4932-b4c1" name="Ju 87 Stuka (3.7cm)" hidden="false" targetId="b2a5-fcc6-88cf-5e00" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="d038-a416-ef83-d07d" name="2x Ju 87 Stuka (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acc2-fff6-ce56-8c28" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c692-cce1-caad-4e44" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d933-b4ee-739a-f94f" name="Panzerfaust - Limited 1" hidden="false">
@@ -4714,6 +4766,39 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ec90-7b58-423a-b00d" name="Ju 87 Stuka" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">4+</characteristic>
+        <characteristic name="Skill" typeId="e506-9161-836a-5e2d">3+</characteristic>
+        <characteristic name="Is Hit On" typeId="9691-8132-58f7-5f86">5+</characteristic>
+        <characteristic name="Save" typeId="3a7a-29d5-008e-09f7">3+</characteristic>
+        <characteristic name="Tactical" typeId="8791-6355-ebcf-f430">UNLIMITED</characteristic>
+        <characteristic name="Terrain Dash" typeId="e6d2-8608-f213-ef1f">UNLIMITED</characteristic>
+        <characteristic name="Cross Country Dash" typeId="037d-b1be-ca62-5c3e">UNLIMITED</characteristic>
+        <characteristic name="Road Dash" typeId="207b-99f1-9a35-12d8">UNLIMITED</characteristic>
+        <characteristic name="Cross" typeId="07b3-6909-7897-f282">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b2a5-fcc6-88cf-5e00" name="Ju 87 Stuka (3.7cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">-</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="a6ec-f4bb-54d0-60bc" name="500kg bombs" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Bombs</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
