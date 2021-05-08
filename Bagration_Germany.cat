@@ -4277,13 +4277,15 @@
             <entryLink id="27e1-83e8-cb77-ba97" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="dbef-035b-adfb-7fa0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7f45-2d1e-ede3-32d6" name="Möbelwagen or Sd Kfz 10/4 Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7f45-2d1e-ede3-32d6" name="Möbelwagen, Ostwind, Wirbelwind or Sd Kfz 7/1 Quad Anti-Aircraft Platoon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75cf-af3a-ec4b-fab4" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8552-5163-a3a1-3d3e" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
             <entryLink id="01f7-18e6-1eda-7d8f" name="Möbelwagen AA Tank Platoon" hidden="false" collective="false" import="true" targetId="777f-a227-0a6b-c138" type="selectionEntry"/>
+            <entryLink id="d30c-24f6-348a-6359" name="Sd Kfz 7/1 Quad AA Platoon" hidden="false" collective="false" import="true" targetId="9adb-03e6-89f6-0b24" type="selectionEntry"/>
+            <entryLink id="a086-5626-3685-6ee6" name="Wirbelwind AA Tank Platoon" hidden="false" collective="false" import="true" targetId="394b-d882-333a-c4f9" type="selectionEntry"/>
+            <entryLink id="739a-1703-86f9-1cc2" name="Ostwing AA Tank Platoon" hidden="false" collective="false" import="true" targetId="2f5a-904f-0465-26cb" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4295,6 +4297,134 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="394b-d882-333a-c4f9" name="Wirbelwind AA Tank Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d711-6b7e-ca48-bc66" name="Wirbelwind" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="86b8-8301-b399-dfa1" name="Wirbelwind (2cm Quad)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ffdd-5b49-63fc-9e41" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
+        <infoLink id="325e-75a4-5cc4-1238" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8268-3531-9954-db79" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e9c8-6a69-675c-9c1b" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f53-0311-ad56-2614" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6711-0d38-956d-e6bf" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c73e-1df2-1fd0-5e6e" name="4x Wirbelwind (2cm Quad)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="65d1-3076-2704-76b2" name="2x Wirbelwind (2cm Quad)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c17e-c5b3-86eb-bf9b" name="3x Wirbelwind (2cm Quad)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f5a-904f-0465-26cb" name="Ostwind AA Tank Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="84a4-42e2-3407-b182" name="Ostwind (3.7cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
+            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="81cc-2efd-6247-7078" name="Ostwind (3.7cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ba6a-a8c5-9b55-0850" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
+        <infoLink id="c3b9-85bc-9c9b-375d" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="baf4-52c2-31e1-1ff3" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2c61-df2d-44b5-699e" name="Unit Size" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a579-a5ad-79fc-91c6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ca-315a-67e9-c990" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1ec1-72b0-4241-399b" name="4x Ostwind (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fc2e-b6a0-e3ea-60a8" name="2x Ostwind (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6819-96c6-af99-debf" name="3x Ostwind (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
