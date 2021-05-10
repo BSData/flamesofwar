@@ -204,7 +204,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ccbf-7089-96d6-a427" name="Panzer III or Sd Kfz 250 OP Observation Post" hidden="true" collective="false" import="true" type="upgrade">
-      <comment>rev2</comment>
+      <comment></comment>
       <modifierGroups>
         <modifierGroup>
           <conditionGroups>
@@ -323,6 +323,11 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="594f-a4bd-2937-af91" type="max"/>
       </constraints>
+    </entryLink>
+    <entryLink id="de73-4bbb-6150-64ca" name="Lucky" hidden="false" collective="false" import="true" targetId="9413-df88-661f-9de5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9c3e-55b5-288e-034d" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -3467,26 +3472,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="82b7-f19c-f147-16cd" name="Panzer III OP Observation Post " publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
-      <modifierGroups>
-        <modifierGroup>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dace-3b54-229e-60b2" type="greaterThan"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cea-39d6-cd3f-5e85" type="greaterThan"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="19b2-be91-fefe-7e6c" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-          <modifiers>
-            <modifier type="set" field="bfad-60f3-8ea2-6ce2" value="1.0"/>
-            <modifier type="set" field="hidden" value="false"/>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfad-60f3-8ea2-6ce2" type="max"/>
-      </constraints>
+
       <profiles>
         <profile id="8273-58c8-5155-46f5" name="Panzer III OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
           <characteristics>
@@ -3581,7 +3567,7 @@
           <selectionEntries>
             <selectionEntry id="8086-5042-fefd-7b73" name="7x StG44 assault rifle team" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3179-bd37-4bde-17c2" name="10x StG44 assault rifle team" hidden="false" collective="false" import="true" type="upgrade">
@@ -3618,12 +3604,12 @@
           <selectionEntries>
             <selectionEntry id="1b11-5d76-6b9d-1502" name="3x Panzer IV/70 (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5075-cc37-3d27-66fc" name="4x Panzer IV/70 (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4654,7 +4640,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2af9-9f2a-6df6-7a9d" name="Panzerwerfer 42 Battery" publicationId="10a4-8008-66c3-952e" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="2af9-9f2a-6df6-7a9d" name="Panzerwerfer 42 Battery" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="2133-f6d0-2eea-1f95" name=" Panzerwerfer 42" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
           <characteristics>
@@ -4774,6 +4760,20 @@
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9413-df88-661f-9de5" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0f2-d7ac-78e5-cfb6" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c24-8554-96c6-dc14" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="8c18-fb8e-48c2-0c90" name="Lucky" hidden="false">
+          <description>One time per game, re-roll any 1 die.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
