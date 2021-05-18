@@ -257,13 +257,6 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5457-0697-1f08-2ebf" type="max"/>
       </constraints>
-      <entryLinks>
-        <entryLink id="e5f6-3531-e79d-b1a9" name="Sperrverband" hidden="false" collective="false" import="true" targetId="b66e-187f-bc25-fa1d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee3f-8981-de1b-e33a" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
     </entryLink>
     <entryLink id="6537-b89a-251e-59db" name="Reconnaissance Platoon" hidden="false" collective="false" import="true" targetId="f28a-3d1b-2e82-6e25" type="selectionEntry">
       <constraints>
@@ -339,12 +332,33 @@
   <sharedSelectionEntries>
     <selectionEntry id="dbef-035b-adfb-7fa0" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="f734-4c09-2ab5-2886" name="MG42 team" hidden="false" targetId="ba5d-12be-7472-6679" type="profile"/>
+        <infoLink id="f734-4c09-2ab5-2886" name="MG42 team" hidden="false" targetId="ba5d-12be-7472-6679" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="dbef-035b-adfb-7fa0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2334-5748-ef13-90d9" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="24c4-e7d3-44e2-e65a" name="MG42 team" hidden="false" targetId="046d-e8a2-fb32-e86d" type="profile"/>
         <infoLink id="ebd7-baa6-86f1-0a05" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
         <infoLink id="0c55-4ba3-0ef4-c848" name="Panzerfaust anti-tank" hidden="false" targetId="4ca3-0cb0-917d-1c24" type="profile"/>
         <infoLink id="ab1a-f1e0-1a44-e90a" name="Panzerfaust - Limited 1" hidden="false" targetId="d933-b4ee-739a-f94f" type="rule"/>
         <infoLink id="ec6c-1010-9eb7-d3e4" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="12d9-3b54-f179-7a50" name="MG42 team - 20th" hidden="false" targetId="5372-2da8-6b65-a0dd" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="dbef-035b-adfb-7fa0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2334-5748-ef13-90d9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7ba4-5cc4-84d7-91e4" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -1097,10 +1111,15 @@
       <infoLinks>
         <infoLink id="e06f-89e0-13b8-33bd" name="MG42 team" hidden="false" targetId="ba5d-12be-7472-6679" type="profile">
           <modifiers>
-            <modifier type="set" field="4aa0-1b18-70af-9474" value="5+ Counterattack 3+">
-              <conditions>
-                <condition field="selections" scope="55a6-8218-b0cc-b4b2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b66e-187f-bc25-fa1d" type="equalTo"/>
-              </conditions>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="55a6-8218-b0cc-b4b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b66e-187f-bc25-fa1d" type="equalTo"/>
+                    <condition field="selections" scope="55a6-8218-b0cc-b4b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2334-5748-ef13-90d9" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </infoLink>
@@ -1109,6 +1128,24 @@
         <infoLink id="ea6f-d0a4-93fd-3fdb" name="Panzerfaust anti-tank" hidden="false" targetId="4ca3-0cb0-917d-1c24" type="profile"/>
         <infoLink id="8e9e-f415-e3ed-6f62" name="Panzerfaust - Limited 1" hidden="false" targetId="d933-b4ee-739a-f94f" type="rule"/>
         <infoLink id="009b-bd58-7fab-af36" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="12f8-d519-61a9-c781" name="MG42 team - Sperrverband" hidden="false" targetId="4ff1-656c-7981-2b1a" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="55a6-8218-b0cc-b4b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b66e-187f-bc25-fa1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b260-4144-6dbc-c6ff" name="MG42 team - 20th" hidden="false" targetId="5372-2da8-6b65-a0dd" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="55a6-8218-b0cc-b4b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2334-5748-ef13-90d9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f6bb-6a1a-15ae-4ce4" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -1148,15 +1185,50 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f408-6634-3eaf-f206" name="Sperrverband" hidden="false" collective="false" import="true" targetId="b66e-187f-bc25-fa1d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="9795-04f7-b042-f5b6" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55c5-b78c-527e-3d64" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f28a-3d1b-2e82-6e25" name="Reconnaissance Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3346-d64e-dce2-75bd" name="MG42 team" hidden="false" targetId="ba5d-12be-7472-6679" type="profile"/>
+        <infoLink id="3346-d64e-dce2-75bd" name="MG42 team" hidden="false" targetId="ba5d-12be-7472-6679" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="f28a-3d1b-2e82-6e25" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2334-5748-ef13-90d9" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="ce1f-944c-4cec-b513" name="MG42 team" hidden="false" targetId="046d-e8a2-fb32-e86d" type="profile"/>
         <infoLink id="2169-ed34-dabe-526f" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
+        <infoLink id="d927-8d13-ff17-7527" name="MG42 team - 20th" hidden="false" targetId="5372-2da8-6b65-a0dd" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="f28a-3d1b-2e82-6e25" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2334-5748-ef13-90d9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d07c-ffe1-a85b-3cba" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -1296,18 +1368,42 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9ec5-4d5f-17eb-fa87" name="Panzergrenadier Company HQ" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="decrement" field="995a-4d67-6920-bfe4" value="2.0">
+              <conditions>
+                <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154f-2bf1-e99a-e35c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c3f-1bd2-66c1-a334" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="3dcf-b176-e83e-ec22" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
-            <infoLink id="0448-37b0-1ef6-7187" name="MP40 SMG team" hidden="false" targetId="f62d-9c8a-f2b3-0143" type="profile"/>
+            <infoLink id="0448-37b0-1ef6-7187" name="MP40 SMG team" hidden="false" targetId="f62d-9c8a-f2b3-0143" type="profile">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
             <infoLink id="3b08-2bb6-c262-4b3c" name="MP40 SMG team" hidden="false" targetId="e3ec-7e04-252b-a02b" type="profile"/>
             <infoLink id="0017-f716-677d-3ba7" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
             <infoLink id="8486-feec-629e-dca0" name="Panzerfaust anti-tank" hidden="false" targetId="4ca3-0cb0-917d-1c24" type="profile"/>
             <infoLink id="a3b2-3c89-54fc-eed6" name="Panzerfaust - Limited 1" hidden="false" targetId="d933-b4ee-739a-f94f" type="rule"/>
             <infoLink id="951b-7710-b897-4621" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+            <infoLink id="94cc-0040-3ba4-0cb5" name="MP40 SMG team - 20th" hidden="false" targetId="d2cf-5816-1d4a-7f62" type="profile">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="5134-69d7-62b1-1706" name="2x MP40 SMG team with Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
@@ -1331,9 +1427,75 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b82-05b1-9b6b-4dd4" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4283-1fb1-ddf3-7249" name="Armoured 7.5cm Gun Platoon" hidden="false" collective="false" import="true" targetId="05ab-1c2a-02eb-713a" type="selectionEntry"/>
-            <entryLink id="f9ce-9042-21f3-be31" name="12cm Mortar Platoon" hidden="false" collective="false" import="true" targetId="6339-7749-144e-e9d0" type="selectionEntry"/>
-            <entryLink id="1651-1794-1afd-f1ab" name="7.5cm Gun Platoon" hidden="false" collective="false" import="true" targetId="bbd7-bb3e-576a-edb8" type="selectionEntry"/>
+            <entryLink id="4283-1fb1-ddf3-7249" name="Armoured 7.5cm Gun Platoon" hidden="false" collective="false" import="true" targetId="05ab-1c2a-02eb-713a" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="d8f8-c28a-64e4-9834" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="f9ce-9042-21f3-be31" name="12cm Mortar Platoon" hidden="false" collective="false" import="true" targetId="6339-7749-144e-e9d0" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="2f4f-aa2f-a25c-166e" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="1651-1794-1afd-f1ab" name="7.5cm Gun Platoon" hidden="false" collective="false" import="true" targetId="bbd7-bb3e-576a-edb8" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="d284-1159-2020-08e8" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="45a1-1f78-016d-21b5" name="Sd Kfz 10/4 or 2cm Light AA Platoon" hidden="false" collective="false" import="true">
@@ -1341,8 +1503,52 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="410e-0e54-face-19d4" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c9b8-5cc3-8d8a-d383" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry"/>
-            <entryLink id="8c30-2566-988c-e4fe" name="2cm Light AA Platoon" hidden="false" collective="false" import="true" targetId="e75c-3cbd-2379-0276" type="selectionEntry"/>
+            <entryLink id="c9b8-5cc3-8d8a-d383" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="d5f4-7aa4-e8d3-b597" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="fe70-be6e-9dfa-024d" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="8c30-2566-988c-e4fe" name="2cm Light AA Platoon" hidden="false" collective="false" import="true" targetId="e75c-3cbd-2379-0276" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="396c-64a6-3ccc-a8f1" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="7105-5aa2-cd84-d19f" name="Armoured Panzergrenadier or Panzergrenadier or Reconnaissance Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6091-9095-f9a4-a4c1">
@@ -1351,9 +1557,75 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf7-4519-f8d6-0baf" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="efdb-2144-31eb-33e2" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="dbef-035b-adfb-7fa0" type="selectionEntry"/>
-            <entryLink id="6091-9095-f9a4-a4c1" name="Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="55a6-8218-b0cc-b4b2" type="selectionEntry"/>
-            <entryLink id="e6f4-5850-c179-f7af" name="Reconnaissance Platoon" hidden="false" collective="false" import="true" targetId="f28a-3d1b-2e82-6e25" type="selectionEntry"/>
+            <entryLink id="efdb-2144-31eb-33e2" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="dbef-035b-adfb-7fa0" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="3e7e-3937-7edb-a07c" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="6091-9095-f9a4-a4c1" name="Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="55a6-8218-b0cc-b4b2" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="33a0-768a-93c4-efc6" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="e6f4-5850-c179-f7af" name="Reconnaissance Platoon" hidden="false" collective="false" import="true" targetId="f28a-3d1b-2e82-6e25" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="9a8c-4ca8-63b8-67ce" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="1195-a968-3020-6440" name="Grille or 15cm Gun Platoon" hidden="false" collective="false" import="true">
@@ -1361,8 +1633,52 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="741a-4501-7f52-3582" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="44a5-072e-f902-702f" name="15cm Gun Platoon" hidden="false" collective="false" import="true" targetId="d4d9-0de5-ee7f-d86c" type="selectionEntry"/>
-            <entryLink id="747b-eb0c-d43e-b100" name="Grille 15cm Gun Platoon" hidden="false" collective="false" import="true" targetId="a9a5-5ae3-c750-9b07" type="selectionEntry"/>
+            <entryLink id="44a5-072e-f902-702f" name="15cm Gun Platoon" hidden="false" collective="false" import="true" targetId="d4d9-0de5-ee7f-d86c" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="43e5-ce4e-47bf-9f1f" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="747b-eb0c-d43e-b100" name="Grille 15cm Gun Platoon" hidden="false" collective="false" import="true" targetId="a9a5-5ae3-c750-9b07" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="a033-5b5b-38fd-623b" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="c1de-266b-1c30-f4c7" name="Infantry or Tanks" hidden="false" collective="false" import="true">
@@ -1370,12 +1686,121 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43c3-6e9d-9437-4f3a" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9901-33f7-97b9-3823" name="Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="55a6-8218-b0cc-b4b2" type="selectionEntry"/>
-            <entryLink id="e1cb-8e88-a7df-89b5" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry"/>
-            <entryLink id="5b98-5356-feb9-c4af" name="Fallschrirmjäger StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry"/>
-            <entryLink id="c52b-85a1-0ab4-67d8" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry"/>
+            <entryLink id="9901-33f7-97b9-3823" name="Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="55a6-8218-b0cc-b4b2" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="6226-5240-f8f6-5100" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="e1cb-8e88-a7df-89b5" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="3642-df18-1304-c38d" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="c088-89b8-287f-03f2" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="5b98-5356-feb9-c4af" name="StuG Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6170-c630-c3e0-66b3" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="a531-5b83-08b9-3bc0" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="c52b-85a1-0ab4-67d8" name="Panther Tank Platoon" hidden="false" collective="false" import="true" targetId="2203-1bbb-e22b-449f" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="2903-1d57-5f0c-6533" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
             <entryLink id="42e6-0ca3-fc0f-decb" name="Panzer IV/70 Tank Platoon" hidden="false" collective="false" import="true" targetId="b14f-65d1-9efe-4654" type="selectionEntry">
               <comment>Supposed to be a IV/70 TODO</comment>
+              <entryLinks>
+                <entryLink id="c9d0-4c70-8ede-a2cd" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1385,17 +1810,80 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db50-62ac-d149-67a8" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="e523-450c-737b-af7c" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </entryLink>
         <entryLink id="5e69-70c0-d27a-f7ad" name="Armoured Flame-Thrower Platoon" hidden="false" collective="false" import="true" targetId="5250-ced4-c1bf-761e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4482-9665-c945-1d6a" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="cb90-c87d-31cc-2278" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </entryLink>
         <entryLink id="1f30-d8dc-5263-64d7" name="Panzergrenadier Platoon" hidden="false" collective="false" import="true" targetId="55a6-8218-b0cc-b4b2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e9ac-487d-3146-3316" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bbc6-995d-2d1f-181a" type="min"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="9539-0766-ac86-f39d" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </entryLink>
         <entryLink id="092b-bdf6-59b6-4410" name="sMG34 Machine-Gun Platoon" hidden="false" collective="false" import="true" targetId="70de-b0db-5e7c-0816" type="selectionEntry">
           <constraints>
@@ -1406,9 +1894,30 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abef-3252-8deb-9262" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="09bc-f83e-055f-1c43" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </entryLink>
-        <entryLink id="359a-2a86-7a11-088d" name="Formation Warriors" hidden="false" collective="false" import="true" targetId="6b8c-14e3-45f5-8974" type="selectionEntryGroup"/>
-        <entryLink id="5748-5019-1ee0-d66e" name="Upgrade from Cards" hidden="false" collective="false" import="true" targetId="842c-067a-2a5c-e1a5" type="selectionEntryGroup">
+        <entryLink id="359a-2a86-7a11-088d" name="0. Formation Warriors" hidden="false" collective="false" import="true" targetId="6b8c-14e3-45f5-8974" type="selectionEntryGroup"/>
+        <entryLink id="5748-5019-1ee0-d66e" name="00. Upgrade from Cards" hidden="false" collective="false" import="true" targetId="842c-067a-2a5c-e1a5" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="6d47-27a2-35e1-a3b8" name="20th Panzer Division - NCO Shortage" hidden="false" collective="false" import="true" targetId="4e69-d686-c5e8-4657" type="selectionEntry"/>
           </entryLinks>
@@ -4851,11 +5360,27 @@
           <description>This unit always starts on the table in addition to the 60%of your force when using reserves.  Motivation becomes 5+ Counterattack 3+</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="4e69-d686-c5e8-4657" name="20th Panzer Division - NCO Shortage" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="4e69-d686-c5e8-4657" name="20th Panzer Division - NCO Shortage" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2334-5748-ef13-90d9" name="20th" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="668e-3fed-cb1b-86a2" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154b-8e81-205e-a5c4" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="-2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="6b8c-14e3-45f5-8974" name="Formation Warriors" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="6b8c-14e3-45f5-8974" name="0 - Formation Warriors" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4955-8460-b8a2-5645" type="max"/>
       </constraints>
@@ -4877,7 +5402,7 @@ Each turn you can re-roll 1 failed reserve roll</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="842c-067a-2a5c-e1a5" name="Upgrade from Cards" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="842c-067a-2a5c-e1a5" name="0 - Upgrade from Cards" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b9-6031-aea2-83ac" type="max"/>
       </constraints>
@@ -4977,19 +5502,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Heavy Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="82dc-d1f1-d542-a2b5" name="8cm mortar beach" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-      <characteristics>
-        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 5+</characteristic>
-        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 6</characteristic>
-        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
-        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">4&quot;/10cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
-        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
-      </characteristics>
-    </profile>
     <profile id="823e-b9ea-675e-e396" name="8cm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
@@ -5048,19 +5560,6 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="da94-2904-9dad-ee35" name="MG42 team beach" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
-      <characteristics>
-        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 5+</characteristic>
-        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">5+</characteristic>
-        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
-        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
-        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
     <profile id="5a75-4c2c-ef6c-0834" name="Tiger (8.8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
@@ -5417,6 +5916,45 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Bombs</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4ff1-656c-7981-2b1a" name="MG42 team - Sperrverband" publicationId="10a4-8008-66c3-952e" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ Counterattack 3+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5372-2da8-6b65-a0dd" name="MG42 team - 20th" publicationId="10a4-8008-66c3-952e" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 3+ Counterattack 5+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Tactics 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d2cf-5816-1d4a-7f62" name="MP40 SMG team - 20th" publicationId="10a4-8008-66c3-952e" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 3+ Counterattack 5+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Tactics 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
