@@ -4124,6 +4124,27 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4f79-3590-f3e0-0eb3" name="Platoon Warriors" hidden="false" collective="false" import="true" targetId="271c-45e2-2312-628f" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="0ecf-b13e-98dd-7389" name="Ludwig Windgruber" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="b44f-50c2-d11d-31b2" name="Ludwig Windgruber" hidden="false">
+                  <description>Unit leader always has Panzerfaust in addition to exisitng
+
+Unit hits on 2+ &amp; Counterattacks 3+</description>
+                </rule>
+              </rules>
+              <entryLinks>
+                <entryLink id="6f54-4d47-7cd3-d237" name="Warrior" hidden="false" collective="false" import="true" targetId="3bf7-7a62-ca18-c39d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -4303,7 +4324,15 @@
             <infoLink id="74cf-1d24-8d5f-5779" name="Stormtroopers" hidden="false" targetId="f61c-04e9-b2cc-0d94" type="rule"/>
             <infoLink id="f8cb-0507-f503-383e" name="Panther (MGs)" hidden="false" targetId="aa7d-a2c3-f0b7-8a62" type="profile"/>
             <infoLink id="2828-862f-2c2d-d071" name="Panther (7.5cm)" hidden="false" targetId="4140-fc83-9933-9b1d" type="profile"/>
-            <infoLink id="ad9f-2654-660e-b267" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile"/>
+            <infoLink id="ad9f-2654-660e-b267" name="Panther (7.5cm)" hidden="false" targetId="6666-de08-159f-cb24" type="profile">
+              <modifiers>
+                <modifier type="set" field="6334-745a-f712-a0aa" value="3+ Tactics 2+">
+                  <conditions>
+                    <condition field="selections" scope="6cab-ac9a-1c04-d231" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0df4-8937-92fb-b747" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="7a0e-c99a-f610-d0be" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a2fa-a3a4-be91-0489">
@@ -4368,7 +4397,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c01-4dc3-26d7-932c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3a41-043d-a71f-7ec4" name="Formation Warriors" hidden="false" collective="false" import="true" targetId="6b8c-14e3-45f5-8974" type="selectionEntryGroup">
+        <entryLink id="3a41-043d-a71f-7ec4" name="0 - Formation Warriors" hidden="false" collective="false" import="true" targetId="6b8c-14e3-45f5-8974" type="selectionEntryGroup">
           <selectionEntries>
             <selectionEntry id="58d1-674b-8d2e-5b4a" name="Friedrich Karl Nökel" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
@@ -4384,6 +4413,9 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="05b9-0d84-65ad-450c" name="Franz Bäke" hidden="false" collective="false" import="true" targetId="0df4-8937-92fb-b747" type="selectionEntry"/>
+          </entryLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -5536,6 +5568,25 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="cff0-2117-d7cd-65f1" name="Platoon Warriors" hidden="false" collective="false" import="true" targetId="271c-45e2-2312-628f" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="7ee5-2dae-2e2f-e0ea" name="Josef Schreiber" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="5b3c-92e7-6209-fc9a" name="Josef Schreiber" hidden="false">
+                  <description>In assaults, unit leader hits on 2+.  Unit counterattacks on 3+</description>
+                </rule>
+              </rules>
+              <entryLinks>
+                <entryLink id="604f-6845-8c2a-4b5d" name="Warrior" hidden="false" collective="false" import="true" targetId="3bf7-7a62-ca18-c39d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -6240,6 +6291,19 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="-2.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0df4-8937-92fb-b747" name="Franz Bäke" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="a170-3393-c760-51c4" name="Franz Bäke" hidden="false">
+          <description>Unit Leaders from this formation within 8&quot;/20cm and LOS of the formation commander have Tactis 2+</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink id="373c-c422-48ec-2378" name="Warrior" hidden="false" collective="false" import="true" targetId="3bf7-7a62-ca18-c39d" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6b8c-14e3-45f5-8974" name="0 - Formation Warriors" hidden="false" collective="false" import="true">
@@ -6267,6 +6331,11 @@ Each turn you can re-roll 1 failed reserve roll</description>
     <selectionEntryGroup id="842c-067a-2a5c-e1a5" name="0 - Upgrade from Cards" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b9-6031-aea2-83ac" type="max"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="271c-45e2-2312-628f" name="Platoon Warriors" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff6a-15f6-46cf-b317" type="max"/>
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
