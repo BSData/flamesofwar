@@ -1100,6 +1100,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3d53-94a0-f1a0-be13" name="Pakfront" hidden="false" collective="false" import="true" targetId="fe01-edde-baa4-48b3" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1464,6 +1467,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2db5-c873-ceae-d110" name="Machine-Gun Nests" hidden="false" collective="false" import="true" targetId="5ff0-3a53-c3b3-5467" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1613,6 +1619,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="3e0e-57cf-f63b-d9aa" name="Pakfront" hidden="false" collective="false" import="true" targetId="fe01-edde-baa4-48b3" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2498,6 +2507,27 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f4-3e50-03a3-7fc5" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="b65e-bc78-762f-bb33" name="20th" hidden="true" collective="false" import="true" targetId="2334-5748-ef13-90d9" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="668e-3fed-cb1b-86a2" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="154b-8e81-205e-a5c4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="9795-04f7-b042-f5b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e69-d686-c5e8-4657" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </entryLink>
         <entryLink id="6981-cb15-2995-a40c" name="8cm Mortar Platoon" hidden="false" collective="false" import="true" targetId="ad83-f9b3-bd18-bb69" type="selectionEntry">
           <constraints>
@@ -2617,6 +2647,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="340c-f85b-24ba-c363" name="Pakfront" hidden="false" collective="false" import="true" targetId="fe01-edde-baa4-48b3" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2689,6 +2722,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e19f-8fec-aee1-e337" name="Pakfront" hidden="false" collective="false" import="true" targetId="fe01-edde-baa4-48b3" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2763,6 +2799,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6a37-c60c-499a-2845" name="Pakfront" hidden="false" collective="false" import="true" targetId="fe01-edde-baa4-48b3" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2822,6 +2861,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="17c1-3db8-c727-da9a" name="Machine-Gun Nests" hidden="false" collective="false" import="true" targetId="5ff0-3a53-c3b3-5467" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -3437,6 +3479,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3e3c-aafd-03bf-71c4" name="Pakfront" hidden="false" collective="false" import="true" targetId="fe01-edde-baa4-48b3" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -3643,6 +3688,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="31de-e45c-af2d-17b8" name="Pakfront" hidden="false" collective="false" import="true" targetId="fe01-edde-baa4-48b3" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -3867,6 +3915,10 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7d23-3f18-be8f-b1b2" name="0 - Upgrade from Cards" hidden="false" collective="false" import="true" targetId="842c-067a-2a5c-e1a5" type="selectionEntryGroup"/>
+        <entryLink id="c02d-30e0-eb40-cfec" name="Pakfront" hidden="false" collective="false" import="true" targetId="fe01-edde-baa4-48b3" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -3977,6 +4029,9 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="1d34-bb4b-52ec-b81c" name="Pakfront" hidden="false" collective="false" import="true" targetId="fe01-edde-baa4-48b3" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
@@ -4144,6 +4199,7 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
+        <entryLink id="38a2-7e29-169c-df54" name="Machine-Gun Nests" hidden="false" collective="false" import="true" targetId="5ff0-3a53-c3b3-5467" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -4548,6 +4604,9 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b50e-46ed-45b9-e89a" name="Pakfront" hidden="false" collective="false" import="true" targetId="fe01-edde-baa4-48b3" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -6304,6 +6363,44 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5ff0-3a53-c3b3-5467" name="Machine-Gun Nests" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfb7-d2fe-e2f8-ee49" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="7201-afba-702f-6731" name="Machine-Gun Nests" hidden="false">
+          <description>sMG34 or sMG42 HMG teams in this unit cannot move, but can rotate to face target when shooting and are Nests.  Each HMG team is a separate Independent Team</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="61c2-cccf-3714-72cb" name="Nest" hidden="false" targetId="cd91-ebea-58fa-9f14" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="40d6-328d-7ed2-3e83" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe01-edde-baa4-48b3" name="Pakfront" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e66-f8ab-f64e-ad13" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="b368-c3f6-a485-71d7" name="Pakfront" hidden="false">
+          <description>gun teams in this unit cannot move, but can rotate to face target when shooting and are Nests.  Each gun team is a separate Independent Team</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="32e2-55a1-04ce-fc78" name="Nest" hidden="false" targetId="cd91-ebea-58fa-9f14" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="790c-185c-4ac4-6d07" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6b8c-14e3-45f5-8974" name="0 - Formation Warriors" hidden="false" collective="false" import="true">
@@ -6367,6 +6464,9 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
     </rule>
     <rule id="d2a0-cce6-81b6-b903" name="Unit Transport" hidden="false">
       <description>The Unit Leader of the Transport Attachment must end the Movement Step within 6&quot;/15cm of the Unit Leader of its Passenger Unit while on the table. If it cannot do this, then the Transport Attachment must be Sent to the Rear (see page 45 of the rulebook)</description>
+    </rule>
+    <rule id="cd91-ebea-58fa-9f14" name="Nest" hidden="false">
+      <description>Concelaed and Bulletproof cover. Successful firepower tests must be rerolled.  Cannot charge into contact</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
