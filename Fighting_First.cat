@@ -157,7 +157,7 @@
         <categoryLink id="f237-983c-5173-aae3" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="863a-1f96-3d78-e42c" name="Armoured Rifle Platoon" hidden="false" collective="false" import="true" targetId="7e2a-85f2-9e1a-8903" type="selectionEntry">
+    <entryLink id="863a-1f96-3d78-e42c" name="Armored Rifle Platoon" hidden="false" collective="false" import="true" targetId="7e2a-85f2-9e1a-8903" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63c-d9c9-0e8c-6021" type="max"/>
       </constraints>
@@ -173,6 +173,19 @@
     <entryLink id="2f45-ef60-5ea2-61f4" name="Rifle Company" hidden="false" collective="false" import="true" targetId="b231-e4f7-7419-485a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3706-bc12-aa9e-74f7" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dbed-87d5-c9cc-b1d4" name="M10 Tank Destroyer Company" hidden="false" collective="false" import="true" targetId="80bf-bd90-dc35-e122" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1af3-8179-8ee1-8a84" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5a3f-9c42-05a3-543b" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" targetId="0483-e869-aaaf-bfe0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="188f-1075-4694-7a95" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c6e7-fdfd-94b0-0501" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1772,60 +1785,6 @@
         <categoryLink id="876e-ac82-75a2-47af" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7d26-1cb9-a3b9-a141" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6040-064d-a05d-fd5c" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="43ce-4fbe-679e-7d81" name="M10 (3-inch)" hidden="false" targetId="40d7-bce4-4ee3-764f" type="profile"/>
-            <infoLink id="cf03-4b31-9df9-0d40" name="M10 (50 .cal MG)" hidden="false" targetId="3ef5-4538-01b7-53dd" type="profile"/>
-            <infoLink id="97f7-4f5b-af57-5d13" name="Seek, Strike and Destroy" hidden="false" targetId="8ea7-9613-612d-07d2" type="rule"/>
-            <infoLink id="e0a9-6ba9-0e1b-51f4" name="M10 (3-inch)" hidden="false" targetId="6b91-8689-3d30-5af5" type="profile"/>
-            <infoLink id="c703-17fa-17f8-b83a" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
-            <infoLink id="080a-46a5-a3b7-fd0e" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="32fd-a1c0-306d-bf15" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edb0-551b-095f-b10b" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="87ad-5318-f334-1814" name="Favourable Position" hidden="false" collective="false" import="true" targetId="6acf-f88e-1916-6cf2" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="1065-e613-741e-effc" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed83-e04d-eaf7-c15d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3480-43dc-2dd3-8d6c" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="ecec-98ef-a09c-f8ba" name="3x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="b316-cd45-c555-6e2a" name="4x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="bbd6-ba0b-6aac-2ddf" name="2x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="f56f-c7fd-5fc1-c4f1" name="M10 Tank Destroyer Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e67-7a6b-1727-eb20" type="min"/>
@@ -1840,292 +1799,39 @@
             <infoLink id="028f-3b72-9574-9487" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="bab3-3422-b2f8-9eaa" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ffd3-c520-1b6c-00e5" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7206-fec0-84c9-d72f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35c5-4f5d-4607-bfa4" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d98e-e68f-8615-0def" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="c391-0166-701f-6d34" name="One Objective" hidden="false" collective="false" import="true" targetId="8b3c-ed7d-e140-5d20" type="selectionEntry"/>
-                <entryLink id="26ee-d954-83b1-bdd7" name="Hidden in Plain Sight" hidden="false" collective="false" import="true" targetId="6d6d-7d51-7e92-fb62" type="selectionEntry"/>
-                <entryLink id="2dfa-3b03-cf80-a569" name="Ferocious Valor" hidden="false" collective="false" import="true" targetId="c3b6-cb5e-3f21-bbda" type="selectionEntry"/>
-                <entryLink id="0296-d9e6-b2aa-845f" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="6661-ac00-e7ce-eaea" type="selectionEntry"/>
-                <entryLink id="5475-7898-5b24-84bb" name="Marksman" hidden="false" collective="false" import="true" targetId="2f8f-c3a8-1bff-496a" type="selectionEntry"/>
-                <entryLink id="ff25-d10c-34c2-2459" name="Charmed Life" hidden="false" collective="false" import="true" targetId="4e79-80b7-05c4-878e" type="selectionEntry"/>
-                <entryLink id="fecc-8d6c-fb33-1ac4" name="True Grit" hidden="false" collective="false" import="true" targetId="876b-869f-231c-103d" type="selectionEntry"/>
-              </entryLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="309f-d041-c297-8b2b" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32bf-7325-dd71-c428" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="091b-f918-aa18-0c2e" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="f925-62df-36ec-9a51" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0853-729a-5835-9ca0" name="Armoured Recon Patrol" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5829-2eac-56b6-4ee0" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="19f5-74d5-3708-ab38" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-            <infoLink id="52ba-6bbb-c1c5-31de" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-            <infoLink id="2965-7d1d-c023-f1ab" name="M3A1 Armoured Car" hidden="false" targetId="6036-2995-b0e7-56f3" type="profile"/>
-            <infoLink id="f475-03a9-3950-3206" name="Jeep (60mm)" hidden="false" targetId="3916-f38c-d6e0-861f" type="profile"/>
-            <infoLink id="dcd6-e782-2004-727a" name="Jeep (60mm)" hidden="false" targetId="0fbc-f0df-f484-8354" type="profile"/>
-            <infoLink id="509b-51c3-9e46-7eb2" name="M3A1 (MGs)" hidden="false" targetId="1786-47be-bae4-7203" type="profile"/>
-            <infoLink id="fce4-5c75-ace6-f1d5" name="M3A1 (.50 cal MG)" hidden="false" targetId="b6fa-bcf0-f4df-e5f1" type="profile"/>
-            <infoLink id="e1cb-072e-9dba-1344" name="Jeep (MG)" hidden="false" targetId="f168-e35f-0b1c-4be2" type="profile"/>
-            <infoLink id="c918-bbb1-c06e-9c6e" name="Jeep (MG)" hidden="false" targetId="fe80-fa6b-d189-5366" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="e799-af4b-f35b-dc16" name="2x M3A1 armoured car" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d0a-6fcb-38e2-3b7d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3650-d3c3-d853-554c" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="54f6-6015-03f9-4964" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6c50-6e0e-e62a-7c14" name="1x Jeep (MG)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1406-08a8-9a64-769d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7f3-8a6d-4e7e-ab24" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="69aa-9abd-40a3-b2ec" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a7ea-bea0-c9b7-838e" name="1x Jeep (60mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6b1-69bd-36c8-9b0c" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b767-5cd4-0809-5336" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5e05-53a3-be3f-3f36" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e69d-198b-c15b-8287" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="a03f-458f-01ae-934b" name="Old ironsides" hidden="false" collective="false" import="true" targetId="7ccd-a20f-cf3a-dfec" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d75a-318d-b9f6-7322" name="Armoured Recon Patrol" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc72-77b5-7896-7d82" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="d4d3-fb0a-3310-e1bb" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-            <infoLink id="93dd-7e04-5541-64d3" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-            <infoLink id="04d7-338f-478e-4d53" name="M3A1 Armoured Car" hidden="false" targetId="6036-2995-b0e7-56f3" type="profile"/>
-            <infoLink id="5971-d52b-e91a-548f" name="Jeep (60mm)" hidden="false" targetId="3916-f38c-d6e0-861f" type="profile"/>
-            <infoLink id="400c-4a6f-a696-1e79" name="Jeep (60mm)" hidden="false" targetId="0fbc-f0df-f484-8354" type="profile"/>
-            <infoLink id="c948-25d6-b097-46e0" name="M3A1 (MGs)" hidden="false" targetId="1786-47be-bae4-7203" type="profile"/>
-            <infoLink id="85e4-5dc4-f6d0-495b" name="M3A1 (.50 cal MG)" hidden="false" targetId="b6fa-bcf0-f4df-e5f1" type="profile"/>
-            <infoLink id="7f8a-1253-e530-ec0d" name="Jeep (MG)" hidden="false" targetId="f168-e35f-0b1c-4be2" type="profile"/>
-            <infoLink id="1071-9e26-ee65-edba" name="Jeep (MG)" hidden="false" targetId="fe80-fa6b-d189-5366" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="a957-04ee-0926-50d0" name="2x M3A1 armoured car" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c34c-53c0-d52a-0811" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35ae-1fba-de09-1a16" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1020-cd60-b775-9f88" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bf76-209a-9c42-a8f4" name="1x Jeep (MG)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a7-18a1-0992-fc76" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="650f-c6b4-0f11-5da9" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="5522-8060-dcdd-5b9d" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="251a-08ae-6dbe-5cf5" name="1x Jeep (60mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="858b-7509-10e9-4256" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e368-3552-67f7-af29" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6320-b071-1c43-1051" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec25-ea88-e096-4cae" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="92f9-1d4b-21b5-abb9" name="Old ironsides" hidden="false" collective="false" import="true" targetId="7ccd-a20f-cf3a-dfec" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a6c3-a8b6-3f43-afe3" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59c7-4876-081e-2cc3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d3d-aaf7-16b3-d09a" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="affb-e8a8-3434-3e0c" name="M10 (3-inch)" hidden="false" targetId="40d7-bce4-4ee3-764f" type="profile"/>
-            <infoLink id="a7a6-96c9-1a7f-0193" name="M10 (50 .cal MG)" hidden="false" targetId="3ef5-4538-01b7-53dd" type="profile"/>
-            <infoLink id="c4df-572a-54d6-7f48" name="Seek, Strike and Destroy" hidden="false" targetId="8ea7-9613-612d-07d2" type="rule"/>
-            <infoLink id="9f20-8805-04c0-04b5" name="M10 (3-inch)" hidden="false" targetId="6b91-8689-3d30-5af5" type="profile"/>
-            <infoLink id="ec75-aac4-6bbb-9818" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
-            <infoLink id="f6be-f85c-18fb-ceef" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="e318-83fa-dda7-d124" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbdd-03a5-6710-e0f0" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="e930-8033-de6e-f9b6" name="Favourable Position" hidden="false" collective="false" import="true" targetId="6acf-f88e-1916-6cf2" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="caf9-94a9-ce1f-ce39" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7889-b787-fe6c-1880" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b910-184b-04a5-8820" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="3c0c-9f2c-f84b-e64a" name="3x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="8d15-6f33-9851-46d2" name="4x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="81e7-28d1-1f2c-59a8" name="2x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5806-f85b-ed37-7672" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9776-fd63-f68a-9b03" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25a3-b916-c174-e2d0" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="5d6b-3ffb-8e85-9089" name="M10 (3-inch)" hidden="false" targetId="40d7-bce4-4ee3-764f" type="profile"/>
-            <infoLink id="d2e0-d98b-9f63-7869" name="M10 (50 .cal MG)" hidden="false" targetId="3ef5-4538-01b7-53dd" type="profile"/>
-            <infoLink id="ea07-5c01-384d-d1da" name="Seek, Strike and Destroy" hidden="false" targetId="8ea7-9613-612d-07d2" type="rule"/>
-            <infoLink id="1283-e6ae-f5f7-559d" name="M10 (3-inch)" hidden="false" targetId="6b91-8689-3d30-5af5" type="profile"/>
-            <infoLink id="3e6e-ffbb-07eb-3b78" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
-            <infoLink id="ab9e-8d22-43de-9357" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="eb5a-8acc-61a9-8a5c" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08c5-caad-df76-2090" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="00bc-e66e-82b8-6038" name="Favourable Position" hidden="false" collective="false" import="true" targetId="6acf-f88e-1916-6cf2" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="622b-e615-6ac6-4861" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb17-f361-8dff-d135" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2815-d78d-eff6-fe98" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="b097-77ce-270f-244b" name="3x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d64f-2e14-f805-db04" name="4x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="f733-bda6-0eaf-bf7b" name="2x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="6853-14e7-b5fe-6dd7" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" targetId="0483-e869-aaaf-bfe0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd22-3e82-9459-ede5" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e82-9a2f-3afc-86fa" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b6a3-6f07-0fea-ef47" name="Armored Recon Patrol" hidden="false" collective="false" import="true" targetId="7ed6-7294-4b67-cb58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e7b-008c-8757-7786" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0483-e869-aaaf-bfe0" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c6c-e047-8595-517f" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="5aa4-2a72-2bc4-841f" name="M10 (3-inch)" hidden="false" targetId="40d7-bce4-4ee3-764f" type="profile"/>
         <infoLink id="2e5e-1e4f-7316-2ac4" name="M10 (50 .cal MG)" hidden="false" targetId="3ef5-4538-01b7-53dd" type="profile"/>
@@ -2137,21 +1843,8 @@
       <categoryLinks>
         <categoryLink id="0b33-3e80-4d76-550e" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="c2e5-8366-0876-dd3b" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc81-148a-f3f8-f9f3" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="b874-7bf0-b3d0-7af6" name="Favourable Position" hidden="false" collective="false" import="true" targetId="6acf-f88e-1916-6cf2" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="da6b-1037-c334-8093" name="Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="da6b-1037-c334-8093" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="77e1-d02c-d261-da0b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70a1-1b98-f9c3-4dad" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98f1-d5da-ef3d-b1df" type="max"/>
@@ -2322,6 +2015,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="21b8-0f4c-0435-3d14" name="M3A1 Armored Recon Company" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>???</comment>
       <categoryLinks>
         <categoryLink id="7fe0-aabd-840c-47b3" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
@@ -3509,21 +3203,17 @@
             <infoLink id="ae9e-92c5-eaf9-3fc7" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
             <infoLink id="6113-18a8-0eb6-9a4f" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
           </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="a145-0f90-f79e-24e6" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="0a98-03dc-dabb-8ca2">
+          <selectionEntries>
+            <selectionEntry id="db1d-eb14-6032-4d19" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58c2-253a-e94d-a901" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f947-54fa-9187-1f25" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db5f-ebe9-8094-4067" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcbc-8734-b013-4a9c" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="0a98-03dc-dabb-8ca2" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -4275,7 +3965,7 @@
     <profile id="1120-8305-2241-5684" name="M3 Stuart (37mm) tank D" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 5+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
         <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
