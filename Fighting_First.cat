@@ -5879,6 +5879,16 @@
         <categoryLink id="0a10-559a-baec-a92c" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="ee66-dc3d-2ff8-693c" name="Ranger Platoon" hidden="false" collective="false" import="true" targetId="8308-ba93-d7bf-2c92" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a096-d4ab-4b1f-c207" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="d8dd-099f-7109-7617" name="Ranger Company" hidden="false" collective="false" import="true" targetId="dc6f-a5aa-c42c-8f29" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="462a-68f7-8d2a-b039" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f3b4-2d36-74d5-75e4" name="Captured Tank" hidden="false" collective="false" import="true" type="upgrade">
@@ -6195,59 +6205,85 @@
     <selectionEntry id="8308-ba93-d7bf-2c92" name="Ranger Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8cd6-5a05-e1bb-5bd5" name="Observer" hidden="false" targetId="0e97-34d8-2789-4ae8" type="rule"/>
-        <infoLink id="21cd-2904-a3fb-b046" name="M1 Garand rifle team Ranger" hidden="false" targetId="e919-22e5-652d-2ce8" type="profile"/>
         <infoLink id="5e08-6551-ba49-331b" name="M1 Garand rifle team" hidden="false" targetId="3835-2fb5-3ba0-e286" type="profile"/>
+        <infoLink id="4665-1dc4-8d5c-7013" name="M1 Garand rifle team" hidden="false" targetId="e919-22e5-652d-2ce8" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2c56-a399-bc15-dd8f" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="53a7-a37b-37f9-79bf" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="85fe-f364-eae9-102f" name="Add 60mm Mortar team" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="088f-8224-ffca-acb8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39d7-0552-007b-5cf3" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="bdcc-ce6c-96a7-175f" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="11ba-c1c1-e3e8-2dcb" type="selectionEntry"/>
-            <entryLink id="28c9-777f-c15f-8778" name="Dead Eye" hidden="false" collective="false" import="true" targetId="c6ac-c5be-7bfc-e0c5" type="selectionEntry"/>
-          </entryLinks>
+          <profiles>
+            <profile id="f52f-9056-913a-fba3" name="60mm mortar team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+                <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 3, Heavy Weapon</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5a3f-9cb3-c450-7a43" name="Assault 3+" hidden="false" targetId="8e04-1fed-e341-7e82" type="rule"/>
+            <infoLink id="922a-66e5-9b3f-eae6" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+          </infoLinks>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="432e-86ce-06d3-6e41" name="Replace M1 Garand w/ M1919 LMG teams" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71d7-c4e3-22f9-8cc0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="264f-003c-96df-353d" name="M1919 team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
+                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+                <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 3, Heavy Weapon</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ea73-838b-62a1-67c6" name="Assault 3+" hidden="false" targetId="8e04-1fed-e341-7e82" type="rule"/>
+            <infoLink id="5691-d912-b609-3413" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="f637-a8f8-077e-1f87" name="Replace M1 Garand w/ Bazooka teams" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7876-317e-3de0-57e5" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4d96-470f-6a0e-01ed" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+            <infoLink id="d471-b175-4983-b520" name="M1 Bazooka team" hidden="false" targetId="f8c6-cba4-c775-2669" type="profile"/>
+            <infoLink id="7367-2ebb-5e6e-a842" name="Assault 3+" hidden="false" targetId="8e04-1fed-e341-7e82" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f1c7-6472-a436-e02b" name="Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f1c7-6472-a436-e02b" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="d67b-2498-968b-d366">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81cc-9733-349d-b26a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7027-ec64-5c43-f5da" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d67b-2498-968b-d366" name="7x M1 Garand" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="90fb-87fb-b025-4fe8" name="7x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9046-9a20-7b18-dec5" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e2b-922a-ed99-3eb7" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d676-59af-b083-275c" name="1x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d81d-a465-6843-dade" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faf4-7430-a5d5-cd1a" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="e8c9-5286-882b-3e6b" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                    <infoLink id="be28-ccd2-4b40-3dd5" name="M1 Bazooka team Ranger" hidden="false" targetId="f8c6-cba4-c775-2669" type="profile"/>
-                    <infoLink id="852f-0283-b46b-317d" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+            <selectionEntry id="d67b-2498-968b-d366" name="5x M1 Garand rifile teams" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7d92-91b5-d32f-4995" name="7x M1 Garand rifile teams" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
               </costs>
@@ -6306,21 +6342,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="867b-8abf-9636-bf0d" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="5ce8-ed09-5712-f8b8" name="M1 Bazooka team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-              <comment>Para</comment>
-              <characteristics>
-                <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm</characteristic>
-                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
-                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-                <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Slow Firing</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <infoLinks>
             <infoLink id="dd09-86d3-2e60-9993" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+            <infoLink id="e238-963e-8b1f-659b" name="M1 Bazooka team" hidden="false" targetId="79cb-ae93-db5f-e012" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
@@ -6399,19 +6423,10 @@
                 <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
               </characteristics>
             </profile>
-            <profile id="6542-da76-aba5-247e" name="M1 Carbine team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="c2e5-4990-8105-f793">12&quot;/30cm</characteristic>
-                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
-                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-                <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-              </characteristics>
-            </profile>
           </profiles>
           <infoLinks>
             <infoLink id="65be-3a12-3399-929e" name="Airborne" hidden="false" targetId="b040-e110-3b7c-1a3a" type="rule"/>
+            <infoLink id="f3a9-836f-139a-3a07" name="M1 Carbine team" hidden="false" targetId="fb28-1f79-442c-5cc7" type="profile"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="d228-f2ed-e4d8-6198" name="2x M1 Carbine team" hidden="false" collective="false" import="true" type="upgrade">
@@ -6534,6 +6549,117 @@
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="553a-8267-78fe-5acf" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f076-19da-0bb6-e3c0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc6f-a5aa-c42c-8f29" name="Ranger Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="e1b2-f0cb-60bd-d335" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8e2b-2d55-e656-b75b" name="Ranger Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1309-642f-9c4f-db0f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d288-a95b-2b4a-bc59" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="04b7-0346-074e-2912" name="M1 Carbine team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+              <comment>Ranger</comment>
+              <characteristics>
+                <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ Rally 2+</characteristic>
+                <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
+                <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
+                <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+                <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">14&quot;/35cm</characteristic>
+                <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">14&quot;/35cm</characteristic>
+                <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e07d-6460-df8a-93e2" name="M1 Carbine team" hidden="false" targetId="fb28-1f79-442c-5cc7" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="3306-434f-bebc-3062" name="1x M1 Carbine Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be55-e516-0393-3cd8" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0432-46fb-c8fc-2246" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0c5d-5d43-049f-d51e" name="Ranger Mortar Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49f5-5de4-4ef9-e76b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b6cf-7361-f523-cfea" name="81mm mortar team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+              <comment>Ranger</comment>
+              <characteristics>
+                <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ Rally 2+</characteristic>
+                <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 4+</characteristic>
+                <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
+                <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+                <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">4&quot;/10cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
+                <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
+                <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5448-abe5-8d22-bbd4" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+            <infoLink id="eb8a-2f6e-6c96-8da1" name="81mm mortar team" hidden="false" targetId="63fe-d3f0-0a3a-022f" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1998-3799-b246-d14a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6849-d165-51b6-10c3">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9706-a9ee-b560-09d3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0221-ddc8-359c-5b87" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="6849-d165-51b6-10c3" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3583-1b92-c0f7-4cf1" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="af16-9924-05e4-5972" name="Ranger Platoon" hidden="false" collective="false" import="true" targetId="8308-ba93-d7bf-2c92" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ede0-e1e3-a098-f1bf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f49-5b4e-a482-5041" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="35e7-13ea-aca6-2fb5" name="Ranger Platoon" hidden="false" collective="false" import="true" targetId="8308-ba93-d7bf-2c92" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="58e6-172b-7633-5fda" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d86-8501-a0ec-7e7f" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -7306,10 +7432,11 @@
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="e919-22e5-652d-2ce8" name="M1 Garand rifle team Ranger" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="e919-22e5-652d-2ce8" name="M1 Garand rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+      <comment>Ranger</comment>
       <characteristics>
-        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
-        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">5+ Assault 3+</characteristic>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ Rally 2+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -7319,14 +7446,15 @@
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="f8c6-cba4-c775-2669" name="M1 Bazooka team Ranger" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+    <profile id="f8c6-cba4-c775-2669" name="M1 Bazooka team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>Ranger</comment>
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Slow Firing</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 3+, Slow Firing</characteristic>
       </characteristics>
     </profile>
     <profile id="fb4a-9478-4688-be9d" name="75mm pack howitzer" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
