@@ -142,6 +142,16 @@
         <categoryLink id="4931-dec6-a13e-657e" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="7610-0383-cd56-4a70" name="M3 Lee Tank Company" hidden="false" collective="false" import="true" targetId="76e2-2f20-67ed-dd9c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="770f-b493-f62a-5830" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="086b-61f1-8ee2-8707" name="M3 Stuart Tank Company" hidden="false" collective="false" import="true" targetId="361b-17f4-8b79-0f2a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e1d1-b57c-0deb-c757" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f3b4-2d36-74d5-75e4" name="Captured Tank" hidden="false" collective="false" import="true" type="upgrade">
@@ -3167,659 +3177,6 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ffe5-7bc7-8419-4459" name="M3 Lee Tank Company" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="8b7a-99d3-3f14-ab58" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="edd9-be6a-c7c0-f506" name="M3 Lee Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d62-92cf-0255-6969" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd42-f1c9-639b-3ec2" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b71c-6b79-c870-b847" name="M3 Lee (short 75mm)" hidden="false" targetId="0bb5-8947-9a57-7f0b" type="profile"/>
-            <infoLink id="4ba9-f326-6e70-e0de" name="M3 Lee (MGs)" hidden="false" targetId="4cbd-ff24-130a-b16c" type="profile"/>
-            <infoLink id="7627-2477-03de-fc1d" name="M3 Lee Turret (37mm)" hidden="false" targetId="f60d-12d4-1d35-6f5c" type="profile"/>
-            <infoLink id="8d4a-4235-7377-34eb" name="M3 Lee Hull (short 75mm)" hidden="false" targetId="e9d6-eb06-dd1e-e22f" type="profile"/>
-            <infoLink id="3c1c-452d-0b8c-daa2" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="d912-a096-13b2-67f9" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-            <infoLink id="2919-c834-92fe-622d" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-            <infoLink id="a23f-a65d-870c-e7b9" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-            <infoLink id="0deb-9277-c39c-13ce" name="Secondary Weapon" hidden="false" targetId="b325-44a2-31d9-a812" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="a786-a64c-205d-83d5" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e261-97ac-0fcf-a602" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="f2ea-2ea4-9c75-a04f" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="6661-ac00-e7ce-eaea" type="selectionEntry"/>
-                <entryLink id="139d-a521-91ba-b5cf" name="Ferocious Valor" hidden="false" collective="false" import="true" targetId="c3b6-cb5e-3f21-bbda" type="selectionEntry"/>
-                <entryLink id="80b0-6db0-11aa-f9c2" name="Hidden in Plain Sight" hidden="false" collective="false" import="true" targetId="6d6d-7d51-7e92-fb62" type="selectionEntry"/>
-                <entryLink id="fd76-2a3a-68b3-c45a" name="Palm of Victory" hidden="false" collective="false" import="true" targetId="e782-3645-6d72-8344" type="selectionEntry"/>
-                <entryLink id="c71c-c365-cab7-e8be" name="True Grit" hidden="false" collective="false" import="true" targetId="876b-869f-231c-103d" type="selectionEntry"/>
-                <entryLink id="7928-3c03-11d9-cf47" name="Marksman" hidden="false" collective="false" import="true" targetId="2f8f-c3a8-1bff-496a" type="selectionEntry"/>
-                <entryLink id="23d4-d3c3-34c6-c5b7" name="Charmed Life" hidden="false" collective="false" import="true" targetId="4e79-80b7-05c4-878e" type="selectionEntry"/>
-                <entryLink id="aadc-7faf-2951-8a81" name="Old ironsides" hidden="false" collective="false" import="true" targetId="7ccd-a20f-cf3a-dfec" type="selectionEntry"/>
-                <entryLink id="2729-7fcc-4dfe-0b32" name="It Shall be Done" hidden="false" collective="false" import="true" targetId="f375-bf5b-e17d-75f8" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="1ee4-9dfc-5b16-c229" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d099-4543-aefb-1820" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d699-5fba-8b6c-b3ce" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="134a-a788-5eee-00a8" name="2x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="1c3b-9a08-6852-3e3c" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6450-6e37-1f6a-afb9" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="d45a-9eef-a68d-9f66" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a801-b86c-c208-b82e" name="1x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="8a85-fd7b-2628-185c" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eaa-1dd6-6760-9868" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="a656-fa77-1b7e-373b" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5465-58e8-3c24-df97" name="81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d22-5164-2330-b783" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="e2e3-3fdf-6634-981e" name="M4 (81mm mortar)" hidden="false" targetId="272b-84fb-5a06-7b12" type="profile"/>
-            <infoLink id="f3d6-7b62-d89a-e159" name="M4 (.30 cal MG)" hidden="false" targetId="32b3-2854-cf0f-f3e9" type="profile"/>
-            <infoLink id="876a-2470-5903-96c6" name="M4 (81mm mortar)" hidden="false" targetId="3b6f-ee89-ee87-f667" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="cbc6-f00e-1fa0-108e" name="3x M4 (81mm mortar)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca61-0c49-b5c0-d2b9" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0482-929b-d3f5-9472" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="791b-96c1-30eb-b66b" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-                <infoLink id="d3f4-c3a7-f932-69d2" name="Rear Firing" hidden="false" targetId="e9e5-f5de-e0ef-9e90" type="rule"/>
-                <infoLink id="9dca-ce5e-b46f-6dec" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5552-5e87-d852-68ac" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4c5-970e-1a5f-9353" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="16b1-3f13-b071-5f69" name="Old ironsides" hidden="false" collective="false" import="true" targetId="7ccd-a20f-cf3a-dfec" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6988-e439-69dd-3e2d" name="T30 75mm Assault Gun Platoon" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c3e-cb3c-c1f0-3db8" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="491b-640d-74ea-6733" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-            <infoLink id="776c-61d4-8447-e14e" name="T30 (75mm)" hidden="false" targetId="dfe6-2ccc-69b4-44ae" type="profile"/>
-            <infoLink id="22c6-d7a5-1307-c5a1" name="T30 (.50 cal MG)" hidden="false" targetId="3ae2-0d69-870e-fd71" type="profile"/>
-            <infoLink id="4f9d-7e6a-c82d-4f2b" name="T30 (75mm) Direct Fire" hidden="false" targetId="b85d-fcb9-214a-f967" type="profile"/>
-            <infoLink id="c347-e1ec-f9fb-c7f8" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-            <infoLink id="a117-d822-60ed-2432" name="T30 (75mm)" hidden="false" targetId="2bfd-25c4-de79-2364" type="profile"/>
-            <infoLink id="51df-b163-6318-0e0f" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="063d-bfdc-b0f9-d01a" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-            <infoLink id="59f8-8b26-40d9-d6a1" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="9675-8823-1f27-be1f" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7740-e7d4-c5be-26dd" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="4524-cfa6-0b1e-e6f6" name="Old ironsides" hidden="false" collective="false" import="true" targetId="7ccd-a20f-cf3a-dfec" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="6d5f-8540-62a6-0e94" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="329e-1d47-50da-67d8" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afc2-8a05-3022-5006" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="9013-5af0-cc5f-a2ba" name="2x T30 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="c11a-9a68-eb7b-de7d" name="3x T30 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0eb4-62c6-97ef-1c02" name="Armoured Recon Patrol" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d75-8820-4d65-1b1d" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="d1b2-0067-f068-c24b" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-            <infoLink id="1524-18f5-8596-73b0" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-            <infoLink id="81cc-7e47-c492-8d0a" name="M3A1 Armoured Car" hidden="false" targetId="6036-2995-b0e7-56f3" type="profile"/>
-            <infoLink id="d9da-3a41-13bd-0b4d" name="Jeep (60mm)" hidden="false" targetId="3916-f38c-d6e0-861f" type="profile"/>
-            <infoLink id="707a-155a-f591-6727" name="Jeep (60mm)" hidden="false" targetId="0fbc-f0df-f484-8354" type="profile"/>
-            <infoLink id="02a3-d9d1-0b99-6111" name="M3A1 (MGs)" hidden="false" targetId="1786-47be-bae4-7203" type="profile"/>
-            <infoLink id="b00f-5ba6-37bb-2ad9" name="M3A1 (.50 cal MG)" hidden="false" targetId="b6fa-bcf0-f4df-e5f1" type="profile"/>
-            <infoLink id="76a0-86af-0f1d-7d66" name="Jeep (MG)" hidden="false" targetId="f168-e35f-0b1c-4be2" type="profile"/>
-            <infoLink id="a545-1c6a-547b-0c5a" name="Jeep (MG)" hidden="false" targetId="fe80-fa6b-d189-5366" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="01be-eec6-eee4-0a78" name="2x M3A1 armoured car" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de0b-dae3-4718-3144" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c1-487c-ee74-e0e2" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="e8a0-9ef2-4f78-5aab" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bd5a-b9a7-1efa-fda4" name="1x Jeep (MG)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d3a-912c-9f3e-7841" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c226-d780-2087-8afa" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="8bcc-5a01-b6d0-b31b" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="19d0-6d69-df04-a1a8" name="1x Jeep (60mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ba-2e18-e135-fee5" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61af-d2c4-8d52-acb8" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d270-f006-7ed1-889e" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9397-3a17-365d-e5e4" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="f93f-d5fb-f85c-6a20" name="Old ironsides" hidden="false" collective="false" import="true" targetId="7ccd-a20f-cf3a-dfec" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f9bc-8e47-b908-350c" name="M3 Lee Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21ff-9014-44bd-e21b" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="dae1-a4ab-e93f-d97d" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-            <infoLink id="0f33-0262-e592-f040" name="M3 Lee Turret (37mm)" hidden="false" targetId="f60d-12d4-1d35-6f5c" type="profile"/>
-            <infoLink id="d722-c52e-dda0-a7ec" name="M3 Lee Hull (short 75mm)" hidden="false" targetId="e9d6-eb06-dd1e-e22f" type="profile"/>
-            <infoLink id="1bd9-43d9-1f84-9db6" name="M3 Lee (short 75mm)" hidden="false" targetId="0bb5-8947-9a57-7f0b" type="profile"/>
-            <infoLink id="d12b-cbd5-2675-545c" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="020b-b9b7-fcc6-6a38" name="M3 Lee (MGs)" hidden="false" targetId="4cbd-ff24-130a-b16c" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="4a96-7154-c7fc-336e" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b71a-d525-5955-4e52" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="4dc6-9a94-5730-1aad" name="It Shall be Done" hidden="false" collective="false" import="true" targetId="f375-bf5b-e17d-75f8" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="afd6-2f00-d1cf-83ab" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a8c-e93e-859c-8bf2" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af1d-7c29-ef04-cc5f" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="4e4c-29c4-bde2-23e7" name="3x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="b7f4-1ac8-5196-42ba" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb8b-a575-2ff1-5844" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="dbb4-c74d-f23f-d2ef" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="780f-d187-d139-ee53" name="4x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="6412-5e2f-c4a0-6096" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3f6-4e42-6236-36cb" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="4817-6daf-2ba2-4206" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="0f7b-ab94-8029-081e" name="5x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="f246-c117-b7e0-2bd8" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1044-f2d1-26e7-a4b8" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="1d81-fd45-9991-df33" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ca6c-8768-cc03-36e4" name="M3 Lee Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f572-dc77-08e6-ed9a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb2-8ab7-69c7-5037" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b687-95a2-a8ef-ad6e" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-            <infoLink id="2274-9162-65b1-e6cc" name="M3 Lee Turret (37mm)" hidden="false" targetId="f60d-12d4-1d35-6f5c" type="profile"/>
-            <infoLink id="c0cb-81d5-9258-0a57" name="M3 Lee Hull (short 75mm)" hidden="false" targetId="e9d6-eb06-dd1e-e22f" type="profile"/>
-            <infoLink id="b964-22d5-3b7f-9eab" name="M3 Lee (short 75mm)" hidden="false" targetId="0bb5-8947-9a57-7f0b" type="profile"/>
-            <infoLink id="701f-2062-44a8-353a" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="0c1c-2dba-3af3-ca1f" name="M3 Lee (MGs)" hidden="false" targetId="4cbd-ff24-130a-b16c" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="13a3-30e1-35cb-578b" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdff-56ac-73cc-6fe5" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="0d5c-b838-190e-5605" name="It Shall be Done" hidden="false" collective="false" import="true" targetId="f375-bf5b-e17d-75f8" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="3812-c861-20bd-d264" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a57-6c39-3fe3-5f1e" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1b2-f70b-7f41-6766" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="c2df-2f9c-a806-79d4" name="3x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="4353-9ac4-07a5-ec03" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1981-fe44-63d6-898b" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="bcb7-ff24-65a2-44a4" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="3efb-e827-0b12-442f" name="4x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="7b3e-a874-6763-256b" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d850-7f45-cb34-67ce" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="8844-3906-55ce-134e" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="438f-6b89-8026-1551" name="5x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="1aa7-73b0-ce68-2abb" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f1f-ad7e-f70d-961a" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="91f5-3277-443e-3c99" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="a68f-772a-1e58-fa9e" name="M3 Lee, M4 Sherman or M3 Stuart Platoon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d4-2ad5-c289-3eef" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f3a-6887-6f67-f04e" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="17a6-633a-691b-c292" name="M3 Stuart Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce47-6b68-4f5e-e55a" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="4377-4fb0-5fb8-1b95" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-                <infoLink id="d8d4-60bd-7e09-112c" name="M3 Stuart (MGs)" hidden="false" targetId="833c-ec05-a110-6559" type="profile"/>
-                <infoLink id="d0c2-a5b2-aae5-2e6e" name="M3 Stuart (37mm)" hidden="false" targetId="31d0-1450-b36d-f8a2" type="profile"/>
-                <infoLink id="fe4d-4f82-eae3-40a3" name="M3 Stuart (37mm)" hidden="false" targetId="5f41-a69f-de17-6da2" type="profile"/>
-                <infoLink id="4c93-19b5-61dc-5ffc" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="543e-cbdb-719a-555f" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa09-62e8-42ae-fae3" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="0a2d-db1c-10b2-3fba" name="Courageous and Faithful" hidden="false" collective="false" import="true" targetId="4f6b-c886-338d-afe3" type="selectionEntry"/>
-                    <entryLink id="555a-141d-86b4-78f3" name="Roll Over Them" hidden="false" collective="false" import="true" targetId="55f4-53ad-d099-053c" type="selectionEntry"/>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="c341-afbb-2613-db37" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38c1-12fd-26eb-8384" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42c2-3675-1eb0-7d7e" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="7700-b8e1-74cf-2a05" name="3x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7fb9-942d-cf87-3832" name="4x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="aa68-f2f8-09d6-c221" name="5x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b346-6231-5fb0-c63a" name="M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa81-099e-949e-213b" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1c5e-ad04-443c-dd47" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                <infoLink id="35d1-10fb-f869-6328" name="M4 Sherman (75mm)" hidden="false" targetId="a703-1941-0d2f-2e75" type="profile"/>
-                <infoLink id="0319-77d5-5014-24b0" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="2a19-4405-91d1-842b" type="profile"/>
-                <infoLink id="6057-675e-8890-3e5f" name="M4 Sherman (75mm)" hidden="false" targetId="a142-74a5-9b89-f53f" type="profile"/>
-                <infoLink id="fcc1-cd39-431d-62f3" name="M4 Sherman (MGs)" hidden="false" targetId="8b74-557d-2cce-da9a" type="profile"/>
-                <infoLink id="52b6-0fdf-e6e6-fa0f" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-                <infoLink id="9138-33dd-954c-8b6b" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="b92a-2a42-314e-76ca" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2981-b438-7379-360e" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="3cc0-432c-b7f9-5ebf" name="Charge the Guns" hidden="false" collective="false" import="true" targetId="3331-612e-f6b8-8006" type="selectionEntry"/>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="9e6a-7a7e-0519-b350" name="Unit Size" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8470-ba11-6b02-7ead" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5b0-8651-1b1d-5e60" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="8704-0480-8b6c-7d05" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="9b1d-c803-59b8-087b" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6a03-28ab-f0b4-a0e7" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="40.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4a6d-814c-c7bd-57fb" name="M3 Lee Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4f0-634f-616f-1f00" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="ee00-bdd8-6fd0-be59" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-                <infoLink id="e3aa-8f5f-12bc-6e57" name="M3 Lee Turret (37mm)" hidden="false" targetId="f60d-12d4-1d35-6f5c" type="profile"/>
-                <infoLink id="2db2-3e1d-68b1-385a" name="M3 Lee Hull (short 75mm)" hidden="false" targetId="e9d6-eb06-dd1e-e22f" type="profile"/>
-                <infoLink id="8db0-900f-5f71-7ba1" name="M3 Lee (short 75mm)" hidden="false" targetId="0bb5-8947-9a57-7f0b" type="profile"/>
-                <infoLink id="c847-3d33-2b3f-6408" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                <infoLink id="eb97-b029-2d4b-2db6" name="M3 Lee (MGs)" hidden="false" targetId="4cbd-ff24-130a-b16c" type="profile"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="5957-10c8-960e-9844" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f04-a3c4-4394-921f" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="dca6-c05e-5fb3-91ff" name="It Shall be Done" hidden="false" collective="false" import="true" targetId="f375-bf5b-e17d-75f8" type="selectionEntry"/>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="84d8-9bcd-0bff-34f6" name="Unit Size" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b748-575b-0207-fb74" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="248a-a4f1-d3ac-9b7b" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="0e09-e3af-5a1e-89f2" name="3x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <selectionEntries>
-                        <selectionEntry id="82ba-5ddf-a796-9524" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7f2-c913-51a9-af01" type="max"/>
-                          </constraints>
-                          <infoLinks>
-                            <infoLink id="6884-eaef-54dd-1b03" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6aee-4f1a-e7f9-e201" name="4x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <selectionEntries>
-                        <selectionEntry id="3427-efa5-eaaf-c1cb" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37da-16a5-d9eb-578b" type="max"/>
-                          </constraints>
-                          <infoLinks>
-                            <infoLink id="7301-40a1-58c1-56d6" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="0a86-716c-f95f-9429" name="5x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <selectionEntries>
-                        <selectionEntry id="d7ef-f2e5-6a9c-1ce0" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6979-6caa-fe11-a835" type="max"/>
-                          </constraints>
-                          <infoLinks>
-                            <infoLink id="dc8f-6797-6d2b-4175" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="a07c-be29-3af6-0af8" name="M3 Lee Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="983a-a92f-2c62-fb53" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
@@ -3918,546 +3275,6 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="47e7-348b-b97d-6e9e" name="M3 Stuart Tank Company" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="a06a-6faf-8d05-7bc6" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="4a21-662c-4a32-5d77" name="M3 Stuart Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9c4-64fe-df05-3b37" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d25-7c86-95d4-6837" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="f451-c72c-345f-42d2" name="M3 Stuart (37mm)" hidden="false" targetId="5f41-a69f-de17-6da2" type="profile"/>
-            <infoLink id="268c-91c0-7739-e452" name="M3 Stuart (37mm)" hidden="false" targetId="31d0-1450-b36d-f8a2" type="profile"/>
-            <infoLink id="adc9-a761-cb0d-4017" name="M3 Stuart (MGs)" hidden="false" targetId="833c-ec05-a110-6559" type="profile"/>
-            <infoLink id="8c84-42f4-d58d-3071" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="fc9c-bf5b-b0e0-259e" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="255a-8f04-a320-a4f1" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="520b-b1f6-a157-f31b" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="f565-591d-6f8f-595c" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="6661-ac00-e7ce-eaea" type="selectionEntry"/>
-                <entryLink id="eece-947e-9f56-aa1e" name="Ferocious Valor" hidden="false" collective="false" import="true" targetId="c3b6-cb5e-3f21-bbda" type="selectionEntry"/>
-                <entryLink id="e97d-62c1-d09e-7a96" name="Hidden in Plain Sight" hidden="false" collective="false" import="true" targetId="6d6d-7d51-7e92-fb62" type="selectionEntry"/>
-                <entryLink id="b116-b0e0-479a-f487" name="True Grit" hidden="false" collective="false" import="true" targetId="876b-869f-231c-103d" type="selectionEntry"/>
-                <entryLink id="975e-6b8e-522b-f1ad" name="Marksman" hidden="false" collective="false" import="true" targetId="2f8f-c3a8-1bff-496a" type="selectionEntry"/>
-                <entryLink id="91e4-aef3-da02-099b" name="Charmed Life" hidden="false" collective="false" import="true" targetId="4e79-80b7-05c4-878e" type="selectionEntry"/>
-                <entryLink id="50b5-0704-7305-6779" name="Roll Over Them" hidden="false" collective="false" import="true" targetId="55f4-53ad-d099-053c" type="selectionEntry"/>
-                <entryLink id="ef19-1957-e104-2f31" name="First of the First" hidden="false" collective="false" import="true" targetId="cf22-87f0-e764-e50c" type="selectionEntry"/>
-                <entryLink id="f0a9-a312-7188-4586" name="Courageous and Faithful" hidden="false" collective="false" import="true" targetId="4f6b-c886-338d-afe3" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="5eaf-80b4-2ff3-cc63" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f20-2c2a-505b-30f4" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ef7-5659-a9dc-63b9" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="4014-b612-88a2-a042" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a6e1-f575-e431-f2bf" name="81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8ba-92d0-5482-9932" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="3090-387b-417a-2579" name="M4 (81mm mortar)" hidden="false" targetId="272b-84fb-5a06-7b12" type="profile"/>
-            <infoLink id="7f52-4b50-59dc-5843" name="M4 (.30 cal MG)" hidden="false" targetId="32b3-2854-cf0f-f3e9" type="profile"/>
-            <infoLink id="d7cf-6663-91c2-8428" name="M4 (81mm mortar)" hidden="false" targetId="3b6f-ee89-ee87-f667" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="9dd1-ffa6-c278-9f5e" name="3x M4 (81mm mortar)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d33-39d8-9f8e-4247" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead3-cf11-7c2c-adc6" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="2de2-428a-5178-9dc9" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-                <infoLink id="5f72-0a24-70a4-6f5b" name="Rear Firing" hidden="false" targetId="e9e5-f5de-e0ef-9e90" type="rule"/>
-                <infoLink id="8759-e72d-31c6-cdee" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5c02-1ba6-01d4-45bd" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dbf-dce2-3ea1-593b" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="80c1-4728-fd43-e9f9" name="Old ironsides" hidden="false" collective="false" import="true" targetId="7ccd-a20f-cf3a-dfec" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e27b-ff14-deba-4a71" name="T30 75mm Assault Gun Platoon" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fafe-9656-85b3-49a7" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="7828-10fd-b77f-248a" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-            <infoLink id="da4f-9075-27da-eebb" name="T30 (75mm)" hidden="false" targetId="dfe6-2ccc-69b4-44ae" type="profile"/>
-            <infoLink id="782f-1865-eb36-a616" name="T30 (.50 cal MG)" hidden="false" targetId="3ae2-0d69-870e-fd71" type="profile"/>
-            <infoLink id="0cc8-a1b1-6c26-7572" name="T30 (75mm) Direct Fire" hidden="false" targetId="b85d-fcb9-214a-f967" type="profile"/>
-            <infoLink id="cd88-af55-f699-6482" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-            <infoLink id="d45e-6a12-bcc9-d010" name="T30 (75mm)" hidden="false" targetId="2bfd-25c4-de79-2364" type="profile"/>
-            <infoLink id="3f74-e0b9-fed3-082a" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="e2dc-8645-6484-9c5e" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-            <infoLink id="5639-e246-e1e4-7a35" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="cd18-c695-bfed-9b1d" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb29-4411-c4e8-a596" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="314a-32b7-7828-6de2" name="Old ironsides" hidden="false" collective="false" import="true" targetId="7ccd-a20f-cf3a-dfec" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="047b-fca8-2cb7-84d0" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfbf-ab4d-c352-1c04" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4c6-0ea5-e6cd-162e" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="503b-7440-340f-839c" name="2x T30 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="2522-6309-2999-78ae" name="3x T30 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="51ce-7552-9700-c7b7" name="Armoured Recon Patrol" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e83f-d9d0-5c70-e3c6" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="2ded-888e-ba10-013f" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-            <infoLink id="73f6-8093-e8e4-64b3" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-            <infoLink id="ab0e-c075-bed9-f442" name="M3A1 Armoured Car" hidden="false" targetId="6036-2995-b0e7-56f3" type="profile"/>
-            <infoLink id="a621-5529-503e-4c12" name="Jeep (60mm)" hidden="false" targetId="3916-f38c-d6e0-861f" type="profile"/>
-            <infoLink id="f622-2a08-c69e-4f85" name="Jeep (60mm)" hidden="false" targetId="0fbc-f0df-f484-8354" type="profile"/>
-            <infoLink id="48c6-f893-8139-fee3" name="M3A1 (MGs)" hidden="false" targetId="1786-47be-bae4-7203" type="profile"/>
-            <infoLink id="bd9f-311a-5b87-08a5" name="M3A1 (.50 cal MG)" hidden="false" targetId="b6fa-bcf0-f4df-e5f1" type="profile"/>
-            <infoLink id="30dc-3cb7-1367-6e3e" name="Jeep (MG)" hidden="false" targetId="f168-e35f-0b1c-4be2" type="profile"/>
-            <infoLink id="b402-777b-f82a-bb26" name="Jeep (MG)" hidden="false" targetId="fe80-fa6b-d189-5366" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="7233-859f-9ec7-d14a" name="2x M3A1 armoured car" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2f3-a1f4-7387-8d2e" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a4a-8d4f-df6e-5d56" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="7375-5821-e50d-00d8" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9327-3766-b668-a019" name="1x Jeep (MG)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2c6-769e-c93f-4554" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a663-c813-620f-d06a" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="a6ec-3d17-cd13-0f49" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="180d-0022-7994-e213" name="1x Jeep (60mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38fb-1427-ab2e-bc1d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b825-5618-5079-6979" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d6a1-612f-f389-8828" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18ae-c2b0-6825-643c" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="ef7d-c072-6b2b-ebfb" name="Old ironsides" hidden="false" collective="false" import="true" targetId="7ccd-a20f-cf3a-dfec" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8db7-5d2c-7ee3-cc1f" name="M3 Stuart Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de4c-e82d-eef4-c928" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbce-5247-9cef-71c2" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="2105-6982-69bf-eb41" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-            <infoLink id="20ba-96c2-3966-fd08" name="M3 Stuart (MGs)" hidden="false" targetId="833c-ec05-a110-6559" type="profile"/>
-            <infoLink id="3e48-7e5e-7b46-860d" name="M3 Stuart (37mm)" hidden="false" targetId="31d0-1450-b36d-f8a2" type="profile"/>
-            <infoLink id="f177-14d7-322d-1938" name="M3 Stuart (37mm)" hidden="false" targetId="5f41-a69f-de17-6da2" type="profile"/>
-            <infoLink id="19e1-15ae-e28b-c607" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="3fcc-fa05-db3a-c328" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="452f-599f-9bbb-3cbc" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="98f8-390c-dac3-680c" name="Courageous and Faithful" hidden="false" collective="false" import="true" targetId="4f6b-c886-338d-afe3" type="selectionEntry"/>
-                <entryLink id="cba8-fdad-e6c9-eea0" name="Roll Over Them" hidden="false" collective="false" import="true" targetId="55f4-53ad-d099-053c" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="3647-4a07-e13f-03b2" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16e8-bcbe-193b-0c51" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="679b-b0f3-8d4f-b544" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="c8e2-9194-32db-ed8e" name="3x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="172b-d91f-f4dc-51dc" name="4x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d62f-5e47-aa57-b832" name="5x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="250d-6246-5e18-5480" name="M3 Stuart Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bda4-e9aa-cbf2-3a00" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e045-125f-ac30-2b5a" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="7587-53ac-51da-e02b" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-            <infoLink id="1279-3d56-e4c6-4a3a" name="M3 Stuart (MGs)" hidden="false" targetId="833c-ec05-a110-6559" type="profile"/>
-            <infoLink id="8a26-642e-92c7-63c6" name="M3 Stuart (37mm)" hidden="false" targetId="31d0-1450-b36d-f8a2" type="profile"/>
-            <infoLink id="ea7f-9a3a-fc9c-9aae" name="M3 Stuart (37mm)" hidden="false" targetId="5f41-a69f-de17-6da2" type="profile"/>
-            <infoLink id="f4a7-61da-c0ed-b692" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="915a-2ba2-caf4-da54" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6444-70f4-386c-f7de" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="5c71-1744-9c9b-3829" name="Courageous and Faithful" hidden="false" collective="false" import="true" targetId="4f6b-c886-338d-afe3" type="selectionEntry"/>
-                <entryLink id="0f5b-d42d-c9cd-bd67" name="Roll Over Them" hidden="false" collective="false" import="true" targetId="55f4-53ad-d099-053c" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="5f00-070a-6097-09e3" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4f9-cbf2-422a-c870" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="941b-f41b-d1f3-c2c0" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="a2d4-3ac8-3018-537b" name="3x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="f9c4-0aa8-5331-6d3c" name="4x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="26cd-a7a5-0977-815e" name="5x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="bcda-ab73-6937-c99d" name="M3 Stuart, M4 Sherman or M3 Lee Platoon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e75-b155-63ad-1a9e" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="04fa-6e53-e4e6-db4e" name="M3 Stuart Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a35-8864-e503-b24e" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="068b-6f47-d39d-1f74" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-                <infoLink id="1507-8f20-f31f-7fcf" name="M3 Stuart (MGs)" hidden="false" targetId="833c-ec05-a110-6559" type="profile"/>
-                <infoLink id="c08d-1dbc-4056-df36" name="M3 Stuart (37mm)" hidden="false" targetId="31d0-1450-b36d-f8a2" type="profile"/>
-                <infoLink id="74e8-d193-e7d3-b73d" name="M3 Stuart (37mm)" hidden="false" targetId="5f41-a69f-de17-6da2" type="profile"/>
-                <infoLink id="32e9-3c2c-a829-10a0" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="036d-a1a5-c2be-ee69" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e956-bc36-c655-011f" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="612a-45b9-e375-2895" name="Courageous and Faithful" hidden="false" collective="false" import="true" targetId="4f6b-c886-338d-afe3" type="selectionEntry"/>
-                    <entryLink id="6e17-a9ca-052c-94ff" name="Roll Over Them" hidden="false" collective="false" import="true" targetId="55f4-53ad-d099-053c" type="selectionEntry"/>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="21c8-5271-5531-7766" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9721-6620-7274-3f60" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5208-fa78-9a41-bbc4" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="a769-0978-8f1a-f696" name="3x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="340a-5972-b2a9-f58f" name="4x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="ed70-e0f4-b35b-50e3" name="5x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="218b-8174-4ebb-bd5e" name="M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df52-a3fb-09aa-a5f9" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="0f05-dcaa-bb9f-f7c3" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                <infoLink id="b3e1-2af7-53fd-89ca" name="M4 Sherman (75mm)" hidden="false" targetId="a703-1941-0d2f-2e75" type="profile"/>
-                <infoLink id="ddda-470d-1cf9-8dba" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="2a19-4405-91d1-842b" type="profile"/>
-                <infoLink id="1f95-2769-c857-3573" name="M4 Sherman (75mm)" hidden="false" targetId="a142-74a5-9b89-f53f" type="profile"/>
-                <infoLink id="86ea-1e42-f434-fa38" name="M4 Sherman (MGs)" hidden="false" targetId="8b74-557d-2cce-da9a" type="profile"/>
-                <infoLink id="2b5e-9b91-529d-7b60" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-                <infoLink id="2a56-680e-cb28-c919" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="12a0-9636-732b-b3f4" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c3a-1a02-1514-b7c3" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="b4ea-0546-c2a3-a845" name="Charge the Guns" hidden="false" collective="false" import="true" targetId="3331-612e-f6b8-8006" type="selectionEntry"/>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="59a8-7f33-fe23-0451" name="Unit Size" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f20-485a-dce6-e0c7" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc30-b331-eefd-9c21" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="1f37-8a54-164c-e5e8" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="65bf-2b97-ff1b-46fc" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="acc4-cfa6-e76f-f106" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="40.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="299b-53d4-6dd0-a04d" name="M3 Lee Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afe0-14f7-6d2b-4439" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="2ac9-510e-7f55-ac22" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
-                <infoLink id="b73c-d034-b3a4-dfd6" name="M3 Lee Turret (37mm)" hidden="false" targetId="f60d-12d4-1d35-6f5c" type="profile"/>
-                <infoLink id="232d-1e52-c837-19cd" name="M3 Lee Hull (short 75mm)" hidden="false" targetId="e9d6-eb06-dd1e-e22f" type="profile"/>
-                <infoLink id="3d60-a44a-c47b-94ac" name="M3 Lee (short 75mm)" hidden="false" targetId="0bb5-8947-9a57-7f0b" type="profile"/>
-                <infoLink id="8a1a-5354-06fd-d279" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                <infoLink id="9466-1e04-9976-8263" name="M3 Lee (MGs)" hidden="false" targetId="4cbd-ff24-130a-b16c" type="profile"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="5c3e-1282-28e4-460c" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeba-ded9-264b-e974" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="5a09-cd2e-fc0a-0516" name="It Shall be Done" hidden="false" collective="false" import="true" targetId="f375-bf5b-e17d-75f8" type="selectionEntry"/>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="32ac-b0b0-a55c-d8a6" name="Unit Size" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d06-c711-5e5f-9ab6" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75d4-9bc7-347a-a60c" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="47c4-8465-6e39-45af" name="3x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <selectionEntries>
-                        <selectionEntry id="d4a0-3e57-981b-53ea" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f46-985a-5e6a-2417" type="max"/>
-                          </constraints>
-                          <infoLinks>
-                            <infoLink id="d989-53a6-ac86-f9fe" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1013-9bac-151c-a15b" name="4x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <selectionEntries>
-                        <selectionEntry id="cec3-8e96-a5e1-0c15" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c65-6d96-a9f8-7a7f" type="max"/>
-                          </constraints>
-                          <infoLinks>
-                            <infoLink id="246d-a9e8-c132-deec" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="b40f-4366-2d39-78d9" name="5x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <selectionEntries>
-                        <selectionEntry id="8c86-d6b9-71b2-1cb8" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="220a-7576-debd-17aa" type="max"/>
-                          </constraints>
-                          <infoLinks>
-                            <infoLink id="8d44-7fff-6701-f2e7" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -6241,6 +5058,193 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="76e2-2f20-67ed-dd9c" name="M3 Lee Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="733f-6c47-3f85-b9bb" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0a52-9d60-ae5f-b983" name="M3 Lee Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="503a-79b4-e5d8-c0c0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be5a-9170-17f2-b516" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ae1f-9bf3-9d90-ab98" name="M3 Lee (short 75mm)" hidden="false" targetId="0bb5-8947-9a57-7f0b" type="profile"/>
+            <infoLink id="d36d-8d79-fda4-ae93" name="M3 Lee (MGs)" hidden="false" targetId="4cbd-ff24-130a-b16c" type="profile"/>
+            <infoLink id="4dcd-c7d0-fd4d-9be9" name="M3 Lee Turret (37mm)" hidden="false" targetId="f60d-12d4-1d35-6f5c" type="profile"/>
+            <infoLink id="d16c-db5b-3f46-70af" name="M3 Lee Hull (short 75mm)" hidden="false" targetId="e9d6-eb06-dd1e-e22f" type="profile"/>
+            <infoLink id="1bb6-e11b-75d1-e69b" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+            <infoLink id="a5e8-17fb-27f3-f031" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+            <infoLink id="1772-777f-787c-2fa7" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
+            <infoLink id="7ea5-da90-3158-e72b" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+            <infoLink id="e675-a49c-984f-86f2" name="Secondary Weapon" hidden="false" targetId="b325-44a2-31d9-a812" type="rule"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f9d5-d9f8-9229-0cb4" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="58eb-c65b-1b31-5ba3">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e57a-8384-4046-6a82" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b880-8187-d0fc-c61c" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="33ac-c2e2-a3e9-6211" name="2x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink id="9f76-4550-529d-03bf" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" targetId="98b2-d330-a7fe-b823" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c4d-1a50-0dba-d9df" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="58eb-c65b-1b31-5ba3" name="1x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink id="f529-ec13-1aa3-78ab" name="Replace any or all M3 Lee (short 75mm) with M3 Lee (long 75mm)" hidden="false" collective="false" import="true" targetId="98b2-d330-a7fe-b823" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e0a-c1f1-c535-4985" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="295f-d234-ddeb-7ca2" name="M4 Sherman, M3 Lee or M3 Stuart Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="556f-5e27-4253-ee03">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="473e-3a84-f57c-1b24" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b6e-361d-0df5-d316" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="556f-5e27-4253-ee03" name="M3 Lee Tank Platoon" hidden="false" collective="false" import="true" targetId="a07c-be29-3af6-0af8" type="selectionEntry"/>
+            <entryLink id="a29f-30bc-0d0f-7f58" name="M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" targetId="8026-79b9-26e9-ead3" type="selectionEntry"/>
+            <entryLink id="a6df-d56a-cdf5-196b" name="M3 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="8ed7-6a4f-2141-a557" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b36a-dac1-fbc5-dd31" name="M3 Lee Tank Platoon" hidden="false" collective="false" import="true" targetId="a07c-be29-3af6-0af8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1ed-3d01-6ee6-64fe" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8cb1-ef0d-d558-29c1" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3dc4-cc15-de0f-fc35" name="M3 Lee Tank Platoon" hidden="false" collective="false" import="true" targetId="a07c-be29-3af6-0af8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d78-e823-e4a5-687d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e7d0-e9f9-92d3-06b9" name="M4 81mm Armored Mortar Platoon" hidden="false" collective="false" import="true" targetId="25f8-122f-0d55-44d3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a1-97e8-d4be-0720" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7076-55bb-bcfc-a768" name="T30 75mm Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="ac1f-f190-ad96-7045" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1d-a95b-3ee0-ab12" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cb53-4971-7dc2-a3bd" name="Armored Recon Patrol" hidden="false" collective="false" import="true" targetId="7ed6-7294-4b67-cb58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c63-f25b-7089-9328" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="361b-17f4-8b79-0f2a" name="M3 Stuart Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="c4d9-1dc3-8451-ca1a" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fdba-7337-6e63-fe02" name="M3 Stuart Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e47d-be83-8c54-9cb2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3105-01cb-27ff-af16" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ac1e-61fa-e6ea-51d1" name="M3 Stuart (37mm)" hidden="false" targetId="5f41-a69f-de17-6da2" type="profile"/>
+            <infoLink id="77f6-2533-49db-aa51" name="M3 Stuart (37mm)" hidden="false" targetId="31d0-1450-b36d-f8a2" type="profile"/>
+            <infoLink id="ca9c-57ad-a404-7a5f" name="M3 Stuart (MGs)" hidden="false" targetId="833c-ec05-a110-6559" type="profile"/>
+            <infoLink id="ae9e-92c5-eaf9-3fc7" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+            <infoLink id="6113-18a8-0eb6-9a4f" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a145-0f90-f79e-24e6" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="0a98-03dc-dabb-8ca2">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58c2-253a-e94d-a901" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f947-54fa-9187-1f25" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="0a98-03dc-dabb-8ca2" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="db6f-de40-481a-0386" name="M4 Sherman, M3 Lee or M3 Stuart Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="c7ed-e18d-9847-9ff6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e931-40eb-1c44-0434" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2b0-ca33-79ad-0312" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="da16-61a1-8675-ce36" name="M3 Lee Tank Platoon" hidden="false" collective="false" import="true" targetId="a07c-be29-3af6-0af8" type="selectionEntry"/>
+            <entryLink id="d000-2f37-0606-3e36" name="M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" targetId="8026-79b9-26e9-ead3" type="selectionEntry"/>
+            <entryLink id="c7ed-e18d-9847-9ff6" name="M3 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="8ed7-6a4f-2141-a557" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="43de-eb4f-2027-4845" name="M3 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="8ed7-6a4f-2141-a557" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e51-0c93-0e76-e00e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bacf-d6a8-a94a-0a4a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7891-cbbf-e255-e626" name="M3 Stuart Tank Platoon" hidden="false" collective="false" import="true" targetId="8ed7-6a4f-2141-a557" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c78b-2491-09a4-47eb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="798f-a7df-9aff-3ed9" name="M4 81mm Armored Mortar Platoon" hidden="false" collective="false" import="true" targetId="25f8-122f-0d55-44d3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dea9-bffe-93ea-0d05" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="987c-a44c-8c84-4d16" name="T30 75mm Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="ac1f-f190-ad96-7045" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1359-ed6b-2747-d89e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a0a9-d5b8-182c-94ad" name="Armored Recon Patrol" hidden="false" collective="false" import="true" targetId="7ed6-7294-4b67-cb58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbf7-3206-dc79-99f2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
