@@ -152,6 +152,19 @@
         <categoryLink id="e1d1-b57c-0deb-c757" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="b9f8-2961-7511-4c6f" name="Armoured Rifle Company" hidden="false" collective="false" import="true" targetId="3192-89df-a01d-f0e9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f237-983c-5173-aae3" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="863a-1f96-3d78-e42c" name="Armoured Rifle Platoon" hidden="false" collective="false" import="true" targetId="7e2a-85f2-9e1a-8903" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63c-d9c9-0e8c-6021" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b3b2-38ab-f7e5-b691" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f3b4-2d36-74d5-75e4" name="Captured Tank" hidden="false" collective="false" import="true" type="upgrade">
@@ -1042,7 +1055,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3192-89df-a01d-f0e9" name="Armoured Rifle Company" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3192-89df-a01d-f0e9" name="Armored Rifle Company" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="b050-b10b-de63-58c7" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
@@ -1070,30 +1083,9 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f999-f2d0-c2a1-b31a" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af2c-eeba-c2d0-8110" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="c625-066d-d1ef-0ee7" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="11ba-c1c1-e3e8-2dcb" type="selectionEntry"/>
-                <entryLink id="9f11-4113-9d43-e4c6" name="Dead Eye" hidden="false" collective="false" import="true" targetId="c6ac-c5be-7bfc-e0c5" type="selectionEntry"/>
-                <entryLink id="abd1-aff2-b51c-5a0b" name="Unity is Strength" hidden="false" collective="false" import="true" targetId="9f06-c8e4-c59e-2c27" type="selectionEntry"/>
-                <entryLink id="dfdf-93bf-8744-c8a5" name="Hidden in Plain Sight" hidden="false" collective="false" import="true" targetId="6d6d-7d51-7e92-fb62" type="selectionEntry"/>
-                <entryLink id="6637-3edc-9b19-5b43" name="Linebacker" hidden="false" collective="false" import="true" targetId="23fe-1d45-9cf2-873e" type="selectionEntry"/>
-                <entryLink id="ffbe-39c6-7631-32fd" name="Ferocious Valor" hidden="false" collective="false" import="true" targetId="c3b6-cb5e-3f21-bbda" type="selectionEntry"/>
-                <entryLink id="20e1-57a8-6f26-7e90" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="6661-ac00-e7ce-eaea" type="selectionEntry"/>
-                <entryLink id="d4e9-eb96-4c29-5bae" name="Marksman" hidden="false" collective="false" import="true" targetId="2f8f-c3a8-1bff-496a" type="selectionEntry"/>
-                <entryLink id="a908-29fd-9d75-c232" name="Fortify the Building" hidden="false" collective="false" import="true" targetId="a9a3-e7ad-ba2d-3d8d" type="selectionEntry"/>
-                <entryLink id="2b14-97b4-e63a-55a8" name="Charmed Life" hidden="false" collective="false" import="true" targetId="4e79-80b7-05c4-878e" type="selectionEntry"/>
-                <entryLink id="97ff-be68-8204-5baf" name="True Grit" hidden="false" collective="false" import="true" targetId="876b-869f-231c-103d" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="175a-e01f-c669-91b8" name="Unit Size" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="175a-e01f-c669-91b8" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="4f83-59c8-27f2-73fb">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2cc-1e7e-ba3f-8a6b" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ddd-3149-41c0-3745" type="max"/>
@@ -1111,24 +1103,24 @@
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="8f83-fd25-6ab3-2ae6" name="1x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="4b4d-be4b-4c4b-4524" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                    <infoLink id="f788-7e56-29ed-8bd9" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                    <infoLink id="ac30-6cd7-e441-dfbe" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
-                  </infoLinks>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="6b95-9c23-92ec-73b7" name="M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" targetId="8ec4-5365-86f9-f2b5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="1x M3 half-track (.50 cal MG)"/>
+                  </modifiers>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                   </costs>
-                </selectionEntry>
-              </selectionEntries>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="919a-97f6-e3ac-27bc" name="M1917 Machine-Gun Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="919a-97f6-e3ac-27bc" name="M1917 Armored Machine-Gun Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="920c-e1d1-71be-dc2c" type="max"/>
           </constraints>
@@ -1147,47 +1139,25 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="eb8e-ca4c-805d-90c9" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79d0-ee67-7dcb-0b4d" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="480d-eb7b-f70e-dc76" name="Unity is Strength" hidden="false" collective="false" import="true" targetId="9f06-c8e4-c59e-2c27" type="selectionEntry"/>
-                <entryLink id="5a6c-96c0-d403-6377" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="11ba-c1c1-e3e8-2dcb" type="selectionEntry"/>
-                <entryLink id="db1d-4706-aab9-0777" name="Dead Eye" hidden="false" collective="false" import="true" targetId="c6ac-c5be-7bfc-e0c5" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="db2c-b7ca-c538-667b" name="Transport" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="a2d8-ba07-da00-bd3a" name="M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" targetId="8ec4-5365-86f9-f2b5" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="2x M3 half-track (.50 cal MG)"/>
+              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff44-0013-8057-2cd6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52d1-b2ce-3ff3-6cf6" type="max"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="6f08-d105-ea66-3776" name="Passenger MG" hidden="false" targetId="2ed3-ac0b-514c-d7d5" type="profile"/>
-                <infoLink id="a3cf-b911-7dc2-1580" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                <infoLink id="ddf8-93de-69bd-9874" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                <infoLink id="a5ec-1a73-5581-2e05" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
-                <infoLink id="1289-d594-f946-c7c1" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                <infoLink id="d10f-8b2a-7c66-2b7b" name="MG Transport" hidden="false" targetId="2ffb-cbd6-a51d-dd3c" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="8698-c9dd-b6f9-7f9f" name="2x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f72a-01a2-5594-9918" name="37mm Anti-Tank Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="f72a-01a2-5594-9918" name="37mm Armored Anti-Tank Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe5e-d74b-528b-191e" type="max"/>
           </constraints>
@@ -1198,92 +1168,63 @@
             <infoLink id="7adf-dfbe-3247-4991" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
             <infoLink id="e223-4e1d-dac0-e485" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
           </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="c6d2-fbfc-785b-71ef" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b97-abc1-a70e-abb0" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="c361-522d-a097-c4ab" name="Unity is Strength" hidden="false" collective="false" import="true" targetId="9f06-c8e4-c59e-2c27" type="selectionEntry"/>
-                <entryLink id="15fa-9f0d-1bef-2fad" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="11ba-c1c1-e3e8-2dcb" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="0284-a60d-6e42-3388" name="Unit Size" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="0284-a60d-6e42-3388" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e5c9-0782-7bd7-3a6e">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8490-053a-94bc-ab1c" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da40-5159-c690-6f61" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="e5c9-0782-7bd7-3a6e" name="2x 37mm gun" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="8d8e-31db-3582-6923" name="Transport" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="4387-d0d4-1915-e906" name="M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" targetId="8ec4-5365-86f9-f2b5" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="name" value="2x M3 half-track (.50 cal MG)"/>
+                      </modifiers>
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b38a-2146-159f-f5b9" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffdb-0bf8-632f-d111" type="max"/>
                       </constraints>
-                      <infoLinks>
-                        <infoLink id="b1dd-8943-a349-b463" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                        <infoLink id="0664-44bb-2381-24b4" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                      </infoLinks>
-                      <selectionEntries>
-                        <selectionEntry id="f59e-8be6-4da7-b292" name="2x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="dcc4-4b75-f02f-b0d1" name="3x 37mm gun" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="cf8e-1dc4-4df4-99fe" name="Transport" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="79ee-6789-238a-f1e7" name="M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" targetId="8ec4-5365-86f9-f2b5" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="name" value="3x M3 half-track (.50 cal MG)"/>
+                      </modifiers>
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e6a-8634-9f61-a9df" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b78-ec12-2678-3759" type="max"/>
                       </constraints>
-                      <infoLinks>
-                        <infoLink id="2998-0780-91df-e00f" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                        <infoLink id="03a6-6dd5-ccb4-29b0" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                      </infoLinks>
-                      <selectionEntries>
-                        <selectionEntry id="cd85-bf19-3209-4a77" name="3x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ef33-2d4c-9e8d-23ad" name="4x 37mm gun" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="34dc-baa2-7f0b-ef43" name="Transport" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="c497-f182-3923-c461" name="M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" targetId="8ec4-5365-86f9-f2b5" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="name" value="4x M3 half-track (.50 cal MG)"/>
+                      </modifiers>
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98ac-fb02-7305-b54f" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb3f-37c9-0027-cd74" type="max"/>
                       </constraints>
-                      <infoLinks>
-                        <infoLink id="60a7-2541-f28c-b7fa" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                        <infoLink id="bcef-fe09-3650-5ceb" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                      </infoLinks>
-                      <selectionEntries>
-                        <selectionEntry id="88f7-b924-6f72-904d" name="4x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
                   </costs>
@@ -1295,974 +1236,25 @@
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a8f9-c9e7-4325-1446" name="Armoured Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c75d-734f-e15f-44f9" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="faf8-5209-670d-ace4" name="Determined" hidden="false" targetId="af6b-e7b7-965e-3139" type="rule"/>
-            <infoLink id="5ac7-d05b-58fa-3bce" name="Observer" hidden="false" targetId="0e97-34d8-2789-4ae8" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="64a9-9414-45af-f3ff" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c651-4396-37b0-9a21" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="e153-1e91-df72-149b" name="Regulars, By God!" hidden="false" collective="false" import="true" targetId="1500-7e7b-f405-113b" type="selectionEntry"/>
-                <entryLink id="d81b-a418-daff-22f8" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="11ba-c1c1-e3e8-2dcb" type="selectionEntry"/>
-                <entryLink id="10cc-07c8-7113-662f" name="Dead Eye" hidden="false" collective="false" import="true" targetId="c6ac-c5be-7bfc-e0c5" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="9826-5dbc-7c70-12c9" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5074-debd-3b05-56c4" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ac1-4e10-a8be-829f" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="ba1c-9e92-00b2-6795" name="4x M1 Garand, 4x M1 Bazooka, 2x M1919 LMG, 1x 60mm mortar, 3x M3 .30, 1x M3 .50" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="751f-57b2-c5ef-68e8" name="4x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6824-b2dc-3903-4384" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe07-e0a4-9d4a-2257" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="3d66-a99c-fabe-cef7" name="M1 Garand rifle team" hidden="false" targetId="3835-2fb5-3ba0-e286" type="profile"/>
-                        <infoLink id="97c2-a28f-c376-898e" name="M1 Garand rifle team" hidden="false" targetId="54e5-8f1f-7d07-182b" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="f6a7-45ec-a893-b0f0" name="4x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbb6-6e0c-0622-0888" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aa7-449a-41ff-3d69" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="e360-c44f-bc0c-bae2" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="3512-4a38-074d-d958" name="M1 Bazooka team" hidden="false" targetId="79cb-ae93-db5f-e012" type="profile"/>
-                        <infoLink id="757b-74ea-f150-ac93" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="c7dc-205d-d060-e8d4" name="2x M1919 LMG" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91a3-bf74-ef3b-7ca3" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85d5-9e1f-0f13-184d" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="4fc4-d341-8c24-2ff3" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="f882-5605-f752-59c4" name="M1919 team" hidden="false" targetId="930c-fd2b-9e8e-9adf" type="profile"/>
-                        <infoLink id="8c04-e990-04f8-cc2e" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="2a79-69f7-b041-3f75" name="1x 60mm mortar" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="031a-a0c9-df80-6767" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed6-b3e1-c309-7576" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="5636-b1af-7994-b509" name="60mm mortar team" hidden="false" targetId="4d83-ea1a-2166-38c9" type="profile"/>
-                        <infoLink id="2592-c820-3530-fc19" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="88e1-91b0-76b5-bd19" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="ebbc-34e7-dd85-6d31" name="1x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae8a-17a7-32c9-56ed" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bde8-c82d-8c0d-067d" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="c89a-c2bc-bdf9-34d4" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                        <infoLink id="925f-93da-8e77-6bd9" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4947-d548-aad8-ca5c" name="3x M3 half-track (.30 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57cd-de3e-f403-13fb" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a8c-0fcc-256d-1b30" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="d488-2b10-b4f0-1ad2" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                        <infoLink id="4beb-7a76-5eb8-8cb2" name="M3 half-track (.30 cal MG)" hidden="false" targetId="ff93-8f0c-3511-97ff" type="profile"/>
-                        <infoLink id="99af-0f75-8abc-c4e1" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="34ea-55c2-55be-28d0" name="6x M1 Garand, 5x M1 Bazooka, 2x M1919 LMG, 1x 60mm mortar, 4x M3 .30, 1x M3 .50" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="7ca7-91d9-d7f0-571a" name="6x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d71-fd23-6c5d-5cc2" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10d8-6c91-772f-0715" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="186f-40d4-034c-229c" name="M1 Garand rifle team" hidden="false" targetId="3835-2fb5-3ba0-e286" type="profile"/>
-                        <infoLink id="4a8b-a890-aabe-afb3" name="M1 Garand rifle team" hidden="false" targetId="54e5-8f1f-7d07-182b" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="e07e-7e30-8e15-b0f3" name="5x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb65-abb1-aecc-a67a" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="515f-8839-2cf6-3ffd" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="57d6-044d-a21d-8647" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="6c86-442b-dff0-2fdf" name="M1 Bazooka team" hidden="false" targetId="79cb-ae93-db5f-e012" type="profile"/>
-                        <infoLink id="9c72-f236-91f4-0419" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="0210-b83e-d36e-e024" name="2x M1919 LMG" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b920-eb3a-774d-eb17" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ae7-2cfb-1c48-d47d" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="ff76-1fcd-dcc9-2d14" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="ebd9-ebc3-7623-5753" name="M1919 team" hidden="false" targetId="930c-fd2b-9e8e-9adf" type="profile"/>
-                        <infoLink id="f0ce-528b-b5e5-8d2e" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1cf6-176b-3c52-a6c7" name="1x 60mm mortar" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfd5-2b99-a950-ca55" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab79-1613-e2c7-dd23" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="08a3-8f22-b182-57d0" name="60mm mortar team" hidden="false" targetId="4d83-ea1a-2166-38c9" type="profile"/>
-                        <infoLink id="d001-0595-a9c9-31e7" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="49aa-6483-7fe8-a207" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1df4-be2a-245c-e4da" name="1x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66fb-a9cb-8044-9636" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0440-f938-6eac-20ec" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="08bb-a5af-b315-a3cc" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                        <infoLink id="f2df-4c55-9edf-68ba" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="b4c0-8823-d726-b68b" name="4x M3 half-track (.30 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bc5-caf1-1014-aaff" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faae-d017-839e-b8c2" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="b12a-4b40-a486-f159" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                        <infoLink id="6917-5b28-e526-052a" name="M3 half-track (.30 cal MG)" hidden="false" targetId="ff93-8f0c-3511-97ff" type="profile"/>
-                        <infoLink id="5654-7d4f-0111-b818" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7969-1a40-ca03-d041" name="T30 75mm Assault Gun Platoon" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b34f-3d5e-118a-6200" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="cfb7-0460-8a40-f927" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-            <infoLink id="1f37-ccdc-daac-e742" name="T30 (75mm)" hidden="false" targetId="dfe6-2ccc-69b4-44ae" type="profile"/>
-            <infoLink id="02a5-0721-223f-e263" name="T30 (.50 cal MG)" hidden="false" targetId="3ae2-0d69-870e-fd71" type="profile"/>
-            <infoLink id="e004-e7bf-bb91-d307" name="T30 (75mm) Direct Fire" hidden="false" targetId="b85d-fcb9-214a-f967" type="profile"/>
-            <infoLink id="9efc-62ac-8743-eb10" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-            <infoLink id="f202-fdf7-c5f1-df57" name="T30 (75mm)" hidden="false" targetId="2bfd-25c4-de79-2364" type="profile"/>
-            <infoLink id="41bc-1522-d6e5-e14f" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-            <infoLink id="2457-3342-c1a1-0338" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-            <infoLink id="72a9-b7c2-8370-4f04" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="8b4e-29a1-c510-9349" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a7-7647-0891-d246" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="f442-052f-09b0-293c" name="Old ironsides" hidden="false" collective="false" import="true" targetId="7ccd-a20f-cf3a-dfec" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="c065-9745-04f7-caf9" name="Unit Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da63-8a24-c896-62ec" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d52f-627d-cea8-8777" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="56b1-b034-78bf-2e00" name="2x T30 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="1ae2-1081-b944-c257" name="3x T30 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a8de-88a6-bdb5-4140" name="Armoured Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f54-d507-4e6f-b397" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4201-dec6-b293-9928" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="d8c0-03d1-aa1c-2fd0" name="Determined" hidden="false" targetId="af6b-e7b7-965e-3139" type="rule"/>
-            <infoLink id="ad42-8c99-02a0-4946" name="Observer" hidden="false" targetId="0e97-34d8-2789-4ae8" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="2de9-c612-0577-5036" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4deb-17e7-6df8-b882" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="7421-d4a1-3c98-e67b" name="Regulars, By God!" hidden="false" collective="false" import="true" targetId="1500-7e7b-f405-113b" type="selectionEntry"/>
-                <entryLink id="ad84-ce12-ee00-6a54" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="11ba-c1c1-e3e8-2dcb" type="selectionEntry"/>
-                <entryLink id="5e5d-3171-c45a-8fe5" name="Dead Eye" hidden="false" collective="false" import="true" targetId="c6ac-c5be-7bfc-e0c5" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="ffeb-3f4b-aaa1-cb7f" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37f2-e91c-16e7-9333" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9688-ac08-567a-14ed" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="4cc3-7b75-16d2-d512" name="4x M1 Garand, 4x M1 Bazooka, 2x M1919 LMG, 1x 60mm mortar, 3x M3 .30, 1x M3 .50" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="3714-b1eb-5595-3baa" name="4x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe5-a876-49ee-1741" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad8f-476d-4744-1124" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="e907-04f0-161a-66b3" name="M1 Garand rifle team" hidden="false" targetId="3835-2fb5-3ba0-e286" type="profile"/>
-                        <infoLink id="7c5d-dff4-2933-2b2f" name="M1 Garand rifle team" hidden="false" targetId="54e5-8f1f-7d07-182b" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="9025-e8e1-5bbb-153f" name="4x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40a3-6437-4ed9-e777" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8656-ff55-e2ad-dbaf" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="3c62-8518-d5cd-e256" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="89b6-fe23-0fc7-c947" name="M1 Bazooka team" hidden="false" targetId="79cb-ae93-db5f-e012" type="profile"/>
-                        <infoLink id="7ae9-d143-14b6-8539" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="d9be-d206-4253-760c" name="2x M1919 LMG" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f93-e04e-bfce-e511" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c090-d9cf-0a0d-8564" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="41f3-d822-2332-0579" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="1d01-a1bb-1f84-e6e1" name="M1919 team" hidden="false" targetId="930c-fd2b-9e8e-9adf" type="profile"/>
-                        <infoLink id="75df-8be8-e07f-b986" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="986c-ee22-a9fc-6b45" name="1x 60mm mortar" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4100-75c6-126a-c772" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca99-cb13-e721-3411" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="2acf-d71b-965a-a89b" name="60mm mortar team" hidden="false" targetId="4d83-ea1a-2166-38c9" type="profile"/>
-                        <infoLink id="cd41-c488-ba34-3c37" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="8731-5d18-8138-3b7a" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a7f6-614c-017b-b8be" name="1x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7713-c1dd-71ee-0190" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c7d-78c0-d21c-5862" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="5db4-046f-894e-0f79" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                        <infoLink id="12e7-0215-e3b5-798f" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6488-fc36-4c61-a991" name="3x M3 half-track (.30 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83e8-89a7-864b-4645" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ade-3ee5-9b53-a3e3" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="c742-8f8e-7674-45ae" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                        <infoLink id="f9ae-89e3-3478-0054" name="M3 half-track (.30 cal MG)" hidden="false" targetId="ff93-8f0c-3511-97ff" type="profile"/>
-                        <infoLink id="bb45-b0a3-c4c3-5b83" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="f73f-22a0-f022-f234" name="6x M1 Garand, 5x M1 Bazooka, 2x M1919 LMG, 1x 60mm mortar, 4x M3 .30, 1x M3 .50" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="91b7-a169-cee8-5d90" name="6x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6191-eb73-ff44-62b8" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4da0-b0bb-fa05-5fe4" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="a9a6-3cec-fc19-4df4" name="M1 Garand rifle team" hidden="false" targetId="3835-2fb5-3ba0-e286" type="profile"/>
-                        <infoLink id="a4da-be28-7728-9880" name="M1 Garand rifle team" hidden="false" targetId="54e5-8f1f-7d07-182b" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="252d-edb0-8951-d468" name="5x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5752-4e48-dbf3-43a3" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf1d-5548-9174-a938" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="8563-ad8d-c2dc-41ec" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="bb40-8083-f579-9986" name="M1 Bazooka team" hidden="false" targetId="79cb-ae93-db5f-e012" type="profile"/>
-                        <infoLink id="adbb-e051-f78b-4202" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a3d1-404e-9ecc-45b2" name="2x M1919 LMG" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a1-7520-ed46-277a" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f38e-3627-763e-c952" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="35ab-2c89-5e72-091d" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="d1f8-8383-b698-fb38" name="M1919 team" hidden="false" targetId="930c-fd2b-9e8e-9adf" type="profile"/>
-                        <infoLink id="f01c-cfe4-fd93-90db" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="029f-4bd4-6ec3-22da" name="1x 60mm mortar" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed87-7ef1-1155-bfff" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dba6-cb0b-ccd1-7cdd" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="9574-3227-ae89-1a6b" name="60mm mortar team" hidden="false" targetId="4d83-ea1a-2166-38c9" type="profile"/>
-                        <infoLink id="32ef-5cbc-f84e-acb2" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="001a-2e1d-041f-0403" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="e493-723e-d7a1-457d" name="1x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="096f-aa79-d686-ab88" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8090-2077-196b-e8a6" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="751f-fd22-d901-3675" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                        <infoLink id="c0dc-a024-402b-14df" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6d36-30ce-0cd2-01be" name="4x M3 half-track (.30 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a441-d5d1-3b95-a47a" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="547b-0c1c-af50-b372" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="6db1-b8d5-5061-2650" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                        <infoLink id="3cd3-34ba-8946-89a3" name="M3 half-track (.30 cal MG)" hidden="false" targetId="ff93-8f0c-3511-97ff" type="profile"/>
-                        <infoLink id="52fa-3afb-ac7e-b0a6" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="512f-486a-a333-cb13" name="Armoured Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ff-24bb-0af5-89c2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29d5-7bd5-7b46-7e8b" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b6ec-341e-37e5-061d" name="Determined" hidden="false" targetId="af6b-e7b7-965e-3139" type="rule"/>
-            <infoLink id="50ff-8d7d-db2b-95dd" name="Observer" hidden="false" targetId="0e97-34d8-2789-4ae8" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="1d03-aeb9-1a5b-4874" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3533-a144-5510-89f1" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="66f2-8156-2702-2412" name="Regulars, By God!" hidden="false" collective="false" import="true" targetId="1500-7e7b-f405-113b" type="selectionEntry"/>
-                <entryLink id="65c3-e754-406a-fd6a" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="11ba-c1c1-e3e8-2dcb" type="selectionEntry"/>
-                <entryLink id="94dc-fa38-c3dc-3e1c" name="Dead Eye" hidden="false" collective="false" import="true" targetId="c6ac-c5be-7bfc-e0c5" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="3d59-c764-c862-5bab" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="617c-250f-3286-aec3" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d7c-a79b-3eff-9264" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="6f0d-d211-0bc2-cf92" name="4x M1 Garand, 4x M1 Bazooka, 2x M1919 LMG, 1x 60mm mortar, 3x M3 .30, 1x M3 .50" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="7575-4c9c-716a-f3e1" name="4x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfe6-5bc4-3432-984c" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce0d-3e6d-2ada-08bd" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="a2ec-5169-7797-e805" name="M1 Garand rifle team" hidden="false" targetId="3835-2fb5-3ba0-e286" type="profile"/>
-                        <infoLink id="7aec-944f-6d19-97c7" name="M1 Garand rifle team" hidden="false" targetId="54e5-8f1f-7d07-182b" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="974a-4627-a4f8-5c77" name="4x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b3-07b8-269e-7328" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e14-275c-1b73-e5ae" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="fe09-34f7-57bb-aa1c" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="fbc4-a6a8-34bb-1897" name="M1 Bazooka team" hidden="false" targetId="79cb-ae93-db5f-e012" type="profile"/>
-                        <infoLink id="e92e-7e49-a94b-96db" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="beba-76a5-df66-5f0b" name="2x M1919 LMG" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32e2-1c5c-70ed-e06c" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db27-5363-08a1-885f" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="589c-857b-ffb9-f095" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="3007-1211-29ed-e999" name="M1919 team" hidden="false" targetId="930c-fd2b-9e8e-9adf" type="profile"/>
-                        <infoLink id="7f6d-7af9-e1e6-8e18" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4428-3d70-6cf1-30c6" name="1x 60mm mortar" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9408-ba85-66ed-43e7" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd53-16ed-5c86-4b1d" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="1bc8-877e-630b-fe1d" name="60mm mortar team" hidden="false" targetId="4d83-ea1a-2166-38c9" type="profile"/>
-                        <infoLink id="6f03-2e99-0790-41e8" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="30b0-fe75-9c37-cdbe" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="9168-2645-cf4c-be61" name="1x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99bb-6b78-bde5-14a8" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c85-9e75-d80c-f8ef" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="0ffd-a9c8-0034-7334" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                        <infoLink id="96a9-be11-38af-3484" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="8867-ea1e-e860-b164" name="3x M3 half-track (.30 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a09c-3fe0-9237-8afd" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c930-1aa5-a992-85a7" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="ad37-7347-ae41-bbc4" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                        <infoLink id="a932-923f-b663-8b91" name="M3 half-track (.30 cal MG)" hidden="false" targetId="ff93-8f0c-3511-97ff" type="profile"/>
-                        <infoLink id="1d4c-27e0-2061-e21c" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="16c2-8ec5-04b6-f50e" name="6x M1 Garand, 5x M1 Bazooka, 2x M1919 LMG, 1x 60mm mortar, 4x M3 .30, 1x M3 .50" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="2c04-0dcc-ab8e-74d1" name="6x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad7-8c58-5eb9-80e3" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b324-aeea-5a1e-b535" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="9c76-79f4-dd2e-099a" name="M1 Garand rifle team" hidden="false" targetId="3835-2fb5-3ba0-e286" type="profile"/>
-                        <infoLink id="91dd-c74a-cc11-bfa4" name="M1 Garand rifle team" hidden="false" targetId="54e5-8f1f-7d07-182b" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="9fbf-55cd-5053-901b" name="5x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c1a-6d88-3c9e-c400" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b24-ca3e-edfe-fd92" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="8b67-2dec-253b-88d3" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="a47f-fa41-14d7-f86b" name="M1 Bazooka team" hidden="false" targetId="79cb-ae93-db5f-e012" type="profile"/>
-                        <infoLink id="e5eb-f56c-31a3-4008" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6735-cabb-55b7-107a" name="2x M1919 LMG" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b312-6bff-6d8a-e075" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b8b-9c1a-3d8c-36a0" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="00df-27d9-3200-aba4" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="b6d3-9605-8b6c-ec7d" name="M1919 team" hidden="false" targetId="930c-fd2b-9e8e-9adf" type="profile"/>
-                        <infoLink id="6ffc-f571-5db8-4382" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="2327-5d24-978f-d908" name="1x 60mm mortar" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="180c-4a7e-d0b3-b7ff" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ccd-4947-b175-7715" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="98cc-dc3d-f8fe-40b4" name="60mm mortar team" hidden="false" targetId="4d83-ea1a-2166-38c9" type="profile"/>
-                        <infoLink id="6a7f-f859-2466-6323" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                        <infoLink id="c809-3baf-7b90-eb1c" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="452e-68fe-630a-6600" name="1x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf7e-4cb0-a968-61f8" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4afe-9dca-93e0-ba16" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="8915-66fe-7e82-16e7" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                        <infoLink id="c88d-2855-59ad-3173" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4b26-f29f-5d40-8355" name="4x M3 half-track (.30 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad1-e1b6-3c4d-d2df" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b0-5b40-965d-ea3c" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="ab0a-8423-876c-3c91" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                        <infoLink id="c4a2-4875-128b-0061" name="M3 half-track (.30 cal MG)" hidden="false" targetId="ff93-8f0c-3511-97ff" type="profile"/>
-                        <infoLink id="2da5-cfb6-ce0c-9b52" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="36af-22f0-2048-2503" name="81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc04-6299-82f6-4d2a" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="fb4a-112a-7d9b-6135" name="M4 (81mm mortar)" hidden="false" targetId="272b-84fb-5a06-7b12" type="profile"/>
-            <infoLink id="b890-731d-3f63-56d8" name="M4 (.30 cal MG)" hidden="false" targetId="32b3-2854-cf0f-f3e9" type="profile"/>
-            <infoLink id="bdbc-bff9-32b6-3843" name="M4 (81mm mortar)" hidden="false" targetId="3b6f-ee89-ee87-f667" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="4b7f-2883-6284-abbb" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e683-7e22-b7b5-6fe9" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="0e38-656d-adb8-e7ef" name="Old ironsides" hidden="false" collective="false" import="true" targetId="7ccd-a20f-cf3a-dfec" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="574e-6be2-2cf8-5b3e" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a44-753f-6295-84b2" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="695c-c1ea-22cc-df8e" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="b829-33fa-3113-bf71" name="3x M4 (81mm mortar)" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d514-7d60-8a61-5e92" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29af-f646-f57f-63f6" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="5d0a-10d8-ef4b-edb4" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-                    <infoLink id="b25c-adb1-deff-6aa1" name="Rear Firing" hidden="false" targetId="e9e5-f5de-e0ef-9e90" type="rule"/>
-                    <infoLink id="71d4-144c-05fc-c65c" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d032-836b-18d5-e3b3" name="Armoured Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8765-5097-f0fd-a76a" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="8df7-69fa-79b0-f8f9" name="Observer" hidden="false" targetId="0e97-34d8-2789-4ae8" type="rule"/>
-        <infoLink id="7fc2-ecf9-5bda-f45e" name="Determined" hidden="false" targetId="af6b-e7b7-965e-3139" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="3791-f4ad-0d9f-e770" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="6257-f790-affc-bacd" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="3fd0-f1f0-cd48-9b92" name="M4 81mm Armored Mortar Platoon" hidden="false" collective="false" import="true" targetId="25f8-122f-0d55-44d3" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0042-19ca-8890-b2b8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f680-992d-8fe6-0afb" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="9240-fbf3-34ee-6b2d" name="Regulars, By God!" hidden="false" collective="false" import="true" targetId="1500-7e7b-f405-113b" type="selectionEntry"/>
-            <entryLink id="49cc-62bd-d066-fc5b" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="11ba-c1c1-e3e8-2dcb" type="selectionEntry"/>
-            <entryLink id="d93a-dd39-e2c0-fe11" name="Dead Eye" hidden="false" collective="false" import="true" targetId="c6ac-c5be-7bfc-e0c5" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="52c9-73ce-d70c-d941" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true">
+        </entryLink>
+        <entryLink id="9670-c31e-54cc-7073" name="T30 75mm Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="ac1f-f190-ad96-7045" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e821-b323-0a87-735f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1be-c318-ee15-b7e8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bac-35ce-1342-b0c5" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="612f-fc46-be3a-1517" name="4x M1 Garand, 4x M1 Bazooka, 2x M1919 LMG, 1x 60mm mortar, 3x M3 .30, 1x M3 .50" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="69b8-ccc4-96c8-6a2c" name="4x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b55-114e-0e53-abbf" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f475-10d3-92b0-2dac" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="1168-67c5-c906-de7f" name="M1 Garand rifle team" hidden="false" targetId="3835-2fb5-3ba0-e286" type="profile"/>
-                    <infoLink id="556b-acee-a214-1e2c" name="M1 Garand rifle team" hidden="false" targetId="54e5-8f1f-7d07-182b" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="5b09-dd01-63fa-4d84" name="4x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e836-7303-eeda-d57b" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a064-f414-1eb5-9142" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="a42e-f3b2-9bc9-1caf" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                    <infoLink id="b545-abe1-3952-2d8f" name="M1 Bazooka team" hidden="false" targetId="79cb-ae93-db5f-e012" type="profile"/>
-                    <infoLink id="be3d-11ca-5133-7ad1" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="6b20-54c3-501e-b3d2" name="2x M1919 LMG" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e934-5a58-e968-1d43" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34f3-9757-8a21-c3a7" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="542d-8b0b-908a-0e76" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                    <infoLink id="eb3d-b057-4dd5-55ba" name="M1919 team" hidden="false" targetId="930c-fd2b-9e8e-9adf" type="profile"/>
-                    <infoLink id="2dc3-66ef-c499-efc2" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d95e-bfa6-9c73-c0be" name="1x 60mm mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c230-37bf-a3de-736e" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="411b-eaee-09a7-34c1" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="418f-2055-e0f7-a442" name="60mm mortar team" hidden="false" targetId="4d83-ea1a-2166-38c9" type="profile"/>
-                    <infoLink id="ac27-fe6a-8289-fd3a" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                    <infoLink id="dad5-b2f0-853b-a02a" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="b6e2-28d0-bc34-b699" name="1x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f4e-1462-6336-cbc6" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aad-696c-2f56-c83e" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="9199-5355-bc67-acf6" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                    <infoLink id="6189-49d7-fb93-e009" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="da80-813a-2698-8ab2" name="3x M3 half-track (.30 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7e6-86ea-ea94-e0fd" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d28-8896-2e5f-a8bc" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="44c7-5ec9-1018-b29e" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                    <infoLink id="cb67-b2be-8db6-760b" name="M3 half-track (.30 cal MG)" hidden="false" targetId="ff93-8f0c-3511-97ff" type="profile"/>
-                    <infoLink id="4bb0-5437-316d-a308" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ea51-4d32-0ead-4cf7" name="6x M1 Garand, 5x M1 Bazooka, 2x M1919 LMG, 1x 60mm mortar, 4x M3 .30, 1x M3 .50" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="9efc-5987-341c-99e3" name="6x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee37-e529-5ba3-7473" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5492-7fcb-50b3-2eae" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="b4b0-1e08-0f93-e9f9" name="M1 Garand rifle team" hidden="false" targetId="3835-2fb5-3ba0-e286" type="profile"/>
-                    <infoLink id="4213-7932-abec-d118" name="M1 Garand rifle team" hidden="false" targetId="54e5-8f1f-7d07-182b" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="aa74-3dc7-525b-1be8" name="5x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20f9-77a7-45b4-964e" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a07-2885-2e07-246f" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="1e4d-3320-e2bd-ea73" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                    <infoLink id="7790-aad6-938d-4553" name="M1 Bazooka team" hidden="false" targetId="79cb-ae93-db5f-e012" type="profile"/>
-                    <infoLink id="64db-2d2e-b29e-59bd" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="bd53-a078-b682-5d27" name="2x M1919 LMG" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="640d-99c7-f9bc-e0dd" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ae-bb8e-00b2-cec8" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="f0de-af55-f371-b8a8" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                    <infoLink id="4e8b-6e86-5fa7-dc20" name="M1919 team" hidden="false" targetId="930c-fd2b-9e8e-9adf" type="profile"/>
-                    <infoLink id="e18a-8280-762f-5d3b" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="41a5-c144-1781-c59e" name="1x 60mm mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fe5-fc3f-a093-a4fc" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c1d-a844-97ba-17d7" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="8184-eb31-fbad-1838" name="60mm mortar team" hidden="false" targetId="4d83-ea1a-2166-38c9" type="profile"/>
-                    <infoLink id="4330-cabb-07ac-713c" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
-                    <infoLink id="f01e-ab39-0be9-5e4f" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="1317-82f8-61ef-b1df" name="1x M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fde-60e1-3f63-8190" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8455-4a8d-fefb-f7b1" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="fc77-5019-858e-ff52" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
-                    <infoLink id="d308-b1f5-6089-01b7" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a93a-6827-a177-15e1" name="4x M3 half-track (.30 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cfe-79c7-e8b4-9510" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b8f-b907-751a-8645" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="3a98-61aa-e8ce-46e7" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
-                    <infoLink id="7a7c-2880-1978-0c05" name="M3 half-track (.30 cal MG)" hidden="false" targetId="ff93-8f0c-3511-97ff" type="profile"/>
-                    <infoLink id="8dcc-c79d-1d5e-9e8c" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+        </entryLink>
+        <entryLink id="8e45-8276-c586-626a" name="Armoured Rifle Platoon" hidden="false" collective="false" import="true" targetId="7e2a-85f2-9e1a-8903" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a7e2-c0ba-b166-8b7f" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c1f4-5d46-a05e-3708" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -5245,6 +4237,184 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e2a-85f2-9e1a-8903" name="Armored Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6c91-c5e2-2220-75c3" name="Observer" hidden="false" targetId="0e97-34d8-2789-4ae8" type="rule"/>
+        <infoLink id="419c-a0af-3e15-7684" name="M1 Bazooka team" hidden="false" targetId="79cb-ae93-db5f-e012" type="profile"/>
+        <infoLink id="4014-5952-efe7-d91f" name="60mm mortar team" hidden="false" targetId="4d83-ea1a-2166-38c9" type="profile"/>
+        <infoLink id="63c5-dc3a-3131-a7f5" name="Assault 6+" hidden="false" targetId="b2b4-075d-6b96-1ada" type="rule"/>
+        <infoLink id="5f20-de5e-0ecf-bd47" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+        <infoLink id="197d-1444-d92e-0011" name="M1919 team" hidden="false" targetId="930c-fd2b-9e8e-9adf" type="profile"/>
+        <infoLink id="6e27-be57-5068-078c" name="M1 Garand rifle team" hidden="false" targetId="54e5-8f1f-7d07-182b" type="profile"/>
+        <infoLink id="6a68-c531-ee3f-031e" name="M1 Garand rifle team" hidden="false" targetId="3835-2fb5-3ba0-e286" type="profile"/>
+        <infoLink id="f917-9ac7-9759-f623" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="872a-e988-6bf7-693b" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="e166-d780-6230-2883">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9315-369a-9349-754f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45fe-e54e-558b-285c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e166-d780-6230-2883" name="4x M1 Garand, 4x M1 Bazooka, 2x M1919 LMG, 1x 60mm mortar, 2x M3 .30, 2x M3 .50" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="d7ca-5411-c0c1-c3c1" name="4x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e4b-1124-1fd9-b510" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab27-b93c-fb5b-f0f3" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="af1c-133b-9230-3bca" name="4x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3a6-4e18-c1b2-97c1" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d91a-cdf8-facc-e3cb" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d0c6-1337-1020-55d1" name="2x M1919 LMG" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afca-2b41-964d-d7d8" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5adc-7101-cd0f-068e" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c83d-fd9b-72c2-705e" name="1x 60mm mortar" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57cc-f404-b8b8-51f3" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67ed-197b-9fa6-0193" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="6cc9-e3e9-f4b2-60dd" name="M3 half-track (.30 cal MG)" hidden="false" collective="false" import="true" targetId="2b9e-1041-8921-a548" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="2x M3 half-track (.30 cal MG)"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cd7-2404-b34c-6595" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d82-ae32-c2e3-39d4" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="5c00-407f-82da-c28d" name="M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" targetId="8ec4-5365-86f9-f2b5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="2x M3 half-track (.50 cal MG)"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc5c-6023-d082-f585" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a8d-ebfa-b330-3d33" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fab6-b570-7f23-ee54" name="6x M1 Garand, 5x M1 Bazooka, 2x M1919 LMG, 1x 60mm mortar, 3x M3 .30, 2x M3 .50" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="550f-04e4-7a4c-4045" name="6x M1 Garand rifle team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b54-93a0-2308-4ac2" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfcb-3299-8209-c1b6" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2458-243c-1b37-c697" name="5x M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29f6-9f31-5e53-76b8" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1182-2230-fd09-6af8" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d548-3bfb-7230-37e9" name="2x M1919 LMG" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="328e-58ff-ca27-f9ef" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a25d-9781-702b-ef33" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b4ee-c6b0-4d41-2dfe" name="1x 60mm mortar" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69b5-a203-dc05-4939" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9339-4b8c-46e1-92c7" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="4862-9bb8-14c6-0c62" name="M3 half-track (.30 cal MG)" hidden="false" collective="false" import="true" targetId="2b9e-1041-8921-a548" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="3x M3 half-track (.30 cal MG)"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b801-551b-092a-a7ea" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ea3-ce4c-7781-67c8" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="6cf7-7bfd-7e6e-3393" name="M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" targetId="8ec4-5365-86f9-f2b5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="2x M3 half-track (.50 cal MG)"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dfd-a16a-1c6b-c4af" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4292-9e7a-5bdc-2665" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b9e-1041-8921-a548" name="M3 half-track (.30 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="378b-9bfb-6ebd-36c1" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
+        <infoLink id="6b0f-8461-742b-e3d9" name="M3 half-track (.30 cal MG)" hidden="false" targetId="ff93-8f0c-3511-97ff" type="profile"/>
+        <infoLink id="aaf5-77bb-87fd-6580" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+        <infoLink id="3c7d-a051-5f29-359b" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+        <infoLink id="2ffb-b333-d3d8-e32a" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="1fe4-ee21-6fae-5441" name="Passenger MG" hidden="false" targetId="2ed3-ac0b-514c-d7d5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ec4-5365-86f9-f2b5" name="M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9930-92c4-5e2c-2cd9" name="M3 half-track" hidden="false" targetId="7eb9-33b8-6f59-dabe" type="profile"/>
+        <infoLink id="63f7-646f-69c8-e50a" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+        <infoLink id="3fe3-214d-dc32-1634" name="Passangers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+        <infoLink id="c4d3-c161-167e-2ac0" name="M3 half-track (.50 cal MG)" hidden="false" targetId="57a4-49f9-dbe4-540d" type="profile"/>
+        <infoLink id="961b-36c6-c462-1174" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="de30-5095-abc7-ef83" name="Passenger MG" hidden="false" targetId="2ed3-ac0b-514c-d7d5" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
