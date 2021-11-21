@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c97d-9ffb-d8c2-9cd8" name="D-Day American" revision="11" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c97d-9ffb-d8c2-9cd8" name="D-Day American" revision="11" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="567b-dc5a-c654-5ad4" name="D-Day American"/>
   </publications>
@@ -7366,7 +7366,7 @@ Add one transport for each gun team in unit</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="13ff-87bc-b866-0e91" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="13ff-87bc-b866-0e91" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="7e9a-aa3e-8673-3630">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfc9-534f-4376-9087" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e791-846c-3a2a-80dc" type="max"/>

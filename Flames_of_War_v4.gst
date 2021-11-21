@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="15" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="16" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Currently being maintained by Hav3rchuck</readme>
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
@@ -112,9 +112,9 @@
   <forceEntries>
     <forceEntry id="a4b2-2825-7956-92b9" name="Standard" publicationId="b8e5-51cf-456c-eafb" hidden="false">
       <categoryLinks>
-        <categoryLink id="a848-4467-9550-eafd" name="Combat Platoons" publicationId="453d-401b-fd1e-0f95" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="false">
+        <categoryLink id="a848-4467-9550-eafd" name="Combat Formations" publicationId="453d-401b-fd1e-0f95" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="796f-9354-b70c-b554" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="796f-9354-b70c-b554" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="1f7f-6695-e57f-8964" name="Support Platoons" publicationId="453d-401b-fd1e-0f95" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
