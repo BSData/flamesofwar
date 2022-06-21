@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d223-d561-b7be-7f4d" name="D-Day British" revision="5" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d223-d561-b7be-7f4d" name="D-Day British" revision="5" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="1264-ae58-312f-c0a4" name="Rifle Company" publicationId="0071-7fad-4956-579d" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -979,6 +979,23 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="13e4-b0dd-3134-513e" name="Upgrade from Cards" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="e526-3445-6511-6a3d" name="51st Highland Division - Bagpipes" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="9e42-b46b-fd50-c726" name="Bagpipes" hidden="false">
+                  <description>The Formation HQ Unit and any Infantry or Gun Unit from this Formation whose Unit Leader is within 6&quot;/15cm of the Formation Commander Rally on a 4+</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="80d4-bf4b-05f9-8bb7" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -1227,7 +1244,7 @@
                 <infoLink id="b019-a99a-9981-8739" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
                 <infoLink id="faa2-db2b-2c98-9912" name="Firefly (17 pdr)" hidden="false" targetId="4165-ceb6-d4a8-445a" type="profile"/>
                 <infoLink id="395b-d827-c448-a715" name="Firefly (17 pdr)" hidden="false" targetId="2984-35d4-5f3b-f6eb" type="profile"/>
-                <infoLink id="610d-fee8-e68f-2616" name="Firefly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
+                <infoLink id="610d-fee8-e68f-2616" name="Firelfly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="f52e-9c55-7382-5c3d" name="3x Firefly (17 pdr)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4180,6 +4197,15 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="699c-b16f-d0b4-0d9e" name="Upgrade from Cards" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8697-b3da-1831-0d97" name="Guards Armoured Division - Unflappable" hidden="false" collective="false" import="true" targetId="26c3-e3fe-edba-ce24" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -4242,7 +4268,7 @@
             <infoLink id="58e3-4d0a-6146-7dc2" name="Sherman (MGs)" hidden="false" targetId="8b1b-b449-5676-b545" type="profile"/>
             <infoLink id="5dff-8da1-b6cd-657e" name="Firefly (17 pdr)" hidden="false" targetId="4165-ceb6-d4a8-445a" type="profile"/>
             <infoLink id="429b-c3a4-0280-c8c3" name="Firefly (17 pdr)" hidden="false" targetId="2984-35d4-5f3b-f6eb" type="profile"/>
-            <infoLink id="be4c-ae30-ffc1-1bc4" name="Firefly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
+            <infoLink id="be4c-ae30-ffc1-1bc4" name="Firelfly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
             <infoLink id="ea04-07b7-5267-6819" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -4341,7 +4367,7 @@
             <infoLink id="a0f1-fdef-96e4-7be4" name="Sherman (MGs)" hidden="false" targetId="8b1b-b449-5676-b545" type="profile"/>
             <infoLink id="150e-bdc9-2984-8e5d" name="Firefly (17 pdr)" hidden="false" targetId="4165-ceb6-d4a8-445a" type="profile"/>
             <infoLink id="75b8-f9ae-1263-bd97" name="Firefly (17 pdr)" hidden="false" targetId="2984-35d4-5f3b-f6eb" type="profile"/>
-            <infoLink id="d15e-278d-67dc-3009" name="Firefly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
+            <infoLink id="d15e-278d-67dc-3009" name="Firelfly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
             <infoLink id="65f4-4a37-1422-713c" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -4379,7 +4405,7 @@
             <infoLink id="d03e-24ce-13b0-5844" name="Sherman (MGs)" hidden="false" targetId="8b1b-b449-5676-b545" type="profile"/>
             <infoLink id="bc81-db33-073f-a8c5" name="Firefly (17 pdr)" hidden="false" targetId="4165-ceb6-d4a8-445a" type="profile"/>
             <infoLink id="6697-cb50-f3d2-5d2c" name="Firefly (17 pdr)" hidden="false" targetId="2984-35d4-5f3b-f6eb" type="profile"/>
-            <infoLink id="ccdb-e032-4205-eb90" name="Firefly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
+            <infoLink id="ccdb-e032-4205-eb90" name="Firelfly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
             <infoLink id="03c8-9054-4eee-4fed" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -4425,7 +4451,7 @@
                 <infoLink id="dbf1-e432-69ef-40eb" name="Sherman (MGs)" hidden="false" targetId="8b1b-b449-5676-b545" type="profile"/>
                 <infoLink id="5973-ce88-0b05-f61a" name="Firefly (17 pdr)" hidden="false" targetId="4165-ceb6-d4a8-445a" type="profile"/>
                 <infoLink id="9e7c-aceb-1b88-8849" name="Firefly (17 pdr)" hidden="false" targetId="2984-35d4-5f3b-f6eb" type="profile"/>
-                <infoLink id="af91-7f5f-d5f2-2896" name="Firefly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
+                <infoLink id="af91-7f5f-d5f2-2896" name="Firelfly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
                 <infoLink id="7d28-deaa-c1ff-8167" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
@@ -4490,6 +4516,40 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="249a-dc4e-a05d-a4f2" name="Upgrade from Cards" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="3536-0fe6-63ad-65a5" name="1st Polish Armoured Division - Black Devils" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="995a-4d67-6920-bfe4" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="364b-945a-6f0f-10f8" name="Black Devils" hidden="false">
+                  <description>Units in this Formation are +2 points per Unit. All Units have a Motivation rating as follows:
+
+Motivation
+Fearless 3+</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="184c-2c84-7092-2184" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="4685-b9ae-aeee-ce25" name="Guards Armoured Division - Unflappable" hidden="false" collective="false" import="true" targetId="26c3-e3fe-edba-ce24" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="6f63-cc63-caac-81a1" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -4927,6 +4987,29 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f0e5-b2b3-e0dd-c3c7" name="Upgrade from Cards" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="7bae-937d-f84f-236f" name="6th Guards Tank Brigade - Infantry Tanks" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="ab6b-0370-7b6e-f6ea" name="Infantry Tanks" hidden="false">
+                  <description>Tank Units in this formation have the Unflappable rating
+
+Last Stand 3+
+
+You may also take any 15th Scottish Division Title cards in your Force</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="e5f0-4060-b769-c499" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -5213,6 +5296,15 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="b49c-5ef8-6c05-930e" name="Upgrade from Cards" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="0b5b-296b-98ee-ed4a" name="Guards Armoured Division - Unflappable" hidden="false" collective="false" import="true" targetId="26c3-e3fe-edba-ce24" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -5356,7 +5448,7 @@
             <infoLink id="b4b0-1047-2cfa-3178" name="Cromwell (MGs)" hidden="false" targetId="cab9-118c-b56b-c7a6" type="profile"/>
             <infoLink id="7d53-30fa-b7f5-4646" name="Firefly (17 pdr) desert rat" hidden="false" targetId="a4f2-83bc-9751-4bb9" type="profile"/>
             <infoLink id="f297-4806-9f42-e1e2" name="Firefly (17 pdr)" hidden="false" targetId="2984-35d4-5f3b-f6eb" type="profile"/>
-            <infoLink id="02f4-699f-8515-5e3e" name="Firefly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
+            <infoLink id="02f4-699f-8515-5e3e" name="Firelfly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
             <infoLink id="1256-899f-a796-968a" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -5395,7 +5487,7 @@
             <infoLink id="cdc7-50b0-a55c-b425" name="Cromwell (MGs)" hidden="false" targetId="cab9-118c-b56b-c7a6" type="profile"/>
             <infoLink id="ab83-1c2d-fff5-32a2" name="Firefly (17 pdr) desert rat" hidden="false" targetId="a4f2-83bc-9751-4bb9" type="profile"/>
             <infoLink id="1246-9689-056a-9283" name="Firefly (17 pdr)" hidden="false" targetId="2984-35d4-5f3b-f6eb" type="profile"/>
-            <infoLink id="58b1-c329-5298-5d56" name="Firefly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
+            <infoLink id="58b1-c329-5298-5d56" name="Firelfly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
             <infoLink id="f0be-ac34-c047-258a" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -5433,7 +5525,7 @@
             <infoLink id="dc89-7c0b-f2d6-7470" name="Cromwell (MGs)" hidden="false" targetId="cab9-118c-b56b-c7a6" type="profile"/>
             <infoLink id="28f3-93be-d9bd-3256" name="Firefly (17 pdr) desert rat" hidden="false" targetId="a4f2-83bc-9751-4bb9" type="profile"/>
             <infoLink id="38ae-2131-6935-4445" name="Firefly (17 pdr)" hidden="false" targetId="2984-35d4-5f3b-f6eb" type="profile"/>
-            <infoLink id="f904-919d-d54a-50a4" name="Firefly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
+            <infoLink id="f904-919d-d54a-50a4" name="Firelfly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
             <infoLink id="ef0b-97f2-30b6-4353" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -5479,7 +5571,7 @@
                 <infoLink id="ae87-f2f5-a73d-58ae" name="Cromwell (MGs)" hidden="false" targetId="cab9-118c-b56b-c7a6" type="profile"/>
                 <infoLink id="44b0-1be5-407a-5d1b" name="Firefly (17 pdr) desert rat" hidden="false" targetId="a4f2-83bc-9751-4bb9" type="profile"/>
                 <infoLink id="3db3-f6ba-eee0-6bab" name="Firefly (17 pdr)" hidden="false" targetId="2984-35d4-5f3b-f6eb" type="profile"/>
-                <infoLink id="3401-66d5-8ec7-6a61" name="Firefly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
+                <infoLink id="3401-66d5-8ec7-6a61" name="Firelfly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
                 <infoLink id="7211-36a1-bb6f-5011" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
@@ -6471,7 +6563,7 @@
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="278a-b1d2-f99c-9af5" name="5x Brengun &amp; SMLE rifle, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
@@ -8560,7 +8652,7 @@
         <infoLink id="ca59-2660-293b-062f" name="Sherman (MGs)" hidden="false" targetId="8b1b-b449-5676-b545" type="profile"/>
         <infoLink id="6d45-22de-fe03-1bfa" name="Firefly (17 pdr)" hidden="false" targetId="4165-ceb6-d4a8-445a" type="profile"/>
         <infoLink id="b040-87d1-d34b-416f" name="Firefly (17 pdr)" hidden="false" targetId="2984-35d4-5f3b-f6eb" type="profile"/>
-        <infoLink id="bb61-92c1-ecd0-c202" name="Firefly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
+        <infoLink id="bb61-92c1-ecd0-c202" name="Firelfly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
         <infoLink id="5fa5-67b0-f21b-07fb" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -8786,7 +8878,7 @@
         <infoLink id="fee2-7d63-78c6-7b21" name="Cromwell (MGs)" hidden="false" targetId="cab9-118c-b56b-c7a6" type="profile"/>
         <infoLink id="e165-a96a-6812-1328" name="Firefly (17 pdr) desert rat" hidden="false" targetId="a4f2-83bc-9751-4bb9" type="profile"/>
         <infoLink id="ece5-375b-daad-036e" name="Firefly (17 pdr)" hidden="false" targetId="2984-35d4-5f3b-f6eb" type="profile"/>
-        <infoLink id="abb6-34c1-b2fb-06ff" name="Firefly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
+        <infoLink id="abb6-34c1-b2fb-06ff" name="Firelfly (MGs)" hidden="false" targetId="e694-64cd-4861-00fe" type="profile"/>
         <infoLink id="612b-ed84-c4d2-b7d2" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -9216,6 +9308,23 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="26c3-e3fe-edba-ce24" name="Guards Armoured Division - Unflappable" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="cf16-a020-2a0b-8c1f" name="Guards Armoured Division - Unflappable" hidden="false">
+          <description>Tanks and Infantry Units in this Formation have Unflappable rating
+
+Last Stand 3+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c066-b57c-3b5a-13bd" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedRules>
     <rule id="612e-97f4-b2a0-4a1f" name="Bunker Killer" hidden="false">
       <description>Bunker Killer teams can hit Nest and Bunder Teams despite being an Artillery Bombardment. As a Brutal weapon, any Infantry, Gun (including Nests and Bunkers), or Unarmoured Tank Teams it hits must re-roll successful Saves.</description>
@@ -9535,7 +9644,7 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic>
       </characteristics>
     </profile>
-    <profile id="e694-64cd-4861-00fe" name="Firefly (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+    <profile id="e694-64cd-4861-00fe" name="Firelfly (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
