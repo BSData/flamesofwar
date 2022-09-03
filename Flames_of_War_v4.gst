@@ -11,6 +11,9 @@ v17 - willus8888
 - added One-man Turret Rule
 - added No MG Rule
 - added Command Card Profile Type
+
+v18 - willus8888
+- added Info field to Command Card Profile Types
 	  </readme>
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
@@ -145,6 +148,7 @@ v17 - willus8888
     </profileType>
     <profileType id="5cbd-556d-67b5-1bd9" name="Command Card">
       <characteristicTypes>
+        <characteristicType id="bd5c-655e-1889-6af7" name="Info"/>
         <characteristicType id="4091-e11a-c858-f46e" name="Details"/>
         <characteristicType id="75a6-20ee-1c76-640a" name="Notes"/>
       </characteristicTypes>
@@ -161,8 +165,16 @@ v17 - willus8888
     </categoryEntry>
     <categoryEntry id="2739-fb2a-059a-ccb0" name="Headquaters" hidden="false"/>
     <categoryEntry id="c5b6-63ee-3f81-25f2" name="Command Cards" hidden="false"/>
-    <categoryEntry id="02e3-24e6-27f8-653f" name="Allied Formation" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false"/>
-    <categoryEntry id="bf21-c7f3-1de8-efb9" name="Allied Unit" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false"/>
+    <categoryEntry id="02e3-24e6-27f8-653f" name="Allied Formation" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcfb-051d-b944-9e63" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="bf21-c7f3-1de8-efb9" name="Allied Unit" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9074-838a-616d-7fda" type="max"/>
+      </constraints>
+    </categoryEntry>
     <categoryEntry id="b531-2fd7-ec0e-d214" name="Formation Support" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false">
       <comment>v17 - willus8888
 - added Formation Support as per Rulebook page 99</comment>
