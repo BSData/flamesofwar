@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="18" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="19" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Currently being maintained by Hav3rchuck
 
 v17 - willus8888
@@ -14,7 +14,11 @@ v17 - willus8888
 
 v18 - willus8888
 - added Info field to Command Card Profile Types
-	  </readme>
+
+v19 - Edivad42
+- added Bulge: British publication
+- created Bulge: British data file
+  </readme>
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
     <publication id="453d-401b-fd1e-0f95" name="Rulebook"/>
@@ -40,6 +44,9 @@ v18 - willus8888
     </publication>
     <publication id="afae-8f3f-0f99-8376" name="Bulge: American" shortName="FW270" publisher="ISBN: 9781988558295" publicationDate="2021" publisherUrl="https://www.flamesofwar.com/hobby.aspx?art_id=7340">
       <comment>added in v17 by willus8888</comment>
+    </publication>
+    <publication id="ace1-d7bb-f665-21a0" name="Bulge: British" shortName="FW272" publisher="ISBN: 9781988558325" publicationDate="2022" publisherUrl="https://www.flamesofwar.com/Default.aspx?tabid=53&amp;art_id=7569">
+      <comment>added in v19 by Edivad42</comment>
     </publication>
   </publications>
   <costTypes>
