@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="19" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="20" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Currently being maintained by Hav3rchuck
 
 v17 - willus8888
@@ -18,10 +18,14 @@ v18 - willus8888
 v19 - Edivad42
 - added Bulge: British publication
 - created Bulge: British data file
+
+v20 - mdcooledge
+- added Publications (Berlin: Soviet, Berlin: German, D-Day: Waffen-SS)
+- added/updated Bulge: German data file
   </readme>
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
-    <publication id="453d-401b-fd1e-0f95" name="Rulebook"/>
+    <publication id="453d-401b-fd1e-0f95" name="Rulebook" shortName="FW009M" publisher="ISBN: 9781988558059" publicationDate="2019" publisherUrl="www.flamesofwar.com"/>
     <publication id="821b-34cc-8e2d-92bd" name="Fighting First"/>
     <publication id="8a18-905e-29ba-846c" name="D-Day: American"/>
     <publication id="fb30-f3e6-6949-ca30" name="Afrika Korps"/>
@@ -32,21 +36,38 @@ v19 - Edivad42
     <publication id="259f-463e-b7b1-5f53" name="Iron Cross"/>
     <publication id="f4e1-10cd-8e77-b4b2" name="Ghost Panzers"/>
     <publication id="9c95-3df5-45e4-4f28" name="Red Banner"/>
-    <publication id="10a4-8008-66c3-952e" name="D-Day: German"/>
-    <publication id="0071-7fad-4956-579d" name="D-Day: British"/>
+    <publication id="10a4-8008-66c3-952e" name="D-Day: German" shortName="FW263" publisher="ISBN: 9781988558080" publicationDate="2019" publisherUrl="https:www.flamesofwar.com">
+      <comment>Updated in v20 by mdcooledge</comment>
+    </publication>
+    <publication id="0071-7fad-4956-579d" name="D-Day: British" shortName="FW264" publisher="ISBN: 9781988558141" publicationDate="2019" publisherUrl="www.flamesofwar.com">
+      <comment>Updated info in v20 by mdcooledge</comment>
+    </publication>
     <publication id="5ab4-5ce9-268b-6f05" name="Death From Above"/>
     <publication id="7dad-f562-34ff-9ca3" name="All American"/>
     <publication id="9f90-b6ea-6e0c-9aa3" name="Bagration: Soviet" shortName="FW266" publisher="ISBN: 9781988558189" publicationDate="2020" publisherUrl="https://www.flamesofwar.com/hobby.aspx?art_id=7060">
       <comment>added in v17 by willus8888</comment>
     </publication>
-    <publication id="3bbf-3707-35dd-b1f5" name="Bulge: German" shortName="FW271" publicationDate="2022">
-      <comment>added in v17 by willus8888</comment>
+    <publication id="3bbf-3707-35dd-b1f5" name="Bulge: German" shortName="FW271" publisher="ISBN: 9781988558318" publicationDate="2022" publisherUrl="www.flamesofwar.com">
+      <comment>added in v17 by willus8888
+updated info in v20 by mdcooledge</comment>
     </publication>
     <publication id="afae-8f3f-0f99-8376" name="Bulge: American" shortName="FW270" publisher="ISBN: 9781988558295" publicationDate="2021" publisherUrl="https://www.flamesofwar.com/hobby.aspx?art_id=7340">
       <comment>added in v17 by willus8888</comment>
     </publication>
     <publication id="ace1-d7bb-f665-21a0" name="Bulge: British" shortName="FW272" publisher="ISBN: 9781988558325" publicationDate="2022" publisherUrl="https://www.flamesofwar.com/Default.aspx?tabid=53&amp;art_id=7569">
       <comment>added in v19 by Edivad42</comment>
+    </publication>
+    <publication id="5845-a16a-204b-dda9" name="D-Day: Waffen-SS" shortName="FW265" publisher="ISBN: 9781988558202" publicationDate="2020" publisherUrl="https:www.flamesofwar.com">
+      <comment>Added in v20 by mdcooledge</comment>
+    </publication>
+    <publication id="4021-7322-ad7d-e1d9" name="Berlin: Soviet" shortName="FW274" publisher="ISBN: 9781988558370" publicationDate="2022" publisherUrl="www.flamesofwar.com">
+      <comment>Added in v20 by mdcooledge</comment>
+    </publication>
+    <publication id="892e-f53d-4077-cf72" name="Berlin: German" shortName="FW273" publisher="ISBN: 9781988558363" publicationDate="2022" publisherUrl="www.flamesofwar.com">
+      <comment>Added in v20 by mdcooledge</comment>
+    </publication>
+    <publication id="269c-a260-1f35-23c5" name="Bagration: German" shortName="FW267" publisher="ISBN: 9781988558196" publicationDate="2020" publisherUrl="www.flamesofwar.com">
+      <comment>Added in v20 by mdcooledge</comment>
     </publication>
   </publications>
   <costTypes>
