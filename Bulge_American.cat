@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0295-c68c-cb85-72f1" name="Bulge: American" revision="1" battleScribeVersion="2.03" authorName="willus8888" authorContact="Submit issues at https://github.com/BSData/flamesofwar" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0295-c68c-cb85-72f1" name="Bulge: American" revision="2" battleScribeVersion="2.03" authorName="willus8888" authorContact="Submit issues at https://github.com/BSData/flamesofwar" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>added in v1 by willus8888</comment>
   <readme>Bulge: American Forces On The Western Front, 1944-45
 
-Support the creators, buy the book!</readme>
+Support the creators, buy the book!
+
+v2 - mdcooledge
+- bug fix; Battle Weary Armoured Rifle Platoon (LU200) had the M3 Half-track options switched for differing unit sizes.</readme>
   <selectionEntries>
     <selectionEntry id="77bd-4cff-01d9-d42c" name="Veteran M4 Sherman (Late) Tank Company" publicationId="afae-8f3f-0f99-8376" page="22" hidden="false" collective="false" import="true" type="unit">
       <comment>added in v1 by willus8888</comment>
@@ -3616,15 +3619,15 @@ Support the creators, buy the book!</readme>
             <selectionEntry id="bd9f-7358-22e8-1042" name="6x M1 Garand rifle team, 5x M1 Bazooka team, 2x M1919 LMG, 1x 60mm mortar" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" collective="false" import="true" type="unit">
               <comment>added in v1 by willus8888</comment>
               <selectionEntryGroups>
-                <selectionEntryGroup id="82ab-0e76-ed3e-a834" name="With" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c86-434a-9f0c-b4b8">
+                <selectionEntryGroup id="82ab-0e76-ed3e-a834" name="With" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ddc-e83a-a70f-bac9" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="6c86-434a-9f0c-b4b8" name="2x M3 Half-track (.50 cal MG) [LU201], 2x M3 Half-track (.30 cal MG) [LU201]" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="5153-a13d-4c4e-45be" name="2x M3 Half-track (.50 cal MG) [LU201], 3x M3 Half-track (.30 cal MG) [LU201]" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" collective="false" import="true" type="upgrade">
                       <comment>added in v1 by willus8888</comment>
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3637,15 +3640,15 @@ Support the creators, buy the book!</readme>
             <selectionEntry id="97a0-f096-ff67-b4ed" name="4x M1 Garand rifle team, 4x M1 Bazooka team, 2x M1919 LMG, 1x 60mm mortar" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" collective="false" import="true" type="unit">
               <comment>added in v1 by willus8888</comment>
               <selectionEntryGroups>
-                <selectionEntryGroup id="6b95-b555-90b9-a063" name="With" hidden="false" collective="false" import="true" defaultSelectionEntryId="9b2c-76f0-7834-3147">
+                <selectionEntryGroup id="6b95-b555-90b9-a063" name="With" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05aa-8c0c-2ba6-58e1" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="9b2c-76f0-7834-3147" name="2x M3 Half-track (.50 cal MG) [LU201], 3x M3 Half-track (.30 cal MG) [LU201]" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="6efc-1800-3f72-82a7" name="2x M3 Half-track (.50 cal MG) [LU201], 2x M3 Half-track (.30 cal MG) [LU201]" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" collective="false" import="true" type="upgrade">
                       <comment>added in v1 by willus8888</comment>
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
