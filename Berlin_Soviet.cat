@@ -6329,6 +6329,22 @@ Support the creators, buy the book!</readme>
       <selectionEntryGroups>
         <selectionEntryGroup id="03b3-5c62-c586-6a66" name="Unit Configuration" publicationId="4021-7322-ad7d-e1d9" page="33" hidden="false" collective="false" import="true">
           <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aac-d1cc-3eeb-b0f1" type="min">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b624-df5a-c678-26f9" type="max">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b944-c081-cc56-4e54" name="1x  M4 Sherman (late 75mm)" publicationId="4021-7322-ad7d-e1d9" page="33" hidden="false" collective="false" import="true" type="unit">
+              <comment>added by AncestralHeritage</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
