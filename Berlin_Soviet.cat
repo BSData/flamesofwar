@@ -3121,7 +3121,7 @@ Support the creators, buy the book!</readme>
         <infoLink id="bdce-092a-e9d8-59eb" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="9dc8-1164-784c-b729" name="Guns" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
         <infoLink id="8738-cd9c-a10e-784f" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-        <infoLink id="84e1-4aec-20eb-ba3d" name="100mm gun" hidden="false" targetId="6e82-7c64-c379-38b2" type="profile"/>
+        <infoLink id="84e1-4aec-20eb-ba3d" name="100mm Tank-Killer Company" hidden="false" targetId="6e82-7c64-c379-38b2" type="profile"/>
         <infoLink id="9673-f8b0-6def-f51f" name="100mm gun" hidden="false" targetId="6da1-85b6-e8a6-b176" type="profile"/>
         <infoLink id="cde3-bcaf-3d52-1934" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
         <infoLink id="9d79-7876-a520-b2c6" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
@@ -8411,6 +8411,62 @@ Rally or Remount 3+</characteristic>
 </characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">Soviet, Build, Formation, Title</characteristic>
         <characteristic name="Info" typeId="bd5c-655e-1889-6af7"/>
+      </characteristics>
+    </profile>
+    <profile id="4970-ba72-aac3-2ec5" name="M4 Sherman (late) (75mm)" publicationId="4021-7322-ad7d-e1d9" page="27" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added by AncestralHeritage</comment>
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="a262-9ddc-ea57-67e9" name="M4 Sherman (late) (.50 cal AA MG)" publicationId="4021-7322-ad7d-e1d9" page="27" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added by AncestralHeritage</comment>
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0559-d314-7443-f08d" name="M4 Sherman (late) (MGs)" publicationId="4021-7322-ad7d-e1d9" page="27" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added by AncestralHeritage</comment>
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="2893-748c-5a67-71c8" name="M4 Sherman (late 75mm)" publicationId="4021-7322-ad7d-e1d9" page="27" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+      <comment>added by AncestralHeritage</comment>
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">Confident 4+
+
+Not One Step Back
+Last Stand 3+
+
+Protected Ammo
+Remount 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">Green 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">Aggressive 3+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
   </sharedProfiles>
