@@ -1481,7 +1481,7 @@ Support the creators, buy the book!</readme>
         <selectionEntryGroup id="7a2e-4023-736c-fb38" name="04. Armour Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="33" hidden="false" collective="false" import="true">
           <comment>added by AncestralHeritage</comment>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dae2-1f22-59f1-027a" type="max">
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dae2-1f22-59f1-027a" type="max">
               <comment>added by AncestralHeritage</comment>
             </constraint>
           </constraints>
@@ -1497,7 +1497,7 @@ Support the creators, buy the book!</readme>
         <selectionEntryGroup id="d0d6-f021-61d6-1222" name="05. Anti-Aircraft Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="35" hidden="false" collective="false" import="true">
           <comment>added by AncestralHeritage</comment>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b940-9c9a-6d88-2128" type="max">
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b940-9c9a-6d88-2128" type="max">
               <comment>added by AncestralHeritage</comment>
             </constraint>
           </constraints>
@@ -1510,7 +1510,7 @@ Support the creators, buy the book!</readme>
         <selectionEntryGroup id="11b5-7460-3980-a753" name="06. Artillery Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="28" hidden="false" collective="false" import="true">
           <comment>added by AncestralHeritage</comment>
           <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60be-8fb0-e57a-06e2" type="max"/>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="60be-8fb0-e57a-06e2" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="6534-ab7c-deca-3467" name="82mm Mortar Company [LS113]" hidden="false" collective="false" import="true" targetId="f0bf-f1fc-6243-a1c7" type="selectionEntry">
@@ -1521,7 +1521,7 @@ Support the creators, buy the book!</readme>
         <selectionEntryGroup id="9361-9325-0b3a-7bdb" name="07. Anti-Tank Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="29" hidden="false" collective="false" import="true">
           <comment>added by AncestralHeritage</comment>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa8-1f1a-ac4d-3a6a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eaa8-1f1a-ac4d-3a6a" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="0d56-e4e6-4611-e222" name="45mm Anti-Tank Company [LS116]" hidden="false" collective="false" import="true" targetId="b795-b458-c40e-3396" type="selectionEntry">
@@ -1538,7 +1538,7 @@ Support the creators, buy the book!</readme>
         <selectionEntryGroup id="6f64-320a-0f41-0a35" name="08. Infantry Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="41, 59" hidden="false" collective="false" import="true">
           <comment>added by AncestralHeritage</comment>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87e0-75f4-0ff3-012b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87e0-75f4-0ff3-012b" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="9ee4-5fa9-893e-965a" name="Hero Guards SMG Company [LS228]" hidden="false" collective="false" import="true" targetId="b4e8-36b9-1ccf-2bfb" type="selectionEntry">
@@ -6577,10 +6577,6 @@ configured for Berlin by AncestralHeritage</comment>
     </selectionEntry>
     <selectionEntry id="b4e8-36b9-1ccf-2bfb" name="Hero Guards SMG Company [LS228]" publicationId="4021-7322-ad7d-e1d9" page="41" hidden="false" collective="false" import="true" type="unit">
       <comment>added by AncestralHeritage</comment>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fd1-f625-2394-d31f" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71f1-4190-a15a-a465" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="9a7b-26f4-b841-af74" name="Komissar" hidden="false" targetId="cd04-8d13-53bf-4376" type="rule"/>
         <infoLink id="ae04-2664-c80f-e1d5" name="PPSh SMG team" hidden="false" targetId="0d75-01cc-588b-023f" type="profile"/>
@@ -6598,6 +6594,10 @@ configured for Berlin by AncestralHeritage</comment>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c0d1-902d-5533-cdd9" name="Unit Configuration" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83b3-0a52-a5a6-ca32" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3cd-6d01-c1db-dccf" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="818b-ca2b-a683-7932" name="5x PPSh SMG Team, 1x Komissar team" publicationId="9f90-b6ea-6e0c-9aa3" page="49" hidden="false" collective="false" import="true" type="unit">
               <selectionEntryGroups>
@@ -6676,6 +6676,9 @@ configured for Berlin by AncestralHeritage</comment>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f565-f856-d4fc-eee4" name="Red Banner SMG Company [LS203]" publicationId="4021-7322-ad7d-e1d9" page="59" hidden="false" collective="false" import="true" type="unit">
       <comment>added by AncestralHeritage</comment>
@@ -8671,7 +8674,7 @@ Tactics 3+</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
-        <characteristic name="Notes" typeId="33d6-6375-9564-9985"></characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="10ea-61e7-657c-1f35" name="T-70 (45mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="47" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
