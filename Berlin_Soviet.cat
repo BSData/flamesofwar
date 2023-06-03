@@ -1554,6 +1554,135 @@ Support the creators, buy the book!</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7b6a-3ede-7426-de57" name="Hero M4 Sherman (Late) Tank Battalion [LS197]" publicationId="4021-7322-ad7d-e1d9" page="34" hidden="false" collective="false" import="true" type="unit">
+      <comment>added by AncestralHeritage</comment>
+      <categoryLinks>
+        <categoryLink id="163a-d135-dd3e-39b6" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e6c3-1219-eeee-4ff9" name="01. Formation HQ (Compulsory)" publicationId="4021-7322-ad7d-e1d9" page="35" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="60b1-39d4-4b63-338a" type="min">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b3ff-8269-0a16-c331" type="max">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+          </constraints>
+          <entryLinks>
+            <entryLink id="84e0-d37a-02c1-8495" name="Hero M4 Sherman (76mm) Tank Battalion HQ [LS197]" publicationId="4021-7322-ad7d-e1d9" page="35" hidden="false" collective="false" import="true" targetId="0062-df34-6459-5e72" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3012-4df8-753c-f7d0" name="02. Armour Combat Unit (Compulsory)" publicationId="4021-7322-ad7d-e1d9" page="33" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c8fe-3839-d916-f81b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4612-8ce2-729f-b1c4" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6eb5-8e4e-eb4f-92b8" name="Hero M4 Sherman (76mm) Tank Company [LS198]" publicationId="4021-7322-ad7d-e1d9" page="35" hidden="false" collective="false" import="true" targetId="3cb7-e843-f324-22df" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3e0b-4ca2-0576-8b2d" name="03. Armour Combat Unit (Compulsory)" publicationId="4021-7322-ad7d-e1d9" page="33, 35" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c3f-db1d-7520-857e" type="min">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fdc1-d9bd-8618-61b0" type="max">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+          </constraints>
+          <entryLinks>
+            <entryLink id="daa6-16d4-07ba-1019" name="Hero M4 Sherman Tank Company [LS196]" publicationId="4021-7322-ad7d-e1d9" page="33" hidden="false" collective="false" import="true" targetId="f4eb-a004-ff88-8b9c" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+            <entryLink id="8138-0174-b660-da16" name="Hero M4 Sherman (76mm) Tank Company [LS198]" publicationId="4021-7322-ad7d-e1d9" page="35" hidden="false" collective="false" import="true" targetId="3cb7-e843-f324-22df" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f2b3-d58f-36a7-1d31" name="04. Armour Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="33" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6215-3d87-93fc-f7b2" type="max">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+          </constraints>
+          <entryLinks>
+            <entryLink id="673a-473f-e91f-ca8d" name="Hero M4 Sherman (76mm) Tank Company [LS198]" hidden="false" collective="false" import="true" targetId="3cb7-e843-f324-22df" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+            <entryLink id="4e39-2c76-7182-4f19" name="Hero Valentine Tank Company [LS108]" hidden="false" collective="false" import="true" targetId="1f25-95ad-ecaa-231a" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="88cc-83b8-3d54-fcbf" name="05. Anti-Aircraft Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="35" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3f2a-f0b5-5286-ee1a" type="max">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+          </constraints>
+          <entryLinks>
+            <entryLink id="63ef-94a6-5284-9456" name="ZSU M17 Anti-Aircraft Platoon [LS174]" hidden="false" collective="false" import="true" targetId="c154-4e8c-05bd-15ea" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1d2d-11b3-2213-ad16" name="06. Artillery Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="28" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b87b-7350-5de4-d8cf" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3a20-41c8-1e31-401d" name="82mm Mortar Company [LS113]" hidden="false" collective="false" import="true" targetId="f0bf-f1fc-6243-a1c7" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3dab-3c5c-259d-33e0" name="07. Anti-Tank Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="29" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b973-fc55-be62-0866" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0409-3013-5c73-65c5" name="45mm Anti-Tank Company [LS116]" hidden="false" collective="false" import="true" targetId="b795-b458-c40e-3396" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+            <entryLink id="8be1-47ac-6e3f-5916" name="57mm Anti-Tank Company [LS177]" hidden="false" collective="false" import="true" targetId="a799-727d-68e0-fd68" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+            <entryLink id="2b43-b1c3-5fd8-f19c" name="76mm Anti-Tank Company [LS117]" hidden="false" collective="false" import="true" targetId="21ce-db6a-862b-92d4" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1eb7-068d-b0a8-9c68" name="08. Infantry Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="41, 59" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef89-5d40-8979-9f16" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3fc6-2d59-a323-88a2" name="Hero Guards SMG Company [LS228]" hidden="false" collective="false" import="true" targetId="b4e8-36b9-1ccf-2bfb" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+            <entryLink id="4713-75af-9c8e-94fa" name="Red Banner SMG Company [LS203]" hidden="false" collective="false" import="true" targetId="f565-f856-d4fc-eee4" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="efc3-dfe2-e818-c45b" name="BA-64 Observation Post [LS188]" hidden="false" collective="false" import="true" targetId="d535-3a2c-d25a-d2ba" type="selectionEntry">
@@ -6825,6 +6954,65 @@ to be corrected to Assault Weapons (Assault 2+) in the future</comment>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0062-df34-6459-5e72" name="Hero M4 Sherman (76mm) Tank Battalion HQ [LS197]" publicationId="4021-7322-ad7d-e1d9" page="35" hidden="false" collective="false" import="true" type="unit">
+      <comment>added by AncestralHeritage</comment>
+      <infoLinks>
+        <infoLink id="e5da-6514-d677-be38" name="M4 Sherman Hero (76mm)" publicationId="4021-7322-ad7d-e1d9" page="35" hidden="false" targetId="ea7e-eb40-75a0-a8a0" type="profile">
+          <comment>added by AncestralHeritage</comment>
+        </infoLink>
+        <infoLink id="92ff-efc0-93e9-fca0" name="M4 Sherman (.50 cal AA MG)" publicationId="4021-7322-ad7d-e1d9" hidden="false" targetId="a262-9ddc-ea57-67e9" type="profile">
+          <comment>added by AncestralHeritage</comment>
+        </infoLink>
+        <infoLink id="82af-c047-d16e-e196" name="M4 Sherman (76mm)" publicationId="4021-7322-ad7d-e1d9" hidden="false" targetId="0008-d321-c0fe-22f2" type="profile">
+          <comment>added by AncestralHeritage</comment>
+        </infoLink>
+        <infoLink id="384b-8637-fcde-6f27" name="M4 Sherman (MGs)" publicationId="4021-7322-ad7d-e1d9" hidden="false" targetId="0559-d314-7443-f08d" type="profile">
+          <comment>added by AncestralHeritage</comment>
+        </infoLink>
+        <infoLink id="a63f-4754-b75d-1237" name="Crafty" publicationId="4021-7322-ad7d-e1d9" page="4" hidden="false" targetId="aa86-a5db-aa6d-9cce" type="rule">
+          <comment>added by AncestralHeritage</comment>
+        </infoLink>
+        <infoLink id="51dc-a6f6-7f91-8220" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule">
+          <comment>added by AncestralHeritage</comment>
+        </infoLink>
+        <infoLink id="21a2-a669-3a1b-e57a" name="Not One Step back" publicationId="4021-7322-ad7d-e1d9" page="4" hidden="false" targetId="19b9-fe56-ba9b-2244" type="rule">
+          <comment>added by AncestralHeritage</comment>
+        </infoLink>
+        <infoLink id="99cd-38cb-7aca-cb2d" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule">
+          <comment>added by AncestralHeritage</comment>
+        </infoLink>
+        <infoLink id="878d-4fcd-65a3-28f3" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule">
+          <comment>added by AncestralHeritage</comment>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3025-1169-e000-c9af" name="New CategoryLink" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a845-a392-a802-a98b" name="Unit Configuration" publicationId="4021-7322-ad7d-e1d9" page="33" hidden="false" collective="false" import="true" defaultSelectionEntryId="57cd-69b8-1702-4f5f">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e627-0656-d484-dc50" type="min">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1de7-bde6-5a16-faf8" type="max">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="57cd-69b8-1702-4f5f" name="1x M4 Sherman (76mm)" publicationId="4021-7322-ad7d-e1d9" page="35" hidden="false" collective="false" import="true" type="unit">
+              <comment>added by AncestralHeritage</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
