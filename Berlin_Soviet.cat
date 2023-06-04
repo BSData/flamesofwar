@@ -1554,7 +1554,7 @@ Support the creators, buy the book!</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b6a-3ede-7426-de57" name="Hero M4 Sherman (Late) Tank Battalion [LS197]" publicationId="4021-7322-ad7d-e1d9" page="34" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7b6a-3ede-7426-de57" name="Hero M4 Sherman (76mm) Tank Battalion [LS197]" publicationId="4021-7322-ad7d-e1d9" page="34" hidden="false" collective="false" import="true" type="unit">
       <comment>added by AncestralHeritage</comment>
       <categoryLinks>
         <categoryLink id="163a-d135-dd3e-39b6" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
@@ -1795,6 +1795,107 @@ Support the creators, buy the book!</readme>
           </constraints>
           <entryLinks>
             <entryLink id="d0a9-44d1-3634-d07a" name="ZSU M17 Anti-Aircraft Platoon [LS174]" hidden="false" collective="false" import="true" targetId="c154-4e8c-05bd-15ea" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e652-a6b9-908f-6e9f" name="T-34 Forward Detachment [LS230 - LS233]" publicationId="4021-7322-ad7d-e1d9" page="38" hidden="false" collective="false" import="true" type="unit">
+      <comment>added by AncestralHeritage</comment>
+      <categoryLinks>
+        <categoryLink id="7da3-24ea-824c-5ec8" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3b33-a80c-5d91-70d7" name="01. Formation HQ (Compulsory)" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1030-401f-5de5-fe22" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="014b-9ebf-850f-175b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="23d8-ee07-b240-113b" name="T-34 Forward Detachment HQ [LS231]" hidden="false" collective="false" import="true" targetId="ab45-dfbc-df3f-14c4" type="selectionEntry"/>
+            <entryLink id="29e2-0264-6614-a9e9" name="Motor Rifle Forward Detachment HQ [LS230]" publicationId="4021-7322-ad7d-e1d9" page="37" hidden="false" collective="false" import="true" targetId="4e6f-88c1-bb5d-9b66" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1fff-8d50-8895-86e0" name="02. Armour Combat Unit (Compulsory)" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3638-8246-7cee-e73a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aa7a-baed-b9ef-e64a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2075-060b-d67a-c9f9" name="Hero T-34 (85mm) Tank Company [LS173]" hidden="false" collective="false" import="true" targetId="c5cb-26d5-359c-6558" type="selectionEntry"/>
+            <entryLink id="5e44-5efb-330e-ee55" name="Hero T-34 Tank Company [LS106]" hidden="false" collective="false" import="true" targetId="1b56-e0d4-d5cb-880c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4ac5-ed00-9ad5-7ee5" name="04. Armour Combat Unit (Optional)" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c73-b620-f5d3-4157" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d7e5-1981-97d0-2fa0" name="Hero T-34 (85mm) Tank Company [LS173]" hidden="false" collective="false" import="true" targetId="c5cb-26d5-359c-6558" type="selectionEntry"/>
+            <entryLink id="0bf7-96f6-6be5-3bd3" name="Hero T-34 Tank Company [LS106]" hidden="false" collective="false" import="true" targetId="1b56-e0d4-d5cb-880c" type="selectionEntry"/>
+            <entryLink id="40ad-c3a2-5e3f-be36" name="Hero T-70 Tank Company [LS107]" hidden="false" collective="false" import="true" targetId="2a43-4c27-a94e-ad6a" type="selectionEntry"/>
+            <entryLink id="303f-db78-6ded-af8b" name="Hero Valentine Tank Company [LS108]" hidden="false" collective="false" import="true" targetId="1f25-95ad-ecaa-231a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3b10-f16d-968b-31ca" name="03. Infantry Combat Unit (Compulsory)" publicationId="4021-7322-ad7d-e1d9" page="33, 35" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7a79-3058-0b0c-f7f9" type="min">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5965-705e-f095-4348" type="max">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+          </constraints>
+          <entryLinks>
+            <entryLink id="659b-ed67-7503-f0f8" name="Hero Guards Motor Rifle Company [LS227]" publicationId="4021-7322-ad7d-e1d9" page="33" hidden="false" collective="false" import="true" targetId="3998-ced8-1e2e-b476" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+            <entryLink id="a83f-75b9-1803-17a2" name="Hero Guards SMG Company [LS228]" publicationId="4021-7322-ad7d-e1d9" page="41" hidden="false" collective="false" import="true" targetId="b4e8-36b9-1ccf-2bfb" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="28ea-0aec-042f-ad6a" name="05. Armour Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="35" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f81e-8dba-e867-dd56" type="max">
+              <comment>added by AncestralHeritage</comment>
+            </constraint>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7488-bf59-cf71-8ddd" name="SU-76 Light SP Battery [LS141]" hidden="false" collective="false" import="true" targetId="e0f2-2ceb-87a3-f941" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+            <entryLink id="b976-c99e-a2a9-cc53" name="Hero SU-76 Light SP Battery [LS215]" hidden="false" collective="false" import="true" targetId="8e9c-46a1-1a00-efba" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d03d-83f3-9595-ceb6" name="06. Anti-Aircraft Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="41, 59" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1937-0863-bb3e-4bd9" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a0d5-15f5-7ef5-869f" name="ZSU M17 Anti-Aircraft Platoon [LS174]" hidden="false" collective="false" import="true" targetId="c154-4e8c-05bd-15ea" type="selectionEntry">
+              <comment>added by AncestralHeritage</comment>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="08fc-c954-199b-0f55" name="07. Artillery Combat Unit (Optional)" publicationId="4021-7322-ad7d-e1d9" page="28" hidden="false" collective="false" import="true">
+          <comment>added by AncestralHeritage</comment>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="301f-5ea5-b99b-b773" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="65ee-fe2a-d2e8-8e7c" name="82mm Mortar Company [LS113]" hidden="false" collective="false" import="true" targetId="f0bf-f1fc-6243-a1c7" type="selectionEntry">
               <comment>added by AncestralHeritage</comment>
             </entryLink>
           </entryLinks>
@@ -5338,13 +5439,15 @@ configured for Berlin by AncestralHeritage</comment>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ab45-dfbc-df3f-14c4" name="Hero T-34 (85mm) Tank Battalion HQ [LS172]" publicationId="9f90-b6ea-6e0c-9aa3" page="45" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+    <selectionEntry id="ab45-dfbc-df3f-14c4" name="T-34 Forward Detachment HQ [LS231]" publicationId="9f90-b6ea-6e0c-9aa3" page="45" hidden="false" collective="false" import="true" type="unit">
+      <comment>added by AncestralHeritage</comment>
       <infoLinks>
         <infoLink id="ce67-2ebf-e0c0-3924" name="T-34 (85mm)" hidden="false" targetId="c79a-c05e-8e2e-d036" type="profile"/>
         <infoLink id="7382-444d-d6bb-7677" name="Crafty" hidden="false" targetId="aa86-a5db-aa6d-9cce" type="rule"/>
         <infoLink id="469e-b3c6-0269-ff5e" name="T-34 (MGs)" hidden="false" targetId="05ac-2edf-2d54-ef7d" type="profile"/>
         <infoLink id="918a-5a61-89ef-018a" name="T-34 Hero" hidden="false" targetId="16f1-c14c-e36b-493e" type="profile"/>
+        <infoLink id="08e6-7416-bdd1-049f" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
+        <infoLink id="0f3f-b6fe-b82e-66ec" name="T-34 (76mm)" hidden="false" targetId="49a2-02b1-4646-26c5" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7065-c97a-f385-b405" name="Headquaters" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="true"/>
@@ -5356,10 +5459,16 @@ configured for Berlin by AncestralHeritage</comment>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af48-b6ac-5d00-9c2c" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="16a4-8be2-5fd4-54af" name="1x T-34 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="45" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="16a4-8be2-5fd4-54af" name="1x T-34 (85mm)" publicationId="4021-7322-ad7d-e1d9" page="39" hidden="false" collective="false" import="true" type="unit">
               <comment>added in v1 by willus8888</comment>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5d8c-cf22-3c1a-e531" name="1x T-34 (76mm)" publicationId="4021-7322-ad7d-e1d9" page="39" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>added by AncestralHeritage</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5530,7 +5639,7 @@ configured for Berlin by AncestralHeritage</comment>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b56-e0d4-d5cb-880c" name="Hero T-34 Tank Company [LS106]" publicationId="9f90-b6ea-6e0c-9aa3" page="47" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1b56-e0d4-d5cb-880c" name="Hero T-34 Tank Company [LS106]" publicationId="4021-7322-ad7d-e1d9" page="39" hidden="false" collective="false" import="true" type="unit">
       <comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="6005-7f03-5fda-1ea3" name="Crafty" hidden="false" targetId="aa86-a5db-aa6d-9cce" type="rule"/>
@@ -5590,8 +5699,9 @@ configured for Berlin by AncestralHeritage</comment>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a43-4c27-a94e-ad6a" name="Hero T-70 Tank Company [LS107]" publicationId="9f90-b6ea-6e0c-9aa3" page="47" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+    <selectionEntry id="2a43-4c27-a94e-ad6a" name="Hero T-70 Tank Company [LS107]" publicationId="4021-7322-ad7d-e1d9" page="65" hidden="false" collective="false" import="true" type="unit">
+      <comment>added in v1 by willus8888
+rectified by AncestralHeritage</comment>
       <infoLinks>
         <infoLink id="bf3b-0166-8ec5-40b6" name="Crafty" hidden="false" targetId="aa86-a5db-aa6d-9cce" type="rule"/>
         <infoLink id="0e5e-90c9-bf46-53b2" name="T-70 Hero" hidden="false" targetId="4300-70a1-35f6-f289" type="profile"/>
@@ -5606,8 +5716,8 @@ configured for Berlin by AncestralHeritage</comment>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="658f-8d6b-f602-7be6" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4e8d-e890-2573-0b78" name="3x T-34 (76mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="47" hidden="false" collective="false" import="true" type="unit">
-              <comment>added in v1 by willus8888</comment>
+            <selectionEntry id="4e8d-e890-2573-0b78" name="3x T-70 (45mm)" publicationId="4021-7322-ad7d-e1d9" page="65" hidden="false" collective="false" import="true" type="unit">
+              <comment>added by AncestralHeritage</comment>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
@@ -8492,7 +8602,7 @@ Assault 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="16f1-c14c-e36b-493e" name="T-34 Hero" publicationId="9f90-b6ea-6e0c-9aa3" page="45" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+    <profile id="16f1-c14c-e36b-493e" name="T-34 Hero" publicationId="4021-7322-ad7d-e1d9" page="39" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <comment>added in v1 by willus8888</comment>
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">Confident 4+</characteristic>
@@ -8523,7 +8633,7 @@ Tactics 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="c79a-c05e-8e2e-d036" name="T-34 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="45" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+    <profile id="c79a-c05e-8e2e-d036" name="T-34 (85mm)" publicationId="4021-7322-ad7d-e1d9" page="39" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <comment>added in v1 by willus8888</comment>
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
@@ -9293,7 +9403,7 @@ Last Stand 3+ </characteristic>
         <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
-    <profile id="49a2-02b1-4646-26c5" name="T-34 (76mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="47" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+    <profile id="49a2-02b1-4646-26c5" name="T-34 (76mm)" publicationId="4021-7322-ad7d-e1d9" page="39" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <comment>added in v1 by willus8888</comment>
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
