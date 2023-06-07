@@ -70,7 +70,7 @@ Support the creators, buy the book!</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1a77-d011-e247-84ba" name="IL2-Shturmovik Assault Company [LS151] or IL2-Shturmovik (37mm) Assault Company [LS189]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1a77-d011-e247-84ba" name="IL2-Shturmovik Assault Company [LS151] or IL2-Shturmovik (37mm) Assault Company [LS189]" publicationId="4021-7322-ad7d-e1d9" page="17" hidden="false" collective="false" import="true" type="unit">
       <comment>added in v1 by willus8888</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e9d-4ae0-2504-6c08" type="max"/>
@@ -94,8 +94,8 @@ Support the creators, buy the book!</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1887-6962-6f6e-b03f" name="Katyusha Guards Rocket Battery [LS147] or 152mm Artillery Battery [LS187]" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+    <selectionEntry id="1887-6962-6f6e-b03f" name="Katyusha Guards Rocket Battery [LS147] or 152mm Artillery Battery [LS187] or 203mm Artillery Battery [LS219]" publicationId="4021-7322-ad7d-e1d9" page="16" hidden="false" collective="false" import="true" type="unit">
+      <comment>added by AncestralHeritage</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a66-fdd5-abc8-960e" type="max"/>
       </constraints>
@@ -111,6 +111,7 @@ Support the creators, buy the book!</readme>
           <entryLinks>
             <entryLink id="f50f-3cfc-4196-c8d3" name="152mm Artillery Battery [LS187]" hidden="false" collective="false" import="true" targetId="4931-5760-c7a2-6786" type="selectionEntry"/>
             <entryLink id="52e4-e176-63e8-4b73" name="Katyusha Guards Rocket Battery [LS147]" hidden="false" collective="false" import="true" targetId="fc2d-20a2-dbb5-5f39" type="selectionEntry"/>
+            <entryLink id="3236-2cc1-1feb-c494" name="203mm Artillery Battery [LS219]" hidden="false" collective="false" import="true" targetId="6857-dbe1-7d07-1d0a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -142,7 +143,7 @@ Support the creators, buy the book!</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e94-2abb-8942-c305" name="Light Tank-Killer Company [LS145] or Heavy Tank-Killer Company [LS146]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8e94-2abb-8942-c305" name="Light Tank-Killer Company [LS145] or Heavy Tank-Killer Company [LS146]" publicationId="4021-7322-ad7d-e1d9" page="16" hidden="false" collective="false" import="true" type="unit">
       <comment>added in v1 by willus8888</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04bc-63db-492f-20a1" type="max"/>
@@ -166,7 +167,7 @@ Support the creators, buy the book!</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d0f8-ac06-3e47-d65e" name="Light Tank-Killer Company [LS145] or Heavy Tank-Killer Company [LS146] or 100mm Tank-Killer Company [LS186]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d0f8-ac06-3e47-d65e" name="Light Tank-Killer Company [LS145] or Heavy Tank-Killer Company [LS146] or 100mm Tank-Killer Company [LS186]" publicationId="4021-7322-ad7d-e1d9" page="16" hidden="false" collective="false" import="true" type="unit">
       <comment>added in v1 by willus8888</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f0b-b897-aaae-9361" type="max"/>
@@ -1391,6 +1392,7 @@ Support the creators, buy the book!</readme>
         <selectionEntryGroup id="4997-be57-f412-75e7" name="Unit Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="eeaa-bd72-a9aa-f72d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef2-b45b-0191-c9a4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e6b-a85b-747b-28d8" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="f266-dc0c-29bb-c4d4" name="160mm Mortar Battery [LS213]" hidden="false" collective="false" import="true" targetId="1e06-2d96-9207-ef8d" type="selectionEntry"/>
@@ -2691,6 +2693,104 @@ Support the creators, buy the book!</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="91f8-880e-3338-126d" name="76mm Artillery Battery [LS148] or 122mm Artillery Battery [LS149] or Hero SU-76 Light SP Battery [LS215]" publicationId="4021-7322-ad7d-e1d9" page="16" hidden="false" collective="false" import="true" type="unit">
+      <comment>added by AncestralHeritage</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65d2-b259-5b49-c95e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8e51-f4bd-8347-eb33" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5441-1ea9-4756-a301" name="Unit Selection" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89cf-ba59-24fb-f4e6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="726b-e7e3-d5c9-62bb" name="122mm Artillery Battery [LS149]" hidden="false" collective="false" import="true" targetId="1778-c0d5-2dbb-4e7b" type="selectionEntry"/>
+            <entryLink id="445b-4bb8-71d0-a28c" name="76mm Artillery Battery [LS148]" hidden="false" collective="false" import="true" targetId="3b75-2dd3-3d98-fcc0" type="selectionEntry"/>
+            <entryLink id="6d2b-be3c-8f66-759c" name="Hero SU-76 Light SP Battery [LS215]" hidden="false" collective="false" import="true" targetId="8e9c-46a1-1a00-efba" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="74e8-d1d8-16c0-dfc5" name="SU-100 Tank-Killer Batter [LS161] or M10 Tank-Killer Batter [LS216]" publicationId="4021-7322-ad7d-e1d9" page="16" hidden="false" collective="false" import="true" type="unit">
+      <comment>added by AncestralHeritage</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e978-2c4f-d5c8-6548" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c33f-cb7b-beae-383b" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e02a-876e-4214-99af" name="Unit Selection" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d93b-071f-3ba8-ebc8" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bb28-83db-afdf-2e34" name="SU-100 Tank-Killer Battery [LS161]" hidden="false" collective="false" import="true" targetId="1cf0-9e02-1422-b51f" type="selectionEntry"/>
+            <entryLink id="3385-4b25-d9ee-7df2" name="M10 Tank-Killer Battery [LS216]" hidden="false" collective="false" import="true" targetId="4176-9926-a4f8-2ac7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d79a-3eb0-901f-4531" name="BA-64 Armoured Car Platoon [LS184] or Hero BA-64 Armoured Car Platoon [LS225] or Hero T-70 Tank Company [LS107] or Scout Platoon [LS120]" publicationId="4021-7322-ad7d-e1d9" page="16" hidden="false" collective="false" import="true" type="unit">
+      <comment>added by AncestralHeritage</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b5f-9ad2-fac2-9cc8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c1c8-3887-5c87-6351" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f977-b212-5c11-e7e0" name="Unit Selection" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d98-b763-95eb-54ce" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c399-4097-02be-e77d" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="cca6-3ced-6afb-c251" name="Hero T-70 Tank Company [LS107]" hidden="false" collective="false" import="true" targetId="2a43-4c27-a94e-ad6a" type="selectionEntry"/>
+            <entryLink id="b69b-b072-939f-4948" name="Scout Platoon [LS120]" hidden="false" collective="false" import="true" targetId="5c1a-a6e4-3193-e131" type="selectionEntry"/>
+            <entryLink id="4fc2-b0c8-f59e-45a3" name="BA-64 Armoured Car Platoon [LS184]" hidden="false" collective="false" import="true" targetId="d5b5-c25f-5477-6f82" type="selectionEntry"/>
+            <entryLink id="4718-665b-b0af-28a8" name="Hero BA-64 Armoured Car Platoon [LS225]" hidden="false" collective="false" import="true" targetId="75a0-2ea7-fc5a-db1b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d7c8-919a-be49-d345" name="ISU-152 Guards Heavy SP Battery [LS158] or ISU-122 Guards Heavy SP Battery [LS157] or Hero OT-34 Flame-Tank Company [LS214]" publicationId="4021-7322-ad7d-e1d9" page="16" hidden="false" collective="false" import="true" type="unit">
+      <comment>added by AncestralHeritage</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da5a-e125-9ac7-242b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2136-a999-eb69-5f44" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="df66-8312-69d5-a007" name="Unit Selection" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19c7-e2be-9c3a-5a06" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41ab-3bda-615f-fe56" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e6fa-3cf9-12a0-6dbe" name="ISU-122 Heavy SP Battery [LS157]" hidden="false" collective="false" import="true" targetId="934b-f063-4284-961b" type="selectionEntry"/>
+            <entryLink id="4d41-df6c-1acf-b105" name="ISU-152 Heavy SP Battery [LS158]" hidden="false" collective="false" import="true" targetId="8542-e97d-1fff-c298" type="selectionEntry"/>
+            <entryLink id="36ec-84af-a91d-6dad" name="Hero OT-34 Flame-Tank Company [LS214]" hidden="false" collective="false" import="true" targetId="19f8-ee0e-7858-3aa8" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="4349-5961-6ccc-c261" name="BA-64 Observation Post [LS188]" publicationId="4021-7322-ad7d-e1d9" page="16" hidden="false" collective="false" import="true" targetId="d535-3a2c-d25a-d2ba" type="selectionEntry">
@@ -2710,7 +2810,7 @@ Support the creators, buy the book!</readme>
         <categoryLink id="6b31-2540-bcbb-e468" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b997-cb41-db5d-e048" name="ZSU M17 Anti-Aircraft Platoon [LS174]" hidden="false" collective="false" import="true" targetId="c154-4e8c-05bd-15ea" type="selectionEntry">
+    <entryLink id="b997-cb41-db5d-e048" name="ZSU M17 Anti-Aircraft Platoon [LS174]" publicationId="4021-7322-ad7d-e1d9" page="17" hidden="false" collective="false" import="true" targetId="c154-4e8c-05bd-15ea" type="selectionEntry">
       <comment>added in v1 by willus8888</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd8e-51e5-0343-2d51" type="max"/>
@@ -2726,6 +2826,9 @@ Support the creators, buy the book!</readme>
       <categoryLinks>
         <categoryLink id="dfb0-fcb2-f502-2fbb" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="864a-0dff-8852-8a7c" name="New SelectionEntryGroup" hidden="false" collective="false" import="true"/>
+      </selectionEntryGroups>
     </entryLink>
     <entryLink id="3aa6-175b-5b10-9366" name="Hero T-34 Tank Company [LS106]" hidden="false" collective="false" import="true" targetId="1b56-e0d4-d5cb-880c" type="selectionEntry">
       <constraints>
@@ -2948,7 +3051,6 @@ Support the creators, buy the book!</readme>
       </constraints>
     </entryLink>
     <entryLink id="1fa4-2a07-c9aa-f0e2" name="76mm Artillery Battery [LS148]" publicationId="4021-7322-ad7d-e1d9" page="16" hidden="false" collective="false" import="true" targetId="3b75-2dd3-3d98-fcc0" type="selectionEntry">
-      <comment></comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab77-495b-2d7b-7099" type="max"/>
       </constraints>
@@ -10537,15 +10639,99 @@ to be changed into Assault Tank in the future</comment>
           </constraints>
           <selectionEntries>
             <selectionEntry id="8286-9353-f6f9-4612" name="2x 160mm mortar" publicationId="4021-7322-ad7d-e1d9" page="68" hidden="false" collective="false" import="true" type="unit">
-              <comment></comment>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="db5f-25aa-08ec-e761" name="4x 160mm mortar" publicationId="4021-7322-ad7d-e1d9" page="68" hidden="false" collective="false" import="true" type="unit">
-              <comment></comment>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6857-dbe1-7d07-1d0a" name="203mm Artillery Battery [LS219]" publicationId="4021-7322-ad7d-e1d9" page="70" hidden="false" collective="false" import="true" type="unit">
+      <comment>added by AncestralHeritage</comment>
+      <infoLinks>
+        <infoLink id="cb3d-2b32-c01b-ab3e" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="f163-2f62-2f30-339f" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="e277-3a9b-83a3-6c7e" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
+        <infoLink id="ffb7-ab80-b03d-fad2" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
+        <infoLink id="e1dd-f647-8328-c41b" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
+        <infoLink id="1824-14e8-0afd-1885" name="203mm Artillery Battery" hidden="false" targetId="ac50-6c59-eaeb-1aff" type="profile"/>
+        <infoLink id="c5b8-d5c6-fbb8-ad0d" name="203mm howitzer [Direct Fire]" hidden="false" targetId="cb0d-4edc-ca67-3921" type="profile"/>
+        <infoLink id="12be-ec6e-6cd8-86aa" name="203mm howitzer [Indirect Fire]" hidden="false" targetId="ae3c-60fc-fe30-5dbd" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9441-3ed0-de3a-4799" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="61bf-149f-619b-9b32" name="Unit Configuration" page="" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a475-80d8-0a97-4fab" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c5f-7c8e-6cfb-7c05" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3b85-7331-e57b-9b64" name="2x 203mm howitzer" publicationId="4021-7322-ad7d-e1d9" page="70" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e14a-5e47-5ee4-ea82" name="4x 203mm howitzer" publicationId="4021-7322-ad7d-e1d9" page="70" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4176-9926-a4f8-2ac7" name="M10 Tank-Killer Battery [LS216]" publicationId="4021-7322-ad7d-e1d9" page="66" hidden="false" collective="false" import="true" type="unit">
+      <comment>added by AncestralHeritage</comment>
+      <infoLinks>
+        <infoLink id="bc14-c044-bad0-c6f4" name="M10 (3-inch)" hidden="false" targetId="a506-f5c6-16bd-b880" type="profile">
+          <comment>added by AncestralHeritage</comment>
+        </infoLink>
+        <infoLink id="be3c-7cfb-172f-adb1" name="M10 (3-inch)" hidden="false" targetId="d150-def6-9e31-f157" type="profile"/>
+        <infoLink id="c63f-7875-1878-c636" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="c17b-5639-aaf1-22c2" name="M10 (.50 cal AA MG)" hidden="false" targetId="6c67-331a-d020-ecd9" type="profile"/>
+        <infoLink id="5f2a-caa4-c15b-9881" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
+        <infoLink id="9455-8613-71dc-957b" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6a41-4a27-688a-8655" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cb95-b4ff-e10a-8849" name="Unit Configuration" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8810-3cbd-8a32-d147" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a47-190e-5480-d1bd" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="189e-2dda-b83b-7f8d" name="3x M10 (3-inch)" publicationId="4021-7322-ad7d-e1d9" page="66" hidden="false" collective="false" import="true" type="unit">
+              <comment>added by AncestralHeritage</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a574-b674-9041-e3ba" name="4x M10 (3-inch)" publicationId="4021-7322-ad7d-e1d9" page="66" hidden="false" collective="false" import="true" type="unit">
+              <comment>added by AncestralHeritage</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e53a-f657-0c5b-b997" name="5x M10 (3-inch)" publicationId="4021-7322-ad7d-e1d9" page="66" hidden="false" collective="false" import="true" type="unit">
+              <comment>added by AncestralHeritage</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -13467,6 +13653,69 @@ Assault 5+</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ac50-6c59-eaeb-1aff" name="203mm Artillery Battery" publicationId="4021-7322-ad7d-e1d9" page="70" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
+      <comment>added by AncestralHeritage</comment>
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">Confident 4+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">Trained 4+
+
+Gun
+Assault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">Aggressive 3+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">Gun 4+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+        <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
+      </characteristics>
+    </profile>
+    <profile id="a506-f5c6-16bd-b880" name="M10 (3-inch)" publicationId="4021-7322-ad7d-e1d9" page="66" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+      <comment>added by AncestralHeritage</comment>
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">Fearless 3+
+
+SP Gun
+Counterattack 5+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">Veteran 3+
+
+SP Gun
+Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">Careful 4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+      </characteristics>
+    </profile>
+    <profile id="6c67-331a-d020-ecd9" name="M10 (.50 cal AA MG)" publicationId="4021-7322-ad7d-e1d9" page="66" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added by AncestralHeritage</comment>
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d150-def6-9e31-f157" name="M10 (3-inch)" publicationId="4021-7322-ad7d-e1d9" page="66" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added by Ancestral Heritage</comment>
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
