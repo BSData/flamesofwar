@@ -25,7 +25,11 @@ v20 - mdcooledge
 
 v21 - mdcooledge
 - created Berlin: German data file
-- bug fixes  </readme>
+- bug fixes  
+
+v22 - mdcooledge
+- removed Formation Support max 1 contraint to allow for mulitple different selection
+- added Berlin: German Command Cards and supporting logic</readme>
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
     <publication id="453d-401b-fd1e-0f95" name="Rulebook" shortName="FW009M" publisher="ISBN: 9781988558059" publicationDate="2019" publisherUrl="www.flamesofwar.com"/>
@@ -237,11 +241,7 @@ updated info in v20 by mdcooledge</comment>
           </constraints>
         </categoryLink>
         <categoryLink id="712b-af5f-bb8d-4b18" name="Wildcards" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false" targetId="58fd-8352-c305-41bb" primary="false"/>
-        <categoryLink id="9f54-d6c3-dbae-3a5b" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4586-2b13-fee3-7646" type="max"/>
-          </constraints>
-        </categoryLink>
+        <categoryLink id="9f54-d6c3-dbae-3a5b" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
