@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="46c6-85fe-74b1-31a1" name="Bulge British" revision="1" battleScribeVersion="2.03" authorName="Edivad42" authorContact="Submit issues at https://github.com/BSData/flamesofwar" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="46c6-85fe-74b1-31a1" name="Bulge: British" revision="1" battleScribeVersion="2.03" authorName="Edivad42" authorContact="Submit issues at https://github.com/BSData/flamesofwar" authorUrl="https://github.com/BSData/flamesofwar" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Bulge: British Forces On The Western Front, 1944-45
 
 Support the creators, buy the book!</readme>
@@ -47,7 +47,7 @@ Support the creators, buy the book!</readme>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5db2-20d0-ca3d-25c1" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="fbfd-364e-f313-a4e7" name="1x Ram Kangaroo" page="" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="fbfd-364e-f313-a4e7" name="1x Ram Kangaroo" hidden="false" collective="false" import="true" type="upgrade">
                   <comment>added in v1 by willus8888</comment>
                   <infoLinks>
                     <infoLink id="d343-0024-6d7a-4eb2" name="Ram Kangaroo" hidden="false" targetId="f24b-f02e-be49-636a" type="profile"/>
@@ -635,7 +635,7 @@ Support the creators, buy the book!</readme>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fbb-9d16-cf5e-4ce3" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="b9d7-5beb-99de-d2aa" name="1x M5 Half-track" page="" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="b9d7-5beb-99de-d2aa" name="1x M5 Half-track" hidden="false" collective="false" import="true" type="upgrade">
                   <comment>added in v1 by willus8888</comment>
                   <infoLinks>
                     <infoLink id="e4a9-8382-4dc0-bd80" name="M5 Half-track Transport" hidden="false" targetId="7010-16f3-c545-197f" type="profile"/>
@@ -644,7 +644,7 @@ Support the creators, buy the book!</readme>
                     <infoLink id="61d5-dc23-2476-8565" name="Transport Attachment" hidden="false" targetId="956c-27fc-6880-7738" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
-                    <selectionEntry id="bc94-5d12-8650-8e2b" name="Optional .50 cal MGs" page="" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="bc94-5d12-8650-8e2b" name="Optional .50 cal MGs" hidden="false" collective="false" import="true" type="upgrade">
                       <comment>added in v1 by willus8888</comment>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="363f-d2c9-3bb1-caab" type="max"/>
@@ -2021,7 +2021,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
         <categoryLink id="cde2-97e2-bf87-8cf0" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0418-d405-373f-4509" name="Airborne Recce Squadron HQ" page="" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="0418-d405-373f-4509" name="Airborne Recce Squadron HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe8-9e3c-7b8e-ce79" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d9-5427-68ae-a634" type="max"/>
@@ -2258,6 +2258,9 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2278,6 +2281,9 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cb42-ad35-23eb-4d20" name="Inns of Court Regiment - The Devil&apos;s Own" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2332,6 +2338,9 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2358,6 +2367,9 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -2483,12 +2495,12 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
     </entryLink>
     <entryLink id="619e-c10d-0214-d0b2" name="AVRE Assault Section" hidden="false" collective="false" import="true" targetId="3c2e-0ced-e9f1-65e6" type="selectionEntry">
       <modifiers>
-        <modifier type="set" field="2d76-73df-790c-6594" value="1.0">
+        <modifier type="set" field="2d76-73df-790c-6594" value="1">
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a1a-67c8-4ddd-4d20" type="atLeast"/>
           </conditions>
         </modifier>
-        <modifier type="append" field="name" value=" (Max 1 AVRE if 1 Sherman DD Support Unit is taken)">
+        <modifier type="append" field="name" value="(Max 1 AVRE if 1 Sherman DD Support Unit is taken)">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
@@ -2508,7 +2520,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
     </entryLink>
     <entryLink id="5e81-674a-ccae-1ae3" name="17 pdr (late) Anti-Tank Troop" hidden="false" collective="false" import="true" targetId="f980-0b09-66bb-be54" type="selectionEntry">
       <modifiers>
-        <modifier type="decrement" field="b22d-7a20-0739-455f" value="1.0">
+        <modifier type="decrement" field="b22d-7a20-0739-455f" value="1">
           <repeats>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ba29-128e-4eb2-dcd7" repeats="1" roundUp="false"/>
           </repeats>
@@ -2516,7 +2528,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
             <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ba29-128e-4eb2-dcd7" type="atMost"/>
           </conditions>
         </modifier>
-        <modifier type="append" field="name" value=" (Max 2 Support Units of Archer or 17 pdr)">
+        <modifier type="append" field="name" value="(Max 2 Support Units of Archer or 17 pdr)">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -2540,7 +2552,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
     </entryLink>
     <entryLink id="6a92-3c82-9fd9-5809" name="Archer Anti-Tank Troop" hidden="false" collective="false" import="true" targetId="ba29-128e-4eb2-dcd7" type="selectionEntry">
       <modifiers>
-        <modifier type="decrement" field="ea71-fe00-947b-62b0" value="1.0">
+        <modifier type="decrement" field="ea71-fe00-947b-62b0" value="1">
           <repeats>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f980-0b09-66bb-be54" repeats="1" roundUp="false"/>
           </repeats>
@@ -2548,7 +2560,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
             <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f980-0b09-66bb-be54" type="atMost"/>
           </conditions>
         </modifier>
-        <modifier type="append" field="name" value=" (Max 2 Support Units of Archer or 17 pdr)">
+        <modifier type="append" field="name" value="(Max 2 Support Units of Archer or 17 pdr)">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -2580,7 +2592,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
     </entryLink>
     <entryLink id="789a-651b-6138-03ef" name="Daimler Armoured Car Troop" hidden="false" collective="false" import="true" targetId="4054-0dec-a800-10fd" type="selectionEntry">
       <modifiers>
-        <modifier type="append" field="name" value=" (Max 2 Recon Support Units)">
+        <modifier type="append" field="name" value="(Max 2 Recon Support Units)">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -2610,7 +2622,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="a282-77fd-1b2a-8292" value="1.0">
+        <modifier type="set" field="a282-77fd-1b2a-8292" value="1">
           <conditionGroups>
             <conditionGroup type="or">
               <conditionGroups>
@@ -2630,7 +2642,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="a282-77fd-1b2a-8292" value="0.0">
+        <modifier type="set" field="a282-77fd-1b2a-8292" value="0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditionGroups>
@@ -2663,7 +2675,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
     </entryLink>
     <entryLink id="d050-99b1-da7f-5e0b" name="Daimler Recce Troop" hidden="false" collective="false" import="true" targetId="4db3-66be-bd5b-c8b2" type="selectionEntry">
       <modifiers>
-        <modifier type="append" field="name" value=" (Max 2 Recon Support Units)">
+        <modifier type="append" field="name" value="(Max 2 Recon Support Units)">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -2693,7 +2705,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="f0f9-9863-85b4-2232" value="0.0">
+        <modifier type="set" field="f0f9-9863-85b4-2232" value="0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditionGroups>
@@ -2719,7 +2731,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="f0f9-9863-85b4-2232" value="1.0">
+        <modifier type="set" field="f0f9-9863-85b4-2232" value="1">
           <conditionGroups>
             <conditionGroup type="or">
               <conditionGroups>
@@ -2746,7 +2758,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
     </entryLink>
     <entryLink id="cc2e-ef20-be56-0a0d" name="SAS Section" hidden="false" collective="false" import="true" targetId="9a05-1811-2627-7dfd" type="selectionEntry">
       <modifiers>
-        <modifier type="append" field="name" value=" (Max 2 Recon Support Units)">
+        <modifier type="append" field="name" value="(Max 2 Recon Support Units)">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -2776,13 +2788,13 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="7143-5115-ead9-374e" value="0.0">
+        <modifier type="set" field="7143-5115-ead9-374e" value="0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d050-99b1-da7f-5e0b" type="equalTo"/>
+                    <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4db3-66be-bd5b-c8b2" type="equalTo"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4054-0dec-a800-10fd" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
@@ -2802,7 +2814,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="7143-5115-ead9-374e" value="1.0">
+        <modifier type="set" field="7143-5115-ead9-374e" value="1">
           <conditionGroups>
             <conditionGroup type="or">
               <conditionGroups>
@@ -2850,7 +2862,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
     </entryLink>
     <entryLink id="50e7-5b60-27dc-0720" name="Priest Field Troop" hidden="false" collective="false" import="true" targetId="9545-f7bf-373d-5b62" type="selectionEntry">
       <modifiers>
-        <modifier type="set" field="37f3-6e31-cb2f-af18" value="1.0">
+        <modifier type="set" field="37f3-6e31-cb2f-af18" value="1">
           <conditions>
             <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7821-8b40-548e-a6eb" type="equalTo"/>
           </conditions>
@@ -2875,7 +2887,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="37f3-6e31-cb2f-af18" value="0.0">
+        <modifier type="set" field="37f3-6e31-cb2f-af18" value="0">
           <conditions>
             <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7821-8b40-548e-a6eb" type="atLeast"/>
           </conditions>
@@ -2919,8 +2931,8 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d42f-a971-6155-bfe4" type="greaterThan"/>
           </conditions>
           <modifiers>
-            <modifier type="set" field="b097-47cd-5dcb-f53b" value="0.0"/>
-            <modifier type="append" field="name" value=" (Max 1 AA Support Unit)"/>
+            <modifier type="set" field="b097-47cd-5dcb-f53b" value="0"/>
+            <modifier type="append" field="name" value="(Max 1 AA Support Unit)"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -2938,8 +2950,8 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6102-8481-153d-fc9b" type="greaterThan"/>
           </conditions>
           <modifiers>
-            <modifier type="set" field="32c0-0bca-9f82-4ef7" value="0.0"/>
-            <modifier type="append" field="name" value=" (Max 1 AA Support Unit)"/>
+            <modifier type="set" field="32c0-0bca-9f82-4ef7" value="0"/>
+            <modifier type="append" field="name" value="(Max 1 AA Support Unit)"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -3017,7 +3029,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44c2-0f60-1a5f-4b53" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="0777-2492-4006-3f0a" name="3x Ram Kangaroo" page="" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="0777-2492-4006-3f0a" name="3x Ram Kangaroo" hidden="false" collective="false" import="true" type="upgrade">
                       <comment>added in v1 by willus8888</comment>
                       <infoLinks>
                         <infoLink id="110f-b530-9246-334a" name="Ram Kangaroo" hidden="false" targetId="f24b-f02e-be49-636a" type="profile"/>
@@ -3092,7 +3104,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc60-cb06-a474-bc8e" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="f7de-848a-5ed1-3f6a" name="4x Ram Kangaroo" page="" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="f7de-848a-5ed1-3f6a" name="4x Ram Kangaroo" hidden="false" collective="false" import="true" type="upgrade">
                       <comment>added in v1 by willus8888</comment>
                       <infoLinks>
                         <infoLink id="c7c5-25fa-63ed-f08e" name="Ram Kangaroo" hidden="false" targetId="f24b-f02e-be49-636a" type="profile"/>
@@ -3674,7 +3686,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9598-fac1-7ed0-1b7c" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="70a0-88d5-fd29-b500" name="3x M5 Half-track" page="" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="70a0-88d5-fd29-b500" name="3x M5 Half-track" hidden="false" collective="false" import="true" type="upgrade">
                       <comment>added in v1 by willus8888</comment>
                       <infoLinks>
                         <infoLink id="d656-e9d4-ff7f-293a" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
@@ -3683,7 +3695,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
                         <infoLink id="8b20-cc4a-7605-d087" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
-                        <selectionEntry id="b2bb-47cc-ae02-5169" name="Optional .50 cal MGs" page="" hidden="false" collective="false" import="true" type="upgrade">
+                        <selectionEntry id="b2bb-47cc-ae02-5169" name="Optional .50 cal MGs" hidden="false" collective="false" import="true" type="upgrade">
                           <comment>added in v1 by willus8888</comment>
                           <constraints>
                             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="797b-11bc-bd8a-869f" type="max"/>
@@ -3762,7 +3774,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7505-a489-5575-97bf" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="db11-46a8-6b10-ce49" name="4x M5 Half-track" page="" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="db11-46a8-6b10-ce49" name="4x M5 Half-track" hidden="false" collective="false" import="true" type="upgrade">
                       <comment>added in v1 by willus8888</comment>
                       <infoLinks>
                         <infoLink id="208c-42e1-cae7-c204" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
@@ -3771,7 +3783,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
                         <infoLink id="9063-f3b6-8259-ceec" name="Passengers 3" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
-                        <selectionEntry id="cd77-dfea-3c30-cc40" name="Optional .50 cal MGs" page="" hidden="false" collective="false" import="true" type="upgrade">
+                        <selectionEntry id="cd77-dfea-3c30-cc40" name="Optional .50 cal MGs" hidden="false" collective="false" import="true" type="upgrade">
                           <comment>added in v1 by willus8888</comment>
                           <constraints>
                             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77c4-b1f4-392e-6ae2" type="max"/>
@@ -5149,7 +5161,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="733d-7406-ea54-766d" name="Matador Armoured Car Troop" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="733d-7406-ea54-766d" name="Matador Armoured Car Troop" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="4750-5428-bc51-14fe" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
         <infoLink id="6abb-fb4f-c97b-47fa" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
@@ -5221,7 +5233,7 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
 
 An Air Observer Post is unarmed, but can act as an Observer Spotting for an Artillery Bombardment with an Aiming Pont within 12&quot;/30cm of tha Aircraft. The opposing player may shoot at the Aircraft immediately before it rolls to Range In as though the aircraft was Shooting.</description>
     </rule>
-    <rule id="a790-1a49-0725-721f" name="Airborne" publicationId="10a4-8008-66c3-952e" page="" hidden="false">
+    <rule id="a790-1a49-0725-721f" name="Airborne" publicationId="10a4-8008-66c3-952e" hidden="false">
       <description>This Formation may make an Airborne Assault in missions that use the Airborden Assault rules (page 84)</description>
     </rule>
     <rule id="9380-406b-d566-df3a" name="Night Attack" hidden="false">
@@ -6816,7 +6828,7 @@ British Units from a Formation with  Night Attack can move freely from the start
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
     <profile id="6acf-8e90-9831-0354" name="Staghound (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6849,7 +6861,7 @@ British Units from a Formation with  Night Attack can move freely from the start
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"></characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment, Overworked</characteristic>
