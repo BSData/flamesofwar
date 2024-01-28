@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="22" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme>Currently being maintained by Hav3rchuck and mdcooledge
+<gameSystem id="976a-b687-1fdb-07ef" name="Flames of War v4" revision="23" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+  <readme>Currently being maintained by Hav3rchuck, willus8888, Edavad42, and mdcooledge
 
 v17 - willus8888
 - added Bagration: Soviet publication
@@ -25,11 +25,14 @@ v20 - mdcooledge
 
 v21 - mdcooledge
 - created Berlin: German data file
-- bug fixes  
+- bug fixes
 
 v22 - mdcooledge
 - removed Formation Support max 1 contraint to allow for mulitple different selection
-- added Berlin: German Command Cards and supporting logic</readme>
+- added Berlin: German Command Cards and supporting logic
+
+v23 - mdcooledge
+- added Bagration: Axis-Alies data. </readme>
   <publications>
     <publication id="b8e5-51cf-456c-eafb" name="Fortress Europe"/>
     <publication id="453d-401b-fd1e-0f95" name="Rulebook" shortName="FW009M" publisher="ISBN: 9781988558059" publicationDate="2019" publisherUrl="www.flamesofwar.com"/>
@@ -76,9 +79,12 @@ updated info in v20 by mdcooledge</comment>
     <publication id="269c-a260-1f35-23c5" name="Bagration: German" shortName="FW267" publisher="ISBN: 9781988558196" publicationDate="2020" publisherUrl="www.flamesofwar.com">
       <comment>Added in v20 by mdcooledge</comment>
     </publication>
+    <publication name="Bagration: Axis-Allies" hidden="false" id="94b0-77e6-8d24-9f2b" publicationDate="2019" publisherUrl="www.flamesofwar.com" shortName="FW269" publisher="ISBN: 9781988558271">
+      <comment>Added in v23 by mdcooledge</comment>
+    </publication>
   </publications>
   <costTypes>
-    <costType id="995a-4d67-6920-bfe4" name="pts" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="995a-4d67-6920-bfe4" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="55ec-3ef5-ca51-e647" name="Tank Unit">
@@ -202,12 +208,12 @@ updated info in v20 by mdcooledge</comment>
     <categoryEntry id="c5b6-63ee-3f81-25f2" name="Command Cards" hidden="false"/>
     <categoryEntry id="02e3-24e6-27f8-653f" name="Allied Formation" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcfb-051d-b944-9e63" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcfb-051d-b944-9e63" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="bf21-c7f3-1de8-efb9" name="Allied Unit" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9074-838a-616d-7fda" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9074-838a-616d-7fda" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="b531-2fd7-ec0e-d214" name="Formation Support" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false">
@@ -224,7 +230,7 @@ updated info in v20 by mdcooledge</comment>
       <categoryLinks>
         <categoryLink id="a848-4467-9550-eafd" name="Formations" publicationId="453d-401b-fd1e-0f95" page="94" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="796f-9354-b70c-b554" type="min"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="796f-9354-b70c-b554" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="1f7f-6695-e57f-8964" name="Support Units" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
@@ -232,12 +238,12 @@ updated info in v20 by mdcooledge</comment>
         <categoryLink id="61ba-d032-dbe5-150b" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
         <categoryLink id="6e68-b8c1-9a59-4954" name="Allied Formation" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false" targetId="02e3-24e6-27f8-653f" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7850-7338-fe07-6b7f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7850-7338-fe07-6b7f" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="2f4e-aa8b-af7a-9da3" name="Allied Unit" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false" targetId="bf21-c7f3-1de8-efb9" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a500-8952-273f-1120" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a500-8952-273f-1120" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="712b-af5f-bb8d-4b18" name="Wildcards" publicationId="453d-401b-fd1e-0f95" page="99" hidden="false" targetId="58fd-8352-c305-41bb" primary="false"/>
@@ -249,12 +255,12 @@ updated info in v20 by mdcooledge</comment>
     <selectionEntry id="3bf7-7a62-ca18-c39d" name="Warrior" hidden="false" collective="false" import="true" type="upgrade">
       <comment>This is included into warrior upgrades so that there are no other warriors added to the force</comment>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a065-acf0-6a9f-9660" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8934-fece-6741-7d26" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59c4-e838-af9b-4966" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a065-acf0-6a9f-9660" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8934-fece-6741-7d26" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59c4-e838-af9b-4966" type="min"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -368,7 +374,7 @@ Infantry and Gun Units containing Transport Teams as a Tank Attachment (ore vice
       <description>No penalty for having only 1 or 2 weapons firing, Only Teams from this Unit can Spot for it.</description>
     </rule>
     <rule id="1add-f696-3ad3-0243" name="Tractor" hidden="false">
-      <description>Team can carry one Gun Team as Passangers.	</description>
+      <description>Team can carry one Gun Team as Passangers.</description>
     </rule>
     <rule id="0291-289f-7711-31bb" name="Salvo" hidden="false">
       <description>Weapons with a ROF of &quot;salvo&quot; are Artillery weapons and fire Artillery Bombardments, but use a 10”/25cm square Salvo Template rather than the normal 6”/15cm Artillery Template.
