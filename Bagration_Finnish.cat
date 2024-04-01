@@ -163,9 +163,25 @@ Support the creators, buy the book!</readme>
         <categoryLink id="4302-dd13-564a-f993" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2795-a0df-174d-4cba" name="Artillery Observation Post (LFI126)" hidden="false" collective="false" import="true" targetId="108c-cb00-517f-2556" type="selectionEntry">
+    <entryLink id="2795-a0df-174d-4cba" name="Artillery Observation Post (LFI126)" hidden="true" collective="false" import="true" targetId="108c-cb00-517f-2556" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c4c8-2950-ed36-de71" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa04-4f13-dd0b-7133" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="set" field="330a-25c4-fbd0-ab9c" value="1.0"/>
+            <modifier type="set" field="hidden" value="false"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="330a-25c4-fbd0-ab9c" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="330a-25c4-fbd0-ab9c" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="c6f2-78a5-b954-092b" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
