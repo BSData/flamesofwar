@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aed3-3f3a-acd8-0f8e" name="Bagration: Germany" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="aed3-3f3a-acd8-0f8e" name="Bagration: German" revision="3" battleScribeVersion="2.03" authorName="mdcooledge" authorContact="BSData Discord: https://discord.com/invite/UrrPB3T" authorUrl="https://github.com/BSData/flamesofwar" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Bagration: German
+German Forces On The Western Front, 1944-45
+
+*Lessons From The Front: FAQ - March 2023 updates included*
+
+Support the creators, buy the book!</readme>
   <selectionEntries>
     <selectionEntry id="6441-e19b-436b-0a58" name="Marder, Jagdpanzer IV, Hornisse, Elephant, or 8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <comment>rev2</comment>
@@ -709,19 +715,20 @@
     </selectionEntry>
     <selectionEntry id="1ed4-b4d2-0673-298d" name="Sd Kfz 251 Half-Track" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="eaa6-f275-b1d6-8bfe" name="Sd Kfz 251 Half-Track" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="eaa6-f275-b1d6-8bfe" name="Sd Kfz 251 Half-Track" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Remount 5+ Counterattack 6+ (MA 4+ )</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ (MA 4+ for 1, 3+ 2 or more)</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="3a93-dbf9-707e-e1ca" name="Sd Kfz 251 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -749,7 +756,7 @@
     </selectionEntry>
     <selectionEntry id="6e68-6062-01ef-35e9" name="7.5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="f2c7-98e5-9b5e-9b7d" name="7.5cm anti-tank gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="f2c7-98e5-9b5e-9b7d" name="7.5cm anti-tank gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -767,9 +774,10 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
-        <profile id="3ff7-6d85-87ba-c6b8" name="7.5cm anti-tank gun - 20th" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="3ff7-6d85-87ba-c6b8" name="7.5cm anti-tank gun - 20th" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -787,6 +795,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
       </profiles>
@@ -830,7 +839,7 @@
     </selectionEntry>
     <selectionEntry id="05ab-1c2a-02eb-713a" name="Armoured 7.5cm Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ac8b-a300-5f5a-f759" name="Sd Kfz 251 (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="ac8b-a300-5f5a-f759" name="Sd Kfz 251 (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -843,13 +852,14 @@
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="73b9-503e-273b-988f" name="Sd Kfz 251 (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -872,7 +882,7 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
           </characteristics>
         </profile>
-        <profile id="b3f1-883a-ca25-182a" name="Sd Kfz 251 (7.5cm) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="b3f1-883a-ca25-182a" name="Sd Kfz 251 (7.5cm) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -885,13 +895,14 @@
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Tactics 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -932,7 +943,7 @@
     </selectionEntry>
     <selectionEntry id="b508-4010-cdb6-9241" name="Armoured 8cm Mortar Section" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="cf69-732e-270a-efd8" name="Sd Kfz 251 (8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="cf69-732e-270a-efd8" name="Sd Kfz 251 (8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -945,13 +956,14 @@
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="2ee0-0618-d139-d1be" name="Sd Kfz 251 (8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -964,7 +976,7 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
           </characteristics>
         </profile>
-        <profile id="28ac-efaa-d8c9-99d4" name="Sd Kfz 251 (8cm) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="28ac-efaa-d8c9-99d4" name="Sd Kfz 251 (8cm) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -977,13 +989,14 @@
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Tactics 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1021,7 +1034,7 @@
     </selectionEntry>
     <selectionEntry id="5250-ced4-c1bf-761e" name="Armoured Flame-Thrower Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8648-bdd5-9329-b835" name="Sd Kfz 251 (Flame)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="8648-bdd5-9329-b835" name="Sd Kfz 251 (Flame)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1034,13 +1047,14 @@
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="8c8d-a542-594b-3857" name="Sd Kfz 251 (Flame)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1053,7 +1067,7 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Flame-thrower</characteristic>
           </characteristics>
         </profile>
-        <profile id="0bea-cf5c-a1a0-dec6" name="Sd Kfz 251 (Flame) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="0bea-cf5c-a1a0-dec6" name="Sd Kfz 251 (Flame) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1066,13 +1080,14 @@
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Tactics 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1197,7 +1212,7 @@
     </selectionEntry>
     <selectionEntry id="d5f4-7aa4-e8d3-b597" name="Sd Kfz 10/4 Light AA Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8db5-52a2-f407-ff14" name="Sd Kfz 10/4 (2cm) - 20th" hidden="true" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank">
+        <profile id="8db5-52a2-f407-ff14" name="Sd Kfz 10/4 (2cm) - 20th" hidden="true" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1215,6 +1230,7 @@
             <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">32&quot;/80cm</characteristic>
             <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
+            <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
           </characteristics>
         </profile>
         <profile id="2824-473e-6c06-0900" name="Sd Kfz 10/4 (2cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1227,7 +1243,7 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
           </characteristics>
         </profile>
-        <profile id="f2c8-9eaa-9ee0-1ba6" name="Sd Kfz 10/4 (2cm)" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank">
+        <profile id="f2c8-9eaa-9ee0-1ba6" name="Sd Kfz 10/4 (2cm)" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1245,6 +1261,7 @@
             <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">32&quot;/80cm</characteristic>
             <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
+            <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1278,7 +1295,7 @@
     </selectionEntry>
     <selectionEntry id="d4d9-0de5-ee7f-d86c" name="15cm Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="f601-44ac-c54a-8cab" name="15cm infantry gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="f601-44ac-c54a-8cab" name="15cm infantry gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1296,9 +1313,10 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
-        <profile id="0354-6af9-a4e3-c638" name="15cm infantry gun - 20th" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="0354-6af9-a4e3-c638" name="15cm infantry gun - 20th" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1316,6 +1334,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1349,7 +1368,7 @@
     </selectionEntry>
     <selectionEntry id="a9a5-5ae3-c750-9b07" name="Grille 15cm Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="752e-97dd-5a28-d532" name="Grille (15cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="752e-97dd-5a28-d532" name="Grille (15cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1362,13 +1381,14 @@
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="eb2e-1dbf-a5d0-0c52" name="Grille (15cm) Artillery" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1401,7 +1421,7 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
           </characteristics>
         </profile>
-        <profile id="0602-e72c-5dce-d8cd" name="Grille (15cm) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="0602-e72c-5dce-d8cd" name="Grille (15cm) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1414,13 +1434,14 @@
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Tactics 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1672,19 +1693,20 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
           </characteristics>
         </profile>
-        <profile id="9077-0deb-c94c-3d41" name="Sd Kfz 250 Half-Track" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="9077-0deb-c94c-3d41" name="Sd Kfz 250 Half-Track" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Remount 5+ Counterattack 6+ (MA 4+ )</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+ (MA 4+)</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1942,7 +1964,7 @@
     </selectionEntry>
     <selectionEntry id="e75c-3cbd-2379-0276" name="2cm Light AA Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="7756-930a-4628-2492" name="2cm AA gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="7756-930a-4628-2492" name="2cm AA gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1960,6 +1982,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
         <profile id="25d3-b5da-d500-c5fd" name="2cm AA gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1972,7 +1995,7 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
           </characteristics>
         </profile>
-        <profile id="c498-4a67-b901-b6dc" name="2cm AA gun - 20th" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="c498-4a67-b901-b6dc" name="2cm AA gun - 20th" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1990,6 +2013,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2030,7 +2054,7 @@
     </selectionEntry>
     <selectionEntry id="6339-7749-144e-e9d0" name="12cm Mortar Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="580a-2203-ae4b-eee5" name="12cm mortar" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="580a-2203-ae4b-eee5" name="12cm mortar" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2048,9 +2072,10 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
-        <profile id="f214-fd04-c277-0f89" name="12cm mortar - 20th" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="f214-fd04-c277-0f89" name="12cm mortar - 20th" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2068,6 +2093,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2105,7 +2131,7 @@
     </selectionEntry>
     <selectionEntry id="bbd7-bb3e-576a-edb8" name="7.5cm Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="6d79-9de1-11f6-e2f0" name="7.5cm infantry gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="6d79-9de1-11f6-e2f0" name="7.5cm infantry gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2123,9 +2149,10 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
-        <profile id="c966-79c7-7c97-2938" name="7.5cm infantry gun - 20th" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="c966-79c7-7c97-2938" name="7.5cm infantry gun - 20th" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2143,6 +2170,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2244,7 +2272,7 @@
     </selectionEntry>
     <selectionEntry id="ad83-f9b3-bd18-bb69" name="8cm Mortar Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a9b8-cd0d-f750-2fdc" name="8cm mortar" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+        <profile id="a9b8-cd0d-f750-2fdc" name="8cm mortar" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2262,9 +2290,10 @@
             <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
             <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
             <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
           </characteristics>
         </profile>
-        <profile id="34f8-236b-e3a5-8953" name="8cm mortar - 20th" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+        <profile id="34f8-236b-e3a5-8953" name="8cm mortar - 20th" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2282,6 +2311,7 @@
             <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
             <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
             <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2460,19 +2490,20 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
           </characteristics>
         </profile>
-        <profile id="2db7-a0b3-b858-0e4b" name="Sd Kfz 250 (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="2db7-a0b3-b858-0e4b" name="Sd Kfz 250 (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2519,19 +2550,20 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
           </characteristics>
         </profile>
-        <profile id="350b-77b6-f632-a236" name="Sd Kfz 250 (8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="350b-77b6-f632-a236" name="Sd Kfz 250 (8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2570,19 +2602,20 @@
     </selectionEntry>
     <selectionEntry id="f5ae-9a95-a66e-ac18" name="Sd Kfc 234 (7.5cm) Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="67a8-82b8-5b7c-f705" name="Sd Kfc 234 (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="67a8-82b8-5b7c-f705" name="Sd Kfc 234 (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Counterattack 6 Remount 4+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">36&quot;/90cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="d311-975e-dc0e-3d34" name="Sd Kfc 234 (MG) forward" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2651,19 +2684,20 @@
           <selectionEntries>
             <selectionEntry id="f0b8-d382-41b5-a8e8" name="2x Sd Kfz 234 (2cm)" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="eabf-a95b-2adc-b326" name="Sd Kfc 234 (2cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+                <profile id="eabf-a95b-2adc-b326" name="Sd Kfc 234 (2cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
                   <characteristics>
                     <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Counterattack 6 Last Stand 4+</characteristic>
                     <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
                     <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
                     <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-                    <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+                    <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
                     <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
                     <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
                     <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
                     <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
                     <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">36&quot;/90cm</characteristic>
                     <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+                    <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
                   </characteristics>
                 </profile>
                 <profile id="4d6c-f57a-2bc1-6441" name="Sd Kfc 234 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2696,19 +2730,20 @@
             </selectionEntry>
             <selectionEntry id="5d86-c17f-cb0a-e90f" name="2x Puma (5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="dad0-a0a6-1725-4ac4" name="Puma (5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+                <profile id="dad0-a0a6-1725-4ac4" name="Puma (5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
                   <characteristics>
                     <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Counterattack 6 Last Stand 4+</characteristic>
                     <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
                     <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
                     <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-                    <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+                    <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
                     <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
                     <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
                     <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
                     <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
                     <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">36&quot;/90cm</characteristic>
                     <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+                    <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
                   </characteristics>
                 </profile>
                 <profile id="159d-1b94-8cea-0c17" name="Puma (5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2755,19 +2790,20 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
           </characteristics>
         </profile>
-        <profile id="e0ab-ef34-bba6-f573" name="Sd Kfz 250/9 (2cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="e0ab-ef34-bba6-f573" name="Sd Kfz 250/9 (2cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Counterattack 6 Last Stand 4+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2796,7 +2832,7 @@
     <selectionEntry id="2500-c062-d7c1-c67f" name="8.8cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <comment>rev2</comment>
       <profiles>
-        <profile id="801c-8275-69b5-320d" name="8.8cm gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="801c-8275-69b5-320d" name="8.8cm gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
@@ -2807,6 +2843,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
         <profile id="97b4-5e21-562a-f397" name="8.8cm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2862,19 +2899,20 @@
     </selectionEntry>
     <selectionEntry id="7b39-c0fb-5da4-59a3" name="Jagdpanzer IV Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e10b-8718-10c9-6a4e" name="Jagdpanzer IV (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="e10b-8718-10c9-6a4e" name="Jagdpanzer IV (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 5+ Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="cd6e-fb2d-b9d4-543f" name="Jagdpanzer IV (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2938,7 +2976,7 @@
     </selectionEntry>
     <selectionEntry id="9adb-03e6-89f6-0b24" name="Sd Kfz 7/1 Quad AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f352-01c3-0dbf-d740" name="Sd Kfz 7/1 (2cm quad)" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank">
+        <profile id="f352-01c3-0dbf-d740" name="Sd Kfz 7/1 (2cm quad)" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+ Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
@@ -2949,6 +2987,7 @@
             <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">14&quot;/35cm</characteristic>
             <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">24&quot;/60cm</characteristic>
             <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">3+</characteristic>
+            <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
           </characteristics>
         </profile>
         <profile id="e1b9-6612-43de-a88a" name="Sd Kfz 7/1 (2cm quad)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2995,7 +3034,7 @@
     </selectionEntry>
     <selectionEntry id="fcb2-85d8-074a-978f" name="10.5cm Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e4a2-e91d-ac1c-b562" name="10.5cm howitzer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="e4a2-e91d-ac1c-b562" name="10.5cm howitzer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
@@ -3006,6 +3045,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
         <profile id="bb09-af07-d550-24d4" name="10.5cm howitzer" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3071,19 +3111,20 @@
     </selectionEntry>
     <selectionEntry id="b6de-c5a6-d9a6-399a" name="Hummel Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8d97-f31f-4609-cc95" name="Hummel (15cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="8d97-f31f-4609-cc95" name="Hummel (15cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 6</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="7c2e-f0b8-b379-bb5b" name="Hummel (15cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3152,19 +3193,20 @@
     </selectionEntry>
     <selectionEntry id="17d1-62a8-d8f2-0eeb" name="Wespe Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="048e-ab3f-15b6-38f5" name="Wespe (10.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="048e-ab3f-15b6-38f5" name="Wespe (10.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 6</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="b7d6-36ba-7b5f-cbe0" name="Wespe (10.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3236,7 +3278,7 @@
     </selectionEntry>
     <selectionEntry id="dace-3b54-229e-60b2" name="15cm Nebelwerfer Battery" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a5fa-01e1-7387-1cd6" name="15cm Nebelwerfer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="a5fa-01e1-7387-1cd6" name="15cm Nebelwerfer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
@@ -3247,6 +3289,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
         <profile id="f0c1-0052-decf-2256" name="15cm Nebelwerfer" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3308,7 +3351,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c6e-d0a4-41c0-8713" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cef2-8450-c69a-6d58" name="MP40 SMG team beach" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+            <profile id="cef2-8450-c69a-6d58" name="MP40 SMG team beach" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
               <characteristics>
                 <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 3+</characteristic>
                 <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
@@ -3319,6 +3362,7 @@
                 <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
                 <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
                 <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+                <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3354,7 +3398,7 @@
           <selectionEntries>
             <selectionEntry id="c6c3-7eb1-021c-ea92" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9f19-e620-92e3-1dcd" name="5cm gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+                <profile id="9f19-e620-92e3-1dcd" name="5cm gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
                   <characteristics>
                     <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
                     <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4</characteristic>
@@ -3365,6 +3409,7 @@
                     <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
                     <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
                     <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+                    <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
                   </characteristics>
                 </profile>
                 <profile id="17b8-4881-c385-2226" name="5cm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3645,7 +3690,7 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="6170-c630-c3e0-66b3" name="StuG Assault Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3bb3-0dc5-78de-29f1" name="StuG - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="3bb3-0dc5-78de-29f1" name="StuG - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -3658,13 +3703,14 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Tactics 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3854,7 +3900,7 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="2203-1bbb-e22b-449f" name="Panther Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="0139-9402-fd68-7bce" name="Panther (7.5cm) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="0139-9402-fd68-7bce" name="Panther (7.5cm) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -3867,13 +3913,14 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Tactics 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3925,7 +3972,7 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="1651-2e60-9d01-0bc6" name="8.8cm Heavy AA Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="2794-9430-1c47-a698" name="8.8cm AA gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="2794-9430-1c47-a698" name="8.8cm AA gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
@@ -3936,6 +3983,7 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
         <profile id="6d59-df76-a162-9050" name="8.8cm AA gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -4074,7 +4122,7 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="3642-df18-1304-c38d" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b7cf-2bad-94e3-8eb6" name="Panzer IV (7.5cm) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="b7cf-2bad-94e3-8eb6" name="Panzer IV (7.5cm) - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -4087,13 +4135,14 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Tactics 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4187,19 +4236,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="777f-a227-0a6b-c138" name="Möbelwagen AA Tank Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="6d10-f15a-34ec-0ef0" name="Möbelwagen (3.7cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="6d10-f15a-34ec-0ef0" name="Möbelwagen (3.7cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="9e3b-b88c-104a-d9fe" name="Möbelwagen (3.7cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -4319,19 +4369,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="82b7-f19c-f147-16cd" name="Panzer III OP Observation Post " publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8273-58c8-5155-46f5" name="Panzer III OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="8273-58c8-5155-46f5" name="Panzer III OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 5+ Counterattack 6</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="7d46-8ad3-e6bf-8a0a" name="Panzer III OP (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -4372,7 +4423,7 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="64c1-5c6c-1f83-abe9" name="Escort Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="0af9-29af-dfef-cdff" name="StG44 assault rifle team" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+        <profile id="0af9-29af-dfef-cdff" name="StG44 assault rifle team" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 2+</characteristic>
@@ -4383,6 +4434,7 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
             <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
             <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
             <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
           </characteristics>
         </profile>
         <profile id="f174-497e-7b05-63ba" name="StG44 assault rifle team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -4429,7 +4481,7 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="b14f-65d1-9efe-4654" name="Panzer IV/70 Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="eab9-de26-5cb4-83c4" name="Panzer IV/70 - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="eab9-de26-5cb4-83c4" name="Panzer IV/70 - 20th" hidden="true" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -4442,13 +4494,14 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Tactics 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">4</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">5+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4583,19 +4636,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="394b-d882-333a-c4f9" name="Wirbelwind AA Tank Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d711-6b7e-ca48-bc66" name="Wirbelwind" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="d711-6b7e-ca48-bc66" name="Wirbelwind" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="86b8-8301-b399-dfa1" name="Wirbelwind (2cm Quad)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -4647,19 +4701,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="2f5a-904f-0465-26cb" name="Ostwind AA Tank Platoon" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="84a4-42e2-3407-b182" name="Ostwind (3.7cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="84a4-42e2-3407-b182" name="Ostwind (3.7cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="81cc-2efd-6247-7078" name="Ostwind (3.7cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -4711,19 +4766,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="9122-99ba-61dc-4679" name="SD Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a064-b533-1b17-d5ed" name="Sd Kfc 221 &amp; 222" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="a064-b533-1b17-d5ed" name="Sd Kfc 221 &amp; 222" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Counterattack 6 Last Stand 4+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">40&quot;/100cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="0814-59fe-99b1-b23a" name="Sd Kfc 221 &amp; 222 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -4791,19 +4847,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="cf07-f1de-8b50-9501" name="SD Kfz 231 Heavy Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4560-6f50-e8bf-c0e9" name="Sd Kfz 231 (5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="4560-6f50-e8bf-c0e9" name="Sd Kfz 231 (5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ Counterattack 6 Last Stand 4+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">40&quot;/100cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="f273-3512-0c95-1592" name="Sd Kfz 231 (2cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -5239,19 +5296,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="473f-75af-4f6f-8c07" name="Marder Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5c21-d51a-338e-927e" name="Marder (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="5c21-d51a-338e-927e" name="Marder (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6+ Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="4473-86a0-b113-11df" name="Marder (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -5313,19 +5371,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="4635-91da-68c6-afc4" name="Horniesse Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4e76-8503-2c95-0003" name="Horniesse (8.8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="4e76-8503-2c95-0003" name="Horniesse (8.8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 6+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="d09e-5841-fa08-ba2b" name="Horniesse (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -5387,19 +5446,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="c328-003d-b63f-7e69" name="Elephant Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2317-1025-6958-5da0" name="Elephant (8.8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="2317-1025-6958-5da0" name="Elephant (8.8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 5+ Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">16</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">7</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">7</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="c643-e667-be9b-a3cd" name="Elephant (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -5496,19 +5556,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing</characteristic>
           </characteristics>
         </profile>
-        <profile id="e112-1129-2c7e-caab" name="Brummnär" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="e112-1129-2c7e-caab" name="Brummnär" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 5+ Last Stand 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">4</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5553,19 +5614,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="2af9-9f2a-6df6-7a9d" name="Panzerwerfer 42 Battery" publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="2133-f6d0-2eea-1f95" name=" Panzerwerfer 42" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="2133-f6d0-2eea-1f95" name=" Panzerwerfer 42" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 3+ Counterattack 6</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="ce09-efc9-5f20-6858" name=" Panzerwerfer 42 (15cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -5622,19 +5684,20 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
     </selectionEntry>
     <selectionEntry id="eb8f-eb29-efd6-d34b" name="Sd Kfz 250 OP Observation Post " publicationId="10a4-8008-66c3-952e" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="4210-4285-1833-a899" name="Sd Kfz 250 OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="4210-4285-1833-a899" name="Sd Kfz 250 OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 5+ Counterattack 6</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="5cfe-31f0-1598-e343" name="Sd Kfz 250 OP (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -5844,7 +5907,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="1bd8-ccbb-2078-5aa2" name="MG42 &amp; K98 rifle team" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="1bd8-ccbb-2078-5aa2" name="MG42 &amp; K98 rifle team" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
@@ -5855,6 +5918,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
     <profile id="e3ec-7e04-252b-a02b" name="MP40 SMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -5967,19 +6031,20 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="5a75-4c2c-ef6c-0834" name="Tiger (8.8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="5a75-4c2c-ef6c-0834" name="Tiger (8.8cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 2+ Remount 2+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">8</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="7533-54b0-a023-a8e4" name="Tiger (8.8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6022,19 +6087,20 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="6666-de08-159f-cb24" name="Panther (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="6666-de08-159f-cb24" name="Panther (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="4140-fc83-9933-9b1d" name="Panther (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6057,19 +6123,20 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="c058-5e56-6fb2-ecd8" name="Panzer IV (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="c058-5e56-6fb2-ecd8" name="Panzer IV (7.5cm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 3+ Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="7359-3b12-948c-0aeb" name="Panzer IV (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6092,7 +6159,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="f62d-9c8a-f2b3-0143" name="MP40 SMG team" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="f62d-9c8a-f2b3-0143" name="MP40 SMG team" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
@@ -6103,9 +6170,10 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
-    <profile id="ba5d-12be-7472-6679" name="MG42 team" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="ba5d-12be-7472-6679" name="MG42 team" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
@@ -6116,6 +6184,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
     <profile id="ef15-40da-0123-1f13" name="Sd Kfz 251 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6138,19 +6207,20 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="d7b4-cd03-f648-9c4d" name="StuG" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="d7b4-cd03-f648-9c4d" name="StuG" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="fb5d-d6ce-b5c4-9a12" name="StuG (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6193,34 +6263,36 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="4b7b-0c92-92b9-968c" name="Panzer IV/70" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="4b7b-0c92-92b9-968c" name="Panzer IV/70" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 5+ Last Stand 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">4</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">5+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
-    <profile id="f11f-0a7c-a7f3-0043" name="Hetzer" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="f11f-0a7c-a7f3-0043" name="Hetzer" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 5+ Last Stand 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">3</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">5+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="6f02-221c-c0f8-dcc9" name="Hetzer (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6243,7 +6315,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="f3d0-8afa-3271-d0c0" name="sMG34 HMG team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="f3d0-8afa-3271-d0c0" name="sMG34 HMG team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 4+</characteristic>
@@ -6254,6 +6326,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
     <profile id="c24a-b87a-1421-3642" name="MP40 SMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6267,7 +6340,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1, Assault 3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="a3ef-b5c9-b478-2c70" name="Grenadier Scout Team" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="a3ef-b5c9-b478-2c70" name="Grenadier Scout Team" publicationId="10a4-8008-66c3-952e" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Counterattack 6+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Assault 4+</characteristic>
@@ -6278,6 +6351,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
     <profile id="24dc-55e7-be8c-a1f8" name="K98 rifle team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6290,7 +6364,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="ec90-7b58-423a-b00d" name="Ju 87 Stuka" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft">
+    <profile id="ec90-7b58-423a-b00d" name="Ju 87 Stuka" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">4+</characteristic>
         <characteristic name="Skill" typeId="e506-9161-836a-5e2d">3+</characteristic>
@@ -6301,6 +6375,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="037d-b1be-ca62-5c3e">UNLIMITED</characteristic>
         <characteristic name="Road Dash" typeId="207b-99f1-9a35-12d8">UNLIMITED</characteristic>
         <characteristic name="Cross" typeId="07b3-6909-7897-f282">AUTO</characteristic>
+        <characteristic name="Notes" typeId="8252-ebff-91e7-47ea"/>
       </characteristics>
     </profile>
     <profile id="b2a5-fcc6-88cf-5e00" name="Ju 87 Stuka (3.7cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6323,7 +6398,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Bombs</characteristic>
       </characteristics>
     </profile>
-    <profile id="4ff1-656c-7981-2b1a" name="MG42 team - Sperrverband" publicationId="10a4-8008-66c3-952e" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="4ff1-656c-7981-2b1a" name="MG42 team - Sperrverband" publicationId="10a4-8008-66c3-952e" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ Counterattack 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
@@ -6334,9 +6409,10 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
-    <profile id="5372-2da8-6b65-a0dd" name="MG42 team - 20th" publicationId="10a4-8008-66c3-952e" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="5372-2da8-6b65-a0dd" name="MG42 team - 20th" publicationId="10a4-8008-66c3-952e" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 3+ Counterattack 5+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Tactics 4+</characteristic>
@@ -6347,9 +6423,10 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
-    <profile id="d2cf-5816-1d4a-7f62" name="MP40 SMG team - 20th" publicationId="10a4-8008-66c3-952e" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="d2cf-5816-1d4a-7f62" name="MP40 SMG team - 20th" publicationId="10a4-8008-66c3-952e" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 3+ Counterattack 5+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Tactics 4+</characteristic>
@@ -6360,9 +6437,10 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
-    <profile id="07f2-ac6c-20f4-83af" name="sMG34 HMG team - 20th" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="07f2-ac6c-20f4-83af" name="sMG34 HMG team - 20th" hidden="true" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Last Stand 3+ Counterattack 5+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ Tactics 4+</characteristic>
@@ -6373,6 +6451,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
   </sharedProfiles>
