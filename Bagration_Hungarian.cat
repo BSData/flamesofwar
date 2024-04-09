@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0971-15db-7b23-4f02" name="Bagration: Hungarian" revision="1" battleScribeVersion="2.03" authorName="mdcooledge" authorContact="BSData Discord: https://discord.com/invite/UrrPB3T" authorUrl="https://github.com/BSData/flamesofwar" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0971-15db-7b23-4f02" name="Bagration: Hungarian" revision="1" battleScribeVersion="2.03" authorName="mdcooledge" authorContact="BSData Discord: https://discord.com/invite/UrrPB3T" authorUrl="https://github.com/BSData/flamesofwar" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Bagration: Axis-Allies 
 Hungarian, Romanian, and Finnish Forces On The Western Front, 1944-45
 
@@ -57,7 +57,7 @@ Support the creators, buy the book!</readme>
     </selectionEntry>
     <selectionEntry id="0b7d-143b-47d2-f4c3" name="Artillery" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c91e-f772-01db-1d30" type="max"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c91e-f772-01db-1d30" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="b871-9bf7-851a-8658" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -66,34 +66,11 @@ Support the creators, buy the book!</readme>
         <selectionEntryGroup id="28ca-80ac-2874-a3bc" name="Options:" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6893-4b0c-7fe6-411f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0af0-03d3-d6be-e3ce" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0af0-03d3-d6be-e3ce" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="8cc0-ffad-3cce-cccd" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="8819-973d-ec68-6744" type="selectionEntry"/>
             <entryLink id="b0f5-2089-32c1-21d7" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="c03b-ef17-bf2d-5964" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8bd4-d743-c021-ffe6" name="Artillery" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2897-6eb9-fd5f-180a" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="f77d-307d-9b81-5b6b" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="c88d-4012-0cac-0bed" name="Options:" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="133a-c185-4ff9-c285" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bfc-e0d7-eedc-283b" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="dcfb-1b19-321d-21ef" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="8819-973d-ec68-6744" type="selectionEntry"/>
-            <entryLink id="4032-e6f8-796e-6997" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="c03b-ef17-bf2d-5964" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -166,8 +143,8 @@ Support the creators, buy the book!</readme>
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b2a6-4109-1226-5bd0" type="greaterThan"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="738d-c35c-01aa-58d5" type="greaterThan"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3094-8b4f-df81-a0a6" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c03b-ef17-bf2d-5964" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8819-973d-ec68-6744" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -198,6 +175,141 @@ Support the creators, buy the book!</readme>
       </constraints>
       <categoryLinks>
         <categoryLink id="cc45-f899-fb0d-83a9" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0f00-67fc-0552-c14a" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="5970-040d-2936-336a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="302c-6775-d6e7-8d53" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5970-040d-2936-336a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="302c-6775-d6e7-8d53" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8a9b-cf98-a94a-78d4" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ada3-8dc2-d563-f719" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="1122-2c5f-92b2-15c5" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="5d36-7b0d-a8df-6a46" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1122-2c5f-92b2-15c5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d36-7b0d-a8df-6a46" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0ad3-f343-1ee7-9389" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="971b-c2dc-0da8-a9a2" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="b21e-9451-7773-b9ef" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="a797-be17-a96b-299b" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b21e-9451-7773-b9ef" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a797-be17-a96b-299b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e755-21d8-65f7-0352" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0426-2c13-741c-7620" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="334f-5a6b-b8c2-a14e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="74d5-62ad-5d27-d16c" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="334f-5a6b-b8c2-a14e" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74d5-62ad-5d27-d16c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1211-a7d3-65a3-a5d6" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4319-4785-5578-9619" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="2b54-7942-ac6f-bfdf" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="1b8b-860f-4297-76d4" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2b54-7942-ac6f-bfdf" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8b-860f-4297-76d4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e8d4-30a2-d5fc-6296" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a642-3a13-de3f-b001" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="9915-823e-849c-5bd0" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="e663-5ce1-987b-b2b6" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9915-823e-849c-5bd0" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e663-5ce1-987b-b2b6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7219-0a80-f537-0182" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="191d-fd71-e460-ccee" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="4ca4-14a0-8033-129a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="9781-91b9-d6a9-0d57" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ca4-14a0-8033-129a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9781-91b9-d6a9-0d57" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9fca-7c3c-ad17-e73a" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d446-9f9a-1e08-4b8f" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="a093-6d94-bd9e-36bb" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="03be-02c1-9b60-4975" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a093-6d94-bd9e-36bb" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03be-02c1-9b60-4975" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4914-6458-4498-b9d8" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a16e-856c-c284-65f4" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="dd04-55b1-0d84-944a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="4503-26b8-bf39-ca46" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dd04-55b1-0d84-944a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4503-26b8-bf39-ca46" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1a8e-559e-4381-696c" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -301,7 +413,7 @@ Follow Me 3+</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
-            <characteristic name="Notes" typeId="33d6-6375-9564-9985"></characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -444,7 +556,7 @@ Remount 3+</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
-            <characteristic name="Notes" typeId="33d6-6375-9564-9985"></characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -709,6 +821,9 @@ Assault 5+</characteristic>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9a62-d779-a8a7-0d98" name="Tiger Tank Company" publicationId="94b0-77e6-8d24-9f2b" page="48" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -753,6 +868,9 @@ Assault 5+</characteristic>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d6ae-3e81-c0f3-eb7f" name="Turán Tank Company" publicationId="94b0-77e6-8d24-9f2b" page="50" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -802,6 +920,9 @@ Assault 5+</characteristic>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4999-0c70-aebd-84fd" name="Turán Tank Company HQ (LH105)" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -854,6 +975,9 @@ Remount 3+</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b21e-9451-7773-b9ef" name="Turán Tank Platoon (LH106)" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -872,7 +996,7 @@ Remount 3+</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
-            <characteristic name="Notes" typeId="33d6-6375-9564-9985"></characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -922,6 +1046,9 @@ Remount 3+</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0c1f-fe74-eaa7-03f6" name="Toldi II Light Tank Platoon (LH107)" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1007,6 +1134,9 @@ Assault 5+</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ddab-a1c7-67f4-04df" name="Panzer IV Tank Company HQ (LH108)" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1110,6 +1240,9 @@ Remount 3+</characteristic>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c590-3fe8-be65-701a" name="Nimród Self-Propelled AA Platoon (LH111)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1138,7 +1271,7 @@ Assault 6</characteristic>
         <infoLink id="addd-cde3-6c86-af9e" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2f89-8de6-3671-5794" name="Unit Size:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2f89-8de6-3671-5794" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="a125-a598-9e92-287b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="353c-d653-2325-b385" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0683-921d-40d5-9510" type="max"/>
@@ -1152,6 +1285,9 @@ Assault 6</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="553c-203f-b935-e898" name="Zrínyi Assault Gun Battery HQ (LH112)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1199,6 +1335,9 @@ Assault 4+</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9915-823e-849c-5bd0" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1246,6 +1385,9 @@ Assault 4+</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4ca4-14a0-8033-129a" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1311,7 +1453,7 @@ Assault 4+</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">5+</characteristic>
-            <characteristic name="Notes" typeId="33d6-6375-9564-9985"></characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1352,7 +1494,7 @@ Assault 4+</characteristic>
     </selectionEntry>
     <selectionEntry id="26dc-20bc-ec19-a797" name="Zrínyi Assault Gun Battery" publicationId="94b0-77e6-8d24-9f2b" page="58" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="b286-f9ff-b14e-b577" name="Armour" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b286-f9ff-b14e-b577" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="398f-d057-fee0-8178">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a885-c00a-894e-0ad4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2895-2d74-4016-4145" type="max"/>
@@ -1389,6 +1531,9 @@ Assault 4+</characteristic>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b42a-3f5a-8dc9-f771" name="StuG Assault Gun Battery" publicationId="94b0-77e6-8d24-9f2b" page="60" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1405,8 +1550,8 @@ Assault 4+</characteristic>
       <entryLinks>
         <entryLink id="6968-1d9f-336b-b6df" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="4ca4-14a0-8033-129a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="455d-89e5-a690-dc61" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8b1-ac64-c400-8dd0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="455d-89e5-a690-dc61" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d8b1-ac64-c400-8dd0" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="708a-02b8-b2af-e82a" name="StuG Assault Gun Battery HQ (LH114)" hidden="false" collective="false" import="true" targetId="de98-ed9a-cecd-7958" type="selectionEntry">
@@ -1417,11 +1562,14 @@ Assault 4+</characteristic>
         </entryLink>
         <entryLink id="a4d9-04f8-b287-5b4e" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="4ca4-14a0-8033-129a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3980-c313-1ad3-3068" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f33c-77f0-719b-3516" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3980-c313-1ad3-3068" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f33c-77f0-719b-3516" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1f45-4ab8-12b0-4119" name="Hetzer Assault Gun Battery" publicationId="94b0-77e6-8d24-9f2b" page="62" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1438,8 +1586,8 @@ Assault 4+</characteristic>
       <entryLinks>
         <entryLink id="eb8a-5426-128b-1aa2" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="a093-6d94-bd9e-36bb" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a83-2fb1-b75f-4fa1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a59b-8e3d-ef3f-74ae" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a83-2fb1-b75f-4fa1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a59b-8e3d-ef3f-74ae" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="2a82-f0a7-9e4f-20dc" name="Hetzer Assault Gun Battery HQ (LH117)" hidden="false" collective="false" import="true" targetId="c14c-64c4-a577-af95" type="selectionEntry">
@@ -1450,11 +1598,14 @@ Assault 4+</characteristic>
         </entryLink>
         <entryLink id="c920-95c2-d199-5612" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="a093-6d94-bd9e-36bb" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a86-8b6a-9335-7c91" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba8d-cb33-0f78-b046" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4a86-8b6a-9335-7c91" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba8d-cb33-0f78-b046" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="030a-6845-8770-af22" name="Rifle Company HQ (LH119)" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1511,7 +1662,7 @@ Last Stand 3+</characteristic>
             <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
             <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
             <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
-            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"></characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1519,7 +1670,7 @@ Last Stand 3+</characteristic>
         <infoLink id="f5a8-55fc-2fa5-9728" name="31M MG &amp; 95M rilfe team" hidden="false" targetId="d845-ec82-f7dd-a9ba" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b5be-a786-2b39-7268" name="Unit Configuration" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b5be-a786-2b39-7268" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="10dd-e3c5-46bb-3848">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eba6-928c-4811-4778" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e3-1c5b-5d7f-0e19" type="max"/>
@@ -2359,6 +2510,9 @@ Last Stand 5+</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="df5e-79a0-930f-cf6e" name="40mm Bofors Anti-Aircraft Platoon (LH133)" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
