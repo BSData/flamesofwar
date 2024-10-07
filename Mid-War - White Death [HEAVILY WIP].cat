@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="769a-e39e-2811-fc08" name="Mid-War - White Death [HEAVILY WIP]" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Started Oct 2024</readme>
+  <entryLinks>
+    <entryLink id="3778-f59a-1823-7f15" name="[FS] Infantry Platoon" hidden="false" collective="false" import="true" targetId="696c-c933-e5f7-0681" type="selectionEntry"/>
+    <entryLink id="d653-cdfe-b8e2-01fd" name="[F] Infantry Company" hidden="false" collective="false" import="true" targetId="5217-df27-a04e-f227" type="selectionEntry"/>
+    <entryLink id="6140-bef1-1715-8b5d" name="[F] Light Infantry Company" hidden="false" collective="false" import="true" targetId="b100-5afc-f1f0-9f8b" type="selectionEntry"/>
+    <entryLink id="0329-c0f1-3e7a-5542" name="[FS] Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry"/>
+    <entryLink id="4c02-f694-84f9-5357" name="[FS] T-26 Armoured Platoon" hidden="false" collective="false" import="true" targetId="1ba3-1d84-6743-ef82" type="selectionEntry"/>
+    <entryLink id="c1e0-c77a-5317-a031" name="[F] Armoured Company" hidden="false" collective="false" import="true" targetId="c8bf-ed91-3abc-a491" type="selectionEntry"/>
+    <entryLink id="6953-bf98-402d-46ac" name="[FS] T-28 Armoured Platoon" hidden="false" collective="false" import="true" targetId="ab22-9033-e29d-e89e" type="selectionEntry"/>
+    <entryLink id="b5b3-3f89-e0e2-18a2" name="[S] 122mm Artillery Battery" hidden="false" collective="false" import="true" targetId="014d-b9ad-4b16-bc5f" type="selectionEntry"/>
+    <entryLink id="8db2-81a7-2360-3716" name="[S] 120mm Heavy Mortar Platoon" hidden="false" collective="false" import="true" targetId="089e-2794-cad4-c14e" type="selectionEntry"/>
+    <entryLink id="8c4a-611f-54cd-ea20" name="[S] 20mm Anti-aircraft Platoon" hidden="false" collective="false" import="true" targetId="d8fb-fb9a-75f5-9d49" type="selectionEntry"/>
+    <entryLink id="ecd4-7748-8c03-dceb" name="[S] 37mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="41ad-7b92-fb4c-c1d8" type="selectionEntry"/>
+    <entryLink id="a289-b597-6794-3c29" name="[S] 40mm Anti-aircraft Platoon" hidden="false" collective="false" import="true" targetId="0c2d-8b52-3fb3-7a96" type="selectionEntry"/>
+    <entryLink id="aa91-728a-d5de-4fa3" name="[S] 45mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="0a86-05cf-7eb8-9ef1" type="selectionEntry"/>
+    <entryLink id="5bd1-a398-16f8-325b" name="[S] 105mm Artillery Battery" hidden="false" collective="false" import="true" targetId="1ea6-d6f1-a897-a970" type="selectionEntry"/>
+    <entryLink id="2bcf-902b-be67-4c58" name="[S] 50mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="5be6-f466-df38-dfdd" type="selectionEntry"/>
+    <entryLink id="63a0-e7ec-2f6f-2daf" name="[S] BT-42 Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="6b36-e6e5-682e-4633" type="selectionEntry"/>
+    <entryLink id="961d-b3a5-b774-b066" name="[S] 75mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="139f-4d51-6c57-ec60" type="selectionEntry"/>
+    <entryLink id="4900-d9ca-ef87-a5fb" name="[S] Artillery Observation Post" hidden="false" collective="false" import="true" targetId="c66b-75aa-e34c-60ff" type="selectionEntry"/>
+    <entryLink id="57e5-d0bd-ae61-62a3" name="[S] BA-10 Armoured Car Platoon" hidden="false" collective="false" import="true" targetId="ed0e-2732-f3f6-c4f6" type="selectionEntry"/>
+    <entryLink id="c22e-e73f-5faa-cb6b" name="[S] Fokker CX Fighter-Bomber Flight" hidden="false" collective="false" import="true" targetId="05e4-e8ab-24a4-26f9" type="selectionEntry"/>
+    <entryLink id="2664-3973-b1c5-01dc" name="[S] 76mm Artillery Battery" hidden="false" collective="false" import="true" targetId="0ba9-839d-0336-9e3e" type="selectionEntry"/>
+    <entryLink id="6e50-ccd4-f213-bfa4" name="[S] Pioneer Platoon" hidden="false" collective="false" import="true" targetId="3eb6-3675-708b-1ade" type="selectionEntry"/>
+    <entryLink id="99c3-617f-2d48-1390" name="[S] Short 75mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="1378-dbff-b65b-d94f" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="c8bf-ed91-3abc-a491" name="[F] Armoured Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="08a5-b3e1-a32f-bf30" name="Armoured Company HQ" hidden="false" collective="false" import="true" type="unit"/>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a78c-d4dd-15d8-cf04" name="1) Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="baf9-a6e7-168b-b2cb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b84-c6de-e1df-e30b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0c8-c15f-21d7-2afb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="baf9-a6e7-168b-b2cb" name="[FS] T-28 Armoured Platoon" hidden="false" collective="false" import="true" targetId="ab22-9033-e29d-e89e" type="selectionEntry"/>
+            <entryLink id="63bc-356e-e4d5-a134" name="T-26 Armoured Platoon" hidden="false" collective="false" import="true" targetId="1ba3-1d84-6743-ef82" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0258-6b96-c780-8f55" name="2) Addtl. Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c22-171c-6a2b-a719" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="efea-5ac5-4a22-bf0e" name="T-34 Armoured Platoon" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e753-c244-84c1-a4a5" type="max"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="b1c8-7743-b725-d8d1" name="KV-1 Armoured Platoon" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e3c-d865-3ed1-7142" type="max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="4aa2-78a1-21ca-6eda" name="[FS] T-26 Armoured Platoon" hidden="false" collective="false" import="true" targetId="1ba3-1d84-6743-ef82" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="db98-42ea-da6d-6f8b" name="3) Anti-Aircraft" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="496f-837c-e4c2-7c6d" name="Landsverk Anti II Armored Anti-aircraft Platoon" hidden="false" collective="false" import="true" type="upgrade"/>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a6fe-0e4a-143d-c869" name="T-26 Armoured Platoon" hidden="false" collective="false" import="true" targetId="1ba3-1d84-6743-ef82" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bba-9538-16b4-8b24" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8864-9367-fe90-da7c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="b100-5afc-f1f0-9f8b" name="[F] Light Infantry Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="f52a-4f84-eb54-7a59" name="Light Infantry Company HQ" hidden="false" collective="false" import="true" type="unit"/>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a18f-c993-97b9-58a1" name="1) Infantry" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="954a-4816-438d-d3d9" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7a37-d671-7e56-c279" name="SMG Platoon" hidden="false" collective="false" import="true" targetId="fc8f-6d9c-1b24-e1ae" type="selectionEntry"/>
+            <entryLink id="bc73-3634-951c-2cfa" name="Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d14c-cb3c-8257-eff0" name="2) Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e557-c646-6c53-9b5a" name="81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="8a14-451d-9053-0f6b" type="selectionEntry"/>
+            <entryLink id="f443-6af8-b8a0-9d68" name="Maxim Machine-gun Platoon" hidden="false" collective="false" import="true" targetId="b930-1c3a-f2d5-e1ac" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ad64-5d4a-5a17-119d" name="3) Anti-tank Platoon" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="a2bb-b020-dba6-e0d0" name="Anti-tank Rifle Platoon" hidden="false" collective="false" import="true" type="unit"/>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b327-f71d-c322-c415" name="[FS] Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65a5-8e7e-677e-9205" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20e3-6b3e-5339-97a6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="69ed-44b8-201f-135f" name="[FS] Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3285-6f1b-a02d-38a8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f350-6b97-917d-7ce9" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9479-4462-e5f7-6e84" name="[FS] Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbf2-d62a-fa97-98c2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="5217-df27-a04e-f227" name="[F] Infantry Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="bc3b-c65d-6667-74b3" name="Infantry Company HQ" hidden="false" collective="false" import="true" type="unit"/>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ab51-2816-f6ed-d79f" name="1) Infantry" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26b2-25b7-ce89-16b4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="55bc-917f-d0da-3033" name="SMG Platoon" hidden="false" collective="false" import="true" targetId="fc8f-6d9c-1b24-e1ae" type="selectionEntry"/>
+            <entryLink id="98f5-bbe6-a3a8-fe27" name="Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d6a8-c20d-070a-d017" name="2) Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="89d6-f3b1-2ecc-30d4" name="81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="8a14-451d-9053-0f6b" type="selectionEntry"/>
+            <entryLink id="e688-98f1-ba23-c015" name="Maxim Machine-gun Platoon" hidden="false" collective="false" import="true" targetId="b930-1c3a-f2d5-e1ac" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="272f-c4db-b533-c416" name="3) Anti-tank Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="9bac-7031-86d8-e74f" name="[S] 45mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="0a86-05cf-7eb8-9ef1" type="selectionEntry"/>
+            <entryLink id="1028-baed-84c6-a738" name="[S] 37mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="41ad-7b92-fb4c-c1d8" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d608-db2d-e6c7-e7a7" name="[FS] Infantry Platoon" hidden="false" collective="false" import="true" targetId="696c-c933-e5f7-0681" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9890-fd19-aeef-d8d3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="397f-caa3-0baf-ee3c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b1a6-07f3-e39c-6ee8" name="[FS] Infantry Platoon" hidden="false" collective="false" import="true" targetId="696c-c933-e5f7-0681" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="645b-c26d-7f8a-c3c4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="757d-9e89-b420-39af" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4462-96fb-385b-576e" name="[FS] Infantry Platoon" hidden="false" collective="false" import="true" targetId="696c-c933-e5f7-0681" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6713-1ab0-40c3-ccc9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="5be6-f466-df38-dfdd" name="[S] 50mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="1378-dbff-b65b-d94f" name="[S] Short 75mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="139f-4d51-6c57-ec60" name="[S] 75mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="41ad-7b92-fb4c-c1d8" name="[S] 37mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="014d-b9ad-4b16-bc5f" name="[S] 122mm Artillery Battery" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="6b36-e6e5-682e-4633" name="[S] BT-42 Assault Gun Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="0ba9-839d-0336-9e3e" name="[S] 76mm Artillery Battery" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="0a86-05cf-7eb8-9ef1" name="[S] 45mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="1ea6-d6f1-a897-a970" name="[S] 105mm Artillery Battery" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="0c2d-8b52-3fb3-7a96" name="[S] 40mm Anti-aircraft Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="d8fb-fb9a-75f5-9d49" name="[S] 20mm Anti-aircraft Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="3eb6-3675-708b-1ade" name="[S] Pioneer Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="05e4-e8ab-24a4-26f9" name="[S] Fokker CX Fighter-Bomber Flight" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="ed0e-2732-f3f6-c4f6" name="[S] BA-10 Armoured Car Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="089e-2794-cad4-c14e" name="[S] 120mm Heavy Mortar Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="c66b-75aa-e34c-60ff" name="[S] Artillery Observation Post" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="ab22-9033-e29d-e89e" name="[FS] T-28 Armoured Platoon" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0755-ae1a-a36d-5b17" type="max"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="1ba3-1d84-6743-ef82" name="[FS] T-26 Armoured Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="696c-c933-e5f7-0681" name="[FS] Infantry Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="9854-eef7-d858-4923" name="[FS] Light Infantry Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="fc8f-6d9c-1b24-e1ae" name="[M] SMG Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="8a14-451d-9053-0f6b" name="[M] 81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="b930-1c3a-f2d5-e1ac" name="[M] Maxim Machine-gun Platoon" hidden="false" collective="false" import="true" type="unit"/>
+  </sharedSelectionEntries>
+</catalogue>
