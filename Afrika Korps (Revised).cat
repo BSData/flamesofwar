@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1db5-94f0-8315-42a2" name="Afrika Korps (Revised)" revision="7" battleScribeVersion="2.03" authorName="Ulf Bernestedt, UrsinePatriarch" authorContact="battlescribe@bernestedt.se, Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1db5-94f0-8315-42a2" name="Afrika Korps (Revised)" revision="8" battleScribeVersion="2.03" authorName="Ulf Bernestedt, UrsinePatriarch" authorContact="battlescribe@bernestedt.se, Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Overhauled Oct 2024</readme>
   <profileTypes>
     <profileType id="94ea-9234-fbd5-3352" name="Command Card [Abridged]">
       <characteristicTypes>
@@ -18,7 +19,7 @@
         <categoryLink id="4892-2776-f68a-e871" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="54f7-831e-41b9-605f" name="[F] Armoured Car Company" hidden="false" collective="false" import="true" targetId="879a-0b04-2062-775f" type="selectionEntry">
+    <entryLink id="54f7-831e-41b9-605f" name="Armoured Car Company" hidden="false" collective="false" import="true" targetId="879a-0b04-2062-775f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8e4e-4a0c-46a4-690e" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
@@ -44,6 +45,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e73-f5bf-7244-837d" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="5127-7f35-cf3d-c360" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
@@ -64,6 +68,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="294e-9897-da19-1dca" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="e380-386c-ff2d-6594" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
@@ -98,6 +105,9 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="5f24-077a-794b-bbde" name="Tiger (P)" hidden="false" collective="false" import="true" targetId="dce3-dd07-476e-d810" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f51-3004-d10c-5a76" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="421e-d19d-b245-5bd1" name="New CategoryLink" hidden="false" targetId="58fd-8352-c305-41bb" primary="true"/>
       </categoryLinks>
@@ -110,6 +120,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92c1-e57c-4413-20c3" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="c2c4-ab71-8ca4-1a93" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
@@ -122,18 +135,24 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45df-6707-6def-8c03" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="bd6e-cb12-866f-12c1" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1734-c52e-f1f8-022e" name="5cm Tank-Hunter Platoon" hidden="true" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
+    <entryLink id="1734-c52e-f1f8-022e" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8195-e8fe-d94d-0863" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9171-52bd-9ba8-6cca" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="e770-143e-dd92-2bce" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
@@ -147,6 +166,9 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="47ba-df77-e552-d43a" name="Heavy AT Support Unit" hidden="false" collective="false" import="true" targetId="12d0-e7e5-e7b2-a4e1" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9bc-2fb7-6056-0899" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="c3d8-15d2-e3a2-dcac" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
@@ -164,21 +186,33 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68f5-0209-fc1a-f706" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="854e-8f81-92ae-d45b" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e67f-ba36-23bc-15e4" name="SUPPORT] Anti-Air Support Unit" hidden="false" collective="false" import="true" targetId="6071-147c-22e8-f008" type="selectionEntry">
+    <entryLink id="e67f-ba36-23bc-15e4" name="Anti-Air Support Unit" hidden="false" collective="false" import="true" targetId="6071-147c-22e8-f008" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90ce-3789-f206-67ba" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="8fd8-2347-c393-8ee9" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6504-f54a-46c2-561f" name="SUPPORT] Artillery Support Unit" hidden="false" collective="false" import="true" targetId="3441-c8cd-e5d5-4d45" type="selectionEntry">
+    <entryLink id="6504-f54a-46c2-561f" name="Artillery Support Unit" hidden="false" collective="false" import="true" targetId="3441-c8cd-e5d5-4d45" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d38-fe55-ad64-d303" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="4206-4cd4-0fcb-054b" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="00f5-4c7a-b2dd-8c41" name="SUPPORT] AT Support Unit" hidden="false" collective="false" import="true" targetId="982f-136d-902e-f70e" type="selectionEntry">
+    <entryLink id="00f5-4c7a-b2dd-8c41" name="AT Support Unit" hidden="false" collective="false" import="true" targetId="982f-136d-902e-f70e" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03e6-83cf-ae9b-1ad9" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="e569-50fc-560d-aacb" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
@@ -188,14 +222,17 @@
         <categoryLink id="28b6-db0f-b0e2-930d" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bbb7-d3a1-6ba8-8349" name="Fallschirmjager Platoon" hidden="true" collective="false" import="true" targetId="6b07-e1ec-03dc-4f5d" type="selectionEntry">
+    <entryLink id="bbb7-d3a1-6ba8-8349" name="Fallschirmjager Platoon" hidden="false" collective="false" import="true" targetId="6b07-e1ec-03dc-4f5d" type="selectionEntry">
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3278-296b-fd55-cec9" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c90-cf5d-d70c-8027" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="37be-c837-6ff4-cba2" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
@@ -208,8 +245,31 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0a1-8cb3-1279-e156" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="520e-389b-057b-6751" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c5a6-4701-a5a3-a178" name="90th Light Rifle Company" hidden="false" collective="false" import="true" targetId="a81a-fd1d-97b4-1a73" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4389-75d3-be10-5203" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3997-098d-f3bf-c1c6" name="7.62cm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="f636-ac61-cd60-cd17" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a81a-fd1d-97b4-1a73" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3088-a85a-cf8f-ffa6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c2a9-3286-5de6-eef5" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -293,12 +353,12 @@
           <selectionEntries>
             <selectionEntry id="45d0-f38e-b301-b56c" name="3x 5cm gun" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2c05-eab1-6a5e-8e6c" name="2x 5cm gun" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -309,9 +369,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="233e-1bc9-4a0c-d1fd" name="8.8cm Heavy AA Platoon" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f735-2f7d-172b-77e7" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="1648-1236-0db7-69a9" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
         <infoLink id="65d1-2fa1-cf88-7369" name="8.8cm AA gun" hidden="false" targetId="215d-c40a-ac50-2433" type="profile"/>
@@ -322,30 +379,15 @@
         <infoLink id="6f6e-4622-20bc-cce7" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9a6c-696b-cec0-542c" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="ec01-7b1a-a9a2-aa44">
+        <selectionEntryGroup id="9a6c-696b-cec0-542c" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="1911-ba56-6d94-ab61">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9158-f4e0-912b-e19c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c957-5e38-8063-0475" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c957-5e38-8063-0475" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="1911-ba56-6d94-ab61" name="4x 8.8cm AA gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1911-ba56-6d94-ab61" name="8.8cm AA gun" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="60a8-b244-f3df-f7e0" name="3x 8.8cm AA gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bd51-d83f-6f94-d683" name="2x 8.8cm AA gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ec01-7b1a-a9a2-aa44" name="1x 8.8cm AA gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -719,7 +761,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="912e-3dba-2ff4-ab44" name="*** Panzer III Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="912e-3dba-2ff4-ab44" name="Panzer III Tank Company" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="7cac-18a1-c4df-6c72" name="0) Panzer III Command HQ" hidden="false" collective="false" import="true" defaultSelectionEntryId="178f-6fdb-f53a-ba95">
           <constraints>
@@ -801,7 +843,7 @@
                         <infoLink id="17a1-1c4c-4a15-6107" name="Panzer III (short 5cm)" hidden="false" targetId="27d6-4340-e9e0-489a" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -909,6 +951,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9892-987c-62b9-08c8" name="Panzer III Tank Platoon (5cm)" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="995a-4d67-6920-bfe4" value="14.0">
+          <conditions>
+            <condition field="selections" scope="9892-987c-62b9-08c8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="995a-4d67-6920-bfe4" value="23.0">
+          <conditions>
+            <condition field="selections" scope="9892-987c-62b9-08c8" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="995a-4d67-6920-bfe4" value="19.0">
+          <conditions>
+            <condition field="selections" scope="9892-987c-62b9-08c8" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="4967-6342-d780-b433" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
         <infoLink id="868c-2ff2-8693-7aaa" name="Stormtroopers" hidden="false" targetId="5b29-2623-7f34-fc95" type="rule"/>
@@ -931,7 +990,7 @@
                 <infoLink id="3643-ca4e-1ae3-e955" name="Panzer III (short 5cm)" hidden="false" targetId="27d6-4340-e9e0-489a" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ea6b-624c-dac5-2c88" name="Panzer III (long 5cm)" hidden="false" collective="false" import="true" type="model">
@@ -942,14 +1001,14 @@
                 <infoLink id="2857-85c2-5a63-5e2c" name="Panzer III (long 5cm)" hidden="false" targetId="c348-31c6-abda-445f" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0954-86f2-0fca-c5fa" name="Panzer IV Tank Company" hidden="false" collective="false" import="true" type="unit">
@@ -995,7 +1054,7 @@
                     <infoLink id="c2fc-2a26-2f36-c4dd" name="Panzer IV (MGs)" hidden="false" targetId="2123-1e99-f832-e359" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1058,7 +1117,7 @@
                 <infoLink id="892a-44da-ee89-4cbe" name="Panzer IV (long 7.5cm)" hidden="false" targetId="9c83-361f-4aff-74e9" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5be7-b8d0-4aa3-c912" name="Panzer IV (short 7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1140,7 +1199,7 @@
         <infoLink id="29bc-0b10-8062-b485" name="Third Reich" hidden="false" targetId="0d32-e61c-3e35-7b9e" type="rule"/>
         <infoLink id="1d64-3bf7-0ed3-adc9" name="Stormtroopers" hidden="false" targetId="5b29-2623-7f34-fc95" type="rule"/>
         <infoLink id="ff04-fb90-02a5-39dc" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
-        <infoLink id="088b-abbb-f214-0595" name="Panzer II (2cm)" hidden="false" targetId="f17d-c1b0-c078-5874" type="profile"/>
+        <infoLink id="088b-abbb-f214-0595" name="Panzer II (2cm) [Unit]" hidden="false" targetId="f17d-c1b0-c078-5874" type="profile"/>
         <infoLink id="91bc-3a81-157f-5e83" name="Panzer II (2cm) [Weapon]" hidden="false" targetId="9fec-a2fe-7262-a9fc" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -1152,17 +1211,17 @@
           <selectionEntries>
             <selectionEntry id="7208-0516-7e95-3f8a" name="5x Panzer II (2cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0a96-9254-9687-fec1" name="4x Panzer II (2cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="11ff-5796-5e76-0ed0" name="3x Panzer II (2cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1172,7 +1231,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b3d8-a821-fa00-8c48" name="*** Panzer III (Uparmoured) Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b3d8-a821-fa00-8c48" name="Panzer III (Uparmoured) Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3cbe-dbbd-422a-6939" name="Panzer III (MGs)" hidden="false" targetId="6b68-30d1-3bf7-9c64" type="profile"/>
         <infoLink id="bfce-aaf6-8866-58fe" name="Third Reich" hidden="false" targetId="0d32-e61c-3e35-7b9e" type="rule"/>
@@ -1211,92 +1270,87 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f4ec-d95d-52cf-9d06" name="Panzer III (Mixed) Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="995a-4d67-6920-bfe4" value="19.0">
+          <conditions>
+            <condition field="selections" scope="f4ec-d95d-52cf-9d06" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="995a-4d67-6920-bfe4" value="23.0">
+          <conditions>
+            <condition field="selections" scope="f4ec-d95d-52cf-9d06" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="995a-4d67-6920-bfe4" value="14.0">
+          <conditions>
+            <condition field="selections" scope="f4ec-d95d-52cf-9d06" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="be17-6071-7793-c8dc" name="Panzer III (MGs)" hidden="false" targetId="6b68-30d1-3bf7-9c64" type="profile"/>
         <infoLink id="89e2-8cfe-3230-f940" name="Third Reich" hidden="false" targetId="0d32-e61c-3e35-7b9e" type="rule"/>
         <infoLink id="5e0b-9409-64c7-8001" name="Stormtroopers" hidden="false" targetId="5b29-2623-7f34-fc95" type="rule"/>
         <infoLink id="a18c-b360-f89e-4531" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="e89d-ac23-df0d-e832" name="Panzer III" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="995a-4d67-6920-bfe4" value="19.0">
-              <conditions>
-                <condition field="selections" scope="f4ec-d95d-52cf-9d06" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e89d-ac23-df0d-e832" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="995a-4d67-6920-bfe4" value="14.0">
-              <conditions>
-                <condition field="selections" scope="f4ec-d95d-52cf-9d06" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e89d-ac23-df0d-e832" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="995a-4d67-6920-bfe4" value="23.0">
-              <conditions>
-                <condition field="selections" scope="f4ec-d95d-52cf-9d06" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e89d-ac23-df0d-e832" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6615-3cee-c560-3b19" name="Type" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="f941-cc2a-4820-7c20">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8161-116b-5bc1-bd53" type="min"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a2-d351-0c60-d2c3" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdaf-4589-4fe3-0a42" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c75a-b0b2-cbad-30f5" type="max"/>
           </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="23be-366a-5187-bdc7" name="Type" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="6c7e-423d-efea-b238" name="7.5cm" hidden="false" collective="false" import="true" type="model">
               <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c73-a618-90d1-e7a2" type="min"/>
-                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f19-7f11-050f-386e" type="max"/>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97f5-8d79-5877-9190" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="117c-b7fe-e183-ba1b" name="7.5cm" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e30e-744f-b3fa-771a" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="9913-d844-044f-581f" name="Panzer III (7.5cm)" hidden="false" targetId="e95a-01e2-de0f-70be" type="profile"/>
-                    <infoLink id="1897-d3a1-0cbc-c0ec" name="Panzer III" hidden="false" targetId="d19f-9a03-5a2f-b5a3" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="2b81-bb72-caae-d38d" name="Long 5cm" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30db-c6df-5154-419e" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="029a-89f3-2e34-f391" name="Panzer III (long 5cm)" hidden="false" targetId="c348-31c6-abda-445f" type="profile"/>
-                    <infoLink id="c136-5a87-0219-bffb" name="Panzer III" hidden="false" targetId="d19f-9a03-5a2f-b5a3" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="5f80-da7d-00b9-f5ba" name="Short 5cm" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a345-567e-8d26-b4a4" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="1a55-1c85-7b00-66d0" name="Panzer III (short 5cm)" hidden="false" targetId="27d6-4340-e9e0-489a" type="profile"/>
-                    <infoLink id="42e1-b138-dabc-2135" name="Panzer III" hidden="false" targetId="d19f-9a03-5a2f-b5a3" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry id="e2ed-e150-8445-1b0c" name="Uparmour Long 5cm" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9044-0c9b-94fe-b134" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="89dc-ddae-b747-cab3" name="Panzer III (uparmoured)" hidden="false" targetId="c1d6-72c3-6ff0-b7ad" type="profile"/>
-                    <infoLink id="d0b9-8b2f-97e5-bf4b" name="Panzer III (long 5cm)" hidden="false" targetId="c348-31c6-abda-445f" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntry>
-      </selectionEntries>
+              <infoLinks>
+                <infoLink id="2127-da53-af2e-f686" name="Panzer III (7.5cm)" hidden="false" targetId="e95a-01e2-de0f-70be" type="profile"/>
+                <infoLink id="a747-bf70-5cb8-8243" name="Panzer III" hidden="false" targetId="d19f-9a03-5a2f-b5a3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3646-6d89-c095-3847" name="Long 5cm" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4412-599c-d5ff-5091" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6298-888f-2217-11cb" name="Panzer III (long 5cm)" hidden="false" targetId="c348-31c6-abda-445f" type="profile"/>
+                <infoLink id="b1d1-7a51-f0cd-81d9" name="Panzer III" hidden="false" targetId="d19f-9a03-5a2f-b5a3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f941-cc2a-4820-7c20" name="Short 5cm" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69ed-8c8a-be8e-0c43" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3539-c5ef-1829-daca" name="Panzer III (short 5cm)" hidden="false" targetId="27d6-4340-e9e0-489a" type="profile"/>
+                <infoLink id="3a71-8d50-67f9-ed11" name="Panzer III" hidden="false" targetId="d19f-9a03-5a2f-b5a3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2897-6a55-8798-eb73" name="Uparmour Long 5cm" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3405-f7a8-3f18-dde2" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4ca3-4f3d-121d-b8c9" name="Panzer III (uparmoured)" hidden="false" targetId="c1d6-72c3-6ff0-b7ad" type="profile"/>
+                <infoLink id="0140-1c96-963c-df91" name="Panzer III (long 5cm)" hidden="false" targetId="c348-31c6-abda-445f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1439,7 +1493,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4c4a-3d93-7f7a-7696" name="2) 2x Sd Kfz 222, 1x Sd Kfz 221 (2.8cm)" hidden="false" collective="false" import="true" type="model">
@@ -1470,7 +1524,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="295a-1a42-0576-6463" name="3) 2x Sd Kfz 222, 2x Sd Kfz 221 (MG)" hidden="false" collective="false" import="true" type="model">
@@ -1495,7 +1549,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="77d1-50d2-986e-914c" name="4) 2x Sd Kfz 222, 2x Sd Kfz 221 (2.8cm)" hidden="false" collective="false" import="true" type="model">
@@ -1526,7 +1580,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8a90-b0c3-25f6-e31a" name="5) 2x Sd Kfz 222, 2x Sd Kfz 221 (2.8cm / MG)" hidden="false" collective="false" import="true" type="model">
@@ -1566,7 +1620,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1595,7 +1649,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57c4-a7ce-00bf-8996" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1610,24 +1664,29 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
         <infoLink id="0a22-2398-7bf7-ad22" name="Third Reich" hidden="false" targetId="0d32-e61c-3e35-7b9e" type="rule"/>
         <infoLink id="20be-fdab-ab35-0a84" name="Panzer III (MGs)" hidden="false" targetId="6b68-30d1-3bf7-9c64" type="profile"/>
         <infoLink id="8778-80a3-4eb1-0061" name="Panzer III" hidden="false" targetId="d19f-9a03-5a2f-b5a3" type="profile"/>
+        <infoLink id="9be1-dd20-a10c-b8c4" name="HEAT" hidden="false" targetId="9a14-019a-eb63-0b40" type="rule"/>
+        <infoLink id="b1ae-f845-cb93-aeb2" name="Panzer III (7.5cm)" hidden="false" targetId="e95a-01e2-de0f-70be" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e37c-85af-834a-7ead" name="Unit Size (7.5cm)" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="5cfc-8824-f47d-7462">
+        <selectionEntryGroup id="e37c-85af-834a-7ead" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="5cfc-8824-f47d-7462">
           <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28c8-c91b-3bde-f423" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc5b-a7e7-7410-93b7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28c8-c91b-3bde-f423" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc5b-a7e7-7410-93b7" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5cfc-8824-f47d-7462" name="Panzer III (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e65-5415-28ba-82ac" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="f26a-6bfe-4016-43c5" name="Panzer III (7.5cm)" hidden="false" targetId="e95a-01e2-de0f-70be" type="profile"/>
-                <infoLink id="2690-1148-0a3a-7970" name="HEAT" hidden="false" targetId="9a14-019a-eb63-0b40" type="rule"/>
-              </infoLinks>
+            <selectionEntry id="5cfc-8824-f47d-7462" name="3x Panzer III (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="538c-6c81-6b87-3003" name="4x Panzer III (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3b10-0852-8b3c-fae6" name="5x Panzer III (7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1637,7 +1696,90 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a81a-fd1d-97b4-1a73" name="[INCOMPLETE] 90th Light Rifle Company" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="a81a-fd1d-97b4-1a73" name="90th Light Rifle Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="0012-48b4-83ab-952a" name="90th Light Rifle Company HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4404-aa2f-462c-00e9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="610d-d43e-80eb-678f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a754-5a26-77d5-1f11" name="Stormtroopers" hidden="false" targetId="5b29-2623-7f34-fc95" type="rule"/>
+            <infoLink id="6191-d5d1-a367-1429" name="Third Reich" hidden="false" targetId="0d32-e61c-3e35-7b9e" type="rule"/>
+            <infoLink id="d767-2b91-3a87-8dae" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="cab9-a595-1ad2-39cb" name="MP40 SMG team" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e62-8aa4-4f87-4458" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7870-3ae5-2320-bedb" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="daf0-ffc7-e429-0edd" name="MP40 SMG team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+                  <characteristics>
+                    <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ / Last Stand 3+</characteristic>
+                    <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
+                    <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+                    <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+                    <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+                    <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+                    <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+                    <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+                    <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Stormtroopers</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7afe-bc3f-d90c-0dc5" name="7.62cm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="f636-ac61-cd60-cd17" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40e5-74b3-61b8-b945" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a73a-9de7-8b54-85a3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7dab-5b80-c65b-d964" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="e176-eaf3-6806-dfb4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="358d-1b37-949f-c6d5" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e01e-7e71-398f-97b1" name="7.62cm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="f636-ac61-cd60-cd17" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="779e-1c54-96eb-653d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5eb9-a724-db67-8191" name="7.62cm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="f636-ac61-cd60-cd17" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="926f-e2cd-c889-ab1e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2ca0-6b72-d14f-7da2" name="Afrika Rifle Platoon" hidden="false" collective="false" import="true" targetId="a3e3-a0a5-b1cb-155c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="14c6-041a-f76f-4179" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="81c7-dd51-44f3-9ca7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bcdb-9210-6d41-b94a" name="Afrika Rifle Platoon" hidden="false" collective="false" import="true" targetId="a3e3-a0a5-b1cb-155c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6df9-c8f1-80f8-4bba" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4427-2faf-ec3a-8b8c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d8cc-4195-3b9a-08c0" name="Afrika Rifle Platoon" hidden="false" collective="false" import="true" targetId="a3e3-a0a5-b1cb-155c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="695c-d54d-4c81-e14f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1650,7 +1792,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af2-12dd-310c-01d5" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5cdd-59d1-f32e-d241" name="[S] Tiger Heavy Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="5cdd-59d1-f32e-d241" name="Tiger Heavy Tank Platoon" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26f0-7f6a-90c2-64ca" type="max"/>
               </constraints>
@@ -1671,12 +1813,12 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                   <selectionEntries>
                     <selectionEntry id="f863-23a1-02dd-f83b" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="model">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="58.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="56.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="bb00-b9ad-5a28-7aac" name="1x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="model">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="29.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1709,7 +1851,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                         <infoLink id="c811-53bb-aa27-0a32" name="Panzer III (MGs)" hidden="false" targetId="6b68-30d1-3bf7-9c64" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="6ca4-8132-08a7-b9a6" name="Panzer III (Uparmoured)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1722,7 +1864,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                         <infoLink id="3e5c-aad1-49ea-0413" name="Panzer III (MGs)" hidden="false" targetId="6b68-30d1-3bf7-9c64" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1848,12 +1990,12 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           <selectionEntries>
             <selectionEntry id="65f5-3331-b11d-e6ed" name="3x Diana" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="214b-39cc-45f1-d02a" name="2x Diana" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1915,7 +2057,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e32-5e68-4a8e-2cae" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1978,7 +2120,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab33-32ca-c0cb-191d" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="29.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2011,7 +2153,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                 <infoLink id="8c28-c45d-123d-d061" name="Panzer III (MGs)" hidden="false" targetId="6b68-30d1-3bf7-9c64" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ac2b-d50e-773b-c8b7" name="Panzer III (Uparmoured)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2024,7 +2166,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                 <infoLink id="8f91-4d2b-b26b-e3f5" name="Panzer III (MGs)" hidden="false" targetId="6b68-30d1-3bf7-9c64" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2071,17 +2213,17 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           <selectionEntries>
             <selectionEntry id="96c4-7250-b44c-fbb3" name="3x Marder (7.62cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2308-e422-4f24-5c44" name="4x Marder (7.62cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e434-9122-5fb9-5a2f" name="2x Marder (7.62cm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2152,7 +2294,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dad-3ae4-3b54-da5c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="aec2-005c-9aa8-f935" name="[S] 8.8cm Heavy AA Platoon" hidden="false" collective="false" import="true" targetId="233e-1bc9-4a0c-d1fd" type="selectionEntry"/>
+            <entryLink id="aec2-005c-9aa8-f935" name="8.8cm Heavy AA Platoon" hidden="false" collective="false" import="true" targetId="233e-1bc9-4a0c-d1fd" type="selectionEntry"/>
             <entryLink id="0b81-ced6-b1c1-7851" name="ZZZ [S] Fallschirmjager 7.5cm Artillery Battery" hidden="false" collective="false" import="true" targetId="ee8c-8e4d-3a7a-25ff" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -2201,12 +2343,12 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           <selectionEntries>
             <selectionEntry id="f894-d954-1815-5f25" name="2x 15cm (Sf) Lorraine Schlepper" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="516f-48be-e54b-a33e" name="4x 15cm (Sf) Lorraine Schlepper" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2231,6 +2373,58 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f636-ac61-cd60-cd17" name="7.62cm Tank-hunter Platoon" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f3ad-42ce-e3f8-6782" name="7.62cm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ed72-bdcd-1113-2fd3" name="7.62cm Tank-hunter Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ / Assault 4+</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776">Gun Shield, Large Gun</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4def-dbdb-9449-68aa" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="75e6-6c1b-035b-3768" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
+        <infoLink id="e377-a705-4efa-5072" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
+        <infoLink id="3f1b-338f-6888-2821" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
+        <infoLink id="09dd-1cfc-7538-840f" name="Third Reich" hidden="false" targetId="0d32-e61c-3e35-7b9e" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="c493-186b-64af-51cd" name="7.62cm Tank-hunter" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc56-25cf-9477-97c5" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef0f-bda8-65bb-600b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
