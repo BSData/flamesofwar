@@ -4,6 +4,13 @@
 V1.1 finished 10-28-24</readme>
   <categoryEntries>
     <categoryEntry id="6449-250b-3e4d-4415" name="T-28" hidden="true"/>
+    <categoryEntry id="46c4-fd76-2dc6-2fd2" name="Limited" hidden="false"/>
+    <categoryEntry id="219d-3e10-7675-4e02" name="Warrior" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f63c-e1fc-919b-0c35" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="e5c6-67e7-f578-065a" name="Infantry" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="3778-f59a-1823-7f15" name="*[FS] Infantry Platoon" hidden="false" collective="false" import="true" targetId="696c-c933-e5f7-0681" type="selectionEntry">
@@ -69,12 +76,12 @@ V1.1 finished 10-28-24</readme>
         <categoryLink id="093c-f076-5d25-3d21" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8db2-81a7-2360-3716" name="*[S] 120mm Heavy Mortar Platoon" hidden="false" collective="false" import="true" targetId="089e-2794-cad4-c14e" type="selectionEntry">
+    <entryLink id="8db2-81a7-2360-3716" name="120mm Heavy Mortar Platoon" hidden="false" collective="false" import="true" targetId="089e-2794-cad4-c14e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1b0f-6ee0-7cfd-4ddc" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4900-d9ca-ef87-a5fb" name="*[S] Artillery Observation Post" hidden="true" collective="false" import="true" targetId="c66b-75aa-e34c-60ff" type="selectionEntry">
+    <entryLink id="4900-d9ca-ef87-a5fb" name="Artillery Observation Post" hidden="true" collective="false" import="true" targetId="c66b-75aa-e34c-60ff" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -92,7 +99,7 @@ V1.1 finished 10-28-24</readme>
         <categoryLink id="0f8a-a373-9efc-718b" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="57e5-d0bd-ae61-62a3" name="*[S] BA-10 Armoured Car Platoon" hidden="false" collective="false" import="true" targetId="ed0e-2732-f3f6-c4f6" type="selectionEntry">
+    <entryLink id="57e5-d0bd-ae61-62a3" name="BA-10 Armoured Car Platoon" hidden="false" collective="false" import="true" targetId="ed0e-2732-f3f6-c4f6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="80f6-ace3-c8fd-f706" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
@@ -132,6 +139,14 @@ V1.1 finished 10-28-24</readme>
         <categoryLink id="2962-1eeb-adff-9c69" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="5e6b-da71-c9c1-a473" name="Command Cards [Force]" hidden="false" collective="false" import="true" targetId="4e58-4655-3159-3028" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3171-c983-8080-76a2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9216-72e2-b665-0624" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c8bf-ed91-3abc-a491" name="Armoured Company" hidden="false" collective="false" import="true" type="unit">
@@ -162,6 +177,11 @@ V1.1 finished 10-28-24</readme>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="7cdd-43e4-baa4-48aa" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4214-fbe7-75d8-e093" type="max"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -377,11 +397,20 @@ V1.1 finished 10-28-24</readme>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a6fe-0e4a-143d-c869" name="*[FS] T-26 Armoured Platoon" hidden="false" collective="false" import="true" targetId="1ba3-1d84-6743-ef82" type="selectionEntry">
+        <entryLink id="a6fe-0e4a-143d-c869" name="T-26 Armoured Platoon" hidden="false" collective="false" import="true" targetId="1ba3-1d84-6743-ef82" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bba-9538-16b4-8b24" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8864-9367-fe90-da7c" type="max"/>
           </constraints>
+        </entryLink>
+        <entryLink id="7aff-3dfb-f468-c17b" name="0) Command Cards (Formation)" hidden="true" collective="false" import="true" targetId="96e9-dcea-0d87-0d8d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cdd-43e4-baa4-48aa" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -414,6 +443,9 @@ V1.1 finished 10-28-24</readme>
           <infoLinks>
             <infoLink id="831c-834d-65e6-227e" name="Hunters" hidden="false" targetId="fdf4-b280-0b79-3a03" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="e783-e7ca-8486-87b6" name="Infantry" hidden="false" targetId="e5c6-67e7-f578-065a" primary="false"/>
+          </categoryLinks>
           <selectionEntries>
             <selectionEntry id="5936-59fb-2b5c-f01e" name="2x Suomi SMG teams" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -429,9 +461,17 @@ V1.1 finished 10-28-24</readme>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="62fa-057d-b42a-8dca" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="c4d9-54c8-2b99-3277" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5d4-9088-fa55-b7ea" type="max"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -483,6 +523,9 @@ V1.1 finished 10-28-24</readme>
               <infoLinks>
                 <infoLink id="a773-2eeb-303f-7a5a" name="Hunters" hidden="false" targetId="fdf4-b280-0b79-3a03" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="fba1-dd79-6526-6fc9" name="Infantry" hidden="false" targetId="e5c6-67e7-f578-065a" primary="false"/>
+              </categoryLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="c646-09c6-721c-8c51" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb29-8055-bcc7-2b0f">
                   <constraints>
@@ -504,12 +547,13 @@ V1.1 finished 10-28-24</readme>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="a0da-65d6-7968-4133" name="[W] Lahti anti-tank rifle" hidden="false" collective="false" import="true" targetId="d35f-5adb-d595-d133" type="selectionEntry">
+                <entryLink id="a0da-65d6-7968-4133" name="Lahti anti-tank rifle team" hidden="false" collective="false" import="true" targetId="d35f-5adb-d595-d133" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3fc-78da-62d9-ec8d" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0275-9ea5-2eb3-4bbb" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="fb68-cce5-7c38-7add" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -535,6 +579,15 @@ V1.1 finished 10-28-24</readme>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fbf2-d62a-fa97-98c2" type="max"/>
           </constraints>
+        </entryLink>
+        <entryLink id="a22d-093b-5f5c-2206" name="0) Command Cards (Formation)" hidden="true" collective="false" import="true" targetId="96e9-dcea-0d87-0d8d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d9-54c8-2b99-3277" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -567,6 +620,9 @@ V1.1 finished 10-28-24</readme>
           <infoLinks>
             <infoLink id="d233-df65-8fe0-56c1" name="Hunters" hidden="false" targetId="fdf4-b280-0b79-3a03" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="5e31-7f13-3b20-caf5" name="Infantry" hidden="false" targetId="e5c6-67e7-f578-065a" primary="false"/>
+          </categoryLinks>
           <selectionEntries>
             <selectionEntry id="4372-9a58-3422-66e3" name="2x Suomi SMG teams" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -582,9 +638,17 @@ V1.1 finished 10-28-24</readme>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="d19d-5f75-d74f-a649" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="78e4-6940-6f8f-a253" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b508-74d6-5630-ac8d" type="max"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -622,7 +686,7 @@ V1.1 finished 10-28-24</readme>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d608-db2d-e6c7-e7a7" name="*[FS] Infantry Platoon" hidden="false" collective="false" import="true" targetId="696c-c933-e5f7-0681" type="selectionEntry">
+        <entryLink id="d608-db2d-e6c7-e7a7" name="Infantry Platoon" hidden="false" collective="false" import="true" targetId="696c-c933-e5f7-0681" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9890-fd19-aeef-d8d3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="397f-caa3-0baf-ee3c" type="max"/>
@@ -634,10 +698,19 @@ V1.1 finished 10-28-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4881-a72a-70c9-08d1" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3005-2e8d-25ed-f9bb" name="*[FS] Infantry Platoon" hidden="false" collective="false" import="true" targetId="696c-c933-e5f7-0681" type="selectionEntry">
+        <entryLink id="3005-2e8d-25ed-f9bb" name="Infantry Platoon" hidden="false" collective="false" import="true" targetId="696c-c933-e5f7-0681" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ab5-bc37-7ae9-5ef1" type="max"/>
           </constraints>
+        </entryLink>
+        <entryLink id="ba6d-9217-47e5-3dee" name="0) Command Cards (Formation)" hidden="true" collective="false" import="true" targetId="96e9-dcea-0d87-0d8d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78e4-6940-6f8f-a253" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -680,6 +753,9 @@ V1.1 finished 10-28-24</readme>
         <infoLink id="5e36-6bc2-8df9-c638" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
         <infoLink id="b832-2033-3cc9-a422" name="Pioneers" hidden="false" targetId="f624-57ae-b369-3f2f" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6a43-35f4-f7b8-e8e5" name="Infantry" hidden="false" targetId="e5c6-67e7-f578-065a" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2d57-dfa9-a388-0855" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="aa16-9183-a880-bc4f">
           <constraints>
@@ -705,6 +781,9 @@ V1.1 finished 10-28-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0df4-d1e1-74fb-5f61" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -915,6 +994,9 @@ V1.1 finished 10-28-24</readme>
         <infoLink id="e3dd-c282-054c-9483" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
         <infoLink id="73b5-4018-e478-0840" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cd02-cf4b-3ec6-6daf" name="Infantry" hidden="false" targetId="e5c6-67e7-f578-065a" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e2e8-1097-add5-5d6a" name="1x Observer M/25 rifle team" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -941,6 +1023,9 @@ V1.1 finished 10-28-24</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="d3f7-72be-b4f5-35f9" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1080,6 +1165,9 @@ V1.1 finished 10-28-24</readme>
       <infoLinks>
         <infoLink id="67f9-37df-bb37-532f" name="Hunters" hidden="false" targetId="fdf4-b280-0b79-3a03" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f199-b88a-e99e-785a" name="Infantry" hidden="false" targetId="e5c6-67e7-f578-065a" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="78fa-f2b1-6971-23dc" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="4479-51f0-5e3c-0311">
           <constraints>
@@ -1131,6 +1219,9 @@ V1.1 finished 10-28-24</readme>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2bcc-07a2-cffe-c8dc" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1155,6 +1246,9 @@ V1.1 finished 10-28-24</readme>
       <infoLinks>
         <infoLink id="8e56-b5a9-b975-0bdb" name="M/27 rifle team" hidden="false" targetId="8588-2c4c-132b-81d8" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8059-c346-3ae4-ae38" name="Infantry" hidden="false" targetId="e5c6-67e7-f578-065a" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2057-d304-55b7-35b1" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac48-de0b-bd45-1728">
           <constraints>
@@ -1214,6 +1308,9 @@ V1.1 finished 10-28-24</readme>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3b6f-8148-6d6d-0a4c" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1240,6 +1337,9 @@ V1.1 finished 10-28-24</readme>
         <infoLink id="5e4d-253e-9efe-614e" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
         <infoLink id="bb9c-6285-6ce8-1481" name="Suomi SMG team" hidden="false" targetId="fd18-c7bd-f557-d674" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b82f-acaf-f19a-87c5" name="Infantry" hidden="false" targetId="e5c6-67e7-f578-065a" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b4a8-7c08-e02f-218b" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f392-156a-c937-6037">
           <constraints>
@@ -1285,6 +1385,9 @@ V1.1 finished 10-28-24</readme>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3330-1d9f-1286-0ee0" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1367,6 +1470,9 @@ V1.1 finished 10-28-24</readme>
         <infoLink id="22c6-e8aa-b7d3-76de" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
         <infoLink id="52a3-5500-76d9-8c1e" name="Maxim HMG team" hidden="false" targetId="4a21-a176-80e1-d22c" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3f32-adba-f1de-4f6b" name="Infantry" hidden="false" targetId="e5c6-67e7-f578-065a" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="79ea-e228-9ced-83e3" name="Unit SIze" hidden="false" collective="false" import="true" defaultSelectionEntryId="78f4-ad85-8483-59cc">
           <constraints>
@@ -1387,6 +1493,9 @@ V1.1 finished 10-28-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="cacb-99ee-76de-9f0a" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1487,6 +1596,7 @@ V1.1 finished 10-28-24</readme>
               </profiles>
               <infoLinks>
                 <infoLink id="cef8-5639-f974-6c85" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+                <infoLink id="32f5-4a3e-c5f4-dda2" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="95d8-fd81-60e4-71bd" name="2x 75mm gun Teams" hidden="false" collective="false" import="true" type="upgrade">
@@ -1499,6 +1609,9 @@ V1.1 finished 10-28-24</readme>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <entryLinks>
+                <entryLink id="4ac9-1895-9947-dbd7" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
@@ -1574,6 +1687,9 @@ V1.1 finished 10-28-24</readme>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="f3d7-eaa5-64b0-376b" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
@@ -2046,6 +2162,9 @@ V1.1 finished 10-28-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="265c-fa27-7499-1abb" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2092,6 +2211,9 @@ V1.1 finished 10-28-24</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="ebe6-e853-403e-4673" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
       </costs>
@@ -2130,6 +2252,9 @@ V1.1 finished 10-28-24</readme>
           <infoLinks>
             <infoLink id="3658-3d32-b1ca-46d5" name="Hunters" hidden="false" targetId="fdf4-b280-0b79-3a03" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="604a-c5cd-f9fe-2909" name="Infantry" hidden="false" targetId="e5c6-67e7-f578-065a" primary="false"/>
+          </categoryLinks>
           <selectionEntries>
             <selectionEntry id="89ba-447c-3580-b874" name="2x Suomi SMG teams" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2145,13 +2270,21 @@ V1.1 finished 10-28-24</readme>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="fe28-6781-bacd-234e" name="Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="9254-feeb-ea46-903c" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="5e8c-67cf-8211-ebc5" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0213-1bcd-220d-5dcc" type="max"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="a79a-c310-b7b1-5906" name="*[S] Pioneer Platoon" hidden="false" collective="false" import="true" targetId="3eb6-3675-708b-1ade" type="selectionEntry">
+        <entryLink id="a79a-c310-b7b1-5906" name="Pioneer Platoon" hidden="false" collective="false" import="true" targetId="3eb6-3675-708b-1ade" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ae75-6b81-7614-bb3f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7a3f-6a85-bbfd-8789" type="min"/>
@@ -2168,12 +2301,438 @@ V1.1 finished 10-28-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0b8a-0a49-aa36-d97c" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="728f-e245-aa53-dffa" name="0) Command Cards (Formation)" hidden="true" collective="false" import="true" targetId="96e9-dcea-0d87-0d8d" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e8c-67cf-8211-ebc5" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4e58-4655-3159-3028" name="Command Cards [Force]" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="ec3c-1cca-7103-77ac" name="Command Cards (Force)" hidden="false" collective="false" import="true" targetId="6d79-0eb5-e19d-8742" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="6d79-0eb5-e19d-8742" name="Command Cards (Force)" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="f744-f123-a338-9539" name="Pure Luck" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2dc-d613-2112-8652" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1040-3eaa-d804-12cc" name="Pure Luck" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to re-roll any one die you rolled. The second result must be used.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aa8d-4549-fbae-f643" name="Diversionary Tactics" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d08f-f80f-9571-3154" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a6cc-0e5c-9669-eb7f" name="Diversionary Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">At the start of the game, after deployment, reposition one of your opponent&apos;s Ranged In Markers up to 6&quot;/15cm in any direction.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="96e9-dcea-0d87-0d8d" name="0) Command Cards (Formation)" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="5fcb-86f9-73f6-a6e5" name="Charmed Life [Ltd]" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e86-58d0-3bba-a2c6" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e378-5566-6177-85ef" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ee48-9574-9fff-cb11" name="Charmed Life" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card before rolling to automatically pass an Armour or Infantry Save (including all re-rolls) made by this Formation Commander.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="07b4-9603-11ff-455a" name="Limited" hidden="false" targetId="46c4-fd76-2dc6-2fd2" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d3e3-c153-22c6-30b7" name="Mission Tactics" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42c4-e32d-b5aa-f702" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d23b-945c-8aee-a7cb" name="Mission Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Increasse this Formation Commander&apos;s Command Leadership distance from 6&quot;/15cm to 8&quot;/20cm.
+Discard this card: Automatically pass one Unit Last Stand Test for a Unit from this Formation whose Unit Leader is within 8&quot;/20cm of the Formation Commander.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="5a0d-e15e-7083-3f40" name="Limited" hidden="false" targetId="46c4-fd76-2dc6-2fd2" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f69a-2f42-356c-4598" name="Marksman [Ltd]" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bc4-c6d1-4190-4ed8" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d41-6d58-7424-c9d2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0f23-2bc5-02ca-ddec" name="Marksman" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Hits by this Formation Commander may only be swapped using the Mistaken Target rule on 4+ instead of 3+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="c797-e1bd-6ad2-b94d" name="Limited" hidden="false" targetId="46c4-fd76-2dc6-2fd2" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="017c-6893-16b8-9f88" name="Hidden in Plain Sight [Ltd]" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ee-96ef-38d9-b473" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4155-08ef-43dd-00ed" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e578-cd78-7abd-3821" name="Hidden in Plain Sight" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation HQ is Concealed when Halted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="927f-a672-944d-a48c" name="Limited" hidden="false" targetId="46c4-fd76-2dc6-2fd2" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a5b4-7c05-0586-a6ef" name="Ferocious Valour [Ltd]" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0505-8c3f-22bf-de20" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a6b8-c916-92b6-eee4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5560-7d07-40cd-4221" name="Ferocious Valour" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation Commander rolls two dice instead of one To Hit during Assaults.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="38bc-f77f-23fc-6a14" name="Limited" hidden="false" targetId="46c4-fd76-2dc6-2fd2" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0fcf-8f13-bf0e-d5fb" name="Cut Them Down [Ltd]" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5718-b42d-8358-2f12" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d91-3aa5-c7b6-771d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="99ef-02e3-380f-e001" name="Cut Them Down" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation COmmander may re-roll failed To Hit rolls when Shooting during Defensive Fire while being assaulted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="4f0d-1d12-4813-f801" name="Limited" hidden="false" targetId="46c4-fd76-2dc6-2fd2" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2e4a-0259-7295-0374" name="Sissi Tactics [Ltd]" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b100-5afc-f1f0-9f8b" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d23-80a9-b02b-6470" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5217-df27-a04e-f227" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1f70-e098-4fc6-2c55" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ada7-229d-d937-f05a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6b09-723f-2671-fd27" name="Sissi Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card: Units in Formation whose Unit Leader is within 8&quot;/20cm of this Formation Commander pass Blitz Movement Orders on a 2+ until the end of the turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ad6b-60e1-bc37-efef" name="Clever Tactics" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b100-5afc-f1f0-9f8b" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e3cb-70de-0f11-0f5a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4381-e0e1-2c76-9219" name="Clever Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation HQ Unit passes Tactics tests for Movement Orders on 2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eb5a-db07-f4a2-232a" name="Fortify the Building [Ltd]" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b100-5afc-f1f0-9f8b" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d23-80a9-b02b-6470" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5217-df27-a04e-f227" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e15c-10b8-a44c-da68" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9a41-5b42-27d0-e3ec" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bf09-30fc-17c0-ac1e" name="Fortify the Building" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Place this card next to a building that your Formation HQ Unit is occupying. For the rest of the game, Infantry Teams in this building have a 2+ Save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="78b5-ec0d-9a44-6851" name="Limited" hidden="false" targetId="46c4-fd76-2dc6-2fd2" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4a59-1563-14db-74fd" name="Trench Fighter [Ltd]" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b100-5afc-f1f0-9f8b" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d23-80a9-b02b-6470" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5217-df27-a04e-f227" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e2c-33c2-c6f7-1aef" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5468-0343-92f8-a7d1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0526-32ce-c884-db36" name="Trench Fighter" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation Commander HIts on 2+ in Assaults.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="cb65-8e7e-0cef-bb52" name="Limited" hidden="false" targetId="46c4-fd76-2dc6-2fd2" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bc55-6d7c-4bb5-aca7" name="Lauri Törni [Ltd, Warrior]" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b100-5afc-f1f0-9f8b" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="925e-9e5e-7962-468d" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c03-f9ea-08ce-8879" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fc63-40f7-50f8-f449" name="Lauri Törni" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">If the Unit Leader of a Unit in this Formation is within 6&quot;/15cm and in Line of Sight of the Formation Commander, the Unit passes Blitz tests and Last Stand checks on 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="d771-0056-0d50-89fc" name="Limited" hidden="false" targetId="46c4-fd76-2dc6-2fd2" primary="false"/>
+            <categoryLink id="633a-e7f5-f6e6-a2c0" name="Warrior" hidden="false" targetId="219d-3e10-7675-4e02" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9254-feeb-ea46-903c" name="0) Command Cards (Unit)" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="3a1c-eaf7-1ef9-0770" name="Dead Eye [Ltd]" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e5c6-67e7-f578-065a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb14-05ba-048c-4346" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db58-e925-c528-acaa" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a9ee-5c97-1106-0513" name="Dead Eye " hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">In each Shooting Step, pick one INfantry Team from this Unit. This Team may re-roll one failed To Hit Roll.
+
+If this shot hits its target, target Team must re-roll a successful Save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="b7f7-3fa1-e2ab-7c94" name="Limited" hidden="false" targetId="46c4-fd76-2dc6-2fd2" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9063-a3f6-3263-247b" name="Close Defence" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="696c-c933-e5f7-0681" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc8f-6d9c-1b24-e1ae" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3eb6-3675-708b-1ade" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f6fe-45b7-331a-9bbc" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9854-eef7-d858-4923" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2bb-b020-dba6-e0d0" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3282-ed34-02ef-3bd9" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="580b-ae8b-9b7e-b889" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a92d-5ad3-d39e-2f58" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b01-6536-bd31-4a11" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="13b1-f470-5379-64d0" name="Close Defence" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to give Infantry and Gun Teams in this Unit Anti-tank 3 and Firepower 1+ against Top Armour in Assault until the end of this turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e3ea-ba83-6572-fe78" name="Forward Scouts" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9854-eef7-d858-4923" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4a51-722f-7950-258a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0ef6-d9ce-b9e9-7971" name="Forward Scouts" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit gains Scout.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="04ba-dcc8-8a57-5fda" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1281-3615-ab9f-bc82" name="Deadly Gunner" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a92d-5ad3-d39e-2f58" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a38-2113-6b43-3d5f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5117-70c8-0a9e-d3f9" name="Deadly Gunner" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit Leader may re-roll one failed Firepower Test during the Shooting Step.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="6998-876f-198f-9c8e" name="Armoured Reserve" hidden="false">
       <description>In missions with Deep Reserves, you may only field one Tank Unit with Armoured Reserve, one Tank Unit with Front Armour of 3 or more, or one Aircraft Unit on the table at the start of the game.</description>
