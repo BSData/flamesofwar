@@ -8,6 +8,13 @@
       </characteristicTypes>
     </profileType>
   </profileTypes>
+  <categoryEntries>
+    <categoryEntry id="8236-8139-1ecb-9f79" name="PANZER III" hidden="false"/>
+    <categoryEntry id="a89a-0c66-b6ba-fe17" name="PANZER IV" hidden="false"/>
+    <categoryEntry id="3e15-8a32-a705-9365" name="INFANTRY" hidden="false"/>
+    <categoryEntry id="32f8-e2e7-04df-e729" name="GUN" hidden="false"/>
+    <categoryEntry id="614f-8959-6401-2c62" name="TANK" hidden="false"/>
+  </categoryEntries>
   <entryLinks>
     <entryLink id="dea9-0183-003c-bd1a" name="Afrika Rifle Company" hidden="false" collective="false" import="true" targetId="8195-e8fe-d94d-0863" type="selectionEntry">
       <categoryLinks>
@@ -278,19 +285,172 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac3-a248-7cee-1f2e" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="ba20-c390-1aed-bdb8" name="25 Pdr Artillery Battery" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d32c-1bfd-c0fa-442c" type="greaterThan"/>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd4-711a-8df7-09b7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ / Assault 4+</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
+          </characteristics>
+        </profile>
+        <profile id="6a0b-64f0-4e9e-7033" name="25 pdr howitzer [Artillery]" hidden="true" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d32c-1bfd-c0fa-442c" type="greaterThan"/>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd4-711a-8df7-09b7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">80&quot;/200cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3c65-72cf-841c-2577" name="25 pdr howitzer [Direct Fire]" hidden="true" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d32c-1bfd-c0fa-442c" type="greaterThan"/>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd4-711a-8df7-09b7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="9083-0578-69e1-49da" name="10.5cm howitzer" hidden="false" targetId="32af-b10e-13da-282b" type="profile"/>
-        <infoLink id="875f-fd36-557e-85a1" name="10.5cm howitzer [Artillery]" hidden="false" targetId="3de8-6ce7-b2a1-e6b8" type="profile"/>
-        <infoLink id="482d-03e2-07d8-1893" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="9083-0578-69e1-49da" name="10.5cm howitzer" hidden="false" targetId="32af-b10e-13da-282b" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d32c-1bfd-c0fa-442c" type="greaterThan"/>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd4-711a-8df7-09b7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="875f-fd36-557e-85a1" name="10.5cm howitzer [Artillery]" hidden="false" targetId="3de8-6ce7-b2a1-e6b8" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d32c-1bfd-c0fa-442c" type="greaterThan"/>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd4-711a-8df7-09b7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="482d-03e2-07d8-1893" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d32c-1bfd-c0fa-442c" type="greaterThan"/>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd4-711a-8df7-09b7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="669c-d81e-2dca-7f1e" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
         <infoLink id="66fb-5948-149e-1129" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
         <infoLink id="d6cf-fc2f-9e29-d040" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-        <infoLink id="1515-e058-6fba-8662" name="10.5cm howitzer Direct Fire" hidden="false" targetId="b05f-ec9a-abc8-3b66" type="profile"/>
-        <infoLink id="b7a1-cbef-e2c7-ff54" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-        <infoLink id="fd74-ea87-a3a0-9827" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="1515-e058-6fba-8662" name="10.5cm howitzer [Direct Fire]" hidden="false" targetId="b05f-ec9a-abc8-3b66" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d32c-1bfd-c0fa-442c" type="greaterThan"/>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd4-711a-8df7-09b7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b7a1-cbef-e2c7-ff54" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d32c-1bfd-c0fa-442c" type="greaterThan"/>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd4-711a-8df7-09b7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="fd74-ea87-a3a0-9827" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d32c-1bfd-c0fa-442c" type="greaterThan"/>
+                    <condition field="selections" scope="8b75-1589-5690-3654" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd4-711a-8df7-09b7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="9a58-acea-63dc-876c" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
         <infoLink id="7aa0-1cd2-a93e-1555" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8477-74c5-75c7-8d40" name="GUN" hidden="false" targetId="32f8-e2e7-04df-e729" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="331f-70a2-4636-1c56" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="df0b-547b-7a9f-daf7">
           <constraints>
@@ -308,9 +468,22 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="0dd4-711a-8df7-09b7" name="2x 25 Pdr howitzer" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d32c-1bfd-c0fa-442c" name="4x 25 Pdr howitzer" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="65d8-298e-b8b4-1aeb" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -336,16 +509,109 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1b66-d365-c756-7a90" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="353c-aa0c-9f68-9ad0" name="Captured 6 Pdr Anti-tank Platoon" hidden="true" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="1b66-d365-c756-7a90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1aae-5ef4-35c1-2737" type="greaterThan"/>
+                    <condition field="selections" scope="1b66-d365-c756-7a90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e4d-7b7c-6901-335d" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ / Assault 4+</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
+          </characteristics>
+        </profile>
+        <profile id="207b-9051-92fe-e76a" name="6 Pdr gun" hidden="true" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="1b66-d365-c756-7a90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1aae-5ef4-35c1-2737" type="greaterThan"/>
+                    <condition field="selections" scope="1b66-d365-c756-7a90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e4d-7b7c-6901-335d" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="98f4-c294-b1cf-8d6c" name="Third Reich" hidden="false" targetId="0d32-e61c-3e35-7b9e" type="rule"/>
-        <infoLink id="497e-dafe-6dcc-6830" name="5cm gun" hidden="false" targetId="dd70-41d8-f946-6066" type="profile"/>
-        <infoLink id="02d0-9e5e-b7ef-d5fa" name="5cm gun [Unit]" hidden="false" targetId="d223-f581-fdc0-afbc" type="profile"/>
+        <infoLink id="497e-dafe-6dcc-6830" name="5cm gun [Weapon]" hidden="false" targetId="dd70-41d8-f946-6066" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="1b66-d365-c756-7a90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1aae-5ef4-35c1-2737" type="greaterThan"/>
+                    <condition field="selections" scope="1b66-d365-c756-7a90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e4d-7b7c-6901-335d" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="02d0-9e5e-b7ef-d5fa" name="5cm gun [Unit]" hidden="false" targetId="d223-f581-fdc0-afbc" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="1b66-d365-c756-7a90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1aae-5ef4-35c1-2737" type="greaterThan"/>
+                    <condition field="selections" scope="1b66-d365-c756-7a90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e4d-7b7c-6901-335d" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="fa2d-3e8d-5e26-7593" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="f2d8-f010-5c43-7bdb" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
         <infoLink id="a352-cd3f-9510-305a" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
+        <infoLink id="1239-4a64-23ca-9c20" name="No HE" hidden="true" targetId="b000-d0f1-08fd-0d43" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="1b66-d365-c756-7a90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1aae-5ef4-35c1-2737" type="greaterThan"/>
+                    <condition field="selections" scope="1b66-d365-c756-7a90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e4d-7b7c-6901-335d" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bd35-4760-0f78-68c7" name="GUN" hidden="false" targetId="32f8-e2e7-04df-e729" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1a5d-dd3a-3abc-d65e" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="2c05-eab1-6a5e-8e6c">
+        <selectionEntryGroup id="1a5d-dd3a-3abc-d65e" name="Unit Size/Type" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="2c05-eab1-6a5e-8e6c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10e7-f893-c25c-1b7c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0223-5b66-29c6-495a" type="max"/>
@@ -361,9 +627,22 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="1aae-5ef4-35c1-2737" name="2x 6 pdr guns" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0e4d-7b7c-6901-335d" name="3x 6 pdr guns" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ef45-5cf2-0ab6-8acb" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -378,6 +657,9 @@
         <infoLink id="56c8-b21a-f079-4bb5" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
         <infoLink id="6f6e-4622-20bc-cce7" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3949-1a3f-539b-5945" name="GUN" hidden="false" targetId="32f8-e2e7-04df-e729" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9a6c-696b-cec0-542c" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="1911-ba56-6d94-ab61">
           <constraints>
@@ -393,6 +675,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b4b2-ad04-a4a4-de88" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -411,6 +696,9 @@
             <infoLink id="0a5f-0557-76d3-745b" name="MP40 SMG team" hidden="false" targetId="198a-2c9e-9db8-5d2a" type="profile"/>
             <infoLink id="895d-047e-92b9-bf74" name="Third Reich" hidden="false" targetId="0d32-e61c-3e35-7b9e" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="7af4-88bc-47aa-6d39" name="INFANTRY" hidden="false" targetId="3e15-8a32-a705-9365" primary="false"/>
+          </categoryLinks>
           <selectionEntries>
             <selectionEntry id="8d15-97ed-ff9c-e06f" name="2x MP40 SMG team" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -422,26 +710,35 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="7b12-cd51-ea21-7e40" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7658-88d8-b321-da1e" name="Tank-Hunter Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="54c7-32b5-b475-837a" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="41e2-f885-047d-5bb7" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b0ba-b287-093f-57d6" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e8da-13e8-f36d-5e74" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f31e-1889-ba7c-e333" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b160-e16e-9323-0adb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5353-7fff-715d-4927" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="f779-7462-8443-55e5" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="655a-6c5c-61a0-72e5" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="738f-90b5-bebc-9896" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="456f-ba4f-70d1-da83" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="fba4-03fe-4a96-15ed" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="e176-eaf3-6806-dfb4" type="selectionEntry">
@@ -466,6 +763,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="191b-ac99-0cac-8c12" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="5610-bb12-f13e-b545" name="Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -477,6 +775,9 @@
         <infoLink id="c114-d6a8-6cce-9516" name="Third Reich" hidden="false" targetId="0d32-e61c-3e35-7b9e" type="rule"/>
         <infoLink id="3dfe-d13f-d30b-7c6a" name="MG34 team" hidden="false" targetId="da6b-9ea6-5c21-092d" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8f91-fec7-6d88-64e5" name="INFANTRY" hidden="false" targetId="3e15-8a32-a705-9365" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c6c0-865d-169f-9dbf" name="1x 8cm mortar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -583,6 +884,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8d7e-10da-ac8b-cefe" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -630,19 +934,22 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="c48d-68ff-a809-45d3" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="8fee-4c4e-1404-4072" name="***Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
+        <entryLink id="8fee-4c4e-1404-4072" name="Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e63e-8d91-3773-5b71" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efb1-e108-4a8f-cc8c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c632-fbf8-fbda-2e9f" name="***Afrika Rifle Platoon" hidden="false" collective="false" import="true" targetId="a3e3-a0a5-b1cb-155c" type="selectionEntry">
+        <entryLink id="c632-fbf8-fbda-2e9f" name="Afrika Rifle Platoon" hidden="false" collective="false" import="true" targetId="a3e3-a0a5-b1cb-155c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e855-ebaf-3c63-1173" type="max"/>
           </constraints>
@@ -651,11 +958,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1475-f214-fc2e-fcba" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99dd-8d6e-b6cf-e448" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="e606-ea96-b513-f28a" name="***5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0196-1b12-ba48-7a61" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="74a1-4d45-b1f2-77e9" name="*** Sd Kfz 231 Heavy Scout Troop" hidden="false" collective="false" import="true" targetId="8a59-b461-9bd1-6401" type="selectionEntry">
@@ -704,6 +1006,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e93-efe6-6151-2c97" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="14a6-9e08-30f5-ad79" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c753-48d3-599e-bb9f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a672-ed17-1281-ed56" name="Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -757,11 +1065,17 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="3841-22ba-d925-acd7" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="912e-3dba-2ff4-ab44" name="Panzer III Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="3505-b717-0fb2-e672" name="TANK" hidden="false" targetId="614f-8959-6401-2c62" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7cac-18a1-c4df-6c72" name="0) Panzer III Command HQ" hidden="false" collective="false" import="true" defaultSelectionEntryId="178f-6fdb-f53a-ba95">
           <constraints>
@@ -780,6 +1094,9 @@
                 <infoLink id="ec55-8833-536a-531c" name="Panzer III" hidden="false" targetId="d19f-9a03-5a2f-b5a3" type="profile"/>
                 <infoLink id="4f07-de8d-b118-c69b" name="Panzer III (MGs)" hidden="false" targetId="6b68-30d1-3bf7-9c64" type="profile"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="d885-91cb-3e1e-1c14" name="PANZER III" hidden="false" targetId="8236-8139-1ecb-9f79" primary="false"/>
+              </categoryLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="bc30-3672-62ff-63aa" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ae0e-3a29-af91-bc54">
                   <constraints>
@@ -849,6 +1166,9 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="58f8-2778-dcbf-38b4" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
@@ -865,6 +1185,9 @@
                 <infoLink id="34dc-09a0-35a4-c270" name="Panzer III (MGs)" hidden="false" targetId="6b68-30d1-3bf7-9c64" type="profile"/>
                 <infoLink id="318b-d059-9db0-a835" name="Panzer III (long 5cm)" hidden="false" targetId="c348-31c6-abda-445f" type="profile"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="439b-5d92-45cf-8814" name="PANZER III" hidden="false" targetId="8236-8139-1ecb-9f79" primary="false"/>
+              </categoryLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="a523-3fa7-e559-6882" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="724b-044b-b152-1b55">
                   <constraints>
@@ -885,6 +1208,9 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="47ed-b509-2dcf-6fbc" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
@@ -945,6 +1271,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d344-fb80-95ff-a149" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="4afc-2ea5-86ce-ba12" name="Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -975,6 +1302,9 @@
         <infoLink id="26e9-07bf-473b-e76d" name="Panzer III (MGs)" hidden="false" targetId="6b68-30d1-3bf7-9c64" type="profile"/>
         <infoLink id="24bf-7804-e0ab-3fe8" name="Panzer III" hidden="false" targetId="d19f-9a03-5a2f-b5a3" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2f95-ff0f-f562-fdb6" name="PANZER III" hidden="false" targetId="8236-8139-1ecb-9f79" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b79f-f22a-07aa-2d33" name="Unit Size (5cm)" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="a298-c841-065c-685c">
           <constraints>
@@ -1007,11 +1337,17 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="dc49-e5f2-8402-2da3" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0954-86f2-0fca-c5fa" name="Panzer IV Tank Company" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5f73-a6f9-acbb-fd73" name="TANK" hidden="false" targetId="614f-8959-6401-2c62" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d4f1-437a-a1b8-e75c" name="Panzer IV Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -1025,6 +1361,9 @@
             <infoLink id="7176-8692-f31e-de84" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
             <infoLink id="1959-b672-fa3e-2ee3" name="Panzer IV" hidden="false" targetId="51f8-e73b-26df-0797" type="profile"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="354d-d5f5-3d04-5008" name="PANZER IV" hidden="false" targetId="a89a-0c66-b6ba-fe17" primary="false"/>
+          </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="04d5-4438-11dd-2761" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="dcb8-35f6-ca8b-59cb">
               <constraints>
@@ -1060,6 +1399,9 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="de4a-b9fd-1d93-114c" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -1088,6 +1430,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1886-d5da-5b93-35ec" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="0c50-9930-6d4c-e0da" name="Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -1102,6 +1445,9 @@
         <infoLink id="7b2d-a727-7f5a-654f" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
         <infoLink id="f27e-edbf-611f-263a" name="Panzer IV" hidden="false" targetId="51f8-e73b-26df-0797" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dce5-e78a-2b07-119c" name="PANZER IV" hidden="false" targetId="a89a-0c66-b6ba-fe17" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d4e0-10a5-ecf5-b050" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="5be7-b8d0-4aa3-c912">
           <constraints>
@@ -1135,6 +1481,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5c46-66c8-ba3f-0015" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1189,6 +1538,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="cf88-b1e7-598b-6674" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1227,6 +1579,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="bee8-eb68-59d0-4a7e" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1240,6 +1595,9 @@
         <infoLink id="c3ec-060d-b805-8b0e" name="Panzer III (uparmoured)" hidden="false" targetId="c1d6-72c3-6ff0-b7ad" type="profile"/>
         <infoLink id="2355-dfc6-d251-b8ec" name="Panzer III (long 5cm)" hidden="false" targetId="c348-31c6-abda-445f" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="85fc-630d-4c7e-48fa" name="PANZER III" hidden="false" targetId="8236-8139-1ecb-9f79" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b77e-976f-e6e2-75d1" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="4dc3-9ae0-0dc1-025c">
           <constraints>
@@ -1265,6 +1623,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="206f-5aac-85b8-d218" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1293,6 +1654,9 @@
         <infoLink id="5e0b-9409-64c7-8001" name="Stormtroopers" hidden="false" targetId="5b29-2623-7f34-fc95" type="rule"/>
         <infoLink id="a18c-b360-f89e-4531" name="Protected Ammo" hidden="false" targetId="ad4a-22fc-2234-7874" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0481-76e4-0f51-3af0" name="PANZER III" hidden="false" targetId="8236-8139-1ecb-9f79" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6615-3cee-c560-3b19" name="Type" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="f941-cc2a-4820-7c20">
           <constraints>
@@ -1351,6 +1715,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b9c4-33dc-a2c2-4796" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1359,94 +1726,9 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4bd5-7601-ac8e-e1ae" type="max"/>
       </constraints>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5e1d-d1cd-d23b-226e" name="Basic Command Cards" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4826-0bf5-c42c-939b" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="d29f-866a-c610-f7d2" name="Brandenburgers" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ae-e5b1-1571-11fd" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="fb54-5478-adc9-cd78" name="Brandenburgers" hidden="false" typeId="94ea-9234-fbd5-3352" typeName="Command Card [Abridged]">
-                  <characteristics>
-                    <characteristic name="Details" typeId="1944-fd09-973e-5731">When your opponents would first roll for Air Support, they automatically fail to receive Air Support for that turn.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="090c-ce78-a8ed-6e4d" name="Diversionary Tactics" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eb5-728a-2f80-0097" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="7094-0194-c2df-9bdb" name="Diversionary Tactics" hidden="false" typeId="94ea-9234-fbd5-3352" typeName="Command Card [Abridged]">
-                  <characteristics>
-                    <characteristic name="Details" typeId="1944-fd09-973e-5731">At the start of a game, after deployment, reposition one of your opponent&apos;s Ranged In markers up to 6&quot;/15cm in any direction.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="529e-ab52-137a-87e7" name="Dummy Minefield" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bfe-2608-f1fa-9c34" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="14c4-57de-0371-d587" name="Dummy Minefield" hidden="false" typeId="94ea-9234-fbd5-3352" typeName="Command Card [Abridged]">
-                  <characteristics>
-                    <characteristic name="Details" typeId="1944-fd09-973e-5731">If this mission has Minefields, after Deployment, you may redeploy a Minefield marker anywhere outside your opponent&apos;s deployment area.
-
-In Missions without Minefields, you may deploy a Minefield marker anywhere outside your opponent&apos;s deployment area before placing Objectives.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3470-32ea-7bbb-a3e6" name="Erwin Rommel" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ead-1c22-ecef-6218" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="c3ac-80f3-e550-32c0" name="Erwin Rommel" hidden="false" typeId="94ea-9234-fbd5-3352" typeName="Command Card [Abridged]">
-                  <characteristics>
-                    <characteristic name="Details" typeId="1944-fd09-973e-5731">All of your Formation Commanders have their Command Leadership range increase from 6&quot;/15cm to 8&quot;/20cm.
-
-If you win the game, you gain one extra Victory Point; if you lose the game, you lose one extra Victory Point.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e03b-446a-ddca-f607" name="Pure Luck" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85fb-b13b-74c6-c3f1" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="577e-b6d7-e892-6448" name="Pure Luck" hidden="false" typeId="94ea-9234-fbd5-3352" typeName="Command Card [Abridged]">
-                  <characteristics>
-                    <characteristic name="Details" typeId="1944-fd09-973e-5731"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6f72-91d7-7a09-7ca3" name="Command Cards [Force]" hidden="false" collective="false" import="true" targetId="2737-1965-b711-c6c4" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1626,6 +1908,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fb14-a950-3a4a-5264" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1653,6 +1938,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="1872-7b1a-9970-265d" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1667,6 +1955,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
         <infoLink id="9be1-dd20-a10c-b8c4" name="HEAT" hidden="false" targetId="9a14-019a-eb63-0b40" type="rule"/>
         <infoLink id="b1ae-f845-cb93-aeb2" name="Panzer III (7.5cm)" hidden="false" targetId="e95a-01e2-de0f-70be" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6ecf-f4bc-e9b3-51e6" name="PANZER III" hidden="false" targetId="8236-8139-1ecb-9f79" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e37c-85af-834a-7ead" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="5cfc-8824-f47d-7462">
           <constraints>
@@ -1692,6 +1983,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6862-d20c-ad78-8f3b" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1708,6 +2002,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
             <infoLink id="6191-d5d1-a367-1429" name="Third Reich" hidden="false" targetId="0d32-e61c-3e35-7b9e" type="rule"/>
             <infoLink id="d767-2b91-3a87-8dae" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="c0fc-2657-f368-9a5b" name="INFANTRY" hidden="false" targetId="3e15-8a32-a705-9365" primary="false"/>
+          </categoryLinks>
           <selectionEntries>
             <selectionEntry id="cab9-a595-1ad2-39cb" name="MP40 SMG team" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1735,6 +2032,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="3ca6-1cee-2dd9-a493" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -1779,6 +2079,7 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="695c-d54d-4c81-e14f" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="facb-f2e8-3b71-32b9" name="Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -1869,70 +2170,6 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="0d24-bcd7-3aac-71c9" name="Tiger Command Cards" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="c8de-c804-7e37-34d3" name="Schnell" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52cd-ae2b-2514-efb8" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="d710-6ec3-f676-c1b1" name="Schnell" hidden="false" typeId="94ea-9234-fbd5-3352" typeName="Command Card [Abridged]">
-                          <characteristics>
-                            <characteristic name="Details" typeId="1944-fd09-973e-5731">This unit passes Blitz moves on 2+.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7ab5-c996-2a81-1420" name="Rapid Fire" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da7c-d18f-1853-854e" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="2c71-8e39-1a5b-51c2" name="Rapid Fire" hidden="false" typeId="94ea-9234-fbd5-3352" typeName="Command Card [Abridged]">
-                          <characteristics>
-                            <characteristic name="Details" typeId="1944-fd09-973e-5731">The Unit Leader&apos;s Tiger tank has Halted ROF 3 with its 8.8cm gun.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="827b-a685-5082-d7eb" name="Deadly Gunner" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b389-7a73-fdc6-d07e" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="884e-4ad8-747d-0a23" name="Deadly Gunner" hidden="false" typeId="94ea-9234-fbd5-3352" typeName="Command Card [Abridged]">
-                          <characteristics>
-                            <characteristic name="Details" typeId="1944-fd09-973e-5731">The Unit Leader may re-roll one failed Firepower Test during the Shooting Step.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a7aa-09b6-eb5d-2638" name="Clever Hans" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="628c-11ca-24b9-577b" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="671e-6c80-a249-2802" name="Clever Hans" hidden="false" typeId="94ea-9234-fbd5-3352" typeName="Command Card [Abridged]">
-                          <characteristics>
-                            <characteristic name="Details" typeId="1944-fd09-973e-5731">Tiger tanks in this Unit pass Cross tests on 2+.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -2001,6 +2238,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="71d2-1b45-54b9-12a3" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2061,6 +2301,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="1b0a-08af-67b3-5adb" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2172,6 +2415,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="23bb-4d24-5b0d-55ce" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2229,6 +2475,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1c68-54a3-af9f-9f78" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2246,6 +2495,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e2de-4815-bee0-f0a0" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2269,16 +2521,16 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
     </selectionEntry>
     <selectionEntry id="3441-c8cd-e5d5-4d45" name="Artillery Support Unit" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="6999-2664-9a69-251a" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="008a-e5de-2a9c-d9f5">
+        <selectionEntryGroup id="6999-2664-9a69-251a" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="a3b5-5b37-24f0-b0a2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89a0-6387-233d-b8cc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="653d-238b-e1fb-71c8" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="008a-e5de-2a9c-d9f5" name="10.5cm Artillery Battery" hidden="false" collective="false" import="true" targetId="8b75-1589-5690-3654" type="selectionEntry"/>
             <entryLink id="17a3-00c3-9b15-b188" name="Fallschirmjager 10.5cm Recoilless Battery" hidden="false" collective="false" import="true" targetId="ee5b-b00a-238f-0dac" type="selectionEntry"/>
             <entryLink id="fe56-39fb-09d3-6a63" name="15cm Bison Infantry Gun Platoon" hidden="false" collective="false" import="true" targetId="b39f-8fd8-5ccd-6bf6" type="selectionEntry"/>
             <entryLink id="e331-8f13-cc45-6def" name="Fallschirmjager 7.5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="ee8c-8e4d-3a7a-25ff" type="selectionEntry"/>
+            <entryLink id="a3b5-5b37-24f0-b0a2" name="10.5cm Artillery Battery" hidden="false" collective="false" import="true" targetId="8b75-1589-5690-3654" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2305,15 +2557,15 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
     </selectionEntry>
     <selectionEntry id="982f-136d-902e-f70e" name="AT Support Unit" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="f9c1-e3c5-2395-34fd" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="2cba-de1c-4520-3475">
+        <selectionEntryGroup id="f9c1-e3c5-2395-34fd" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4e3-53bd-b444-c7ae">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4f2-fabd-328c-5ded" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a10b-a0a0-e937-2499" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2cba-de1c-4520-3475" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry"/>
             <entryLink id="f21e-3e1b-8027-f7b7" name="Fallschirmjager 5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1efc-46db-899d-7d86" type="selectionEntry"/>
             <entryLink id="323f-0834-cd24-cf42" name="Fallschirmjager 3.7cm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="6307-1844-7dc9-2701" type="selectionEntry"/>
+            <entryLink id="a4e3-53bd-b444-c7ae" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2354,11 +2606,17 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b5a4-5f1c-cc1e-01cd" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b346-3a1e-223c-b62a" name="Panzer III Platoon [Formation Support]" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0b2e-fbad-d782-50b9" name="PANZER III" hidden="false" targetId="8236-8139-1ecb-9f79" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bf7d-b925-4d6b-3df4" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="2ad3-a71a-a6d6-f244">
           <constraints>
@@ -2411,6 +2669,9 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
         <infoLink id="3f1b-338f-6888-2821" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
         <infoLink id="09dd-1cfc-7538-840f" name="Third Reich" hidden="false" targetId="0d32-e61c-3e35-7b9e" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5017-3ca4-5adc-e6b6" name="GUN" hidden="false" targetId="32f8-e2e7-04df-e729" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c493-186b-64af-51cd" name="7.62cm Tank-hunter" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -2422,168 +2683,255 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="951f-ca7f-0b51-233a" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="2d10-2052-ae3d-c5cf" name="Panzer III/IV Command Cards" hidden="false" collective="false" import="true">
-      <comment>Still need to write out all of these; I do not look forward to it. - Ursy</comment>
+    <selectionEntryGroup id="2737-1965-b711-c6c4" name="Command Cards [Force]" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="65c9-709f-bf42-9c4a" name="Josef Rettemeier" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d5d-2d85-efab-d339" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f62b-2afd-22a5-a8f8" name="Roll Over Them" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70b0-dc43-6908-52b0" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5861-d206-1ca5-60c7" name="Precise Gunner" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0275-ed00-d5d3-8fec" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="761d-f35d-9f4e-dd2c" name="Pinpoint Accuracy" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="553b-50ba-1dd2-5910" type="max"/>
-          </constraints>
+        <selectionEntry id="4401-be65-0c71-2556" name="Brandenburgers" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="d6d9-be61-4ed0-16bc" name="Brandenburgers" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">When your opponent would first roll for Air Support, they automatically fail to receive Air Support for that turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5f54-4549-661d-4256" name="Mission Tactics" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="105e-ac4e-6839-2d98" type="max"/>
-          </constraints>
+        <selectionEntry id="d697-3267-bd14-b6c6" name="Dummy Minefield" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="950c-b62d-ead9-81ea" name="Dummy Minefield" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">If this mission has Minefields, after Deployment you may redeply a Minefield marker anywhere outside your opponent&apos;s deployment area.
+
+In Missions without Minefields, you may deploy a Minefield marker anywhere outside your opponent&apos;s deployment area before placing Objectives.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0f06-6410-1e8c-d559" name="Marksman" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbd0-0cf4-55d2-47ae" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6bc1-bfe6-eb09-522e" type="max"/>
-          </constraints>
+        <selectionEntry id="f21f-3e88-f077-e623" name="Diversionary Tactics" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="a61d-b54d-e2d8-c496" name="Diversionary Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">At the start of a game, after deployment, reposition one of your opponent&apos;s Ranged In markers up to 6&quot;/15cm in any direction.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3880-942d-2e2c-24d1" name="Hidden in Plain Sight" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2f85-9941-dddc-4594" name="Erwin Rommel" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="457a-fa26-49f1-e385" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="daa0-87ad-17a7-fd79" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a227-c653-2c86-501a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14a7-faa0-22ee-4953" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="89ae-4c63-193c-7065" name="Erwin Rommel" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">All of your Formation Commanders have their Commander Leadership range increased from 6&quot;/15cm to 8&quot;/20cm.
+
+If you win the game, you gain one extra Victory Point; if you lose the game, you lose one Victory Point.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ad3d-be3c-ebb0-462f" name="Forward Scouts" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42c4-afaa-d368-7a7a" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7ed6-9387-a056-b3c8" name="Blitzkrieg" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d557-770b-10bd-d290" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2eea-3268-4035-e733" name="Ferocious Valor" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30f5-42bd-7069-e05b" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95ef-bc9b-53d0-56bc" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ab98-d7d9-a745-3de5" name="Every Shot Counts" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca66-0b57-76f6-da1a" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4d16-0a69-619b-571d" name="Elite Crew" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bb8-c496-5950-5d2a" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1eaf-374b-bce4-7b3c" name="Cut Them Down" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6fc-d305-b762-ae07" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9921-ff64-1305-eec7" type="max"/>
-          </constraints>
+        <selectionEntry id="6fa1-a573-bc6e-e2ed" name="Pure Luck" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="4215-48d8-513b-ad9b" name="Pure Luck" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to re-roll any one die. The second result must be used.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a114-e832-d2d1-fc67" name="Clever Tactics" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf80-747f-430e-a69d" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7b79-8e75-a703-acae" name="Charmed Life" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eb9-19b3-3c35-cba2" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c50-a0b9-930f-c5fc" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6898-64df-3c37-3499" name="Afrika Rifle Command Cards" hidden="false" collective="false" import="true">
-      <comment>Still need to write out all of these; I do not look forward to it. - Ursy</comment>
+    <selectionEntryGroup id="c6b6-7713-4f1a-22a5" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="c415-75c6-c098-76fa" name="Panzer-Knacker" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="40b0-f913-a92e-18fc" name="Forward Scouts" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="421b-edac-f499-d8ef" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a24-c1a9-9498-643a" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1bd8-0d0a-51d5-002f" name="Trench Fighter" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acb0-63af-432e-8dbf" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8c7-eb15-ddd3-0844" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3290-627f-8ecd-f544" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a436-3db0-d062-5398" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae26-94b4-bec2-79d4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a5cc-f35e-65cf-ce06" name="Softskin Transport" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
+            <profile id="6950-0a5e-ebf9-58d3" name="Forward Scouts" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit gains Scout.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7a79-1edf-fb77-fc6c" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a600-ffd2-dcd2-0b7d" name="Roll Over Them" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8236-8139-1ecb-9f79" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89a-0c66-b6ba-fe17" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db4c-4a34-ca81-9214" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5d54-c0f1-47c6-7051" name="Roll Over Them" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit Counterattacks on 3+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7ac4-30ad-00db-d0f3" name="Dead Eye" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="282a-83eb-876c-4759" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dce7-0596-f249-e8d3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9408-38da-f779-e675" name="Dead Eye" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">In each Shooting Step, pick one Infantry Team from this Unit. This team may re-roll one failed To Hit roll.
+
+If this shot hits it target, that Team must re-roll their Save if it is successful.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="074f-6b27-bd55-f65e" name="Every Shot Counts" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8236-8139-1ecb-9f79" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89a-0c66-b6ba-fe17" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c508-7ba8-f0a6-f20b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="66e3-8717-9a1c-238d" name="Every Shot Counts" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Unit Leader in this Unit may re-roll one failed To Hit in each Shooting Step.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ade2-9fc8-cb21-b347" name="Clever Hans" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d2f-5d85-1ff2-a0ab" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="109a-82eb-90d6-eb9a" name="Clever Hans" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Tiger tanks in this Unit pass Cross tests on 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="25aa-de24-31e8-6f1a" name="Rapid Fire" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16ab-7288-2137-0dbc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3388-b735-12d8-9de6" name="Rapid Fire" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Unit Leader&apos;s Tiger tank has Halted ROF 3 with its 8.8cm gun.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5923-c41c-48ac-714b" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="32f8-e2e7-04df-e729" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b2a-6ced-bbcd-6761" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6a5b-b1ed-2ddd-c843" name="Softskin Transport" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
               <characteristics>
                 <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+</characteristic>
                 <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
@@ -2597,175 +2945,418 @@ If you win the game, you gain one extra Victory Point; if you lose the game, you
                 <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
               </characteristics>
             </profile>
-          </profiles>
-          <rules>
-            <rule id="c18a-fbf1-3545-4801" name="Passengers 2" hidden="false">
-              <description>Team can carry two Infantry Teams as Passangers</description>
-            </rule>
-            <rule id="3bbd-991b-24ba-6a2b" name="Softskin" hidden="false">
-              <description>If a Transport is Destroyed, any Passangers it is carrying are also Destroyed, and all Tranports must be Sent to the Rear immediately. All Passangers must Dismount from this Unit at the same time. Empty Tranpost Teams must be Sent to the Rear</description>
-            </rule>
-            <rule id="182b-622b-fad5-e9b7" name="Tractor" hidden="false">
-              <description>Team can carry one Gun Team as Passangers.	</description>
-            </rule>
-            <rule id="e935-2937-237e-ff93" name="Unarmoured" hidden="false">
-              <description>Tram cannot Charge into Contact and must Break Off if Assaulted</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5a57-0c1b-ae66-c30d" name="Pioneer Company" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d6c-4fda-dc6a-d595" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="43b6-63d1-15f6-e226" name="Mission Tactics" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5721-47ac-6376-17ad" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e5fd-0db4-55c6-2e04" name="Marksman" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0593-f911-87e5-b086" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ecd8-ee85-ad11-13a9" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1fbc-f85e-a8a4-388f" name="Hidden in Plain Sight" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b758-fb5d-ba93-27a2" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e4ba-07e2-225f-4fcc" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b5ec-cdd3-e3b6-9c90" name="Blitzkrieg" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2524-1f21-5ce7-ec3d" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7e0f-7e78-4dd9-e556" name="Fortify the Building" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e29c-e01a-a4d4-f126" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4100-7338-1378-7821" name="Ferocious Valor" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded8-76d3-09d8-20d8" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3f6-eb18-e3e0-ef1e" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="bba1-5356-50c0-977f" name="Dead Eye" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49b3-881e-3d44-bf16" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2467-85c3-0d9e-702b" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5413-685c-8977-bfcf" name="Cut Them Down" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="906e-3745-cd59-e5f6" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="073f-602b-96dd-c0ad" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1d60-6f15-e892-2ac1" name="Captured Tank" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e84b-16c3-f98a-ef1d" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0023-fb29-a326-8a1d" name="Captured 6 pdr" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b83c-fedb-1c55-ca2a" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3b09-3af3-d34f-6789" name="Artillery Command Cards" hidden="false" collective="false" import="true">
-      <comment>Still need to write out all of these; I do not look forward to it. - Ursy</comment>
-      <selectionEntries>
-        <selectionEntry id="fc01-81fb-76cd-cb91" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dedc-4b8c-63dc-0ba3" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="80e9-3d83-04bb-7f4f" name="Softskin Transport" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
+            <profile id="9be5-58d4-ffa1-c35a" name="Softskin Transport" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
               <characteristics>
-                <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+</characteristic>
-                <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
-                <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
-                <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">5+</characteristic>
-                <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">-</characteristic>
-                <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">10&quot;/25cm</characteristic>
-                <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">18&quot;/45cm</characteristic>
-                <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">40&quot;/100cm</characteristic>
-                <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
-                <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Infantry or Gun Unit may add a Softskin Transport Attachment, The number of vehicles in the Unit is as follows: 
+* Add one Softskin Transport for every two Infantry Teams in the Unit.
+* Add one Softskin Transport for each Gun Team in the Unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <rules>
-            <rule id="ed4b-a2b1-57e3-a985" name="Passengers 2" hidden="false">
-              <description>Team can carry two Infantry Teams as Passangers</description>
+            <rule id="ed71-4b18-cb9a-4769" name="Passengers 2, Tractor" hidden="false">
+              <description>Team can carry two Infantry Teams or one Gun Team as Passengers.</description>
             </rule>
-            <rule id="d21b-49f2-e24c-8244" name="Softskin" hidden="false">
-              <description>If a Transport is Destroyed, any Passangers it is carrying are also Destroyed, and all Tranports must be Sent to the Rear immediately. All Passangers must Dismount from this Unit at the same time. Empty Tranpost Teams must be Sent to the Rear</description>
+            <rule id="9189-ec7e-4e98-8335" name="Softskin" hidden="false">
+              <description>If a Transport is Destroyed, any Passengers it is carrying are also Destroyed, and all Tranports must be Sent to the Rear immediately. All Passengers must Dismount from this Unit at the same time. Empty Tranpost Teams must be Sent to the Rear.</description>
             </rule>
-            <rule id="32a9-db06-341c-d4c9" name="Tractor" hidden="false">
-              <description>Team can carry one Gun Team as Passangers.	</description>
-            </rule>
-            <rule id="7c24-a3d2-8a31-bb02" name="Unarmoured" hidden="false">
-              <description>Tram cannot Charge into Contact and must Break Off if Assaulted</description>
+            <rule id="086b-dbe8-659d-d1e7" name="Unarmoured" hidden="false">
+              <description>Team cannot Charge into Contact and must Break Off if Assaulted.</description>
             </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="53f4-0ff2-8516-dc55" name="Captured 6 pdr" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fef0-d0c7-1c6e-aee1" name="Deadly Gunner" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69b7-94b2-dc1f-8e49" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ef7-488a-21e2-6f52" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="8251-46b7-624a-4b1f" name="Deadly Gunner" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Unit Leader may re-roll one failed Firepower Test during the Shooting Step.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="35d3-c972-bc93-8d54" name="Captured 25 pdr" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2de9-50df-d440-6a7d" name="Schnell" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eea8-9c9a-9797-bc02" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a60-0dcd-b0dc-e6b4" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="b9b5-86a2-a041-4de6" name="Schnell" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit passes Blitz Move tests on 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8208-a496-b61f-3fc6" name="Panzer-Knacker" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ef-b0db-7869-181a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1756-8fb4-0727-7d5f" name="Panzer-Knacker" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to give Infantry and Gun teams in this Unit Anti-tank 3 and Firepower 1+ against Top Armour in Assaults until the end of the turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4b7e-918b-6013-0206" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="7f96-5400-7c3f-d612" name="Elite Crew" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="912e-3dba-2ff4-ab44" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e0-2825-56d0-f1a6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9202-c0ef-a27b-6130" name="Elite Crew" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Formation Commander&apos;s Panzer III tank has Halted ROF 3 with its Short 5cm, Long 5cm, or 7.5cm gun.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a6b9-5398-4d48-610c" name="Precise Gunner" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0954-86f2-0fca-c5fa" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289b-69d2-c7b6-57f2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8fc9-4803-7c76-9418" name="Precise Gunner" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Formation Commander may re-roll one failed Firepower Test during the Shooting Step.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a859-7d70-31d2-1132" name="Pinpoint Accuracy" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0954-86f2-0fca-c5fa" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6b3-2d04-316f-4af0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="35a7-554f-89f8-0449" name="Pinpoint Accuracy" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your HQ Unit has a Skill of 2+ when Ranging In its own Artillery Bombardment.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="41b2-c806-86eb-587d" name="Ferocious Valor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b34-5db9-db08-6b67" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7833-b93c-d327-7f2a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ea83-eb9c-908e-b524" name="Ferocious Valor" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your Formation Commander may roll two dice instead of one To Hit during Assaults.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="039e-c1c3-17fc-13c1" name="Clever Tactics" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="912e-3dba-2ff4-ab44" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82d2-1d3a-ab04-ac03" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a162-6ed6-52bf-fe76" name="Clever Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your HQ Unit passes Tactics tests for Movement Orders on 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f5fa-24b0-29bd-490a" name="Hidden in Plain Sight" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b989-c4e8-a973-b99f" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a4c-9d05-c3e0-59a3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="189b-2f6c-c9d0-951c" name="Hidden in Plain Sight" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your HQ Unit is Concealed when Halted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cff3-59b8-dd1e-f5be" name="Marksman" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="174c-f7a4-b898-98c0" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd81-5706-687c-62cc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a496-14b9-d0b2-9fae" name="Marksman" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Hits by this Formation Commander may only be swapped using the Mistaken Target rule on 4+ instead of 3+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9c8d-5d53-1cfd-c138" name="Fortify the Building" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cea-b4f5-05ce-722f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3840-734a-efaa-ca31" name="Fortify the Building" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Place this card next to a building that your HQ Unit is occupying. For the rest of the game, Infantry Teams in this building have a 2+ save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3e1d-5373-9218-c8cc" name="Captured Tank" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f83-d971-df0a-5a4d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0d14-71b4-1107-6bc6" name="Captured Tank" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card after you win in an assault in which you Destroyed an enemy Tank Team. Remove one adjacent Infantry Team and add the enemy Tank to your force as a Captured Tank unit.
+
+Use  the captured Tank&apos;s normal stats apart from its Is Hit On which becomes 2+. The captured Tank must add +1 to the score needed To Hit when it shoots. A Captured Tank Unit may not Launch an Assault and must always Break Off when assaulted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7c2f-d498-adf8-d17e" name="Cut Them Down" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a6e-bb9f-6913-0b8c" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8200-5977-15e4-6c7c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="546d-7cde-aa76-a264" name="Cut Them Down" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Thie Formation Commander may re-roll failed To Hit rolls when Shooting during Defensive Fire while being assaulted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c990-6f69-1fa1-9983" name="Charmed Life" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df87-a07b-dfed-9f9d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d54-923d-ea23-6e29" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dc9d-1469-543c-8c13" name="Charmed Life" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card before rolling to automatically pass an Armour or Infantry Save (including all re-rolls) made by this Formation Commander.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1f5f-523d-22e2-3eca" name="Blitzkrieg" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e1-2eaf-ebf4-13fb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b5-22fc-50e4-3724" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="22c2-61d3-e975-a694" name="Blitzkrieg" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to let Units in this Formation whose Unit Leader is within 8&quot;/20cm of this Formation Commander pass Blitz Move Movement Orders on a 2+ until the end of the turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9c04-2358-eb28-d317" name="Josef Rettemeier" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="614f-8959-6401-2c62" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b756-a478-cdb7-3707" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0430-164e-8f2b-3a3e" name="Josef Rettemeier" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">If the Unit Leader of a Tank Unit in this Formation is within 6&quot;/15cm and in Line of Sight of the Formation Commander, the Unit passes Shoot and Scoot tests on 2+.
+
+The Formation Commander&apos;s Tank Team may re-roll one failed roll To Hit in each Shooting Step. This does not apply if his tank fires an Artillery Bombardment.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e955-3fc3-cf9b-aacb" name="Mission Tactics" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0180-c31c-cae0-b273" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="92a6-f47a-704d-9023" name="Mission Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Increase this Formation Commander&apos;s Command Leadership distance from 6&quot;/15cm to 8&quot;/20cm.
+
+Discard this card to automatically pass one Unit Last Stand Test for a Unit from this Formation whose Unit Leader is within 8&quot;/20cm of the Formation Commander.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6368-fa94-520b-68de" name="Pioneer Company" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8195-e8fe-d94d-0863" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d90f-0c32-6dad-fe4f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4e4a-0cb5-3b4d-69f0" name="Pioneer Company" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Infantry Teams in Formation cross Minefields safely on a roll of 2+.
+Infantry and Gun Teams in this Formations Dig In on a roll of 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4417-4f3c-5f8d-bf0e" name="Trench Fighter" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="301e-c702-4c66-63e4" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e1f2-f25a-eed9-3850" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f853-39c7-3839-cb1f" name="Trench Fighter" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation Commander Infantry Team Hits on 2+ in Assaults.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

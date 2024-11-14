@@ -418,5 +418,20 @@ A One-man Turret main weapon adds +1 to the score needed To Hit when moving.</de
       <comment>v17 - willus8888
 - added</comment>
     </rule>
+    <rule id="c62a-5462-5d2a-649c" name="Cavalry" hidden="false">
+      <description>+1 To Hit for all Shooting. Move 6&quot;/15cm when Charging into Contact. Cannot hit Armoured Tanks in Assaults. Not Concealed and friends cannot shoot over these teams when Stationary in Open. Cannot occupy Foxholes or Buildings.</description>
+    </rule>
+    <rule id="0a75-9107-1a42-067c" name="HEAT" hidden="false">
+      <description>Target Armour is not increased by +1 if it is more than 16&quot;/40cm away.</description>
+    </rule>
+    <rule id="d5d8-38e6-2091-b13d" name="Pioneers" hidden="false">
+      <description>Teams cross Minefields on 3+. If not Pinned Down, may clear the Minefield automatically next turn.</description>
+    </rule>
+    <rule id="5829-745d-2e10-47b1" name="Armoured Reserve" hidden="false">
+      <description>In missions with Deep Reserves, you may only field one Tank Unit with Armoured Reserve, one Tank Unit with Front Armour of 3 or more, or one Aircraft Unit on the table at the start of the game.</description>
+    </rule>
+    <rule id="adfb-38ac-d14c-5575" name="Dismount" hidden="false">
+      <description>Unit may dismount at the start of the Movement Step. Once dismounted, may not remount for rest of the game and moves as Infantry.</description>
+    </rule>
   </sharedRules>
 </gameSystem>
