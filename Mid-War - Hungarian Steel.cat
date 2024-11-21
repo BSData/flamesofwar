@@ -1,86 +1,335 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b010-341c-6078-e6db" name="Mid-War - Hungarian Steel [HEAVILY WIP]" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord; zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b010-341c-6078-e6db" name="Mid-War - Hungarian Steel" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord; zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Started Oct 2024
-Added Mid-War Dynamic Points 11-13-24</readme>
+Added Mid-War Dynamic Points 2024 11-13-24
+Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
+  <categoryEntries>
+    <categoryEntry id="4a26-fdef-6504-8301" name="GUN" hidden="false"/>
+    <categoryEntry id="3001-d363-e09a-a733" name="INFANTRY" hidden="false"/>
+    <categoryEntry id="2e2b-5a28-d19a-417b" name="PANZER III" hidden="false"/>
+    <categoryEntry id="2430-e11c-a55f-9a66" name="PANZER IV" hidden="false"/>
+    <categoryEntry id="ff90-ecfd-63ff-d28c" name="TANK" hidden="false"/>
+  </categoryEntries>
   <entryLinks>
-    <entryLink id="b1a2-303f-42df-afaf" name="[FS] Huszar Troop" hidden="false" collective="false" import="true" targetId="74b1-6950-492b-2423" type="selectionEntry">
+    <entryLink id="b1a2-303f-42df-afaf" name="Huszar Troop" hidden="false" collective="false" import="true" targetId="74b1-6950-492b-2423" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d0f1-f166-957e-8efa" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0acb-7ee0-1cfd-d4a1" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="7083-7ffa-19af-bc80" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d705-c072-d8d4-cf4c" name="[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+    <entryLink id="d705-c072-d8d4-cf4c" name="Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="935f-a9d1-f812-6f8c" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="85a9-52ca-befa-7626" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="328e-97c3-3b6f-ca4d" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="fb99-f179-8f5a-c853" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c0fb-95e6-de89-a38d" name="[FS] Nimrod Autocannon Platoon" hidden="false" collective="false" import="true" targetId="8f50-e65c-1b16-ad4d" type="selectionEntry">
+    <entryLink id="c0fb-95e6-de89-a38d" name="Nimrod Autocannon Platoon" hidden="false" collective="false" import="true" targetId="8f50-e65c-1b16-ad4d" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a39-9448-5e28-5a54" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7f3c-c83d-2c73-5a4d" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="286a-c7c0-72d9-fb70" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6455-bf09-bfb6-c85d" name="[FS] T-38 Tank Platoon" hidden="false" collective="false" import="true" targetId="ff47-4809-85b2-7630" type="selectionEntry">
+    <entryLink id="6455-bf09-bfb6-c85d" name="T-38 Tank Platoon" hidden="false" collective="false" import="true" targetId="ff47-4809-85b2-7630" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="836d-6711-f26b-a5ea" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b65-1996-8f9b-35e3" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="a0a8-0f90-59de-e42f" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4138-3da5-df1e-2a58" name="[FS] Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="0db8-86bf-7991-1327" type="selectionEntry">
+    <entryLink id="4138-3da5-df1e-2a58" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="0db8-86bf-7991-1327" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08ce-e35f-bbe4-5eda" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95bd-4560-0183-305b" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="51f6-7588-b631-5db1" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b9b5-2634-227e-3a31" name="[FS] Rifle Platoon" hidden="false" collective="false" import="true" targetId="f332-aae2-5da1-8ff2" type="selectionEntry">
+    <entryLink id="b9b5-2634-227e-3a31" name="Rifle Platoon" hidden="false" collective="false" import="true" targetId="f332-aae2-5da1-8ff2" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ada4-fb68-19e3-ba33" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="35f7-cdeb-06d5-b953" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="3fbe-e05d-8c0e-7d14" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8692-111a-7040-2400" name="[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+    <entryLink id="8692-111a-7040-2400" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cee4-ea48-bccb-eeef" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="935f-a9d1-f812-6f8c" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0543-099f-1921-8f62" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="a7c5-dbe4-6763-33fd" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ef4e-396a-bcd1-f0bf" name="[F] Huszar Squadron" hidden="false" collective="false" import="true" targetId="d0f1-f166-957e-8efa" type="selectionEntry">
+    <entryLink id="ef4e-396a-bcd1-f0bf" name="Huszar Squadron" hidden="false" collective="false" import="true" targetId="d0f1-f166-957e-8efa" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f693-14eb-1143-0f47" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3631-901f-d8be-5293" name="[S] 40mm Anti-aircraft Platoon" hidden="false" collective="false" import="true" targetId="5fe4-fcde-cd24-8b46" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="61c7-ea98-6368-089b" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="69d3-bc3a-649a-eb26" name="[F] Motorised Rifle Company" hidden="false" collective="false" import="true" targetId="85a9-52ca-befa-7626" type="selectionEntry">
+    <entryLink id="69d3-bc3a-649a-eb26" name="Motorised Rifle Company" hidden="false" collective="false" import="true" targetId="85a9-52ca-befa-7626" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1dee-50bb-ef2f-8c20" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9a82-9be3-8c85-5a91" name="[F] Rifle Company" hidden="false" collective="false" import="true" targetId="ada4-fb68-19e3-ba33" type="selectionEntry">
+    <entryLink id="9a82-9be3-8c85-5a91" name="Rifle Company" hidden="false" collective="false" import="true" targetId="ada4-fb68-19e3-ba33" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ad8c-ffa9-08b9-ae55" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5a45-5eb2-34cf-1db7" name="*[F] Panzer IV Heavy Tank Company" hidden="false" collective="false" import="true" targetId="08ce-e35f-bbe4-5eda" type="selectionEntry">
+    <entryLink id="5a45-5eb2-34cf-1db7" name="Panzer IV Heavy Tank Company" hidden="false" collective="false" import="true" targetId="08ce-e35f-bbe4-5eda" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="73d9-51f3-513d-b2fc" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="354b-5ffd-a891-409e" name="*[F] Autocannon Company" hidden="false" collective="false" import="true" targetId="6a39-9448-5e28-5a54" type="selectionEntry">
+    <entryLink id="354b-5ffd-a891-409e" name="Assault Pioneer Company" hidden="false" collective="false" import="true" targetId="74b5-37b3-361e-1c30" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e3fd-17dc-4ba5-ee00" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="b605-bf8e-01d6-cfd4" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="237d-d272-47e3-54c1" name="[S] Short 75mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="3665-5ab7-c738-40f2" type="selectionEntry">
+    <entryLink id="d12e-4783-3cb3-4a73" name="Assault Pioneer Platoon" hidden="false" collective="false" import="true" targetId="7efd-db63-0dbd-469f" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="70c9-1661-f4d4-254d" type="max"/>
+      </constraints>
       <categoryLinks>
-        <categoryLink id="f084-2f0c-b8a8-035f" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+        <categoryLink id="8ba0-76d0-7ec8-65f0" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d12e-4783-3cb3-4a73" name="[S] Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
+    <entryLink id="7a81-680c-5a90-f97d" name="Motorised Recon Company" hidden="false" collective="false" import="true" targetId="935f-a9d1-f812-6f8c" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b68f-b4f3-4ac2-93a5" type="max"/>
+      </constraints>
       <categoryLinks>
-        <categoryLink id="032e-2ad7-32b4-3ec8" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+        <categoryLink id="6866-8683-209d-180f" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="713b-9d6f-1cef-40ed" name="T-38 Tank Company" hidden="false" collective="false" import="true" targetId="836d-6711-f26b-a5ea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="67ea-e783-59da-a0c7" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dd3c-c148-5279-1f3d" name="Zrinyi Assault Gun Battery" hidden="false" collective="false" import="true" targetId="d5ea-9839-e083-5a91" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8901-8bb7-897b-777d" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6066-1340-b06f-adbe" name="Turan Tank Company" hidden="false" collective="false" import="true" targetId="d326-a625-055b-aa9f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="669b-d915-4a2b-1ef5" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ce7e-fafc-749a-0560" name="Autocannon Company" hidden="false" collective="false" import="true" targetId="6a39-9448-5e28-5a54" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cc0c-a5a5-ae0f-5a8d" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="23ca-21dc-7ad3-7343" name="Turan Tank Platoon" hidden="false" collective="false" import="true" targetId="b977-01c0-b43a-1c9b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d326-a625-055b-aa9f" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa16-b3e9-0487-7769" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3076-983c-4e60-183b" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9e2f-5864-5a77-6fef" name="Zrinyi Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="ee73-bc49-35eb-65df" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d5ea-9839-e083-5a91" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9817-666a-fd42-b4cf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6ed8-f874-4e7a-b5ea" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="455d-0d69-a7a8-4473" name="Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="935f-a9d1-f812-6f8c" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9d7-4e22-9ba0-711d" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7f73-6be7-e658-170e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d300-9c02-e07e-e50f" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="984d-6f8d-972c-ccf2" name="Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3f40-6377-43a3-ee2f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5274-d484-c039-70f4" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f7c2-e66c-1509-2541" name="Assault Pioneer Platoon" hidden="false" collective="false" import="true" targetId="7efd-db63-0dbd-469f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="74b5-37b3-361e-1c30" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b159-2444-8f6b-fbc1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5324-74a3-42d2-d78c" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f3c8-8abd-c357-ca89" name="Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="d452-821c-f735-2c75" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e097-2d82-a798-d38d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d217-570c-d464-2fb8" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3b7f-cab2-42cd-ce55" name="40mm Anti-aircraft Platoon" hidden="false" collective="false" import="true" targetId="5fe4-fcde-cd24-8b46" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c6b-f8d7-5491-7e6a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1491-c747-6828-fc52" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6466-ddb3-44d6-e81c" name="Artillery Battery" hidden="false" collective="false" import="true" targetId="6bf3-112e-c728-259a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2525-8517-e67d-b11b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d3f9-7df8-c126-7d24" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3aca-7a0c-bd86-e920" name="Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="483a-878b-ff12-76e5" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9852-2bb9-882a-0adf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cfba-1fdb-12b7-e2ca" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b738-34e3-25b2-00ab" name="Artillery Observation Post" hidden="false" collective="false" import="true" targetId="cb7a-3b08-3158-9d13" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="70ea-465f-317f-d2c1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8d19-0ffb-a816-2475" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7fdc-044f-fe95-8e84" name="Ju 87 Stuka Dive Bomber Flight" hidden="false" collective="false" import="true" targetId="e19b-e157-bca3-31c7" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7858-239b-a015-f719" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9e46-57b7-befc-5f0c" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b2b0-8148-8005-76a3" name="Toldi Light Tank Company" hidden="false" collective="false" import="true" targetId="cee4-ea48-bccb-eeef" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="58e7-de88-423d-a355" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="75ae-b1b3-b495-8b2c" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="113b-8fd8-ce12-c628" name="Csaba Armoured Car Company" hidden="false" collective="false" import="true" targetId="e9d7-4e22-9ba0-711d" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b15-08eb-a10a-0995" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ec0e-828b-d090-58ff" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="836d-6711-f26b-a5ea" name="*[F] T-38 Tank Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="836d-6711-f26b-a5ea" name="T-38 Tank Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="032e-4dda-7118-f0f4" name="T-38 Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -104,6 +353,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="a5eb-d457-20ce-e0a0" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -144,19 +396,28 @@ Added Mid-War Dynamic Points 11-13-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="37d0-1dc7-b292-fc60" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="561a-576d-aa69-9f2d" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="08ce-e35f-bbe4-5eda" name="*[F] Panzer IV Heavy Tank Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="08ce-e35f-bbe4-5eda" name="Panzer IV Heavy Tank Company" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="2ce0-6d06-e3ba-75cb" name="Small Numbers" hidden="false">
           <description>Your Force may only contain up to one Panzer IV Heavy Tank Company.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="9b9c-83f8-55f4-6bba" name="PANZER IV" hidden="false" targetId="2430-e11c-a55f-9a66" primary="false"/>
+        <categoryLink id="2462-7d1b-20d4-d3f1" name="TANK" hidden="false" targetId="ff90-ecfd-63ff-d28c" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="555e-a325-280d-cf50" name="Panzer IV Heavy Tank Company HQ" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="623f-8e69-4e68-cbe3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="07cb-c92d-af63-319b" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="bde6-c818-0fa9-80a9" name="Panzer IV (MGs)" hidden="false" targetId="15a0-13ee-94ed-f8bf" type="profile"/>
             <infoLink id="d7ba-f6a1-3a39-b663" name="Panzer IV Tank Platoon" hidden="false" targetId="0d70-0e42-b333-5e0f" type="profile"/>
@@ -178,7 +439,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                     <infoLink id="bcad-2f43-04ac-3b5a" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2313-44be-a030-4b58" name="Panzer IV (long 7.5cm)" hidden="false" collective="false" import="true" type="upgrade">
@@ -189,33 +450,36 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                     <infoLink id="3071-bd41-d2dd-869b" name="Panzer IV (long 7.5cm)" hidden="false" targetId="40c9-1f63-c015-b520" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="240a-a195-4956-827e" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="3b5d-3dd0-e092-cf6c" name="[FS] Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="0db8-86bf-7991-1327" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f7-81e2-52ad-8830" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc7e-337d-b796-489a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f8f7-81e2-52ad-8830" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc7e-337d-b796-489a" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="8b6b-0a80-e9b7-31de" name="[FS] Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="0db8-86bf-7991-1327" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b860-993a-c5bb-3e63" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cc7-fbfb-9b56-5ccd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b860-993a-c5bb-3e63" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2cc7-fbfb-9b56-5ccd" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0d18-1e24-1205-0983" name="*[FS] Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="0db8-86bf-7991-1327" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aa8-8060-36f3-e582" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5aa8-8060-36f3-e582" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="cbe1-9e50-f240-d69c" name="[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
@@ -223,12 +487,13 @@ Added Mid-War Dynamic Points 11-13-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a090-46c1-63c6-bd45" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="da00-11dc-2458-137c" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a39-9448-5e28-5a54" name="*[F] Autocannon Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6a39-9448-5e28-5a54" name="Autocannon Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="c0c1-a7dd-7cab-e907" name="Toldi Autocannon Company HQ" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -238,7 +503,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           <infoLinks>
             <infoLink id="496d-a534-35e5-3ae6" name="Toldi I (20mm)" hidden="false" targetId="122b-e375-e029-12be" type="profile"/>
             <infoLink id="fdba-1b10-bfff-1888" name="Toldi I (MG)" hidden="false" targetId="4dfd-e173-04c6-9197" type="profile"/>
-            <infoLink id="885e-a04c-a8c0-4591" name="Toldi I" hidden="false" targetId="d071-f4ba-9156-5f2c" type="profile"/>
+            <infoLink id="885e-a04c-a8c0-4591" name="Toldi I Tank Platoon" hidden="false" targetId="d071-f4ba-9156-5f2c" type="profile"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="e763-9aaa-1170-0ad5" name="1x Toldi" hidden="false" collective="false" import="true" type="upgrade">
@@ -269,73 +534,21 @@ Added Mid-War Dynamic Points 11-13-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d712-8446-21d9-2999" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="218f-4fb7-c5ca-668d" name="[FS] Nimrod Autocannon Platoon" hidden="false" collective="false" import="true" targetId="8f50-e65c-1b16-ad4d" type="selectionEntry">
+        <entryLink id="218f-4fb7-c5ca-668d" name="*[FS] Nimrod Autocannon Platoon" hidden="false" collective="false" import="true" targetId="8f50-e65c-1b16-ad4d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac31-6ad8-e3d5-b354" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="cf51-00a8-f033-1555" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="85a9-52ca-befa-7626" name="*[F] Motorised Rifle Company" hidden="false" collective="false" import="true" type="unit">
-      <selectionEntries>
-        <selectionEntry id="688a-8ee6-a493-11ef" name="Motorised Rifle Company HQ" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="567d-f30a-67c6-1871" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55e2-a1f2-799c-af92" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="b602-dd24-52b6-f671" name="Motorised Rifle Company HQ" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
-              <characteristics>
-                <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ / Follow Me 3+</characteristic>
-                <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
-                <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
-                <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-                <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
-                <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
-                <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
-                <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
-                <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
-                <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="dfd0-8856-64d3-1bce" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="998c-ebc0-f287-2f28">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db37-3bae-feb5-247f" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d23e-2f16-e81a-b727" type="min"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="c36a-d438-cfe8-94fb" name="2x 39M SMG teams" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="86e0-c8a1-dca2-db6e" name="39M SMG team" hidden="false" targetId="cbf1-4430-9289-0e90" type="profile"/>
-                    <infoLink id="8b82-bb32-a98e-000c" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
-                    <infoLink id="6ffc-add9-9786-207a" name="Assault 3+" hidden="false" targetId="8e04-1fed-e341-7e82" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="998c-ebc0-f287-2f28" name="2x 31M rifle teams" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="c235-40c3-e084-c659" name="31M rifle team" hidden="false" targetId="f8f5-7822-79b5-e258" type="profile"/>
-                    <infoLink id="8d8f-9c95-9e1d-08e1" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+    <selectionEntry id="85a9-52ca-befa-7626" name="Motorised Rifle Company" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="36cd-af6b-ec83-3201" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4af1-2785-d6b2-3d16" name="2) Anti-tank Platoon" hidden="false" collective="false" import="true">
           <constraints>
@@ -362,7 +575,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b0ce-b51b-3787-6281" name="[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+        <entryLink id="b0ce-b51b-3787-6281" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fcdf-74c5-9c60-d739" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ade2-cd52-e963-77c4" type="max"/>
@@ -374,9 +587,16 @@ Added Mid-War Dynamic Points 11-13-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="66bd-cf42-165b-a5b5" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7f9a-375d-49d3-d039" name="[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+        <entryLink id="7f9a-375d-49d3-d039" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc17-a5a3-2caa-69f1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f4e2-f4d7-5089-883f" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
+        <entryLink id="317c-eb53-ddaf-b78e" name="0) Motorised Rifle Company HQ" hidden="false" collective="false" import="true" targetId="c8d8-1f5b-3ed9-af10" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7032-75ee-00ab-edf5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="56ad-95f8-fba2-ae55" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -384,7 +604,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f332-aae2-5da1-8ff2" name="*[FS] Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f332-aae2-5da1-8ff2" name="Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b559-527f-6b35-a162" name="Rifle Platoon" publicationId="94b0-77e6-8d24-9f2b" page="66" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -404,6 +624,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
       <infoLinks>
         <infoLink id="8540-7609-2834-c4f9" name="31M rifle team" hidden="false" targetId="f8f5-7822-79b5-e258" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ed58-c95a-680c-dbd3" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9669-c9bc-680a-5b4a" name="Weapons Teams" hidden="false" collective="false" import="true">
           <selectionEntries>
@@ -465,11 +688,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="547e-e8ad-661f-8648" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d0f1-f166-957e-8efa" name="*[F] Huszar Squadron" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d0f1-f166-957e-8efa" name="Huszar Squadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="0e43-f437-1b4f-1224" name="Huszar Squadron HQ" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -495,6 +721,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="3a99-44c4-675f-d1ee" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -534,16 +763,21 @@ Added Mid-War Dynamic Points 11-13-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a36a-de5e-e358-1fa5" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="bb49-01c1-9b37-b76a" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0db8-86bf-7991-1327" name="*[FS] Panzer IV Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0db8-86bf-7991-1327" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6bc4-6208-62c1-21c8" name="Panzer IV Tank Platoon" hidden="false" targetId="0d70-0e42-b333-5e0f" type="profile"/>
         <infoLink id="7032-e8bf-aefb-c360" name="Panzer IV (MGs)" hidden="false" targetId="15a0-13ee-94ed-f8bf" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3e1d-8746-19ca-e565" name="PANZER IV" hidden="false" targetId="2430-e11c-a55f-9a66" primary="false"/>
+        <categoryLink id="b65f-c50b-205d-e00a" name="TANK" hidden="false" targetId="ff90-ecfd-63ff-d28c" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a8f1-a91d-ffb8-2074" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="fc4c-666f-bfc5-251d">
           <constraints>
@@ -561,7 +795,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <infoLink id="9489-c8a0-e314-b905" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e3ff-9bb8-5104-9c69" name="Panzer IV (long 7.5cm)" hidden="false" collective="false" import="true" type="model">
@@ -572,24 +806,30 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <infoLink id="b6da-0739-48a2-5336" name="Panzer IV (long 7.5cm)" hidden="false" targetId="40c9-1f63-c015-b520" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8bd9-5f8e-3d90-cb61" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce24-1c7e-3725-dcb0" name="*[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ce24-1c7e-3725-dcb0" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="45ab-0dc5-9e35-2f49" name="Toldi I (20mm)" hidden="false" targetId="122b-e375-e029-12be" type="profile"/>
         <infoLink id="98d4-4743-a0f7-e14e" name="Toldi I (MG)" hidden="false" targetId="4dfd-e173-04c6-9197" type="profile"/>
-        <infoLink id="75ac-c4e5-bf92-921b" name="Toldi I" hidden="false" targetId="d071-f4ba-9156-5f2c" type="profile"/>
+        <infoLink id="75ac-c4e5-bf92-921b" name="Toldi I Tank Platoon" hidden="false" targetId="d071-f4ba-9156-5f2c" type="profile"/>
         <infoLink id="addd-150a-4fdc-d4a6" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
         <infoLink id="26d3-e4f1-b653-c370" name="Armoured Reserve" hidden="false" targetId="5829-745d-2e10-47b1" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fa2e-398d-bdcd-3ef1" name="TANK" hidden="false" targetId="ff90-ecfd-63ff-d28c" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9aaa-896e-7332-f57a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="cf10-b15c-773a-d1f7">
           <constraints>
@@ -619,13 +859,16 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff47-4809-85b2-7630" name="*[FS] T-38 Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ff47-4809-85b2-7630" name="T-38 Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="1d0f-777b-78d4-448e" name="T-38" hidden="false" targetId="1ebf-211c-04b5-2320" type="profile"/>
         <infoLink id="5206-c123-adec-5a79" name="T-38 (MGs)" hidden="false" targetId="8dcf-dd53-9f8d-b308" type="profile"/>
         <infoLink id="2d17-b33a-e1d8-157b" name="T-38 (3.7cm)" hidden="false" targetId="f8e0-cbe9-81bb-20f7" type="profile"/>
         <infoLink id="c3e2-ee38-fdfe-8912" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="23f6-6e6a-af59-6021" name="TANK" hidden="false" targetId="ff90-ecfd-63ff-d28c" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b9f3-55a8-34a3-f9b4" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a068-9276-81d8-89cb">
           <constraints>
@@ -651,11 +894,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4fe6-003c-f6fc-eced" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f50-e65c-1b16-ad4d" name="*[FS] Nimrod Autocannon Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8f50-e65c-1b16-ad4d" name="Nimrod Autocannon Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5dcf-b712-e6e4-1783" name="Nimród Self-Propelled AA Platoon" publicationId="94b0-77e6-8d24-9f2b" page="53" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -698,11 +944,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="cd04-ecd6-329f-1001" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca10-f42c-81fc-1023" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ca10-f42c-81fc-1023" name="Motorised Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b4bc-ddfd-e28f-2690" name="Motorised Rifle Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -722,6 +971,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
       <infoLinks>
         <infoLink id="032f-81ea-64c4-1b24" name="31M rifle &amp; 31M MG teams" hidden="false" targetId="86ee-744c-df88-4832" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6e9f-3ff0-6733-08f5" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="574f-ef1a-e412-5827" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="b45c-a74c-8880-7cff">
           <constraints>
@@ -783,11 +1035,17 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="aba2-d13c-42e8-09fd" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ada4-fb68-19e3-ba33" name="*[F] Rifle Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ada4-fb68-19e3-ba33" name="Rifle Company" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0f79-6d93-8233-57be" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="82c1-fd4c-a43e-408b" name="Rifle Company HQ" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -893,12 +1151,13 @@ Added Mid-War Dynamic Points 11-13-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d1ea-34fd-c0ee-4e9a" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="a9e9-3e2a-98a5-2fae" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5761-dd01-8c20-98af" name="*[S] 7/31M Machine-Gun Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5761-dd01-8c20-98af" name="7/31M Machine-Gun Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3610-5e35-83f1-9294" name="7/31M Machine-gun Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -919,6 +1178,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="cd0e-3dd5-786b-68eb" name="7/31M HMG" hidden="false" targetId="72fb-39fb-fc27-81b4" type="profile"/>
         <infoLink id="0343-2e6d-6c85-e9e3" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cd16-b094-7329-c17d" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e253-a16e-1f4d-2690" name="3x 7/31M HMG Teams" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -930,11 +1192,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="6e53-b3a8-0f17-c0ef" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74b1-6950-492b-2423" name="*[FS] Huszar Troop" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="74b1-6950-492b-2423" name="Huszar Troop" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="fe54-5e86-49de-15cd" name="Huszar Troop (Dismounted)" hidden="false" targetId="c45c-d886-3fe4-ed19" type="profile"/>
         <infoLink id="4de0-aca6-e51f-180e" name="Huszar Troop (Mounted)" hidden="false" targetId="23b7-c30d-d24e-10d8" type="profile"/>
@@ -978,11 +1243,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9ef1-153c-5125-602c" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="63d4-87e8-f878-d9e5" name="*Motorised 40mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="63d4-87e8-f878-d9e5" name="Motorised 40mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="0436-9a14-748e-315b" name="Motorised 40mm Anti-tank Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -1024,6 +1292,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="4ac1-87c5-39cd-2df1" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
         <infoLink id="be44-8e09-72c6-5ec0" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d255-db76-4a62-3010" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f9c4-130e-4b0e-1a3e" name="Unit Size/Type" hidden="false" collective="false" import="true">
           <constraints>
@@ -1054,52 +1325,20 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4646-b2d9-fc6a-1fad" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="498d-6658-3ab5-8845" name="*[S] Csaba Armored Car Platoon" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="b762-6796-ca23-d7a1" name="Csaba (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-          </characteristics>
-        </profile>
-        <profile id="ea33-851c-e632-cc96" name="Csaba (20mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
-            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-          </characteristics>
-        </profile>
-        <profile id="7762-dac2-e916-4070" name="Csaba Armoured Car" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
-          <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ / Counterattack 6 / Last Stand 5+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ / Assault 5+</characteristic>
-            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
-            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10”/25cm</characteristic>
-            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10”/25cm</characteristic>
-            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16”/40cm</characteristic>
-            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">40”/100cm</characteristic>
-            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
-            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Scout, Spearhead</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="498d-6658-3ab5-8845" name="Csaba Armored Car Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6c48-2858-99dc-c713" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
         <infoLink id="8542-e15b-7770-c84e" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
+        <infoLink id="d42a-3453-6314-bebd" name="Csaba (MG)" hidden="false" targetId="0b2e-73ac-92f2-05cd" type="profile"/>
+        <infoLink id="6816-74ed-d553-aeef" name="Csaba (20mm)" hidden="false" targetId="29d4-323a-31fb-f530" type="profile"/>
+        <infoLink id="b203-eada-30d0-02ec" name="Csaba Armoured Car" hidden="false" targetId="d704-e14d-40c9-ff12" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="aba9-f1c8-27ec-fc67" name="3x Csaba (20mm)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1116,7 +1355,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5fe4-fcde-cd24-8b46" name="*[S] 40mm Anti-aircraft Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5fe4-fcde-cd24-8b46" name="40mm Anti-aircraft Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4d70-1cce-52cb-454e" name="40mm anti-aircraft gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -1147,6 +1386,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="fc3c-07b8-4bb7-2d22" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
         <infoLink id="578f-4ed3-2cdf-e3cf" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="17f5-6eb9-5989-25c7" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ecf2-494e-7f57-0bfa" name="2x 40mm AA gun" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1158,11 +1400,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="950d-a4ef-8177-3ff8" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3665-5ab7-c738-40f2" name="*[S] Short 75mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3665-5ab7-c738-40f2" name="Short 75mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="0dd1-7752-75b3-c181" name="Short 75mm Anti-tank Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -1194,6 +1439,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="ba83-6b5f-16f6-0368" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
         <infoLink id="7cc8-e9cc-81d1-a4b3" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="53cf-824e-e33a-94a1" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8bb1-b38f-e594-b561" name="Unit Size/Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="c923-36b2-e4fc-7100">
           <constraints>
@@ -1214,11 +1462,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8d3e-6d45-283f-9d30" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="02a8-e948-2c1d-ca0a" name="*[S] 75mm Huszar Gun Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="02a8-e948-2c1d-ca0a" name="75mm Huszar Gun Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ea9b-2b26-f456-cc7d" name="75mm Huszar Gun Battery" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -1261,6 +1512,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="92b0-4ad1-d893-d4d7" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
         <infoLink id="7499-4c5a-25a5-c570" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="efbc-5ae8-e838-1c9b" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8e4e-cf22-1eab-274e" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="68b2-ee81-d164-6ef8">
           <constraints>
@@ -1281,11 +1535,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="bc4d-ce9f-95c3-a7a7" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="18ad-bc53-d88b-d720" name="*Motorised 7/31M Machine-Gun Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="18ad-bc53-d88b-d720" name="Motorised 7/31M Machine-Gun Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="28f6-6e93-3017-bf71" name="Motorised 7/31M Machine-gun Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -1306,6 +1563,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="5e32-b78a-dafd-909d" name="7/31M HMG" hidden="false" targetId="72fb-39fb-fc27-81b4" type="profile"/>
         <infoLink id="fd68-8acd-a244-1f67" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4d64-fa52-f9d6-6e95" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="362b-a6af-f4ed-eb22" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="dceb-d198-541d-ccc0">
           <constraints>
@@ -1326,11 +1586,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ec4f-e5f6-e71f-c2c3" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b47b-0d61-cf6c-3740" name="*Motorised 81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b47b-0d61-cf6c-3740" name="Motorised 81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="52bd-7686-43ab-3eb1" name="Motorised 81mm Mortar Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -1352,6 +1615,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="e05b-a328-4923-bb34" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
         <infoLink id="deec-fd8f-2acd-0dcd" name="81mm Mortar" hidden="false" targetId="a9c6-25d0-f1b9-5008" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8a14-fc1d-dc28-ad6b" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="dd38-5856-b34a-cd37" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="351f-faf1-7650-49a0">
           <constraints>
@@ -1372,11 +1638,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1167-369c-89c4-7685" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9863-d7e4-508f-6c9a" name="*Motorised 50mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9863-d7e4-508f-6c9a" name="Motorised 50mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="dc90-d208-827b-c30d" name="Motorised 50mm Anti-tank Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -1407,6 +1676,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="ea13-bd0b-1f51-22e3" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="bfe9-49b4-a0fc-00c0" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6b98-f4db-9e50-a96c" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8ca6-013c-b479-c119" name="Unit Size/Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="b2f4-ed7f-a4cd-b1e7">
           <constraints>
@@ -1427,11 +1699,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5da2-5a09-fc85-eea1" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5a06-26b7-3814-c5fd" name="*[S] 81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5a06-26b7-3814-c5fd" name="81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ba9d-1493-59a3-17f6" name="81mm Mortar Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -1453,6 +1728,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="a840-4a76-f320-9499" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
         <infoLink id="9176-5019-462f-faff" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a6ae-9345-744b-4a6b" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0c43-2e17-75a9-d160" name="4x 81mm mortars" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1464,11 +1742,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="ece4-55f6-efa0-01ea" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d50-0073-5368-d25c" name="*[S] 40mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6d50-0073-5368-d25c" name="40mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="c861-5d2a-5005-2122" name="40mm Anti-tank Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -1510,6 +1791,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="4cf9-79ea-bcfa-c12e" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
         <infoLink id="5ed7-ae6e-3b92-3f94" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f2a9-61f7-e982-d34e" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2760-8233-1c4b-036d" name="Unit Size/Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="1f2b-9e6d-ee5e-cd05">
           <constraints>
@@ -1540,11 +1824,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b949-ffab-3453-b2b9" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d12a-f0e1-693c-3e5f" name="*[S] 50mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d12a-f0e1-693c-3e5f" name="50mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="56f3-d1b9-6574-4dc6" name="50mm Anti-tank Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -1575,6 +1862,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="294d-35b8-604e-a19e" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="847c-fbfb-4b64-a04e" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="30ff-e76f-e077-0fd7" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0cab-8932-09c2-5f57" name="Unit Size/Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="e0f9-7e76-0190-9162">
           <constraints>
@@ -1595,11 +1885,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7a4a-8298-55a9-04c0" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="065b-01a5-2312-3da0" name="*Panzer III Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="065b-01a5-2312-3da0" name="Panzer III Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="0c93-3ec3-d482-87c6" name="Panzer III Tank Platoon" publicationId="94b0-77e6-8d24-9f2b" page="53" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -1628,6 +1921,10 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="7c22-b847-cdbb-f2d4" name="PANZER III" hidden="false" targetId="2e2b-5a28-d19a-417b" primary="false"/>
+        <categoryLink id="9502-3d8f-9b8c-f886" name="TANK" hidden="false" targetId="ff90-ecfd-63ff-d28c" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="781e-1ea5-8420-33bd" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0b6f-304e-eed1-bae5">
           <constraints>
@@ -1640,7 +1937,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <infoLink id="1e85-23ea-3b06-4a1a" name="Panzer III (5cm)" hidden="false" targetId="c237-ca9e-b939-4a81" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9d9c-a349-bf2d-513c" name="3x Panzer III (5cm)" hidden="false" collective="false" import="true" type="model">
@@ -1648,7 +1945,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <infoLink id="7b2e-80b8-4d79-1b5f" name="Panzer III (5cm)" hidden="false" targetId="c237-ca9e-b939-4a81" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aae3-5b84-5554-0828" name="2x Panzer III (7.5cm)" hidden="false" collective="false" import="true" type="model">
@@ -1657,7 +1954,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <infoLink id="7748-66eb-7f74-ce34" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="502a-9599-032e-bb86" name="3x Panzer III (7.5cm)" hidden="false" collective="false" import="true" type="model">
@@ -1666,17 +1963,20 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <infoLink id="5b22-2dfe-4f27-fed4" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ce46-a123-504e-7d49" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d5ea-9839-e083-5a91" name="*[F] Zrinyi Assault Gun Battery" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d5ea-9839-e083-5a91" name="Zrinyi Assault Gun Battery" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="0a4e-c2b8-2a17-e6a9" name="Zrinyi Assault Gun Battery HQ" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1696,7 +1996,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9e0-6464-23c8-f6d8" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1737,22 +2037,30 @@ Added Mid-War Dynamic Points 11-13-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eae5-a3b6-1500-ff51" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="a2b2-8625-43d6-e2f9" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d326-a625-055b-aa9f" name="*[F] Turan Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d326-a625-055b-aa9f" name="Turan Tank Company" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0985-c0cf-5361-b7fa" name="TANK" hidden="false" targetId="ff90-ecfd-63ff-d28c" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6f7c-35c1-50e8-64a4" name="Turan Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6273-125f-fa3f-9a87" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="23e1-0a05-d49a-09f3" type="max"/>
+          </constraints>
           <infoLinks>
-            <infoLink id="27d8-95b7-df17-8648" name="Turan II" hidden="false" targetId="50ab-1d1e-73ad-cc96" type="profile"/>
+            <infoLink id="27d8-95b7-df17-8648" name="Turan I/II" hidden="false" targetId="50ab-1d1e-73ad-cc96" type="profile"/>
             <infoLink id="c9af-b7c4-463a-f1f6" name="Turan II (75mm)" hidden="false" targetId="6402-d6b3-1a4a-4ca7" type="profile"/>
             <infoLink id="fc7d-235c-d805-e89b" name="Turan II (MGs)" hidden="false" targetId="4b0b-f473-3a32-7b6e" type="profile"/>
             <infoLink id="5402-6029-3471-43c6" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="ff6f-bed0-99da-7a2e" name="Unit Size" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="ff6f-bed0-99da-7a2e" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="831f-a532-3ee8-dc8a">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0aa-a5d6-48a4-91ca" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="220b-f43d-48dd-8af2" type="max"/>
@@ -1760,17 +2068,20 @@ Added Mid-War Dynamic Points 11-13-24</readme>
               <selectionEntries>
                 <selectionEntry id="831f-a532-3ee8-dc8a" name="1x Turan II" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b5b2-0d65-2e76-13bd" name="2x Turan II" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="fc9e-0b64-31da-be4f" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -1794,19 +2105,20 @@ Added Mid-War Dynamic Points 11-13-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc60-1559-5d81-8882" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="2ba4-3ec9-da0d-96e6" name="*[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+        <entryLink id="2ba4-3ec9-da0d-96e6" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a37-6cf4-5e6a-4090" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="2a0f-8862-ec09-7b79" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="483a-878b-ff12-76e5" name="[SG] Tank-hunter Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="483a-878b-ff12-76e5" name="Tank-hunter Platoon" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="3902-e77b-d699-23e1" name="Unit Type" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3902-e77b-d699-23e1" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="414e-e831-fb73-6ca5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac46-0406-5bf0-324c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea45-c094-f058-fac0" type="max"/>
@@ -1821,9 +2133,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d452-821c-f735-2c75" name="[SG] Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d452-821c-f735-2c75" name="Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="36d3-390f-3034-1a11" name="Unit Type" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="36d3-390f-3034-1a11" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="c44d-aa9a-516c-2db4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc2-cccf-d4ad-7b68" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cae-312e-68c3-fe18" type="max"/>
@@ -1838,9 +2150,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6bf3-112e-c728-259a" name="[SG] Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6bf3-112e-c728-259a" name="Artillery Battery" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="8183-c8ce-c3c2-5eae" name="Unit Type" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8183-c8ce-c3c2-5eae" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="a79e-6fe5-e731-0994">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad8-b0ac-453f-63e6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48c8-1876-a2fe-181f" type="max"/>
@@ -1856,7 +2168,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="593d-ee8b-bae7-b37d" name="*[S] 100mm Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="593d-ee8b-bae7-b37d" name="100mm Artillery Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="bc78-4f61-2119-e7ce" name="100mm Artillery Battery" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -1902,6 +2214,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="81db-efa7-c9cc-3232" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="5fa1-2a08-e219-fe5b" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="65e8-66da-546f-02f3" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5817-be8b-8f49-f6b3" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="4c16-42a2-0789-7b35">
           <constraints>
@@ -1922,11 +2237,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4907-c47e-557f-3538" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="370b-c67a-d188-aa69" name="*[S] 80mm Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="370b-c67a-d188-aa69" name="80mm Artillery Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="964b-9535-41de-e93d" name="80mm Artillery Battery" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -1970,6 +2288,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="6f1a-c217-0d9c-d3ad" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
         <infoLink id="c106-dfaf-ca28-ff32" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f96f-1ef9-af89-793b" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="36dc-8c32-ea0d-f56e" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="7f56-df48-4f47-8dfa">
           <constraints>
@@ -1990,16 +2311,22 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9972-52db-03cb-c4fc" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2bde-e43b-40e9-3b72" name="[S] StuG (Early)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2bde-e43b-40e9-3b72" name="*StuG (Early)" hidden="true" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="67e2-bed9-d716-b7f1" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7efd-db63-0dbd-469f" name="*[S] Assault Pioneer Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7efd-db63-0dbd-469f" name="Assault Pioneer Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="81e5-769f-d7ab-28d1" name="Assault Pioneer Platoon" publicationId="94b0-77e6-8d24-9f2b" page="66" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -2032,6 +2359,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="35d9-44ca-805a-2837" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
         <infoLink id="cf3c-57cb-e09c-9141" name="Pioneers" hidden="false" targetId="d5d8-38e6-2091-b13d" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ced6-093e-cfc4-5c41" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="66b5-ec5f-0729-4870" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f81c-dc76-c302-cce8">
           <constraints>
@@ -2052,11 +2382,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0dcd-e22c-4a1b-f984" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="658c-dd9e-69d1-5556" name="*[S] Motorised 105mm Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="658c-dd9e-69d1-5556" name="Motorised 105mm Artillery Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="421f-9b31-57ab-8b3d" name="Motorised 105mm Artillery Battery" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -2102,6 +2435,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="b023-837e-e52c-bf3e" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
         <infoLink id="5090-3d43-23b7-6846" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5020-a050-b1c0-99cf" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bc8d-b528-2816-8224" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b9e-7abc-67d6-716c">
           <constraints>
@@ -2122,6 +2458,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8e62-42ee-b4c4-21fd" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2171,7 +2510,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb7a-3b08-3158-9d13" name="*[S] Artillery Observation Post" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cb7a-3b08-3158-9d13" name="Artillery Observation Post" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="56da-76f3-5612-6954" name="Artillery Observation Post" page="" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -2194,6 +2533,9 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="2b85-fc37-2d69-d1de" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
         <infoLink id="11b1-f519-322e-b7df" name="31M rifle team" hidden="false" targetId="f8f5-7822-79b5-e258" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="96dc-4cf6-7d11-ae9c" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="aaf7-9f11-bf91-91f5" name="1x Observer 31M rifle team" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2205,11 +2547,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="4f58-e7ae-f802-5697" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8160-7bbf-da1e-94da" name="*[S] Marder II Tank-hunter Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8160-7bbf-da1e-94da" name="Marder II Tank-hunter Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="8316-e407-52b6-1778" name="Marder II Tank-hunter Platoon" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -2277,15 +2622,21 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="db91-8ad5-73e8-604d" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b977-01c0-b43a-1c9b" name="*[FS] Turan Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b977-01c0-b43a-1c9b" name="Turan Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="8619-0e78-3698-6e00" name="Turan I/II" hidden="false" targetId="50ab-1d1e-73ad-cc96" type="profile"/>
         <infoLink id="dda3-386f-73ac-a096" name="Turan II (MGs)" hidden="false" targetId="4b0b-f473-3a32-7b6e" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="633a-13a7-3b35-4291" name="TANK" hidden="false" targetId="ff90-ecfd-63ff-d28c" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d247-a82d-eaff-850d" name="Unit Size/Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="06d0-6707-2591-fd2e">
           <constraints>
@@ -2299,7 +2650,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <infoLink id="c141-186c-d980-73a8" name="Turan II (75mm)" hidden="false" targetId="6402-d6b3-1a4a-4ca7" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="408e-e07c-5117-65c4" name="3x Turan II (75cm)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2308,7 +2659,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <infoLink id="dc38-b41d-91f7-9725" name="Turan II (75mm)" hidden="false" targetId="6402-d6b3-1a4a-4ca7" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cbdf-d1cf-03b7-3db4" name="3x Turan I (40mm)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2316,7 +2667,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <infoLink id="9251-5df9-4d48-c3cf" name="Turan I (40mm)" hidden="false" targetId="e8a8-169d-b64a-d911" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cb10-12c9-1fa9-ab20" name="4x Turan I (40mm)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2324,7 +2675,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <infoLink id="d46b-288c-0ca5-ed34" name="Turan I (40mm)" hidden="false" targetId="e8a8-169d-b64a-d911" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d9c8-04d8-8dc4-53e7" name="5x Turan I (40mm)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2332,17 +2683,20 @@ Added Mid-War Dynamic Points 11-13-24</readme>
                 <infoLink id="a395-48fe-2a0e-69ed" name="Turan I (40mm)" hidden="false" targetId="e8a8-169d-b64a-d911" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e50c-d5e5-dd41-36a6" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ee73-bc49-35eb-65df" name="*[FS] Zrinyi Assault Gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ee73-bc49-35eb-65df" name="Zrinyi Assault Gun Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ba5f-f12d-460e-658f" name="Zrinyi (75mm)" hidden="false" targetId="581e-39f9-8c4f-ef90" type="profile"/>
         <infoLink id="a1f5-bd5a-664c-020c" name="Zrinyi (MG)" hidden="true" targetId="7355-6318-33fb-0c99" type="profile"/>
@@ -2358,12 +2712,12 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           <selectionEntries>
             <selectionEntry id="6ec4-4468-bb28-bf37" name="2x Zrinyi" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="73fc-2e72-a977-3a03" name="3x Zrinyi" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2373,7 +2727,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72dd-0fe0-d9ed-0151" name="*Motorised 75mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="72dd-0fe0-d9ed-0151" name="Motorised 75mm Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5e78-d14c-3b7a-4f37" name="Motorised 75mm Anti-tank Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -2404,8 +2758,11 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="ec4a-6167-9560-9b40" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="3180-2fe3-db2a-f5b9" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1545-7bfd-11a1-b4c0" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="40bf-c262-c251-71c3" name="Unit Size/Type" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="40bf-c262-c251-71c3" name="Unit Size/Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="fdfc-3768-9778-fb5b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddc0-5e15-351f-7c9a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a73d-2dbc-0e4f-8b21" type="max"/>
@@ -2424,11 +2781,14 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="70fc-3111-3b49-f73e" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6052-9d03-cb8a-3f44" name="*80mm Regimental Gun Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6052-9d03-cb8a-3f44" name="80mm Regimental Gun Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4f64-b01f-7c71-56ff" name="80mm Regimental Gun Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -2472,6 +2832,10 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <infoLink id="dbd1-799d-88be-da26" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
         <infoLink id="bd91-43da-f8b2-8210" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d28d-4b4d-ef3d-648f" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+        <categoryLink id="5481-81ec-1706-4f62" name="GUN" hidden="false" targetId="4a26-fdef-6504-8301" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="17a4-ea26-7931-570f" name="2x 80mm field guns" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2483,37 +2847,834 @@ Added Mid-War Dynamic Points 11-13-24</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="f9b5-c516-e9db-c73d" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e9d7-4e22-9ba0-711d" name="** Csaba Armoured Car Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e9d7-4e22-9ba0-711d" name="Csaba Armoured Car Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="9a68-d373-4471-3533" name="Csaba Armoured Car Company HQ" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c73-ef82-77e2-baaf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3052-e9dc-b764-bcc6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7cc1-4e66-d141-d242" name="Csaba (MG)" hidden="false" targetId="0b2e-73ac-92f2-05cd" type="profile"/>
+            <infoLink id="8882-2376-60d0-84e2" name="Csaba Armoured Car" hidden="false" targetId="d704-e14d-40c9-ff12" type="profile"/>
+            <infoLink id="484e-5364-1a0e-0151" name="Csaba (20mm)" hidden="false" targetId="29d4-323a-31fb-f530" type="profile"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="7e4d-095b-7f31-3df9" name="3x Csaba (20mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8c1-8bc4-d968-5e85" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8954-82f6-dc67-0b6a" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="69f5-2f26-204f-fe1d" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
+        <entryLink id="afbd-472b-ad76-fe07" name="*[S] Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a6a-0ef3-cb3f-698c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4f66-6aab-c9df-0c61" name="*[S] Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="018c-5992-b9ce-a6a2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d32-a781-4138-2988" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="62c1-74c5-2314-a16a" name="*[S] Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da87-1b5f-e0c6-3787" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="76af-9733-c780-a387" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="cee4-ea48-bccb-eeef" name="** Toldi Light Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cee4-ea48-bccb-eeef" name="Toldi Light Tank Company" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="de52-80fb-55f7-a2d8" name="TANK" hidden="false" targetId="ff90-ecfd-63ff-d28c" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9145-1602-2621-16a4" name="Toldi Light Tank Company HQ" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0184-fc1b-e897-d546" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="beda-f49a-87d6-de4f" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c1ba-803a-5382-0d39" name="Toldi I Tank Platoon" hidden="false" targetId="d071-f4ba-9156-5f2c" type="profile"/>
+            <infoLink id="62c0-92de-368c-f729" name="Toldi I (20mm)" hidden="false" targetId="122b-e375-e029-12be" type="profile"/>
+            <infoLink id="e6d4-29bb-456c-d03b" name="Toldi I (MG)" hidden="false" targetId="4dfd-e173-04c6-9197" type="profile"/>
+            <infoLink id="e08e-3c5b-c6b5-2053" name="Armoured Reserve" hidden="false" targetId="5829-745d-2e10-47b1" type="rule"/>
+            <infoLink id="d252-bca1-63ea-f883" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="efd4-3343-ed02-0dca" name="2x Toldi (20mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06eb-eea0-c234-3ce3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a036-a541-1878-a870" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="0aeb-c78a-3726-a4a9" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="0590-08ed-0539-043b" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
+        <entryLink id="fad4-efb0-49cb-bdbd" name="*[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e12c-b063-7a7b-3d14" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b9f1-a9d0-45b7-eec2" name="*[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea8a-74fc-a302-9fa1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="089f-7634-8506-6d0b" name="*[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7f01-bb4c-b141-3522" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9619-7c87-386e-4cf6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="be93-5066-d1e2-f15f" name="*[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e097-a85d-8767-d763" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b82f-691e-7997-c872" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="74b5-37b3-361e-1c30" name="Assault Pioneer Company" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="2a72-eca5-25e6-d514" name="Pioneers" hidden="false">
+          <description>The HQ Unit in this Formation Digs In on a roll of 3+.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="cde5-25ee-d95b-c8ab" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d2e9-820a-f750-e3c0" name="0) Motorised Rifle Company HQ" hidden="false" collective="false" import="true" targetId="c8d8-1f5b-3ed9-af10" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8296-b52a-0c83-4294" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e8c-9655-89fb-a2d2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="db48-91a1-408f-4396" name="*[S] Assault Pioneer Platoon" hidden="false" collective="false" import="true" targetId="7efd-db63-0dbd-469f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa4e-5ab1-6b0b-1750" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cc36-a693-5467-0718" name="*[S] Assault Pioneer Platoon" hidden="false" collective="false" import="true" targetId="7efd-db63-0dbd-469f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="73c9-2871-e54c-ef11" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="88cd-8ee0-6825-5514" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="182e-2f94-0078-560f" name="*[S] Assault Pioneer Platoon" hidden="false" collective="false" import="true" targetId="7efd-db63-0dbd-469f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da4d-667e-5430-cb30" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a1d9-4ce2-672d-36dc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2a80-aee1-23db-3ca6" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="935f-a9d1-f812-6f8c" name="Motorised Recon Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b083-4c6a-5fc8-e7ad" name="1) Light Armoured Support" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa1f-8eb4-f1ea-ef90">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5eea-456c-d2b8-87c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a77-86fe-c05a-aecf" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fa1f-8eb4-f1ea-ef90" name="Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3fef-7625-1347-d269" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="4850-00f7-6c58-8be2" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae1c-10c0-c3e0-c75c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b592-e775-dc49-8413" name="Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1c8-b3e1-c73a-23af" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3cb8-f596-a5f5-9f15" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a88-beae-2ab7-9aff" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7fd0-d223-3ea0-76a5" name="0) Motorised Rifle Company HQ" hidden="false" collective="false" import="true" targetId="c8d8-1f5b-3ed9-af10" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9820-0db7-33c9-f1b3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b74d-1eb3-1cad-1c1e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b5c4-d3cd-42a1-2a92" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8dc1-f6b7-2d5c-9972" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f4fd-07ac-a5ff-658b" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="955b-5d36-7eb2-60ed" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c860-c8af-00ae-7755" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba04-ae28-d559-dc4d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b780-ec9a-556b-1f6f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="43cb-c136-4562-cead" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="c8d8-1f5b-3ed9-af10" name="0) Motorised Rifle Company HQ" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b35-9e91-1e20-5249" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="086e-5e87-88db-a680" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f6e5-24a4-69e3-bad2" name="Motorised Rifle Company HQ" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ / Follow Me 3+</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+            <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+            <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+            <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5264-e9a4-2a93-eaa1" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0b61-246d-0674-db01" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="0239-37cc-beba-67f6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f363-0135-ba04-d666" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="110e-066d-3fb4-15b6" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3992-9651-533a-30d8" name="2x 39M SMG teams" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f006-1ade-23b6-4ac6" name="39M SMG team" hidden="false" targetId="cbf1-4430-9289-0e90" type="profile"/>
+                <infoLink id="59a4-d1c7-ed39-85e7" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
+                <infoLink id="cd24-ac58-c34f-cc7c" name="Assault 3+" hidden="false" targetId="8e04-1fed-e341-7e82" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0239-37cc-beba-67f6" name="2x 31M rifle teams" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a7d0-53d4-1425-44c2" name="31M rifle team" hidden="false" targetId="f8f5-7822-79b5-e258" type="profile"/>
+                <infoLink id="6c2c-1467-37e7-a741" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="94f6-aa51-0a5d-3d2d" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="46cd-0d10-f293-5570" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="88c5-986e-357f-a925" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="9dea-bf83-b2b0-56ba" name="Elite Crew" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08ce-e35f-bbe4-5eda" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d37-a932-639e-2f47" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="821b-4699-8ef4-a960" name="Elite Crew" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Formation Commander&apos;s Panzer III tank has Halted ROF 3 with its Short 5cm, Long 5cm, or 7.5cm gun.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="92e7-0e9b-b310-a0cf" name="Ferocious Valor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="528d-001d-0044-cf10" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46cb-8baf-77ab-8953" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bd9b-5720-65af-d41f" name="Ferocious Valor" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your Formation Commander may roll two dice instead of one To Hit during Assaults.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bc7d-b847-9399-6250" name="Clever Tactics" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff90-ecfd-63ff-d28c" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87dc-7ed5-f930-5088" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="984d-e640-e0e4-401a" name="Clever Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your HQ Unit passes Tactics tests for Movement Orders on 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ae6c-31aa-c40d-ba40" name="Hidden in Plain Sight" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8ad-5546-14e1-93bf" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf3a-51cc-9311-20f4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d4b9-4ea5-fd94-a467" name="Hidden in Plain Sight" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your HQ Unit is Concealed when Halted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b074-09ca-7181-0b3a" name="Marksman" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a69-500f-69f2-e4ea" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd20-00f5-a161-8375" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4f88-bdac-706d-5fe6" name="Marksman" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Hits by this Formation Commander may only be swapped using the Mistaken Target rule on 4+ instead of 3+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eb30-165a-3a9b-9a6d" name="Fortify the Building" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3001-d363-e09a-a733" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cce9-92f0-f590-a5f9" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec18-840a-b404-be33" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f7a6-c88a-6cf8-aac0" name="Fortify the Building" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Place this card next to a building that your HQ Unit is occupying. For the rest of the game, Infantry Teams in this building have a 2+ save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e78c-310a-0ac1-c2f6" name="Storm Over the Don" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3001-d363-e09a-a733" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2598-4b96-3b0d-15bf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ba-641d-3295-7731" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d657-e375-8246-cf53" name="Storm Over the Don" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Infantry Units in this Formation Dig In on a roll of 3+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="352b-51e5-6670-0760" name="Cut Them Down" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39d4-5676-a447-2334" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17cc-b7d6-2fe7-0c43" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0a87-8082-0233-a98c" name="Cut Them Down" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Thie Formation Commander may re-roll failed To Hit rolls when Shooting during Defensive Fire while being assaulted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7f49-954e-806f-ea0b" name="Charmed Life" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9916-7afa-b508-3b62" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c58a-b3ad-0a30-3778" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="22a8-5498-9a49-b029" name="Charmed Life" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card before rolling to automatically pass an Armour or Infantry Save (including all re-rolls) made by this Formation Commander.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5fb8-ec4d-0517-d9af" name="Mission Tactics" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2dd-831c-d3fc-1739" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b2b3-06fe-481f-e2d0" name="Mission Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Increase this Formation Commander&apos;s Command Leadership distance from 6&quot;/15cm to 8&quot;/20cm.
+
+Discard this card to automatically pass one Unit Last Stand Test for a Unit from this Formation whose Unit Leader is within 8&quot;/20cm of the Formation Commander.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6c59-dc49-6546-0f2f" name="Pioneer Company" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ada4-fb68-19e3-ba33" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="517a-5aa2-0d86-49f0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="49bc-848d-79cb-16b8" name="Pioneer Company" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Infantry Teams in Formation cross Minefields safely on a roll of 2+.
+Infantry and Gun Teams in this Formations Dig In on a roll of 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f654-a4a3-83b1-774a" name="Trench Fighter" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3001-d363-e09a-a733" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="125b-d419-444f-74e9" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b5d-ac72-dfcc-bfca" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6d20-0128-dac7-a797" name="Trench Fighter" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation Commander Infantry Team Hits on 2+ in Assaults.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2f96-996e-62f6-a1c9" name="Precise Gunner" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff90-ecfd-63ff-d28c" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a348-9c34-67a8-b51b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4ef7-c555-9e6a-c301" name="Precise Gunner" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Formation Commander may re-roll one failed Firepower Test during the Shooting Step.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="46cd-0d10-f293-5570" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="26e9-7338-50c6-ba6b" name="Dead Eye" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3001-d363-e09a-a733" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb0b-a669-c6b3-3965" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="632a-7777-9a33-4439" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f779-d940-2b6b-7e70" name="Dead Eye" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">In each Shooting Step, pick one Infantry Team from this Unit. This team may re-roll one failed To Hit roll.
+
+If this shot hits it target, that Team must re-roll their Save if it is successful.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7055-db0a-20a8-d767" name="Every Shot Counts" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2430-e11c-a55f-9a66" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e2b-5a28-d19a-417b" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46e5-278f-75b3-8e0d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9d60-a568-3135-d7de" name="Every Shot Counts" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Unit Leader in this Unit may re-roll one failed To Hit in each Shooting Step.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a0d4-7b37-c7ed-12ba" name="Softskin Transport" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3001-d363-e09a-a733" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a26-fdef-6504-8301" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5749-f1af-7a85-6cf3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7ad5-9dd7-18ab-5b73" name="Softskin Transport" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
+              <characteristics>
+                <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+</characteristic>
+                <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
+                <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
+                <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">5+</characteristic>
+                <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">-</characteristic>
+                <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">10&quot;/25cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">18&quot;/45cm</characteristic>
+                <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">40&quot;/100cm</characteristic>
+                <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
+                <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
+              </characteristics>
+            </profile>
+            <profile id="7756-952f-a6b2-b3e4" name="Softskin Transport" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Infantry or Gun Unit may add a Softskin Transport Attachment, The number of vehicles in the Unit is as follows: 
+* Add one Softskin Transport for every two Infantry Teams in the Unit.
+* Add one Softskin Transport for each Gun Team in the Unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="51bf-8ffe-967a-cc7c" name="Passengers 2, Tractor" hidden="false">
+              <description>Team can carry two Infantry Teams or one Gun Team as Passengers.</description>
+            </rule>
+            <rule id="8265-d82b-fd39-a8fc" name="Softskin" hidden="false">
+              <description>If a Transport is Destroyed, any Passengers it is carrying are also Destroyed, and all Tranports must be Sent to the Rear immediately. All Passengers must Dismount from this Unit at the same time. Empty Tranpost Teams must be Sent to the Rear.</description>
+            </rule>
+            <rule id="ed13-f0ab-ff61-7d41" name="Unarmoured" hidden="false">
+              <description>Team cannot Charge into Contact and must Break Off if Assaulted.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="496e-b69b-eb36-0433" name="Deadly Gunner" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8160-7bbf-da1e-94da" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc9a-3c40-4903-5068" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8244-feea-2cf8-e28d" name="Deadly Gunner" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Unit Leader may re-roll one failed Firepower Test during the Shooting Step.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="052a-8c1a-40a5-3981" name="Pancelvadasz" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3001-d363-e09a-a733" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e17a-a747-d606-1261" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a64b-c77c-dc46-fb81" name="Pancelvadasz" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to give Infantry Teams in this Unit Anti-tank 3 and Firepower +1 against Top Armour in Assaults until the end of this turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="925b-326f-a724-bb90" name="Scout Ahead" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f332-aae2-5da1-8ff2" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c04c-4434-27b7-cfa1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5aaa-edab-8d27-c98e" name="Scout Ahead" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit gains Scout.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7088-0785-628b-3b99" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a763-288c-37b2-ca2d" name="Motorcycles" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca10-f42c-81fc-1023" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c8d8-1f5b-3ed9-af10" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="829a-8201-b9f4-b9ae" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ebdc-9496-7898-50d8" name="Motorcycles Platoon" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
+              <characteristics>
+                <characteristic name="Motivation" typeId="55ef-8653-887d-4642">-</characteristic>
+                <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">-</characteristic>
+                <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">-</characteristic>
+                <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">4+</characteristic>
+                <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">-</characteristic>
+                <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">10&quot;/25cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">16&quot;/40cm</characteristic>
+                <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">40&quot;/100cm</characteristic>
+                <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
+                <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
+              </characteristics>
+            </profile>
+            <profile id="4047-ecf7-888a-0535" name="Motorcycles" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Infantry Teams from this Unit become Unarmoured Tank Teams with a Save of 4+ and the movement and special rules above. Discard this card at the start of any Movement Step to revert them to Infantry Teams.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5312-4339-2a21-1edc" name="Unarmoured" hidden="false" targetId="a5c7-5baa-4aad-ed13" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ef88-9d67-b08c-5b48" name="Hack Them Down" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74b1-6950-492b-2423" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="715b-9891-1110-4511" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="95d7-e9ce-2ba9-f43d" name="Hack Them Down" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit Counterattacks on 3+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4d5d-5e12-2c6c-50b1" name="Command Cards [Force]" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9290-0fb8-a834-ff2b" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="b0a8-8a01-6310-8299" name="Diversionary Tactics" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8a5-7756-79f6-33c8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5a9a-0351-597b-cb5b" name="Diversionary Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">At the start of a game, after deployment, reposition one of your opponent&apos;s Ranged In markers up to 6&quot;/15cm in any direction.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5253-80bf-5d68-08b0" name="Pure Luck" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13cf-2134-4248-e582" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="206b-c7a3-3327-2730" name="Pure Luck" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to re-roll any one die. The second result must be used.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedProfiles>
     <profile id="122b-e375-e029-12be" name="Toldi I (20mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
@@ -2679,14 +3840,7 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="4b0b-f473-3a32-7b6e" name="Turan II (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <modifiers>
-        <modifier type="set" field="name" value="MGs">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b977-01c0-b43a-1c9b" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+    <profile id="4b0b-f473-3a32-7b6e" name="Turan MGs" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
@@ -2838,6 +3992,42 @@ Added Mid-War Dynamic Points 11-13-24</readme>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d704-e14d-40c9-ff12" name="Csaba Armoured Car" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ / Counterattack 6 / Last Stand 5+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ / Assault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10”/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10”/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16”/40cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">40”/100cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985">Scout, Spearhead</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="29d4-323a-31fb-f530" name="Csaba (20mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="0b2e-73ac-92f2-05cd" name="Csaba (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
   </sharedProfiles>
