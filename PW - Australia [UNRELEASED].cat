@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0061-787f-4655-6a48" name="PW - Australia" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="bac4-9f09-d2ce-e563" name="[F] Rifle Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="d0fb-b1ea-fbd9-f7b7" name="HQ" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f45-001f-a7cf-f620" name="[F] Militia Rifle Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="1c5e-99f6-d478-99bd" name="HQ" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be00-8607-46ce-68b2" name="[F] Commando Independent Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="b804-6a73-a984-6b70" name="HQ" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="937f-73d2-cd27-d50b" name="[F] Grant Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="0cb9-a018-372f-00c9" name="HQ" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4901-a75b-7eb8-d163" name="[F] Stuart Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="69d4-5389-763e-47e0" name="HQ" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a052-3178-b601-33cb" name="[F] Sentinel Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="17d8-f4b4-bf67-3de7" name="Compulsory #1" hidden="false" collective="false" import="true" defaultSelectionEntryId="af93-f69b-fc29-5cf3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1853-d86a-c08b-6cb5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab44-f94e-d36e-64a5" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="af93-f69b-fc29-5cf3" name="[FS] Sentinel (2pdr) Armoured Troop" hidden="false" collective="false" import="true" targetId="c25c-1b54-2362-b605" type="selectionEntry"/>
+            <entryLink id="1cf3-06af-ff24-c838" name="[FS] Sentinel (6pdr) Armoured Troop" hidden="false" collective="false" import="true" targetId="879d-3cbe-432d-dd17" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5641-8384-3c16-3a47" name="Compulsory #2" hidden="false" collective="false" import="true" defaultSelectionEntryId="7b9c-f9d9-97a2-8650">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7924-03e4-5c9b-48e4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="82d9-6dca-0e73-85eb" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7b9c-f9d9-97a2-8650" name="[FS] Sentinel (2pdr) Armoured Troop" hidden="false" collective="false" import="true" targetId="c25c-1b54-2362-b605" type="selectionEntry"/>
+            <entryLink id="6114-4c62-fb81-33e6" name="[FS] Sentinel (6pdr) Armoured Troop" hidden="false" collective="false" import="true" targetId="879d-3cbe-432d-dd17" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6e55-7a5c-c65a-fa42" name="Optional #3" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a81-494f-7808-8e64" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a806-e7b6-72a4-3011" name="[FS] Sentinel (2pdr) Armoured Troop" hidden="false" collective="false" import="true" targetId="c25c-1b54-2362-b605" type="selectionEntry"/>
+            <entryLink id="9f70-c428-8756-9254" name="[FS] Sentinel (6pdr) Armoured Troop" hidden="false" collective="false" import="true" targetId="879d-3cbe-432d-dd17" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3cfc-52b0-0f4c-a2a0" name="1) Sentinel Armoured HQ" hidden="false" collective="false" import="true" defaultSelectionEntryId="a469-1eb1-6efe-286d">
+          <selectionEntries>
+            <selectionEntry id="a469-1eb1-6efe-286d" name="2x Sentinel (2 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6879-0ca4-3c87-c23c" name="Sentinel Armoured Troop" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+                  <characteristics>
+                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
+                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+                    <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+                    <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
+                    <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
+                    <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+                    <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+                    <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+                    <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+                    <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+                    <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="97d7-f351-07c1-b431" name="Sentinel (2pdr)" hidden="false" targetId="8695-3fe8-8d80-28a6" type="profile"/>
+                <infoLink id="e36a-304e-eb40-183d" name="Sentinel (MG)" hidden="false" targetId="99d1-42f8-af0d-0f85" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="e5be-717d-a89b-5d7e" name="3x Sentinel (2 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="baf2-5757-61a1-daf1" name="Sentinel Armoured Troop" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+                  <characteristics>
+                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
+                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+                    <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+                    <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
+                    <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
+                    <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+                    <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+                    <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+                    <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+                    <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+                    <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ee9f-53c0-a41c-e644" name="Sentinel (2pdr)" hidden="false" targetId="8695-3fe8-8d80-28a6" type="profile"/>
+                <infoLink id="42e9-8581-1919-9a90" name="Sentinel (MG)" hidden="false" targetId="99d1-42f8-af0d-0f85" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b6f-2ecb-7383-2313" name="[S] 25 pdr Field Troop" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="647c-a76b-f5b7-fc22" name="[S] Universal Carrier Patrol" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="670d-b229-0351-228c" name="[S] Observation Post" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da78-aa32-232d-7e59" name="[SG] Anti-aircraft Platoon " hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="383b-4968-f821-44e3" name="[S] Bofors 40mm Light AA Troop" hidden="false" collective="false" import="true" targetId="9dd1-baa2-0408-e7e6" type="selectionEntry"/>
+        <entryLink id="5351-bb7e-900b-71c1" name="[S] Militia Bofors 40mm Light AA Troop" hidden="false" collective="false" import="true" targetId="fc3c-87d9-7e46-388a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3f8-8bfc-5c97-b74c" name="[S] 2 pdr Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9dd1-baa2-0408-e7e6" name="[S] Bofors 40mm Light AA Troop" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f553-26f2-e304-9529" name="[SG] Reconnaissance Platoon " hidden="false" collective="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink id="3c6c-aa27-488b-c2fd" name="[S] Militia Universal Carrier Patrol" hidden="false" collective="false" import="true" targetId="6232-8eee-e62c-8853" type="selectionEntry"/>
+        <entryLink id="4f19-a2e8-2d3c-ad8f" name="[S] Universal Carrier Patrol" hidden="false" collective="false" import="true" targetId="647c-a76b-f5b7-fc22" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6232-8eee-e62c-8853" name="[S] Militia Universal Carrier Patrol" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc3c-87d9-7e46-388a" name="[S] Militia Bofors 40mm Light AA Troop" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="08a7-538a-ca41-3301" name="[S] Kittyhawk Fighter-bomber Flight" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c25c-1b54-2362-b605" name="[FS] Sentinel (2pdr) Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7a3e-7323-d031-d252" name="Sentinel Armoured Troop" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b7c9-fc4a-dbe3-2115" name="Sentinel (2pdr)" hidden="false" targetId="8695-3fe8-8d80-28a6" type="profile"/>
+        <infoLink id="2bff-f82e-0c01-0651" name="Sentinel (MG)" hidden="false" targetId="99d1-42f8-af0d-0f85" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="7a7b-75c0-7d7e-a8ab" name="3x Sentinel (2 pdr)" hidden="false" collective="false" import="true" type="upgrade"/>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="879d-3cbe-432d-dd17" name="[FS] Sentinel (6pdr) Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d21f-0f5e-b2cd-7799" name="Sentinel Armoured Troop" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3eb6-2616-7bb4-0b14" name="Sentinel (MG)" hidden="false" targetId="99d1-42f8-af0d-0f85" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="8695-3fe8-8d80-28a6" name="Sentinel (2pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="99d1-42f8-af0d-0f85" name="Sentinel (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

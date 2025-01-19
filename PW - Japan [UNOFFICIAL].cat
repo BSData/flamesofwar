@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d41f-e695-ab51-fad4" name="PW - Japan [UNOFFICIAL]" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="8eca-8e66-77f5-232f" name="* [F] Hohei Chutai Infantry Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="d85b-16cd-6329-4be0" name="Hohei Chutai HQ" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c34c-0f83-020c-de6e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="89b4-2075-8721-bb42" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5939-e656-a21e-51ed" name="Company HQ" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="ef14-6413-d45e-94e5" name="Options" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="3d83-e39c-2f19-a840" name="Regimental Standard" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="0bde-40e1-a7f2-b34b" name="Sniper Team" hidden="false" collective="false" import="true" targetId="15e2-bdf8-acf7-c689" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b29f-fded-453f-57f4" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="d25e-988d-80a4-b4ee" name="Sniper Team" hidden="false" collective="false" import="true" targetId="15e2-bdf8-acf7-c689" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db0d-6c66-940d-2e23" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="9fb6-193b-7be4-82b4" name="Sniper Team" hidden="false" collective="false" import="true" targetId="15e2-bdf8-acf7-c689" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc82-4802-460d-84f2" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5d8b-5b2c-83f9-ff06" name="Weapons Platoons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ea-9b4c-3d32-b5c3" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d586-d17d-e304-173f" name="Hohei Machine-gun Platoon" hidden="false" collective="false" import="true" targetId="9d25-9e0d-aca3-4b1e" type="selectionEntry"/>
+            <entryLink id="c7b5-1d39-2bbc-da89" name="Hohei Weapons Platoon" hidden="false" collective="false" import="true" targetId="34c7-f8c7-d40f-5fbc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="02e1-4890-7903-c46e" name="Weapons Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="7589-32e0-ad93-612b" name="Hohei Machine-gun Platoon" hidden="false" collective="false" import="true" targetId="9d25-9e0d-aca3-4b1e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f599-2b15-78fe-b4da" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="956c-5b72-7386-20e8" name="Hohei Battalion Gun Platoon" hidden="false" collective="false" import="true" targetId="bee9-7cea-6eff-7bfe" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="504b-56a6-2fe5-533d" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="01f0-e34e-a75b-e187" name="Regimental Support Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="dd9e-6b76-dc10-452e" name="Hohei Regiment Gun Platoon" hidden="false" collective="false" import="true" targetId="8368-073c-6ce2-da19" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="578b-dcf2-1b2a-bbd9" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d129-35e7-1dde-4359" name="Hohei Rapid-fire Gun Platoon" hidden="false" collective="false" import="true" targetId="b05b-5774-6cbc-ca22" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d13-32a6-ba2a-226e" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7fb3-29ad-fcd7-e75b" name="[FS] Hohei Platoon" hidden="false" collective="false" import="true" targetId="4a77-abcb-7dad-9332" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="73a7-96e2-e77a-bbd8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f866-d3f3-96a4-7a4f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="349b-c6e2-93fe-68d4" name="[FS] Hohei Platoon" hidden="false" collective="false" import="true" targetId="4a77-abcb-7dad-9332" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b4c9-c93a-a715-2360" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59ea-3f4c-aa9b-4476" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1496-96e6-c1fd-0541" name="[FS] Hohei Platoon" hidden="false" collective="false" import="true" targetId="4a77-abcb-7dad-9332" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="345c-0cf9-58f1-7046" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="650c-67f9-deb8-d59c" name="* [F] Ka-Mi Sensha Chutai Tank Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="1ffb-89a0-c358-f03f" name="Ka-Mi Sensha Chutai HQ" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0f86-cb04-4f09-8af4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="11b3-1d73-890a-8beb" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2024-9990-2fe1-c588" name="2x Tpe 2 Ka-Mi " hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c389-07b6-0e7d-cde1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b648-ffee-3baa-efbb" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1708-406a-a5ab-41c0" name="[FS] Ka-Mi Sensha Platoon" hidden="false" collective="false" import="true" targetId="0c93-7f1d-3a49-9eeb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a8e1-8063-2c96-6840" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1faf-bb8a-7710-da7c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7494-2adb-ab95-857f" name="[FS] Ka-Mi Sensha Platoon" hidden="false" collective="false" import="true" targetId="0c93-7f1d-3a49-9eeb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7989-6946-62a5-124b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd9b-ce02-fe51-ec3e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e63f-e4e5-84cd-0170" name="[FS] Ka-Mi Sensha Platoon" hidden="false" collective="false" import="true" targetId="0c93-7f1d-3a49-9eeb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a996-5981-2c20-6283" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8eac-10d9-9bfd-20d7" name="[F] Yosai Hohei Chutai Fortified Infantry Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="29ad-5b8f-ff36-c48d" name="Hohei Chutai HQ" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8b6e-5496-f815-0c42" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bbe5-0ee7-6808-92b1" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c33e-e6c5-dbe0-390b" name="* [F] Sensha Rentai Tank Regiment" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="ccd3-3deb-f083-9f3b" name="Sensha Rentai HQ" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2504-6d1a-e72e-dee8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d7d1-c755-e4ce-6797" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9f7e-809d-f71f-951a" name="Armour" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="d598-f703-eb99-8872" name="Light Sensha Company" hidden="false" collective="false" import="true" targetId="fbad-722a-3b0c-5e09" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d760-bea6-408c-adb1" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7c46-1394-d6a7-b713" name="[FS] Sensha Company" hidden="false" collective="false" import="true" targetId="7811-fc16-274a-3ffb" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f91e-33de-4586-af85" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c5f7-c2fc-c8fe-eefb" name="[FS] Sensha Company" hidden="false" collective="false" import="true" targetId="7811-fc16-274a-3ffb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc6e-dca1-7d0d-47a4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="42c1-62e9-4c54-a528" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9132-4917-73ac-886d" name="[FS] Sensha Company" hidden="false" collective="false" import="true" targetId="7811-fc16-274a-3ffb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d0d1-c7bb-3271-1c1f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a77-abcb-7dad-9332" name="[FS/S] Hohei Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7811-fc16-274a-3ffb" name="* [FS] Sensha Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="c53b-bd58-dbb6-7e12" name="Sensha Chutai HQ Platoon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d6fe-bd70-88f4-1f0b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ed1a-ca71-615a-6da6" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="cc1e-8ba8-3094-b0e9" name="Sensha Platoon" hidden="false" collective="false" import="true" targetId="574a-487e-d4cf-62b6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ce13-8c07-4ddb-4736" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2147-38e7-490f-c0ad" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c8c7-df20-2878-a0ce" name="Sensha Platoon" hidden="false" collective="false" import="true" targetId="574a-487e-d4cf-62b6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8de5-0267-ae82-64ec" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="87cd-df79-76a5-37c8" name="Sensha Platoon" hidden="false" collective="false" import="true" targetId="574a-487e-d4cf-62b6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d6f3-d90d-eb2a-f603" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f852-bfe3-8f7a-7b8f" name="[FS] Yosai Hohei Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8368-073c-6ce2-da19" name="Hohei Regiment Gun Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34c7-f8c7-d40f-5fbc" name="Hohei Weapons Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bee9-7cea-6eff-7bfe" name="Hohei Battalion Gun Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b05b-5774-6cbc-ca22" name="Hohei Rapid-fire Gun Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3df6-bbae-9206-c423" name="[S] Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d25-9e0d-aca3-4b1e" name="Hohei Machine-gun Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10fc-2b10-3cac-302b" name="* [S] Self-propelled Gun Platoon" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b838-7603-498a-acea" name="Type/Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="158a-0a92-6df9-f37f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e0f-01f1-c7fb-8887" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a63-9118-9554-91d9" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="179d-32a3-831d-b4c6" name="2x Type 4 Ho-Ro" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b91-334f-f8b2-2b32" name="3x Type 4 Ho-Ro " hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b398-3c2c-0701-dc63" name="2x Captured M3 75mm GMC" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="158a-0a92-6df9-f37f" name="2x Type 1 Ho-Ni I" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0064-62ff-dc9e-33d7" name="3x Type 1 Ho-Ni I" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e34d-b192-5140-524f" name="[S] Engineer Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a89d-ceea-ec15-a360" name="[S] Recon Tankette Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48c6-e22c-480e-8cee" name="[S] Scout Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4eab-58ca-d624-f989" name="[S] Medium Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="45a8-af05-d859-545b" name="[S] Field Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4bf9-6969-17b8-637b" name="[S] Heavy Field Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33f0-86dd-1f78-1e76" name="[S] Heavy Anti-aircraft Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b63-249a-b7b6-d502" name="[S] Naval Gunfire Support" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e69b-3ac9-8d14-cf74" name="[S] Light Anti-aircraft Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fbad-722a-3b0c-5e09" name="* Light Sensha Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="9402-01bf-5fb9-3ecf" name="Light Sensha Chutai HQ Platoon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a1c-a91c-d3e3-f1cb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c6b-5b96-02dd-2350" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="61e0-9528-5ff6-d59c" name="Light Sensha Platoon" hidden="false" collective="false" import="true" targetId="0548-c81c-e20d-47dd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="49d5-5d25-a4be-d8e2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e61-8a47-a0c6-fa2f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3498-e85c-515f-2f5b" name="Light Sensha Platoon" hidden="false" collective="false" import="true" targetId="0548-c81c-e20d-47dd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ecc9-1e36-9cda-b51f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c954-0b3e-fbb3-656a" name="Light Sensha Platoon" hidden="false" collective="false" import="true" targetId="0548-c81c-e20d-47dd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e22-0172-f638-e360" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7958-54d6-7426-4345" name="[S] Air Support" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b08-469e-211a-e326" name="[S] Naval Air &amp; Sea Support" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="574a-487e-d4cf-62b6" name="* Sensha Platoon" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="1713-6db1-7202-f1b3" name="Upgrade Chi-Ha to Kai Shinhoto Chi-Ha" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4481-61b5-dd02-5a6c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="abe8-e51b-e614-a98c" name="Type/Size" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="1727-6276-99ab-5265" name="4x Type 97 Chi-Ha" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9e4d-51c6-9029-f6c3" name="3x Type 97 Chi-Ha" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="40f6-65a4-7d87-520b" name="5x Type 97 Chi-Ha" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0bc0-8a2c-4a2a-d858" name="5x Type 89 Chi-Ro" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="70a9-f885-ed08-4601" name="4x Type 89 Chi-Ro" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7a98-bac2-6897-44df" name="3x Type 89 Chi-Ro" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c93-7f1d-3a49-9eeb" name="* [FS] Ka-Mi Sensha Platoon" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="50d9-5121-d95c-1742" name="Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a106-dfb7-d94a-3181">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0355-0319-141d-a979" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d64-6b01-f94b-ac23" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a106-dfb7-d94a-3181" name="3x Type 2 Ka-Mi" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="44f2-f196-47bb-43ec" name="4x Type 2 Ka-Mi" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1fc7-71f8-1e83-3671" name="5x Type 2 Ka-Mi" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0548-c81c-e20d-47dd" name="* Light Sensha Platoon" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="de39-c6bf-1185-26bc" name="Type/Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="5d2f-3e34-ec6d-10ae">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2222-5dad-998b-a170" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deba-a526-10f4-03cc" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5d2f-3e34-ec6d-10ae" name="Type 95 Ha-Go" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5f4-200c-d599-9824" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3a29-1fab-39cd-f76c" name="Captured M3 Stuart" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a4e-1b8b-f9c0-4499" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="15e2-bdf8-acf7-c689" name="Sniper Team" hidden="false" collective="false" import="true" type="upgrade"/>
+  </sharedSelectionEntries>
+</catalogue>
