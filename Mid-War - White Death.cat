@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="769a-e39e-2811-fc08" name="Mid-War - White Death" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Started Oct 2024
-V1.1 finished 10-28-24</readme>
+V1.1 finished 10-28-24
+V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
   <categoryEntries>
     <categoryEntry id="6449-250b-3e4d-4415" name="T-28" hidden="true"/>
     <categoryEntry id="46c4-fd76-2dc6-2fd2" name="Limited" hidden="false"/>
@@ -164,7 +165,7 @@ V1.1 finished 10-28-24</readme>
             <infoLink id="af12-ca2e-0d65-81d7" name="Armoured Reserve" hidden="false" targetId="6998-876f-198f-9c8e" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="53c8-aa04-6092-1d3a" name="T-26" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="53c8-aa04-6092-1d3a" name="2x -26" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d75c-04d4-7f39-74a1" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4350-5c2e-d6cc-6be6" type="max"/>
@@ -258,12 +259,12 @@ V1.1 finished 10-28-24</readme>
                   <selectionEntries>
                     <selectionEntry id="f24b-7d78-a003-4118" name="2x T-34 (76mm)" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="adcf-320b-0928-9628" name="3x T-34 (76mm)" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -341,7 +342,7 @@ V1.1 finished 10-28-24</readme>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="4aa2-78a1-21ca-6eda" name="*[FS] T-26 Armoured Platoon" hidden="false" collective="false" import="true" targetId="1ba3-1d84-6743-ef82" type="selectionEntry"/>
+            <entryLink id="4aa2-78a1-21ca-6eda" name="T-26 Armoured Platoon" hidden="false" collective="false" import="true" targetId="1ba3-1d84-6743-ef82" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="db98-42ea-da6d-6f8b" name="3) Anti-Aircraft" hidden="false" collective="false" import="true">
@@ -1614,6 +1615,9 @@ V1.1 finished 10-28-24</readme>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a93b-e764-bfd7-3a0f" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="385f-4b70-5969-4f03" type="min"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -2214,6 +2218,9 @@ V1.1 finished 10-28-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f83e-9dcf-a949-f2ea" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5a6-5335-3c54-7e09" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2472,7 +2479,7 @@ Discard this card: Automatically pass one Unit Last Stand Test for a Unit from t
           <profiles>
             <profile id="99ef-02e3-380f-e001" name="Cut Them Down" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
               <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation COmmander may re-roll failed To Hit rolls when Shooting during Defensive Fire while being assaulted.</characteristic>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation Commander may re-roll failed To Hit rolls when Shooting during Defensive Fire while being assaulted.</characteristic>
               </characteristics>
             </profile>
           </profiles>
