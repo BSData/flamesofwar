@@ -1614,6 +1614,9 @@ V1.1 finished 10-28-24</readme>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a93b-e764-bfd7-3a0f" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="385f-4b70-5969-4f03" type="min"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -2214,6 +2217,9 @@ V1.1 finished 10-28-24</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f83e-9dcf-a949-f2ea" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5a6-5335-3c54-7e09" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2472,7 +2478,7 @@ Discard this card: Automatically pass one Unit Last Stand Test for a Unit from t
           <profiles>
             <profile id="99ef-02e3-380f-e001" name="Cut Them Down" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
               <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation COmmander may re-roll failed To Hit rolls when Shooting during Defensive Fire while being assaulted.</characteristic>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation Commander may re-roll failed To Hit rolls when Shooting during Defensive Fire while being assaulted.</characteristic>
               </characteristics>
             </profile>
           </profiles>
