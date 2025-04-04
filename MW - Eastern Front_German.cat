@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a78-3dec-6e98-6592" name="Eastern Front Mid-War Forces: German" revision="1" battleScribeVersion="2.03" authorName="The Hav3rchuck" authorContact="" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6a78-3dec-6e98-6592" name="Mid-War - Eastern Front: German" revision="1" battleScribeVersion="2.03" authorName="The Hav3rchuck" authorContact="" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="120f-2abd-42e6-0f09" name="Reconnaissance Scout Troop" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -228,6 +228,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3f12-0eee-8602-9541" name="3.7, 5. 7.5, 8.8cm Anti-Tank" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -252,6 +255,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9f8b-0aad-f71d-e395" name="Marder Anti-Tank" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -5501,7 +5507,11 @@ Counterattach 5+</characteristic>
         <infoLink id="871e-9046-e944-9354" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="988b-7b29-5306-a922" name="1x Observer K98 rifle team" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="988b-7b29-5306-a922" name="1x Observer K98 rifle team" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
@@ -6043,7 +6053,7 @@ Counterattach 5+</characteristic>
             <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
             <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
             <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-            <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6111,7 +6121,7 @@ Counterattach 5+</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
             <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"></characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
             <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic>
             <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
@@ -7396,7 +7406,7 @@ If a Borgward demolition carrier is Destroyed, before removing it from play, rol
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3bfc-411b-7990-5472" name="Armoured Fist" revision="1" battleScribeVersion="2.03" authorName="Anh Nhân Nguyễn" authorContact="anhnhan@anhnhan.de" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3bfc-411b-7990-5472" name="Mid-War - Armoured Fist" revision="1" battleScribeVersion="2.03" authorName="Anh Nhân Nguyễn" authorContact="anhnhan@anhnhan.de" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="7a78-85d3-bf66-4a29" name="Sherman Armoured Squadron" publicationId="59c8-b9e8-2f69-1767" hidden="false" collective="false" import="true" type="unit">
       <comment>MB131</comment>
@@ -36,6 +36,9 @@
                 <entryLink id="63ae-ad37-4eb1-3c1b" name="Charmed Life" hidden="false" collective="false" import="true" targetId="d2c8-3899-0620-9f74" type="selectionEntry"/>
                 <entryLink id="e538-e543-7bec-c3a2" name="Big Guns" hidden="false" collective="false" import="true" targetId="0e44-da89-91b5-4bde" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -142,6 +145,9 @@
                 <entryLink id="eaea-97af-b531-8f65" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="650f-97e6-3ced-2140" type="selectionEntry"/>
                 <entryLink id="0909-645c-e985-8551" name="Charmed Life" hidden="false" collective="false" import="true" targetId="d2c8-3899-0620-9f74" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -283,6 +289,9 @@
                 <entryLink id="887a-59f0-18b1-141f" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="650f-97e6-3ced-2140" type="selectionEntry"/>
                 <entryLink id="d48d-acce-e5f6-ee47" name="Charmed Life" hidden="false" collective="false" import="true" targetId="d2c8-3899-0620-9f74" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -356,6 +365,9 @@
                 <entryLink id="daa9-4ee3-4261-6d0f" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="650f-97e6-3ced-2140" type="selectionEntry"/>
                 <entryLink id="399f-0bae-fff3-1827" name="Charmed Life" hidden="false" collective="false" import="true" targetId="d2c8-3899-0620-9f74" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -441,6 +453,9 @@
                 <entryLink id="8d46-6594-23d5-855b" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="650f-97e6-3ced-2140" type="selectionEntry"/>
                 <entryLink id="61fe-ef02-21b4-c355" name="Charmed Life" hidden="false" collective="false" import="true" targetId="d2c8-3899-0620-9f74" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -521,6 +536,9 @@
                 <entryLink id="18aa-e84f-e956-2664" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="650f-97e6-3ced-2140" type="selectionEntry"/>
                 <entryLink id="705c-0f57-1ad3-b32d" name="Charmed Life" hidden="false" collective="false" import="true" targetId="d2c8-3899-0620-9f74" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -661,6 +679,9 @@
                 <entryLink id="4e9a-4f2b-ca00-f388" name="Infantry Support" hidden="false" collective="false" import="true" targetId="38a2-19fc-77d0-839d" type="selectionEntry"/>
                 <entryLink id="8ceb-e4b3-ed00-e8be" name="Charge!" hidden="false" collective="false" import="true" targetId="d2e4-67c9-fc3d-ca17" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -693,7 +714,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa6e-e272-04b8-9e76" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6d5a-126f-7a11-4352" name="Rifle Company HQ" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+            <profile id="6d5a-126f-7a11-4352" name="Rifle Company HQ" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
               <characteristics>
                 <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Counterattack 3+</characteristic>
                 <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 3+</characteristic>
@@ -704,6 +725,7 @@
                 <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
                 <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
                 <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+                <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
               </characteristics>
             </profile>
           </profiles>
@@ -748,6 +770,9 @@
                 <entryLink id="7481-447b-bcf2-03a1" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="650f-97e6-3ced-2140" type="selectionEntry"/>
                 <entryLink id="35f4-5e8c-681b-61e7" name="Charmed Life" hidden="false" collective="false" import="true" targetId="d2c8-3899-0620-9f74" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -800,7 +825,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="002c-2a74-7680-579a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="35b6-bcb2-3fcf-8308" name="Motor Company HQ" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+            <profile id="35b6-bcb2-3fcf-8308" name="Motor Company HQ" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
               <characteristics>
                 <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Counterattack 3+</characteristic>
                 <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 3+</characteristic>
@@ -811,6 +836,7 @@
                 <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
                 <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
                 <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+                <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
               </characteristics>
             </profile>
           </profiles>
@@ -849,6 +875,9 @@
                 <entryLink id="5b6b-4528-7b3c-80d7" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="650f-97e6-3ced-2140" type="selectionEntry"/>
                 <entryLink id="44d2-267a-4cd6-ae31" name="Charmed Life" hidden="false" collective="false" import="true" targetId="d2c8-3899-0620-9f74" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -923,7 +952,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ed-02ba-e84f-e22e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="42f4-0888-3877-a968" name="25 pdr field troop" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+                <profile id="42f4-0888-3877-a968" name="25 pdr field troop" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
                   <characteristics>
                     <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
                     <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
@@ -934,6 +963,7 @@
                     <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
                     <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
                     <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+                    <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
                   </characteristics>
                 </profile>
                 <profile id="4dd5-20b0-b6e7-308f" name="25 pdr gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -973,6 +1003,9 @@
                     <entryLink id="b6c9-6034-3d87-d3a3" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="cb0e-0429-434e-66bd" type="selectionEntry"/>
                     <entryLink id="bfa1-294c-b238-b2b8" name="Sticky Bombs" hidden="false" collective="false" import="true" targetId="8696-6c23-91f4-deea" type="selectionEntry"/>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -1005,19 +1038,20 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dd4-ec82-7b92-0c7b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="689a-aaa6-8013-3059" name="Priest field troop" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+                <profile id="689a-aaa6-8013-3059" name="Priest field troop" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
                   <characteristics>
                     <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ Counterattack 5+</characteristic>
                     <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 5+</characteristic>
                     <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
                     <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-                    <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+                    <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
                     <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
                     <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
                     <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
                     <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
                     <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
                     <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+                    <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
                   </characteristics>
                 </profile>
                 <profile id="5673-77f7-f86d-2020" name="Priest (105mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1168,7 +1202,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="818a-d7b3-ac35-5123" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fcc9-077f-fc48-6189" name="17/25 pdr anti-tank troop" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="fcc9-077f-fc48-6189" name="17/25 pdr anti-tank troop" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
             <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
@@ -1179,6 +1213,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
         <profile id="1bbf-ea3f-a860-0868" name="17/25 pdr gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1210,6 +1245,9 @@
             <entryLink id="5001-4e5e-4dd1-da34" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="cb0e-0429-434e-66bd" type="selectionEntry"/>
             <entryLink id="be87-ff73-2461-9eba" name="Sticky Bombs" hidden="false" collective="false" import="true" targetId="8696-6c23-91f4-deea" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1247,7 +1285,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbcb-3ce1-e7ec-31f0" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1f3f-039d-19f2-664c" name="Bofors light AA troop" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="1f3f-039d-19f2-664c" name="Bofors light AA troop" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
             <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
@@ -1258,6 +1296,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
         <profile id="51d0-2898-aebc-8b29" name="Bofors 40mm AA gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1321,7 +1360,7 @@
             <selectionEntry id="3de0-3a7e-b0e3-9841" name="Hurricane tank-busting flight" hidden="false" collective="false" import="true" type="upgrade">
               <comment>MB119</comment>
               <profiles>
-                <profile id="3b8a-5340-6aed-ac0d" name="Hurricane" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft">
+                <profile id="3b8a-5340-6aed-ac0d" name="Hurricane" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit">
                   <characteristics>
                     <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">4+</characteristic>
                     <characteristic name="Skill" typeId="e506-9161-836a-5e2d">4+</characteristic>
@@ -1332,6 +1371,7 @@
                     <characteristic name="Cross Country Dash" typeId="037d-b1be-ca62-5c3e"/>
                     <characteristic name="Road Dash" typeId="207b-99f1-9a35-12d8"/>
                     <characteristic name="Cross" typeId="07b3-6909-7897-f282">AUTO</characteristic>
+                    <characteristic name="Notes" typeId="8252-ebff-91e7-47ea"/>
                   </characteristics>
                 </profile>
                 <profile id="1fbc-9ba2-ba16-03e9" name="Hurricane (Vickers S gun)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1363,7 +1403,7 @@
             <selectionEntry id="adf5-c927-0ace-d216" name="Kittyhawk fighter-bomber flight" hidden="false" collective="false" import="true" type="upgrade">
               <comment>MB138</comment>
               <profiles>
-                <profile id="773d-efb4-c26c-0c9a" name="Kittyhawk" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft">
+                <profile id="773d-efb4-c26c-0c9a" name="Kittyhawk" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit">
                   <characteristics>
                     <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">4+</characteristic>
                     <characteristic name="Skill" typeId="e506-9161-836a-5e2d">4+</characteristic>
@@ -1374,6 +1414,7 @@
                     <characteristic name="Cross Country Dash" typeId="037d-b1be-ca62-5c3e"/>
                     <characteristic name="Road Dash" typeId="207b-99f1-9a35-12d8"/>
                     <characteristic name="Cross" typeId="07b3-6909-7897-f282">AUTO</characteristic>
+                    <characteristic name="Notes" typeId="8252-ebff-91e7-47ea"/>
                   </characteristics>
                 </profile>
                 <profile id="1af9-da2c-f619-b8c4" name="500 lb bombs" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1441,6 +1482,9 @@
         <entryLink id="4f51-f820-bc26-31a5" name="John Currie" hidden="false" collective="false" import="true" targetId="6297-e7b9-0b86-ccab" type="selectionEntry"/>
         <entryLink id="90c7-1fac-4523-38c8" name="Planned Raid" hidden="false" collective="false" import="true" targetId="58ef-df1b-fd33-c958" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dd66-0187-3cf6-4ac1" name="Daimler Armoured Car Squadron" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1460,6 +1504,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="81ef-8d10-42df-2baa" name="Mailed Fist Armoured Car Squadron" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1477,6 +1524,9 @@
         </entryLink>
         <entryLink id="23ad-e745-023b-9bbb" name="Humber Armoured Car Squadron HQ" hidden="false" collective="false" import="true" targetId="01d3-7256-2540-0604" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c322-3c3c-b69f-e0b7" name="Humber Armoured Car Squadron" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1491,6 +1541,9 @@
         </entryLink>
         <entryLink id="64ee-8d7b-5ce3-520a" name="Humber Armoured Car Squadron HQ" hidden="false" collective="false" import="true" targetId="01d3-7256-2540-0604" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="eb3a-23c0-7b9b-0358" name="Australian Divisional Cavalry" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1531,8 +1584,14 @@
                 <entryLink id="16f6-f2b2-fac0-506e" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="650f-97e6-3ced-2140" type="selectionEntry"/>
                 <entryLink id="af7c-712e-b001-bc23" name="Charmed Life" hidden="false" collective="false" import="true" targetId="d2c8-3899-0620-9f74" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1560,6 +1619,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4589-7677-c7e5-0d98" name="New Zealand Divisional Cavalry" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1600,8 +1662,14 @@
                 <entryLink id="3fb7-6821-367a-c665" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="650f-97e6-3ced-2140" type="selectionEntry"/>
                 <entryLink id="2e9f-493f-7ea8-ea62" name="Charmed Life" hidden="false" collective="false" import="true" targetId="d2c8-3899-0620-9f74" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1618,6 +1686,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -1773,6 +1844,9 @@
           <entryLinks>
             <entryLink id="aa0d-67b8-e9b7-78f9" name="Cavalry Commander" hidden="false" collective="false" import="true" targetId="e618-30a7-b425-f467" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1798,6 +1872,9 @@
             <entryLink id="56a6-1d47-84d6-226a" name="Scout Tanks" hidden="false" collective="false" import="true" targetId="2b52-031c-959c-42af" type="selectionEntry"/>
             <entryLink id="3af4-deb7-3363-7867" name="Cavalry Commander" hidden="false" collective="false" import="true" targetId="e618-30a7-b425-f467" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1870,6 +1947,9 @@
             <entryLink id="0f60-8c06-0154-b8a5" name="Scout Tanks" hidden="false" collective="false" import="true" targetId="2b52-031c-959c-42af" type="selectionEntry"/>
             <entryLink id="5f55-5049-a70b-3545" name="Cavalry Commander" hidden="false" collective="false" import="true" targetId="e618-30a7-b425-f467" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1894,6 +1974,9 @@
             <entryLink id="5504-c878-934f-3e00" name="Good Shot" hidden="false" collective="false" import="true" targetId="14ef-9796-121b-7b27" type="selectionEntry"/>
             <entryLink id="277c-c931-e130-9e26" name="Mad Tanks" hidden="false" collective="false" import="true" targetId="a759-0de9-a703-f67d" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1946,6 +2029,9 @@
           <entryLinks>
             <entryLink id="db09-feff-6199-c935" name="Cavalry Commander" hidden="false" collective="false" import="true" targetId="e618-30a7-b425-f467" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1977,6 +2063,9 @@
           <entryLinks>
             <entryLink id="fad8-0ec1-02b3-2406" name="Cavalry Commander" hidden="false" collective="false" import="true" targetId="e618-30a7-b425-f467" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1986,7 +2075,7 @@
     <selectionEntry id="d2d0-746d-b120-a801" name="Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <comment>MB134</comment>
       <profiles>
-        <profile id="d1e2-3479-ca51-7a6f" name="Rifle Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+        <profile id="d1e2-3479-ca51-7a6f" name="Rifle Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Counterattack 3+</characteristic>
             <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 3+</characteristic>
@@ -1997,6 +2086,7 @@
             <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
             <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
             <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2020,6 +2110,9 @@
             <entryLink id="91f7-6b71-8491-a541" name="Sticky Bombs" hidden="false" collective="false" import="true" targetId="8696-6c23-91f4-deea" type="selectionEntry"/>
             <entryLink id="5c02-bc81-d131-a5d3" name="Dead Eye" hidden="false" collective="false" import="true" targetId="a7d1-783c-4f45-d0f1" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2073,6 +2166,9 @@
               </modifiers>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2106,7 +2202,7 @@
     <selectionEntry id="a7f5-8833-dda4-39d0" name="6 pdr anti-tank platoon" publicationId="59c8-b9e8-2f69-1767" page="60" hidden="false" collective="false" import="true" type="upgrade">
       <comment>MB110</comment>
       <profiles>
-        <profile id="f301-3a7a-f055-91ed" name="6 pdr anti-tank platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+        <profile id="f301-3a7a-f055-91ed" name="6 pdr anti-tank platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
             <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ Assault 4+</characteristic>
@@ -2117,6 +2213,7 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
         <profile id="9167-c5e2-c8a9-f71a" name="6 pdr gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2145,6 +2242,9 @@
             <entryLink id="20f6-96eb-a090-e6c2" name="Portees" hidden="false" collective="false" import="true" targetId="ea3e-0d47-ce6f-08fa" type="selectionEntry"/>
             <entryLink id="8cc8-21a9-9ca5-84c1" name="Sticky Bombs" hidden="false" collective="false" import="true" targetId="8696-6c23-91f4-deea" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2193,6 +2293,9 @@
             <entryLink id="38cf-26ba-8b28-57b7" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="cb0e-0429-434e-66bd" type="selectionEntry"/>
             <entryLink id="0df1-2d64-fdd1-3bf0" name="Sticky Bombs" hidden="false" collective="false" import="true" targetId="8696-6c23-91f4-deea" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2247,7 +2350,7 @@
             <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
           </characteristics>
         </profile>
-        <profile id="546b-469c-45d0-3505" name="Vickers MMG Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+        <profile id="546b-469c-45d0-3505" name="Vickers MMG Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Counterattack 3+</characteristic>
             <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 5+</characteristic>
@@ -2258,6 +2361,7 @@
             <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
             <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
             <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2274,6 +2378,9 @@
             <entryLink id="3aba-d7e1-6a55-3dbc" name="Sticky Bombs" hidden="false" collective="false" import="true" targetId="8696-6c23-91f4-deea" type="selectionEntry"/>
             <entryLink id="619d-569b-9981-cdfe" name="Dead Eye" hidden="false" collective="false" import="true" targetId="a7d1-783c-4f45-d0f1" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2303,19 +2410,20 @@
     <selectionEntry id="7db9-e68b-2b54-4df4" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" type="upgrade">
       <comment>MB113</comment>
       <profiles>
-        <profile id="6738-cb37-71b8-4b73" name="Universal Carrier Patrol" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+        <profile id="6738-cb37-71b8-4b73" name="Universal Carrier Patrol" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 5+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-            <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">0</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
             <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
         <profile id="511a-a445-75bf-926b" name="Carrier (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2375,7 +2483,7 @@
     <selectionEntry id="ada6-4c46-b3e8-3b4b" name="Motor Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <comment>MB134</comment>
       <profiles>
-        <profile id="c959-1c70-f6c6-e028" name="Motor Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+        <profile id="c959-1c70-f6c6-e028" name="Motor Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ Counterattack 3+</characteristic>
             <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 3+</characteristic>
@@ -2386,6 +2494,7 @@
             <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
             <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
             <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
           </characteristics>
         </profile>
         <profile id="8d2e-c576-e810-37e3" name="Bren Gun team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2417,6 +2526,9 @@
             <entryLink id="805f-dc2b-e2e4-6fbd" name="Sticky Bombs" hidden="false" collective="false" import="true" targetId="8696-6c23-91f4-deea" type="selectionEntry"/>
             <entryLink id="ef66-cd31-76bf-0717" name="Dead Eye" hidden="false" collective="false" import="true" targetId="a7d1-783c-4f45-d0f1" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2469,6 +2581,9 @@
             <entryLink id="0e24-da9c-bd69-ac3f" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="cb0e-0429-434e-66bd" type="selectionEntry"/>
             <entryLink id="37ce-e82c-2bf6-64e9" name="Sticky Bombs" hidden="false" collective="false" import="true" targetId="8696-6c23-91f4-deea" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2634,6 +2749,9 @@
             <entryLink id="0c9d-9ac9-aa6d-54ae" name="Cut Them Down" hidden="false" collective="false" import="true" targetId="650f-97e6-3ced-2140" type="selectionEntry"/>
             <entryLink id="21d5-e5c6-7347-c759" name="Charmed Life" hidden="false" collective="false" import="true" targetId="d2c8-3899-0620-9f74" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2656,6 +2774,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2b82-4d5c-a854-616c" name="Daimler armoured car troop" hidden="false" collective="false" import="true" type="upgrade">
       <comment>MB136</comment>
@@ -2707,6 +2828,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d708-cbd2-a11e-8b8b" name="Diversionary Tactics" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2769,8 +2893,14 @@
             <entryLink id="3ea5-2500-a423-849c" name="Roll Over Them" hidden="false" collective="false" import="true" targetId="c8e2-c2cb-880c-58ff" type="selectionEntry"/>
             <entryLink id="3c48-0a3f-f14c-19b7" name="Cavalry Commander" hidden="false" collective="false" import="true" targetId="e618-30a7-b425-f467" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cb0e-0429-434e-66bd" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3063,19 +3193,20 @@ British Units from Formations with Night Attack can move freely from the start o
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="4104-89d2-28f6-5ffe" name="Sherman (75mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="4104-89d2-28f6-5ffe" name="Sherman (75mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">4</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="fbf3-f9e7-fbb4-73af" name="Honey (37mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3098,19 +3229,20 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="b5bc-d0c2-da85-d8d3" name="Honey OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="b5bc-d0c2-da85-d8d3" name="Honey OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 6 Counterattack 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="d0b2-c9b8-1e74-4132" name="Honey OP (37mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3153,19 +3285,20 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="3aa4-8b63-1077-7741" name="Grant (37mm &amp; 75mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="3aa4-8b63-1077-7741" name="Grant (37mm &amp; 75mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 5+ Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">4</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="10ae-2102-ac0e-9e6b" name="Grant (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3198,19 +3331,20 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke</characteristic>
       </characteristics>
     </profile>
-    <profile id="8a83-d360-f76b-705b" name="Crusader II (2 pdr) / CS (3 inch)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="8a83-d360-f76b-705b" name="Crusader II (2 pdr) / CS (3 inch)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Tactics 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">14&quot;/35cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="29e6-f054-9057-e2dd" name="Crusader II (2 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3253,19 +3387,20 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="3fc5-b197-8761-f184" name="Crusader III (6 pdr)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="3fc5-b197-8761-f184" name="Crusader III (6 pdr)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Tactics 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">14&quot;/35cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="2293-87b9-246f-4e36" name="Crusader III (6 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3278,34 +3413,36 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE, Overworked</characteristic>
       </characteristics>
     </profile>
-    <profile id="1edc-0108-a9a8-a179" name="Honey" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="1edc-0108-a9a8-a179" name="Honey" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Tactics 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
-    <profile id="ccc3-900f-27cb-925e" name="Crusader CS (3 inch) Death or Glory" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="ccc3-900f-27cb-925e" name="Crusader CS (3 inch) Death or Glory" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Tactics 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">14&quot;/35cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="1a3c-83da-1a62-0413" name="Valentine III (2 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3318,19 +3455,20 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic>
       </characteristics>
     </profile>
-    <profile id="403c-956c-83d0-931c" name="Valentine III (2 pdr) Death or Glory" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="403c-956c-83d0-931c" name="Valentine III (2 pdr) Death or Glory" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Tactics 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="43a7-9156-b027-db30" name="Valentine III (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3343,19 +3481,20 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="779f-66b4-9e2e-9b77" name="Lee (37mm &amp; 75mm) Death or Glory" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="779f-66b4-9e2e-9b77" name="Lee (37mm &amp; 75mm) Death or Glory" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Tactics 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">4</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="a88d-baf1-319a-3066" name="Lee Turret (37mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3388,49 +3527,52 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="a9b0-b5ee-8676-47e3" name="Crusader III (6 pdr) Death or Glory" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="a9b0-b5ee-8676-47e3" name="Crusader III (6 pdr) Death or Glory" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ Tactics 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">14&quot;/35cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
-    <profile id="c528-51c6-d2e6-81d3" name="Churchill III (6 pdr)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="c528-51c6-d2e6-81d3" name="Churchill III (6 pdr)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 3+ Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">8</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">7</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">7</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">14&quot;/35cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
-    <profile id="1e50-2818-c266-52ab" name="Churchill CS (2 pdr &amp; 3-inch)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="1e50-2818-c266-52ab" name="Churchill CS (2 pdr &amp; 3-inch)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 3+ Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">8</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">7</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">7</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">14&quot;/35cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="7361-aab7-76fd-1359" name="Churchill III (6 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3513,34 +3655,36 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="4f5b-a566-9660-cd1f" name="Valentine II (2 pdr)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="4f5b-a566-9660-cd1f" name="Valentine II (2 pdr)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">6</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">6</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
-    <profile id="86d0-2a68-6401-49f0" name="Valentine VIII (6 pdr)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="86d0-2a68-6401-49f0" name="Valentine VIII (6 pdr)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">5</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="d232-1317-66fc-56b9" name="Valentine VIII (6 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3583,7 +3727,7 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Overhead Fire, Slow Firing, Smoke</characteristic>
       </characteristics>
     </profile>
-    <profile id="043c-cd35-8476-bd14" name="3-inch mortar" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="043c-cd35-8476-bd14" name="3-inch mortar" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ Assault 5+</characteristic>
@@ -3594,6 +3738,7 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">3+</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
     <profile id="6d8d-0a9f-01ba-d743" name="3-inch mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3616,19 +3761,20 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="a41d-ec47-92b0-4bd5" name="Humber armoured car" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="a41d-ec47-92b0-4bd5" name="Humber armoured car" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="8db6-27bf-480a-0f9c" name="Humber (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -3651,19 +3797,20 @@ British Units from Formations with Night Attack can move freely from the start o
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="1145-6002-b56b-b7d3" name="Daimler armoured car" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="1145-6002-b56b-b7d3" name="Daimler armoured car" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ Counterattack 6 Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">36&quot;/90cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="ddf4-2e26-1d58-e162" name="Daimler (2 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
