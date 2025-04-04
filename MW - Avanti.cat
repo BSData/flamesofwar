@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d6ab-13de-bbd4-9b5a" name="Avanti" revision="5" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d6ab-13de-bbd4-9b5a" name="Mid-War - Avanti" revision="5" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="5e87-89e9-ebcc-edda" name="Tank Company" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -1586,19 +1586,20 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="e43a-c224-62b7-a37a" name="M14/41 (47mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="e43a-c224-62b7-a37a" name="M14/41 (47mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+(4+) Follow Me 3+(2+) Remount 2+ (2+)</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ (3+) Tactics 5+ (4+)</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="441c-2145-1a94-95d3" name="M14/41 (47mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1621,19 +1622,20 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="513f-bb9f-dcca-745c" name="L6/40 (20mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="513f-bb9f-dcca-745c" name="L6/40 (20mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ (4+) Counterattack 5+ (5+) Last Stand 5+ (5+)</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ (3+) Tactics 5+ (4+) Assault 5+ (5+)</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="c57f-e142-bed7-2371" name="L6/40 (20mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1656,19 +1658,20 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="47f3-2f2b-ed72-6512" name="Semovente (75mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="47f3-2f2b-ed72-6512" name="Semovente (75mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ (3+) Counterattack 5+ (5+) Remount 2+ (2+)</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ (3+) Tactics 5+ (4+) Assault 5+ (5+)</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">2</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="1200-b582-0b78-9f7c" name="Semovente (75mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1701,7 +1704,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="ca25-02ad-b179-b793" name="Brenda MG &amp; Carcano rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="ca25-02ad-b179-b793" name="Brenda MG &amp; Carcano rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ (4+) Follow Me 3+ (2+) Rally 3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ (3+)</characteristic>
@@ -1712,6 +1715,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
     <profile id="a0ed-2084-36ee-b751" name="Brenda MG &amp; Carcano rifle team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1734,7 +1738,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="818d-8efa-3a6e-573f" name="Carcano Rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="818d-8efa-3a6e-573f" name="Carcano Rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ (4+) Follow Me 3+ (2+) Rally 3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ (3+)</characteristic>
@@ -1745,6 +1749,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
     <profile id="bc99-1864-8494-c1d1" name="Brenda HMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1777,7 +1782,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="5dc4-9edd-47fe-59d1" name="Weapons Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="5dc4-9edd-47fe-59d1" name="Weapons Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ (4+) Follow Me 3+ (2+) Rally 3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ (3+)</characteristic>
@@ -1788,9 +1793,10 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
-    <profile id="6e88-8248-9636-3123" name="Brenda MG Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="6e88-8248-9636-3123" name="Brenda MG Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ (4+) Rally 3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ (3+) Assault 5+ (5+)</characteristic>
@@ -1801,9 +1807,10 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
-    <profile id="5fd0-5039-228f-d1b0" name="Assault Mortar Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="5fd0-5039-228f-d1b0" name="Assault Mortar Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ (4+) Follow Me 3+ (2+) Rally 3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ (3+) Assault 5+ (5+)</characteristic>
@@ -1814,6 +1821,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
     <profile id="3f3d-c7fe-ec4f-b6f8" name="Assault Mortar team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1826,7 +1834,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overhead Fire, Smoke</characteristic>
       </characteristics>
     </profile>
-    <profile id="d8eb-32ef-910f-944b" name="81mm Mortar Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="d8eb-32ef-910f-944b" name="81mm Mortar Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ (4+) Rally 3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ (3+) Assault 5+ (5+)</characteristic>
@@ -1837,6 +1845,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
     <profile id="c24c-f101-0fe6-c0f3" name="81mm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1849,7 +1858,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="7c85-1e29-2f3e-2c04" name="Assault Engineer Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="7c85-1e29-2f3e-2c04" name="Assault Engineer Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ (3+) Follow Me 3+ (2+)</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ (3+) Assault 3+ (3+)</characteristic>
@@ -1860,6 +1869,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
     <profile id="efa8-5186-dc83-ebeb" name="Brixia mortar team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1882,7 +1892,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Flame-thrower, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="865f-3180-4ed5-62e4" name="100mm Howitzer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+    <profile id="865f-3180-4ed5-62e4" name="100mm Howitzer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ (3+) Assault 5+ (5+)</characteristic>
@@ -1893,6 +1903,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
         <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+        <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
       </characteristics>
     </profile>
     <profile id="bf24-a1cf-c4ff-2b5a" name="100mm howitzer" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1915,7 +1926,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing, Smoke</characteristic>
       </characteristics>
     </profile>
-    <profile id="6391-0500-3458-1731" name="88mm AT gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun">
+    <profile id="6391-0500-3458-1731" name="88mm AT gun" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ (3+) Assault 5+ (5+)</characteristic>
@@ -1926,6 +1937,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
         <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
+        <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
       </characteristics>
     </profile>
     <profile id="4ffa-f189-dd24-7426" name="88mm AT gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1938,7 +1950,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="62dc-2ea6-a750-db81" name="Autocanonne 20mm" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank">
+    <profile id="62dc-2ea6-a750-db81" name="Autocanonne 20mm" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="55ef-8653-887d-4642">3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">4+ (3+)</characteristic>
@@ -1949,6 +1961,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
+        <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
       </characteristics>
     </profile>
     <profile id="1b9d-90b7-f829-9bd8" name="Autocanonne (20mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1961,7 +1974,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="1b80-5cd5-d8f8-dfb0" name="Lancia (90mm)" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank">
+    <profile id="1b80-5cd5-d8f8-dfb0" name="Lancia (90mm)" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="55ef-8653-887d-4642">3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">4+ (3+)</characteristic>
@@ -1972,6 +1985,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">10&quot;/25cm</characteristic>
         <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">24&quot;/60cm</characteristic>
         <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">6</characteristic>
+        <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
       </characteristics>
     </profile>
     <profile id="80a8-062a-9142-2143" name="Lancia (90mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1984,19 +1998,20 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="fbda-51cf-b60b-d043" name="AB41" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="fbda-51cf-b60b-d043" name="AB41" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ (4+) Counterattack 6 (6) Last Stand 5+ (5+)</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ (3+) Tactics 5+ (4+) Assault 5+ (5+)</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">36&quot;/90cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="680d-a0ce-0964-7319" name="AB41 (20mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2029,22 +2044,23 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="5a15-7fcc-031c-9686" name="AB41 OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Team">
+    <profile id="5a15-7fcc-031c-9686" name="AB41 OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ (4+)  Last Stand 5+ (5+) Remount 3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ (3+)</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-        <characteristic name="Armour Side" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
         <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">36&quot;/90cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
-    <profile id="5c23-ea86-c486-5924" name="47mm gun" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry">
+    <profile id="5c23-ea86-c486-5924" name="47mm gun" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ (4+) Follow Me 3+ (2+) Rally 3+ (3+)</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ (3+) Assault 5+ (5+)</characteristic>
@@ -2055,9 +2071,10 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
         <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
         <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
-    <profile id="410d-0208-6cc4-2316" name="CR.42 Falco" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft">
+    <profile id="410d-0208-6cc4-2316" name="CR.42 Falco" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit">
       <characteristics>
         <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">4+ (4+)</characteristic>
         <characteristic name="Skill" typeId="e506-9161-836a-5e2d">4+ (3+)</characteristic>
@@ -2068,6 +2085,7 @@ Flame-throwers my shoot in Defensive Fire. Howeverm while a Unit that is Hit by 
         <characteristic name="Cross Country Dash" typeId="037d-b1be-ca62-5c3e"/>
         <characteristic name="Road Dash" typeId="207b-99f1-9a35-12d8"/>
         <characteristic name="Cross" typeId="07b3-6909-7897-f282">AUTO</characteristic>
+        <characteristic name="Notes" typeId="8252-ebff-91e7-47ea"/>
       </characteristics>
     </profile>
     <profile id="794a-d034-5059-2f1e" name="100kg bombs" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
