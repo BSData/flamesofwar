@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4e61-1b9e-452b-7fe1" name="Mid-War - Fallschirmjager" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: zharrpostingghoroth" library="true" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4e61-1b9e-452b-7fe1" name="Mid-War - Fallschirmjager" revision="2" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: zharrpostingghoroth" library="true" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Updated to v2 4-9-2025; moderate formatting changes, some updates for Eastern Front usage</readme>
   <sharedSelectionEntries>
     <selectionEntry id="ee5b-b00a-238f-0dac" name="Fallschirmjager 10.5cm Recoilless Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -86,9 +87,18 @@
             <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
+        <profile id="f4af-1fb3-2839-1233" name="3.7cm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a450-65f6-5ea8-c226" name="3.7cm gun" hidden="false" targetId="b1d4-463e-6275-932a" type="profile"/>
         <infoLink id="458c-2a40-78e8-e4f8" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="c123-d6b5-f79b-f05c" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
         <infoLink id="4a6c-1a1c-0c46-60c8" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
@@ -154,7 +164,7 @@
         <profile id="cf5e-98ba-400d-087f" name="5cm gun team" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
-            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ / 4+ Assault</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ /  Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
             <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
             <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
@@ -165,9 +175,18 @@
             <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
+        <profile id="6b26-4240-5f1d-98cf" name="5cm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c858-aa6f-b408-542f" name="5cm gun" hidden="false" targetId="df40-6714-a072-4b05" type="profile"/>
         <infoLink id="1765-a332-e8cd-9c2b" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -201,30 +220,10 @@
     </selectionEntry>
     <selectionEntry id="ee8c-8e4d-3a7a-25ff" name="Fallschirmjager 7.5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b07d-3614-d7a4-a3d3" name="7.5cm mountain gun [Artillery]" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
-            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
-            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
-            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c264-cc14-4630-4cad" name="7.5cm mountain gun [Direct Fire]" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
-            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke</characteristic>
-          </characteristics>
-        </profile>
         <profile id="d322-f1e7-a8b0-9cd6" name="7.5cm Tank-hunter Team" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
-            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ / 4+ Assault</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ / Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
             <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
             <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -235,34 +234,42 @@
             <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
+        <profile id="24f1-54b5-830e-1cdc" name="7.5cm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward FIring</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="aa7d-b986-705e-64f2" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="ca86-a83d-b851-2d6c" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
         <infoLink id="30ef-f4ef-4a20-e0ae" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-        <infoLink id="3333-9f7b-cc24-2013" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-        <infoLink id="b8a8-e933-1240-e0a1" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2490-419a-b1e4-d484" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="30a7-a09f-3636-9a10">
+        <selectionEntryGroup id="5a56-8859-5250-a8b3" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6f13-7249-60ac-2daf">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3897-1a53-8b9f-31db" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1ee-a08f-3343-ab8c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="947e-2f42-444d-3f5a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb6-734e-fbd7-628f" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="30a7-a09f-3636-9a10" name="2x 7.5cm mountain gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1e7c-7646-ce05-3e4d" name="3x 7.5cm gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8d81-5f4f-0f08-8c9d" name="4x 7.5cm mountain gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6f13-7249-60ac-2daf" name="2x 7.5cm gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e084-7a2f-5de7-6127" name="3x 7.5cm mountain gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2e6b-3950-9183-fe01" name="4x 7.5cm gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="29.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -276,8 +283,8 @@
       <profiles>
         <profile id="1d56-150e-b9a2-3da6" name="Marder II (7.5cm) Tank-hunter" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ / 5+ Counterattack</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ / 5+ Assault</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ / Counterattack 5+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ / Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
             <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -349,7 +356,7 @@
       <profiles>
         <profile id="6ca4-e441-d3aa-ca06" name="Fallschirmjager Observation Post" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ / 4+ Last Stand / 5+ Counterattack</characteristic>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ / Last Stand 4+ / Counterattack 5+</characteristic>
             <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
             <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
             <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
@@ -394,6 +401,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fc1b-0117-bfae-d9bf" name="Fallschirm Pioneer Platoon" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f5c7-7c79-86b9-aed2" name="Flame-thrower team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Flame-thrower, Heavy Weapon, Pinned ROF 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="5202-4e33-7c23-2b21" name="Fallschirmjager Platoon" hidden="false" targetId="a2e6-6e0b-2dbe-36e2" type="profile">
           <modifiers>
@@ -405,23 +424,9 @@
         <infoLink id="5dde-aab2-c932-056c" name="MG42 &amp; K98 Rifle team" hidden="false" targetId="6eee-e478-0283-d72d" type="profile"/>
         <infoLink id="d8f9-3229-10fc-31eb" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
         <infoLink id="eb49-d9ef-beef-a9e1" name="Flame-thrower" hidden="false" targetId="f8ec-4aba-faa0-f2d0" type="rule"/>
-        <infoLink id="fd6a-d15e-33c3-0b9f" name="Flame-thrower team" hidden="false" targetId="6715-bdc4-7de4-098e" type="profile"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="fe88-b2a3-06ff-1252" name="0-1 2.8cm anti-tank rifle" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecad-38e0-07b5-1d52" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="be2c-8716-4528-5da5" name="2.8cm anti-tank rifle" hidden="false" targetId="e39d-547d-6b1a-46e9" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8744-9c14-5a64-55a1" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac87-b9ec-4676-e736">
+        <selectionEntryGroup id="8744-9c14-5a64-55a1" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac87-b9ec-4676-e736">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ad8-131f-5b6e-c969" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd59-874b-6b5c-e361" type="min"/>
@@ -435,6 +440,21 @@
             <selectionEntry id="cee8-549d-617d-9b93" name="7x MG42 &amp; K98 rifle teams, 3x Flame-thrower teams" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="491c-348d-9b55-226d" name="2) Support Platoon" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="97c1-041c-3459-ad6a" name="2.8cm anti-tank rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e44c-06bd-2f51-8f02" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0cbb-516c-1cc7-c7eb" name="2.8cm anti-tank rifle" hidden="false" targetId="e39d-547d-6b1a-46e9" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -466,9 +486,18 @@
                 <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
               </characteristics>
             </profile>
+            <profile id="2032-9a69-9fd9-5d03" name="MP40 SMG Team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+                <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="d6fe-e768-67ff-46ad" name="MP40 SMG Team" hidden="false" targetId="909b-8e52-a0b0-a080" type="profile"/>
             <infoLink id="71dd-ada7-7a28-bbf4" name="Stormtroopers" hidden="false" targetId="e2c1-5504-3684-b1fd" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -485,10 +514,10 @@
                 </selectionEntry>
                 <selectionEntry id="4571-302d-8006-d457" name="2x MP40 SMG Team, 1x 7.5cm Recoilless gun team" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="3b81-078f-e389-0bf8" name="7.5cm Recoilless Gun Team" hidden="false" targetId="a2e6-6e0b-2dbe-36e2" type="profile"/>
                     <infoLink id="f952-4314-6c64-3f1f" name="Recoilless" hidden="false" targetId="104f-a2b8-aba6-fc6e" type="rule"/>
                     <infoLink id="89ff-b4fd-892e-3f07" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
                     <infoLink id="1450-2982-4bad-f5ab" name="7.5cm Recoilless Gun" hidden="false" targetId="cbf8-861c-ba05-01b4" type="profile"/>
+                    <infoLink id="9a14-6c9d-8662-f51c" name="7.5cm Recoilless Gun team" hidden="false" targetId="d45d-af52-8d01-c6bd" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
@@ -496,10 +525,10 @@
                 </selectionEntry>
                 <selectionEntry id="36f7-fa9a-60b9-0c9b" name="2x MP40 SMG Team, 2x 7.5cm Recoilless gun team" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="ce91-8217-0611-aec6" name="7.5cm Recoilless Gun Team" hidden="false" targetId="a2e6-6e0b-2dbe-36e2" type="profile"/>
                     <infoLink id="de95-231e-b6fe-be81" name="Recoilless" hidden="false" targetId="104f-a2b8-aba6-fc6e" type="rule"/>
                     <infoLink id="6143-e6be-4a9f-595d" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-                    <infoLink id="e965-8af7-02c7-66e5" name="7.5cm recoilless gun" hidden="false" targetId="cbf8-861c-ba05-01b4" type="profile"/>
+                    <infoLink id="e965-8af7-02c7-66e5" name="7.5cm Recoilless Gun" hidden="false" targetId="cbf8-861c-ba05-01b4" type="profile"/>
+                    <infoLink id="ed21-2254-d058-f598" name="7.5cm Recoilless Gun team" hidden="false" targetId="d45d-af52-8d01-c6bd" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
@@ -513,6 +542,36 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e601-13a0-aa70-a3d2" name="2) Support Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="fbed-ad3c-9981-44ea" name="Fallschirmjager 8cm Mortar Platoon" hidden="false" collective="false" import="true" targetId="9c25-71f5-93bb-3f5e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ca0b-50a5-3bb6-0c5b" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="4a5c-0c30-2c0e-aebc" name="Fallschirmjager 8cm Mortar Platoon" hidden="false" collective="false" import="true" targetId="9c25-71f5-93bb-3f5e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b7df-7ce6-80da-c3f3" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3d1d-dd13-f20e-19b8" name="Fallschirmjager sMG42 Machine-gun Platoon" hidden="false" collective="false" import="true" targetId="7ed0-02e7-bbca-751d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abdc-8262-feb6-ee7f" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d8bf-91ed-76df-33f2" name="1) Additional Infantry Platoon" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="656a-c7c7-47a6-dd29" name="Fallschirmjager Platoon" hidden="false" collective="false" import="true" targetId="6b07-e1ec-03dc-4f5d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c967-d51d-80ef-ed20" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6f4f-b5bc-2049-db47" name="Fallschirmjager Platoon" hidden="false" collective="false" import="true" targetId="6b07-e1ec-03dc-4f5d" type="selectionEntry">
           <constraints>
@@ -526,32 +585,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a9a-3baf-7966-abd3" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="1cf3-3f7f-df52-df8f" name="Fallschirmjager Platoon" hidden="false" collective="false" import="true" targetId="6b07-e1ec-03dc-4f5d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f87e-8c8d-5009-9ebe" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="6f31-f3aa-726e-8305" name="Fallschirmjager 8cm Mortar Platoon" hidden="false" collective="false" import="true" targetId="9c25-71f5-93bb-3f5e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="61e9-74da-59e6-65c3" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="77b5-6435-818d-4474" name="Fallschirmjager sMG42 Machine-gun Platoon" hidden="false" collective="false" import="true" targetId="7ed0-02e7-bbca-751d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb69-ffc9-f35e-00d7" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="bcc9-180a-70fc-ae93" name="Fallschirmjager 8cm Mortar Platoon" hidden="false" collective="false" import="true" targetId="9c25-71f5-93bb-3f5e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3187-71be-c05c-0766" type="max"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2cc-e643-a855-c888" name="2cm Anti-aircraft Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f2cc-e643-a855-c888" name="Fallschirmjager 2cm Anti-aircraft Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="e318-7cfe-ac9c-876a" name="2cm Anti-Aircraft Team" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -612,9 +651,9 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c748-a6db-aa64-004a" name="JU 87 Stuka Dive Bomber Flight" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c748-a6db-aa64-004a" name="Ju 87 Stuka Dive Bomber Flight" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="3ea5-4d8c-107b-b8aa" name="JU 87 Stuka Dive Bomber Flight" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit">
+        <profile id="3ea5-4d8c-107b-b8aa" name="Ju 87 Stuka Dive Bomber Flight" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">4+</characteristic>
             <characteristic name="Skill" typeId="e506-9161-836a-5e2d">3+</characteristic>
@@ -663,34 +702,8 @@
         <infoLink id="acab-82a0-fd4f-0aa3" name="Stormtroopers" hidden="false" targetId="e2c1-5504-3684-b1fd" type="rule"/>
         <infoLink id="8884-aa89-f7e1-a2b7" name="MG42 &amp; K98 Rifle team" hidden="false" targetId="6eee-e478-0283-d72d" type="profile"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="bf7f-f6df-0820-b41e" name="0-2 sMG42 HMGs" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6299-b4d7-12fb-cd92" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="89d8-fe0a-9637-69e6" name="sMG42 HMG" hidden="false" targetId="574d-94e3-6123-71c4" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ebae-1a94-a605-d44b" name="0-1 2.8cm anti-tank rifle" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="787c-a8e9-aa2c-7185" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="a366-31c6-87ad-0af0" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
-            <infoLink id="b384-6a48-eaa2-e849" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
-            <infoLink id="9324-59fd-3785-ae9a" name="2.8cm anti-tank rifle" hidden="false" targetId="e39d-547d-6b1a-46e9" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5c9d-c235-bbe1-286b" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e669-3706-c610-b8b0">
+        <selectionEntryGroup id="5c9d-c235-bbe1-286b" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e669-3706-c610-b8b0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d10e-7f15-73dc-afe7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db00-de0c-dd3f-5dc3" type="max"/>
@@ -708,6 +721,45 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="5c3a-fe33-fcb7-92a5" name="2) Support Platoons" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="140d-3e03-d027-0436" name="2.8cm anti-tank rifle team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c240-5bf8-e8ce-0723" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f7f9-c286-ebe9-61c3" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+                <infoLink id="5554-5061-31d0-de39" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
+                <infoLink id="3aee-1d92-ba12-ddff" name="2.8cm anti-tank rifle" hidden="false" targetId="e39d-547d-6b1a-46e9" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bd42-9a69-08e9-d27e" name="sMG42 HMG team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3df-c913-c68c-bbcf" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2f84-f679-05a5-74fa" name="sMG42 HMG" hidden="false" targetId="574d-94e3-6123-71c4" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8b12-7812-9087-4417" name="sMG42 HMG team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d54d-a2fb-f09d-0703" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f9a2-4124-efac-f8dc" name="sMG42 HMG" hidden="false" targetId="574d-94e3-6123-71c4" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -718,7 +770,7 @@
         <profile id="1909-3739-2df6-d1c1" name="8cm Mortar Team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
-            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ / 4+ Assault</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ / Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
             <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
             <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
@@ -769,7 +821,7 @@
         <profile id="44f4-3704-9490-3c24" name="sMG42 Machine-gun team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
-            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ / 4+ Assault</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ / Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
             <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
             <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -815,7 +867,7 @@
         <profile id="3ecc-4a82-5010-e9c9" name="7.5cm Artillery Team" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
-            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ / 4+ Assault</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ / Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
             <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
             <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
@@ -823,35 +875,52 @@
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
-            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776">Large Gun</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3f47-90a1-4e8d-88e9" name="7.5cm mountain gun [Artillery]" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="903c-3a5d-31c1-549c" name="7.5cm mountain gun [Direct Fire]" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="9690-2bb2-3ab8-2aad" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="8833-2fe5-ff03-d21e" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-        <infoLink id="c8cb-801f-3332-fdde" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
+        <infoLink id="c8cb-801f-3332-fdde" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
+        <infoLink id="23ae-fe2f-1b7f-453b" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+        <infoLink id="d7e2-bad2-d17f-e587" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="02ec-8870-9d11-4846" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="4f7c-ed09-6b25-b979">
+        <selectionEntryGroup id="b068-ce2f-3535-4ad7" name="Unit Size" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1626-cd0c-507f-b60f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8182-8216-0d25-4cdb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f5c-c441-2190-0042" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa6-30f4-43f4-b50d" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4285-c241-0ea1-8e16" name="3x 7.5cm gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b3ff-fed1-bbe7-20ab" name="2x 7.5cm mountain gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4f7c-ed09-6b25-b979" name="2x 7.5cm gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7224-30dc-9c22-980b" name="4x 7.5cm mountain gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f162-0745-e66f-c8ba" name="4x 7.5cm gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="29.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -898,30 +967,6 @@
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="909b-8e52-a0b0-a080" name="MP40 SMG Team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3dc0-c129-215e-0f42" name="7.5cm Recoilless Gun team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
-        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ / 4+ Assault</characteristic>
-        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
-        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
-        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
-        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
-        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
-        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
-      </characteristics>
-    </profile>
     <profile id="6eee-e478-0283-d72d" name="MG42 &amp; K98 Rifle team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
@@ -952,26 +997,6 @@
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Heavy Weapon, No HE</characteristic>
       </characteristics>
     </profile>
-    <profile id="6715-bdc4-7de4-098e" name="Flame-thrower team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Flame-thrower, Heavy Weapon, Pinned ROF 1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b1d4-463e-6275-932a" name="3.7cm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
-      </characteristics>
-    </profile>
     <profile id="2db5-7b6e-328f-79b2" name="3.7cm (firing Stielgranate)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">10&quot;/25cm</characteristic>
@@ -982,14 +1007,18 @@
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="df40-6714-a072-4b05" name="5cm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+    <profile id="d45d-af52-8d01-c6bd" name="7.5cm Recoilless Gun team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ / 4+ Assault</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+        <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
       </characteristics>
     </profile>
   </sharedProfiles>
