@@ -1022,10 +1022,34 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0881-5903-11eb-fb1e" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="9aa8-3555-2553-f78a" name="Ju 87 Stuka" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">4+</characteristic>
+            <characteristic name="Skill" typeId="e506-9161-836a-5e2d">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="9691-8132-58f7-5f86">5+</characteristic>
+            <characteristic name="Save" typeId="3a7a-29d5-008e-09f7">3+</characteristic>
+            <characteristic name="Tactical" typeId="8791-6355-ebcf-f430">UNLIMITED</characteristic>
+            <characteristic name="Terrain Dash" typeId="e6d2-8608-f213-ef1f"/>
+            <characteristic name="Cross Country Dash" typeId="037d-b1be-ca62-5c3e"/>
+            <characteristic name="Road Dash" typeId="207b-99f1-9a35-12d8"/>
+            <characteristic name="Cross" typeId="07b3-6909-7897-f282">AUTO</characteristic>
+            <characteristic name="Notes" typeId="8252-ebff-91e7-47ea"/>
+          </characteristics>
+        </profile>
+        <profile id="19e1-d9b1-3b30-dc84" name="500kg bombs" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Bombs</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="2eaf-7ede-2b20-9c13" name="Bombs" hidden="false" targetId="78a2-7146-034e-a601" type="rule"/>
-        <infoLink id="aa3c-a1db-5092-f1aa" name="Ju 87 Stuka" hidden="false" targetId="1303-568a-38b7-564d" type="profile"/>
-        <infoLink id="f82d-a7f3-135f-cde3" name="500kg bombs" hidden="false" targetId="5634-09d2-861f-5791" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="ac90-8401-9001-8027" name="2x Ju 87 Stuka" hidden="false" collective="false" import="true" type="upgrade">
@@ -4030,30 +4054,6 @@ A Tiger Heavy Tanks Platoon has a Last Stand rating of 2+, whether or not it has
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="1303-568a-38b7-564d" name="Ju 87 Stuka" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="ec3b-729b-2af4-7bed">4+</characteristic>
-        <characteristic name="Skill" typeId="e506-9161-836a-5e2d">3+</characteristic>
-        <characteristic name="Is Hit On" typeId="9691-8132-58f7-5f86">5+</characteristic>
-        <characteristic name="Save" typeId="3a7a-29d5-008e-09f7">3+</characteristic>
-        <characteristic name="Tactical" typeId="8791-6355-ebcf-f430">UNLIMITED</characteristic>
-        <characteristic name="Terrain Dash" typeId="e6d2-8608-f213-ef1f"/>
-        <characteristic name="Cross Country Dash" typeId="037d-b1be-ca62-5c3e"/>
-        <characteristic name="Road Dash" typeId="207b-99f1-9a35-12d8"/>
-        <characteristic name="Cross" typeId="07b3-6909-7897-f282">AUTO</characteristic>
-        <characteristic name="Notes" typeId="8252-ebff-91e7-47ea"/>
-      </characteristics>
-    </profile>
-    <profile id="5634-09d2-861f-5791" name="500kg bombs" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Bombs</characteristic>
       </characteristics>
     </profile>
     <profile id="51f8-e73b-26df-0797" name="Panzer IV" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
