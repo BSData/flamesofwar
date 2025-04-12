@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="3bfc-411b-7990-5472" name="Mid-War - Armoured Fist" revision="2" battleScribeVersion="2.03" authorName="Anh Nhân Nguyễn, UrsinePatriarch" authorContact="anhnhan@anhnhan.de, Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Overhauled 4-9-2025
+Finished 4-12-2025
+Added Dynamic Points 2025
 Applied Command Card Formations but none of the normal Command Cards; will update after I refurbish the rest of the catalogs.</readme>
   <entryLinks>
     <entryLink id="285a-42b9-433c-044b" name="*[FS] Crusader II &amp; III Armoured Troop" hidden="false" collective="false" import="true" targetId="bbba-9e08-5c63-664d" type="selectionEntry">
@@ -513,7 +515,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
           <selectionEntries>
             <selectionEntry id="2667-3623-df56-2127" name="3x Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1f78-0e74-4b77-2817" name="2x Sherman (75mm), 1x Grant (37mm &amp; 75mm)" hidden="false" collective="false" import="true" type="upgrade">
@@ -526,7 +528,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
                 <infoLink id="9a04-1b65-c299-b7c8" name="Secondary Weapon" hidden="false" targetId="8f5c-f2be-1174-4b0e" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -554,7 +556,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c231-b340-5b7f-3b48" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -581,7 +583,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
             <selectionEntry id="fca1-5e8b-61b5-d118" name="3x Crusader II (2 pdr)" hidden="false" collective="false" import="true" type="upgrade">
               <comment>MB104</comment>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3b8d-969f-de6c-a856" name="1x Crusader II (2 pdr), 2x Crusader III (6 pdr)" hidden="false" collective="false" import="true" type="upgrade">
@@ -592,7 +594,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
                 <infoLink id="f765-727d-e910-3f12" name="W Crusader III (6 pdr)" hidden="false" targetId="2293-87b9-246f-4e36" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8c75-6d83-7f31-9e65" name="2x Crusader II (2 pdr), 1x Crusader III (6 pdr)" hidden="false" collective="false" import="true" type="upgrade">
@@ -603,7 +605,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
                 <infoLink id="ac85-824b-4ddd-0aaf" name="W Crusader III (6 pdr)" hidden="false" targetId="2293-87b9-246f-4e36" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -629,7 +631,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7030-e7f3-c779-8867" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -885,17 +887,17 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
           <selectionEntries>
             <selectionEntry id="8047-af68-28b9-80fb" name="4x 6 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="800a-a9a0-f22a-cfbf" name="3x 6 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2c52-0bee-f20c-bdb6" name="2x 6 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -994,7 +996,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26b0-b7a4-e39e-20d3" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1106,7 +1108,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1388-c049-6d49-2aac" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1131,12 +1133,12 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
           <selectionEntries>
             <selectionEntry id="edc0-68dc-fcd6-a178" name="3x Humber Armoured Cars" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a178-5a71-d361-b5a2" name="4x Humber Armoured Cars" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1164,7 +1166,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fbc-d16c-c818-ba89" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1174,7 +1176,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
     </selectionEntry>
     <selectionEntry id="c7bd-cc70-d88a-981b" name="Mailed Fist Armoured Car Troop" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="d0d8-6a6c-69fe-ffc4" name="Daimler armoured car" hidden="false" targetId="1145-6002-b56b-b7d3" type="profile"/>
+        <infoLink id="d0d8-6a6c-69fe-ffc4" name="Daimler Armoured Car" hidden="false" targetId="1145-6002-b56b-b7d3" type="profile"/>
         <infoLink id="fab4-ca11-c11c-30aa" name="Daimler &amp; Dingo (MG)" hidden="false" targetId="1c4d-466c-12e8-6823" type="profile"/>
         <infoLink id="1051-4b1d-79b9-a843" name="Daimler (2 pdr)" hidden="false" targetId="ddf4-2e26-1d58-e162" type="profile"/>
         <infoLink id="1762-19ed-3088-1984" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
@@ -1186,13 +1188,13 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <infoLink id="fd11-4fc3-5538-0dc2" name="Humber Armoured Car" hidden="false" targetId="a41d-ec47-92b0-4bd5" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="452e-f05c-ca7a-d2f5" name="1x Humber Armoured Car, 1x Daimler Armoured Car, 1x Dingo Scout Car" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="452e-f05c-ca7a-d2f5" name="1x Daimler (2 pdr), 1x Humber (15mm), 1x Dingo (MG)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7926-350d-f943-f14f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67f8-0338-0f50-f578" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1217,7 +1219,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f830-21e9-1b0d-a1ce" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1268,17 +1270,17 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
           <selectionEntries>
             <selectionEntry id="8a15-9bef-a2c8-abba" name="3x 17/25 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2904-948b-c8ce-4ee0" name="4x 17/25 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dd61-3fa6-bcfc-a895" name="2x 17/25 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1431,7 +1433,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d82-9d8d-2973-7143" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1615,7 +1617,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
     <selectionEntry id="33a1-05af-7fb0-34f6" name="Crusader Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
       <comment>MB103</comment>
       <selectionEntries>
-        <selectionEntry id="3e4b-af32-b502-08ac" name="Crusader Armoured Squadron HQ" publicationId="59c8-b9e8-2f69-1767" page="34" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="3e4b-af32-b502-08ac" name="Crusader Armoured Squadron HQ" page="" hidden="false" collective="false" import="true" type="unit">
           <comment>MB103</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1798-9322-7387-4914" type="min"/>
@@ -1640,12 +1642,12 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
               <selectionEntries>
                 <selectionEntry id="7f84-7b31-568c-f85a" name="2x Crusader II (2 pdr), 2x Crusader CS (3 inch)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="181d-f3c3-a6d2-6a1f" name="1x Crusader II (2 pdr), 2x Crusader CS (3 inch)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1688,7 +1690,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f3f4-4ad6-4d07-9c03" name="[FS] Crusader Armoured Troop" hidden="false" collective="false" import="true" targetId="bbba-9e08-5c63-664d" type="selectionEntry">
+        <entryLink id="f3f4-4ad6-4d07-9c03" name="Crusader II &amp; III Armoured Troop" hidden="false" collective="false" import="true" targetId="bbba-9e08-5c63-664d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3399-df59-df30-cf1f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8d75-418b-e110-3dd2" type="max"/>
@@ -1844,7 +1846,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b349-a0b3-9c9f-9620" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1918,12 +1920,12 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
               <selectionEntries>
                 <selectionEntry id="9715-68e9-51e3-1ca2" name="3x Grant (37mm &amp; 75mm)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="fbf4-4e5f-4df9-baac" name="2x Grant (37mm &amp; 75mm)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1992,12 +1994,12 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
               <selectionEntries>
                 <selectionEntry id="0553-949d-8988-a75d" name="4x Honey" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c146-5f5e-9502-a176" name="3x Honey" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2343,7 +2345,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="384a-c8ac-986f-f11d" type="min"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2672,7 +2674,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
           </constraints>
           <infoLinks>
             <infoLink id="02d7-b201-38d6-a9f6" name="Sherman (75mm)" hidden="false" targetId="4104-89d2-28f6-5ffe" type="profile"/>
-            <infoLink id="7e44-4eb1-50de-8763" name="W Sherman (75mm)" hidden="false" targetId="e3b1-8ba1-a810-b34b" type="profile"/>
+            <infoLink id="7e44-4eb1-50de-8763" name="Sherman (75mm)" hidden="false" targetId="e3b1-8ba1-a810-b34b" type="profile"/>
             <infoLink id="c4d2-b87e-9df5-5cbf" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
             <infoLink id="a546-0a47-c348-472d" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
             <infoLink id="f376-1d39-4de9-75e2" name="W Sherman (.50 cal MG)" hidden="false" targetId="f952-3194-9fe3-aa9d" type="profile"/>
@@ -2687,17 +2689,17 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
               <selectionEntries>
                 <selectionEntry id="75a2-6e0a-b09e-e913" name="4x Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="448f-b610-b4ec-f5f4" name="3x Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f2be-65de-418f-0acb" name="2x Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4084,12 +4086,12 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
           <selectionEntries>
             <selectionEntry id="bafe-bb2e-a7a4-e1d1" name="2x Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="517c-5de6-4bca-ca4d" name="4x Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4132,12 +4134,12 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
           <selectionEntries>
             <selectionEntry id="a162-576e-045e-9549" name="4x 6 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9073-8c96-baa9-e91b" name="2x 6 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="d6ab-13de-bbd4-9b5a" name="Mid-War - Avanti" revision="5" battleScribeVersion="2.03" authorName="Ulf Bernestedt, UrsinePatriarch" authorContact="battlescribe@bernestedt.se // Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Overhauled for modern streamlining and usage 4-4-2025
+Applied Mid-War Update 2025 4-12-2025
 Command Cards unfinished for now</readme>
   <entryLinks>
     <entryLink id="8cf6-3efb-7225-ac0e" name="Tank Company" hidden="false" collective="false" import="true" targetId="e812-57b9-896b-94d6" type="selectionEntry">
@@ -8,7 +9,7 @@ Command Cards unfinished for now</readme>
         <categoryLink id="003e-b5bb-0396-7c19" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a63f-fbc4-5279-a783" name="*[FS] M14/41 Tank Platoon" hidden="false" collective="false" import="true" targetId="fde7-cf8b-e35f-2a1b" type="selectionEntry">
+    <entryLink id="a63f-fbc4-5279-a783" name="M14/41 Tank Platoon" hidden="false" collective="false" import="true" targetId="fde7-cf8b-e35f-2a1b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -23,7 +24,7 @@ Command Cards unfinished for now</readme>
         <categoryLink id="e114-1dea-553f-9c0a" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4da7-dda1-d9e8-325e" name="*[FS] Semovente SP Battery" hidden="false" collective="false" import="true" targetId="d2cd-441e-f523-aa45" type="selectionEntry">
+    <entryLink id="4da7-dda1-d9e8-325e" name="Semovente SP Battery" hidden="false" collective="false" import="true" targetId="d2cd-441e-f523-aa45" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -78,7 +79,7 @@ Command Cards unfinished for now</readme>
         <categoryLink id="fcf9-8354-e964-00f8" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="62a9-cb80-45bc-70c6" name="*[FS] Rifle Platoon" hidden="false" collective="false" import="true" targetId="fa42-f985-535c-3328" type="selectionEntry">
+    <entryLink id="62a9-cb80-45bc-70c6" name="Rifle Platoon" hidden="false" collective="false" import="true" targetId="fa42-f985-535c-3328" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -101,7 +102,7 @@ Command Cards unfinished for now</readme>
         <categoryLink id="9cae-c515-0246-5714" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6a7a-75fd-c477-7bbd" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry">
+    <entryLink id="6a7a-75fd-c477-7bbd" name="[SG] Assault Engineer Support" hidden="false" collective="false" import="true" targetId="c566-ab78-8214-0556" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8d48-8c0a-b429-cc06" type="max"/>
       </constraints>
@@ -133,7 +134,7 @@ Command Cards unfinished for now</readme>
         <categoryLink id="6adb-1099-e9ce-0dd9" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7c1a-a760-c24e-33e8" name="*[SG] Anti-tank Batteries" hidden="false" collective="false" import="true" targetId="65fd-73c8-68a6-0601" type="selectionEntry">
+    <entryLink id="7c1a-a760-c24e-33e8" name="Anti-tank Batteries" hidden="false" collective="false" import="true" targetId="65fd-73c8-68a6-0601" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3138-d791-b9a8-e371" type="max"/>
       </constraints>
@@ -157,6 +158,10 @@ Command Cards unfinished for now</readme>
       </categoryLinks>
     </entryLink>
     <entryLink id="1944-d7e8-723e-d289" name="Command Cards" hidden="false" collective="false" import="true" targetId="215a-58d6-ceb9-cd74" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7479-9475-d55e-e8c9" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d50-e2b6-66bd-f2ea" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="bdff-f4d0-e732-3fe6" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
       </categoryLinks>
@@ -165,7 +170,7 @@ Command Cards unfinished for now</readme>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="57de-d622-5d7d-3c08" type="greaterThan"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e109-ca64-215c-ea52" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -176,7 +181,7 @@ Command Cards unfinished for now</readme>
         <categoryLink id="3e49-4634-fc4f-4c4a" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7ee3-2294-8d21-40ed" name="[F] Assault Engineer Company" hidden="false" collective="false" import="true" targetId="57de-d622-5d7d-3c08" type="selectionEntry">
+    <entryLink id="7ee3-2294-8d21-40ed" name="Assault Engineer Company" hidden="false" collective="false" import="true" targetId="57de-d622-5d7d-3c08" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2d8f-be9b-811e-5757" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
@@ -250,6 +255,69 @@ Command Cards unfinished for now</readme>
         <categoryLink id="17d3-082e-2bfa-acee" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="589a-147e-62d3-e131" name="Semovente 90 Battery" hidden="false" collective="false" import="true" targetId="36b1-ad77-9e9b-4496" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="16a4-e5b0-df9d-9aaa" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="928a-7b59-578d-560f" name="New CategoryLink" hidden="false" targetId="58fd-8352-c305-41bb" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7214-9bf8-97ad-fc21" name="P26/40 Heavy Tank Platoon" hidden="false" collective="false" import="true" targetId="c46f-862f-10e3-c818" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c46f-862f-10e3-c818" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5ca5-3d66-a013-9238" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3169-0dbe-d032-f9c4" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5241-ec95-5dc6-0138" name="Parachutist Platoon" hidden="false" collective="false" import="true" targetId="2ae1-1c62-573c-5abc" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ae1-1c62-573c-5abc" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4e10-1b8e-1034-7ec2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4f06-92ce-4857-19f5" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="22ef-a698-dbe2-42f3" name="*Semovente (Long) SP Battery" hidden="false" collective="false" import="true" targetId="669a-5750-9b0d-7090" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="669a-5750-9b0d-7090" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dab2-ecc8-db54-4668" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5a5e-7884-fa41-6154" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="84a7-0bc3-5625-ac51" name="*[F] Heavy Tank Company" hidden="false" collective="false" import="true" targetId="6ab9-2684-654e-373c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="baac-537f-96e4-6cd0" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="010d-bbbb-d466-7b07" name="Parachutist Company" hidden="false" collective="false" import="true" targetId="b503-795d-9f22-5b16" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6cb4-ac75-4319-0371" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d767-93e2-0f71-7c81" name="100mm Howitzer Battery" hidden="false" collective="false" import="true" type="unit">
@@ -309,7 +377,7 @@ Command Cards unfinished for now</readme>
                 <infoLink id="0977-f9cb-be74-fa54" name="Captured 25pdr (Artillery)" hidden="false" targetId="9dc5-f977-b019-94df" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="85e8-86b2-7742-2ea9" name="4x Captured 25pdr Artillery" hidden="false" collective="false" import="true" type="model">
@@ -318,7 +386,7 @@ Command Cards unfinished for now</readme>
                 <infoLink id="a706-18ec-93de-e697" name="Captured 25pdr (Artillery)" hidden="false" targetId="9dc5-f977-b019-94df" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -329,9 +397,6 @@ Command Cards unfinished for now</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="c1a6-f9b0-d9a5-66c5" name="47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70da-4d2c-e61b-7776" type="max"/>
-      </constraints>
       <profiles>
         <profile id="5058-e675-8cfa-febe" name="47mm Tank-hunter Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -362,17 +427,17 @@ Command Cards unfinished for now</readme>
           <selectionEntries>
             <selectionEntry id="ec9d-2bf1-d3e6-7278" name="4x 47mm gun" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b462-2460-a1c8-7696" name="2x 47mm gun" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2565-5950-2f81-f376" name="3x 47mm gun" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -458,7 +523,7 @@ Command Cards unfinished for now</readme>
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Heavy Weapon, Overhead Fire, Smoke</characteristic>
           </characteristics>
         </profile>
-        <profile id="92a7-df5d-915c-890d" name="Flame-thrower team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+        <profile id="c2fb-9712-0b43-3812" name="Flame-thrower team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
             <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
@@ -484,12 +549,12 @@ Command Cards unfinished for now</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="474e-53d7-b9a8-757f" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d075-2486-54a4-75f6" name="3x Breda MG &amp; Carcano rifle, 1x Brixia mortar, 1x Flame-thrower" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="d075-2486-54a4-75f6" name="3x Breda MG &amp; Carcano rifle teams, 1x Brixia mortar, 1x Flame-thrower team" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="edfa-f163-3689-291d" name="5x Breda MG &amp; Carcano rifle, 2x Brixia mortar, 2x Flame-thrower" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="edfa-f163-3689-291d" name="5x Breda MG &amp; Carcano rifle teams, 2x Brixia mortars, 2x Flame-thrower teams" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
               </costs>
@@ -632,7 +697,7 @@ Command Cards unfinished for now</readme>
         </selectionEntryGroup>
         <selectionEntryGroup id="e670-8f14-afe0-04b8" name="3) Tank-hunter Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="9d07-7390-e893-8722" name="[FS] 47mm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="c1a6-f9b0-d9a5-66c5" type="selectionEntry">
+            <entryLink id="9d07-7390-e893-8722" name="47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="c1a6-f9b0-d9a5-66c5" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="42bd-16c5-5c91-9bfa" type="max"/>
               </constraints>
@@ -794,13 +859,13 @@ Command Cards unfinished for now</readme>
             <infoLink id="f74c-f318-8fb8-1424" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="aac0-f176-0107-7659" name="M14/41 (47mm)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="aac0-f176-0107-7659" name="1x M14/41 (47mm)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c89-39dd-eef9-65a3" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10ed-7671-4199-50e6" type="min"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -817,7 +882,7 @@ Command Cards unfinished for now</readme>
           </constraints>
           <entryLinks>
             <entryLink id="457d-0545-0f2e-a269" name="[FS] Semovente SP Battery" hidden="false" collective="false" import="true" targetId="d2cd-441e-f523-aa45" type="selectionEntry"/>
-            <entryLink id="8cbd-e59f-cc4d-d30b" name="[FS] M14/41 Tank Platoon" hidden="false" collective="false" import="true" targetId="fde7-cf8b-e35f-2a1b" type="selectionEntry"/>
+            <entryLink id="8cbd-e59f-cc4d-d30b" name="M14/41 Tank Platoon" hidden="false" collective="false" import="true" targetId="fde7-cf8b-e35f-2a1b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0b5c-7f61-65dd-9f52" name="1) Tank Platoon #2" hidden="false" collective="false" import="true" defaultSelectionEntryId="d3b1-f3a0-a423-b149">
@@ -846,22 +911,6 @@ Command Cards unfinished for now</readme>
     </selectionEntry>
     <selectionEntry id="d2cd-441e-f523-aa45" name="Semovente SP Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="e290-d597-8f05-d9db" name="Semovente SP Gun" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
-          <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ (3+) / Counterattack 5+ (5+) / Remount 2+ (2+)</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ (3+) / Tactics 5+ (4+) / Assault 5+ (5+)</characteristic>
-            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
-            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
-            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
-            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
-            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
-            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
-            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
-          </characteristics>
-        </profile>
         <profile id="10fa-c12b-2792-a61a" name="Semovente (75mm, Artillery)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="c2e5-4990-8105-f793">60&quot;/150cm</characteristic>
@@ -882,21 +931,13 @@ Command Cards unfinished for now</readme>
             <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, HEAT</characteristic>
           </characteristics>
         </profile>
-        <profile id="7f10-3090-38cf-8009" name="Semovente (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="7094-7621-7266-a8fd" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
         <infoLink id="b83e-1dd9-0089-967e" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="5e20-6e57-8dea-943c" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="ab41-681a-e7ff-b235" name="Semovente SP Gun" hidden="false" targetId="6f22-7b27-0531-d5bb" type="profile"/>
+        <infoLink id="cc87-190d-4193-3b02" name="Semovente (MG)" hidden="false" targetId="ec13-ae32-67a6-8c8c" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cf1d-fa54-4ab1-ba2f" name="Unit Size" publicationId="8795-daff-c9a1-7202" hidden="false" collective="false" import="true" defaultSelectionEntryId="a457-8625-f447-4c24">
@@ -1011,17 +1052,17 @@ Command Cards unfinished for now</readme>
           <selectionEntries>
             <selectionEntry id="6a9f-1e9b-ee49-cd98" name="3x M14/41 (47mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3606-a503-0b96-5b58" name="4x M14/41 (47mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e6f0-21d7-a1d4-21ef" name="5x M14/41 (47mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1106,7 +1147,7 @@ Command Cards unfinished for now</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bef5-a558-7111-71b7" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="fa16-9c58-321a-cf81" name="[FS] 47mm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="c1a6-f9b0-d9a5-66c5" type="selectionEntry">
+        <entryLink id="fa16-9c58-321a-cf81" name="47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="c1a6-f9b0-d9a5-66c5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1de7-5246-efdb-e5f0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b37b-0f76-fb3f-6a84" type="min"/>
@@ -1165,22 +1206,22 @@ Command Cards unfinished for now</readme>
                   <selectionEntries>
                     <selectionEntry id="82f4-b9bc-3001-379e" name="3x 88mm gun" hidden="false" collective="false" import="true" type="model">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e0e2-2e8a-bab1-1119" name="4x 88mm gun" hidden="false" collective="false" import="true" type="model">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5c93-214c-2b5a-2490" name="2x 88mm gun" hidden="false" collective="false" import="true" type="model">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8ff3-63aa-7664-ff70" name="1x 88mm gun" hidden="false" collective="false" import="true" type="model">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1231,17 +1272,17 @@ Command Cards unfinished for now</readme>
                   <selectionEntries>
                     <selectionEntry id="2a35-311c-1a25-bf7e" name="3x Lancia (90mm)" hidden="false" collective="false" import="true" type="model">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1905-cc8a-227c-3faf" name="4x Lancia (90mm)" hidden="false" collective="false" import="true" type="model">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="6ce6-1b01-4618-1416" name="2x Lancia (90mm)" hidden="false" collective="false" import="true" type="model">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1fbc-df8f-0d6d-5195" name="1x Lancia (90mm)" hidden="false" collective="false" import="true" type="model">
@@ -1281,11 +1322,18 @@ Command Cards unfinished for now</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="215a-58d6-ceb9-cd74" name="Command Cards" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f90d-9b07-7954-ff29" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4291-bd70-8946-2ee4" type="max"/>
+      </constraints>
       <entryLinks>
         <entryLink id="f0a0-a344-bd20-1b22" name="Command Cards (Force)" hidden="false" collective="false" import="true" targetId="c25e-0fd2-8a48-b73d" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="4c37-9b3b-b560-0fff" name="[F] Motorcycle Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4c37-9b3b-b560-0fff" name="Motorcycle Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="c45b-837d-0031-f909" name="1) Additional Rifle Platoon" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -1343,8 +1391,11 @@ Command Cards unfinished for now</readme>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="d046-9275-0b37-c31a" name="[F] AB41 Armoured Car Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d046-9275-0b37-c31a" name="AB41 Armoured Car Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="361b-0923-cbc7-0e30" name="AB41 Armoured Car Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -1364,6 +1415,9 @@ Command Cards unfinished for now</readme>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f257-181a-a085-4163" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ef-e03a-2a68-eb15" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -1420,8 +1474,11 @@ Command Cards unfinished for now</readme>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="57de-d622-5d7d-3c08" name="[F] Assault Engineer Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="57de-d622-5d7d-3c08" name="Assault Engineer Company" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="11cf-b5e8-d07d-22d5" name="Assault Engineer Company" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
           <characteristics>
@@ -1431,7 +1488,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup id="61cb-22ae-07cf-b7e7" name="1) Assault Engineer Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="61cb-22ae-07cf-b7e7" name="1) Additional Assault Engineer Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="2fdf-44bf-4949-8c5d" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry">
               <constraints>
@@ -1487,7 +1544,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="78ed-7ec1-c2d2-1829" name="[F] L6/40 Scout Tank Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="78ed-7ec1-c2d2-1829" name="L6/40 Scout Tank Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="a72a-6a0e-e00f-417a" name="L6/40 Scout Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -1510,12 +1567,12 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
               <selectionEntries>
                 <selectionEntry id="6a28-b30f-d83b-cdc7" name="3x L6/40 (20mm)" hidden="false" collective="false" import="true" type="model">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="500b-1d57-de00-e424" name="4x L6/40 (20mm)" hidden="false" collective="false" import="true" type="model">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1570,8 +1627,11 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="e50d-694f-bc62-3d3b" name="[F] L6/40 Light Tank Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e50d-694f-bc62-3d3b" name="L6/40 Light Tank Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="fe65-5ed5-a522-eb1e" name="L6/40 Light Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -1592,12 +1652,12 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
               <selectionEntries>
                 <selectionEntry id="c0b7-a8ae-5844-c1b1" name="3x L6/40 (20mm)" hidden="false" collective="false" import="true" type="model">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="fd0c-2bd9-e9ce-1a16" name="4x L6/40 (20mm)" hidden="false" collective="false" import="true" type="model">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1633,6 +1693,9 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b782-61e7-bc85-a7a0" name="Air Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -1745,6 +1808,9 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="32a0-e69b-9c0f-112c" name="AB41 Armoured Car Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1763,12 +1829,12 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           <selectionEntries>
             <selectionEntry id="304d-faf8-39c8-c18f" name="3x AB41 (20mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1d42-a62c-9011-defd" name="4x AB41 (20mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1795,17 +1861,17 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           <selectionEntries>
             <selectionEntry id="2c40-0197-3889-d441" name="3x L6/40 (20mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="363b-d92f-ae48-894b" name="4x L6/40 (20mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="870b-812a-2b5a-8262" name="5x L6/40 (20mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1867,20 +1933,11 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
             <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Heavy Weapon</characteristic>
           </characteristics>
         </profile>
-        <profile id="5d7b-4027-dec6-5ff3" name="81mm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic>
-            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
-            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
-            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
-            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="8b0a-1dd0-220e-f02a" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
         <infoLink id="c89e-858d-784e-6326" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+        <infoLink id="1c17-7b34-c4f0-bbe4" name="81mm mortar" hidden="false" targetId="a15b-117d-4b11-ab1b" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="94a9-562e-d430-06bd" name="Unit Size" publicationId="8795-daff-c9a1-7202" hidden="false" collective="false" import="true" defaultSelectionEntryId="40ac-26d2-f035-4e69">
@@ -1921,17 +1978,17 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           <selectionEntries>
             <selectionEntry id="7e27-6442-901d-e600" name="3x L6/40 (20mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c172-e772-eb44-141a" name="4x L6/40 (20mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="68c8-5b3e-efb2-ecc9" name="5x L6/40 (20mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1946,7 +2003,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9613-35bd-dc0a-a444" type="max"/>
       </constraints>
       <profiles>
-        <profile id="43fe-c12a-eccf-32fe" name="Brenda MG Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+        <profile id="43fe-c12a-eccf-32fe" name="Breda MG Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ (4+) / Rally 3+ (3+)</characteristic>
             <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ (3+) / Assault 5+ (5+)</characteristic>
@@ -1966,7 +2023,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
         <infoLink id="60a7-b233-e189-7883" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="e6b6-e537-aa6e-d69d" name="3x Brenda MG team" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e6b6-e537-aa6e-d69d" name="3x Breda MG team" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab97-06d4-5429-baab" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d971-ac8b-cdad-42d0" type="max"/>
@@ -1980,34 +2037,682 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6ab9-2684-654e-373c" name="Heavy Tank Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="de9b-a7f9-781b-2e47" name="P26/40 Heavy Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2753-9f48-550e-050c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c46-ec03-3323-6bc6" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1d07-e3a5-267f-95cb" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b0f-8e25-51fa-0c2c">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0068-62b3-4e69-42c6" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ce3-735c-91dd-bf61" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="6e8c-33ee-2f32-7451" name="1x M14/41 (47mm)" hidden="false" collective="false" import="true" type="model">
+                  <infoLinks>
+                    <infoLink id="f8ae-0e73-9692-176e" name="M14/41 Tank" hidden="false" targetId="e43a-c224-62b7-a37a" type="profile"/>
+                    <infoLink id="c5a6-6cad-a557-4678" name="M14/41 (47mm)" hidden="false" targetId="441c-2145-1a94-95d3" type="profile"/>
+                    <infoLink id="4eca-483f-70dc-1f9f" name="M14/41 (MGs)" hidden="false" targetId="1176-3681-a417-374e" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2b0f-8e25-51fa-0c2c" name="1x P26/40 (75mm)" hidden="false" collective="false" import="true" type="model">
+                  <infoLinks>
+                    <infoLink id="3304-cc08-8e05-ee86" name="P26/40 Heavy Tank" hidden="false" targetId="9d34-82c3-1d0f-815b" type="profile"/>
+                    <infoLink id="e1a8-4486-8bb3-3167" name="P26/40 (MG)" hidden="false" targetId="e4d6-7cda-7464-8f20" type="profile"/>
+                    <infoLink id="f894-5982-8a42-fe18" name="P26/40 (75mm)" hidden="false" targetId="2a64-003c-0fde-f24a" type="profile"/>
+                    <infoLink id="bd46-2fbe-38ed-e2ef" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bc4e-3088-3808-0895" name="1) Armour #1" hidden="false" collective="false" import="true" defaultSelectionEntryId="7098-c56b-3a01-4083">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ca06-89e4-cd40-e992" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="45dd-d0b7-6b47-fee2" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7098-c56b-3a01-4083" name="[FS] P26/40 Heavy Tank Platoon" hidden="false" collective="false" import="true" targetId="c46f-862f-10e3-c818" type="selectionEntry"/>
+            <entryLink id="c56f-0263-a02d-a8de" name="*Semovente (Long) SP Battery" hidden="false" collective="false" import="true" targetId="669a-5750-9b0d-7090" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8b1d-7169-fffd-f14e" name="2) Armour #2" hidden="false" collective="false" import="true" defaultSelectionEntryId="49ff-7d02-bd3d-8d90">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9813-3fc7-cc0a-3d89" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b571-3717-333a-3b46" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="49ff-7d02-bd3d-8d90" name="[FS] P26/40 Heavy Tank Platoon" hidden="false" collective="false" import="true" targetId="c46f-862f-10e3-c818" type="selectionEntry"/>
+            <entryLink id="9e76-42c7-9ecd-171f" name="M14/41 Tank Platoon" hidden="false" collective="false" import="true" targetId="fde7-cf8b-e35f-2a1b" type="selectionEntry"/>
+            <entryLink id="bd93-d4d1-a7b7-f936" name="*Semovente (Long) SP Battery" hidden="false" collective="false" import="true" targetId="669a-5750-9b0d-7090" type="selectionEntry"/>
+            <entryLink id="35a2-8d2a-8dc7-3d4e" name="Semovente SP Battery" hidden="false" collective="false" import="true" targetId="d2cd-441e-f523-aa45" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6577-d2f5-23a9-496b" name="3) Armour #3" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c2c5-0a0d-f913-ba34" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5162-4750-5a7a-86a5" name="[FS] P26/40 Heavy Tank Platoon" hidden="false" collective="false" import="true" targetId="c46f-862f-10e3-c818" type="selectionEntry"/>
+            <entryLink id="d4f1-4730-5c7a-7a83" name="M14/41 Tank Platoon" hidden="false" collective="false" import="true" targetId="fde7-cf8b-e35f-2a1b" type="selectionEntry"/>
+            <entryLink id="1509-7ecb-9e3a-ec26" name="*Semovente (Long) SP Battery" hidden="false" collective="false" import="true" targetId="669a-5750-9b0d-7090" type="selectionEntry"/>
+            <entryLink id="7c12-1945-a36e-206a" name="Semovente SP Battery" hidden="false" collective="false" import="true" targetId="d2cd-441e-f523-aa45" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="b503-795d-9f22-5b16" name="Parachutist Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="b1b1-ca8e-5902-c55e" name="Parachutist Company HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0545-9ad8-711d-0dc7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5768-d01f-d3a3-14cb" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="fcbf-c719-cfc8-66ef" name="Parachutist Company HQ" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+              <characteristics>
+                <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ / Follow Me 2+</characteristic>
+                <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ / Assault 3+</characteristic>
+                <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+                <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+                <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+                <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+                <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+                <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Paratroopers</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c227-4f41-9538-fcf0" name="Beretta SMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+                <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="44ed-643a-1ca1-5fb3" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="0907-d687-dc3e-40a2" name="2x Beretta SMG teams" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="644a-e05c-0699-8c43" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ff-8211-6e0f-811e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bd4c-48ac-1d78-2886" name="3) Anti-tank Support Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4204-39bd-13e2-d204" name="*Parachutist 47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="27e8-b5fe-9e23-19b4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="63ce-9e55-5f28-495e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0fa9-7471-9a03-4cd2" name="*Parachutist 47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="27e8-b5fe-9e23-19b4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="904d-926d-5177-d505" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="9d43-a2d1-bfaf-0ad4" name="*Parachutist 47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="27e8-b5fe-9e23-19b4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4e87-a01c-ec38-ea99" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7261-ac49-dc71-69c2" name="2) Support Platoons" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="a491-a0a3-2af8-7991" name="Parachutist Breda MG Platoon" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0255-06ed-5ccd-c990" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="42a9-fb2e-d709-e77d" name="Brenda MG Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+                  <characteristics>
+                    <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ / Follow Me 2+</characteristic>
+                    <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ / Assault 5+</characteristic>
+                    <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+                    <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+                    <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+                    <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+                    <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+                    <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+                    <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Heavy Weapon</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3acb-da43-f6b4-5f97" name="Breda HMG team" hidden="false" targetId="bc99-1864-8494-c1d1" type="profile"/>
+                <infoLink id="65db-3c6e-395e-097d" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d9fd-9974-d6a0-0bba" name="Unit Size" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0997-d4f9-317d-8c7d" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bc4-7d3d-2176-84c2" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="c148-0444-1f18-0406" name="2x Breda MG team" hidden="false" collective="false" import="true" type="model">
+                      <costs>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="914c-1477-1b78-0dd8" name="3x Breda MG team" hidden="false" collective="false" import="true" type="model">
+                      <costs>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0ca4-7268-bbb0-3d13" name="4x Breda MG team" hidden="false" collective="false" import="true" type="model">
+                      <costs>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="1971-45bd-19e8-77a0" name="*Parachutist 81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="8c54-a2b7-80d5-04d2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7bf0-a6b9-276a-ef66" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="493e-d24e-b707-8e47" name="*Parachutist Platoon" hidden="false" collective="false" import="true" targetId="2ae1-1c62-573c-5abc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8ce1-1f67-de74-fa0f" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="acf4-3dde-c388-d3c2" name="*Parachutist 81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="8c54-a2b7-80d5-04d2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1035-d0ba-f413-3dc0" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8668-aac8-ea09-85e1" name="Parachutist Platoon" hidden="false" collective="false" import="true" targetId="2ae1-1c62-573c-5abc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2a59-3b9e-f939-6017" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ad4d-84db-b789-b3af" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7773-a592-7575-22ed" name="*Parachutist Platoon" hidden="false" collective="false" import="true" targetId="2ae1-1c62-573c-5abc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a070-ac56-2d69-c464" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a43b-b3a8-7d01-fd60" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="c566-ab78-8214-0556" name="Assault Engineer Support" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="68f7-06cb-7c73-2ef3" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="4d94-02bd-ca43-1c8d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fb55-d325-000b-ca2e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1ffa-d9b4-4c6d-31c5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4d94-02bd-ca43-1c8d" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry"/>
+            <entryLink id="ddd1-2990-f790-7761" name="Parachutist Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="4d2f-6ee5-bab9-2f58" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="4d2f-6ee5-bab9-2f58" name="Parachutist Assault Engineer Platoon" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="150f-3450-e676-b7ca" name="Parachutist Assault Engineer Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ / Follow Me 2+</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ / Assault 3+</characteristic>
+            <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+            <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+            <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+            <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Pioneers</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5d8e-0141-e1c7-545c" name="Flame-thrower team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">1+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Flame-thrower, Heavy Weapon, Pinned ROF 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bbeb-b89b-7c53-588d" name="Breda MG &amp; Carcano rifle team" hidden="false" targetId="a0ed-2084-36ee-b751" type="profile"/>
+        <infoLink id="ed3b-669a-a227-75ad" name="Flame-thrower" hidden="false" targetId="f8ec-4aba-faa0-f2d0" type="rule"/>
+        <infoLink id="58ad-9d3a-0250-7329" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+        <infoLink id="2c96-831c-63cd-1ce0" name="Pioneers" hidden="false" targetId="d5d8-38e6-2091-b13d" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e0e6-aa9b-918f-4e49" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f54e-c88e-f4eb-d893">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="843d-2830-344c-dbf9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="797b-8aa2-d151-49db" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f54e-c88e-f4eb-d893" name="4x Breda MG &amp; Carcano rifle teams, 1x Flame-thrower team" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fbe2-22b0-7f38-601a" name="6x Breda MG &amp; Carcano rifle teams, 2x Flame-thrower team" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="27e8-b5fe-9e23-19b4" name="Parachutist 47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4690-2941-020a-9269" name="Parachutist 47mm Anti-tank Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ / Follow Me 2+</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ / Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+            <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+            <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+            <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Heavy Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1415-43cd-235e-9e02" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+        <infoLink id="7fb6-f974-69f2-6f65" name="47mm gun" hidden="false" targetId="ff38-fd99-525e-732b" type="profile"/>
+        <infoLink id="97db-d994-ba55-b957" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6196-ad92-9be7-aa5f" name="Unit Size" publicationId="8795-daff-c9a1-7202" hidden="false" collective="false" import="true" defaultSelectionEntryId="c5ba-71a4-9690-d4ae">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea7f-9bbd-22d2-0dd3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bace-bc3a-72b8-a728" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bf9e-7a6b-dc07-936f" name="4x 47mm gun" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c5ba-71a4-9690-d4ae" name="2x 47mm gun" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e72a-afe4-acda-056c" name="3x 47mm gun" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ae1-1c62-573c-5abc" name="Parachutist Platoon" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a361-9edb-cc52-be38" name="Rifle Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ / Follow Me 2+</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ / Assault 3+</characteristic>
+            <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+            <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+            <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+            <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c81a-078a-2052-ba56" name="Breda MG &amp; Carcano rifle team" hidden="false" targetId="a0ed-2084-36ee-b751" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9b31-5b02-d5a8-e82d" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="af98-755b-8966-c7c5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8337-4900-1a96-60cf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0396-3dc0-a80b-a37c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b05b-b315-d150-500e" name="7x Breda MG &amp; Carcano rifle team" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="af98-755b-8966-c7c5" name="5x Breda MG &amp; Carcano rifle team" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a3f9-18eb-863d-af98" name="4x Breda MG &amp; Carcano rifle team, 1x Flame-thrower team" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="252a-f181-bce4-f7ba" name="Flame-thrower" hidden="false" targetId="f8ec-4aba-faa0-f2d0" type="rule"/>
+                <infoLink id="5cd9-3b3c-89a4-8950" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+                <infoLink id="9b38-1f7e-956b-9793" name="Flame-thrower team" hidden="false" targetId="b453-3faf-dda7-6d17" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8dee-efa8-b7bf-7fbf" name="6x Breda MG &amp; Carcano rifle team,1x Flame-thrower team" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="6e14-350a-f475-4b55" name="Flame-thrower" hidden="false" targetId="f8ec-4aba-faa0-f2d0" type="rule"/>
+                <infoLink id="2196-682e-0eb9-1eb4" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+                <infoLink id="13e9-1c5b-baf6-4032" name="Flame-thrower team" hidden="false" targetId="b453-3faf-dda7-6d17" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c54-a2b7-80d5-04d2" name="Parachutist 81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9e50-56a4-33de-03de" name="Parachutist 81mm Mortar Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ / Follow Me 2+</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ / Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+            <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+            <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">4&quot;/10cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
+            <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
+            <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Heavy Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1834-cbef-067b-2a28" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+        <infoLink id="43df-72d2-5caa-77c1" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
+        <infoLink id="0d1a-6bf0-b16a-3089" name="81mm mortar" hidden="false" targetId="a15b-117d-4b11-ab1b" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f541-fd56-d8a1-63f1" name="Unit Size" publicationId="8795-daff-c9a1-7202" hidden="false" collective="false" import="true" defaultSelectionEntryId="9136-8529-aa2f-29a0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0063-5488-c576-c4d9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa38-a166-c14f-5377" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e75d-9718-c02c-954a" name="3x 81mm mortars" publicationId="8795-daff-c9a1-7202" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9136-8529-aa2f-29a0" name="2x 81mm mortars" publicationId="8795-daff-c9a1-7202" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c46f-862f-10e3-c818" name="P26/40 Heavy Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="6e45-caeb-c11e-dc23" name="P26/40 Heavy Tank" hidden="false" targetId="9d34-82c3-1d0f-815b" type="profile"/>
+        <infoLink id="6f3b-9073-411e-365d" name="P26/40 (MG)" hidden="false" targetId="e4d6-7cda-7464-8f20" type="profile"/>
+        <infoLink id="1d28-c39c-b267-8d7c" name="P26/40 (75mm)" hidden="false" targetId="2a64-003c-0fde-f24a" type="profile"/>
+        <infoLink id="708e-f8f7-02e9-012d" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1469-35fc-4a80-e9be" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="3bfc-c3cc-2e84-82f7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d5d-89ba-9d21-0d41" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29c7-bd7f-98b6-4f96" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3bfc-c3cc-2e84-82f7" name="2x P26/40 (75mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9e01-8384-0d3a-6c6a" name="3x P26/40 (75mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6775-e18c-122a-b8e7" name="4x P26/40 (75mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="26.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="669a-5750-9b0d-7090" name="Semovente (Long) SP Battery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cd50-f814-4913-5d9f" name="Semovente (long 75mm, Artillery)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">64&quot;/160cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b080-09cf-ba6d-1c71" name="Semovente (long 75mm, Direct Fire)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9c8e-c824-18fe-441c" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="42d7-5f14-c419-0925" name="Semovente (MG)" hidden="false" targetId="ec13-ae32-67a6-8c8c" type="profile"/>
+        <infoLink id="74e6-b717-ac4b-2da5" name="Semovente SP Gun" hidden="false" targetId="6f22-7b27-0531-d5bb" type="profile"/>
+        <infoLink id="e7b5-6f03-91f6-d0a7" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d2ba-8311-e95f-f0db" name="Unit Size" publicationId="8795-daff-c9a1-7202" hidden="false" collective="false" import="true" defaultSelectionEntryId="d2b2-23c0-820e-ad88">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae90-4475-5925-2593" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c91-ba40-d03a-f85d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9130-b172-9f45-78c1" name="6x Semovente (long 75mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="164e-c0f6-e396-128c" name="4x Semovente (long 75mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2816-640f-1181-d325" name="5x Semovente (long 75mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8568-4b25-464b-9377" name="3x Semovente (long 75mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d2b2-23c0-820e-ad88" name="2x Semovente (long 75mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36b1-ad77-9e9b-4496" name="Semovente 90 Battery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="75dd-cd5e-3080-d106" name="Semovente 90 Battery" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ (4+) / Counterattack 6 (6) / Remount 3+ (3+)</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ (3+) / Assault 6 (6)</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">4&quot;/10cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">14&quot;/35cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+        <profile id="98b2-c452-1a4c-b7c0" name="Semovente (90mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Slow Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1200-20d0-6771-86b2" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="b32a-8fb8-ddf7-56d7" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bab8-461b-b993-3ec4" name="Unit Size" publicationId="8795-daff-c9a1-7202" hidden="false" collective="false" import="true" defaultSelectionEntryId="862b-f936-eb9b-60c0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="261e-4ba8-59df-e57e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a94d-0930-ddd1-59a5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5054-89ec-685e-131e" name="4x Semovente (90mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cc0e-5476-5843-1763" name="3x Semovente (90mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="862b-f936-eb9b-60c0" name="2x Semovente (90mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="c25e-0fd2-8a48-b73d" name="Command Cards (Force)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="c25e-0fd2-8a48-b73d" name="Command Cards (Force) UNFINISHED" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="2cb9-01cb-3d5e-8a60" name="Heroism" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f3f-bbac-a225-e7ad" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4c50-afdf-e3ae-e60b" name="For Italy!" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f365-cd44-d5d7-0576" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1e29-07e2-dbed-0906" name="Diversionary Tactics" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8bc-e0e6-060a-22bb" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5c63-2ad9-f296-c1a1" name="Dummy Minefield" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a7f8-b689-ea8c-33ad" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4c96-a523-b791-d6ce" name="Sahariana" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="faa7-b23f-66f9-c013" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -2017,61 +2722,97 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="13ea-008a-0a54-6c5d" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7ee9-714d-8bcd-f2eb" name="Hidden in Plain Sight" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9841-569f-cdcd-5357" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2d68-9493-4a02-bdff" name="Diversionary Tactics" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a16-eea6-8b5d-2a99" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0cd0-b0e3-aac6-cac9" name="Cut Them Down" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d90-5b56-88bf-1e6b" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="681f-4c32-b651-f861" name="Marksman" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dc07-f40d-8260-da71" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="fe4f-836c-a037-604f" name="Pietro Bruno" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="78ab-23c3-9609-90e5" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a5b4-fe88-6801-7239" name="Ferocious Valour" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="356f-84df-6ab3-039a" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2fe8-7050-8875-2bd5" name="Front Line Fighter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7098-cb1c-9cf0-59ba" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6352-530d-7aaa-b520" name="Fast Reflexes" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6ae-becc-2ca1-396c" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b68c-b9b4-9b46-d935" name="Paola Caccia Dominioni" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f9e-d730-c602-90e0" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f93d-bb3e-b17f-cc51" name="Believe! Obey! Fight!" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7155-53b9-4534-b661" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3d22-3439-f0b3-6fd9" name="Fortifiy the Building" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d22-0e58-c0ce-0b75" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -2081,56 +2822,89 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8810-eadb-8058-b296" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a072-368c-4459-29c4" name="Legions of Rome" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e5ae-a55f-e234-7cad" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="83a7-de10-b8d3-8ab6" name="Blackshirts" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6fb7-5a59-e6b0-d62e" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ae46-9812-39ae-3556" name="Motociclisti" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5156-2478-4a50-8ba4" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b6a4-f88c-1d41-328c" name="I Always Hit My Target" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af8d-4221-5164-42e6" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="36e6-e10e-0942-e9c2" name="Iron Men" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9cd7-25c3-2a68-d99c" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0557-33dc-14da-bb4d" name="Never Misses" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5707-6b22-c5b6-05a9" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5452-6159-33d2-9ec0" name="Autocannone" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53fb-e9f0-305d-2ba7" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9f22-ec58-da2c-8a8b" name="Tactical Brilliance" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd22-0859-bd06-f3e6" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e84f-5001-98c4-0270" name="Pazzaglia Bombs" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ccea-626a-eb2b-02ad" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="152c-885a-2cd9-8aa0" name="Dead Eye" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c8e-d569-0a13-5c98" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -2331,7 +3105,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
-        <characteristic name="Notes" typeId="33d6-6375-9564-9985"></characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
       </characteristics>
     </profile>
     <profile id="54b6-ce89-1536-2492" name="L6/40 Light Tank" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
@@ -2348,6 +3122,88 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
         <characteristic name="Notes" typeId="33d6-6375-9564-9985">Scout, Spearhead</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b453-3faf-dda7-6d17" name="Flame-thrower team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Flame-thrower, Heavy Weapon, Pinned ROF 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a15b-117d-4b11-ab1b" name="81mm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d34-82c3-1d0f-815b" name="P26/40 Heavy Tank" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ (4+) / Follow Me 3+ (2+) / Remount 2+ (2+)</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ (3+) / Tactics 5+ (4+)</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+      </characteristics>
+    </profile>
+    <profile id="2a64-003c-0fde-f24a" name="P26/40 (75mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="e4d6-7cda-7464-8f20" name="P26/40 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6f22-7b27-0531-d5bb" name="Semovente SP Gun" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ (3+) / Counterattack 5+ (5+) / Remount 2+ (2+)</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ (3+) / Tactics 5+ (4+) / Assault 5+ (5+)</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+      </characteristics>
+    </profile>
+    <profile id="ec13-ae32-67a6-8c8c" name="Semovente (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
