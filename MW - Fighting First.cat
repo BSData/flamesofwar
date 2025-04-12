@@ -285,9 +285,29 @@
         <categoryLink id="2c21-3f10-4880-c8e7" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="67c0-9e81-bdf4-8250" name="*[F] M3A1 Armored Recon Company" hidden="false" collective="false" import="true" targetId="62a6-82c4-1278-bf99" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5858-a27d-6811-98ca" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0faf-2009-1d76-f99a" name="*[S] Armored Recon Patrol" hidden="false" collective="false" import="true" targetId="7ed6-7294-4b67-cb58" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ed6-7294-4b67-cb58" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7b6-1f01-4f57-2693" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0a17-4f50-4776-c95c" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="8308-ba93-d7bf-2c92" name="*[FS] Ranger Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8308-ba93-d7bf-2c92" name="Ranger Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="80df-f9e8-06d2-0db4" name="M1 Garand rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <comment>Ranger</comment>
@@ -436,7 +456,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="15ba-f57c-9bb8-b7df" name="*[FS] Parachute Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="15ba-f57c-9bb8-b7df" name="Parachute Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ecd8-8c7b-2c62-0ed4" name="60mm mortar team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -524,7 +544,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a320-849e-7ca2-9437" name="*[F] Parachute Rifle Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a320-849e-7ca2-9437" name="Parachute Rifle Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="831b-f4f5-0980-b21e" name="Parachute Rifle Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -719,7 +739,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc6f-a5aa-c42c-8f29" name="*[F] Ranger Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dc6f-a5aa-c42c-8f29" name="Ranger Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="8e2b-2d55-e656-b75b" name="Ranger Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -835,7 +855,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7ed6-7294-4b67-cb58" name="*[S] Armored Recon Patrol" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7ed6-7294-4b67-cb58" name="Armored Recon Patrol" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="554a-9b7c-3fb9-303f" name="Jeep (60mm mortar)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -865,12 +885,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d92-142d-5241-492b" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="3192-89df-a01d-f0e9" name="*[F] Armored Rifle Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3192-89df-a01d-f0e9" name="Armored Rifle Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="9b4b-e738-3940-4828" name="2) Support Platoons" hidden="false" collective="false" import="true">
           <selectionEntries>
@@ -1048,7 +1068,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="80bf-bd90-dc35-e122" name="*[F] M10 Tank Destroyer Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="80bf-bd90-dc35-e122" name="M10 Tank Destroyer Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="f56f-c7fd-5fc1-c4f1" name="M10 Tank Destroyer Company HQ" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -1096,7 +1116,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d98e-e68f-8615-0def" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1148,7 +1168,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0483-e869-aaaf-bfe0" name="*[FS] M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0483-e869-aaaf-bfe0" name="M10 Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="53ed-df71-a307-b053" name="M10 Tank Destroyer Platoon" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -1201,17 +1221,17 @@
           <selectionEntries>
             <selectionEntry id="d154-4747-b389-c8e2" name="3x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7183-d44c-4f2c-15fe" name="4x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="77e1-d02c-d261-da0b" name="2x M10 (3-inch)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1221,7 +1241,28 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a07c-be29-3af6-0af8" name="*[FS] M3 Lee Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a07c-be29-3af6-0af8" name="M3 Lee Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="995a-4d67-6920-bfe4" value="15.0">
+              <conditions>
+                <condition field="selections" scope="a07c-be29-3af6-0af8" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="995a-4d67-6920-bfe4" value="18.0">
+              <conditions>
+                <condition field="selections" scope="a07c-be29-3af6-0af8" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="995a-4d67-6920-bfe4" value="11.0">
+              <conditions>
+                <condition field="selections" scope="a07c-be29-3af6-0af8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <infoLinks>
         <infoLink id="983a-a92f-2c62-fb53" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
         <infoLink id="594c-dc8c-7b79-1d4f" name="M3 Lee Turret (37mm)" hidden="false" targetId="f60d-12d4-1d35-6f5c" type="profile"/>
@@ -1236,20 +1277,23 @@
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f11f-78ca-c873-d336" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="b398-0fc8-16b4-e6cf" name="M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b398-0fc8-16b4-e6cf" name="M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="41f8-3d0a-871d-ef24" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="e81b-e211-4c0e-f423" name="M3 Lee Hull (short 75mm)" hidden="false" targetId="e9d6-eb06-dd1e-e22f" type="profile"/>
               </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="0cad-184e-4c42-6d7f" name="M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0cad-184e-4c42-6d7f" name="M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0b2f-3998-9eff-1b8c" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="3bec-b16f-71ce-45cc" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1259,7 +1303,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db7b-b20f-183d-3ab6" name="*[S] M3 Stuart OP Observation Post" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="db7b-b20f-183d-3ab6" name="M3 Stuart OP Observation Post" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ad93-27eb-a2a6-0d24" name="M3 Stuart OP (37mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -1309,7 +1353,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ed7-6a4f-2141-a557" name="*[FS] M3 Stuart Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8ed7-6a4f-2141-a557" name="M3 Stuart Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="b21d-7b24-0347-1529" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
         <infoLink id="ee30-4315-f07e-c800" name="M3 Stuart (MGs)" hidden="false" targetId="833c-ec05-a110-6559" type="profile"/>
@@ -1326,17 +1370,17 @@
           <selectionEntries>
             <selectionEntry id="8f92-7c82-80a4-ed48" name="3x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b045-ff41-80b2-f7d1" name="4x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1cf4-1102-4738-0aab" name="5x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1346,7 +1390,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="666d-592f-9621-15c3" name="*[F] M4 Sherman Tank Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="666d-592f-9621-15c3" name="M4 Sherman Tank Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="3781-15e5-1afb-a382" name="1) Armour Platoon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2901-966d-854f-0808">
           <constraints>
@@ -1402,7 +1446,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8026-79b9-26e9-ead3" name="*[FS] M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8026-79b9-26e9-ead3" name="M4 Sherman Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="79cc-1c91-1a1b-befb" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
         <infoLink id="0193-488e-8cdf-c7f8" name="M4 Sherman (75mm)" hidden="false" targetId="a703-1941-0d2f-2e75" type="profile"/>
@@ -1421,17 +1465,17 @@
           <selectionEntries>
             <selectionEntry id="4cbf-1f60-e587-6336" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3045-5a0f-107e-1cbe" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5654-6143-5ea5-5f83" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="40.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1441,7 +1485,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d99d-fb3f-7332-73ed" name="*[S] P-40 Warhawk Fighter Flight" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d99d-fb3f-7332-73ed" name="P-40 Warhawk Fighter Flight" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="273a-247d-8df7-50c3" name="P-40 Warhawk" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit">
           <characteristics>
@@ -1496,7 +1540,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b231-e4f7-7419-485a" name="*[F] Rifle Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b231-e4f7-7419-485a" name="Rifle Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="7c5e-1834-649a-b0ea" name="Rifle Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -1610,7 +1654,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2e4c-7c65-3715-34d8" name="*[FS] Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2e4c-7c65-3715-34d8" name="Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="8f08-160e-845b-f022" name="M1 Garand rifle team" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -1673,7 +1717,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b52-b530-28b9-b6dc" name="*[S] T28E1 37mm AAA Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1b52-b530-28b9-b6dc" name="T28E1 37mm AAA Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b4a5-58fb-0bcd-7ab7" name="T28E1 37mm AAA Platoon" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
           <characteristics>
@@ -1727,7 +1771,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25f8-122f-0d55-44d3" name="*M4 81mm Armored Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="25f8-122f-0d55-44d3" name="M4 81mm Armored Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="853b-ee66-ebff-0265" name="M4 81m Armored Mortar Platoon" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -1778,7 +1822,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a04f-83b2-7057-627a" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1786,7 +1830,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac1f-f190-ad96-7045" name="*T30 75mm Assault Gun Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ac1f-f190-ad96-7045" name="T30 75mm Assault Gun Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d323-f873-9fac-13af" name="T30 (75mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -1850,12 +1894,12 @@
           <selectionEntries>
             <selectionEntry id="d408-0ab5-945a-b36f" name="2x T30 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6f2f-45c8-570f-75c0" name="3x T30 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1865,7 +1909,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="76e2-2f20-67ed-dd9c" name="*[F] M3 Lee Tank Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="76e2-2f20-67ed-dd9c" name="M3 Lee Tank Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="0a52-9d60-ae5f-b983" name="M3 Lee Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -1894,7 +1938,7 @@
                     <infoLink id="acaf-5ed0-850e-2316" name="M3 Lee Hull (short 75mm)" hidden="false" targetId="e9d6-eb06-dd1e-e22f" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="116e-d54f-34f0-8ea5" name="1x M3 Lee (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1902,14 +1946,14 @@
                     <infoLink id="3822-76cb-0d7f-b5e6" name="M3 Lee Hull (long 75mm)" hidden="false" targetId="f6b1-2ee6-7a22-7866" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1962,7 +2006,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="361b-17f4-8b79-0f2a" name="*[F] M3 Stuart Tank Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="361b-17f4-8b79-0f2a" name="M3 Stuart Tank Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="fdba-7337-6e63-fe02" name="M3 Stuart Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -1976,17 +2020,26 @@
             <infoLink id="ae9e-92c5-eaf9-3fc7" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
             <infoLink id="6113-18a8-0eb6-9a4f" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
           </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="db1d-eb14-6032-4d19" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="9f2d-c6da-d204-bb5e" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="07e2-d7c8-20b7-6339">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db5f-ebe9-8094-4067" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcbc-8734-b013-4a9c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb02-85fc-d85b-639a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6db-4fd8-101f-8ab2" type="max"/>
               </constraints>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+              <selectionEntries>
+                <selectionEntry id="07e2-d7c8-20b7-6339" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1094-78c9-8468-8f0d" name="1x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -2041,7 +2094,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e2a-85f2-9e1a-8903" name="*[FS] Armored Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7e2a-85f2-9e1a-8903" name="Armored Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="e2ee-8635-43dc-dc8c" name="M3 half-track (.30 cal MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -2113,7 +2166,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ec4-5365-86f9-f2b5" name="*M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8ec4-5365-86f9-f2b5" name="M3 half-track (.50 cal MG)" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="8f76-044b-b1e1-fb52" name="M3 half-track (.50 cal MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -2138,7 +2191,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="26d7-535e-cc0a-a673" name="*[SG] Artillery Support Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="26d7-535e-cc0a-a673" name="Artillery Support Battery" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="2109-181c-5ea5-204f" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="8e6a-bc7e-23f3-0b0b">
           <constraints>
@@ -2146,7 +2199,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d0d-2e9a-6c2c-a01e" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8e6a-bc7e-23f3-0b0b" name="*M7 Priest Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="8e6a-bc7e-23f3-0b0b" name="M7 Priest Artillery Battery" hidden="false" collective="false" import="true" type="unit">
               <profiles>
                 <profile id="251f-044d-8fcd-64ce" name="M7 Priest (105mm)" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
                   <characteristics>
@@ -2213,12 +2266,12 @@
                   <selectionEntries>
                     <selectionEntry id="afa6-b545-7680-35d5" name="3x M7 Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="09d1-fd85-1270-3d0e" name="6x M7 Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2228,7 +2281,7 @@
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c59f-021c-61bb-75d3" name="*105mm Field Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="c59f-021c-61bb-75d3" name="105mm Field Artillery Battery" hidden="false" collective="false" import="true" type="unit">
               <profiles>
                 <profile id="c621-400b-ab1b-d0ac" name="105mm howitzer (Artillery)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
                   <characteristics>
@@ -2306,7 +2359,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a7b3-bba8-27a5-c157" name="*[F] M27 Tank Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a7b3-bba8-27a5-c157" name="M27 Tank Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="5dd1-bdc0-f655-c14c" name="M27 Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -2319,6 +2372,22 @@
             <infoLink id="0c33-58bb-6b0e-40dd" name="M27 (76mm)" hidden="false" targetId="aa91-c837-a74c-c2fd" type="profile"/>
             <infoLink id="3526-7dcb-83af-be27" name="M27 (MGs)" hidden="false" targetId="b6bc-7ffd-2086-69a1" type="profile"/>
           </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2406-0350-be30-b12a" name="Unit Size" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="9510-49a1-59c1-df43" name="1x M27 (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7baf-c575-046e-0fce" name="2x M27 (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2366,7 +2435,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry id="421f-07d7-a432-a12b" name="*[F] Engineer Combat Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="421f-07d7-a432-a12b" name="Engineer Combat Company" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="074e-21cd-e0f8-ceaa" name="Engineer Combat Company" hidden="false">
           <description>Infantry Teams in this Formation cross Minefields safely on a roll of 3+.
@@ -2413,7 +2482,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a14-65a8-f60c-824b" name="*Armoured Rifle Company HQ" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4a14-65a8-f60c-824b" name="Armoured Rifle Company HQ" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="fca1-289e-79c3-2b25" name="Armored Rifle Company HQ" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -2481,7 +2550,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dda8-aa73-955e-8f9f" name="*37mm Anti-Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dda8-aa73-955e-8f9f" name="37mm Anti-Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="7125-6513-bf4f-26a7" name="37mm gun" hidden="false" targetId="acb7-9933-f454-1d4f" type="profile"/>
         <infoLink id="830e-ba3f-ba15-9052" name="37mm gun" hidden="false" targetId="66da-ebd8-f3dc-5566" type="profile"/>
@@ -2513,7 +2582,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="62a6-82c4-1278-bf99" name="*[F] M3A1 Armored Recon Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="62a6-82c4-1278-bf99" name="M3A1 Armored Recon Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="f51f-124a-f276-fab9" name="M3A1 Armored Recon Company HQ" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -2598,7 +2667,8 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry id="308f-0abe-9c5e-8fc2" name="**Airborne 37mm Anti-Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="308f-0abe-9c5e-8fc2" name="**Airborne 37mm Anti-Tank Platoon" hidden="true" collective="false" import="true" type="unit">
+      <comment>This was here when I started the overhaul but it doesn&apos;t seem to belong anywhere.</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb9-c585-29ac-eb8b" type="max"/>
       </constraints>
@@ -2648,7 +2718,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e2f-5afb-638a-1b89" name="*M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1e2f-5afb-638a-1b89" name="M1 Bazooka team" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c3f8-2c2b-114e-701a" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
         <infoLink id="1c49-268d-d0d8-946c" name="M1 Bazooka team" hidden="false" targetId="79cb-ae93-db5f-e012" type="profile"/>
@@ -2657,7 +2727,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="76d0-dd82-37ee-ae26" name="*M1919 LMG team" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="76d0-dd82-37ee-ae26" name="1x M1919 LMG team" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="71fb-2936-819d-d641" name="M1919 LMG" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <comment>og</comment>
@@ -2719,7 +2789,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dffd-557f-afb0-f2b0" name="*M1917 Machine-Gun Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dffd-557f-afb0-f2b0" name="M1917 Machine-Gun Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="44f2-1cd2-dcb1-1fcf" name="M1917 HMG" hidden="false" targetId="445d-aeba-c0c6-01fe" type="profile"/>
         <infoLink id="553d-b53a-1853-1d0e" name="M1917 team" hidden="false" targetId="8ad3-5ff7-cac9-84d1" type="profile"/>
@@ -2737,7 +2807,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="f4f0-e4df-a9ef-b189" name="*Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f4f0-e4df-a9ef-b189" name="Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="9e80-abb4-e9b5-9d7f" name="Mortar Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -2792,7 +2862,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="82e2-0ae2-ac6f-fd43" name="*[FS] M27 Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="82e2-0ae2-ac6f-fd43" name="M27 Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="61e9-8f6f-b545-ae50" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
         <infoLink id="eda4-5e83-9763-c567" name="Stabiliser" hidden="false" targetId="f649-4014-dcf4-3336" type="rule"/>
@@ -2810,29 +2880,29 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
           <selectionEntries>
             <selectionEntry id="c7ac-770f-273c-bf81" name="2x M27 (76mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f60c-1a80-708c-c88c" name="3x M27 (76mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="31.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fd11-48b1-7a7f-f0cc" name="4x M27 (76mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="42.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6ff5-03e6-d3b0-bcb2" name="5x M27 (76mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="52.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="40.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry id="6347-c3e2-61dc-9a6c" name="*[FS] T14 Armoured Assault Troop" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6347-c3e2-61dc-9a6c" name="T14 Armoured Assault Troop" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6347-070a-829e-0595" name="T14 Assault Tank" hidden="false" targetId="c655-59d0-09c7-9681" type="profile"/>
         <infoLink id="33d8-0764-d7e7-3ac5" name="T14 (.50 cal MG)" hidden="false" targetId="69ca-277e-0101-f310" type="profile"/>
@@ -2875,7 +2945,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="463c-84ab-19d2-d407" name="*[F] Assault Tank Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="463c-84ab-19d2-d407" name="Assault Tank Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="584a-d30e-e1f5-790c" name="1) HQ Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="7493-4143-e91e-3203">
           <constraints>
@@ -2980,7 +3050,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="741d-7cf6-1a9a-14a3" name="*[FS] M4 Sherman Assault Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="741d-7cf6-1a9a-14a3" name="M4 Sherman Assault Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="26ab-819f-9595-7dc1" name="M4 Sherman (75mm)" hidden="false" targetId="a703-1941-0d2f-2e75" type="profile"/>
         <infoLink id="08d1-2231-79ed-0c35" name="M4 Sherman (75mm)" hidden="false" targetId="a142-74a5-9b89-f53f" type="profile"/>
@@ -3003,34 +3073,34 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
           <selectionEntries>
             <selectionEntry id="e9e2-ff18-8c5b-7ef3" name="2x M4 Sherman (75mm), 1x T14 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="26.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e2dc-3337-bb74-4c95" name="3x M4 Sherman (75mm), 1x T14 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="26.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="06db-c1d2-8ecf-536b" name="2x M4 Sherman (75mm), 2x T14 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="35.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="30.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e5fb-7b90-76c9-2f00" name="4x M4 Sherman (75mm), 1x T14 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="42.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="31.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1e6a-5192-b791-2943" name="3x M4 Sherman (75mm), 2x T14 (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="43.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry id="1bbd-5ee7-b848-f869" name="*M4 Sherman Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1bbd-5ee7-b848-f869" name="M4 Sherman Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="c951-8930-7595-52c9" name="M4 Sherman (75mm)" hidden="false" targetId="a703-1941-0d2f-2e75" type="profile"/>
         <infoLink id="d6d6-f756-b4a6-a440" name="M4 Sherman (.50 cal MG)" hidden="false" targetId="2a19-4405-91d1-842b" type="profile"/>
@@ -3049,12 +3119,12 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
           <selectionEntries>
             <selectionEntry id="5011-78ec-07c1-7cee" name="2x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9382-6cfe-9148-8641" name="1x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3064,7 +3134,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea6a-7deb-3781-cd10" name="[W] M6 Heavy Tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ea6a-7deb-3781-cd10" name="M6 Heavy Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5954-078a-553e-0436" name="M6 Heavy Tank Platoon" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -3154,7 +3224,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry id="e06f-6b3e-bae4-b539" name="[W] T55 Interceptor Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e06f-6b3e-bae4-b539" name="T55 Interceptor Tank Destroyer Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="465f-405a-2c76-0c24" name="T55 Interceptor Tank Destroyer Platoon" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
