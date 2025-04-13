@@ -433,5 +433,8 @@ A One-man Turret main weapon adds +1 to the score needed To Hit when moving.</de
     <rule id="adfb-38ac-d14c-5575" name="Dismount" hidden="false">
       <description>Unit may dismount at the start of the Movement Step. Once dismounted, may not remount for rest of the game and moves as Infantry.</description>
     </rule>
+    <rule id="4fca-c940-f1ad-b2fc" name="Gigantic" hidden="false">
+      <description>Teams for this Unit cannot be placed from Ambush within 16&quot;/40cm of any enemy Team.</description>
+    </rule>
   </sharedRules>
 </gameSystem>

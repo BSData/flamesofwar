@@ -669,6 +669,9 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
           </constraints>
           <selectionEntries>
             <selectionEntry id="1911-ba56-6d94-ab61" name="8.8cm AA gun" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dea4-7444-5342-64bb" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
@@ -935,9 +938,6 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="c48d-68ff-a809-45d3" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
-          </entryLinks>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -1066,9 +1066,6 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="3841-22ba-d925-acd7" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -1408,30 +1405,36 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="42ec-6ab6-a986-7fe8" name="1) Tank Support Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="6c5a-ac44-8cfc-d334" name="Panzer II Light Tank Platoon" hidden="false" collective="false" import="true" targetId="421b-edac-f499-d8ef" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d3b-ae36-9a07-f6b4" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f1d3-e926-8dc3-bd09" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="2fe8-236b-99f4-44ce" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4648-e8c4-908a-6d6a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="2491-4575-5bf1-f05d" name="***Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="2fe8-236b-99f4-44ce" type="selectionEntry">
+        <entryLink id="2491-4575-5bf1-f05d" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="2fe8-236b-99f4-44ce" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="831f-f8f0-8696-d89f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad20-86b7-6765-7699" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3749-8f41-aa22-8acd" name="***Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="2fe8-236b-99f4-44ce" type="selectionEntry">
+        <entryLink id="3749-8f41-aa22-8acd" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="2fe8-236b-99f4-44ce" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a45e-25a4-eb8c-a5a4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f3c-6278-2db6-f384" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="4bfc-04b6-b892-3b1c" name="***Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="2fe8-236b-99f4-44ce" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ed02-93cc-e72e-ab28" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="1603-8027-8900-3b40" name="***Panzer II Light Tank Platoon" hidden="false" collective="false" import="true" targetId="421b-edac-f499-d8ef" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1886-d5da-5b93-35ec" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="0c50-9930-6d4c-e0da" name="Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
+        <entryLink id="0c50-9930-6d4c-e0da" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -1926,16 +1929,13 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="fb14-a950-3a4a-5264" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a59-b461-9bd1-6401" name="Sd Kfz 231 Heavy Scout Troop" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="019e-54c0-417b-911f" name="Sd Kfz 231 (2cm)" hidden="false" targetId="0656-168a-fde7-645a" type="profile"/>
+        <infoLink id="019e-54c0-417b-911f" name="Sd Kfz 231 (2cm) [Unit]" hidden="false" targetId="0656-168a-fde7-645a" type="profile"/>
         <infoLink id="100c-d688-401a-de1f" name="Stormtroopers" hidden="false" targetId="5b29-2623-7f34-fc95" type="rule"/>
         <infoLink id="10e5-9f24-f059-027c" name="Sd Kfz 231 (2cm) [Weapon]" hidden="false" targetId="4506-81fb-f1a0-3897" type="profile"/>
         <infoLink id="54fb-d782-2087-f0c2" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
@@ -1956,9 +1956,6 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="1872-7b1a-9970-265d" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2269,9 +2266,6 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="71d2-1b45-54b9-12a3" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2332,9 +2326,6 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="1b0a-08af-67b3-5adb" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2506,9 +2497,6 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="1c68-54a3-af9f-9f78" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2526,9 +2514,6 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="e2de-4815-bee0-f0a0" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -2637,9 +2622,6 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="b5a4-5f1c-cc1e-01cd" name="Command Cards [Unit]" hidden="false" collective="false" import="true" targetId="c6b6-7713-4f1a-22a5" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
