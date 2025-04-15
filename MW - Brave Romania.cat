@@ -11,7 +11,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
     <categoryEntry id="b824-c90c-05de-ec79" name="PEASANT ARMY" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="c8ab-9f28-7f55-1486" name="*[SG] 75mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="cdc6-7fb5-b938-6929" type="selectionEntry">
+    <entryLink id="c8ab-9f28-7f55-1486" name="75mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="cdc6-7fb5-b938-6929" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="39c7-0581-0ce5-c7b1" type="max"/>
       </constraints>
@@ -66,7 +66,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         <categoryLink id="43f2-5469-ef29-b2be" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7f1a-683e-5686-a24d" name="*[S] 120mm Heavy Mortar Platoon" hidden="false" collective="false" import="true" targetId="0cf9-f09c-530c-81bb" type="selectionEntry">
+    <entryLink id="7f1a-683e-5686-a24d" name="120mm Heavy Mortar Platoon" hidden="false" collective="false" import="true" targetId="0cf9-f09c-530c-81bb" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a2e-ffd1-cce1-94c1" type="max"/>
       </constraints>
@@ -87,22 +87,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         <categoryLink id="fd4f-fd7a-ce64-43df" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8c23-ef5b-2aa3-9584" name="*[S] T-38 Light Tank Platoon" hidden="false" collective="false" import="true" targetId="9807-8c56-2102-1b01" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9807-8c56-2102-1b01" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c872-0cb2-fed8-1ede" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="70f6-5770-2680-b9c3" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="af94-eb16-7ea8-7df0" name="*[F] Pioneer Company" hidden="false" collective="false" import="true" targetId="544b-da47-acd4-c05e" type="selectionEntry">
+    <entryLink id="af94-eb16-7ea8-7df0" name="Pioneer Company" hidden="false" collective="false" import="true" targetId="544b-da47-acd4-c05e" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="683e-59d8-5613-0763" type="max"/>
       </constraints>
@@ -133,7 +118,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         <categoryLink id="5fe7-7dae-7a8c-85b1" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1493-c334-2410-34cc" name="*[F] T-38 Light Tank Company" hidden="false" collective="false" import="true" targetId="7d10-3402-61c6-fec9" type="selectionEntry">
+    <entryLink id="1493-c334-2410-34cc" name="T-38 Light Tank Company" hidden="false" collective="false" import="true" targetId="7d10-3402-61c6-fec9" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f80-58af-2516-edd8" type="max"/>
       </constraints>
@@ -206,7 +191,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         <categoryLink id="35c8-8150-96ea-54de" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3d90-577b-3fe7-1a76" name="*[M] R-2 Light Tank Platoon" hidden="false" collective="false" import="true" targetId="0037-13ec-69d2-03fb" type="selectionEntry">
+    <entryLink id="3d90-577b-3fe7-1a76" name="R-2 Light Tank Platoon" hidden="false" collective="false" import="true" targetId="0037-13ec-69d2-03fb" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -236,21 +221,6 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         <categoryLink id="672f-926d-5932-45ed" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3142-f17a-2ff5-0c5a" name="*[FS] Pioneer Platoon" hidden="false" collective="false" import="true" targetId="84ca-6fc7-4458-3537" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="544b-da47-acd4-c05e" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c33f-a65c-ce36-470c" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="4e2c-c8c8-9185-2a0d" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="50aa-7c4c-a0a0-b1fc" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="418e-1807-f2d0-1de3" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -266,19 +236,12 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         <categoryLink id="fe22-bec4-d27e-e541" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d4dd-e2fc-53f0-ec14" name="*[S] AB Armoured Car Platoon" hidden="false" collective="false" import="true" targetId="8956-aa5f-bb91-a3bb" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8956-aa5f-bb91-a3bb" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+    <entryLink id="d4dd-e2fc-53f0-ec14" name="AB Armoured Car Platoon" hidden="false" collective="false" import="true" targetId="8956-aa5f-bb91-a3bb" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5cb-e48a-6a66-1c39" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="0569-c99b-6b5a-ff1f" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+        <categoryLink id="6fdf-cec2-e388-5dc8" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5877-b0e5-c665-397c" name="*[FS] T-3 Medium Tank Platoon" hidden="false" collective="false" import="true" targetId="bbb9-0317-eb03-f8d4" type="selectionEntry">
@@ -311,27 +274,12 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         <categoryLink id="d7ff-0034-93b0-8d5a" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d5e1-d7aa-850d-c123" name="*[S] T-38 Light Tank Platoon" hidden="false" collective="false" import="true" targetId="9807-8c56-2102-1b01" type="selectionEntry">
+    <entryLink id="d5e1-d7aa-850d-c123" name="T-38 Light Tank Platoon" hidden="false" collective="false" import="true" targetId="9807-8c56-2102-1b01" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac27-6e0a-37ad-4c3f" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="014d-caa3-2b67-3498" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="919c-d670-6461-8f37" name="R-1 Cavalry Tank Platoon" hidden="false" collective="false" import="true" targetId="2b51-ba6c-a4a9-1cab" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b51-ba6c-a4a9-1cab" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe35-b648-f432-c61b" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="daed-12cb-3956-06a5" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f468-4009-33a1-21e5" name="Command Cards" hidden="false" collective="false" import="true" targetId="428b-adbf-d25a-942d" type="selectionEntry">
@@ -350,6 +298,14 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
       </constraints>
       <categoryLinks>
         <categoryLink id="aaf3-6cbc-bf23-bb79" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c968-a8c6-87ee-0aaf" name="Pioneer Platoon" hidden="false" collective="false" import="true" targetId="84ca-6fc7-4458-3537" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3040-b586-4dac-9822" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b213-98c9-2c51-ef42" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -390,7 +346,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f0cf-4075-0294-edc7" name="1) Light Tank Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f0cf-4075-0294-edc7" name="1) Optional Light Tank Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="d036-d799-a9eb-4562" name="[F] R-2 Light Tank Company" hidden="false" collective="false" import="true" targetId="5b8d-96b3-25b1-efaa" type="selectionEntry">
               <constraints>
@@ -404,7 +360,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e461-279e-3bc5-e7f7" name="2) Addtl. Tank Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e461-279e-3bc5-e7f7" name="2) Optional Tank Units" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="a78d-f3c8-2cb1-7bb6" name="*[F] R-2 Light Tank Company" hidden="false" collective="false" import="true" targetId="5b8d-96b3-25b1-efaa" type="selectionEntry">
               <constraints>
@@ -473,7 +429,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d460-7135-c8ad-5767" name="1) Light Tank Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d460-7135-c8ad-5767" name="1) Optional Light Tank Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="f010-599a-e1ee-a034" name="[F] R-2 Light Tank Company" hidden="false" collective="false" import="true" targetId="5b8d-96b3-25b1-efaa" type="selectionEntry">
               <constraints>
@@ -487,14 +443,14 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1181-e740-dc18-4a43" name="2) Addtl. Tank Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1181-e740-dc18-4a43" name="2) Optional Tank Units" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="91f9-5ec0-1b26-e7e5" name="[F] R-2 Light Tank Company" hidden="false" collective="false" import="true" targetId="5b8d-96b3-25b1-efaa" type="selectionEntry">
+            <entryLink id="91f9-5ec0-1b26-e7e5" name="R-2 Light Tank Company" hidden="false" collective="false" import="true" targetId="5b8d-96b3-25b1-efaa" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0de6-16f5-e567-9acb" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0ebc-dc32-9dbb-3a0d" name="*[FS] T-4 Medium Tank Platoon" hidden="false" collective="false" import="true" targetId="bcd1-2af0-68c7-8208" type="selectionEntry">
+            <entryLink id="0ebc-dc32-9dbb-3a0d" name="T-4 Medium Tank Platoon" hidden="false" collective="false" import="true" targetId="bcd1-2af0-68c7-8208" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0955-b331-75c4-18fb" type="max"/>
               </constraints>
@@ -552,10 +508,13 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
           <entryLinks>
             <entryLink id="3857-fb8a-4ade-83d7" name="0) Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="e6a2-19f4-cec6-10db" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="13cd-9f2a-7661-5ef8" name="1) R-2 Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="13cd-9f2a-7661-5ef8" name="1) Optional R-2 Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="1ca1-6ae5-1eb8-52ab" name="R-2 Light Tank Platoon" hidden="false" collective="false" import="true" targetId="0037-13ec-69d2-03fb" type="selectionEntry">
               <constraints>
@@ -569,7 +528,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="349b-6b42-1989-6d80" name="2) Addtl. Tank Support" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="349b-6b42-1989-6d80" name="2) Optional Tank Unit" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07b9-288f-ea80-baa5" type="max"/>
           </constraints>
@@ -621,7 +580,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             <entryLink id="3305-afb4-6001-e18d" name="[FS] Armoured Rifle Platoon" hidden="false" collective="false" import="true" targetId="4b3c-fd5e-d0a7-2b18" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="91d2-a83e-3b8b-1795" name="4) Addtl. Support Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="91d2-a83e-3b8b-1795" name="4) Optional Weapons Units" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="8e9a-ae70-c83a-cdb1" name="Motorised 81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="8af8-004b-2a6e-9ea7" type="selectionEntry">
               <constraints>
@@ -650,7 +609,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0009-d51a-8e27-92e1" name="3) Anti-tank Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0009-d51a-8e27-92e1" name="3) Optional Anti-tank Unit" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ad-eba8-e7b3-7556" type="max"/>
           </constraints>
@@ -779,6 +738,9 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
           <entryLinks>
             <entryLink id="ca54-5f9d-f253-d740" name="0) Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="e6a2-19f4-cec6-10db" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1034,7 +996,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
                 <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
                 <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
                 <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
-                <characteristic name="Notes" typeId="173e-6395-d37b-31a2"></characteristic>
+                <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1067,7 +1029,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0a2d-1c2b-e7a9-af3b" name="1) Additional Cavalry Troop" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0a2d-1c2b-e7a9-af3b" name="1) Optional Cavalry Troop" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="1e7a-68ec-ee94-89ad" name="Cavalry Troop" hidden="false" collective="false" import="true" targetId="8c52-baad-e7e2-8a59" type="selectionEntry">
               <constraints>
@@ -1076,7 +1038,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5694-f362-bef6-c7f8" name="2) Support Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5694-f362-bef6-c7f8" name="2) Optional Weapons Units" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="d170-2810-0c23-88a5" name="Motorised ZB53 Machine-gun Platoon" hidden="false" collective="false" import="true" targetId="b185-fd2f-e7ae-b0dc" type="selectionEntry">
               <constraints>
@@ -1165,10 +1127,13 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
           <entryLinks>
             <entryLink id="c77e-f097-4039-ff9f" name="0) Command Cards (Unit)" hidden="false" collective="false" import="true" targetId="e6a2-19f4-cec6-10db" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="75ca-7809-395b-43ee" name="1) Additional Mountain Rifle Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="75ca-7809-395b-43ee" name="1) Optional Mountain Rifle Platoon" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="12e5-8405-3fb7-098d" name="Mountain Rifle Platoon" hidden="false" collective="false" import="true" targetId="7689-0f15-ce8b-5f2f" type="selectionEntry">
               <constraints>
@@ -1177,7 +1142,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="14cb-5296-2fe1-12c3" name="2) Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="14cb-5296-2fe1-12c3" name="2) Optional Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="af98-6114-4b62-d1e8" name="Mountain ZB53 Machine-gun Platoon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1522,7 +1487,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
             <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
             <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
-            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"></characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1676,7 +1641,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
             <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
             <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
-            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"></characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
           </characteristics>
         </profile>
         <profile id="0845-15d6-9d37-2a3e" name="ZB30 MG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2301,7 +2266,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0066-7583-bb54-460d" name="Additional Tank Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0066-7583-bb54-460d" name="1) Optional Tank Unit" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="f8e7-d743-bcfa-3fe5" name="*[S] T-38 Light Tank Platoon" hidden="false" collective="false" import="true" targetId="9807-8c56-2102-1b01" type="selectionEntry">
               <constraints>
@@ -2312,7 +2277,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="17a7-08d9-1b20-6c0b" name="*[S] T-38 Light Tank Platoon" hidden="false" collective="false" import="true" targetId="9807-8c56-2102-1b01" type="selectionEntry">
+        <entryLink id="17a7-08d9-1b20-6c0b" name="T-38 Light Tank Platoon" hidden="false" collective="false" import="true" targetId="9807-8c56-2102-1b01" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bd8c-2e94-c404-9ad6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="77d5-3674-364f-9b71" type="max"/>
@@ -2590,7 +2555,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
             <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
             <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
-            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"></characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2776,7 +2741,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
     </selectionEntry>
     <selectionEntry id="bd65-dcb4-eaf4-fca6" name="Reconnaissance Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="5b05-e2f4-bdd9-bdc6" name="1) Infantry #1" hidden="false" collective="false" import="true" defaultSelectionEntryId="769f-f528-86a1-4718">
+        <selectionEntryGroup id="5b05-e2f4-bdd9-bdc6" name="1) Infantry Unit" hidden="false" collective="false" import="true" defaultSelectionEntryId="769f-f528-86a1-4718">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e8c-0b18-e096-3057" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dde-cc05-429f-c648" type="max"/>
@@ -2786,16 +2751,16 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             <entryLink id="a1cf-73d3-4c95-6031" name="[FS] Cavalry Troop" hidden="false" collective="false" import="true" targetId="8c52-baad-e7e2-8a59" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b3b9-42e9-949d-e9ad" name="2) Infantry #2" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b3b9-42e9-949d-e9ad" name="3) Optional Infantry Unit" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e27e-a5fc-9eb0-3faa" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0997-91e5-05ca-1e05" name="[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="418e-1807-f2d0-1de3" type="selectionEntry"/>
+            <entryLink id="0997-91e5-05ca-1e05" name="Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="418e-1807-f2d0-1de3" type="selectionEntry"/>
             <entryLink id="cd19-6948-f744-1378" name="[FS] Cavalry Troop" hidden="false" collective="false" import="true" targetId="8c52-baad-e7e2-8a59" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e674-56c7-fd1e-d314" name="3) Reconnaissance #1" hidden="false" collective="false" import="true" defaultSelectionEntryId="fbc5-7e17-e5c4-e48d">
+        <selectionEntryGroup id="e674-56c7-fd1e-d314" name="1) Reconnaissance Unit" hidden="false" collective="false" import="true" defaultSelectionEntryId="fbc5-7e17-e5c4-e48d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f7ee-22f4-1eec-8908" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="86f0-f1f7-7b33-419d" type="max"/>
@@ -2805,7 +2770,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             <entryLink id="fbc5-7e17-e5c4-e48d" name="*[S] AB Armoured Car Platoon" hidden="false" collective="false" import="true" targetId="8956-aa5f-bb91-a3bb" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bcfb-48b0-30b3-9851" name="4) Reconnaissance #2" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="bcfb-48b0-30b3-9851" name="4) Optional Reconnaissance Unit" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="00ae-a2b4-30df-613e" type="max"/>
           </constraints>
@@ -2816,7 +2781,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0caf-adf1-6cb6-c68f" name="*[M] Motorised Rifle Company HQ" hidden="false" collective="false" import="true" targetId="d247-e0fe-7651-c375" type="selectionEntry">
+        <entryLink id="0caf-adf1-6cb6-c68f" name="Motorised Rifle Company HQ" hidden="false" collective="false" import="true" targetId="d247-e0fe-7651-c375" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3a2-6897-a5cf-8e42" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0340-a1bf-61de-b255" type="max"/>
@@ -2841,7 +2806,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
             <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
             <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
             <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
-            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"></characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3077,6 +3042,9 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         <infoLink id="b905-fcdb-0541-6d32" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
         <infoLink id="00b9-9603-e501-0694" name="Passengers 2" hidden="false" targetId="23e1-f5f2-1523-0d4c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2b51-ba6c-a4a9-1cab" name="R-1 Cavalry Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -3158,11 +3126,17 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
       <entryLinks>
         <entryLink id="740a-a39c-3abb-992b" name="Command Cards (Force)" hidden="false" collective="false" import="true" targetId="caa1-6a28-f23d-76e6" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7c75-4f14-1932-1302" name="Peasant Army" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8bb3-cf9a-05df-f956" name="Peasant Army" hidden="false" targetId="d893-0182-30a3-c389" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -3455,6 +3429,9 @@ If this shot hits its target, target Team must re-roll a successful Save.</chara
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="308a-768a-90ed-7413" name="Mission Tactics" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3911,7 +3888,7 @@ If the die roll is a 5+, the Unit uses the Elite version for their ratings; thes
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
     <profile id="69e9-06cf-ebc6-188a" name="T-4 Medium Tank" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">

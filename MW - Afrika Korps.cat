@@ -120,36 +120,6 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
         <categoryLink id="421e-d19d-b245-5bd1" name="New CategoryLink" hidden="false" targetId="58fd-8352-c305-41bb" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e07b-e526-54e5-5889" name="Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="879a-0b04-2062-775f" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92c1-e57c-4413-20c3" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="c2c4-ab71-8ca4-1a93" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="d0a1-e82b-489e-0e8b" name="Sd Kfz 231 Heavy Scout Troop" hidden="false" collective="false" import="true" targetId="8a59-b461-9bd1-6401" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="879a-0b04-2062-775f" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45df-6707-6def-8c03" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="bd6e-cb12-866f-12c1" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="1734-c52e-f1f8-022e" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -723,7 +693,7 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7658-88d8-b321-da1e" name="Tank-Hunter Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7658-88d8-b321-da1e" name="2) Optional Tank-Hunter Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="54c7-32b5-b475-837a" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
               <constraints>
@@ -737,17 +707,30 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="b969-686a-125e-01e7" name="3) Optional AA Unit" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="05cc-f681-47d8-d9b6" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="e176-eaf3-6806-dfb4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0315-155a-d8f1-0725" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5576-ea13-b45e-177f" name="1) Optional Afrika Rifle Platoon" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="ffe9-30ce-14c4-a9d9" name="Afrika Rifle Platoon" hidden="false" collective="false" import="true" targetId="a3e3-a0a5-b1cb-155c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d160-ccf7-e49f-4673" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f31e-1889-ba7c-e333" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b160-e16e-9323-0adb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5353-7fff-715d-4927" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="fba4-03fe-4a96-15ed" name="Sd Kfz 10/4 Light AA Platoon" hidden="false" collective="false" import="true" targetId="e176-eaf3-6806-dfb4" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b206-914b-aed6-d2c0" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="daad-39ec-a729-aa9a" name="Afrika Rifle Platoon" hidden="false" collective="false" import="true" targetId="a3e3-a0a5-b1cb-155c" type="selectionEntry">
@@ -762,12 +745,7 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0f99-8107-cc55-5e9a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ddcd-b903-ef9f-58ac" name="Afrika Rifle Platoon" hidden="false" collective="false" import="true" targetId="a3e3-a0a5-b1cb-155c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="191b-ac99-0cac-8c12" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="5610-bb12-f13e-b545" name="Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
+        <entryLink id="5610-bb12-f13e-b545" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -943,6 +921,70 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5ed6-ef9c-8c76-4567" name="1) Optional Infantry Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="df04-ab81-5971-eac3" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3645-a2ea-696c-0241" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8053-629a-c211-0e3e" name="Afrika Rifle Platoon" hidden="false" collective="false" import="true" targetId="a3e3-a0a5-b1cb-155c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a1b-2490-cfe4-34fd" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8ded-8c84-c4da-0ec3" name="2) Optional Sd Kfz 221 &amp; 222 Troops" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="3c1a-0b3e-98da-92c6" name="Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5945-7386-dd57-d593" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="fe85-cd80-7291-078c" name="Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="abd6-7366-edb9-7664" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="91fa-7233-5215-89ca" name="Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="486a-4c47-dddd-edb7" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="cd9d-ca43-9900-dfe3" name="Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c6f-a926-cfd1-67e2" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7834-0584-e5d7-4933" name="Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6556-c94a-5e92-f301" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="172d-240e-9e62-742a" name="Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c264-81d3-b3ef-5207" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6fab-8472-0165-9a79" name="3) Optional Sd Kfz 231 Troops" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="610c-8f27-7b8c-6acb" name="Sd Kfz 231 Heavy Scout Troop" hidden="false" collective="false" import="true" targetId="8a59-b461-9bd1-6401" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa35-d04d-7a42-ec8b" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8417-328d-7016-365e" name="Sd Kfz 231 Heavy Scout Troop" hidden="false" collective="false" import="true" targetId="8a59-b461-9bd1-6401" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6863-2a0c-aaec-1691" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8fee-4c4e-1404-4072" name="Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
           <constraints>
@@ -950,69 +992,19 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efb1-e108-4a8f-cc8c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c632-fbf8-fbda-2e9f" name="Afrika Rifle Platoon" hidden="false" collective="false" import="true" targetId="a3e3-a0a5-b1cb-155c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e855-ebaf-3c63-1173" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="1535-102e-4c1c-9755" name="*** Sd Kfz 231 Heavy Scout Troop" hidden="false" collective="false" import="true" targetId="8a59-b461-9bd1-6401" type="selectionEntry">
+        <entryLink id="1535-102e-4c1c-9755" name="Sd Kfz 231 Heavy Scout Troop" hidden="false" collective="false" import="true" targetId="8a59-b461-9bd1-6401" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1475-f214-fc2e-fcba" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99dd-8d6e-b6cf-e448" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="74a1-4d45-b1f2-77e9" name="*** Sd Kfz 231 Heavy Scout Troop" hidden="false" collective="false" import="true" targetId="8a59-b461-9bd1-6401" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57ac-1c0d-340b-254f" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="34ea-6b8f-e69a-d1a7" name="*** Sd Kfz 231 Heavy Scout Troop" hidden="false" collective="false" import="true" targetId="8a59-b461-9bd1-6401" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="914f-ad4a-e282-781c" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="9690-01d6-1eb2-2a69" name="***Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
+        <entryLink id="9690-01d6-1eb2-2a69" name="Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf43-712d-fef3-607e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc13-5afa-d107-3e63" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="a61f-aa8c-fcd9-733d" name="***Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a8a-de60-a522-8ca2" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="ca16-a6bc-ca0c-31d6" name="***Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6bfa-76e9-6de0-1244" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="1cbd-e2ae-2098-68ea" name="***Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d335-4e06-2009-52bc" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="598b-0680-3a53-2a00" name="***Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="75ef-e6fa-d6ad-8be5" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="cc0b-e2ed-e5ac-bfbd" name="***Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="645d-fdcb-5624-c384" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="deb2-69a5-6c02-9efd" name="***Sd Kfz 221 &amp; 222 Light Scout Troop" hidden="false" collective="false" import="true" targetId="1805-7cf8-8b3f-a2df" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e93-efe6-6151-2c97" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="14a6-9e08-30f5-ad79" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="1b66-d365-c756-7a90" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c753-48d3-599e-bb9f" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="a672-ed17-1281-ed56" name="Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
+        <entryLink id="a672-ed17-1281-ed56" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -1240,7 +1232,7 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
             <entryLink id="e077-08d8-0a85-9512" name="**Panzer III (Uparmoured) Tank Platoon" hidden="false" collective="false" import="true" targetId="b3d8-a821-fa00-8c48" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5403-e66a-1884-a43e" name="3) Panzer III Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5403-e66a-1884-a43e" name="3) Optional Panzer III Platoon #1" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edbb-57c8-4ddf-4939" type="max"/>
           </constraints>
@@ -1251,7 +1243,7 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
             <entryLink id="935d-f2da-36d9-77e1" name="Panzer III (Mixed) Tank Platoon" hidden="false" collective="false" import="true" targetId="f4ec-d95d-52cf-9d06" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="252b-49cc-9082-91e0" name="4) Panzer III Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="252b-49cc-9082-91e0" name="4) Optional Panzer III Platoon #2" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85d7-3cf5-2c9c-1eda" type="max"/>
           </constraints>
@@ -1262,14 +1254,18 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
             <entryLink id="7314-c930-48a8-b0b6" name="Panzer III (Mixed) Tank Platoon" hidden="false" collective="false" import="true" targetId="f4ec-d95d-52cf-9d06" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="a6e4-597c-9e19-f765" name="5) Optional Panzer II Platoon" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="0274-1f60-9a29-957a" name="Panzer II Light Tank Platoon" hidden="false" collective="false" import="true" targetId="421b-edac-f499-d8ef" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ba-4181-65d6-b4ad" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e63d-6abd-3101-b594" name="***Panzer II Light Tank Platoon" hidden="false" collective="false" import="true" targetId="421b-edac-f499-d8ef" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d344-fb80-95ff-a149" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="4afc-2ea5-86ce-ba12" name="Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
+        <entryLink id="4afc-2ea5-86ce-ba12" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="4b7e-918b-6013-0206" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -1406,7 +1402,7 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="42ec-6ab6-a986-7fe8" name="1) Tank Support Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="42ec-6ab6-a986-7fe8" name="1) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="6c5a-ac44-8cfc-d334" name="Panzer II Light Tank Platoon" hidden="false" collective="false" import="true" targetId="421b-edac-f499-d8ef" type="selectionEntry">
               <constraints>
@@ -2056,7 +2052,7 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c772-4f83-ad05-79e3" name="1) Additional Rifle Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c772-4f83-ad05-79e3" name="1) Optional Rifle Platoon" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="97ae-ebad-3ed3-5d3a" name="Afrika Rifle Platoon" hidden="false" collective="false" import="true" targetId="a3e3-a0a5-b1cb-155c" type="selectionEntry">
               <constraints>
@@ -2065,7 +2061,7 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6b3b-d86b-6d31-43b5" name="2) Support Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6b3b-d86b-6d31-43b5" name="2) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="ae9e-259e-358e-76d1" name="7.62cm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="f636-ac61-cd60-cd17" type="selectionEntry">
               <constraints>
@@ -2554,7 +2550,7 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="12d0-e7e5-e7b2-a4e1" name="Heavy AT Support Unit" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="12d0-e7e5-e7b2-a4e1" name="Heavy Anti-tank Support Unit" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="da0b-e869-46de-1dde" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="aec2-005c-9aa8-f935">
           <constraints>
@@ -2571,7 +2567,7 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="982f-136d-902e-f70e" name="AT Support Unit" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="982f-136d-902e-f70e" name="Anti-tank Support Unit" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="f9c1-e3c5-2395-34fd" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4e3-53bd-b444-c7ae">
           <constraints>

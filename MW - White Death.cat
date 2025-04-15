@@ -110,7 +110,7 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
         <categoryLink id="7284-11dc-e7b5-222d" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6e50-ccd4-f213-bfa4" name="*[S] Pioneer Platoon" hidden="false" collective="false" import="true" targetId="3eb6-3675-708b-1ade" type="selectionEntry">
+    <entryLink id="6e50-ccd4-f213-bfa4" name="Pioneer Platoon" hidden="false" collective="false" import="true" targetId="3eb6-3675-708b-1ade" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="971e-eadc-b80f-32d4" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
@@ -203,7 +203,7 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             <entryLink id="63bc-356e-e4d5-a134" name="*[FS] T-26 Armoured Platoon" hidden="false" collective="false" import="true" targetId="1ba3-1d84-6743-ef82" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0258-6b96-c780-8f55" name="2) Addtl. Armour" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0258-6b96-c780-8f55" name="2) Optional Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c22-171c-6a2b-a719" type="max"/>
           </constraints>
@@ -345,7 +345,7 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             <entryLink id="4aa2-78a1-21ca-6eda" name="T-26 Armoured Platoon" hidden="false" collective="false" import="true" targetId="1ba3-1d84-6743-ef82" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="db98-42ea-da6d-6f8b" name="3) Anti-Aircraft" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="db98-42ea-da6d-6f8b" name="3) Optional Anti-Aircraft" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="496f-837c-e4c2-7c6d" name="Landsverk Anti II Armored Anti-aircraft Platoon" hidden="false" collective="false" import="true" type="unit">
               <constraints>
@@ -472,9 +472,9 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c4d9-54c8-2b99-3277" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0259-6c02-9f8d-7d6e" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5d4-9088-fa55-b7ea" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24bf-6723-39ab-8540" type="max"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -482,16 +482,16 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a18f-c993-97b9-58a1" name="1) Infantry" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a18f-c993-97b9-58a1" name="2) Optional Units" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="954a-4816-438d-d3d9" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7a37-d671-7e56-c279" name="[M] SMG Platoon" hidden="false" collective="false" import="true" targetId="fc8f-6d9c-1b24-e1ae" type="selectionEntry"/>
+            <entryLink id="7a37-d671-7e56-c279" name="SMG Platoon" hidden="false" collective="false" import="true" targetId="fc8f-6d9c-1b24-e1ae" type="selectionEntry"/>
             <entryLink id="bc73-3634-951c-2cfa" name="[FS] Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d14c-cb3c-8257-eff0" name="2) Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d14c-cb3c-8257-eff0" name="3) Optional Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="e557-c646-6c53-9b5a" name="[M] 81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="8a14-451d-9053-0f6b" type="selectionEntry">
               <constraints>
@@ -505,7 +505,7 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ad64-5d4a-5a17-119d" name="3) Anti-tank Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ad64-5d4a-5a17-119d" name="4) Optional Anti-tank Platoon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff40-4612-41db-996c" type="max"/>
           </constraints>
@@ -568,6 +568,15 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="30d3-d497-311d-3d01" name="1) Optional Light Infantry Platoon" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8ad5-69f3-16db-fb26" name="Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="96a1-2d6d-6486-d1f6" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b327-f71d-c322-c415" name="*[FS] Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry">
@@ -576,22 +585,17 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="20e3-6b3e-5339-97a6" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="69ed-44b8-201f-135f" name="*[FS] Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry">
+        <entryLink id="69ed-44b8-201f-135f" name="Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3285-6f1b-a02d-38a8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f350-6b97-917d-7ce9" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="9479-4462-e5f7-6e84" name="[FS] Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fbf2-d62a-fa97-98c2" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="a22d-093b-5f5c-2206" name="0) Command Cards (Formation)" hidden="true" collective="false" import="true" targetId="96e9-dcea-0d87-0d8d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d9-54c8-2b99-3277" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0259-6c02-9f8d-7d6e" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -652,9 +656,9 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="78e4-6940-6f8f-a253" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="61bc-cbd4-d4f6-fa87" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b508-74d6-5630-ac8d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d3b-8927-b2b8-93d0" type="max"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -662,7 +666,7 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ab51-2816-f6ed-d79f" name="1) Infantry" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ab51-2816-f6ed-d79f" name="2) Optional Unit" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26b2-25b7-ce89-16b4" type="max"/>
           </constraints>
@@ -671,7 +675,7 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             <entryLink id="98f5-bbe6-a3a8-fe27" name="Light Infantry Platoon" hidden="false" collective="false" import="true" targetId="9854-eef7-d858-4923" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d6a8-c20d-070a-d017" name="2) Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d6a8-c20d-070a-d017" name="3) Optional Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="89d6-f3b1-2ecc-30d4" name="[M] 81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="8a14-451d-9053-0f6b" type="selectionEntry">
               <constraints>
@@ -685,13 +689,22 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="272f-c4db-b533-c416" name="3) Anti-tank Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="272f-c4db-b533-c416" name="4) Optional Anti-tank Platoons" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ed-5b55-c194-56e9" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="9bac-7031-86d8-e74f" name="[M] 45mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="580b-ae8b-9b7e-b889" type="selectionEntry"/>
             <entryLink id="1028-baed-84c6-a738" name="[M] 37mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="f6fe-45b7-331a-9bbc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f751-93e5-57d8-1e8a" name="1) Optional Infantry Platoon" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="7532-622c-5698-f1df" name="Infantry Platoon" hidden="false" collective="false" import="true" targetId="696c-c933-e5f7-0681" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8616-5290-d8fe-cb38" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -708,16 +721,11 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4881-a72a-70c9-08d1" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3005-2e8d-25ed-f9bb" name="Infantry Platoon" hidden="false" collective="false" import="true" targetId="696c-c933-e5f7-0681" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ab5-bc37-7ae9-5ef1" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="ba6d-9217-47e5-3dee" name="0) Command Cards (Formation)" hidden="true" collective="false" import="true" targetId="96e9-dcea-0d87-0d8d" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78e4-6940-6f8f-a253" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61bc-cbd4-d4f6-fa87" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2298,6 +2306,17 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9859-a1e4-cd1f-fa5e" name="1) Optional Pioneer Platoon" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c758-b648-dbb4-2a32" name="Pioneer Platoon" hidden="false" collective="false" import="true" targetId="3eb6-3675-708b-1ade" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0033-92b9-c0f1-e6a0" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="a79a-c310-b7b1-5906" name="Pioneer Platoon" hidden="false" collective="false" import="true" targetId="3eb6-3675-708b-1ade" type="selectionEntry">
           <constraints>
@@ -2305,15 +2324,10 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7a3f-6a85-bbfd-8789" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="d49c-a83e-e5d4-3b62" name="*[S] Pioneer Platoon" hidden="false" collective="false" import="true" targetId="3eb6-3675-708b-1ade" type="selectionEntry">
+        <entryLink id="d49c-a83e-e5d4-3b62" name="Pioneer Platoon" hidden="false" collective="false" import="true" targetId="3eb6-3675-708b-1ade" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2966-fcd7-6a90-d2e9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e399-2bde-70c7-7203" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="fc95-6b11-5121-7fe7" name="*[S] Pioneer Platoon" hidden="false" collective="false" import="true" targetId="3eb6-3675-708b-1ade" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0b8a-0a49-aa36-d97c" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="728f-e245-aa53-dffa" name="0) Command Cards (Formation)" hidden="true" collective="false" import="true" targetId="96e9-dcea-0d87-0d8d" type="selectionEntryGroup">
