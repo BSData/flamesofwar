@@ -79,7 +79,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <categoryLink id="9883-0c69-c97b-64be" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a97d-a998-a37f-1983" name="Reconnaissance Support Troop #2" hidden="false" collective="false" import="true" targetId="145e-e56a-c028-2e77" type="selectionEntry">
+    <entryLink id="a97d-a998-a37f-1983" name="[Reconnaissance] Support Type #2" hidden="false" collective="false" import="true" targetId="145e-e56a-c028-2e77" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ffc9-6692-6de0-74d9" type="max"/>
       </constraints>
@@ -107,9 +107,9 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <categoryLink id="815c-e4e1-0ba1-f8ff" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5bbb-f149-8a1c-7c14" name="Artillery Support Platoon #1" hidden="false" collective="false" import="true" targetId="7afc-cc9d-707f-1400" type="selectionEntry">
+    <entryLink id="5bbb-f149-8a1c-7c14" name="[Artillery] Support Type #1" hidden="false" collective="false" import="true" targetId="7afc-cc9d-707f-1400" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7611-b385-0d1b-db6c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7611-b385-0d1b-db6c" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="f0f3-c554-58ac-3928" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -427,6 +427,14 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
       </constraints>
       <categoryLinks>
         <categoryLink id="5ae6-cf67-79e0-2328" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2d31-fe37-a452-b095" name="[Artillery] Support Type #1" hidden="false" collective="false" import="true" targetId="7afc-cc9d-707f-1400" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="460e-c7af-8275-59e4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b670-f9c1-9c92-dcec" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1162,7 +1170,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98a0-f934-b5d0-02da" name="17/25 pdr Anti-tank Troop" publicationId="59c8-b9e8-2f69-1767" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="98a0-f934-b5d0-02da" name="[Anti-tank] 17/25 pdr Anti-tank Troop" hidden="false" collective="false" import="true" type="unit">
       <comment>MB114</comment>
       <profiles>
         <profile id="9f7d-56c7-a1c8-255b" name="17/25 pdr Anti-tank Troop" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
@@ -1225,7 +1233,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="770f-8f32-d98b-6656" name="Aircraft Support Flight" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="770f-8f32-d98b-6656" name="[Aircraft] Support" hidden="false" collective="false" import="true" type="unit">
       <comment>MB119 or MB138</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88b9-daba-9706-c95d" type="max"/>
@@ -1425,7 +1433,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a26a-bf3f-76cb-2c6d" name="Bofors Light AA troop" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a26a-bf3f-76cb-2c6d" name="[Anti-aircraft] Bofors Light AA troop" hidden="false" collective="false" import="true" type="unit">
       <comment>MB118</comment>
       <profiles>
         <profile id="f776-151d-5615-e01a" name="Bofors Light AA troop" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
@@ -1983,7 +1991,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="77bd-a56a-6475-d4a9" name="Honey OP Observation Post" publicationId="59c8-b9e8-2f69-1767" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="77bd-a56a-6475-d4a9" name="[Observer] Honey OP Observation Post" hidden="false" collective="false" import="true" type="unit">
       <comment>MB117</comment>
       <profiles>
         <profile id="8ddf-da7f-1f2e-420c" name="Honey OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
@@ -2333,7 +2341,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="903f-2100-50a7-92ee" name="Reconnaissance Support Troop #1" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="903f-2100-50a7-92ee" name="[Reconnaissance] Support Type #1" hidden="false" collective="false" import="true" type="unit">
       <comment>MB136 or MB115 or MB113 or MB205</comment>
       <categoryLinks>
         <categoryLink id="012c-dde7-8766-2e8a" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -3844,7 +3852,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="497a-9cb4-8d39-f666" name="Anti-tank Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="497a-9cb4-8d39-f666" name="[Anti-tank] Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="796c-9305-c1ce-0f73" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="93b2-8f21-9b97-4e13">
           <constraints>
@@ -3869,7 +3877,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c3ea-a7d3-4e38-17a9" name="Artillery Support Platoon #2" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c3ea-a7d3-4e38-17a9" name="[Artillery] Support Type #2" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="933b-b620-2bd2-25bc" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="b665-db86-57d9-f901">
           <constraints>
@@ -3886,7 +3894,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7afc-cc9d-707f-1400" name="Artillery Support Platoon #1" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7afc-cc9d-707f-1400" name="[Artillery] Support Type #1" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="e4e9-936a-8b3f-6b28" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="1f3c-24d6-ebc3-94bc">
           <constraints>
@@ -3912,7 +3920,7 @@ Applied Command Card Formations but none of the normal Command Cards; will updat
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="145e-e56a-c028-2e77" name="Reconnaissance Support Troop #2" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="145e-e56a-c028-2e77" name="[Reconnaissance] Support Type #2" hidden="false" collective="false" import="true" type="unit">
       <comment>MB136 or MB115 or MB113</comment>
       <categoryLinks>
         <categoryLink id="b054-f721-e3d0-9a31" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>

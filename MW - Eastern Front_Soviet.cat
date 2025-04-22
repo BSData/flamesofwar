@@ -602,6 +602,9 @@ Finalized changes and added MWDP2025 4-22-2025</readme>
       </categoryLinks>
     </entryLink>
     <entryLink id="c5d3-69d4-e878-982d" name="76mm Artillery Battery" hidden="false" collective="false" import="true" targetId="8602-909d-536d-7775" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="name" value="[Artillery] 76mm Artillery"/>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="058d-2568-cefb-f397" type="max"/>
       </constraints>
@@ -610,6 +613,9 @@ Finalized changes and added MWDP2025 4-22-2025</readme>
       </categoryLinks>
     </entryLink>
     <entryLink id="c663-c71c-fe91-3e0b" name="76mm Artillery Battery" hidden="false" collective="false" import="true" targetId="8602-909d-536d-7775" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="name" value="[Artillery] 76mm Artillery"/>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e662-beb0-306b-1780" type="max"/>
       </constraints>
@@ -1725,6 +1731,9 @@ Last Stand 3+</characteristic>
                 <infoLink id="c099-4c7e-1735-8237" name="No MG" hidden="false" targetId="4a2a-aa63-8f05-4ab7" type="rule"/>
                 <infoLink id="8f7b-b209-6f2b-2bb4" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2494,7 +2503,7 @@ Assault 6</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="feec-7166-41a8-93dc" name="SU-76 Light SP Battery" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="feec-7166-41a8-93dc" name="[Armour] SU-76 Light SP Battery" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3431-5b9e-1c89-2054" name="SU-76" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -2568,7 +2577,7 @@ Assault 6</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4061-4002-c74c-9367" name="SU-152 Heavy SP Battery" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4061-4002-c74c-9367" name="[Armour] SU-152 Heavy SP Battery" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4793-2ca1-4ef6-be84" name="SU-152" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -2630,7 +2639,7 @@ Assault 6</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fbb1-26f8-f809-16f3" name="Katyusha Guards Rocket Battery" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fbb1-26f8-f809-16f3" name="[Artillery] Katyusha Guards Rocket Battery" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4227-150d-957e-fb3e" name="Katyusha" page="" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
           <characteristics>
@@ -2751,7 +2760,7 @@ Assault 6</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="423e-44a3-e750-7833" name="IL-2 Shturmovik Assault Company" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="423e-44a3-e750-7833" name="[Aircraft] IL-2 Shturmovik Assault Company" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="dddf-16af-fba5-59d1" name="Bombs and Rockets" page="" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -2806,7 +2815,7 @@ Assault 6</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71d0-8344-3e04-5abd" name="DShK AA MG Anti-Aircraft Platoon" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="71d0-8344-3e04-5abd" name="[Anti-aircraft] DShK AA MG Anti-Aircraft Platoon" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3ae9-f6b3-7ec3-d742" name="DShK AA MG Platoon" page="" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
           <characteristics>
@@ -3757,7 +3766,7 @@ Assault 4+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="205e-bad2-1a6b-0d88" name="Tank-killer Support Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="205e-bad2-1a6b-0d88" name="[Anti-tank] Tank-killer Support Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="37e0-507c-dbf8-ecb2" name="Unit Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="82b0-1f9f-2258-f5d7">
           <constraints>
@@ -3937,7 +3946,7 @@ Assault 4+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7fd2-6c31-4da9-f26e" name="Flame-tank Support Company" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7fd2-6c31-4da9-f26e" name="[Armour] Flame-tank Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="6d1f-f988-46c7-4eff" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="ca6e-92dd-b80d-909d">
           <constraints>
@@ -4161,7 +4170,7 @@ Assault 6+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dca3-eae5-4d5a-2f6f" name="SP Gun Support Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dca3-eae5-4d5a-2f6f" name="[Armour] SP Gun Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="ae98-5aba-e68c-75e3" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="fddc-9aba-1c40-c22e">
           <constraints>
@@ -4315,7 +4324,7 @@ Assault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f51-58ee-5f5b-eb56" name="Artillery Support Battery" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4f51-58ee-5f5b-eb56" name="[Artillery] Artillery Support" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="f3c8-371a-fe82-01b4" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="7082-fb9a-250c-1827">
           <constraints>
@@ -4403,7 +4412,7 @@ Assault 6</characteristic>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="9016-90f7-54e6-328b" name="[S] 76mm Artillery Battery" hidden="false" collective="false" import="true" targetId="8602-909d-536d-7775" type="selectionEntry"/>
+            <entryLink id="9016-90f7-54e6-328b" name="76mm Artillery Battery" hidden="false" collective="false" import="true" targetId="8602-909d-536d-7775" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5896,7 +5905,7 @@ Assault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3c85-755f-06cc-ebd7" name="Reconnaissance Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3c85-755f-06cc-ebd7" name="[Reconnaissance] Support " hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="3905-3069-e436-da32" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4a4-7a5c-9172-488a">
           <constraints>

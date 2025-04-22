@@ -50,9 +50,9 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         <categoryLink id="1c92-ad17-8778-cadc" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="587a-5dbf-042b-9927" name="*[S] Artillery Support" hidden="false" collective="false" import="true" targetId="39e2-969a-d66c-d1f5" type="selectionEntry">
+    <entryLink id="587a-5dbf-042b-9927" name="Artillery Support" hidden="false" collective="false" import="true" targetId="39e2-969a-d66c-d1f5" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b4eb-70ab-4cd8-ddba" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b4eb-70ab-4cd8-ddba" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="b498-e9b0-1b0a-3f3c" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -156,7 +156,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         <categoryLink id="d822-be7b-95ac-dc61" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bcba-ac58-d6d7-5c04" name="*[FS] Cavalry Troop" hidden="false" collective="false" import="true" targetId="8c52-baad-e7e2-8a59" type="selectionEntry">
+    <entryLink id="bcba-ac58-d6d7-5c04" name="Cavalry Troop" hidden="false" collective="false" import="true" targetId="8c52-baad-e7e2-8a59" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -306,6 +306,14 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
       </constraints>
       <categoryLinks>
         <categoryLink id="b213-98c9-2c51-ef42" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="37f9-1b82-897b-7074" name="Artillery Support" hidden="false" collective="false" import="true" targetId="39e2-969a-d66c-d1f5" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="167c-6272-5d78-e9ee" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2528-9d6b-8963-acf1" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

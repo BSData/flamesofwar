@@ -248,7 +248,7 @@ Haven&apos;t implemented Unit Cards for the most part; I&apos;ll be back at some
         <categoryLink id="8699-5e00-e9fa-e618" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="31b6-84cf-e427-7958" name="[SG]  Aircraft Support Platoon" hidden="false" collective="false" import="true" targetId="7eb1-6238-4f26-ace4" type="selectionEntry">
+    <entryLink id="31b6-84cf-e427-7958" name="Aircraft Support Platoon" hidden="false" collective="false" import="true" targetId="7eb1-6238-4f26-ace4" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a10-ee02-6d1b-8735" type="max"/>
       </constraints>
@@ -258,7 +258,7 @@ Haven&apos;t implemented Unit Cards for the most part; I&apos;ll be back at some
     </entryLink>
     <entryLink id="97d9-ae5a-5988-c09c" name="Reconnaissance Scout Troop" hidden="false" collective="false" import="true" targetId="c224-f013-ab24-f235" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2bb-f02b-e3c2-3cca" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d2bb-f02b-e3c2-3cca" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="28a0-bb6d-dd87-88d2" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -336,6 +336,30 @@ Haven&apos;t implemented Unit Cards for the most part; I&apos;ll be back at some
       </constraints>
       <categoryLinks>
         <categoryLink id="ad32-5105-ad36-9aa8" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cdfb-ad03-8052-bc2a" name="Reconnaissance Scout Troop" hidden="false" collective="false" import="true" targetId="c224-f013-ab24-f235" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="72ea-81e9-5d53-3e99" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="90c0-2fb7-23dc-f0f1" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1445-922b-38e3-a103" name="Light Artillery Support Platoon" hidden="false" collective="false" import="true" targetId="243f-d68f-240b-582d" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff39-fee8-410d-ef86" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6ff5-b95a-1608-90c5" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1905-c0e9-d19a-e780" name="Light Anti-tank Support Platoon" hidden="false" collective="false" import="true" targetId="828e-dad4-2ae8-d9be" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5091-ef7a-8ccb-33fd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0cbb-dbb5-e700-ba00" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2494,7 +2518,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="12f6-49f6-5996-152a" name="15cm Nebelwerfer Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="12f6-49f6-5996-152a" name="[Artillery] 15cm Nebelwerfer Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="64ee-7bfc-189d-63b6" name="15cm Nebelwerfer" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -2624,7 +2648,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc10-b065-41f3-1e33" name="Flame Panzer Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fc10-b065-41f3-1e33" name="[Armour] Flame Panzer Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="0523-9a11-6008-4756" name="Flammpanzer III" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -4654,7 +4678,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c3a-9ab0-dd73-07e7" name="Observation Post Support Unit" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0c3a-9ab0-dd73-07e7" name="[Observer] Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="43b5-f537-f5c5-3383" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="be7e-8ea4-86f5-2106">
           <constraints>
@@ -4699,7 +4723,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8b87-4a64-c795-ccaa" name="Heavy Artillery Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8b87-4a64-c795-ccaa" name="[Artillery] Heavy Artillery Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="398c-3215-e29c-c1ac" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="913a-f790-02a1-3239">
           <constraints>
@@ -4716,7 +4740,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="828e-dad4-2ae8-d9be" name="Light Anti-tank Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="828e-dad4-2ae8-d9be" name="[Anti-tank] Light Anti-tank Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="904f-7ec0-c036-a70b" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="4641-c8eb-47dc-5f8c">
           <constraints>
@@ -4725,7 +4749,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
           </constraints>
           <entryLinks>
             <entryLink id="ce91-9766-c521-ecf0" name="*8.8cm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="8b22-35eb-6caf-c707" type="selectionEntry"/>
-            <entryLink id="4641-c8eb-47dc-5f8c" name="3.7cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="09c0-d0f0-764b-e9a8" type="selectionEntry"/>
+            <entryLink id="4641-c8eb-47dc-5f8c" name="3.7cm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="09c0-d0f0-764b-e9a8" type="selectionEntry"/>
             <entryLink id="7663-dd23-7174-6d5f" name="5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="3fc7-7574-54a2-b240" type="selectionEntry"/>
             <entryLink id="8921-46d2-ddbe-3d48" name="7.5cm Tank-Hunter Platoon" hidden="false" collective="false" import="true" targetId="f44c-34f6-43ca-2dac" type="selectionEntry"/>
             <entryLink id="17c2-32e4-ca35-6502" name="Fallschirmjager 3.7cm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="6307-1844-7dc9-2701" type="selectionEntry"/>
@@ -4737,7 +4761,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7eb1-6238-4f26-ace4" name="Aircraft Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7eb1-6238-4f26-ace4" name="[Aircraft] Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="21b4-c6e3-fbe5-827d" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="7a8c-19ba-3768-9ae5">
           <constraints>
@@ -4755,7 +4779,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e6f-0539-5c95-cb2f" name="Anti-Aircraft Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1e6f-0539-5c95-cb2f" name="[Anti-Aircraft] Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="f6ff-89e9-8227-33f2" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="57e6-c39f-b1ac-f788">
           <constraints>
@@ -4773,7 +4797,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d8b-013b-bb22-a950" name="Armoured Assault Gun Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6d8b-013b-bb22-a950" name="[Armour] Assault Gun Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="8abb-706c-d8f1-e361" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="6f2a-42cd-7cf4-0326">
           <constraints>
@@ -4781,7 +4805,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab09-1fec-879e-e9e1" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6f2a-42cd-7cf4-0326" name="*Brummbär Assault Tank Platoon" hidden="false" collective="false" import="true" targetId="8755-58ec-fcb4-584a" type="selectionEntry"/>
+            <entryLink id="6f2a-42cd-7cf4-0326" name="Brummbär Assault Tank Platoon" hidden="false" collective="false" import="true" targetId="8755-58ec-fcb4-584a" type="selectionEntry"/>
             <entryLink id="040b-71ed-ef23-1fa1" name="StuG (Early) Assault Gun Platoon" hidden="false" collective="false" import="true" targetId="86c0-135a-9046-e49a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -4790,7 +4814,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b87-ddbd-3e68-c680" name="Heavy Armoured Assault Gun Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7b87-ddbd-3e68-c680" name="[Armour] Heavy Assault Gun Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="8d82-5df4-d111-9006" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="d6b5-01d9-5676-4bcd">
           <constraints>
@@ -4807,7 +4831,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="677f-66bc-f96e-cc34" name="Heavy Anti-tank Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="677f-66bc-f96e-cc34" name="[Anti-tank] Heavy Anti-tank Support Platoon" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="d4de-fa9c-b635-8d74" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="d5c9-c082-65a9-a038">
           <constraints>
@@ -4825,7 +4849,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c86c-e893-7ab4-3113" name="Heavy Tank-hunter Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c86c-e893-7ab4-3113" name="[Anti-tank] Heavy Tank-hunter Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="7c78-a602-b478-c864" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="9c8f-385c-f548-d7b7">
           <constraints>
@@ -4844,7 +4868,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="01db-80f4-5207-8241" name="Marder Anti-tank Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="01db-80f4-5207-8241" name="[Anti-tank] Marder Anti-tank Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="508d-c148-fb01-791c" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="4195-f069-cc3b-b726">
           <constraints>
@@ -4861,7 +4885,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c224-f013-ab24-f235" name="Reconnaissance Scout Troop" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c224-f013-ab24-f235" name="[Reconnaissance] Scout Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="5b70-e680-d8c1-ec2b" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="06e9-6bf6-8627-67a1">
           <constraints>
@@ -4879,7 +4903,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="243f-d68f-240b-582d" name="Light Artillery Support Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="243f-d68f-240b-582d" name="[Artillery] Light Artillery Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="feb7-5f27-42fb-00b1" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="b05c-e2b8-51ff-844a">
           <constraints>
@@ -4888,7 +4912,7 @@ If the Borgward carrier is not Destroyed, it then attacks with its Demolitions w
           </constraints>
           <entryLinks>
             <entryLink id="6a01-95f1-aa38-a834" name="Fallschirmjager 10.5cm Recoilless Battery" hidden="false" collective="false" import="true" targetId="ee5b-b00a-238f-0dac" type="selectionEntry"/>
-            <entryLink id="b05c-e2b8-51ff-844a" name="*10.5cm Artillery Battery" hidden="false" collective="false" import="true" targetId="702c-075f-5bba-fae3" type="selectionEntry"/>
+            <entryLink id="b05c-e2b8-51ff-844a" name="10.5cm Artillery Battery" hidden="false" collective="false" import="true" targetId="702c-075f-5bba-fae3" type="selectionEntry"/>
             <entryLink id="05df-0bdc-63ee-251c" name="Fallschirmjager 7.5cm Artillery Battery" hidden="false" collective="false" import="true" targetId="3ab5-6215-3c8c-7495" type="selectionEntry"/>
             <entryLink id="1b85-9921-a8e4-c8be" name="Wespe Artillery Battery" hidden="false" collective="false" import="true" targetId="7ca2-1a5c-173b-b27e" type="selectionEntry"/>
           </entryLinks>

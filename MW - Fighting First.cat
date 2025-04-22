@@ -60,7 +60,7 @@
     </entryLink>
     <entryLink id="4bab-8ec0-ca4c-6a57" name="Armored Recon Patrol" hidden="false" collective="false" import="true" targetId="7ed6-7294-4b67-cb58" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f11d-17dd-d2d3-2c58" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f11d-17dd-d2d3-2c58" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="802e-79c1-95f2-4d51" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -277,9 +277,9 @@
         <categoryLink id="2031-ab9d-45ce-fbf9" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="334c-79af-21e8-55fe" name="*[SG] Artillery Support Battery" hidden="false" collective="false" import="true" targetId="26d7-535e-cc0a-a673" type="selectionEntry">
+    <entryLink id="334c-79af-21e8-55fe" name="Artillery Support Battery" hidden="false" collective="false" import="true" targetId="26d7-535e-cc0a-a673" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97d4-6f98-4009-7e9a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="97d4-6f98-4009-7e9a" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="2c21-3f10-4880-c8e7" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -288,6 +288,22 @@
     <entryLink id="67c0-9e81-bdf4-8250" name="*[F] M3A1 Armored Recon Company" hidden="false" collective="false" import="true" targetId="62a6-82c4-1278-bf99" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5858-a27d-6811-98ca" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c465-84d9-0c90-fd2b" name="Armored Recon Patrol" hidden="false" collective="false" import="true" targetId="7ed6-7294-4b67-cb58" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ce90-a901-5011-292a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8081-1335-941d-5f4c" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c775-a584-0a1a-3c34" name="Artillery Support Battery" hidden="false" collective="false" import="true" targetId="26d7-535e-cc0a-a673" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="22a4-820b-0be0-1c83" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="51d9-f4ec-42cf-460e" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -840,7 +856,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7ed6-7294-4b67-cb58" name="Armored Recon Patrol" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7ed6-7294-4b67-cb58" name="[Reconnaissance] Armored Recon Patrol" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="554a-9b7c-3fb9-303f" name="Jeep (60mm mortar)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -1297,7 +1313,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db7b-b20f-183d-3ab6" name="M3 Stuart OP Observation Post" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="db7b-b20f-183d-3ab6" name="[Observer] M3 Stuart OP Observation Post" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ad93-27eb-a2a6-0d24" name="M3 Stuart OP (37mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
@@ -1479,7 +1495,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d99d-fb3f-7332-73ed" name="P-40 Warhawk Fighter Flight" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d99d-fb3f-7332-73ed" name="[Aircraft] P-40 Warhawk Fighter Flight" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="273a-247d-8df7-50c3" name="P-40 Warhawk" hidden="false" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit">
           <characteristics>
@@ -1711,7 +1727,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b52-b530-28b9-b6dc" name="T28E1 37mm AAA Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1b52-b530-28b9-b6dc" name="[Anti-aircraft] T28E1 37mm AAA Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b4a5-58fb-0bcd-7ab7" name="T28E1 37mm AAA Platoon" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
           <characteristics>
@@ -2185,7 +2201,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="26d7-535e-cc0a-a673" name="Artillery Support Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="26d7-535e-cc0a-a673" name="[Artillery] Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="2109-181c-5ea5-204f" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="8e6a-bc7e-23f3-0b0b">
           <constraints>
