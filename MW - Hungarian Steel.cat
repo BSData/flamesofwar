@@ -106,26 +106,6 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
         <categoryLink id="3fbe-e05d-8c0e-7d14" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8692-111a-7040-2400" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cee4-ea48-bccb-eeef" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="935f-a9d1-f812-6f8c" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0543-099f-1921-8f62" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="a7c5-dbe4-6763-33fd" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="ef4e-396a-bcd1-f0bf" name="Huszar Squadron" hidden="false" collective="false" import="true" targetId="d0f1-f166-957e-8efa" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f693-14eb-1143-0f47" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
@@ -142,6 +122,9 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
       </categoryLinks>
     </entryLink>
     <entryLink id="5a45-5eb2-34cf-1db7" name="Panzer IV Heavy Tank Company" hidden="false" collective="false" import="true" targetId="08ce-e35f-bbe4-5eda" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5a9-0d12-89eb-078d" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="73d9-51f3-513d-b2fc" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
@@ -220,47 +203,12 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
         <categoryLink id="6ed8-f874-4e7a-b5ea" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="455d-0d69-a7a8-4473" name="Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="935f-a9d1-f812-6f8c" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9d7-4e22-9ba0-711d" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7f73-6be7-e658-170e" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="d300-9c02-e07e-e50f" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="984d-6f8d-972c-ccf2" name="Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3f40-6377-43a3-ee2f" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="5274-d484-c039-70f4" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="f7c2-e66c-1509-2541" name="Assault Pioneer Platoon" hidden="false" collective="false" import="true" targetId="7efd-db63-0dbd-469f" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="74b5-37b3-361e-1c30" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b159-2444-8f6b-fbc1" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="5324-74a3-42d2-d78c" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f3c8-8abd-c357-ca89" name="Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="d452-821c-f735-2c75" type="selectionEntry">
@@ -281,7 +229,7 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
     </entryLink>
     <entryLink id="6466-ddb3-44d6-e81c" name="Artillery Battery" hidden="false" collective="false" import="true" targetId="6bf3-112e-c728-259a" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2525-8517-e67d-b11b" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2525-8517-e67d-b11b" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="d3f9-7df8-c126-7d24" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
@@ -327,6 +275,14 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
         <categoryLink id="ec0e-828b-d090-58ff" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="1d19-7476-5768-9d6e" name="Artillery Battery" hidden="false" collective="false" import="true" targetId="6bf3-112e-c728-259a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b5eb-7094-6892-30ed" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4804-6a29-e079-49ca" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="836d-6711-f26b-a5ea" name="T-38 Tank Company" hidden="false" collective="false" import="true" type="unit">
@@ -362,7 +318,7 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6ff8-2966-9d2a-b2ac" name="Armour" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6ff8-2966-9d2a-b2ac" name="1) Optional Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4962-c9bc-33a2-f9a4" type="max"/>
           </constraints>
@@ -370,6 +326,20 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             <entryLink id="5ba1-13a0-96a0-9bbd" name="Panzer III Tank Platoon" hidden="false" collective="false" import="true" targetId="065b-01a5-2312-3da0" type="selectionEntry"/>
             <entryLink id="a6a1-de05-d74a-7de2" name="[FS] T-38 Tank Platoon" hidden="false" collective="false" import="true" targetId="ff47-4809-85b2-7630" type="selectionEntry"/>
             <entryLink id="48a1-f314-0044-1bdf" name="[FS] Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="0db8-86bf-7991-1327" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="91bd-0602-b625-a22f" name="2) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="d69c-549d-1d03-8a0b" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a3c-2a0b-ce17-36b3" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c2e4-160b-646f-2fdb" name="T-38 Tank Platoon" hidden="false" collective="false" import="true" targetId="ff47-4809-85b2-7630" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e426-fae9-d16f-c684" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -380,20 +350,10 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="862a-6556-2b3d-4377" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1c66-c656-1989-7c7d" name="[FS] T-38 Tank Platoon" hidden="false" collective="false" import="true" targetId="ff47-4809-85b2-7630" type="selectionEntry">
+        <entryLink id="1c66-c656-1989-7c7d" name="T-38 Tank Platoon" hidden="false" collective="false" import="true" targetId="ff47-4809-85b2-7630" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2f9a-9c63-257f-d11a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b97e-5029-1611-8d9b" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="7f25-9dc6-3882-aeb3" name="[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8243-3eee-589d-1e76" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="ca66-4b0d-2adf-969f" name="[FS] T-38 Tank Platoon" hidden="false" collective="false" import="true" targetId="ff47-4809-85b2-7630" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="37d0-1dc7-b292-fc60" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="561a-576d-aa69-9f2d" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
@@ -464,6 +424,22 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f5f3-7fb6-b593-ba0f" name="1) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c8a8-4925-e12b-234a" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f45-7563-4f3b-2773" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="25c8-fc2f-6d28-4077" name="Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="0db8-86bf-7991-1327" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2725-5ee3-399b-67f5" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3b5d-3dd0-e092-cf6c" name="[FS] Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="0db8-86bf-7991-1327" type="selectionEntry">
           <constraints>
@@ -475,16 +451,6 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b860-993a-c5bb-3e63" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2cc7-fbfb-9b56-5ccd" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="0d18-1e24-1205-0983" name="*[FS] Panzer IV Tank Platoon" hidden="false" collective="false" import="true" targetId="0db8-86bf-7991-1327" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5aa8-8060-36f3-e582" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="cbe1-9e50-f240-d69c" name="[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a090-46c1-63c6-bd45" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="da00-11dc-2458-137c" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
@@ -521,6 +487,17 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c679-dcef-ec54-d1fc" name="1) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="7764-96fc-f7c1-448b" name="Nimrod Autocannon Platoon" hidden="false" collective="false" import="true" targetId="8f50-e65c-1b16-ad4d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="914a-d8dd-1b4a-fc4d" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="ea3a-9066-cb24-3649" name="*[FS] Nimrod Autocannon Platoon" hidden="false" collective="false" import="true" targetId="8f50-e65c-1b16-ad4d" type="selectionEntry">
           <constraints>
@@ -528,15 +505,10 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="377b-2f0a-aa36-53de" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e627-2966-1509-8587" name="*[FS] Nimrod Autocannon Platoon" hidden="false" collective="false" import="true" targetId="8f50-e65c-1b16-ad4d" type="selectionEntry">
+        <entryLink id="e627-2966-1509-8587" name="Nimrod Autocannon Platoon" hidden="false" collective="false" import="true" targetId="8f50-e65c-1b16-ad4d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2f2f-f1cf-e849-4c9e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d712-8446-21d9-2999" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="218f-4fb7-c5ca-668d" name="*[FS] Nimrod Autocannon Platoon" hidden="false" collective="false" import="true" targetId="8f50-e65c-1b16-ad4d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac31-6ad8-e3d5-b354" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="cf51-00a8-f033-1555" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
@@ -550,7 +522,7 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
         <categoryLink id="36cd-af6b-ec83-3201" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4af1-2785-d6b2-3d16" name="2) Anti-tank Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4af1-2785-d6b2-3d16" name="3) Optional Anti-tank Platoon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f4-fec9-53cb-c514" type="max"/>
           </constraints>
@@ -559,7 +531,7 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             <entryLink id="55a6-6c50-747b-4a67" name="Motorised 40mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="63d4-87e8-f878-d9e5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1eec-596b-0790-08a6" name="1) Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1eec-596b-0790-08a6" name="2) Optional Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="be6a-7663-a935-6895" name="Motorised 7/31M Machine-Gun Platoon" hidden="false" collective="false" import="true" targetId="18ad-bc53-d88b-d720" type="selectionEntry">
               <constraints>
@@ -573,6 +545,15 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="85fb-ab75-aa76-3e7b" name="1) Optional Motorised Rifle Platoon" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="0ff3-2e7d-bbdd-83bb" name="Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e46a-5679-373d-c5ff" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b0ce-b51b-3787-6281" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
@@ -581,15 +562,10 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ade2-cd52-e963-77c4" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8318-bbe0-4fc0-10fa" name="[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+        <entryLink id="8318-bbe0-4fc0-10fa" name="Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9817-28a6-5e37-8551" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="66bd-cf42-165b-a5b5" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="7f9a-375d-49d3-d039" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc17-a5a3-2caa-69f1" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="f4e2-f4d7-5089-883f" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
@@ -730,7 +706,7 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cf5d-8ed2-b605-270a" name="Addtl. Support" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="cf5d-8ed2-b605-270a" name="2) Optional Units" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="da55-92bf-9c3b-a8b5" name="Motorised 40mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="63d4-87e8-f878-d9e5" type="selectionEntry">
               <constraints>
@@ -744,6 +720,15 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="f997-95bb-38cc-b3f8" name="1) Optional Huszar Troop" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="074c-5fe7-02e8-8a4f" name="Huszar Troop" hidden="false" collective="false" import="true" targetId="74b1-6950-492b-2423" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9e74-7b2f-794d-3ad0" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="55a8-6601-84f1-d652" name="[FS] Huszar Troop" hidden="false" collective="false" import="true" targetId="74b1-6950-492b-2423" type="selectionEntry">
@@ -752,15 +737,10 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b1f-a589-eea3-dac1" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="68ec-05bf-ce22-d1e5" name="[FS] Huszar Troop" hidden="false" collective="false" import="true" targetId="74b1-6950-492b-2423" type="selectionEntry">
+        <entryLink id="68ec-05bf-ce22-d1e5" name="Huszar Troop" hidden="false" collective="false" import="true" targetId="74b1-6950-492b-2423" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="420a-3ab6-e398-c1cf" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ce2c-ebe6-69f6-4ea5" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="8c40-564b-4ebe-1a0f" name="*[FS] Huszar Troop" hidden="false" collective="false" import="true" targetId="74b1-6950-492b-2423" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a36a-de5e-e358-1fa5" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="bb49-01c1-9b37-b76a" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
@@ -1074,8 +1054,6 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
                 <selectionEntry id="7afd-b7dd-556e-a219" name="2x 39M SMG teams" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="ee1f-c0d6-208b-54d3" name="39M SMG team" hidden="false" targetId="cbf1-4430-9289-0e90" type="profile"/>
-                    <infoLink id="25a0-b25f-3e40-04c4" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
-                    <infoLink id="1057-ba8e-1c30-fea9" name="Assault 3+" hidden="false" targetId="8e04-1fed-e341-7e82" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
@@ -1099,7 +1077,7 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="18c3-7782-b214-084f" name="2) Anti-tank Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="18c3-7782-b214-084f" name="3) Optional Anti-tank Platoons" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f71-6233-2b98-ebe4" type="max"/>
           </constraints>
@@ -1108,7 +1086,7 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             <entryLink id="4a1c-0b1d-1ace-63b6" name="[S] 40mm Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="6d50-0073-5368-d25c" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b2b6-2740-0742-b95e" name="1) Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b2b6-2740-0742-b95e" name="2) Optional Weapons/Artillery Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="9bee-f911-cace-a56d" name="[S] 7/31M Machine-Gun Platoon" hidden="false" collective="false" import="true" targetId="5761-dd01-8c20-98af" type="selectionEntry">
               <constraints>
@@ -1132,6 +1110,15 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="3942-6db0-f972-5a10" name="1) Optional Rifle Platoon" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="0ff3-5fba-0ff8-500d" name="Rifle Platoon" hidden="false" collective="false" import="true" targetId="f332-aae2-5da1-8ff2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b229-8919-ff90-cf23" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="765d-693f-6273-8762" name="[FS] Rifle Platoon" hidden="false" collective="false" import="true" targetId="f332-aae2-5da1-8ff2" type="selectionEntry">
@@ -1140,15 +1127,10 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c295-4879-ad85-ab7e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="785f-37a4-acf7-b719" name="[F] Rifle Company" hidden="false" collective="false" import="true" targetId="f332-aae2-5da1-8ff2" type="selectionEntry">
+        <entryLink id="785f-37a4-acf7-b719" name="Rifle Platoon" hidden="false" collective="false" import="true" targetId="f332-aae2-5da1-8ff2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6466-3171-1dc6-0b00" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d5da-69e5-4f4f-db0b" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="5273-c7b1-d004-77e9" name="[FS] Rifle Platoon" hidden="false" collective="false" import="true" targetId="f332-aae2-5da1-8ff2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d1ea-34fd-c0ee-4e9a" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="a9e9-3e2a-98a5-2fae" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
@@ -2006,7 +1988,7 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="921e-7f58-0307-83f8" name="Addtl. Armour" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="921e-7f58-0307-83f8" name="1) Optional Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a930-4eeb-7e41-df5d" type="max"/>
           </constraints>
@@ -2087,27 +2069,33 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6997-0c3a-ce78-ca1e" name="1) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="77a8-ba04-c2f0-61a6" name="Turan Tank Platoon" hidden="false" collective="false" import="true" targetId="b977-01c0-b43a-1c9b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2cf3-a736-2e8e-cd7e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c204-bdb8-41d6-ef2b" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="86ae-7a56-19ed-aefd" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c072-b37d-07d4-fc61" name="[FS] Turan Tank Platoon" hidden="false" collective="false" import="true" targetId="b977-01c0-b43a-1c9b" type="selectionEntry">
+        <entryLink id="c072-b37d-07d4-fc61" name="Turan Tank Platoon" hidden="false" collective="false" import="true" targetId="b977-01c0-b43a-1c9b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="47e5-3da0-a7a4-243c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2c80-818b-55a2-ae12" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b649-fe5f-291d-450c" name="[FS] Turan Tank Platoon" hidden="false" collective="false" import="true" targetId="b977-01c0-b43a-1c9b" type="selectionEntry">
+        <entryLink id="b649-fe5f-291d-450c" name="Turan Tank Platoon" hidden="false" collective="false" import="true" targetId="b977-01c0-b43a-1c9b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9bc4-1dfc-1689-e346" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ee6-6c17-0b77-9a20" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="962b-2399-fd63-ad8b" name="[FS] Turan Tank Platoon" hidden="false" collective="false" import="true" targetId="b977-01c0-b43a-1c9b" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc60-1559-5d81-8882" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="2ba4-3ec9-da0d-96e6" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a37-6cf4-5e6a-4090" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="2a0f-8862-ec09-7b79" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
@@ -2882,20 +2870,26 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8d05-aeb9-2433-f078" name="1) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="164a-2e5b-121c-3173" name="Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c59-b85b-5032-6926" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="69f5-2f26-204f-fe1d" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
-        <entryLink id="afbd-472b-ad76-fe07" name="*[S] Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a6a-0ef3-cb3f-698c" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="4f66-6aab-c9df-0c61" name="*[S] Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
+        <entryLink id="4f66-6aab-c9df-0c61" name="Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="018c-5992-b9ce-a6a2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d32-a781-4138-2988" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="62c1-74c5-2314-a16a" name="*[S] Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
+        <entryLink id="62c1-74c5-2314-a16a" name="Csaba Armored Car Platoon" hidden="false" collective="false" import="true" targetId="498d-6658-3ab5-8845" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da87-1b5f-e0c6-3787" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="76af-9733-c780-a387" type="max"/>
@@ -2942,25 +2936,31 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a63-cef3-d2ee-7f21" name="1) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8ebc-6533-25a2-3195" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ef8-0b39-4c11-9a2d" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="5c92-3367-81ba-c0ae" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="def1-9cab-8de2-713e" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="0590-08ed-0539-043b" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
-        <entryLink id="fad4-efb0-49cb-bdbd" name="*[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e12c-b063-7a7b-3d14" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="b9f1-a9d0-45b7-eec2" name="*[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea8a-74fc-a302-9fa1" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="089f-7634-8506-6d0b" name="*[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+        <entryLink id="089f-7634-8506-6d0b" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7f01-bb4c-b141-3522" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9619-7c87-386e-4cf6" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="be93-5066-d1e2-f15f" name="*[FS] Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
+        <entryLink id="be93-5066-d1e2-f15f" name="Toldi Tank Platoon" hidden="false" collective="false" import="true" targetId="ce24-1c7e-3725-dcb0" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e097-a85d-8767-d763" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b82f-691e-7997-c872" type="max"/>
@@ -2980,6 +2980,17 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
       <categoryLinks>
         <categoryLink id="cde5-25ee-d95b-c8ab" name="INFANTRY" hidden="false" targetId="3001-d363-e09a-a733" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="11d8-d0da-a950-513d" name="1) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4609-67cd-2bf0-1801" name="Assault Pioneer Platoon" hidden="false" collective="false" import="true" targetId="7efd-db63-0dbd-469f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c1b-7caf-f1ef-cdca" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d2e9-820a-f750-e3c0" name="0) Motorised Rifle Company HQ" hidden="false" collective="false" import="true" targetId="c8d8-1f5b-3ed9-af10" type="selectionEntry">
           <constraints>
@@ -2987,12 +2998,7 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e8c-9655-89fb-a2d2" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="db48-91a1-408f-4396" name="*[S] Assault Pioneer Platoon" hidden="false" collective="false" import="true" targetId="7efd-db63-0dbd-469f" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa4e-5ab1-6b0b-1750" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="cc36-a693-5467-0718" name="*[S] Assault Pioneer Platoon" hidden="false" collective="false" import="true" targetId="7efd-db63-0dbd-469f" type="selectionEntry">
+        <entryLink id="cc36-a693-5467-0718" name="Assault Pioneer Platoon" hidden="false" collective="false" import="true" targetId="7efd-db63-0dbd-469f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="73c9-2871-e54c-ef11" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="88cd-8ee0-6825-5514" type="max"/>
@@ -3012,7 +3018,7 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
     </selectionEntry>
     <selectionEntry id="935f-a9d1-f812-6f8c" name="Motorised Recon Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="b083-4c6a-5fc8-e7ad" name="1) Light Armoured Support" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa1f-8eb4-f1ea-ef90">
+        <selectionEntryGroup id="b083-4c6a-5fc8-e7ad" name="1) Light Armoured Units" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa1f-8eb4-f1ea-ef90">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5eea-456c-d2b8-87c9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a77-86fe-c05a-aecf" type="min"/>
@@ -3040,6 +3046,20 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="4ab2-0792-cadd-f809" name="2) Optional Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="a47b-3ac9-4872-d4c4" name="Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8a42-2fd2-f766-d98f" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8187-1558-cdf6-07ef" name="Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="673a-e436-196a-0c9c" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7fd0-d223-3ea0-76a5" name="0) Motorised Rifle Company HQ" hidden="false" collective="false" import="true" targetId="c8d8-1f5b-3ed9-af10" type="selectionEntry">
@@ -3048,17 +3068,7 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b74d-1eb3-1cad-1c1e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b5c4-d3cd-42a1-2a92" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8dc1-f6b7-2d5c-9972" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="f4fd-07ac-a5ff-658b" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="955b-5d36-7eb2-60ed" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="c860-c8af-00ae-7755" name="*[FS] Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
+        <entryLink id="c860-c8af-00ae-7755" name="Motorised Rifle Platoon" hidden="false" collective="false" import="true" targetId="ca10-f42c-81fc-1023" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba04-ae28-d559-dc4d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b780-ec9a-556b-1f6f" type="max"/>
@@ -3066,6 +3076,9 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
         </entryLink>
         <entryLink id="43cb-c136-4562-cead" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true" targetId="88c5-986e-357f-a925" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c8d8-1f5b-3ed9-af10" name="0) Motorised Rifle Company HQ" hidden="false" collective="false" import="true" type="unit">
       <constraints>

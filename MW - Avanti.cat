@@ -94,15 +94,15 @@ Command Cards unfinished for now</readme>
         <categoryLink id="f2d4-6e4e-24ac-81a4" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9136-c1d8-9258-c3bb" name="Reconnaissance Platoons" hidden="false" collective="false" import="true" targetId="e74f-9e6c-ddb6-c40a" type="selectionEntry">
+    <entryLink id="9136-c1d8-9258-c3bb" name="[Reconnaissance] Support" hidden="false" collective="false" import="true" targetId="e74f-9e6c-ddb6-c40a" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="093e-a4f1-3864-3e08" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="093e-a4f1-3864-3e08" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9cae-c515-0246-5714" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6a7a-75fd-c477-7bbd" name="[SG] Assault Engineer Support" hidden="false" collective="false" import="true" targetId="c566-ab78-8214-0556" type="selectionEntry">
+    <entryLink id="6a7a-75fd-c477-7bbd" name="[Assault Pioneers] Support" hidden="false" collective="false" import="true" targetId="c566-ab78-8214-0556" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8d48-8c0a-b429-cc06" type="max"/>
       </constraints>
@@ -110,15 +110,18 @@ Command Cards unfinished for now</readme>
         <categoryLink id="b65e-6d2c-5493-2365" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c26e-a693-66ff-b0f8" name="100mm Howitzer Battery" hidden="false" collective="false" import="true" targetId="d767-93e2-0f71-7c81" type="selectionEntry">
+    <entryLink id="c26e-a693-66ff-b0f8" name="[Artillery] 100mm Howitzer Battery" hidden="false" collective="false" import="true" targetId="d767-93e2-0f71-7c81" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e17c-e121-13e5-8784" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e17c-e121-13e5-8784" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="87ce-e3bc-6647-4912" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d801-247e-9b12-9307" name="Autocannone 20mm AA Platoon" hidden="false" collective="false" import="true" targetId="b714-d459-161c-b303" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="name" value="[Anti-aircraft] Autocannone 20mm AA Platoon"/>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="63c0-0809-e14c-dff9" type="max"/>
       </constraints>
@@ -126,7 +129,7 @@ Command Cards unfinished for now</readme>
         <categoryLink id="ff7c-fcab-72b1-772b" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="56bf-29ff-37bb-e35f" name="Air Support" hidden="false" collective="false" import="true" targetId="b782-61e7-bc85-a7a0" type="selectionEntry">
+    <entryLink id="56bf-29ff-37bb-e35f" name="[Aircraft] Support" hidden="false" collective="false" import="true" targetId="b782-61e7-bc85-a7a0" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7c7d-02ab-9b9d-f000" type="max"/>
       </constraints>
@@ -134,15 +137,15 @@ Command Cards unfinished for now</readme>
         <categoryLink id="6adb-1099-e9ce-0dd9" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7c1a-a760-c24e-33e8" name="Anti-tank Batteries" hidden="false" collective="false" import="true" targetId="65fd-73c8-68a6-0601" type="selectionEntry">
+    <entryLink id="7c1a-a760-c24e-33e8" name="[Anti-tank] Support" hidden="false" collective="false" import="true" targetId="65fd-73c8-68a6-0601" type="selectionEntry">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3138-d791-b9a8-e371" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3138-d791-b9a8-e371" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="f0ab-3efc-fd79-970a" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a545-7047-266c-eabf" name="AB41 OP Observation Post" hidden="true" collective="false" import="true" targetId="6e2a-4a95-c8f4-8cbb" type="selectionEntry">
+    <entryLink id="a545-7047-266c-eabf" name="[Observer] AB41 OP Observation Post" hidden="true" collective="false" import="true" targetId="6e2a-4a95-c8f4-8cbb" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -166,86 +169,22 @@ Command Cards unfinished for now</readme>
         <categoryLink id="bdff-f4d0-e732-3fe6" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="24dc-d880-561c-fae0" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e109-ca64-215c-ea52" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="87bd-601c-9d54-6a1b" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="3e49-4634-fc4f-4c4a" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="7ee3-2294-8d21-40ed" name="Assault Engineer Company" hidden="false" collective="false" import="true" targetId="57de-d622-5d7d-3c08" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2d8f-be9b-811e-5757" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d7d3-c854-8b68-b1ed" name="AB41 Armoured Car Platoon" hidden="false" collective="false" import="true" targetId="32a0-e69b-9c0f-112c" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="32a0-e69b-9c0f-112c" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="ad3e-8465-ec70-9ce2" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="a7b3-1abc-068e-8a7c" name="L6/40 Light Tank Platoon" hidden="false" collective="false" import="true" targetId="2eeb-01bb-5c0f-6ceb" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2eeb-01bb-5c0f-6ceb" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a89c-7503-07f5-56bd" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="e3bf-0f41-ef02-4c51" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4f12-48e6-4be6-af58" name="[F] L6/40 Light Tank Company" hidden="false" collective="false" import="true" targetId="e50d-694f-bc62-3d3b" type="selectionEntry">
+    <entryLink id="4f12-48e6-4be6-af58" name="L6/40 Light Tank Company" hidden="false" collective="false" import="true" targetId="e50d-694f-bc62-3d3b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1dcd-e503-1da3-2eb1" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bb22-7f7e-52a5-ff5c" name="L6/40 Light Tank Platoon (Card)" hidden="false" collective="false" import="true" targetId="a89c-7503-07f5-56bd" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2eeb-01bb-5c0f-6ceb" type="greaterThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a89c-7503-07f5-56bd" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dee4-6284-c7e6-4cb6" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="9ece-84f2-26a6-b569" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="8057-bb3c-bd44-e08b" name="[F] L6/40 Scout Tank Company" hidden="false" collective="false" import="true" targetId="78ed-7ec1-c2d2-1829" type="selectionEntry">
+    <entryLink id="8057-bb3c-bd44-e08b" name="L6/40 Scout Tank Company" hidden="false" collective="false" import="true" targetId="78ed-7ec1-c2d2-1829" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="44a8-efd8-a9bd-147d" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="270b-f083-3c06-039d" name="[F] AB41 Armoured Car Company" hidden="false" collective="false" import="true" targetId="d046-9275-0b37-c31a" type="selectionEntry">
+    <entryLink id="270b-f083-3c06-039d" name="AB41 Armoured Car Company" hidden="false" collective="false" import="true" targetId="d046-9275-0b37-c31a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d0b3-745e-6c25-8587" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
@@ -318,9 +257,33 @@ Command Cards unfinished for now</readme>
         <categoryLink id="6cb4-ac75-4319-0371" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="dabd-6c8d-dd04-ed51" name="[Artillery] 100mm Howitzer Battery" hidden="false" collective="false" import="true" targetId="d767-93e2-0f71-7c81" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f8a1-ff55-5b30-96d1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3038-a80a-821f-2f26" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7405-3c40-4f55-47ef" name="[Anti-tank] Support" hidden="false" collective="false" import="true" targetId="65fd-73c8-68a6-0601" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d762-4453-fec2-8703" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5293-c004-415f-220e" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3339-a262-373a-a369" name="[Reconnaissance] Support" hidden="false" collective="false" import="true" targetId="e74f-9e6c-ddb6-c40a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="092c-9dd5-b14a-a0c8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bf1b-8777-5db9-5a62" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="d767-93e2-0f71-7c81" name="100mm Howitzer Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d767-93e2-0f71-7c81" name="[Artillery] 100mm Howitzer Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3576-99fb-22fe-c93e" name="100mm Howitzer Battery" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -447,7 +410,7 @@ Command Cards unfinished for now</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e2a-4a95-c8f4-8cbb" name="AB41 OP Observation Post" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6e2a-4a95-c8f4-8cbb" name="[Observer] AB41 OP Observation Post" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="65ed-9259-9dc0-4a22" name="AB41 OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -892,10 +855,10 @@ Command Cards unfinished for now</readme>
           </constraints>
           <entryLinks>
             <entryLink id="d5f2-548c-e263-209f" name="[FS] Semovente SP Battery" hidden="false" collective="false" import="true" targetId="d2cd-441e-f523-aa45" type="selectionEntry"/>
-            <entryLink id="d3b1-f3a0-a423-b149" name="[FS] M14/41 Tank Platoon" hidden="false" collective="false" import="true" targetId="fde7-cf8b-e35f-2a1b" type="selectionEntry"/>
+            <entryLink id="d3b1-f3a0-a423-b149" name="M14/41 Tank Platoon" hidden="false" collective="false" import="true" targetId="fde7-cf8b-e35f-2a1b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="19f9-c5c1-1adc-aa2d" name="1) Tank Platoon #3" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="19f9-c5c1-1adc-aa2d" name="1) Optional Tank Platoon #3" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9463-a661-fccb-f44b" type="max"/>
           </constraints>
@@ -1158,9 +1121,9 @@ Command Cards unfinished for now</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65fd-73c8-68a6-0601" name="Anti-tank Batteries" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="65fd-73c8-68a6-0601" name="[Anti-tank] Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="9a98-4f1a-5300-bb16" name="Unit Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="35c6-79a9-06d7-d23a">
+        <selectionEntryGroup id="9a98-4f1a-5300-bb16" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="35c6-79a9-06d7-d23a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cc95-0ebf-144b-cca5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9082-9b04-a550-fbd0" type="min"/>
@@ -1304,7 +1267,7 @@ Command Cards unfinished for now</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e74f-9e6c-ddb6-c40a" name="Reconnaissance Platoons" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e74f-9e6c-ddb6-c40a" name="[Reconnaissance] Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="bd4b-7fab-4587-418c" name="Unit Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="8de2-a1d1-2f11-aca6">
           <constraints>
@@ -1344,7 +1307,7 @@ Command Cards unfinished for now</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3585-2688-c27f-8977" name="2) Support Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3585-2688-c27f-8977" name="2) Optional Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="8db5-220e-0446-d23d" name="47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="c1a6-f9b0-d9a5-66c5" type="selectionEntry">
               <constraints>
@@ -1358,7 +1321,7 @@ Command Cards unfinished for now</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1bdc-1f03-bbfb-3427" name="3) Reconnaissance Platoon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1bdc-1f03-bbfb-3427" name="3) Optional Reconnaissance Platoon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6f94-e06c-e3df-1cb8" type="max"/>
           </constraints>
@@ -1440,7 +1403,7 @@ Command Cards unfinished for now</readme>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f939-e539-f95d-ac10" name="2) Support Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f939-e539-f95d-ac10" name="2) Optional Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="187e-38fd-2ba7-f80a" name="Rifle Platoon" hidden="false" collective="false" import="true" targetId="fa42-f985-535c-3328" type="selectionEntry">
               <constraints>
@@ -1502,7 +1465,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3224-38b4-dde8-9584" name="2) Support Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3224-38b4-dde8-9584" name="2) Optional Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="a089-a847-44d3-e125" name="47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="c1a6-f9b0-d9a5-66c5" type="selectionEntry">
               <constraints>
@@ -1593,7 +1556,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1b3a-1af8-151d-83a8" name="2) Support Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1b3a-1af8-151d-83a8" name="2) Optional Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="04f5-b81d-4407-8b39" name="Rifle Platoon" hidden="false" collective="false" import="true" targetId="fa42-f985-535c-3328" type="selectionEntry">
               <constraints>
@@ -1697,9 +1660,9 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b782-61e7-bc85-a7a0" name="Air Support" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b782-61e7-bc85-a7a0" name="[Aircraft] Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="82ab-0f61-36b0-59dc" name="Unit Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="1059-78cf-6138-8cf8">
+        <selectionEntryGroup id="82ab-0f61-36b0-59dc" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="1059-78cf-6138-8cf8">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="438f-bcb4-1be0-bb97" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f78-a2eb-d75f-870c" type="min"/>
@@ -2103,7 +2066,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
             <entryLink id="35a2-8d2a-8dc7-3d4e" name="Semovente SP Battery" hidden="false" collective="false" import="true" targetId="d2cd-441e-f523-aa45" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6577-d2f5-23a9-496b" name="3) Armour #3" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6577-d2f5-23a9-496b" name="3) Optional Armour #3" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c2c5-0a0d-f913-ba34" type="max"/>
           </constraints>
@@ -2115,6 +2078,9 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b503-795d-9f22-5b16" name="Parachutist Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -2169,7 +2135,7 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="bd4c-48ac-1d78-2886" name="3) Anti-tank Support Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="bd4c-48ac-1d78-2886" name="3) Optional Anti-tank Support Platoons" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="4204-39bd-13e2-d204" name="*Parachutist 47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="27e8-b5fe-9e23-19b4" type="selectionEntry">
               <constraints>
@@ -2181,14 +2147,14 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="904d-926d-5177-d505" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="9d43-a2d1-bfaf-0ad4" name="*Parachutist 47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="27e8-b5fe-9e23-19b4" type="selectionEntry">
+            <entryLink id="9d43-a2d1-bfaf-0ad4" name="Parachutist 47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="27e8-b5fe-9e23-19b4" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4e87-a01c-ec38-ea99" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7261-ac49-dc71-69c2" name="2) Support Platoons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7261-ac49-dc71-69c2" name="2) Optional Platoons" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="a491-a0a3-2af8-7991" name="Parachutist Breda MG Platoon" hidden="false" collective="false" import="true" type="unit">
               <constraints>
@@ -2277,8 +2243,11 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="c566-ab78-8214-0556" name="Assault Engineer Support" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c566-ab78-8214-0556" name="[Assault Pioneers] Support" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="68f7-06cb-7c73-2ef3" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="4d94-02bd-ca43-1c8d">
           <constraints>
@@ -2291,6 +2260,9 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4d2f-6ee5-bab9-2f58" name="Parachutist Assault Engineer Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -2542,6 +2514,9 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="669a-5750-9b0d-7090" name="Semovente (Long) SP Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -2669,6 +2644,9 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
