@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0061-787f-4655-6a48" name="PW - Australia" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0061-787f-4655-6a48" name="PW - Australian Force" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>v1 begun 8-4-2025</readme>
   <sharedSelectionEntries>
     <selectionEntry id="bac4-9f09-d2ce-e563" name="[F] Rifle Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="d0fb-b1ea-fbd9-f7b7" name="HQ" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="d0fb-b1ea-fbd9-f7b7" name="Rifle Company HQ" hidden="false" collective="false" import="true" type="unit">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -15,7 +16,7 @@
     </selectionEntry>
     <selectionEntry id="2f45-001f-a7cf-f620" name="[F] Militia Rifle Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="1c5e-99f6-d478-99bd" name="HQ" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="1c5e-99f6-d478-99bd" name="Militia Rifle Company HQ" hidden="false" collective="false" import="true" type="unit">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -27,7 +28,7 @@
     </selectionEntry>
     <selectionEntry id="be00-8607-46ce-68b2" name="[F] Commando Independent Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="b804-6a73-a984-6b70" name="HQ" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="b804-6a73-a984-6b70" name="Commando Independent Company HQ" hidden="false" collective="false" import="true" type="unit">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -39,7 +40,7 @@
     </selectionEntry>
     <selectionEntry id="937f-73d2-cd27-d50b" name="[F] Grant Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="0cb9-a018-372f-00c9" name="HQ" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="0cb9-a018-372f-00c9" name="Grant Armoured Squadron HQ" hidden="false" collective="false" import="true" type="unit">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
@@ -63,7 +64,7 @@
     </selectionEntry>
     <selectionEntry id="a052-3178-b601-33cb" name="[F] Sentinel Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="17d8-f4b4-bf67-3de7" name="Compulsory #1" hidden="false" collective="false" import="true" defaultSelectionEntryId="af93-f69b-fc29-5cf3">
+        <selectionEntryGroup id="17d8-f4b4-bf67-3de7" name="2) Armour #1" hidden="false" collective="false" import="true" defaultSelectionEntryId="af93-f69b-fc29-5cf3">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1853-d86a-c08b-6cb5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab44-f94e-d36e-64a5" type="min"/>
@@ -73,7 +74,7 @@
             <entryLink id="1cf3-06af-ff24-c838" name="[FS] Sentinel (6pdr) Armoured Troop" hidden="false" collective="false" import="true" targetId="879d-3cbe-432d-dd17" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5641-8384-3c16-3a47" name="Compulsory #2" hidden="false" collective="false" import="true" defaultSelectionEntryId="7b9c-f9d9-97a2-8650">
+        <selectionEntryGroup id="5641-8384-3c16-3a47" name="3) Armour #2" hidden="false" collective="false" import="true" defaultSelectionEntryId="7b9c-f9d9-97a2-8650">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7924-03e4-5c9b-48e4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="82d9-6dca-0e73-85eb" type="min"/>
@@ -83,7 +84,7 @@
             <entryLink id="6114-4c62-fb81-33e6" name="[FS] Sentinel (6pdr) Armoured Troop" hidden="false" collective="false" import="true" targetId="879d-3cbe-432d-dd17" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6e55-7a5c-c65a-fa42" name="Optional #3" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6e55-7a5c-c65a-fa42" name="4) Optional Unit" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a81-494f-7808-8e64" type="max"/>
           </constraints>
@@ -117,6 +118,9 @@
                 <infoLink id="97d7-f351-07c1-b431" name="Sentinel (2pdr)" hidden="false" targetId="8695-3fe8-8d80-28a6" type="profile"/>
                 <infoLink id="e36a-304e-eb40-183d" name="Sentinel (MG)" hidden="false" targetId="99d1-42f8-af0d-0f85" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e5be-717d-a89b-5d7e" name="3x Sentinel (2 pdr)" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -141,6 +145,9 @@
                 <infoLink id="ee9f-53c0-a41c-e644" name="Sentinel (2pdr)" hidden="false" targetId="8695-3fe8-8d80-28a6" type="profile"/>
                 <infoLink id="42e9-8581-1919-9a90" name="Sentinel (MG)" hidden="false" targetId="99d1-42f8-af0d-0f85" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -173,7 +180,7 @@
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e3f8-8bfc-5c97-b74c" name="[S] 2 pdr Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e3f8-8bfc-5c97-b74c" name="[M] 2 pdr Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -231,7 +238,11 @@
         <infoLink id="2bff-f82e-0c01-0651" name="Sentinel (MG)" hidden="false" targetId="99d1-42f8-af0d-0f85" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="7a7b-75c0-7d7e-a8ab" name="3x Sentinel (2 pdr)" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="7a7b-75c0-7d7e-a8ab" name="3x Sentinel (2 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -259,6 +270,71 @@
       <infoLinks>
         <infoLink id="3eb6-2616-7bb4-0b14" name="Sentinel (MG)" hidden="false" targetId="99d1-42f8-af0d-0f85" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b47f-4b8a-bb6f-40d0" name="[M] 3-inch Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a3ac-9d92-d9c3-8c78" name="[M] Vicker MMG Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ccc-4e8f-0727-b0a7" name="[M] 2 pdr Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab6c-f7f4-8f6d-2ade" name="[M] Dismounted Carrier Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="649c-6a24-b0a5-fa2c" name="[FS] Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9cb1-bc11-9e49-bd17" name="[FS] Militia Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7238-c274-99d5-f17c" name="[M] Militia 3-inch Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a2f-9132-41dc-180c" name="[M] Militia Vicker MMG Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c151-3ffd-7dbe-533a" name="[M] Militia 2 pdr Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f61a-f848-22e5-8b84" name="[FS] Commando Section" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2adb-bd5d-bbce-db1d" name="[FS] Commando Scout Section" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a32-e7f1-32cc-72a1" name="[FS] Grant Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="265b-3ef6-272a-356c" name="[FS] Stuart Armoured Troop" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
