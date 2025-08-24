@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="967f-3181-84b4-a557" name="Fortifications" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="e825-ae34-a527-ac83" name="[P] Fortifications - Pacific" hidden="false" collective="false" import="true" targetId="6693-92b8-fe75-c008" type="selectionEntry">
+    <entryLink id="e825-ae34-a527-ac83" name="Fortifications - Pacific" hidden="false" collective="false" import="true" targetId="6693-92b8-fe75-c008" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a9c1-c88c-6e29-d771" type="greaterThan"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a9c1-c88c-6e29-d771" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1173-f129-c209-f4b6" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -19,9 +24,14 @@
     <entryLink id="7467-26af-ebd6-7edb" name="[EF] Fortifications - Eastern Front" hidden="false" collective="false" import="true" targetId="a9c1-c88c-6e29-d771" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6693-92b8-fe75-c008" type="greaterThan"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6693-92b8-fe75-c008" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1173-f129-c209-f4b6" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -29,6 +39,26 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="8ca6-bd3a-c578-c609" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fb3c-60b5-f286-0fc0" name="Fortifications - Western Front" hidden="false" collective="false" import="true" targetId="1173-f129-c209-f4b6" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a9c1-c88c-6e29-d771" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6693-92b8-fe75-c008" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9a63-c7f1-6e33-b51c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fab8-7bd9-e164-88c7" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -255,7 +285,7 @@ Assault 5+</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry id="9ed9-994c-a026-fcc5" name="Machine-gun Bunker" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9ed9-994c-a026-fcc5" name="Machine-gun Bunkers" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="aa73-14ff-c9fa-da38" name="Machine-gun Bunker" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -446,7 +476,7 @@ Assault 5+</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry id="b150-7e47-3913-4b15" name="Machine-gun Nest" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b150-7e47-3913-4b15" name="Machine-gun Nests" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="fb9d-987d-42f3-31c6" name="Machine-gun Nest" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -536,8 +566,8 @@ Assault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9d31-3926-010e-89f0" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="ccf4-0d6a-0fa1-f888" name="[EF] Gun Nest" hidden="false" collective="false" import="true" targetId="0942-f66a-8b4b-49fe" type="selectionEntry"/>
-            <entryLink id="e364-105c-0662-28cd" name="[EF] Anti-tank Bunker" hidden="false" collective="false" import="true" targetId="517d-9ae1-c00d-a6a5" type="selectionEntry"/>
+            <entryLink id="ccf4-0d6a-0fa1-f888" name="Gun Nest" hidden="false" collective="false" import="true" targetId="0942-f66a-8b4b-49fe" type="selectionEntry"/>
+            <entryLink id="e364-105c-0662-28cd" name="Anti-tank Bunker" hidden="false" collective="false" import="true" targetId="517d-9ae1-c00d-a6a5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="bf08-b5c6-f9fc-a8db" name="3) Asst. Fortification #2" hidden="false" collective="false" import="true">
@@ -550,7 +580,7 @@ Assault 5+</characteristic>
             <entryLink id="fbbe-fe65-9ca3-8b9c" name="[EF] Gun Nest" hidden="false" collective="false" import="true" targetId="0942-f66a-8b4b-49fe" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4b8c-abc7-8803-f075" name="1) Anit-tank Bunker" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4b8c-abc7-8803-f075" name="1) Anti-tank Bunker" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="709e-3d92-7296-f850" type="max"/>
           </constraints>
@@ -646,12 +676,12 @@ Assault 6</characteristic>
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">-</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">-</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">-</characteristic>
-            <characteristic name="Notes" typeId="28aa-390d-006a-1776">Nest</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776">Bunker</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9bea-7505-c7fe-52dc" name="Nest" hidden="false" targetId="9c25-f3e3-3359-00e3" type="rule"/>
+        <infoLink id="9bea-7505-c7fe-52dc" name="Bunker" hidden="false" targetId="ee3a-852f-4e85-d2e4" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="595a-f8d4-f616-9dd8" name="Weapon Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="c90e-183c-9367-070e">
@@ -704,7 +734,7 @@ Assault 6</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry id="8ea7-60e1-5e35-efae" name="Machine-gun Nest" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8ea7-60e1-5e35-efae" name="Machine-gun Nests" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="bb7c-59d3-9e6f-da2b" name="Machine-gun Nest" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
@@ -926,6 +956,303 @@ Assault 6</characteristic>
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="6131-9484-e00d-f8a6" name="French Turret Bunker" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8bf7-bbf6-7478-b719" name="French Turret (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+        <profile id="19d4-e617-6ab7-0408" name="French Turret Bunker" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+
+Assault 6</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">-</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">-</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">-</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">-</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">-</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Bunker</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b5cc-a087-e329-a85e" name="French Turret (4.7cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ac22-3492-32b7-4309" name="Bunker" hidden="false" targetId="ee3a-852f-4e85-d2e4" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="956a-d9f4-291a-0d85" name="1x French Turret (4.7cm)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5983-9d0e-5b82-e135" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6bc3-6cfe-2e32-2b1f" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="043b-6d72-fa8a-c64c" name="Anti-tank Bunker" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dd13-df26-2d55-acfd" name="Anti-tank Bunker" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">5+
+Assault 6</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">2+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">2+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">-</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">-</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">-</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">-</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776">Bunker</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ed0c-4eaf-45a1-aa26" name="Bunker" hidden="false" targetId="ee3a-852f-4e85-d2e4" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8e72-58bf-9acc-7349" name="Weapon Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="72dc-4f1b-a54b-88df">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ce69-5b09-f399-d385" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="192a-a581-26d1-7ee1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="07fc-3056-5339-77ca" name="8.8cm Bunker" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4070-e2a6-0dd7-7549" name="8.8cm Bunker" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic>
+                    <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+                    <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+                    <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">17</characteristic>
+                    <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+                    <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="9135-5a17-9bc7-be23" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="72dc-4f1b-a54b-88df" name="5cm Bunker" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e949-f26a-1c00-3a46" name="5cm Bunker" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+                    <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+                    <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+                    <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">8</characteristic>
+                    <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+                    <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="48bb-68cd-731a-2fe5" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="5e5d-30c5-ff65-0279" name="Mortar Tobruk Pits" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ebb4-3c06-eb71-f977" name="Mortar Tobruk Pit" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">5+
+Assault 6</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">-</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">-</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">-</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">-</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776">Bunker</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="af10-5bf2-84f5-8263" name="Mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"></characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b4e6-bbc5-c2f4-6d10" name="Bunker" hidden="false" targetId="ee3a-852f-4e85-d2e4" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b75b-8c67-256a-fb82" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="c17e-8173-c544-eaf8">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0c6c-d14b-9ff4-926e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1715-e298-e234-430c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c17e-8173-c544-eaf8" name="1x Mortar Tobruk Pit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ca94-67c2-f43d-80d0" name="2x Mortar Tobruk Pit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="505f-fb10-93f9-270e" name="Machine-gun Tobruk Pits" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e8da-91f6-0a23-cdd1" name="Machine-gun Tobruk Pit" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">5+
+Assault 6</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">-</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">-</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">-</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">-</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776">Bunker</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0b3a-70a9-896a-f58b" name="Machine-gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a1a6-a0f2-72b6-9612" name="Bunker" hidden="false" targetId="ee3a-852f-4e85-d2e4" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3fe3-6836-5bbd-b1f9" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="004e-7cf2-3621-fe82">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="37df-58cb-5f92-76eb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1e15-cd34-308b-59e0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="004e-7cf2-3621-fe82" name="1x Machine-gun Tobruk Pit" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="724f-c822-25a9-faf1" name="2x Machine-gun Tobruk Pits" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="82cc-567d-be37-51dc" name="3x Machine-gun Tobruk Pits" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a616-e5fd-89f2-1789" name="4x Machine-gun Tobruk Pits" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="1173-f129-c209-f4b6" name="Fortifications - Western Front" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0f70-c3f3-1c77-3bc0" name="1) Gun Nest" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3359-c1b0-e4cd-1530" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7733-e153-7b5b-5b6a" name="Gun Nest" hidden="false" collective="false" import="true" targetId="0942-f66a-8b4b-49fe" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9b90-b7ad-4803-7fc7" name="2) Machine-gun Pits" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="90bc-a0b2-7aa7-ec34" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f4ba-123d-821c-be64" name="[WF] Machine-gun Tobruk Pits" hidden="false" collective="false" import="true" targetId="505f-fb10-93f9-270e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0c34-feff-0972-0091" name="3) Asst. Fortification #1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="44d6-7579-b365-b89b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ea6d-3be9-cedb-cc26" name="[WF] French Turret Bunker" hidden="false" collective="false" import="true" targetId="6131-9484-e00d-f8a6" type="selectionEntry"/>
+            <entryLink id="5050-d62a-71f1-9158" name="Mortar Tobruk Pits" hidden="false" collective="false" import="true" targetId="5e5d-30c5-ff65-0279" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e2ba-8984-e161-3551" name="1) Gun Nest or Bunker" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1ad2-30f3-0cbb-e761" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e1a8-ff34-aed2-efed" name="Gun Nest" hidden="false" collective="false" import="true" targetId="0942-f66a-8b4b-49fe" type="selectionEntry"/>
+            <entryLink id="3896-bf91-9dfb-d7e4" name="[WF]  Anti-tank Bunker" hidden="false" collective="false" import="true" targetId="043b-6d72-fa8a-c64c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5413-3669-d3b6-213a" name="3) Asst. Fortification #2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7065-06c4-c0ed-6f93" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f145-3bfe-9c27-16aa" name="[WF] Machine-gun Tobruk Pits" hidden="false" collective="false" import="true" targetId="505f-fb10-93f9-270e" type="selectionEntry"/>
+            <entryLink id="1450-6654-5287-977e" name="[WF] French Turret Bunker" hidden="false" collective="false" import="true" targetId="6131-9484-e00d-f8a6" type="selectionEntry"/>
+            <entryLink id="c690-1cf9-a0a8-0fe1" name="Gun Nest" hidden="false" collective="false" import="true" targetId="0942-f66a-8b4b-49fe" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="415d-f66d-82aa-815c" name="1) Anti-tank Bunker" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1332-d372-891a-51be" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8e27-e8b0-24c3-9906" name="[WF]  Anti-tank Bunker" hidden="false" collective="false" import="true" targetId="043b-6d72-fa8a-c64c" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
