@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="baf1-f5ae-92a9-b659" name="PW - British &amp; Indian Force" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>v1 begun 8-4-2025</readme>
   <entryLinks>
     <entryLink id="4871-530f-95b2-4033" name="[F] Honey Armoured Squadron" hidden="false" collective="false" import="true" targetId="d7bc-08dd-ba74-0496" type="selectionEntry">
       <categoryLinks>
@@ -87,11 +88,59 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="ce5d-df3b-93be-9073" name="[F] Rifle Company" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="d7bc-08dd-ba74-0496" name="[F] Honey Armoured Squadron" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="c85c-be52-1651-731e" name="[F] Indian Rifle Company" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="4770-a726-0cdd-6432" name="[F] Grant/Lee Armoured Squadron" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="744a-679d-b7ab-5225" name="[S] 25 pdr Field Troop" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="ce5d-df3b-93be-9073" name="[F] Rifle Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="40b1-117c-aa35-0236" name="Rifle Company HQ" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d7bc-08dd-ba74-0496" name="[F] Honey Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="c9ec-b1de-9fb0-87a0" name="Honey Armoured Squadron HQ" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c85c-be52-1651-731e" name="[F] Indian Rifle Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="a051-f72f-887f-b78a" name="Indian Rifle Company HQ" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4770-a726-0cdd-6432" name="[F] Grant/Lee Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="3bd4-267f-801b-dd3b" name="Grant/Lee Armoured Squadron HQ" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="744a-679d-b7ab-5225" name="[S] 25 pdr Field Troop" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="0393-b1a8-b71a-f5be" name="[SG] Light Reconnaissance" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="0edc-175a-e839-0cba" name="Unit Selection" hidden="false" collective="false" import="true">
@@ -106,6 +155,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0abe-aa0e-6539-356e" name="[SG] Reconnaissance" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
@@ -122,15 +174,109 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="a19b-21ac-9273-f872" name="[S] Observation Post" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="26ac-8174-0681-15e5" name="[S] Marmon-Herrington Armoured Car Troop" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="f29f-33ac-81d6-db02" name="[S] Universal Carrier Patrol" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="a1b8-fc20-1e6a-aaaa" name="[S] Indian-pattern Carrier Patrol" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="81e3-e5f5-b8ed-bfb7" name="[S] Indian-pattern Universal Carrier Patrol" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="d132-e66f-9515-6366" name="[S] 6 pdr Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="25a5-eb0b-271c-f5ac" name="[S] 20mm Light AA Troop" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="e3c5-fc7e-d252-fef1" name="[S] Valentine Armoured Troop" hidden="false" collective="false" import="true" type="unit"/>
-    <selectionEntry id="7fda-52a1-899c-43e7" name="[S] Hurricane Fighter-bomber Flight" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="a19b-21ac-9273-f872" name="[S] Observation Post" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="26ac-8174-0681-15e5" name="[S] Marmon-Herrington Armoured Car Troop" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f29f-33ac-81d6-db02" name="[S] Universal Carrier Patrol" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1b8-fc20-1e6a-aaaa" name="[S] Indian-pattern Carrier Patrol" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="81e3-e5f5-b8ed-bfb7" name="[S] Indian-pattern Universal Carrier Patrol" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d132-e66f-9515-6366" name="[S] 6 pdr Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="25a5-eb0b-271c-f5ac" name="[S] 20mm Light AA Troop" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3c5-fc7e-d252-fef1" name="[S] Valentine Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7fda-52a1-899c-43e7" name="[S] Hurricane Fighter-bomber Flight" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a97-4194-ec10-ea4c" name="[FS] Honey Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a583-3a88-9a9f-9767" name="[FS] Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d68-39eb-a63f-e5d2" name="[FS] Indian Rifle Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b50-ee79-03a0-770a" name="[FS] Grant/Lee Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2449-038d-a264-7082" name="[W] Boarhound Armoured Car Troop" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5aa0-304b-be7e-2dec" name="[M] 3-inch Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88d1-15b7-353c-7db8" name="[M] Vicker MMG Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c072-3b50-5f1a-f4ff" name="[M] 2 pdr Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db56-b04f-6912-5e92" name="[M] 6 pdr Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="994d-2ff7-b37d-fb24" name="[M] Indian Vicker MMG Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48ce-c107-3524-3fc7" name="[M] Indian 2 pdr Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
