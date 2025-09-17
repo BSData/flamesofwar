@@ -467,6 +467,7 @@ Counterattack 5+</characteristic>
         <infoLink id="1703-9fb1-ae95-15a3" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
         <infoLink id="e182-77a6-50c7-edef" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
         <infoLink id="7a26-e10b-b260-dd0f" name="Springfield rifle team" hidden="false" targetId="d1ac-2467-aa00-429a" type="infoGroup"/>
+        <infoLink id="2d46-23dc-671e-807c" name="Independent Tank Unit" hidden="false" targetId="b650-398e-5817-50fb" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="afb9-2f3b-d73c-72f9" name="1x Observer Springfield rifle team" hidden="false" collective="false" import="true" type="upgrade">
@@ -688,7 +689,7 @@ Tactics 3+</characteristic>
             <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
             <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
             <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-            <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
           </characteristics>
         </profile>
         <profile id="2b05-b61b-2378-f8e2" name="75mm SPM (.50 cal AA MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1211,7 +1212,7 @@ Assault 4+</characteristic>
 Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
             <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
-            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539"></characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539"/>
             <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
@@ -1943,7 +1944,7 @@ Last Stand 5+</characteristic>
             <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
             <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
             <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-            <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
           </characteristics>
         </profile>
         <profile id="4e44-18ce-9514-01d3" name="Jeep (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -2114,6 +2115,7 @@ Counterattack 6</characteristic>
         <infoLink id="6133-357d-2b8b-aa0f" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
         <infoLink id="7d9c-af92-7be9-365c" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
         <infoLink id="c753-ca5d-289b-d3ef" name="M1 Carbine team" hidden="false" targetId="bb1d-3dc8-0590-1b3f" type="profile"/>
+        <infoLink id="02da-d173-2ccf-adeb" name="Independent Tank Unit" hidden="false" targetId="b650-398e-5817-50fb" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="10e5-cade-c996-d341" name="1x Observer M1 Carbine team" hidden="false" collective="false" import="true" type="upgrade">
@@ -2186,7 +2188,6 @@ Counterattack 6</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="2bba-b6af-76e8-22bf" name="[Artillery] Support" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntryGroups>
         <selectionEntryGroup id="74af-1f3f-2a98-7f3e" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="e101-89d9-2da6-fe17">
           <constraints>
@@ -2200,9 +2201,11 @@ Counterattack 6</characteristic>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9d8a-8a26-ea63-4f68" name="[Observer] Support" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntryGroups>
         <selectionEntryGroup id="9b1c-b6f4-9923-6771" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="e001-c50b-37fc-f1af">
           <constraints>
@@ -2242,9 +2245,11 @@ Counterattack 6</characteristic>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8160-0abe-b631-2745" name="[Reconnaissance] Support" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntryGroups>
         <selectionEntryGroup id="f136-4c1d-820c-a87d" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6d6-bcfd-eb5e-31cf">
           <constraints>
@@ -2258,9 +2263,11 @@ Counterattack 6</characteristic>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2b99-e282-50ca-bad8" name="[Infantry] Support" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <selectionEntryGroups>
         <selectionEntryGroup id="484b-56fa-1c63-645e" name="Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="5895-ce66-114f-c76b">
           <constraints>
@@ -2273,6 +2280,9 @@ Counterattack 6</characteristic>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1422-1e4e-6da4-d1df" name="81mm Mortar Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -2415,7 +2425,7 @@ Assault 6</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -2590,7 +2600,7 @@ Assault 6</characteristic>
             <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
             <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
             <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-            <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2660,7 +2670,7 @@ Assault 6</characteristic>
             <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
             <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
             <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-            <characteristic name="Notes" typeId="d939-5084-e654-44c6"></characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
           </characteristics>
         </profile>
       </profiles>
