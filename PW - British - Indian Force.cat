@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="baf1-f5ae-92a9-b659" name="PW - British &amp; Indian Force" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>v1 begun 8-4-2025</readme>
+  <readme>v1 begun 8-4-2025
+Finished 9-16-2025
+MWDP 9-17-2025</readme>
   <entryLinks>
     <entryLink id="4871-530f-95b2-4033" name="[F] Honey Armoured Squadron" hidden="false" collective="false" import="true" targetId="d7bc-08dd-ba74-0496" type="selectionEntry">
       <categoryLinks>
@@ -208,7 +210,7 @@ Assault 4+</characteristic>
                 <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
                 <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
                 <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
-                <characteristic name="Notes" typeId="173e-6395-d37b-31a2"></characteristic>
+                <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
               </characteristics>
             </profile>
           </profiles>
@@ -335,12 +337,12 @@ Assault 4+</characteristic>
               <selectionEntries>
                 <selectionEntry id="24e4-0725-473b-6f31" name="3x Honey" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="bd22-3490-389f-f391" name="4x Honey" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -545,12 +547,12 @@ Assault 4+</characteristic>
               <selectionEntries>
                 <selectionEntry id="bf59-f946-5143-1270" name="2x Grant" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4661-6558-6e8c-6e92" name="3x Grant" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -802,7 +804,7 @@ Assault 6</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="30b5-f7f0-54ad-f3cb" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -848,6 +850,9 @@ Assault 6</characteristic>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="df26-3224-bd89-1a8f" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f437-9b87-74ff-3b56" name="Universal Carrier (MG &amp; Boys AT rifle)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -864,7 +869,7 @@ Assault 6</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1b8-fc20-1e6a-aaaa" name="Indian Pattern Carrier Patrol" hidden="false" collective="false" import="true" type="unit">
@@ -905,6 +910,9 @@ Assault 6</characteristic>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ef96-5baa-9445-04c8" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f556-c4bd-4094-be35" name="Indian Pattern Carrier (MG &amp; Boys AT rifle)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -921,7 +929,7 @@ Assault 6</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="81e3-e5f5-b8ed-bfb7" name="Indian Universal Carrier Patrol" hidden="false" collective="false" import="true" type="unit">
@@ -962,6 +970,9 @@ Assault 6</characteristic>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="76ed-8a02-d38b-5e75" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0dd0-fa0b-dfbe-ea0e" name="Universal Carrier (MG &amp; Boys AT rifle)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -978,7 +989,7 @@ Assault 6</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="25a5-eb0b-271c-f5ac" name="[Anti-aircraft] 20mm Light AA Troop" hidden="false" collective="false" import="true" type="unit">
@@ -995,7 +1006,7 @@ Assault 6+</characteristic>
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
             <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
-            <characteristic name="Notes" typeId="28aa-390d-006a-1776"></characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776"/>
           </characteristics>
         </profile>
         <profile id="d693-58c4-0dd2-9f07" name="20mm AA gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -1159,7 +1170,7 @@ Assault 6+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d2f-5a86-da4e-9bab" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1322,7 +1333,7 @@ Assault 4+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="063d-7b46-6f9b-ae6e" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

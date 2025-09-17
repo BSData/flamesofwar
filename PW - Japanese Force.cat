@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="d41f-e695-ab51-fad4" name="PW - Japanese Force" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord: zharrpostingghoroth" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>v1 begun 8-4-2025</readme>
+  <readme>v1 begun 8-4-2025
+Finished 9-8-2025
+MWDP2025 9-17-2025</readme>
   <entryLinks>
     <entryLink id="80fb-f060-68bb-65f6" name="Type 2 Ka-Mi Naval Tank Company" hidden="false" collective="false" import="true" targetId="a114-309a-3dde-6334" type="selectionEntry">
       <categoryLinks>
@@ -266,7 +268,7 @@
                     <infoLink id="0f27-a94e-81a9-9f9b" name="Chi-Ha" hidden="false" targetId="5d34-44d0-1323-40ae" type="infoGroup"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8802-b450-e9ee-c394" name="2x Type 97 Kai Shinhoto Chi-Ha (47mm)" hidden="false" collective="false" import="true" type="upgrade">
@@ -274,7 +276,7 @@
                     <infoLink id="1815-0209-356a-786e" name="Kai Shinhoto Chi-Ha" hidden="false" targetId="5bde-f3e4-9ad0-298f" type="infoGroup"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -359,7 +361,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="584d-5204-c9ec-4e94" type="min"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -442,7 +444,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2af7-ae49-b7cc-8247" type="min"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -631,7 +633,7 @@ Last Stand 2+</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d8e8-b9d8-0718-be69" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1291,6 +1293,13 @@ Defensive Fire 4+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="1131-25ec-a1bc-5acc" name="Type 97 Te-Ke Recon Tankette Platoon" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="995a-4d67-6920-bfe4" value="3.0">
+          <conditions>
+            <condition field="selections" scope="1131-25ec-a1bc-5acc" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c853-8d0a-7929-7373" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="9b57-03e7-8de5-e6f3" name="Type 97 Te-Ke" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -1362,14 +1371,14 @@ Last Stand 4+</characteristic>
                 <infoLink id="4ef6-d201-afe8-e6ca" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f5f5-5dbc-5829-1f4f" name="Naval Scout Platoon" hidden="false" collective="false" import="true" type="unit">
@@ -1546,17 +1555,17 @@ Last Stand 4+</characteristic>
           <selectionEntries>
             <selectionEntry id="6a41-e92e-0b7a-7c53" name="3x Type 94 TK (MG)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c9d7-5983-7da2-56de" name="4x Type 94 TK (MG)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0be4-4508-0877-c15f" name="5x Type 94 TK (MG)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1607,7 +1616,7 @@ Last Stand 4+</characteristic>
                 <infoLink id="9721-179f-10f8-5ade" name="Chi-Ha" hidden="false" targetId="5d34-44d0-1323-40ae" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d34d-9171-b6a6-13ce" name="Kai Shinhoto Chi-Ha (47mm)" hidden="false" collective="false" import="true" type="model">
@@ -1618,7 +1627,7 @@ Last Stand 4+</characteristic>
                 <infoLink id="64c2-a524-b3f9-e85e" name="Kai Shinhoto Chi-Ha" hidden="false" targetId="5bde-f3e4-9ad0-298f" type="infoGroup"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1659,17 +1668,17 @@ Last Stand 4+</characteristic>
           <selectionEntries>
             <selectionEntry id="91c8-e6f3-6eb0-44a6" name="3x Type 89 Chi-Ro (57mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1b24-849e-4e0d-83a8" name="4x Type 89 Chi-Ro (57mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e647-41f8-0165-863c" name="5x Type 89 Chi-Ro (57mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1710,17 +1719,17 @@ Last Stand 4+</characteristic>
           <selectionEntries>
             <selectionEntry id="0eeb-1176-1706-f6a8" name="3x Type 95 Ha-Go (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5fdb-39fd-7ca5-f0fa" name="4x Type 95 Ha-Go (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e41f-baf1-653d-6786" name="5x Type 95 Ha-Go (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1869,17 +1878,17 @@ Last Stand 2+</characteristic>
           <selectionEntries>
             <selectionEntry id="f761-fa3a-f423-2f66" name="3x Type 2 Ka-Mi (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2171-2f88-d079-51a5" name="4x Type 2 Ka-Mi (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c9a8-ddf6-b074-f0f0" name="5x Type 2 Ka-Mi (37mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2082,22 +2091,22 @@ Remount 2+</characteristic>
           <selectionEntries>
             <selectionEntry id="1a20-0d26-f49c-591e" name="2x Type 4 Chi-To (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="be34-836e-231a-13fa" name="3x Type 4 Chi-To (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="38.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c5db-ce1e-ad62-1bb1" name="4x Type 4 Chi-To (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="50.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b616-a082-7ca5-b80b" name="5x Type 4 Chi-To (long 75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="63.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="45.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2161,12 +2170,12 @@ Remount 2+</characteristic>
           <selectionEntries>
             <selectionEntry id="97d5-b6c8-32a5-d659" name="2x Type 1 Ho-Ni I (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6263-d5c9-1110-a54c" name="3x Type 1 Ho-Ni I (75mm)" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
