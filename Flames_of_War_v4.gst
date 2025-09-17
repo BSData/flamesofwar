@@ -296,8 +296,8 @@ updated info in v20 by mdcooledge</comment>
     <rule id="7de4-d921-ff24-9632" name="HQ Transport" hidden="false">
       <description>Transports are part of the HQ Unit.</description>
     </rule>
-    <rule id="b650-398e-5817-50fb" name="Independent Tank Unit" hidden="false">
-      <description>Unit cannot Charge into Contact or take an Objective, an is ignored for Victory Points.</description>
+    <rule id="b650-398e-5817-50fb" name="Independent" hidden="false">
+      <description>An Independent Team can use the Mistaken Target rule to reassign hits to nearby Units, but cannot Charge into Contact, nor take an Objective.</description>
     </rule>
     <rule id="183b-aef0-86e1-693f" name="Large Gun" hidden="false">
       <description>Cannot be placed from Ambush within 16&quot;/40cm of the enemy.</description>
@@ -318,9 +318,7 @@ updated info in v20 by mdcooledge</comment>
       <description>Weapons can only hit targets fully to the rear of the Team.</description>
     </rule>
     <rule id="967a-118e-dc01-7e0b" name="Scout" hidden="false">
-      <description>Scouts are Gone to Ground unless they Shoot or Assault. This means that if they are Conseald, they enemy will suffer an additional +1 penelty to hit them.
-
-Scouts have a worse Last Stand rating, Open or Wheeled Scout tanks have a significantly worse Counterattack rating and a worse Assault rating as well.</description>
+      <description>Scouts are Gone to Ground unless they Shoot or Assault. This means that if they are Concealed, the enemy will suffer an additional +1 penalty to hit them.</description>
     </rule>
     <rule id="6c0b-8d39-70b6-9d1c" name="Self-Defence AA" hidden="false">
       <description>Self-Defence AA weapons can Shoot at Aircraft with ROF 1.</description>
@@ -435,6 +433,9 @@ A One-man Turret main weapon adds +1 to the score needed To Hit when moving.</de
     </rule>
     <rule id="4fca-c940-f1ad-b2fc" name="Gigantic" hidden="false">
       <description>Teams for this Unit cannot be placed from Ambush within 16&quot;/40cm of any enemy Team.</description>
+    </rule>
+    <rule id="243b-2c1e-a3f8-7ee5" name="Mountaineers" hidden="false">
+      <description>Teams frim a Unit with Mountaineers that start their Movement Step adjacent to a cliff or mountain side (or another similar Impassable terrain feature) roll a Skill Test. If successful, the Team may move using Terrain Dash across the terrain.</description>
     </rule>
   </sharedRules>
 </gameSystem>
