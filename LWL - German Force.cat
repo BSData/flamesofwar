@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="17ba-4a3f-1262-5b1c" name="Late-War Leviathans - German Force" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord;  zharrpostingghoroth" authorUrl="https://github.com/BSData/flamesofwar" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Work begins 9/22/2025</readme>
+  <entryLinks>
+    <entryLink id="5b4c-a8d8-f228-8487" name="German Wonder Weapons Tank Company" hidden="false" collective="false" import="true" targetId="6e71-f323-93d9-f1b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f10d-b545-e00b-cc63" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="6e71-f323-93d9-f1b" name="German Wonder Weapons Tank Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="d72f-ed77-258c-8948" name="Wonder Weapons Tank Company HQ [LG617]" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8cd-499d-90a3-37da" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eb6-6542-0df5-06c5" type="max"/>
+          </constraints>
+          <infoGroups>
+            <infoGroup id="5550-56b3-83ab-90f5" name="Maus (12.8cm)" hidden="false">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="d72f-ed77-258c-8948" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7357-3399-5578-1480" type="equalTo"/>
+                        <condition field="selections" scope="d72f-ed77-258c-8948" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2799-f4dd-6b53-fffd" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="322a-eb6f-4ff9-c261" name="Wonder Weapons Tank Company HQ - Maus (12.8cm)" publicationId="9fff-fd82-e3c2-d110" page="18" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+                  <characteristics>
+                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 3+</characteristic>
+                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+                    <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+                    <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">20</characteristic>
+                    <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">13</characteristic>
+                    <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+                    <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+                    <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic>
+                    <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">12&quot;/30cm</characteristic>
+                    <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+                    <characteristic name="Notes" typeId="33d6-6375-9564-9985">Tank Formation, Stormtroopers</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a829-afd6-9dda-816b" name="Maus (7.5cm)" hidden="false" targetId="d1ec-ea48-3cca-d927" type="profile"/>
+                <infoLink id="946b-6a67-f3b7-67e4" name="Maus (12.8cm)" hidden="false" targetId="f83e-e45a-f2df-ab8" type="profile"/>
+                <infoLink id="2168-f93b-f87e-05a1" name="Maus (MG)" hidden="false" targetId="dfd4-dc1f-8fce-e190" type="profile"/>
+                <infoLink id="cc94-01e9-9ab2-c3bc" name="Stormtroopers" hidden="false" targetId="36c-590e-f552-8efe" type="rule"/>
+                <infoLink id="45be-dfc2-60d7-c8b8" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+                <infoLink id="2666-833d-89b3-369e" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+            <infoGroup id="4d46-ff2c-e91f-0cc2" name="Panther (8.8cm) [LG604]" hidden="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="d72f-ed77-258c-8948" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cfa0-12ac-fd96-c424" type="equalTo"/>
+                        <condition field="selections" scope="d72f-ed77-258c-8948" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da23-1d17-a567-2a55" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="7e69-4ad0-adbc-ecf6" name="Wonder Weapons Tank Company HQ - Panther (8.8cm)" publicationId="9fff-fd82-e3c2-d110" page="20" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+                  <characteristics>
+                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 3+</characteristic>
+                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+                    <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+                    <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
+                    <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
+                    <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+                    <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+                    <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+                    <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+                    <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+                    <characteristic name="Notes" typeId="33d6-6375-9564-9985">Tank Formation, Infra-Red (IR), Stormtroopers</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ad3a-f5a9-7197-53ef" name="Panther (8.8cm)" hidden="false" targetId="6ab3-bbea-8901-e062" type="profile"/>
+                <infoLink id="6bdc-3903-b533-d665" name="Panther (MGs)" hidden="false" targetId="2f9b-fb4f-b1c6-4824" type="profile"/>
+                <infoLink id="7459-adf6-8ea4-44bb" name="Accurate" hidden="false" targetId="1f50-54f0-2f7e-827c" type="rule"/>
+                <infoLink id="2491-8b45-66ad-55b0" name="Infra-Red (IR)" hidden="false" targetId="2453-4917-3944-a996" type="rule"/>
+                <infoLink id="5071-6738-e171-89f7" name="Stormtroopers" hidden="false" targetId="36c-590e-f552-8efe" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="ade0-2ce1-e879-4724" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="7357-3399-5578-1480">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6a0-03ec-6dd5-dc03" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84e4-fce1-353e-ebcb" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="7357-3399-5578-1480" name="1x Maus (12.8cm)" hidden="false" collective="false" import="true" type="model">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2799-f4dd-6b53-fffd" name="2x Maus (12.8cm)" hidden="false" collective="false" import="true" type="model">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="da23-1d17-a567-2a55" name="1x Panther (8.8cm) [LG604]" hidden="false" collective="false" import="true" type="model">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="cfa0-12ac-fd96-c424" name="2x Panther (8.8cm) [LG604]" hidden="false" collective="false" import="true" type="model">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e196-83f7-466e-3321" name="1) Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="24f2-295b-9165-8bdb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8de6-d885-3ea9-2b79-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8de6-d885-3ea9-2b79-max" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="24f2-295b-9165-8bdb" name="Maus Heavy Tank Platoon [LG602]" hidden="false" collective="false" import="true" targetId="24bd-aefa-1027-436e" type="selectionEntry"/>
+            <entryLink id="c943-6060-8c7d-d02b" name="Tiger II Tank Platoon [LG352]" hidden="false" collective="false" import="true" targetId="1db8-aaa3-bfc7-b0c" type="selectionEntry"/>
+            <entryLink id="4a1a-2d9f-7372-686" name="Tiger Tank Platoon [LG102]" hidden="false" collective="false" import="true" targetId="da96-7270-2058-45b3" type="selectionEntry"/>
+            <entryLink id="dbcf-6c1f-b0c2-8509" name="Panther (Late) Tank Platoon [LG360]" hidden="false" collective="false" import="true" targetId="4a71-5aeb-2105-1530" type="selectionEntry"/>
+            <entryLink id="46da-7caf-e948-190a" name="Panther (8.8cm) Tank Platoon [LG604]" hidden="false" collective="false" import="true" targetId="77d7-8ed6-4645-e756" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8002-c7c4-6e4f-322" name="2) Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="6efd-fc58-5c4c-3c70">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5fd-125f-6f98-c3ad-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5fd-125f-6f98-c3ad-max" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6efd-fc58-5c4c-3c70" name="Maus Heavy Tank Platoon [LG602]" hidden="false" collective="false" import="true" targetId="24bd-aefa-1027-436e" type="selectionEntry"/>
+            <entryLink id="6ce7-e45a-5e7f-f569" name="Tiger II Tank Platoon [LG352]" hidden="false" collective="false" import="true" targetId="1db8-aaa3-bfc7-b0c" type="selectionEntry"/>
+            <entryLink id="1f65-8100-53a4-4afc" name="Tiger Tank Platoon [LG102]" hidden="false" collective="false" import="true" targetId="da96-7270-2058-45b3" type="selectionEntry"/>
+            <entryLink id="d75e-d7cd-f047-14bb" name="Panther (Late) Tank Platoon [LG360]" hidden="false" collective="false" import="true" targetId="4a71-5aeb-2105-1530" type="selectionEntry"/>
+            <entryLink id="5-df72-680a-ef53" name="Panther (8.8cm) Tank Platoon [LG604]" hidden="false" collective="false" import="true" targetId="77d7-8ed6-4645-e756" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2de7-c8a3-1b60-f081" name="3) Optional Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5fd-125f-6f98-c3ad" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9d7d-4f21-51de-c184" name="Maus Heavy Tank Platoon [LG602]" hidden="false" collective="false" import="true" targetId="24bd-aefa-1027-436e" type="selectionEntry"/>
+            <entryLink id="157a-c98f-e0eb-bbf3" name="Tiger II Tank Platoon [LG352]" hidden="false" collective="false" import="true" targetId="1db8-aaa3-bfc7-b0c" type="selectionEntry"/>
+            <entryLink id="4518-40e3-3458-2a80" name="Tiger Tank Platoon [LG102]" hidden="false" collective="false" import="true" targetId="da96-7270-2058-45b3" type="selectionEntry"/>
+            <entryLink id="afa0-3555-24a5-999b" name="Panther (Late) Tank Platoon [LG360]" hidden="false" collective="false" import="true" targetId="4a71-5aeb-2105-1530" type="selectionEntry"/>
+            <entryLink id="7ab-4bd0-4c19-4eaa" name="Panther (8.8cm) Tank Platoon [LG604]" hidden="false" collective="false" import="true" targetId="77d7-8ed6-4645-e756" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="da53-75f2-9f8c-4cca" name="4) Anti-Aircraft" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aa1-777b-aae0-d164" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c17f-6b8d-874b-f9c1" name="Wirbelwind AA Tank Platoon [LG250]" hidden="false" collective="false" import="true" targetId="2ff8-4496-3e58-adcb" type="selectionEntry"/>
+            <entryLink id="a63e-352-79db-9f15" name="Ostwind AA Tank Platoon [LG251]" hidden="false" collective="false" import="true" targetId="82de-eb45-8b2a-66d4" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="24bd-aefa-1027-436e" name="Maus Heavy Tank Platoon [LG602]" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7e16-6456-56c4-735f" name="Maus Heavy Tank Platoon" publicationId="9fff-fd82-e3c2-d110" page="18" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">20</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">13</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">12&quot;/30cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="50ac-3c56-97ac-5358" name="Stormtroopers" hidden="false" targetId="36c-590e-f552-8efe" type="rule"/>
+        <infoLink id="a992-2bb8-3fbd-5479" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="9111-5361-ce7d-f708" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="26bb-c145-10fa-85ff" name="Maus (MG)" hidden="false" targetId="dfd4-dc1f-8fce-e190" type="profile"/>
+        <infoLink id="af31-25ec-631c-4a99" name="Maus (12.8cm)" hidden="false" targetId="f83e-e45a-f2df-ab8" type="profile"/>
+        <infoLink id="c935-d4e-c928-2598" name="Maus (7.5cm)" hidden="false" targetId="d1ec-ea48-3cca-d927" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="faeb-dd9c-b56e-8c2c" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="e2dd-1245-e65-160">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3ce-3bc2-aa1d-7b06-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3ce-3bc2-aa1d-7b06-max" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="82a8-6065-7af6-d3f" name="4x Maus (12.8cm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="96.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3fd7-e58e-9c17-b215" name="2x Maus (12.8cm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e792-c011-273f-acd3" name="3x Maus (12.8cm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="72.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e2dd-1245-e65-160" name="1x Maus (12.8cm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1db8-aaa3-bfc7-b0c" name="Tiger II Tank Platoon [LG352]" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2c9b-c71f-dbbe-63c5" name="Tiger II Tank Platoon" publicationId="9fff-fd82-e3c2-d110" page="19" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 2+/ Remount 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">16</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3dd-408f-e4a9-a1d" name="Stormtroopers" hidden="false" targetId="36c-590e-f552-8efe" type="rule"/>
+        <infoLink id="1b2d-8b74-1bcc-e435" name="Tiger II (8.8cm)" hidden="false" targetId="d56-a39c-740-b917" type="profile"/>
+        <infoLink id="b124-3f9-367c-9c56" name="Tiger II (MGs)" hidden="false" targetId="85f9-bcde-5f38-6f7" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c721-9234-7fc2-f6d2" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="230f-8927-af48-88f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="158c-d4a-a370-ffed" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ecf-2468-d09a-e316" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="230f-8927-af48-88f" name="2x Tiger II (8.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="57" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="48bf-8225-9c08-43f2" name="3x Tiger II (8.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="57" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="53.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3800-c7da-eb5f-85b7" name="4x Tiger II (8.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="57" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="70.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da96-7270-2058-45b3" name="Tiger Tank Platoon [LG102]" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="15d3-28c6-3e2a-e27e" name="Tiger Tank Platoon" publicationId="9fff-fd82-e3c2-d110" page="19" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 2+ / Remount 2+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c0c7-f3cd-bf12-b946" name="Stormtroopers" hidden="false" targetId="36c-590e-f552-8efe" type="rule"/>
+        <infoLink id="88be-4669-a8b6-cb21" name="Tiger (8.8cm)" hidden="false" targetId="6c19-de2e-ed6f-79d1" type="profile"/>
+        <infoLink id="91-c9fd-fb43-87da" name="Tiger (MGs)" hidden="false" targetId="afbc-3a6e-a2cd-f3ab" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c554-1414-a6e8-87a7" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4514-a5b9-7fed-5d12">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7f5-7b8e-79ba-a7bf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9458-9583-cee-462b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4514-a5b9-7fed-5d12" name="2x Tiger (8.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="57" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8887-198b-bb18-bb56" name="3x Tiger (8.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="57" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f07b-63d5-3fa6-9943" name="4x Tiger (8.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="57" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a71-5aeb-2105-1530" name="Panther (Late) Tank Platoon [LG360]" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="229e-6fbc-7b74-f0c6" name="Panther (Late) Tank Platoon" publicationId="9fff-fd82-e3c2-d110" page="19" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="50df-3e27-ec3d-4a4f" name="Stormtroopers" hidden="false" targetId="36c-590e-f552-8efe" type="rule"/>
+        <infoLink id="6fae-f3bd-8698-877b" name="Panther (late) (7.5cm)" hidden="false" targetId="9168-448b-e742-a99f" type="profile"/>
+        <infoLink id="1944-883c-5a29-ede8" name="Panther (late) (MGs)" hidden="false" targetId="a80d-3b61-886c-fc1a" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fd6a-f76e-f142-9c91" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9f7d-78ce-c01a-3044">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a02b-9a91-6806-adb9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1a2-cfc8-bf6b-a811" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9f7d-78ce-c01a-3044" name="3x Panther (late) (7.5cm)" publicationId="3bbf-3707-35dd-b1f5" page="47" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="81b8-8402-5768-ebcb" name="4x Panther (late) (7.5cm)" publicationId="3bbf-3707-35dd-b1f5" page="47" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="47.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="77d7-8ed6-4645-e756" name="Panther (8.8cm) Tank Platoon [LG604]" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="53c2-77da-2b7b-4ac6" name="Panther (8.8cm) Tank Platoon" publicationId="9fff-fd82-e3c2-d110" page="20" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Infra-Red (IR), Stormtroopers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="36b8-1fb6-ecf5-8728" name="Stormtroopers" hidden="false" targetId="36c-590e-f552-8efe" type="rule"/>
+        <infoLink id="fd8d-9914-69d-fd44" name="Panther (8.8cm)" hidden="false" targetId="6ab3-bbea-8901-e062" type="profile"/>
+        <infoLink id="a4e7-3302-5faf-74c2" name="Panther (MGs)" hidden="false" targetId="2f9b-fb4f-b1c6-4824" type="profile"/>
+        <infoLink id="14c1-42af-5df0-85d" name="Infra-Red (IR)" hidden="false" targetId="2453-4917-3944-a996" type="rule"/>
+        <infoLink id="190c-e082-305-dcbf" name="Accurate" hidden="false" targetId="1f50-54f0-2f7e-827c" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9724-d14-d658-b05f" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="c06a-ee4e-2ea6-b9a1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1b8-2f8e-ddbe-6383" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aac-5c87-30a4-4695" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c06a-ee4e-2ea6-b9a1" name="2x Panther (8.8cm)" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="537c-433-f41f-2954" name="4x Panther (8.8cm)" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="77bc-36cb-1cd4-6165" name="3x Panther (8.8cm)" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="42.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="82de-eb45-8b2a-66d4" name="Ostwind AA Tank Platoon [LG251]" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6e33-de9-a02e-68a8" name="Ostwind AA Tank Platoon" publicationId="9fff-fd82-e3c2-d110" page="20" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Counterattack 6 / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ / Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="77c6-dc42-f6ac-1262" name="Stormtroopers" hidden="false" targetId="36c-590e-f552-8efe" type="rule"/>
+        <infoLink id="384-1714-3b4a-494f" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
+        <infoLink id="329f-7279-26ad-9781" name="Ostwind (3.7cm)" hidden="false" targetId="74b9-5984-cd-418b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ec84-d04d-ba67-cc4f" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="724b-9b44-c129-673d" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="54bb-8e4-164e-f175">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b7b-7329-78d8-d4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9287-9b49-9b0e-3770" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="54bb-8e4-164e-f175" name="2x Ostwind (3.7cm)" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="970a-f951-38ca-b853" name="3x Ostwind (3.7cm)" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="85cc-9b1a-d6e1-e3aa" name="4x Ostwind (3.7cm)" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ff8-4496-3e58-adcb" name="Wirbelwind AA Tank Platoon [LG250]" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3b59-63dc-7fb2-1aea" name="Wirbelwind AA Tank Platoon" publicationId="9fff-fd82-e3c2-d110" page="20" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Counterattack 6/ Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ / Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9cd3-97ab-de7f-8e46" name="Stormtroopers" hidden="false" targetId="36c-590e-f552-8efe" type="rule"/>
+        <infoLink id="6583-85fb-324a-db4f" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
+        <infoLink id="9df3-f458-ca7f-df5b" name="Wirbelwind (Quad 2cm)" hidden="false" targetId="643b-2664-c92d-7369" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e73f-6f82-553-9688" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="77b3-bdcc-fe11-477d" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a03-c55a-15c2-5743">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5a2-6d8f-4b2-f4d2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38e9-68ba-db2c-fe4b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9a03-c55a-15c2-5743" name="2x Wirbelwind (Quad 2cm)" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1921-c17f-ba7b-a04a" name="3x Wirbelwind (Quad 2cm)" publicationId="3bbf-3707-35dd-b1f5" page="49" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4c1a-187e-1fd-ad6f" name="4x Wirbelwind (Quad 2cm)" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="f5b3-8716-1304-c9ed" name="Stabiliser" publicationId="9fff-fd82-e3c2-d110" page="12" hidden="false">
+      <description>Weapons with Stabiliser suffer a +1 penalty To Hit if the Tank Moved in the Movement Step.</description>
+    </rule>
+    <rule id="1f50-54f0-2f7e-827c" name="Accurate" publicationId="9fff-fd82-e3c2-d110" page="17" hidden="false">
+      <description>Accurate weapons do not suffer the usual +1 to hit penalty if the targeted Team is more than 16”/40cm away and the Shooting Team did not Move.</description>
+    </rule>
+    <rule id="2453-4917-3944-a996" name="Infra-Red (IR)" publicationId="9fff-fd82-e3c2-d110" page="17" hidden="false">
+      <description>A Unit with Infra-Red rolls two dice on the Night Visibility Table and chooses the highest score.</description>
+    </rule>
+    <rule id="36c-590e-f552-8efe" name="Stormtroopers" publicationId="10a4-8008-66c3-952e" page="3" hidden="false">
+      <description>A unit may attempt a second Movement Order after succeeding in its first Movement Order. The second Movement Order must be different from the first.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="f83e-e45a-f2df-ab8" name="Maus (12.8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">18</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d1ec-ea48-3cca-d927" name="Maus (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="dfd4-dc1f-8fce-e190" name="Maus (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="d56-a39c-740-b917" name="Tiger II (8.8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">17</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="85f9-bcde-5f38-6f7" name="Tiger II (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="6c19-de2e-ed6f-79d1" name="Tiger (8.8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="afbc-3a6e-a2cd-f3ab" name="Tiger (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="9168-448b-e742-a99f" name="Panther (late) (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="a80d-3b61-886c-fc1a" name="Panther (late) (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="643b-2664-c92d-7369" name="Wirbelwind (Quad 2cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="74b9-5984-cd-418b" name="Ostwind (3.7cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2f9b-fb4f-b1c6-4824" name="Panther (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="6ab3-bbea-8901-e062" name="Panther (8.8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">17</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Accurate</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

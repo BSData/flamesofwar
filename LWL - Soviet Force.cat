@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7be9-8156-3e97-6eb2" name="Late-War Leviathans - Soviet" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord; zharrpostingghoroth" authorUrl="https://github.com/BSData/flamesofwar" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Work begins 9/22/2025</readme>
+  <entryLinks>
+    <entryLink id="ac57-f0c-b7be-fda9" name="Soviet Special Purpose Tank Regiment" hidden="false" collective="false" import="true" targetId="1ad0-b0e-94-ef37" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6c12-614b-60a6-8e9f" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="1ad0-b0e-94-ef37" name="Soviet Special Purpose Tank Regiment" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="3ef6-5443-ac2f-d49d" name="[S] Special Purpose Tank Regiment HQ [LG614]" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="783d-9d6d-356a-8ea4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bbe-a5a5-6c19-9f16" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="56a5-747a-51fe-8818" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="da06-b15b-aee6-fefd">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f4e-fe79-16f8-168b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df93-5644-a5bd-22d1" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="da06-b15b-aee6-fefd" name="1x IS-3 (122mm)" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="89c8-8406-e17f-cf6d" name="IS-3 Guards Heavy Tank Company" publicationId="9fff-fd82-e3c2-d110" page="23" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+                      <characteristics>
+                        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Counterattack 3+
+Last Stand 3+</characteristic>
+                        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
+Tactics 3+</characteristic>
+                        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+                        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">14</characteristic>
+                        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">9</characteristic>
+                        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+                        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+                        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+                        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+                        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
+                        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+                        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="1397-3d2f-b3a0-2868" name="IS-3 (12.7mm AA MG)" hidden="false" targetId="4ca8-7576-c93d-6bb2" type="profile"/>
+                    <infoLink id="5d13-7b9a-0bf3-772f" name="IS-3 (122mm)" hidden="false" targetId="1aef-12-30fe-5cc8" type="profile"/>
+                    <infoLink id="bdbc-05a1-79a5-4b09" name="IS-3 (MG)" hidden="false" targetId="c7f8-970d-b37e-6290" type="profile"/>
+                    <infoLink id="9b1b-a57b-de34-1732" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+                    <infoLink id="5af0-9cf1-fd19-13c8" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+                    <infoLink id="0e3c-4f3d-e5d8-8699" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d615-8c46-4631-84af" name="1x T-54-1 (100mm) [LS613]" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="3275-4042-6250-7f81" name="T-54-1 Tank Company" publicationId="9fff-fd82-e3c2-d110" page="24" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+                      <characteristics>
+                        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Last Stand 3+</characteristic>
+                        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+</characteristic>
+                        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+                        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">12</characteristic>
+                        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
+                        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+                        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+                        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+                        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+                        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+                        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+                        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="8aca-3bd4-47f2-046b" name="T-54-1 (12.7mm AA MG)" hidden="false" targetId="41bb-20-551e-9e84" type="profile"/>
+                    <infoLink id="6385-057b-35d8-976e" name="T-54-1 (100mm)" hidden="false" targetId="50e-bc5f-7647-ca3e" type="profile"/>
+                    <infoLink id="e244-c3e6-9b15-a2bc" name="T-54-1 (MG)" hidden="false" targetId="7e48-2276-edaf-3985" type="profile"/>
+                    <infoLink id="b69d-0b67-4f6d-f823" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+                    <infoLink id="e7b3-ce0b-1820-3fe1" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c963-9fa7-6889-1613" name="1x T-44 (85mm) [LS606]" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="ce73-93d9-dd1c-354f" name="T-44 Tank Company" publicationId="9fff-fd82-e3c2-d110" page="24" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+                      <characteristics>
+                        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Last Stand 3+</characteristic>
+                        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+</characteristic>
+                        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+                        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
+                        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">7</characteristic>
+                        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+                        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+                        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
+                        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic>
+                        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
+                        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+                        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="9b1e-fdd5-ce9a-55e1" name="T-44 (85mm)" hidden="false" targetId="c17c-fb6a-495a-20d1" type="profile"/>
+                    <infoLink id="a39c-7729-bc7f-d645" name="T-44 (MG)" hidden="false" targetId="9cf9-82d9-a457-fa22" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9e0d-76a3-4c93-9f5c" name="1) Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="d4c3-66cf-4834-7677">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5670-8402-1cae-7c57-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5670-8402-1cae-7c57-max" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d4c3-66cf-4834-7677" name="[S] IS-3 Guards Heavy Tank Company [LS602]" hidden="false" collective="false" import="true" targetId="2f80-b7d5-eb8d-a560" type="selectionEntry"/>
+            <entryLink id="a933-ed0b-d995-9f89" name="[S] T-44 Tank Company [LS606]" hidden="false" collective="false" import="true" targetId="93d7-8e7d-d5f7-6c98" type="selectionEntry"/>
+            <entryLink id="5bb7-ceb6-af6b-db4c" name="[S] T-54-1 Tank Company [LS613]" hidden="false" collective="false" import="true" targetId="48c3-cdca-5dd-5bf1" type="selectionEntry"/>
+            <entryLink id="e026-e8ec-234-3f99" name="[S] ISU-130 Heavy SP Battery [LS604]" hidden="false" collective="false" import="true" targetId="fd3c-c2ec-2d7c-4b8c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5c23-5f9a-eb35-9fae" name="2) Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="119a-32da-139a-cba0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="42d5-e9af-103c-ae5a-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="42d5-e9af-103c-ae5a-max" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="119a-32da-139a-cba0" name="IS-3 Guards Heavy Tank Company [LS602]" hidden="false" collective="false" import="true" targetId="2f80-b7d5-eb8d-a560" type="selectionEntry"/>
+            <entryLink id="c469-e06f-ee4b-b835" name="T-44 Tank Company [LS606]" hidden="false" collective="false" import="true" targetId="93d7-8e7d-d5f7-6c98" type="selectionEntry"/>
+            <entryLink id="9525-5d2c-d6ce-d67f" name="T-54-1 Tank Company [LS613]" hidden="false" collective="false" import="true" targetId="48c3-cdca-5dd-5bf1" type="selectionEntry"/>
+            <entryLink id="451d-ecc0-39dd-bd45" name="[S] ISU-130 Heavy SP Battery [LS604]" hidden="false" collective="false" import="true" targetId="fd3c-c2ec-2d7c-4b8c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a44e-3aa0-2768-ccb7" name="3) Optional Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b7f9-73d7-4cf7-b4d8" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f605-5521-5fd8-429b" name="IS-3 Guards Heavy Tank Company [LS602]" hidden="false" collective="false" import="true" targetId="2f80-b7d5-eb8d-a560" type="selectionEntry"/>
+            <entryLink id="4248-648e-3d3-cb46" name="T-44 Tank Company [LS606]" hidden="false" collective="false" import="true" targetId="93d7-8e7d-d5f7-6c98" type="selectionEntry"/>
+            <entryLink id="b7b1-46d3-4591-f05d" name="T-54-1 Tank Company [LS613]" hidden="false" collective="false" import="true" targetId="48c3-cdca-5dd-5bf1" type="selectionEntry"/>
+            <entryLink id="8eb9-e30c-b763-1367" name="ISU-130 Heavy SP Battery [LS604]" hidden="false" collective="false" import="true" targetId="fd3c-c2ec-2d7c-4b8c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3253-e196-26cc-358e" name="4) Optional Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a95b-35fd-565c-1b8e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b634-651a-d0e2-e0f2" name="IS-3 Guards Heavy Tank Company [LS602]" hidden="false" collective="false" import="true" targetId="2f80-b7d5-eb8d-a560" type="selectionEntry"/>
+            <entryLink id="157e-18c9-1888-4bf0" name="[S] T-44 Tank Company [LS606]" hidden="false" collective="false" import="true" targetId="93d7-8e7d-d5f7-6c98" type="selectionEntry"/>
+            <entryLink id="ff50-b675-dd75-4eef" name="[S] T-54-1 Tank Company [LS613]" hidden="false" collective="false" import="true" targetId="48c3-cdca-5dd-5bf1" type="selectionEntry"/>
+            <entryLink id="5d87-6aa-ad05-db42" name="ISU-130 Heavy SP Battery [LS604]" hidden="false" collective="false" import="true" targetId="fd3c-c2ec-2d7c-4b8c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="bddd-e4db-a581-ab03" name="ZSU M17 Anti-Aircraft Platoon [LS174]" hidden="false" collective="false" import="true" targetId="861d-98ac-e751-5476" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="75b3-64df-5b1e-6c85" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="861d-98ac-e751-5476" name="ZSU M17 Anti-Aircraft Platoon [LS174]" publicationId="4021-7322-ad7d-e1d9" page="35" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3ed-2e7b-92ed-9806" name="ZSU M17 Anti-Aircraft Platoon" publicationId="9fff-fd82-e3c2-d110" page="25" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Counterattack 6 / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ / Assault 6</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="161c-bfa8-d1ca-5434" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
+        <infoLink id="e1aa-a5f4-d470-1f44" name="ZSU M17 (Quad .50 cal MGs)" hidden="false" targetId="12f3-8be-fefc-b920" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="032b-f466-4160-8e24" name="3x ZSU M17 (Quad .50 cal MGs)" publicationId="9f90-b6ea-6e0c-9aa3" page="45" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3360-2034-bc5f-8579" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f535-633a-ab52-e1ca" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="d43e-c083-784e-d5fa" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f80-b7d5-eb8d-a560" name="IS-3 Guards Heavy Tank Company [LS602]" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6209-be68-8894-7e7d" name="IS-3 Guards Heavy Tank Company" publicationId="9fff-fd82-e3c2-d110" page="23" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Counterattack 3+ / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ / Tactics 3+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">14</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">9</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="df16-a924-8324-f29b" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="beeb-ba78-7575-9dd1" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="9c51-19cb-a702-f745" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="c017-a749-96c-833" name="IS-3 (12.7mm AA MG)" hidden="false" targetId="4ca8-7576-c93d-6bb2" type="profile"/>
+        <infoLink id="8cc0-f70e-bbf6-354e" name="IS-3 (122mm)" hidden="false" targetId="1aef-12-30fe-5cc8" type="profile"/>
+        <infoLink id="23f0-9584-65b-b7ae" name="IS-3 (MG)" hidden="false" targetId="c7f8-970d-b37e-6290" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1ea-a7eb-9ed1-f64a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="14e8-ef67-e210-a75b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb88-abb3-ef6f-9570-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb88-abb3-ef6f-9570-max" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="221e-9710-e27a-ec15" name="4x IS-3 (122mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="34.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="56da-a0b3-48d1-f2d1" name="3x IS-3 (122mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="26.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="74e7-890d-4e3d-fa35" name="5x IS-3 (122mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="43.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="14e8-ef67-e210-a75b" name="2x IS-3 (122mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93d7-8e7d-d5f7-6c98" name="T-44 Tank Company [LS606]" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+          <conditions>
+            <condition field="selections" scope="93d7-8e7d-d5f7-6c98" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="23a1-8c1b-313f-df93" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="e45c-8e90-49a5-17c4" name="T-44 Tank Company" publicationId="9fff-fd82-e3c2-d110" page="24" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">7</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2c4c-58a1-7736-8370" name="T-44 (MG)" hidden="false" targetId="9cf9-82d9-a457-fa22" type="profile"/>
+        <infoLink id="a9cd-4f81-13d8-1518" name="T-44 (85mm)" hidden="false" targetId="c17c-fb6a-495a-20d1" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2dda-62e8-60b4-36fc" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="23a1-8c1b-313f-df93">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff7-aaed-9e08-3501-min" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff7-aaed-9e08-3501-max" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="23a1-8c1b-313f-df93" name="T-44 (85mm)" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a99c-36f2-d232-3abc" type="min"/>
+                <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4270-e258-62ac-e111" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48c3-cdca-5dd-5bf1" name="T-54-1 Tank Company [LS613]" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="995a-4d67-6920-bfe4" value="1.0">
+          <conditions>
+            <condition field="selections" scope="48c3-cdca-5dd-5bf1" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f3f-247e-1be1-14cf" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="8fa9-36fb-1adb-4f77" name="T-54-1 Tank Company" publicationId="9fff-fd82-e3c2-d110" page="24" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">12</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ecc2-4dc6-7a4c-e338" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="e630-9ad3-be7d-3bfe" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="5520-b892-2043-94e5" name="T-54-1 (MG)" hidden="false" targetId="7e48-2276-edaf-3985" type="profile"/>
+        <infoLink id="3fcd-effe-9456-99bf" name="T-54-1 (100mm)" hidden="false" targetId="50e-bc5f-7647-ca3e" type="profile"/>
+        <infoLink id="fddf-8695-b480-5bdc" name="T-54-1 (12.7mm AA MG)" hidden="false" targetId="41bb-20-551e-9e84" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="99f2-762b-885f-799c" name="Unit Size" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adb7-2c0e-fe94-6f4a-min" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adb7-2c0e-fe94-6f4a-max" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6f3f-247e-1be1-14cf" name="T-54-1 (100mm)" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a98-7f60-9139-6c4d" type="min"/>
+                <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c225-4d7c-7b7b-8a7a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd3c-c2ec-2d7c-4b8c" name="ISU-130 Heavy SP Battery [LS604]" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d597-4561-e921-7a90" name="ISU-130 Heavy SP Battery" publicationId="9fff-fd82-e3c2-d110" page="25" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Counterattack 5+ / Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ / Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="65ee-6c53-5645-defc" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="2473-74dc-f4d1-8815" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="85c2-af54-aabb-4e59" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="b406-73bd-e346-153c" name="ISU-130 (12.7mm AA MG)" hidden="false" targetId="f2a0-a7b9-84b9-2d64" type="profile"/>
+        <infoLink id="8ad8-bad8-56dd-919f" name="ISU-130 (130mm) [DIRECT]" hidden="false" targetId="f10f-8566-959e-2618" type="profile"/>
+        <infoLink id="e061-56de-bd4e-3d2a" name="ISU-130 (130mm) [INDIRECT]" hidden="false" targetId="c94a-9402-9dd-ac26" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="396e-5ed1-6f00-927a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="98c7-e241-8d7b-2637">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="798a-b02b-19c3-3b30-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="798a-b02b-19c3-3b30-max" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e71f-bdfc-7cc6-aa4d" name="4x ISU-130 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dfa7-1913-97b9-1c07" name="3x ISU-130 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9536-d5d9-5593-b869" name="5x ISU-130 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="98c7-e241-8d7b-2637" name="2x ISU-130 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="f5b3-8716-1304-c9ed" name="Stabiliser" publicationId="9fff-fd82-e3c2-d110" page="12" hidden="false">
+      <description>Weapons with Stabiliser suffer a +1 penalty To Hit if the Tank Moved in the Movement Step.</description>
+    </rule>
+    <rule id="1f50-54f0-2f7e-827c" name="Accurate" publicationId="9fff-fd82-e3c2-d110" page="17" hidden="false">
+      <description>Accurate weapons do not suffer the usual +1 to hit penalty if the targeted Team is more than 16”/40cm away and the Shooting Team did not Move.</description>
+    </rule>
+    <rule id="2453-4917-3944-a996" name="Infra-Red (IR)" publicationId="9fff-fd82-e3c2-d110" page="17" hidden="false">
+      <description>A Unit with Infra-Red rolls two dice on the Night Visibility Table and chooses the highest score.</description>
+    </rule>
+    <rule id="36c-590e-f552-8efe" name="Stormtroopers" publicationId="10a4-8008-66c3-952e" page="3" hidden="false">
+      <description>A unit may attempt a second Movement Order after succeeding in its first Movement Order. The second Movement Order must be different from the first.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="1aef-12-30fe-5cc8" name="IS-3 (122mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4ca8-7576-c93d-6bb2" name="IS-3 (12.7mm AA MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c7f8-970d-b37e-6290" name="IS-3 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="c17c-fb6a-495a-20d1" name="T-44 (85mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="9cf9-82d9-a457-fa22" name="T-44 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="7e48-2276-edaf-3985" name="T-54-1 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="41bb-20-551e-9e84" name="T-54-1 (12.7mm AA MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="50e-bc5f-7647-ca3e" name="T-54-1 (100mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">15</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f2a0-a7b9-84b9-2d64" name="ISU-130 (12.7mm AA MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f10f-8566-959e-2618" name="ISU-130 (130mm) [DIRECT]" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">18</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c94a-9402-9dd-ac26" name="ISU-130 (130mm) [INDIRECT]" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="12f3-8be-fefc-b920" name="ZSU M17 (Quad .50 cal MGs)" page="" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added in v1 by willus8888</comment>
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
