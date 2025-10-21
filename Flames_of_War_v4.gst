@@ -344,8 +344,9 @@ updated info in v20 by mdcooledge</comment>
     <rule id="dc00-41ba-b4dd-f068" name="Assault 4+" hidden="false">
       <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
     </rule>
-    <rule id="1dcd-ee7f-6116-8df5" name="Passengers 3" hidden="false">
-      <description>Team can carry three Infantry Teams as Passangers</description>
+    <rule id="1dcd-ee7f-6116-8df5" name="Passengers #" hidden="false">
+      <comment>These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy</comment>
+      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.</description>
     </rule>
     <rule id="956c-27fc-6880-7738" name="Transport Attachment" hidden="false">
       <description>Infantry and Gun Units containing Transport Teams as a Tank Attachment (or vice versa) are split into two Units; an Infantry or Gun Unit and a Transport Unit (each with their Unit Leader). Both parts of the Unit operate independently as seperate Units, supporting each other, although they deploy as a single Unit.</description>
@@ -362,11 +363,13 @@ updated info in v20 by mdcooledge</comment>
     <rule id="8f5c-f2be-1174-4b0e" name="Secondary Weapon" hidden="false">
       <description>Weapons with this rule my fire at the same or a different target at the same time as another weapon at ROT 1 and +1 To Hit.</description>
     </rule>
-    <rule id="23e1-f5f2-1523-0d4c" name="Passengers 2" hidden="false">
-      <description>Team can carry two Infantry Teams as Passangers</description>
+    <rule id="23e1-f5f2-1523-0d4c" name="Passengers #" hidden="false">
+      <comment>These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy</comment>
+      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.</description>
     </rule>
-    <rule id="cd0d-0113-cc7e-c00d" name="Passengers 1" hidden="false">
-      <description>Team can carry one Infantry Team as Passangers</description>
+    <rule id="cd0d-0113-cc7e-c00d" name="Passengers #" hidden="false">
+      <comment>These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy</comment>
+      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.</description>
     </rule>
     <rule id="31e3-3b2b-d53c-cd03" name="Assault 6+" hidden="false">
       <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
@@ -392,8 +395,9 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
       <description>Infantry, Gun, and Unarmoured Tank Teams re-roll successful Saves when hit by a Flame-thrower and the Unit is automatically Pinned Down. Armoured Tank Teams use their Top armour for Armour Saves when hit by a Flame-thrower.
 Flame-throwers may shoot in Defensive Fire. However, while a Unit that is Hit by a Flame-thrower is Pinned Down, this does not automatically stop the assault. The defender still needs to score five (or eight) hits as normal to stop the assault as normal.</description>
     </rule>
-    <rule id="cf99-c640-bffb-48e2" name="Passengers 6" hidden="false">
-      <description>Team can carry six Infantry Teams as Passangers</description>
+    <rule id="cf99-c640-bffb-48e2" name="Passengers #" hidden="false">
+      <comment>These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy</comment>
+      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.</description>
     </rule>
     <rule id="ae17-5a95-a5f5-63b5" name="Amphibious" hidden="false">
       <description>This vehicle treats impassable water as Difficult Terrain</description>
@@ -509,6 +513,10 @@ Once Brought Forward in this way, the Uhu must move at Dash Speed (and therefore
       <description>A Nest is always Concealed and in Bulletproof Cover. Teams Shooting a Nest must re-roll successful Firepower tests to Destroy it.
 Nests cannot be Assaulted by Tanks nor can they Charge into Contact.
 Each Nest is a separate Unit, even when taken as part of the same selection.</description>
+    </rule>
+    <rule id="9f2d-0bb9-b3ae-bb70" name="Passengers #" hidden="false">
+      <comment>These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy</comment>
+      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.</description>
     </rule>
   </sharedRules>
 </gameSystem>
