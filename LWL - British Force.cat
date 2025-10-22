@@ -1,172 +1,789 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="41c8-8342-0c33-b9cb" name="Late-War Leviathans - British" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord; zharrpostingghoroth" authorUrl="https://github.com/BSData/flamesofwar" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Work begins 9/22/2025</readme>
+  <readme>Work begins 9/22/2025
+V1 finished 10/22/25</readme>
+  <categoryEntries>
+    <categoryEntry id="2af5-3861-9448-7a1d" name="CENTURION 1" hidden="true"/>
+    <categoryEntry id="67bb-0607-e5b7-8200" name="CHARIOTEER" hidden="true"/>
+    <categoryEntry id="6e9e-6d49-3608-658f" name="CENTURION 3" hidden="true"/>
+    <categoryEntry id="2c92-d8b9-00ec-92de" name="SARACEN" hidden="true"/>
+    <categoryEntry id="7549-d749-71ae-9914" name="TORTOISE" hidden="true"/>
+    <categoryEntry id="e908-35f2-f65c-4c25" name="CHURCHILL" hidden="true"/>
+  </categoryEntries>
   <entryLinks>
-    <entryLink id="2744-5fc3-d515-e4f8" name="British Experimental Armoured Company" hidden="false" collective="false" import="true" targetId="8807-7887-7e6c-74ed" type="selectionEntry">
+    <entryLink id="b16b-dfb4-dfed-86e4" name="* [F] Centurion Armoured Squadron" hidden="false" collective="false" import="true" targetId="1419-c5f8-de6d-e970" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6327-add4-4453-603" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+        <categoryLink id="ae69-ed78-e16b-a7e2" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8a22-026e-bbb9-ac85" name="[F] Charioteer Armoured Squadron" hidden="false" collective="false" import="true" targetId="89d6-8619-aaf6-a21b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e2eb-ff87-96b2-4c6a" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7a03-bc9c-fba3-51fa" name="* [F] Saracen Motor Company" hidden="false" collective="false" import="true" targetId="a0c1-b88c-8a2a-0d56" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="104d-ef55-f198-2c90" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="af2d-93c4-b4e2-66b0" name="* [F] Tortoise Armoured Squadron" hidden="false" collective="false" import="true" targetId="b17a-3ee2-7169-f8ad" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c390-d70e-cf52-5fc3" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bab6-ef94-20f9-66ea" name="[FS] Centurion 1 Armoured Troop" hidden="false" collective="false" import="true" targetId="f173-12d5-1e28-a18a" type="selectionEntry">
+      <modifiers>
+        <modifier type="remove" field="category" value="2af5-3861-9448-7a1d"/>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2af5-3861-9448-7a1d" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5a17-0512-aadc-ea82" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f1ce-7faf-e905-bfd3" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="92ca-d5b1-948c-ba47" name="[FS] Centurion 3 Armoured Troop" hidden="false" collective="false" import="true" targetId="c347-a0eb-1d85-958f" type="selectionEntry">
+      <modifiers>
+        <modifier type="remove" field="category" value="6e9e-6d49-3608-658f"/>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e9e-6d49-3608-658f" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e991-dca9-e5b2-6313" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ec79-f86e-5b66-a6d1" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="69de-38d2-ea4d-6578" name="[FS] Charioteer Armoured Troop" hidden="false" collective="false" import="true" targetId="52c6-c41e-9788-4df7" type="selectionEntry">
+      <modifiers>
+        <modifier type="remove" field="category" value="67bb-0607-e5b7-8200"/>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67bb-0607-e5b7-8200" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="08f5-c18c-663d-167d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2f92-6195-430a-a465" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b595-63e9-e8b1-bac3" name="* [FS] Guards Churchill Armoured Troop" hidden="false" collective="false" import="true" targetId="31f2-6880-73e7-463b" type="selectionEntry">
+      <modifiers>
+        <modifier type="remove" field="category" value="e908-35f2-f65c-4c25"/>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e908-35f2-f65c-4c25" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1847-b1b6-ce74-2407" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="42fd-fd9a-83c1-bd4a" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c706-a05a-a228-d519" name="[FS] Saracen Motor Platoon" hidden="false" collective="false" import="true" targetId="5dd2-7996-9561-7681" type="selectionEntry">
+      <modifiers>
+        <modifier type="remove" field="category" value="2c92-d8b9-00ec-92de"/>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c92-d8b9-00ec-92de" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="298d-99cb-cda4-2061" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2369-55a5-9e64-abeb" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0583-547e-3111-91d9" name="[FS] Tortoise Assault Troop" hidden="false" collective="false" import="true" targetId="ce7e-c5d9-ac74-7717" type="selectionEntry">
+      <modifiers>
+        <modifier type="remove" field="category" value="7549-d749-71ae-9914"/>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7549-d749-71ae-9914" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3421-7e00-79a9-6d96" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0a63-00d6-add8-c542" name="New CategoryLink" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2cf5-f106-2370-7a8d" name="[Anti-aircraft] Bofors SP AA Troop" hidden="false" collective="false" import="true" targetId="d42f-a971-6155-bfe4" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ac37-1b24-1c1f-1b32" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="55b8-cc03-23ae-d648" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5b0c-5ab1-c8c1-a825" name="[Aircraft] Typhoon Fighter-Bomber Flight" hidden="false" collective="false" import="true" targetId="225e-bde9-d2a0-9ce8" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="54b1-7496-2192-c256" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c9e4-6b0f-1788-2a55" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5108-5863-2efd-cc21" name="* [Observer] Support OP" hidden="true" collective="false" import="true" targetId="9174-3ab0-cfbf-8b55" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e0ea-2e56-ca75-fa67" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bc86-73a0-2f17-6a52" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1cba-dbb6-d8c1-4b12" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7bdb-7eb3-24aa-6211" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1460-ebe6-a5fa-3d57" name="[Artillery] Support Troop" hidden="false" collective="false" import="true" targetId="96c4-deb1-a304-9226" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dbde-417d-0612-e897" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4811-7a22-7afd-1837" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="83e6-1175-e3f0-bb64" name="[Artillery] Support Troop" hidden="false" collective="false" import="true" targetId="96c4-deb1-a304-9226" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b9cc-49b3-cdda-806d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1102-11bc-9b60-5942" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c911-4118-fb0f-f842" name="[Artillery] Support Troop" hidden="false" collective="false" import="true" targetId="96c4-deb1-a304-9226" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0786-341f-8cb5-9a55" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6900-9132-86df-2a1a" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8a2d-70f4-855d-2c0f" name="[Artillery] Support Troop" hidden="false" collective="false" import="true" targetId="96c4-deb1-a304-9226" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="becf-4dad-92b2-0537" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="77bc-2b1c-7594-e130" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8f45-efea-5633-bba4" name="[Reconnaissance] Support Troop" hidden="false" collective="false" import="true" targetId="4bcd-e6b5-6292-99ff" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dd9b-10a0-c113-bc4c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a781-cfc5-abfa-d577" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3d91-a2bb-afd9-c9a7" name="[Reconnaissance] Support Troop" hidden="false" collective="false" import="true" targetId="4bcd-e6b5-6292-99ff" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7b44-21e1-717a-d703" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5d7c-80c4-e4df-e4e8" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b280-a00b-0f54-0874" name="[Anti-tank] Light Support Troop" hidden="false" collective="false" import="true" targetId="fc68-0bd0-aaaa-b898" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7c2e-a46b-45a8-6edf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e763-fb76-4961-d729" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9587-919f-7914-e143" name="[Anti-tank] Light Support Troop" hidden="false" collective="false" import="true" targetId="fc68-0bd0-aaaa-b898" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="699d-d1b2-fc3d-f047" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9b33-43f2-f174-3c07" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a2aa-96a9-ab94-dfad" name="[Anti-tank] Heavy Support Troop" hidden="false" collective="false" import="true" targetId="93b0-680d-ea84-a9a0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0398-01e9-a39c-811a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d988-a774-1bc6-8824" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3949-7934-168e-ad56" name="[Anti-tank] Heavy Support Troop" hidden="false" collective="false" import="true" targetId="93b0-680d-ea84-a9a0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ad26-db81-e400-7e06" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3780-4e00-1d4c-a374" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bd0c-f51c-042b-9c85" name="[Armour] Crocodile Flame-Tank Platoon" hidden="false" collective="false" import="true" targetId="cbe6-a634-2d78-21a8" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9143-98d7-45ae-c9f2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="23fd-2a51-9073-4b50" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b9aa-da37-11cb-1ce9" name="[Armour] Crocodile Flame-Tank Platoon" hidden="false" collective="false" import="true" targetId="cbe6-a634-2d78-21a8" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="57a8-5d73-2596-12c1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="06e7-ed47-869c-e0f7" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="8807-7887-7e6c-74ed" name="British Experimental Armoured Company" hidden="false" collective="false" import="true" type="unit">
-      <selectionEntries>
-        <selectionEntry id="2db1-c218-dea1-4c36" name="[B]  Experimental Armoured Squadron HQ [LB613]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f173-12d5-1e28-a18a" name="Centurion 1 Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="46cc-b747-f007-e716" name="CENTURION 1" hidden="false" targetId="2af5-3861-9448-7a1d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="887-740d-d7f1-c253" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ebfb-5ee7-38c6-ebb">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c51-e909-6ab2-b627" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b64-4396-c807-524c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d17-5e7e-3949-1c0d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7774-e37d-f2a-ea05" type="max"/>
           </constraints>
-          <infoGroups>
-            <infoGroup id="285b-6bdf-b825-4f15" name="Centurion 1 (17 pdr)" hidden="true">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="2db1-c218-dea1-4c36" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="46b9-59b5-fb16-4fc1" type="greaterThan"/>
-                        <condition field="selections" scope="2db1-c218-dea1-4c36" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f2d3-391a-97f7-743d" type="greaterThan"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <profiles>
-                <profile id="ab5b-962c-ef51-9174" name="Experimental Armoured Squadron HQ - Centurion 1 (17 pdr)" publicationId="9fff-fd82-e3c2-d110" page="13" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
-                  <characteristics>
-                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
-Remount 3+</characteristic>
-                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
-Assault 3+</characteristic>
-                    <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-                    <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
-                    <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
-                    <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
-                    <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-                    <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
-                    <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
-                    <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
-                    <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
-                    <characteristic name="Notes" typeId="33d6-6375-9564-9985">Tank Formation</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+          <selectionEntries>
+            <selectionEntry id="ebfb-5ee7-38c6-ebb" name="2x Centurion 1 (17 pdr)" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
-                <infoLink id="ab8c-400f-7bc6-e9c4" name="Centurion (17 pdr)" hidden="false" targetId="3b28-af5c-16a9-3e3f" type="profile"/>
-                <infoLink id="f35e-fee5-f8fb-27c2" name="Centurion 1 (20mm MG)" hidden="false" targetId="bc1f-4966-5f64-29fc" type="profile"/>
+                <infoLink id="0e2d-04ef-46f1-fba2" name="Centurion 1 (17 pdr)" hidden="false" targetId="54d7-5328-7987-40e7" type="infoGroup"/>
               </infoLinks>
-            </infoGroup>
-            <infoGroup id="038a-2694-9c3f-524e" name="Centurion 3 (20 pdr) [LB614]" hidden="true">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="2db1-c218-dea1-4c36" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff90-fadf-52a4-6dba" type="greaterThan"/>
-                        <condition field="selections" scope="2db1-c218-dea1-4c36" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3625-01f2-0236-8c75" type="greaterThan"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <profiles>
-                <profile id="7a55-f253-603c-7017" name="Experimental Armoured Squadron HQ - Centurion 3 (20 pdr)" publicationId="9fff-fd82-e3c2-d110" page="14" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
-                  <characteristics>
-                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
-Remount 3+</characteristic>
-                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
-                    <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-                    <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
-                    <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
-                    <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
-                    <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-                    <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
-                    <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
-                    <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
-                    <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
-                    <characteristic name="Notes" typeId="33d6-6375-9564-9985">Tank Formation</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="396b-c2b8-8098-1a77" name="3x Centurion 1 (17 pdr)" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
-                <infoLink id="bea5-5a71-bbc3-c732" name="Centurion 3 (20 pdr)" hidden="false" targetId="32ad-abec-d62b-7640" type="profile"/>
-                <infoLink id="9236-b8b8-ab81-8de4" name="Centurion 3 (MG)" hidden="false" targetId="9031-ad0-bf30-2c1a" type="profile"/>
-                <infoLink id="92d2-e174-ad70-4d52" name="Stabiliser" hidden="false" targetId="f5b3-8716-1304-c9ed" type="rule"/>
+                <infoLink id="d172-c82b-cb30-a2c7" name="Centurion 1 (17 pdr)" hidden="false" targetId="54d7-5328-7987-40e7" type="infoGroup"/>
               </infoLinks>
-            </infoGroup>
-            <infoGroup id="88b7-fd54-cee2-b13c" name="Tortoise (32 pdr) [LB602]" hidden="true">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="2db1-c218-dea1-4c36" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8603-2bbf-8ca9-04d7" type="greaterThan"/>
-                        <condition field="selections" scope="2db1-c218-dea1-4c36" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e9d-d23d-0643-53b5" type="greaterThan"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <profiles>
-                <profile id="8f87-2e5b-743f-af01" name="Experimental Armoured Squadron HQ - Tortoise (32 pdr)" publicationId="9fff-fd82-e3c2-d110" page="14" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
-                  <characteristics>
-                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
-Counterattack 5+
-Remount 3+</characteristic>
-                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
-Assault 5+</characteristic>
-                    <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-                    <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">21</characteristic>
-                    <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">11</characteristic>
-                    <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
-                    <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
-                    <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
-                    <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic>
-                    <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">12&quot;/30cm</characteristic>
-                    <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
-                    <characteristic name="Notes" typeId="33d6-6375-9564-9985">Tank Formation</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="29.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ff7-d688-787a-f862" name="4x Centurion 1 (17 pdr)" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
-                <infoLink id="ca85-fa49-b903-15fd" name="Tortoise (32 pdr)" hidden="false" targetId="db7e-9708-2c66-8fab" type="profile"/>
-                <infoLink id="fbd8-156b-709c-0431" name="Tortoise (MGs)" hidden="false" targetId="cd32-f184-a591-595" type="profile"/>
-                <infoLink id="43f9-9bf1-02a8-f030" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+                <infoLink id="52bf-fe77-a5bf-bd39" name="Centurion 1 (17 pdr)" hidden="false" targetId="54d7-5328-7987-40e7" type="infoGroup"/>
               </infoLinks>
-            </infoGroup>
-          </infoGroups>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="ba22-140a-c01a-0d02" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="f2d3-391a-97f7-743d">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="39.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c347-a0eb-1d85-958f" name="Centurion 3 Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1408-b1df-a538-1d21" name="CENTURION 3" hidden="false" targetId="6e9e-6d49-3608-658f" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f82a-8467-609b-b47f" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="2f06-761d-b1ec-78ba">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b369-b323-d927-8db1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaa6-902b-b04f-7406" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2f06-761d-b1ec-78ba" name="2x Centurion 3 (20 pdr)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="83e6-bcbe-4fa4-4ef5" name="Centurion 3 (20 pdr) [LB614]" hidden="false" targetId="3f76-7209-f020-66de" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4488-bd48-7ad3-9447" name="3x Centurion 3 (20 pdr)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="318f-9e56-6701-dbb7" name="Centurion 3 (20 pdr) [LB614]" hidden="false" targetId="3f76-7209-f020-66de" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="41c7-9811-cc5-bd55" name="4x Centurion 3 (20 pdr)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="3eb6-0a65-64d1-394c" name="Centurion 3 (20 pdr) [LB614]" hidden="false" targetId="3f76-7209-f020-66de" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="44.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce7e-c5d9-ac74-7717" name="Tortoise Assault Troop" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0db0-8913-acbf-2d0f" name="TORTOISE" hidden="false" targetId="7549-d749-71ae-9914" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4b27-5070-a385-2f4b" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="9b0c-4919-9554-1db6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12b7-d4ac-c119-2bee" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98fb-7985-ffc2-314f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9b0c-4919-9554-1db6" name="2x Tortoise (32 pdr)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="9e42-bd0c-3d59-78f7" name="Tortoise (32 pdr) [LB602]" hidden="false" targetId="b973-da9b-9872-e917" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="92a9-1d96-4a54-c0af" name="3x Tortoise (32 pdr)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="c1b9-dfee-5139-8c9f" name="Tortoise (32 pdr) [LB602]" hidden="false" targetId="b973-da9b-9872-e917" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="45.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c52a-fd62-e5a3-6c12" name="Comet Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f38c-3654-e944-7f4f" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6ad-56ed-5cfc-7ce3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcf9-6e4a-f6f0-ce91" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d773-f83d-6555-9a7d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c6ad-56ed-5cfc-7ce3" name="3x Comet (77mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="165a-0689-daba-23a5" name="Comet" hidden="false" targetId="c8b1-2c9c-db79-ceed" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9f1f-49ec-84a4-975c" name="4x Comet (77mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="86e9-c646-7866-b1cb" name="Comet" hidden="false" targetId="c8b1-2c9c-db79-ceed" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a0c1-b88c-8a2a-0d56" name="Saracen Motor Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="e04a-8738-76dd-bc2b" name="Saracen Motor Company HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7add-ea78-dd8d-76b7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f5b5-7c8a-40f5-7eb5" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6215-5705-211c-3141" name="2x Sten SMG team" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e335-e23d-6006-9207" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29c4-ba07-23cb-c042" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e4c4-1cbb-756b-8bfe" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5f68-dd61-4764-567c" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="60df-cdd3-75eb-2b80" name="Saracen Motor Platoon HQ" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+                  <characteristics>
+                    <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+
+Counterattack 3+</characteristic>
+                    <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+
+Assault 3+</characteristic>
+                    <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+                    <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+                    <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+                    <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+                    <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+                    <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+                    <characteristic name="Notes" typeId="173e-6395-d37b-31a2">HQ Transport</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="71bc-2531-ef79-7303" name="Sten SMG team" hidden="false" targetId="104a-ff57-0257-cc3e" type="profile"/>
+                <infoLink id="c713-95d9-50cd-8d36" name="HQ Transport" hidden="false" targetId="7de4-d921-ff24-9632" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a87b-3e62-e562-bd12" name="1) Optional Transport" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6699-5c49-7ee4-4741" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="f2d3-391a-97f7-743d" name="1x Centurion 1 (17 pdr)" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="ac9f-ad03-5aa5-5bb0" name="Saracen" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="49e8-2cf7-13f6-0a9b" name="Saracen Transport" hidden="false" targetId="97a5-82c2-6240-0cc9" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d6f2-e3a9-932f-a805" name="M5 half-track" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="85a0-c972-42f5-c5f4" name="M5 half-track Transport" hidden="false" targetId="d76c-6c53-985c-fb8f" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9011-687a-05e8-887b" name="1) Optional Saracen Platoon" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="33d5-86c6-5da3-0089" name="* [FS] Saracen Motor Platoon" hidden="false" collective="false" import="true" targetId="5dd2-7996-9561-7681" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cdcc-229d-73ee-849b" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8fb6-1dd7-73c2-2878" name="2) Optional Anti-tank Platoon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c8ee-6b95-f124-43eb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b51a-4119-2a5b-4d5f" name="Motor 6 pdr Anti-Tank Platoon" hidden="false" collective="false" import="true" targetId="f26b-4914-4be9-7e4c" type="selectionEntry"/>
+            <entryLink id="c4bc-a407-2b90-7a40" name="* 120mm BAT Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="4005-6f6e-e795-0933" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="646c-67a7-b4c1-29bf" name="3) Optional Weapons Platoon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4ad4-257c-6bb8-b808" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2fce-fe11-b64d-c0de" name="MMG Carrier Patrol" hidden="false" collective="false" import="true" targetId="3209-da6c-aadb-01d7" type="selectionEntry"/>
+            <entryLink id="5fae-a24f-fde2-3bd8" name="Vickers Machine-Gun Platoon" hidden="false" collective="false" import="true" targetId="e686-b9dd-c794-8213" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9382-06e5-7f5a-5d5a" name="4) Optional AT &amp; Artillery Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1d9b-203b-afdb-8545" name="* 120mm BAT Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="4005-6f6e-e795-0933" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ea82-cd24-bc39-0aa0" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="aee9-643b-4a28-2eba" name="3-inch Mortar Platoon" hidden="false" collective="false" import="true" targetId="dc7e-dcfd-bbf6-e9b8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ce66-9775-19a0-1be5" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="507a-4d56-3f60-706e" name="5) Optional Recon Patrols" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4881-d5b4-16b6-0fd2" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" targetId="c5a3-a78d-9ad6-4858" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5eba-28bb-34bd-5cc0" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0799-1c5a-1310-833c" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" targetId="c5a3-a78d-9ad6-4858" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="152c-4294-de2f-3a82" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d7d3-dd6d-5f76-bfca" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" targetId="c5a3-a78d-9ad6-4858" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7eae-c12e-1705-b604" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7330-a001-c285-8483" name="* [FS] Saracen Motor Platoon" hidden="false" collective="false" import="true" targetId="5dd2-7996-9561-7681" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="af7a-d0b1-363a-bae3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="74c6-c426-0d78-81c9" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3570-f3f8-00a7-3ea3" name="* [FS] Saracen Motor Platoon" hidden="false" collective="false" import="true" targetId="5dd2-7996-9561-7681" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="db75-9bc5-e723-8b87" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f97d-38c2-2676-529d" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1419-c5f8-de6d-e970" name="Centurion Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="6fc9-d775-271c-a6e4" name="Centurion Armoured Squadron HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9af2-4580-fdff-e711" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="09d0-7429-c5ea-692b" type="min"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="521c-084b-c919-7b56" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="69e4-e0eb-b77b-9fd2">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c57e-b8c5-a9fb-e650" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9033-6901-0f60-c200" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="69e4-e0eb-b77b-9fd2" name="1x Centurion 1 (17 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="1cb4-d329-c944-fbf7" name="Centurion 1 (17 pdr)" hidden="false" targetId="54d7-5328-7987-40e7" type="infoGroup"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="46b9-59b5-fb16-4fc1" name="2x Centurion 1 (17 pdr)" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="f6fa-e06c-f75b-000b" name="2x Centurion 1 (17 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="58c0-cb74-44ca-5f06" name="Centurion 1 (17 pdr)" hidden="false" targetId="54d7-5328-7987-40e7" type="infoGroup"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="ff90-fadf-52a4-6dba" name="1x Centurion 3 (20 pdr) [LB614]" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="91ea-b6aa-21fd-6c06" name="1x Centurion 3 (20 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="522d-b384-4b42-48c3" name="Centurion 3 (20 pdr)" hidden="false" targetId="3f76-7209-f020-66de" type="infoGroup"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="3625-01f2-0236-8c75" name="2x Centurion 3 (20 pdr) [LB614]" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="99bd-ba97-2dcd-dcf0" name="2x Centurion 3 (20 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="3fce-49b3-931f-60ef" name="Centurion 3 (20 pdr)" hidden="false" targetId="3f76-7209-f020-66de" type="infoGroup"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="1e9d-d23d-0643-53b5" name="1x Tortoise (32 pdr) [LB602]" hidden="false" collective="false" import="true" type="model">
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="80c5-0a07-4d54-d3d4" name="5) Optional Recon &amp; AA Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="3009-911b-75bf-a7fd" name="Chaffee Recce Patrol" hidden="false" collective="false" import="true" targetId="e49d-860c-4734-f554" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7365-dab8-5cd1-87ed" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b6b9-6496-995f-f526" name="Crusader AA Troop" hidden="false" collective="false" import="true" targetId="8b7f-9b88-f575-5079" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0572-1554-5f09-0575" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f9a7-ea11-2e09-f5ad" name="1) Armour Selection #1" hidden="false" collective="false" import="true" defaultSelectionEntryId="7888-9c4b-49b2-94c7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="35f6-451c-1c11-8b6b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6f6c-370b-7480-ef26" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7888-9c4b-49b2-94c7" name="* [FS] Centurion 1 Armoured Troop" hidden="false" collective="false" import="true" targetId="f173-12d5-1e28-a18a" type="selectionEntry"/>
+            <entryLink id="0904-01d9-2fce-c00c" name="* [FS] Centurion 3 Armoured Troop" hidden="false" collective="false" import="true" targetId="c347-a0eb-1d85-958f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c1e4-adc7-ca1a-d2ba" name="2) Armour Selection #2" hidden="false" collective="false" import="true" defaultSelectionEntryId="2309-4abf-6cd4-019a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="19ba-8465-e853-510e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="58d1-2af6-b0f2-8856" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2309-4abf-6cd4-019a" name="* [FS] Centurion 1 Armoured Troop" hidden="false" collective="false" import="true" targetId="f173-12d5-1e28-a18a" type="selectionEntry"/>
+            <entryLink id="cad9-647a-a150-ea69" name="* [FS] Centurion 3 Armoured Troop" hidden="false" collective="false" import="true" targetId="c347-a0eb-1d85-958f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8edf-e073-a81d-6758" name="3) Optional Armour Troop #1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ef27-9d50-74d1-f4bc" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d120-cf5a-ccae-0280" name="* [FS] Centurion 1 Armoured Troop" hidden="false" collective="false" import="true" targetId="f173-12d5-1e28-a18a" type="selectionEntry"/>
+            <entryLink id="e933-d9f8-dcdf-084c" name="* [FS] Centurion 3 Armoured Troop" hidden="false" collective="false" import="true" targetId="c347-a0eb-1d85-958f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4b89-6db2-a865-06d2" name="4) Optional Armour Troop #2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4922-d48e-a40c-04f0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ad7c-b04b-fb53-133f" name="* [FS] Centurion 1 Armoured Troop" hidden="false" collective="false" import="true" targetId="f173-12d5-1e28-a18a" type="selectionEntry"/>
+            <entryLink id="9c4b-02e8-1300-0488" name="* [FS] Centurion 3 Armoured Troop" hidden="false" collective="false" import="true" targetId="c347-a0eb-1d85-958f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="89d6-8619-aaf6-a21b" name="Charioteer Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="2c96-8250-6b5e-1a25" name="Charioteer Armoured Squadron HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b9fc-8775-62c0-0c1a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1d05-9cfc-8f9c-ed60" type="min"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7887-d72d-2266-af69" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e781-74a4-dba3-6a46">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="987f-a58d-f02c-d205" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="559c-21bf-1caa-6231" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="e781-74a4-dba3-6a46" name="1x Charioteer (20 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="879d-b19f-7d3d-b4cd" name="Charioteer" hidden="false" targetId="5552-1efc-1321-7947" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="53e8-88c8-f1e8-64d2" name="2x Charioteer (20 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="f038-44b8-04e7-06be" name="Charioteer" hidden="false" targetId="5552-1efc-1321-7947" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5845-2098-201b-73d7" name="1) Optional Charioteer Troops" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="f463-8809-2806-8682" name="* [FS] Charioteer Armoured Troop" hidden="false" collective="false" import="true" targetId="52c6-c41e-9788-4df7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e9bd-95f4-b3b7-42f1" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="4550-5bfc-dc62-4eee" name="* [FS] Charioteer Armoured Troop" hidden="false" collective="false" import="true" targetId="52c6-c41e-9788-4df7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1e5d-0918-5ede-6c5c" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5304-acf1-960d-4d06" name="2) Optional Recon &amp; AA Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="ce8a-097a-4b35-0e2b" name="Chaffee Recce Patrol" hidden="false" collective="false" import="true" targetId="e49d-860c-4734-f554" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e541-dad0-2261-f958" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ca22-0182-226e-4347" name="Crusader AA Troop" hidden="false" collective="false" import="true" targetId="8b7f-9b88-f575-5079" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7445-3a5a-b334-e05a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2a79-5bde-6e49-e5bd" name="* [FS] Charioteer Armoured Troop" hidden="false" collective="false" import="true" targetId="52c6-c41e-9788-4df7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0040-2267-609e-8df4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b493-4295-4a82-dc2d" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e767-054b-0968-0b50" name="* [FS] Charioteer Armoured Troop" hidden="false" collective="false" import="true" targetId="52c6-c41e-9788-4df7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8258-fa3a-7870-c0a7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7211-1ce0-a371-2e3c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b17a-3ee2-7169-f8ad" name="Tortoise Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="5f47-0261-c9a4-a035" name="Tortoise Armoured Squadron HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="755b-0656-d37c-99b4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dd81-60d8-6375-c713" type="min"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e690-aa1b-b937-f0f2" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="722b-39ff-d6b0-8801">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="be2f-8f98-0020-6115" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c87f-8cc1-ac92-76d0" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="722b-39ff-d6b0-8801" name="1x Tortoise (32 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="07b2-be94-4fa4-28b4" name="Tortoise (32 pdr)" hidden="false" targetId="b973-da9b-9872-e917" type="infoGroup"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="8603-2bbf-8ca9-04d7" name="2x Tortoise (32 pdr) [LB602]" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="c141-ac5a-4379-0b54" name="2x Tortoise (32 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="7922-7313-c1f9-60a1" name="Tortoise (32 pdr)" hidden="false" targetId="b973-da9b-9872-e917" type="infoGroup"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="30.0"/>
                   </costs>
@@ -180,55 +797,62 @@ Assault 5+</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d230-32da-3556-4916" name="1) Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="903b-bd15-6251-bcfd">
+        <selectionEntryGroup id="c5dd-d96c-be13-7fb5" name="1) Armour Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="92f5-ef71-4edf-1337">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="292b-80f-309c-f97c-min" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="292b-80f-309c-f97c-max" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dca0-19b1-0a1a-6954" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dc7a-7fbf-39a4-8dec" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="903b-bd15-6251-bcfd" name="Centurion 1 Armoured Troop [LB604]" hidden="false" collective="false" import="true" targetId="f173-12d5-1e28-a18a" type="selectionEntry"/>
-            <entryLink id="83c1-10ee-cf3f-9313" name="Centurion 3 Armoured Troop [LB614]" hidden="false" collective="false" import="true" targetId="c347-a0eb-1d85-958f" type="selectionEntry"/>
-            <entryLink id="d9e8-12cc-5f08-1a98" name="Tortoise Assault Troop [LB602]" hidden="false" collective="false" import="true" targetId="ce7e-c5d9-ac74-7717" type="selectionEntry"/>
+            <entryLink id="92f5-ef71-4edf-1337" name="* [FS] Tortoise Assault Troop" hidden="false" collective="false" import="true" targetId="ce7e-c5d9-ac74-7717" type="selectionEntry"/>
+            <entryLink id="69d8-28f4-dac5-0392" name="* [FS] Guards Churchill Armoured Troop" hidden="false" collective="false" import="true" targetId="31f2-6880-73e7-463b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a8cd-53c3-999c-d401" name="2) Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="1280-5097-c0a7-3cb5">
+        <selectionEntryGroup id="78a5-57f5-6e86-743c" name="3) Optional Armour Troop #1" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7b1f-e266-e76a-f8d7-min" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7b1f-e266-e76a-f8d7-max" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="06da-d81e-59d4-c54a" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="1280-5097-c0a7-3cb5" name="Centurion 1 Armoured Troop [LB604]" hidden="false" collective="false" import="true" targetId="f173-12d5-1e28-a18a" type="selectionEntry"/>
-            <entryLink id="4469-3c8-1ac7-25cf" name="Centurion 3 Armoured Troop [LB614]" hidden="false" collective="false" import="true" targetId="c347-a0eb-1d85-958f" type="selectionEntry"/>
-            <entryLink id="1f3d-cda-5379-f15d" name="Tortoise Assault Troop [LB602]" hidden="false" collective="false" import="true" targetId="ce7e-c5d9-ac74-7717" type="selectionEntry"/>
+            <entryLink id="e868-2b5c-d9ef-468a" name="* [FS] Tortoise Assault Troop" hidden="false" collective="false" import="true" targetId="ce7e-c5d9-ac74-7717" type="selectionEntry"/>
+            <entryLink id="fba7-fc02-0690-725d" name="* [FS] Guards Churchill Armoured Troop" hidden="false" collective="false" import="true" targetId="31f2-6880-73e7-463b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="623-4a0-69eb-bb02" name="3) Optional Armour" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="679a-88f3-8c54-1c1b" name="4) Optional Armour Troop #2" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="83a2-867c-2a7c-8a55" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="36b0-26e5-1a03-e3ed" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c36-8f4c-a05d-cbc9" name="[B]  Centurion 1 Armoured Troop [LB604]" hidden="false" collective="false" import="true" targetId="f173-12d5-1e28-a18a" type="selectionEntry"/>
-            <entryLink id="c616-468e-3ba2-a8a8" name="Centurion 3 Armoured Troop [LB614]" hidden="false" collective="false" import="true" targetId="c347-a0eb-1d85-958f" type="selectionEntry"/>
-            <entryLink id="1379-2f7-a532-4d75" name="Tortoise Assault Troop [LB602]" hidden="false" collective="false" import="true" targetId="ce7e-c5d9-ac74-7717" type="selectionEntry"/>
-            <entryLink id="99a4-611f-e80d-a68" name="Comet Armoured Troop [LB181]" hidden="false" collective="false" import="true" targetId="c52a-fd62-e5a3-6c12" type="selectionEntry"/>
+            <entryLink id="bf1c-a258-91ca-a34d" name="* [FS] Tortoise Assault Troop" hidden="false" collective="false" import="true" targetId="ce7e-c5d9-ac74-7717" type="selectionEntry"/>
+            <entryLink id="d984-fa9e-e544-44ef" name="* [FS] Guards Churchill Armoured Troop" hidden="false" collective="false" import="true" targetId="31f2-6880-73e7-463b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6fca-9d77-f9fd-f312" name="4) Optional Armour" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="72ef-7a9e-d84d-2e1e" name="2) Optional Tortoise Troop" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fe9b-8118-c834-5cca" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6cff-76c1-0b0c-88af" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b93f-5eba-dffa-3bf7" name="[B]  Centurion 1 Armoured Troop [LB604]" hidden="false" collective="false" import="true" targetId="f173-12d5-1e28-a18a" type="selectionEntry"/>
-            <entryLink id="fa72-1720-8061-a45f" name="Centurion 3 Armoured Troop [LB614]" hidden="false" collective="false" import="true" targetId="c347-a0eb-1d85-958f" type="selectionEntry"/>
-            <entryLink id="eaa0-c48b-cb9-7b9e" name="Tortoise Assault Troop [LB602]" hidden="false" collective="false" import="true" targetId="ce7e-c5d9-ac74-7717" type="selectionEntry"/>
-            <entryLink id="5e67-fef8-b00a-6681" name="Comet Armoured Troop [LB181]" hidden="false" collective="false" import="true" targetId="c52a-fd62-e5a3-6c12" type="selectionEntry"/>
+            <entryLink id="e276-7cb9-f178-2090" name="* [FS] Tortoise Assault Troop" hidden="false" collective="false" import="true" targetId="ce7e-c5d9-ac74-7717" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2e2e-d53d-e1d5-9b95" name="5) Optional Recon &amp; AA Units" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="140d-3d2c-48d8-9b1d" name="Chaffee Recce Patrol" hidden="false" collective="false" import="true" targetId="e49d-860c-4734-f554" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3db4-9142-bf27-cf3b" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="e736-5ab1-0ebb-765e" name="Crusader AA Troop" hidden="false" collective="false" import="true" targetId="8b7f-9b88-f575-5079" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6197-e821-da63-05b5" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a7da-7f9e-69aa-bed9" name="Crusader AA Troop [LB139]" hidden="false" collective="false" import="true" targetId="36b3-e3cf-fed4-b7d2" type="selectionEntry">
+        <entryLink id="dfb5-fe46-defe-8c79" name="* [FS] Tortoise Assault Troop" hidden="false" collective="false" import="true" targetId="ce7e-c5d9-ac74-7717" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="772c-ec81-466d-dc72" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="693f-25ef-13a7-0a55" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8d89-8eb5-9817-e709" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -236,49 +860,28 @@ Assault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f173-12d5-1e28-a18a" name="Centurion 1 Armoured Troop [LB604]" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="b3ad-640b-ec50-e7ed" name="Centurion 1 Armoured Troop" publicationId="9fff-fd82-e3c2-d110" page="13" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
-          <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Remount 3+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ / Assault 3+</characteristic>
-            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
-            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
-            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
-            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
-            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
-            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
-            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
-            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="378a-56f5-eb82-fae2" name="Centurion (17 pdr)" hidden="false" targetId="3b28-af5c-16a9-3e3f" type="profile"/>
-        <infoLink id="f628-b20c-bafb-176a" name="Centurion (20mm MG)" hidden="false" targetId="bc1f-4966-5f64-29fc" type="profile"/>
-      </infoLinks>
+    <selectionEntry id="f872-e739-be8d-7d82" name="Hornet Guided Weapon Anti-tank Troop" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="887-740d-d7f1-c253" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="ebfb-5ee7-38c6-ebb">
+        <selectionEntryGroup id="02b5-02dd-ecf3-c788" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="43ac-1abd-acf0-4453">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d17-5e7e-3949-1c0d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7774-e37d-f2a-ea05" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="be02-f221-fe4a-0f0f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fcc1-27dd-8051-778a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ebfb-5ee7-38c6-ebb" name="2x Centurion 1 (17 pdr)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="43ac-1abd-acf0-4453" name="2x Hornet (Malkara missile)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8d7b-69de-15bb-a696" name="Hornet" hidden="false" targetId="b500-8d41-77df-d8be" type="infoGroup"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="396b-c2b8-8098-1a77" name="3x Centurion 1 (17 pdr)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="5621-f10a-9cd9-1ce8" name="4x Hornet (Malkara missile)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="cd07-4b65-36b0-dacf" name="Hornet" hidden="false" targetId="b500-8d41-77df-d8be" type="infoGroup"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="29.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4ff7-d688-787a-f862" name="4x Centurion 1 (17 pdr)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="39.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -288,11 +891,476 @@ Assault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c347-a0eb-1d85-958f" name="Centurion 3 Armoured Troop [LB614]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fc68-0bd0-aaaa-b898" name="[Anti-tank] Light Support Troop" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3dcd-be18-65b4-91b5" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb91-99af-f4f6-07c2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2957-962c-2d0f-24ad" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9efe-2470-d310-b9b7" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bb91-99af-f4f6-07c2" name="[S] Hornet Guided Weapon Anti-tank Troop" hidden="false" collective="false" import="true" targetId="f872-e739-be8d-7d82" type="selectionEntry"/>
+            <entryLink id="52b2-e66c-27f1-5b70" name="M10 (late) SP Anti-Tank Troop" hidden="false" collective="false" import="true" targetId="33ad-b157-94b0-7048" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2964-7a99-6a37-e103" name="Cromwell OP Observation Post" page="" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="403f-27fb-7777-8e9b" name="1x Cromwell OP" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="ef32-5965-c94c-f693" name="Cromwell OP" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+              <characteristics>
+                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Last Stand 6
+Counterattack 5+
+Remount 3+</characteristic>
+                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+                <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+                <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
+                <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
+                <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+                <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">28&quot;/70cm</characteristic>
+                <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
+                <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+                <characteristic name="Notes" typeId="33d6-6375-9564-9985">Independent, Observer, Scout</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="06fb-e22d-ea00-5416" name="Cromwell (75mm)" publicationId="0071-7fad-4956-579d" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
+                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+                <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="dcee-89a5-c336-2656" name="Cromwell (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+                <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="07f2-387c-001c-a540" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
+            <infoLink id="90d2-4822-cd00-c5c2" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+            <infoLink id="8776-0026-e186-a75c" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
+            <infoLink id="e154-4a6b-18f7-69be" name="Independent" hidden="false" targetId="b650-398e-5817-50fb" type="rule"/>
+            <infoLink id="7f32-35f6-f9d0-1b25" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6fa4-0861-9cf0-bfe9" name="M10 (late) SP Anti-tank Troop" page="" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c02a-0615-16e1-b189" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="521e-1c17-e665-9b59">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d0-c535-3e16-3425" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8df6-d378-d6a4-6a17" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="521e-1c17-e665-9b59" name="2x M10 (late 17 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d264-1653-def9-24d3" name="M10 (Late)" hidden="false" targetId="8b86-65d4-ee1c-35a4" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2ba5-052d-caae-effe" name="4x M10 (late 17 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9b7a-f876-99e2-55ae" name="M10 (Late)" hidden="false" targetId="8b86-65d4-ee1c-35a4" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="31f2-6880-73e7-463b" name="Guards Churchill Armoured Troop" page="" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="fcc9-e410-181a-7183" name="CHURCHILL" hidden="false" targetId="e908-35f2-f65c-4c25" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d8e2-367a-11d0-7927" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="81d0-cf6f-8112-c665">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdad-1268-0b7f-9833" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9632-e3df-a807-8a65" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="81d0-cf6f-8112-c665" name="Churchill (75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7b8a-1706-69e9-a27c" name="Churchill" hidden="false" targetId="56b6-2b98-9a5e-2721" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cd68-7ccb-783c-e9fa" name="Churchill (late 75mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3411-e28b-3185-8a14" name="Churchill (late)" hidden="false" targetId="e2ec-fead-4df3-6816" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1f61-300a-fb4b-fd4d" name="Churchill (6 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13fc-98f2-f4d0-2464" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="24a1-5716-ccca-02a4" name="Churchill (6 pdr)" hidden="false" targetId="47e1-0696-4f17-cd6b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="52c6-c41e-9788-4df7" name="Charioteer Armoured Troop" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1fc5-079a-1793-c2af" name="CHARIOTEER" hidden="false" targetId="67bb-0607-e5b7-8200" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="61b5-e732-164e-3b86" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="3b5c-4da4-9f19-2f55">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a776-5035-6f8d-c8d6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0af6-b61e-5461-1568" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3b5c-4da4-9f19-2f55" name="3x Charioteer (20 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c593-b061-ddb8-0702" name="4x Charioteer (20 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5dd2-7996-9561-7681" name="Saracen Motor Platoon" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="fc68-0e06-ff41-1fe1" name="SARACEN" hidden="false" targetId="2c92-d8b9-00ec-92de" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="df96-a0f3-6366-8c54" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e699-4755-8d98-15d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="51cc-ea4b-910f-e1c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c600-ccb2-ccc6-01bf" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e699-4755-8d98-15d1" name="3x Bren Gun team, 1x PIAT AT team, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0e0c-164e-4e27-c938" name="Saracen Motor Platoon" hidden="false" targetId="6901-3c88-5ee1-188f" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="74c0-a586-4be7-9786" name="4x Bren Gun team, 1x PIAT AT team, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="73bf-9c6d-1377-5281" name="Saracen Motor Platoon" hidden="false" targetId="6901-3c88-5ee1-188f" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6189-220c-8cad-3d86" name="2) Optional Unit Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f9d7-1b5d-5c35-feb6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f8f2-6675-4a2c-8aa9" name="Saracen" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="4x Saracen">
+                  <conditions>
+                    <condition field="selections" scope="5dd2-7996-9561-7681" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="74c0-a586-4be7-9786" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="3x Saracen">
+                  <conditions>
+                    <condition field="selections" scope="5dd2-7996-9561-7681" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e699-4755-8d98-15d1" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="da2f-2239-3b36-cb46" name="Saracen Transport" hidden="false" targetId="97a5-82c2-6240-0cc9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="722f-854d-f1d5-25f8" name="M5 half-track" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="4x M5 half-track">
+                  <conditions>
+                    <condition field="selections" scope="5dd2-7996-9561-7681" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="74c0-a586-4be7-9786" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="3x M5 half-track">
+                  <conditions>
+                    <condition field="selections" scope="5dd2-7996-9561-7681" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e699-4755-8d98-15d1" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="6687-b668-e6c1-b2fc" name="M5 half-track Transport" hidden="false" targetId="d76c-6c53-985c-fb8f" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9174-3ab0-cfbf-8b55" name="[Observer] Support OP" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6ca2-2902-f9da-12a5" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="47e3-52d9-76f2-c8cd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="76ff-33e9-c374-b7dd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="343c-c795-12cb-809a" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1d5b-0fb6-bb13-c88d" name="Auster OP Observation Post" hidden="false" collective="false" import="true" targetId="e9c9-4fc5-cf4e-f438" type="selectionEntry"/>
+            <entryLink id="47e3-52d9-76f2-c8cd" name="Universal Carrier OP Observation Post" hidden="false" collective="false" import="true" targetId="6a45-6bc2-74ab-9400" type="selectionEntry"/>
+            <entryLink id="78d5-9ec5-a680-fb8a" name="Cromwell OP Observation Post" hidden="false" collective="false" import="true" targetId="2964-7a99-6a37-e103" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="96c4-deb1-a304-9226" name="[Artillery] Support Troop" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="db7f-2a0d-4381-6d44" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c35-5820-0c06-9b31">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7d1a-008c-1e12-51d8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c084-db76-a7e3-0a10" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="176f-0ce6-b050-e6b2" name="Sexton Field Troop" hidden="false" collective="false" import="true" targetId="bc86-73a0-2f17-6a52" type="selectionEntry"/>
+            <entryLink id="6c35-5820-0c06-9b31" name="25 pdr Field Troop" hidden="false" collective="false" import="true" targetId="e0ea-2e56-ca75-fa67" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4bcd-e6b5-6292-99ff" name="[Reconnaissance] Support Troop" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c6c2-c27d-4d8f-a7a0" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="9805-c68b-ae30-7461">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="92d1-18dd-30b8-e781" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="01ca-f811-0386-610d" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9805-c68b-ae30-7461" name="Daimler Armoured Car Troop" hidden="false" collective="false" import="true" targetId="4054-0dec-a800-10fd" type="selectionEntry"/>
+            <entryLink id="e9bc-48ed-b96c-c78c" name="Saladin Armoured Car Troop" hidden="false" collective="false" import="true" targetId="b16a-946c-98f2-fd66" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b16a-946c-98f2-fd66" name="Saladin Armoured Car Troop" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="418c-b26c-54f8-827e" name="3x Saladin (76mm)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9845-4b42-f0df-e4a4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a93b-f07c-862d-0668" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c2e0-f5ad-f359-d0e1" name="Saladin" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+              <characteristics>
+                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Counterattack 6
+Last Stand 5+</characteristic>
+                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+
+Assault 5+</characteristic>
+                <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+                <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
+                <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
+                <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+                <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+                <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+                <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
+                <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+                <characteristic name="Notes" typeId="33d6-6375-9564-9985">Scout, Spearhead</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="aebd-1c06-4ff4-6867" name="Saladin (76mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">11</characteristic>
+                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+                <characteristic name="Notes" typeId="d939-5084-e654-44c6">HEAT, Overworked, Smoke</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="aea9-c9a6-15e7-a7ce" name="Saladin (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+                <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+                <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+                <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+                <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+                <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f1d9-be5c-d0e8-0d19" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
+            <infoLink id="180d-a4ed-c413-2fd9" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
+            <infoLink id="d606-9dd0-1588-3204" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+            <infoLink id="84a0-4cd9-484f-63f4" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+            <infoLink id="f6df-104c-9304-f70f" name="Spearhead" hidden="false" targetId="70fc-43a3-1ed1-1b01" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93b0-680d-ea84-a9a0" name="[Anti-tank] Heavy Support Troop" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aff3-6bc1-468d-7dd9" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="b3d7-b8cd-b158-7bff">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3206-c9e7-188a-e53e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fe11-0494-f490-331d" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b3d7-b8cd-b158-7bff" name="120mm BAT Anti-tank Platoon" hidden="false" collective="false" import="true" targetId="4005-6f6e-e795-0933" type="selectionEntry"/>
+            <entryLink id="9633-2022-2426-198a" name="Archer Anti-tank Troop" hidden="false" collective="false" import="true" targetId="ba29-128e-4eb2-dcd7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4005-6f6e-e795-0933" name="120mm BAT Anti-tank Platoon" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ebb1-17be-eb47-78b2" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="0d7b-6207-c7c1-8f3a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e7a9-3490-f607-e818" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e986-b5e2-7935-e962" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0d7b-6207-c7c1-8f3a" name="2x 120mm BAT recoilless rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="42f3-4027-5b09-86bc" name="4x 120mm BAT recoilless rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedInfoGroups>
+    <infoGroup id="54d7-5328-7987-40e7" name="Centurion 1 (17 pdr)" hidden="true">
       <profiles>
-        <profile id="1fdd-6cf5-71fc-283b" name="Centurion 3 Armoured Troop" publicationId="9fff-fd82-e3c2-d110" page="14" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+        <profile id="ea6e-36c1-76ba-308e" name="Centurion 1" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Remount 3+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Remount 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
+Assault 3+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Tank Formation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="50db-e660-f42a-030f" name="Centurion 1 (17 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">15</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+        <profile id="cbea-56b8-d0ea-bd18" name="Centurion 1 (20mm MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="3f76-7209-f020-66de" name="Centurion 3 (20 pdr)" hidden="true">
+      <profiles>
+        <profile id="2869-9b8c-f760-a817" name="Centurion 3" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Remount 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
@@ -303,50 +1371,43 @@ Assault 5+</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
-            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Tank Formation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="afc9-4d2d-2390-e560" name="Centurion 3 (20 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">17</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Stabiliser</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d26b-f732-3a65-3be7" name="Centurion 3 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="65a7-9033-e4aa-9655" name="Stabiliser" hidden="false" targetId="f5b3-8716-1304-c9ed" type="rule"/>
-        <infoLink id="5a0d-f69e-164b-391c" name="Centurion 3 (20 pdr)" hidden="false" targetId="32ad-abec-d62b-7640" type="profile"/>
-        <infoLink id="5b42-bdc-1af6-ce7a" name="Centurion 3 (MG)" hidden="false" targetId="9031-ad0-bf30-2c1a" type="profile"/>
+        <infoLink id="7df2-a949-70de-329b" name="Stabiliser" hidden="false" targetId="a317-b641-a67c-82c7" type="rule"/>
       </infoLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="f82a-8467-609b-b47f" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="2f06-761d-b1ec-78ba">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b369-b323-d927-8db1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaa6-902b-b04f-7406" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="2f06-761d-b1ec-78ba" name="2x Centurion 3 (20 pdr)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4488-bd48-7ad3-9447" name="3x Centurion 3 (20 pdr)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="41c7-9811-cc5-bd55" name="4x Centurion 3 (20 pdr)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="44.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ce7e-c5d9-ac74-7717" name="Tortoise Assault Troop [LB602]" hidden="false" collective="false" import="true" type="unit">
+    </infoGroup>
+    <infoGroup id="b973-da9b-9872-e917" name="Tortoise (32 pdr)" hidden="true">
       <profiles>
-        <profile id="20c4-4bd6-571c-7ac6" name="Tortoise Assault Troop" publicationId="9fff-fd82-e3c2-d110" page="14" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+        <profile id="7dbc-63b3-61af-44ed" name="Tortoise" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Counterattack 5+ / Remount 3+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ / Assault 5+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Counterattack 5+
+Remount 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
+Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">21</characteristic>
             <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">11</characteristic>
@@ -356,44 +1417,60 @@ Assault 5+</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">12&quot;/30cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
-            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Tank Formation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c272-72f8-68ff-b6c8" name="Tortoise (32 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">18</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5bc9-a653-25ad-bd8e" name="Tortoise (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">5</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5b59-96e2-3a01-9905" name="Tortoise (32 pdr)" hidden="false" targetId="db7e-9708-2c66-8fab" type="profile"/>
-        <infoLink id="1748-b643-414e-c76c" name="Tortoise (MGs)" hidden="false" targetId="cd32-f184-a591-595" type="profile"/>
-        <infoLink id="d298-8ab0-ff0c-4135" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="ef34-a9e3-53fc-883c" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
       </infoLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="4b27-5070-a385-2f4b" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9b0c-4919-9554-1db6">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12b7-d4ac-c119-2bee" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98fb-7985-ffc2-314f" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="9b0c-4919-9554-1db6" name="2x Tortoise (32 pdr)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="30.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="92a9-1d96-4a54-c0af" name="3x Tortoise (32 pdr)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="45.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c52a-fd62-e5a3-6c12" name="Comet Armoured Troop [LB181]" hidden="false" collective="false" import="true" type="unit">
+    </infoGroup>
+    <infoGroup id="c8b1-2c9c-db79-ceed" name="Comet" hidden="false">
       <profiles>
-        <profile id="4d96-d34e-779d-3c6" name="Comet Armoured Troop" publicationId="9fff-fd82-e3c2-d110" page="15" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+        <profile id="151d-55b4-2d35-be31" name="Comet (77mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Remount 3+</characteristic>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0ced-1bd4-7849-feb6" name="Comet (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+        <profile id="2211-cf40-e2ff-a177" name="Comet" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Remount 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
@@ -409,177 +1486,264 @@ Assault 5+</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="24e2-d13c-f787-283c" name="Comet (77mm)" hidden="false" targetId="a792-d490-d2c3-3e22" type="profile"/>
-        <infoLink id="69d6-3044-353b-b817" name="Comet (MGs)" hidden="false" targetId="5648-86d1-8fcf-bca6" type="profile"/>
-        <infoLink id="ce37-dd88-8964-924" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
+        <infoLink id="aeab-a11a-2d60-8588" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
       </infoLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="f38c-3654-e944-7f4f" name="Unit Size:" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6ad-56ed-5cfc-7ce3">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcf9-6e4a-f6f0-ce91" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d773-f83d-6555-9a7d" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="c6ad-56ed-5cfc-7ce3" name="3x Comet (77mm)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9f1f-49ec-84a4-975c" name="4x Comet (77mm)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="36b3-e3cf-fed4-b7d2" name="Crusader AA Troop [LB139]" hidden="false" collective="false" import="true" type="unit">
+    </infoGroup>
+    <infoGroup id="8b86-65d4-ee1c-35a4" name="M10 (Late)" hidden="false">
       <profiles>
-        <profile id="4808-c15b-5044-28f1" name="Crusader AA Troop" publicationId="9fff-fd82-e3c2-d110" page="15" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+        <profile id="80ac-831b-6603-e7c2" name="M10" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Counterattack 6</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ / Assault 6</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Counter Attack 6</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
+Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
             <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
             <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
-            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
-            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
+        <profile id="e276-e087-f696-7220" name="M10 (50 .cal MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e569-4b75-156f-eaba" name="M10 (late 17 pdr)" publicationId="0071-7fad-4956-579d" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">15</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="af6a-3276-be0f-d3d7" name="Crusader AA (Twin 20mm)" hidden="false" targetId="82cd-8a08-21ff-7b43" type="profile"/>
-        <infoLink id="63dd-b335-6cfc-e38e" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
+        <infoLink id="65f9-d32b-e048-5c83" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="3f7e-781f-8dbd-9162" name="No HE" hidden="false" targetId="b000-d0f1-08fd-0d43" type="rule"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="57a8-f577-7c29-b588" name="2x Crusader AA (Twin 20mm)" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8387-2907-562e-f80a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e938-d2d9-c648-65f4" type="min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-  </sharedSelectionEntries>
-  <sharedRules>
-    <rule id="f5b3-8716-1304-c9ed" name="Stabiliser" publicationId="9fff-fd82-e3c2-d110" page="12" hidden="false">
-      <description>Weapons with Stabiliser suffer a +1 penalty To Hit if the Tank Moved in the Movement Step.</description>
-    </rule>
-    <rule id="1f50-54f0-2f7e-827c" name="Accurate" publicationId="9fff-fd82-e3c2-d110" page="17" hidden="false">
-      <description>Accurate weapons do not suffer the usual +1 to hit penalty if the targeted Team is more than 16”/40cm away and the Shooting Team did not Move.</description>
-    </rule>
-    <rule id="2453-4917-3944-a996" name="Infra-Red (IR)" publicationId="9fff-fd82-e3c2-d110" page="17" hidden="false">
-      <description>A Unit with Infra-Red rolls two dice on the Night Visibility Table and chooses the highest score.</description>
-    </rule>
-    <rule id="36c-590e-f552-8efe" name="Stormtroopers" publicationId="10a4-8008-66c3-952e" page="3" hidden="false">
-      <description>A unit may attempt a second Movement Order after succeeding in its first Movement Order. The second Movement Order must be different from the first.</description>
-    </rule>
-  </sharedRules>
-  <sharedProfiles>
-    <profile id="3b28-af5c-16a9-3e3f" name="Centurion 1 (17 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">15</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="bc1f-4966-5f64-29fc" name="Centurion 1 (20mm MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="32ad-abec-d62b-7640" name="Centurion 3 (20 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">17</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Stabiliser</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9031-ad0-bf30-2c1a" name="Centurion 3 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="db7e-9708-2c66-8fab" name="Tortoise (32 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">18</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="cd32-f184-a591-595" name="Tortoise (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">5</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="a792-d490-d2c3-3e22" name="Comet (77mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5648-86d1-8fcf-bca6" name="Comet (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="82cd-8a08-21ff-7b43" name="Crusader AA (Twin 20mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
+    </infoGroup>
+    <infoGroup id="97a5-82c2-6240-0cc9" name="Saracen Transport" hidden="false">
+      <profiles>
+        <profile id="dae1-7ea3-800a-1903" name="Saracen Transport" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+
+Counterattack 6</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
+Assault 6</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Passengers 2, Unit Transport</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2226-7801-82a1-2c7c" name="Saracen (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a12f-64e8-9301-703b" name="Passengers #" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+        <infoLink id="97ab-84c1-f806-1a68" name="Unit Transport" hidden="false" targetId="5876-534c-9b8d-a44b" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="b500-8d41-77df-d8be" name="Hornet" hidden="false">
+      <profiles>
+        <profile id="fa21-bbd5-7f42-0938" name="Hornet" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+        <profile id="29e3-86f6-0f4e-415b" name="Hornet (Malkara missile)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm - 48&quot;/120cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">-</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">18</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Back-blast, Brutal, Forward Firing, Guided, HEAT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="84d7-4302-ded7-5bba" name="Back-blast" hidden="false" targetId="9f03-7bf9-793b-fc9d" type="rule"/>
+        <infoLink id="6796-72c4-95bd-5f28" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="2030-7c23-e9e4-4365" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="5177-fc19-04a7-d8c1" name="Guided" hidden="false" targetId="b76a-3cff-52e6-bbee" type="rule"/>
+        <infoLink id="63a0-c5ee-aa8d-09dc" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="5552-1efc-1321-7947" name="Charioteer" hidden="false">
+      <profiles>
+        <profile id="d31c-efe6-8928-a02d" name="Charioteer" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Remount 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+        <profile id="b139-c4f2-9713-ed39" name="Charioteer (20 pdr)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">17</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overworked</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5535-fcda-58c0-cee6" name="Charioteer (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cafd-b78d-b246-f328" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="2061-1384-3e6f-daa2" name="120mm BAT" hidden="false">
+      <profiles>
+        <profile id="e55a-c0cb-1888-3c89" name="120mm BAT recoilless rifle" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">18</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Accurate, Back-blast, Brutal, Forward Firing, HEAT, Slow Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="78fd-5089-d9a8-716e" name="120mm BAT Anti-tank Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+
+Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+            <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+            <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+            <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+            <characteristic name="Notes" typeId="28aa-390d-006a-1776">Gun Shield</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8bb7-2e57-3390-e8b7" name="Accurate" hidden="false" targetId="472c-543b-a3d3-c0b4" type="rule"/>
+        <infoLink id="5ae6-d563-4da9-5716" name="Back-blast" hidden="false" targetId="9f03-7bf9-793b-fc9d" type="rule"/>
+        <infoLink id="07b0-72dc-60df-7910" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="a3d0-3ec8-e2db-7604" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="7e98-d6bf-51ea-70ee" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="dc55-a080-ad78-9382" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
+        <infoLink id="5816-6db5-e929-3f4d" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="6901-3c88-5ee1-188f" name="Saracen Motor Platoon" hidden="false">
+      <profiles>
+        <profile id="4a84-593a-f258-8c34" name="Saracen Motor Platoon" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+
+Counterattack 3+</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+
+Assault 3+</characteristic>
+            <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+            <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+            <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+            <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dc46-61f2-6815-ce92" name="Bren Gun team" hidden="false" targetId="7e13-3fa6-5d62-7502" type="profile"/>
+        <infoLink id="53e2-9969-b7c7-4a62" name="PIAT" hidden="false" targetId="e741-985f-42d2-b4de" type="profile"/>
+        <infoLink id="21b5-0967-5901-5ca4" name="2-inch mortar" hidden="false" targetId="c509-146e-9908-d0fe" type="profile"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="d76c-6c53-985c-fb8f" name="M5 half-track Transport" hidden="false">
+      <profiles>
+        <profile id="7e63-9da4-2a25-a42e" name="M5 half-track" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+
+Counterattack 6</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
+Assault 6</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Passengers 3, Unit Transport</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dfc9-9df4-1c9e-d61c" name="Passengers #" hidden="false" targetId="1dcd-ee7f-6116-8df5" type="rule"/>
+        <infoLink id="c83c-aa9a-069f-7f56" name="Unit Transport" hidden="false" targetId="5876-534c-9b8d-a44b" type="rule"/>
+        <infoLink id="6762-cd43-c109-cd9d" name="Tractor" hidden="false" targetId="1add-f696-3ad3-0243" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+  </sharedInfoGroups>
+  <catalogueLinks>
+    <catalogueLink id="d947-a77b-73de-d873" name="Late-War - Bulge: British" targetId="46c6-85fe-74b1-31a1" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
 </catalogue>
