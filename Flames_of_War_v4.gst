@@ -344,12 +344,12 @@ updated info in v20 by mdcooledge</comment>
     <rule id="dc00-41ba-b4dd-f068" name="Assault 4+" hidden="false">
       <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
     </rule>
-    <rule id="1dcd-ee7f-6116-8df5" name="Passengers 3" hidden="false">
-      <description>Team can carry three Infantry Teams as Passangers</description>
+    <rule id="1dcd-ee7f-6116-8df5" name="Passengers #" hidden="false">
+      <comment>These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy</comment>
+      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.</description>
     </rule>
     <rule id="956c-27fc-6880-7738" name="Transport Attachment" hidden="false">
-      <description>Attachment are additional Teams associated with a Unit.
-Infantry and Gun Units containing Transport Teams as a Tank Attachment (ore vice versa) are split into two Units, an Infantry or Gun Unit and an Transport Unit (each with their Unit Leader). Both parts of the Unit operate independently as seperate Units, supporting each other, altough they deploy as a single Unit.</description>
+      <description>Infantry and Gun Units containing Transport Teams as a Tank Attachment (or vice versa) are split into two Units; an Infantry or Gun Unit and a Transport Unit (each with their Unit Leader). Both parts of the Unit operate independently as seperate Units, supporting each other, although they deploy as a single Unit.</description>
     </rule>
     <rule id="139e-9d64-28a3-a3dd" name="Gun" hidden="false">
       <description>Gun Teams has a worse Assault rating.</description>
@@ -363,11 +363,13 @@ Infantry and Gun Units containing Transport Teams as a Tank Attachment (ore vice
     <rule id="8f5c-f2be-1174-4b0e" name="Secondary Weapon" hidden="false">
       <description>Weapons with this rule my fire at the same or a different target at the same time as another weapon at ROT 1 and +1 To Hit.</description>
     </rule>
-    <rule id="23e1-f5f2-1523-0d4c" name="Passengers 2" hidden="false">
-      <description>Team can carry two Infantry Teams as Passangers</description>
+    <rule id="23e1-f5f2-1523-0d4c" name="Passengers #" hidden="false">
+      <comment>These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy</comment>
+      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.</description>
     </rule>
-    <rule id="cd0d-0113-cc7e-c00d" name="Passengers 1" hidden="false">
-      <description>Team can carry one Infantry Team as Passangers</description>
+    <rule id="cd0d-0113-cc7e-c00d" name="Passengers #" hidden="false">
+      <comment>These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy</comment>
+      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.</description>
     </rule>
     <rule id="31e3-3b2b-d53c-cd03" name="Assault 6+" hidden="false">
       <description>Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.</description>
@@ -393,8 +395,9 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
       <description>Infantry, Gun, and Unarmoured Tank Teams re-roll successful Saves when hit by a Flame-thrower and the Unit is automatically Pinned Down. Armoured Tank Teams use their Top armour for Armour Saves when hit by a Flame-thrower.
 Flame-throwers may shoot in Defensive Fire. However, while a Unit that is Hit by a Flame-thrower is Pinned Down, this does not automatically stop the assault. The defender still needs to score five (or eight) hits as normal to stop the assault as normal.</description>
     </rule>
-    <rule id="cf99-c640-bffb-48e2" name="Passengers 6" hidden="false">
-      <description>Team can carry six Infantry Teams as Passangers</description>
+    <rule id="cf99-c640-bffb-48e2" name="Passengers #" hidden="false">
+      <comment>These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy</comment>
+      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.</description>
     </rule>
     <rule id="ae17-5a95-a5f5-63b5" name="Amphibious" hidden="false">
       <description>This vehicle treats impassable water as Difficult Terrain</description>
@@ -403,7 +406,7 @@ Flame-throwers may shoot in Defensive Fire. However, while a Unit that is Hit by
       <description>If transport destroyed, passengers ddestroyed.  the rest are sent to the rear and passengers must dismount.</description>
     </rule>
     <rule id="a5c7-5baa-4aad-ed13" name="Unarmoured" hidden="false">
-      <description>Team cannot charge into contact and must break off if assaulted</description>
+      <description>Team cannot Charge into Contact and must Break Off if Assaulted.</description>
     </rule>
     <rule id="a1e7-43cb-e04a-f7a6" name="Unarmoured Tank" hidden="false"/>
     <rule id="d8b4-96eb-5fd0-2163" name="One-man Turret" page="https://fow.fandom.com/wiki/Special_Rules#One-man_Turret" hidden="false">
@@ -436,6 +439,84 @@ A One-man Turret main weapon adds +1 to the score needed To Hit when moving.</de
     </rule>
     <rule id="243b-2c1e-a3f8-7ee5" name="Mountaineers" hidden="false">
       <description>Teams frim a Unit with Mountaineers that start their Movement Step adjacent to a cliff or mountain side (or another similar Impassable terrain feature) roll a Skill Test. If successful, the Team may move using Terrain Dash across the terrain.</description>
+    </rule>
+    <rule id="472c-543b-a3d3-c0b4" name="Accurate" page="" hidden="false">
+      <description>Accurate weapons do not suffer the usual +1 to hit penalty if the targeted Team is more than 16”/40cm away and the Shooting Team did not Move.</description>
+    </rule>
+    <rule id="b21c-48d2-e006-35ff" name="Air Observation Post" hidden="false">
+      <description>An Air Observation Post is an Aircraft that arrives on a roll of 3+ (rather than the usual 4+)
+
+An Air Observation Post is unarmed, but can act as an Observer, Spotting for an Artillery Bombardment with an Aiming Point within 12&quot;/30cm of tha Aircraft. The opposing player may shoot at the Aircraft immediately before it rolls to Range In as though the aircraft was Shooting.</description>
+    </rule>
+    <rule id="9f03-7bf9-793b-fc9d" name="Back-blast" hidden="false">
+      <description>A Team firing a Back-blast weapon cannot be Concealed if it shot in its previous Shooting Step.</description>
+    </rule>
+    <rule id="f664-721e-ee70-808d" name="Component" hidden="false">
+      <description>Component Teams rule use the same rating of their parent Unit.</description>
+    </rule>
+    <rule id="afef-4d4a-f82d-6656" name="Infra-Red (IR)" page="" hidden="false">
+      <description>A Unit with Infra-Red rolls two dice on the Night Visibility Table and chooses the highest score.</description>
+    </rule>
+    <rule id="3066-0137-b9fb-6447" name="MG Transport" hidden="false">
+      <description>M1917 HMG or M1919 LMG teams my fire while Monunted as a Passenger in an M3 half-track, using the Optional Passenger MG weapon line.</description>
+    </rule>
+    <rule id="fdde-4a19-0251-7c59" name="Seek, Strike, and Destroy" hidden="false">
+      <description>A Unit with Seek, Strike, and Destroy my attempt a Shoot and Scoot Movement Order after succeeding with a Blitz Move Movment Order earlier in the same turn.</description>
+    </rule>
+    <rule id="e670-9f57-beb0-a08f" name="Smooth RIde" hidden="false">
+      <description>M4 Easy Eight Tank teams do not suffer the +1 penalty To Hit for Stabiliser if they Move less than 4&quot;/10cm in the Movement Step.</description>
+    </rule>
+    <rule id="a317-b641-a67c-82c7" name="Stabiliser" page="" hidden="false">
+      <description>Weapons with Stabiliser suffer a +1 penalty To Hit if the Tank Moved in the Movement Step.</description>
+    </rule>
+    <rule id="a5b6-3e7e-68f6-d887" name="Time on Target" hidden="false">
+      <description>If an Artillery Unit with Time on Targer ranges in on the first attempt, any Infantry or Gun Teams hit by the Bombardment must re-roll successful Saves.</description>
+    </rule>
+    <rule id="924d-5265-8fe9-e41a" name="Mounted Assault" hidden="false">
+      <description>This Unit has better Assault &amp; Counterattack ratings with Passengers (present in columns)</description>
+    </rule>
+    <rule id="5876-534c-9b8d-a44b" name="Unit Transport" hidden="false">
+      <description>The Unit Leader of the Transport Attachment must end the Movement Step within 6&quot;/15cm of the Unit Leader of its Passenger Unit while on table. If it cannot do this, then the Transport Attachment must be Sent to the Rear.</description>
+    </rule>
+    <rule id="b76a-3cff-52e6-bbee" name="Guided" hidden="false">
+      <description>Guided weapons do not suffer the usual +1 penalty TO Hit if the targeted Team is more than 16&quot;/40cm away. Guided weapons cannot hit Infantry Teams unless the Infantry are stationary and in Bulletproof Cover.</description>
+    </rule>
+    <rule id="6cd4-be97-b8cd-5f9c" name="Stormtroopers" publicationId="453d-401b-fd1e-0f95" page="87" hidden="false">
+      <description>The Unit may attempt a second Movement Order after succeeding in its first Movement Order. The second Movement Order must be different from the first.</description>
+    </rule>
+    <rule id="6917-e995-c71f-63e2" name="Old Hand" publicationId="3bbf-3707-35dd-b1f5" page="3" hidden="false">
+      <description>An Old Hand Formation Commander gives Units from their Formation whose Unit Leader is within 6&quot;/15cm of the Formation Commander a Tactics raiting of 3+.</description>
+    </rule>
+    <rule id="2b71-0d7c-e187-b5bb" name="IR Searchlight" hidden="false">
+      <description>A Unit with an Infra-Red Searchlight may, instead of Shooting, Illuminate a target in Line of Sight within 32&quot;/80cm. To do this the unit with the Infra-Red Searchlight does not need to roll for Night Visibility and can automatically see out to 32&quot;/80cm. All Units with the Infra-Red special rule may Shoot at that target without rolling for Night Visibility. Hits may be allocated to Teams from the same Unit within 6&quot;/15cm of the target Team.</description>
+    </rule>
+    <rule id="2920-556d-a61e-0401" name="Night Fighters" hidden="false">
+      <description>If a Force with Night Fighters is the Attacker in a mission without the Meeting Engagement rule, the player may attack at night. If they do so, Night Fighting Dawn rules are in effect at the start of the game.
+
+Units from Formations with Night Fighters can move freely from the start of the game. Other Units from other Formations or Support in the Force, unless equipped with Infra-Red, may not move out of their Deployment Area while the game is played in Darkness, but can move when Dawn breaks.</description>
+    </rule>
+    <rule id="ad1e-21b7-462c-6763" name="Uhu" hidden="false">
+      <description>An Sd Kfz 251/Uhu Tank Team is sent to the rear at the beginning of their Movement Step in which the game is fought in Daylight. An Uhu removed n this fashion does not count as Destroyed, and if Bailed Out, automatically Remounts.
+
+An Uhu Tank Team is brought forward at the beginning of their first Movement Step in which the game is fought at Night. Before moving an Infra-Red equipped Unit, you may place its Uhu on the table.
+
+The Uhu must be placed with 4&quot;/10cm of a Team from the Unit, and may not be:
+* within 16&quot;/40cm of any enemy Team within Line of Sight, unless Concealed by Terrain from it, or
+* within 4&quot;/10cm of any enemy Team.
+
+Once Brought Forward in this way, the Uhu must move at Dash Speed (and therefore cannot Shoot or Assault this turn), but may Illuminate a target with its Infra-Red Searchlights.</description>
+    </rule>
+    <rule id="8632-8046-32a9-3942" name="Bazooka Skirts" hidden="false">
+      <description>A Tank Team with Bazooka Skirts increases its Side armour to 5 against weapons with Firepower 5+ or 6.</description>
+    </rule>
+    <rule id="b72e-e78a-9911-ad22" name="Nest" hidden="false">
+      <description>A Nest is always Concealed and in Bulletproof Cover. Teams Shooting a Nest must re-roll successful Firepower tests to Destroy it.
+Nests cannot be Assaulted by Tanks nor can they Charge into Contact.
+Each Nest is a separate Unit, even when taken as part of the same selection.</description>
+    </rule>
+    <rule id="9f2d-0bb9-b3ae-bb70" name="Passengers #" hidden="false">
+      <comment>These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy</comment>
+      <description>A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.</description>
     </rule>
   </sharedRules>
 </gameSystem>

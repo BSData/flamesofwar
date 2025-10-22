@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7be9-8156-3e97-6eb2" name="Late-War Leviathans - Soviet" revision="1" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="Discord; zharrpostingghoroth" authorUrl="https://github.com/BSData/flamesofwar" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Work begins 9/22/2025
+V1 finished 10/21/25</readme>
+  <categoryEntries>
+    <categoryEntry id="db57-faf4-996e-54fb" name="ARTILLERY" hidden="true"/>
+    <categoryEntry id="994d-42a2-cbaa-481b" name="BTR" hidden="true"/>
+    <categoryEntry id="2dec-0b16-2323-f6d4" name="ISU-130" hidden="true"/>
+    <categoryEntry id="35c2-c78e-38fa-b1c5" name="ISU-7" hidden="true"/>
+    <categoryEntry id="fb47-5b8d-bf1b-a797" name="T-10" hidden="true"/>
+    <categoryEntry id="2e26-9121-91f8-3006" name="T-44" hidden="true"/>
+    <categoryEntry id="6d5b-5af8-d42e-fda4" name="T-54-1" hidden="true"/>
+    <categoryEntry id="bef1-e5be-2ac4-f60a" name="IS-3" hidden="true"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="d3f8-a877-9988-e283" name="[Anti-tank] SU-100 Tank-Killer Battery" hidden="false" collective="false" import="true" targetId="1cf0-9e02-1422-b51f" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aef6-7ec8-95a0-0ca4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3417-36f1-4be2-d49c" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2aee-75de-a512-4add" name="76mm Artillery Battery [LS148]" hidden="false" collective="false" import="true" targetId="3b75-2dd3-3d98-fcc0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fa05-956c-2c57-64fd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="92bf-5896-585b-ffbd" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+        <categoryLink id="aee0-f377-b347-77d7" name="ARTILLERY" hidden="false" targetId="db57-faf4-996e-54fb" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8eaa-77a8-4045-cfef" name="[Observer] BA-64 Observation Post" hidden="true" collective="false" import="true" targetId="d535-3a2c-d25a-d2ba" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="db57-faf4-996e-54fb" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ec5e-c065-417c-24a6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4a26-6659-7c2b-2cff" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6db5-4c9f-c52d-a70f" name="Katyusha Guards Rocket Battery [LS147]" hidden="false" collective="false" import="true" targetId="fc2d-20a2-dbb5-5f39" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7b11-c396-ee6e-e24b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b9e0-dca0-522f-51dc" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+        <categoryLink id="cf94-3854-9776-0c67" name="ARTILLERY" hidden="false" targetId="db57-faf4-996e-54fb" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6db9-bf43-2ae5-9886" name="BA-64 Armoured Car Platoon [LS184]" hidden="false" collective="false" import="true" targetId="d5b5-c25f-5477-6f82" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0f87-3d34-6648-58d1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a445-5945-6977-d6c3" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="43f1-1f15-2380-dd74" name="[Anti-aircraft] ZSU M17 Anti-aircraft Platoon" hidden="false" collective="false" import="true" targetId="c154-4e8c-05bd-15ea" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6bb1-49e9-f5f0-77ae" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fb0f-07a1-6e0e-08c9" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cee4-0c79-afa0-af41" name="[Aircraft] IL-2 Shturmovik (37mm) Assault Company" hidden="false" collective="false" import="true" targetId="049c-8637-c28c-faba" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a0f1-0c70-59ca-a665" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0188-1b1f-c9bb-7d23" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b89a-660f-88fc-ff60" name="[Anti-tank] Tank-killer Company" hidden="false" collective="false" import="true" targetId="4959-3ce5-a7f0-5cce" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="12c9-f94f-d89a-45a4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4627-6088-9e44-55e9" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5c19-7338-25b2-ef97" name="[Anti-tank] Tank-killer Company" hidden="false" collective="false" import="true" targetId="4959-3ce5-a7f0-5cce" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4b49-0107-12f5-5707" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="016b-0f1b-3ead-188e" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7ec4-4c82-98a6-f1da" name="Heavy SP Artillery Regiment" hidden="false" collective="false" import="true" targetId="82a0-0592-8368-8933" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e125-10a7-b00c-a434" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5570-dff5-f5b8-176e" name="Hero BTR Motor Rifle Battalion" hidden="false" collective="false" import="true" targetId="bb7a-8a76-354f-8800" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d793-243b-59d0-f984" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f8e6-b30f-5d50-994a" name="IS-3 Guards Heavy Tank Regiment" hidden="false" collective="false" import="true" targetId="0f5b-4d59-859a-bff3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f49d-2305-bf1f-d992" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ee06-1ba7-d09e-bdf8" name="IS-7 Guards Heavy Tank Regiment" hidden="false" collective="false" import="true" targetId="b3f4-d530-e600-f0f0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2c27-2ca4-da47-ac56" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="45fe-dd9d-f3eb-15c2" name="T-10 Tank Heavy Tank Regiment" hidden="false" collective="false" import="true" targetId="c955-2b0f-55de-972e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bbf8-eb73-777e-3092" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="111f-0c0e-36ad-2ef7" name="T-44 Tank Battalion" hidden="false" collective="false" import="true" targetId="946f-954b-ab51-66cc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b06a-fc78-63d8-db22" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="93ad-1959-8ba4-6f51" name="T-54-1 Tank Battalion" hidden="false" collective="false" import="true" targetId="c87e-d63b-c450-e2f0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f947-bd4f-7eba-9540" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6ed6-2dcc-e83a-b22b" name="* [FS] Hero BTR Motor Rifle Company" hidden="false" collective="false" import="true" targetId="4435-58f9-0b64-f430" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="994d-42a2-cbaa-481b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" field="category" value="994d-42a2-cbaa-481b"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="415a-27f1-b6d5-5e1b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4b41-3727-afac-cf75" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4c74-8354-bb9d-ffca" name="* [FS] IS-7 Guards Heavy Tank Company " hidden="false" collective="false" import="true" targetId="30b4-c3d8-6b31-6c62" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="35c2-c78e-38fa-b1c5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" field="category" value="35c2-c78e-38fa-b1c5"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a1fa-1daf-603c-0422" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="15db-854c-83a1-fba3" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f032-a325-39f7-5c15" name="* [FS] ISU-130 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="fd3c-c2ec-2d7c-4b8c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2dec-0b16-2323-f6d4" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" field="category" value="2dec-0b16-2323-f6d4"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ce03-4e83-366e-37b3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8ac5-32c1-b144-04fe" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2841-e532-8320-e556" name="* [FS] T-10 Heavy Tank Company" hidden="false" collective="false" import="true" targetId="86a0-bd07-5e08-685e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fb47-5b8d-bf1b-a797" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" field="category" value="fb47-5b8d-bf1b-a797"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2977-be2e-4538-1069" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9da0-09ee-96fc-cf0a" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2dcb-a1ad-d137-c2a5" name="* [FS] T-44 Tank Company" hidden="false" collective="false" import="true" targetId="93d7-8e7d-d5f7-6c98" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2e26-9121-91f8-3006" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" field="category" value="2e26-9121-91f8-3006"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0bf6-21fb-7df7-bc39" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4988-122e-ec5d-10ff" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="35ea-47d0-3538-be13" name="* [FS] T-54-1 Tank Company" hidden="false" collective="false" import="true" targetId="48c3-cdca-5dd-5bf1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d5b-5af8-d42e-fda4" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" field="category" value="6d5b-5af8-d42e-fda4"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c4c7-6125-9375-33a9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="767e-7218-caec-4873" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6bd5-73b6-e7ce-9071" name="IS-3 Guards Heavy Tank Company " hidden="false" collective="false" import="true" targetId="2f80-b7d5-eb8d-a560" type="selectionEntry">
+      <modifiers>
+        <modifier type="remove" field="category" value="bef1-e5be-2ac4-f60a"/>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bef1-e5be-2ac4-f60a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3c8d-992a-e67a-7993" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ed1c-dea9-b3cb-05bb" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="15ab-0293-a86d-03ef" name="ISU-122 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="934b-f063-4284-961b" type="selectionEntry">
+      <modifiers>
+        <modifier type="remove" field="category" value="fd0a-42d3-fb8a-afeb"/>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd0a-42d3-fb8a-afeb" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1d8f-0967-f915-5ce1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1e1a-a8f0-2c42-bd6a" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d3ec-5a47-6dcb-5cfb" name="ISU-152 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="8542-e97d-1fff-c298" type="selectionEntry">
+      <modifiers>
+        <modifier type="remove" field="category" value="e303-c883-af67-7940"/>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e303-c883-af67-7940" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3d1c-2bca-fb06-412e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="685c-2661-fe9b-dd5d" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fb32-a2c5-2c5e-a505" name="T-34 (85mm) Tank Company" hidden="false" collective="false" import="true" targetId="809b-0268-ffb0-de1d" type="selectionEntry">
+      <modifiers>
+        <modifier type="remove" field="category" value="1f06-98a2-acdf-e48b"/>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1f06-98a2-acdf-e48b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="41f6-8888-45a1-dea5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cf13-6c91-8fc8-ab99" name="Formation Support" hidden="false" targetId="b531-2fd7-ec0e-d214" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="2f80-b7d5-eb8d-a560" name="IS-3 Guards Heavy Tank Company " hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5448-8594-e768-fba9" name="ISU-3" hidden="false" targetId="bef1-e5be-2ac4-f60a" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1ea-a7eb-9ed1-f64a" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="14e8-ef67-e210-a75b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb88-abb3-ef6f-9570-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb88-abb3-ef6f-9570-max" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="221e-9710-e27a-ec15" name="4x IS-3 (122mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="1ffd-69bb-2034-595a" name="IS-3" hidden="false" targetId="24d0-2773-8910-7533" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="34.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="56da-a0b3-48d1-f2d1" name="3x IS-3 (122mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="5568-fa97-1c19-63ab" name="IS-3" hidden="false" targetId="24d0-2773-8910-7533" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="26.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="74e7-890d-4e3d-fa35" name="5x IS-3 (122mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="e401-0cf2-484b-949e" name="IS-3" hidden="false" targetId="24d0-2773-8910-7533" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="43.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="14e8-ef67-e210-a75b" name="2x IS-3 (122mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="be14-bf8f-c3fe-2fc8" name="IS-3" hidden="false" targetId="24d0-2773-8910-7533" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93d7-8e7d-d5f7-6c98" name="T-44 Tank Company" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="bdd1-570d-4452-7481" name="T-44" hidden="false" targetId="2e26-9121-91f8-3006" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5d6c-679d-1692-d986" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc07-3cbb-2e16-7f7b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1394-b7f6-b8b0-e4d8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b704-1cc6-8294-48e5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fd00-842a-1a71-a916" name="10x T-44 (85mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="5be0-a8da-9345-6184" name="T-44" hidden="false" targetId="f8b8-8b42-caaa-5e8c" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="72.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dc07-3cbb-2e16-7f7b" name="3x T-44 (85mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="b264-051b-a700-2f5e" name="T-44" hidden="false" targetId="f8b8-8b42-caaa-5e8c" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7d6d-f07a-67ec-3ae3" name="4x T-44 (85mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="c4ac-bc70-e7d3-ad88" name="T-44" hidden="false" targetId="f8b8-8b42-caaa-5e8c" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8633-5a7b-8425-2110" name="5x T-44 (85mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="155a-15b7-f21f-3ed5" name="T-44" hidden="false" targetId="f8b8-8b42-caaa-5e8c" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="725d-e3be-8266-df51" name="6x T-44 (85mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="f9b2-584c-3628-31f6" name="T-44" hidden="false" targetId="f8b8-8b42-caaa-5e8c" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="53ea-13ec-c38e-73bc" name="7x T-44 (85mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="1e36-8c7a-a499-2fd0" name="T-44" hidden="false" targetId="f8b8-8b42-caaa-5e8c" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="42.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="005b-f05f-c0ed-92fb" name="8x T-44 (85mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="296e-fe08-1dd2-8469" name="T-44" hidden="false" targetId="f8b8-8b42-caaa-5e8c" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="49.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="48c4-b5b1-c0fa-85c2" name="9x T-44 (85mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="8f7e-2f48-efc5-9c92" name="T-44" hidden="false" targetId="f8b8-8b42-caaa-5e8c" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48c3-cdca-5dd-5bf1" name="T-54-1 Tank Company" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="398a-6f2c-18fa-64ef" name="T-54-1" hidden="false" targetId="6d5b-5af8-d42e-fda4" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="99f2-762b-885f-799c" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6f3f-247e-1be1-14cf">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="adb7-2c0e-fe94-6f4a-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="adb7-2c0e-fe94-6f4a-max" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6f3f-247e-1be1-14cf" name="3x T-54-1 (100mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="f2ab-5bfc-7e68-c832" name="T-54-1" hidden="false" targetId="bcd7-51a8-82c6-a4e9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="adaf-7818-e1b9-fe48" name="4x T-54-1 (100mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="71c9-11bb-409d-f198" name="T-54-1" hidden="false" targetId="bcd7-51a8-82c6-a4e9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="29.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="249f-276c-fc88-6625" name="5x T-54-1 (100mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="8762-80fa-a379-0960" name="T-54-1" hidden="false" targetId="bcd7-51a8-82c6-a4e9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ff33-ef10-e3d0-5c50" name="6x T-54-1 (100mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="429d-2c87-ca20-096c" name="T-54-1" hidden="false" targetId="bcd7-51a8-82c6-a4e9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="43.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d6ef-72bc-769e-9d13" name="7x T-54-1 (100mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="d137-b8eb-8798-8d29" name="T-54-1" hidden="false" targetId="bcd7-51a8-82c6-a4e9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="51.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4f06-d4c1-7de0-d4e8" name="8x T-54-1 (100mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="2889-66ad-dfa7-94ed" name="T-54-1" hidden="false" targetId="bcd7-51a8-82c6-a4e9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="58.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d872-70a9-a5f3-1039" name="9x T-54-1 (100mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="9492-4b59-ab79-ab10" name="T-54-1" hidden="false" targetId="bcd7-51a8-82c6-a4e9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="65.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6dc2-8638-e055-263f" name="10x T-54-1 (100mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="5837-015e-d6df-1f60" name="T-54-1" hidden="false" targetId="bcd7-51a8-82c6-a4e9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="72.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd3c-c2ec-2d7c-4b8c" name="ISU-130 Heavy SP Battery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1680-267c-eab8-e13f" name="ISU-130" hidden="false" targetId="2dec-0b16-2323-f6d4" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="396e-5ed1-6f00-927a" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="98c7-e241-8d7b-2637">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="798a-b02b-19c3-3b30-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="798a-b02b-19c3-3b30-max" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e71f-bdfc-7cc6-aa4d" name="4x ISU-130 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="49e0-8bdd-ae6e-21ec" name="ISU-130" hidden="false" targetId="4826-8621-be5b-143f" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dfa7-1913-97b9-1c07" name="3x ISU-130 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="8e5d-0e41-7cd4-1203" name="ISU-130" hidden="false" targetId="4826-8621-be5b-143f" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9536-d5d9-5593-b869" name="5x ISU-130 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="deab-a797-2986-bf9e" name="ISU-130" hidden="false" targetId="4826-8621-be5b-143f" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="98c7-e241-8d7b-2637" name="2x ISU-130 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="b13b-1e72-38b2-16b7" name="ISU-130" hidden="false" targetId="4826-8621-be5b-143f" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb7a-8a76-354f-8800" name="Hero BTR Motor Rifle Battalion" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="f360-915b-63c5-dfce" name="Hero BTR Motor Rifle Battalion HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="01b3-28ad-1a13-4b58" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7742-2077-582b-aa5c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7cd6-2648-7461-38d7" name="2x PPSh SMG team, 1x BTR-152" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ce99-1ed5-a1ce-78a4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="806f-f14d-6487-4f19" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="ffb0-57f7-5533-8f0d" name="PPSh SMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+                    <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+                    <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+                    <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+                    <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+                    <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="11b7-b03e-047f-d27b" name="Hero BTR Motor Rifle Battalion HQ" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+                  <characteristics>
+                    <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
+                    <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+
+Assault 2+</characteristic>
+                    <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
+                    <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+                    <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+                    <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+                    <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+                    <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+                    <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+                    <characteristic name="Notes" typeId="173e-6395-d37b-31a2">HQ Transport</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e78c-182b-e1cf-bd79" name="BTR-152" hidden="false" targetId="552c-e2f5-4ad8-febc" type="infoGroup"/>
+                <infoLink id="4b4b-9466-054a-6188" name="HQ Transport" hidden="false" targetId="7de4-d921-ff24-9632" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="908b-5c09-d8af-968d" name="1) Optional BTR Company" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="372c-54df-c59b-7e27" name="* [FS] Hero BTR Motor Rifle Company" hidden="false" collective="false" import="true" targetId="4435-58f9-0b64-f430" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8450-dd50-1cb7-37e0" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="74fb-e76d-eabd-5ef7" name="2) Optional Armour Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9941-9c40-2e14-4e0d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6d8d-48a3-0723-e51d" name="T-34 (85mm) Tank Company" hidden="false" collective="false" import="true" targetId="809b-0268-ffb0-de1d" type="selectionEntry"/>
+            <entryLink id="b125-cdf0-ce88-1d73" name="* [FS] T-44 Tank Company" hidden="false" collective="false" import="true" targetId="93d7-8e7d-d5f7-6c98" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5ab4-c354-619d-d05e" name="4) Optional Anti-tank Company #1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ebb1-f183-187d-5646" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6328-9ee1-58f3-f1bd" name="76mm Anti-Tank Company" hidden="false" collective="false" import="true" targetId="21ce-db6a-862b-92d4" type="selectionEntry"/>
+            <entryLink id="2c2d-96b2-1ec8-ae8e" name="82mm B-10 Recoilless Anti-tank Company" hidden="false" collective="false" import="true" targetId="f984-86d2-302c-5c6d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5715-3abe-80d5-f203" name="5) Optional Anti-tank Company #2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8f16-0ce7-656e-845c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5f2b-5f16-3b3a-3e0f" name="76mm Anti-Tank Company" hidden="false" collective="false" import="true" targetId="21ce-db6a-862b-92d4" type="selectionEntry"/>
+            <entryLink id="7f02-887e-ba65-ab85" name="82mm B-10 Recoilless Anti-tank Company" hidden="false" collective="false" import="true" targetId="f984-86d2-302c-5c6d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="03ee-8fda-6843-da90" name="3) Optional Artillery Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ce05-4724-4525-497b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7f94-a772-eafe-65ca" name="82mm Mortar Company" hidden="false" collective="false" import="true" targetId="f0bf-f1fc-6243-a1c7" type="selectionEntry"/>
+            <entryLink id="0d6c-75d1-1932-f1e2" name="120mm Mortar Company" hidden="false" collective="false" import="true" targetId="bd75-cd8a-a054-29aa" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e5e2-64a3-b2bf-2aef" name="6) Optional Weapons &amp; Infantry Companies" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="30b1-a833-da53-cf0e" name="82mm Mortar Company" hidden="false" collective="false" import="true" targetId="f0bf-f1fc-6243-a1c7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c52c-8a96-90ed-d338" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6b1e-4461-c6ef-c252" name="Hero SMG Company" hidden="false" collective="false" import="true" targetId="582c-d5be-3665-c26d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6c4f-afc4-c065-f3fd" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f69d-fb09-df99-d1c5" name="Maksim Machine-Gun Company" hidden="false" collective="false" import="true" targetId="e5f3-4d79-d628-b13d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b108-1669-6d51-708d" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ed4b-c1c3-3a48-a25d" name="7) Optional Recon &amp; Anti-aircraft Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="6980-1801-20aa-7fe8" name="[Reconnaissance] BA-64 Armoured Car Platoon " hidden="false" collective="false" import="true" targetId="d5b5-c25f-5477-6f82" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a6c6-af57-b4ef-f066" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="033e-5070-4cb9-4ca6" name="[Anti-aircraft] ZSU M17 Anti-aircraft Platoon" hidden="false" collective="false" import="true" targetId="c154-4e8c-05bd-15ea" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8cc1-a6d0-e545-7f3f" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1c98-18ba-a8cc-42a9" name="* [FS] Hero BTR Motor Rifle Company" hidden="false" collective="false" import="true" targetId="4435-58f9-0b64-f430" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7138-caf6-24a1-32ec" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a47d-9551-87b0-a675" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c172-a58a-552b-ed3d" name="* [FS] Hero BTR Motor Rifle Company" hidden="false" collective="false" import="true" targetId="4435-58f9-0b64-f430" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4dca-10f0-5d1a-529b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="789a-690b-92a3-7829" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c87e-d63b-c450-e2f0" name="T-54-1 Tank Battalion" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="3c39-819a-df29-fd63" name="T-54-1 Tank Battalion HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8c47-9560-ebe8-cc47" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4621-2cef-0d4d-a32e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f3aa-c382-f47e-a6b4" name="1x T-54-1" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79fc-cd82-fd01-6b93" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08bc-ae62-e143-d227" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3241-e158-ef34-0a99" name="T-54-1" hidden="false" targetId="bcd7-51a8-82c6-a4e9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="467b-465b-50f0-d6c1" name="1) Armour Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="8398-5a51-9e7a-47db">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d537-3087-dfc0-f34b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="25e7-0903-bfcb-4c21" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8398-5a51-9e7a-47db" name="[FS] T-54-1 Tank Company" hidden="false" collective="false" import="true" targetId="48c3-cdca-5dd-5bf1" type="selectionEntry"/>
+            <entryLink id="a1db-cbcd-e650-b959" name="[FS] T-44 Tank Company" hidden="false" collective="false" import="true" targetId="93d7-8e7d-d5f7-6c98" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="424b-1253-5556-e7cd" name="2) Optional Anti-tank Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bf37-ad18-f969-7294" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4924-899c-ca4e-1cf8" name="76mm Anti-Tank Company" hidden="false" collective="false" import="true" targetId="21ce-db6a-862b-92d4" type="selectionEntry"/>
+            <entryLink id="5e30-f212-f466-7dc5" name="82mm B-10 Recoilless Anti-tank Company" hidden="false" collective="false" import="true" targetId="f984-86d2-302c-5c6d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="50ce-e282-3136-f8d9" name="3) Optional Infantry Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d247-4c81-1113-5792" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e9d4-b17f-01af-1b54" name="SMG Company" hidden="false" collective="false" import="true" targetId="9090-c266-737c-42e4" type="selectionEntry"/>
+            <entryLink id="da29-b12c-316e-8b03" name="* [FS] Hero BTR Motor Rifle Company" hidden="false" collective="false" import="true" targetId="4435-58f9-0b64-f430" type="selectionEntry"/>
+            <entryLink id="e8bf-d11f-955a-64b3" name="Hero SMG Company" hidden="false" collective="false" import="true" targetId="582c-d5be-3665-c26d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9726-87d8-3e2d-60ba" name="4) Optional AA Platoon" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="dde4-61ca-4503-22bb" name="[Anti-aircraft] ZSU M17 Anti-aircraft Platoon" hidden="false" collective="false" import="true" targetId="c154-4e8c-05bd-15ea" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="eed6-6ce4-c929-f07a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4d5e-035a-5e0f-0017" name="[FS] T-54-1 Tank Company" hidden="false" collective="false" import="true" targetId="48c3-cdca-5dd-5bf1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5ef3-1cf8-56b8-22bb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5ab6-eb1f-953e-d44d" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="82a0-0592-8368-8933" name="Heavy SP Artillery Regiment" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="9fd7-a13f-b1b4-35b8" name="ISU Heavy SP Artillery Regiment HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3b2c-f5e4-0700-7a14" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1960-1e9b-4a51-a4dd" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6ae1-eba5-3ebf-bb1d" name="1x IS-2 (late 122mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aa2f-2473-96ad-2288" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e174-ed42-3070-d559" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="658b-feff-1224-8817" name="IS-2 (Late)" hidden="false" targetId="1762-9b4a-0767-1cd7" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eb60-5937-ad96-199d" name="1) Armour Selection #1" hidden="false" collective="false" import="true" defaultSelectionEntryId="1714-d540-179b-3f11">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f84f-472d-ce97-5e54" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e309-70a0-a7dc-4cbc" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1714-d540-179b-3f11" name="* [FS] ISU-130 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="fd3c-c2ec-2d7c-4b8c" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="442e-9d54-fd91-b5dd" name="IS-130" hidden="false" targetId="2dec-0b16-2323-f6d4" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="5fcc-8957-7f04-fda9" name="ISU-122 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="934b-f063-4284-961b" type="selectionEntry"/>
+            <entryLink id="6118-d28f-6ad0-be0b" name="ISU-152 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="8542-e97d-1fff-c298" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="41d5-6ba5-fd67-b033" name="2) Armour Selection #2" hidden="false" collective="false" import="true" defaultSelectionEntryId="8633-bdee-e30c-f88c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="75aa-4879-6c4f-8b3f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d7f0-7b0d-bf00-8b19" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8633-bdee-e30c-f88c" name="* [FS] ISU-130 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="fd3c-c2ec-2d7c-4b8c" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="41d4-551d-67a7-c75c" name="IS-130" hidden="false" targetId="2dec-0b16-2323-f6d4" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="7552-4f1d-62d4-545e" name="ISU-122 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="934b-f063-4284-961b" type="selectionEntry"/>
+            <entryLink id="2433-fa82-353d-0914" name="ISU-152 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="8542-e97d-1fff-c298" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1144-a21f-680c-960a" name="3) Optional Armour #1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="681d-0f20-d83b-35e3" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e476-0481-2e58-a9c8" name="* [FS] ISU-130 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="fd3c-c2ec-2d7c-4b8c" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="2256-6f1b-69ed-9a07" name="ISU-130" hidden="false" targetId="2dec-0b16-2323-f6d4" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="6eb0-dba7-4c91-f47f" name="ISU-122 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="934b-f063-4284-961b" type="selectionEntry"/>
+            <entryLink id="1be5-b1ba-6252-428b" name="ISU-152 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="8542-e97d-1fff-c298" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="dc6e-1f3a-6e51-4348" name="4) Optional Armour #2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9c11-679e-4d7a-7a01" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f7b2-0a24-518a-e324" name="[FS] ISU-130 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="fd3c-c2ec-2d7c-4b8c" type="selectionEntry"/>
+            <entryLink id="728d-4fb0-5aae-75a6" name="ISU-122 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="934b-f063-4284-961b" type="selectionEntry"/>
+            <entryLink id="2d29-c9c5-8982-a97a" name="ISU-152 Heavy SP Battery" hidden="false" collective="false" import="true" targetId="8542-e97d-1fff-c298" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6c2a-97f1-a5b1-dfab" name="5) Optional Infantry Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b239-0827-e4fd-5b50" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="725a-c6ce-4b92-d8bb" name="Hero SMG Company" hidden="false" collective="false" import="true" targetId="582c-d5be-3665-c26d" type="selectionEntry"/>
+            <entryLink id="05c9-3a29-f30c-a991" name="SMG Company" hidden="false" collective="false" import="true" targetId="9090-c266-737c-42e4" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4435-58f9-0b64-f430" name="Hero BTR Motor Rifle Company" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4515-eb98-2db2-b8d9" name="BTR" hidden="false" targetId="994d-42a2-cbaa-481b" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2eed-36d8-5ec0-7af4" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e0e8-0091-4ddd-4d4b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="266f-77d9-f9d9-50d1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9649-ac40-ac22-adb3" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e0e8-0091-4ddd-4d4b" name="4x DP MG team, 3x RPG AT team, 1x Komissar, 4x BTR-152" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b623-beff-3a21-922f" name="Hero BTR Rifle Company" hidden="false" targetId="cb2e-663a-0c23-c356" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b1ff-0248-2858-1b0b" name="6x DP MG team, 5x RPG AT team, 1x Komissar, 5x BTR-152" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ec42-5e78-6983-83f1" name="Hero BTR Rifle Company" hidden="false" targetId="cb2e-663a-0c23-c356" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c6de-e917-28a2-51ec" name="2) Optional Maksim HMG teams" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="8570-a48a-ba03-2243" name="1x Maksim HMG team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9fe6-c01b-58d6-91fb" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="42b1-96e0-d0f9-d271" name="Maksim HMG team" hidden="false" targetId="4087-656d-38e5-6b67" type="profile"/>
+                <infoLink id="2d69-c9af-7d93-9611" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6047-1beb-953c-979e" name="1x Maksim HMG team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ffaa-189a-d9d6-917b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7a1d-13b8-1c7b-7259" name="Maksim HMG team" hidden="false" targetId="4087-656d-38e5-6b67" type="profile"/>
+                <infoLink id="4d52-8d2a-f9b6-279b" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86a0-bd07-5e08-685e" name="T-10 Heavy Tank Company" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="bd92-655b-37a6-0b4e" name="T-10" hidden="false" targetId="fb47-5b8d-bf1b-a797" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="54de-2e56-e46a-bde4" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="c69c-f20e-2bb2-7f5f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ed-4856-7f26-8b35" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb4f-6e03-9002-7b99" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="44ea-72a1-d49a-edc7" name="4x T-10 (122mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9b3c-30d6-547d-93a0" name="T-10" hidden="false" targetId="25c2-d16d-8732-2aa0" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="45.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="39ca-9e5d-7775-659b" name="3x T-10 (122mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9ad4-8c75-e757-f638" name="T-10" hidden="false" targetId="25c2-d16d-8732-2aa0" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7504-22f8-cacf-9bd3" name="5x T-10 (122mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6183-9ee3-1b4f-7421" name="T-10" hidden="false" targetId="25c2-d16d-8732-2aa0" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="56.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c69c-f20e-2bb2-7f5f" name="2x T-10 (122mm)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e16e-d352-fefb-1e00" name="T-10" hidden="false" targetId="25c2-d16d-8732-2aa0" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="30b4-c3d8-6b31-6c62" name="IS-7 Guards Heavy Tank Company " hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="da78-20f2-b4d9-3ae3" name="ISU-7" hidden="false" targetId="35c2-c78e-38fa-b1c5" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ef0a-1048-1b3d-ed05" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="8983-feab-f907-5a54">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="276a-be6e-0483-d40c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a7-ea61-db7c-2889" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="abc3-c1a1-5de9-dd14" name="4x IS-7 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="0998-d3ef-2a92-00cb" name="IS-7" hidden="false" targetId="a73d-3c86-2a40-a360" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="64.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b2e0-b35f-399c-683f" name="3x IS-7 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="d376-8c2b-2472-a979" name="IS-7" hidden="false" targetId="a73d-3c86-2a40-a360" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="14bb-e1b9-4310-a1bf" name="5x IS-7 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="c3f0-6283-35aa-7f2c" name="IS-7" hidden="false" targetId="a73d-3c86-2a40-a360" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="80.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8983-feab-f907-5a54" name="2x IS-7 (130mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="5c63-c1eb-dd3d-a9a8" name="IS-7" hidden="false" targetId="a73d-3c86-2a40-a360" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bdf4-4b07-479d-fd66" name="[Artillery] Support Battery" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="16c2-bc56-fee8-2044" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="4cda-5a6f-be9d-15fa">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c50a-eced-6eda-5dff" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="967c-25ca-7a11-64d7" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4cda-5a6f-be9d-15fa" name="76mm Artillery Battery [LS148]" hidden="false" collective="false" import="true" targetId="3b75-2dd3-3d98-fcc0" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="fd2d-35e5-cbf7-0c03" name="ARTILLERY" hidden="false" targetId="db57-faf4-996e-54fb" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="2516-6ffb-f0b1-441d" name="122mm Artillery Battery [LS149]" hidden="false" collective="false" import="true" targetId="1778-c0d5-2dbb-4e7b" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="73a4-bed8-802e-707e" name="ARTILLERY" hidden="false" targetId="db57-faf4-996e-54fb" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae0a-8f81-565e-115c" name="[Artillery] Mortar Support Battery" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="70cc-5448-4806-a60c" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="e816-830a-82e7-1579">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f326-da1f-8c78-578f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c3a5-ff0e-aeb6-9557" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="10a0-ceb4-bfad-bf54" name="76mm Artillery Battery [LS148]" hidden="false" collective="false" import="true" targetId="3b75-2dd3-3d98-fcc0" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="862d-1074-2b0d-5270" name="ARTILLERY" hidden="false" targetId="db57-faf4-996e-54fb" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="e816-830a-82e7-1579" name="160mm Mortar Battery [LS213]" hidden="false" collective="false" import="true" targetId="1e06-2d96-9207-ef8d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4959-3ce5-a7f0-5cce" name="[Anti-tank] Tank-killer Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="53d7-b215-eded-9976" name="1) Unit Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="12b0-66ef-e724-41f8">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="03b5-a664-493e-5ece" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="85f6-634c-e6a0-14fc" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6eb4-4752-2251-1f08" name="100mm Tank-Killer Company [LS186]" hidden="false" collective="false" import="true" targetId="271f-72f2-5d46-8ce6" type="selectionEntry"/>
+            <entryLink id="3cb6-64ba-ce47-cb37" name="Heavy Tank-Killer Company [LS146]" hidden="false" collective="false" import="true" targetId="6483-c5da-2008-8d90" type="selectionEntry"/>
+            <entryLink id="12b0-66ef-e724-41f8" name="3M6 Shmel Tank-killer Company" hidden="false" collective="false" import="true" targetId="6818-31f9-b62b-6bbb" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6818-31f9-b62b-6bbb" name="[Anti-tank] 3M6 Shmel Tank-killer Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="344d-de43-0045-d2d8" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="554b-e798-d6f2-0ef0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2ce5-bf87-2459-cff5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c82d-1940-1e37-098a" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="554b-e798-d6f2-0ef0" name="3x GAZ Jeep (3M6 Shmel)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9019-c712-20ee-e9ab" name="3M6 Shmel" hidden="false" targetId="624f-7ceb-63f3-c1cb" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b0c9-d0b5-0bd0-c450" name="4x GAZ Jeep (3M6 Shmel)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9a40-b292-a8b6-7c19" name="3M6 Shmel" hidden="false" targetId="624f-7ceb-63f3-c1cb" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9477-c73b-9ea6-80dc" name="5x GAZ Jeep (3M6 Shmel)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="cc02-9e75-b414-7e59" name="3M6 Shmel" hidden="false" targetId="624f-7ceb-63f3-c1cb" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6dca-f6b2-5593-c4a3" name="[Artillery] Assorted Support Battery" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c60b-8c72-3e43-e34f" name="1) Unit Type" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="081d-7d0d-7897-bf8e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e5ab-3d20-e78d-838c" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0046-e85f-fcd6-776d" name="76mm Artillery Battery [LS148]" hidden="false" collective="false" import="true" targetId="3b75-2dd3-3d98-fcc0" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="a25c-bb5f-87c1-d32a" name="ARTILLERY" hidden="false" targetId="db57-faf4-996e-54fb" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="e710-9b0b-a700-c982" name="122mm Artillery Battery [LS149]" hidden="false" collective="false" import="true" targetId="1778-c0d5-2dbb-4e7b" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="03db-bf74-b163-3818" name="ARTILLERY" hidden="false" targetId="db57-faf4-996e-54fb" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="ecd5-2deb-0fa0-0d86" name="SU-76 Light SP Battery [LS141]" hidden="false" collective="false" import="true" targetId="e0f2-2ceb-87a3-f941" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="054e-f186-041e-66db" name="[Artillery] Heavy Support Battery" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3c63-6688-7787-f530" name="1) Unit Type" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1e15-b12a-d5ae-1072" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ad51-36ea-b1c8-bce6" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="623f-8bb9-8d4e-ee9e" name="152mm Artillery Battery [LS187]" hidden="false" collective="false" import="true" targetId="4931-5760-c7a2-6786" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="5b1d-e7f3-7533-c327" name="ARTILLERY" hidden="false" targetId="db57-faf4-996e-54fb" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="8d26-ef5b-cd0b-79ab" name="Katyusha Guards Rocket Battery [LS147]" hidden="false" collective="false" import="true" targetId="fc2d-20a2-dbb5-5f39" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="876f-c086-90ac-8b02" name="ARTILLERY" hidden="false" targetId="db57-faf4-996e-54fb" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f984-86d2-302c-5c6d" name="82mm B-10 Recoilless Anti-tank Company" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a194-6b70-42a4-a2f4" name="1) Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="854e-8fe1-1e86-4118">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5c2a-0c86-06a5-70d1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="70bb-de3a-0c27-aa20" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="854e-8fe1-1e86-4118" name="2x 82mm B-10 recoilless" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6dda-b53e-b102-5280" name="82mm Recoilless" hidden="false" targetId="45f0-39a1-17c2-3cc5" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="900d-3a7a-cd18-2ee3" name="4x 82mm B-10 recoilless" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="eda9-4d61-2ddd-2c95" name="82mm Recoilless" hidden="false" targetId="45f0-39a1-17c2-3cc5" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="946f-954b-ab51-66cc" name="T-44 Tank Battalion" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="6fa4-76ee-0be8-15cc" name="T-44 Tank Battalion HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e5e-2819-ff61-e218" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b48-57ab-0925-90ae" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b3f2-8c14-1543-0996" name="1x T-44" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5178-f75d-fd05-d34d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d1-5bdd-1eeb-783d" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5459-346d-3c8d-a5e3" name="T-44" hidden="false" targetId="f8b8-8b42-caaa-5e8c" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="74e8-e46e-652b-9408" name="1) Armour Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="8c7a-5083-18c8-7b75">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d3a8-9cfb-5563-c12a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7ecb-773b-290c-cc58" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="00e0-7663-5d0d-2c3d" name="T-34 (85mm) Tank Company" hidden="false" collective="false" import="true" targetId="809b-0268-ffb0-de1d" type="selectionEntry"/>
+            <entryLink id="8c7a-5083-18c8-7b75" name="* [FS] T-44 Tank Company" hidden="false" collective="false" import="true" targetId="93d7-8e7d-d5f7-6c98" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d339-025d-4b77-d3a8" name="2) Optional Anti-tank Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5d53-f238-ee1e-4764" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b8d6-462a-5833-8701" name="76mm Anti-Tank Company" hidden="false" collective="false" import="true" targetId="21ce-db6a-862b-92d4" type="selectionEntry"/>
+            <entryLink id="2afb-be13-08fe-7285" name="82mm B-10 Recoilless Anti-tank Company" hidden="false" collective="false" import="true" targetId="f984-86d2-302c-5c6d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="11a7-e6ae-22f9-2298" name="3) Optional Infantry Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ea8c-8bc5-7ebe-68a6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="07c9-825d-2956-0b09" name="SMG Company" hidden="false" collective="false" import="true" targetId="9090-c266-737c-42e4" type="selectionEntry"/>
+            <entryLink id="924d-f257-235a-f983" name="* [FS] Hero BTR Motor Rifle Company" hidden="false" collective="false" import="true" targetId="4435-58f9-0b64-f430" type="selectionEntry"/>
+            <entryLink id="4870-504c-ac8b-48d3" name="Hero SMG Company" hidden="false" collective="false" import="true" targetId="582c-d5be-3665-c26d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="cdbb-fe2c-8778-1dde" name="4) Optional AA Platoon" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="b7a4-b1e7-b40f-8234" name="[Anti-aircraft] ZSU M17 Anti-aircraft Platoon" hidden="false" collective="false" import="true" targetId="c154-4e8c-05bd-15ea" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="54bf-173b-c325-d8ab" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7857-d308-4a3c-c9eb" name="T-44 Tank Company" hidden="false" collective="false" import="true" targetId="93d7-8e7d-d5f7-6c98" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0e3b-ed64-2a86-c1f7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="89a9-6a77-6a06-b9a5" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c955-2b0f-55de-972e" name="T-10 Tank Heavy Tank Regiment" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="5c62-5047-049f-6b3c" name="T-10 Tank Battalion HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="629f-7c14-390d-53be" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ae-0370-404a-f422" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9043-9d71-062d-0ce1" name="1x T-10" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a765-d5af-49dc-7213" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f34-72e0-7e95-56e5" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b4f3-94ef-98a6-b5a7" name="T-10" hidden="false" targetId="25c2-d16d-8732-2aa0" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4f36-cf51-2fcd-00c9" name="1) Optional T-10 Companies" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c58f-04b7-7f1a-baf0" name="[FS] T-10 Heavy Tank Company" hidden="false" collective="false" import="true" targetId="86a0-bd07-5e08-685e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e09e-ff2e-4da7-e4ba" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0963-8dd5-7abf-5c3a" name="T-10 Heavy Tank Company" hidden="false" collective="false" import="true" targetId="86a0-bd07-5e08-685e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d75b-c4d7-f3b6-f14d" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a65c-0d8a-1965-4b33" name="2) Optional Infantry Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="55cb-e94d-a881-924c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0cd6-f621-1227-d703" name="SMG Company" hidden="false" collective="false" import="true" targetId="9090-c266-737c-42e4" type="selectionEntry"/>
+            <entryLink id="9caa-91f3-e3de-a29a" name="Hero SMG Company" hidden="false" collective="false" import="true" targetId="582c-d5be-3665-c26d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="75d2-77cd-1de2-da6d" name="T-10 Heavy Tank Company" hidden="false" collective="false" import="true" targetId="86a0-bd07-5e08-685e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5d28-5e13-8257-2cbb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="642d-a5cc-a25c-cc48" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="101f-9ab6-1e32-1ec1" name="T-10 Heavy Tank Company" hidden="false" collective="false" import="true" targetId="86a0-bd07-5e08-685e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c127-d2e9-4231-b011" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2d33-afc3-e90e-9364" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3f4-d530-e600-f0f0" name="IS-7 Guards Heavy Tank Regiment" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="23aa-6637-4ab7-f25c" name="IS-7 Guards Heavy Tank Regiment HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e8-a5fd-2e34-a87d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d36e-3c95-a8ed-342d" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="def4-351b-e63b-93fe" name="1x IS-7" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14f1-10ec-ce9a-b511" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5cf-b920-2ae1-60ef" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6898-a3c4-1ee2-bfd8" name="IS-7" hidden="false" targetId="a73d-3c86-2a40-a360" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5dd8-e466-9ac2-408b" name="1) Optional IS-7 Companies" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="9cfd-a4dd-b1c1-e1f3" name="IS-7 Guards Heavy Tank Company " hidden="false" collective="false" import="true" targetId="30b4-c3d8-6b31-6c62" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="91cb-39a5-b3fc-f081" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b65a-df98-5c5f-64c6" name="IS-7 Guards Heavy Tank Company " hidden="false" collective="false" import="true" targetId="30b4-c3d8-6b31-6c62" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bfd9-44d3-55e8-d2ea" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="bc74-86f3-184e-a7b1" name="2) Optional Infantry Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="462c-eb7c-85ef-afa0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="34a2-8686-806d-4423" name="SMG Company" hidden="false" collective="false" import="true" targetId="9090-c266-737c-42e4" type="selectionEntry"/>
+            <entryLink id="e613-6e24-9fd6-2943" name="Hero SMG Company" hidden="false" collective="false" import="true" targetId="582c-d5be-3665-c26d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="58ed-4817-7765-1913" name="* [FS] IS-7 Guards Heavy Tank Company " hidden="false" collective="false" import="true" targetId="30b4-c3d8-6b31-6c62" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="637a-a26a-0b19-2874" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9062-efaa-d0fd-d79c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ad5d-63f0-6835-802e" name="* [FS] IS-7 Guards Heavy Tank Company " hidden="false" collective="false" import="true" targetId="30b4-c3d8-6b31-6c62" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4814-aa36-04bc-6eab" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fb50-3851-e9f9-d638" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f5b-4d59-859a-bff3" name="IS-3 Guards Heavy Tank Regiment" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="035f-a89b-382e-6b12" name="IS-3 Guards Heavy Tank Regiment HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c559-30ad-57b1-5c90" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cadc-e11a-ca40-b4e2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b8d9-dba4-e22e-a41b" name="1x IS-3" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bcd-be71-21ba-e146" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6fe-dd12-c8fc-8513" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5822-8d41-ada8-3a02" name="IS-3" hidden="false" targetId="24d0-2773-8910-7533" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6864-e3b2-cede-49d4" name="1) Optional Armour Company #1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="03f5-8654-968c-92f0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bae2-67e6-694c-18f9" name="IS-2 (Late) Guards Heavy Tank Company" hidden="false" collective="false" import="true" targetId="d082-4b30-07f5-4f74" type="selectionEntry"/>
+            <entryLink id="16ea-4c07-79a9-8fec" name="[FS] IS-3 Guards Heavy Tank Company " hidden="false" collective="false" import="true" targetId="2f80-b7d5-eb8d-a560" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ca06-b7fb-26cd-28dc" name="3) Optional Infantry Company" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1956-10b6-4c67-b9fd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ea63-de4b-8ef8-2c24" name="SMG Company" hidden="false" collective="false" import="true" targetId="9090-c266-737c-42e4" type="selectionEntry"/>
+            <entryLink id="aac9-f59b-d0e3-3948" name="Hero SMG Company" hidden="false" collective="false" import="true" targetId="582c-d5be-3665-c26d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="00ec-9655-5380-d339" name="2) Optional Armour Company #2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e764-c66f-8b72-b896" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9301-d0d1-b64c-b4f0" name="IS-2 (Late) Guards Heavy Tank Company" hidden="false" collective="false" import="true" targetId="d082-4b30-07f5-4f74" type="selectionEntry"/>
+            <entryLink id="4213-fc62-cbc5-bc0a" name="[FS] IS-3 Guards Heavy Tank Company " hidden="false" collective="false" import="true" targetId="2f80-b7d5-eb8d-a560" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="abb2-43c7-5ae5-a990" name="[FS] IS-3 Guards Heavy Tank Company " hidden="false" collective="false" import="true" targetId="2f80-b7d5-eb8d-a560" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="16e5-76f8-63fe-c510" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="987d-eb02-8be7-1a11" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3177-6a08-5d5e-9f48" name="[FS] IS-3 Guards Heavy Tank Company " hidden="false" collective="false" import="true" targetId="2f80-b7d5-eb8d-a560" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="037d-0621-35a3-cfd9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="68e6-0187-ea49-c8b0" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="4087-656d-38e5-6b67" name="Maksim HMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793"/>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d"/>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd"/>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309"/>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="25c2-d16d-8732-2aa0" name="T-10" hidden="false">
+      <profiles>
+        <profile id="5ac1-4830-ccef-d978" name="T-10" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Counterattack 3+
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">16</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">12</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">2+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+        <profile id="be25-c3a6-83be-e8b3" name="T-10 (122mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">15</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Slow Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dcde-f783-6e96-0638" name="T-10 (12.7mm AA MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7ecd-de1a-c2ff-2060" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+        <infoLink id="f6a8-6777-ed86-81f0" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="3476-ce17-e224-77a6" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="f8b8-8b42-caaa-5e8c" name="T-44" hidden="false">
+      <profiles>
+        <profile id="9c55-7abf-6c16-b80a" name="T-44 (85mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+        <profile id="1f55-af2a-7dca-9673" name="T-44 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+        <profile id="385f-47ef-8992-6d15" name="T-44" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">10</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">7</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="bcd7-51a8-82c6-a4e9" name="T-54-1" hidden="false">
+      <profiles>
+        <profile id="e6c7-3099-fb48-cf94" name="T-54-1 (100mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">15</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6200-dbda-1e18-69ca" name="T-54-1 (12.7mm AA MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="29cf-a095-1ea8-fce6" name="T-54-1 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+        <profile id="b79f-12c4-e518-73d6" name="T-54-1" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">12</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="67ab-e58b-490e-04ec" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="aeea-4196-6b2a-6b0f" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="4826-8621-be5b-143f" name="ISU-130" hidden="false">
+      <profiles>
+        <profile id="05db-5517-7702-1099" name="ISU-130 (12.7mm AA MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="add3-14ca-5de0-8898" name="ISU-130 (130mm) [Direct Fire]" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">18</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Slow Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d1da-3cca-5726-54c0" name="ISU-130 (130mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8d53-0369-85b0-3960" name="ISU-130 Heavy SP Battery" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Counterattack 5+
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
+Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="65a0-dcd5-fe23-45d6" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
+        <infoLink id="6c35-e2a1-4d51-334e" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="071b-3c23-71b2-f9fb" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="f911-14fd-8b7f-018a" name="T-34 (85mm)" hidden="false"/>
+    <infoGroup id="24d0-2773-8910-7533" name="IS-3" hidden="false">
+      <profiles>
+        <profile id="f21d-6954-0fad-c1e3" name="IS-3 (12.7mm AA MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="db8b-cece-a094-de88" name="IS-3 (122mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Slow Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="635d-008b-8c1a-958c" name="IS-3 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+        <profile id="49d3-01bb-9908-c6ea" name="IS-3" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Counterattack 3+
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
+Tactics 3+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">14</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">9</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">18&quot;/45cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="01b5-b623-39cf-ada1" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="1048-7350-bbb9-3a16" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+        <infoLink id="61e2-630e-f8a5-ab58" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="a73d-3c86-2a40-a360" name="IS-7" hidden="false">
+      <profiles>
+        <profile id="119c-9a76-3173-0587" name="IS-7" page="" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Counterattack 3+
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
+Assault 3+</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">19</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">13</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+          </characteristics>
+        </profile>
+        <profile id="e4f5-6545-3c1c-d0b8" name="IS-7 (130mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">18</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7591-9d39-5143-13f6" name="IS-7 (14.5mm MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cc9f-98d9-9e0b-3927" name="IS-7 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e715-6c58-b26c-3765" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="8217-1380-6a62-1221" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="624f-7ceb-63f3-c1cb" name="3M6 Shmel" hidden="false">
+      <profiles>
+        <profile id="a614-9f9d-2aa2-b12e" name="GAZ Jeep (3M6 Shmel)" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="55ef-8653-887d-4642">3+</characteristic>
+            <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
+            <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">3+</characteristic>
+            <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">5+</characteristic>
+            <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">12&quot;/30cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">12&quot;/30cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">20&quot;/50cm</characteristic>
+            <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">48&quot;/120cm</characteristic>
+            <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
+            <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
+          </characteristics>
+        </profile>
+        <profile id="955a-ebd9-e891-ca4d" name="3M6 Shmel missile" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm - 36&quot;/90cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">-</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">16</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Back-blast, Guided, HEAT, Rear Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c028-5b66-0fb4-4a47" name="Unarmoured" hidden="false" targetId="a5c7-5baa-4aad-ed13" type="rule"/>
+        <infoLink id="6c46-f6a0-6a0c-4a83" name="Back-blast" hidden="false" targetId="9f03-7bf9-793b-fc9d" type="rule"/>
+        <infoLink id="db65-94db-16af-7258" name="Guided" hidden="false" targetId="b76a-3cff-52e6-bbee" type="rule"/>
+        <infoLink id="1a6b-3e5b-03e8-85e4" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
+        <infoLink id="5d93-d6ce-a1b0-a785" name="Rear Firing" hidden="false" targetId="e9e5-f5de-e0ef-9e90" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="45f0-39a1-17c2-3cc5" name="82mm Recoilless" hidden="false">
+      <profiles>
+        <profile id="1baf-f2ee-ea50-d96e" name="82mm B-10 Recoilless Anti-tank Company" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+
+Assault 5+</characteristic>
+            <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
+            <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+            <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">4&quot;/10cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">6&quot;/15cm</characteristic>
+            <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
+            <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">3+</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2"/>
+          </characteristics>
+        </profile>
+        <profile id="5dc4-d0e4-b898-da37" name="82mm B-10 recoilless" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">11</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Back-blast, HEAT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="57c8-0345-c1be-1a20" name="Back-blast" hidden="false" targetId="9f03-7bf9-793b-fc9d" type="rule"/>
+        <infoLink id="01a8-c551-bb19-893b" name="HEAT" hidden="false" targetId="0a75-9107-1a42-067c" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="552c-e2f5-4ad8-febc" name="BTR-152" hidden="false">
+      <profiles>
+        <profile id="71c7-15ce-0f1c-c5a8" name="BTR-152" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Counterattack 6
+Remount 5</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+
+Assault 6</characteristic>
+            <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
+            <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+            <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
+            <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">8&quot;/20cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">36&quot;/90cm</characteristic>
+            <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">5+</characteristic>
+            <characteristic name="Notes" typeId="33d6-6375-9564-9985">Passengers 4, Unit Transport</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3bac-fa09-a8c0-9add" name="BTR-152 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4225-87a5-44ff-79a8" name="Passengers #" hidden="false" targetId="cf99-c640-bffb-48e2" type="rule"/>
+        <infoLink id="9741-5a87-6747-6ace" name="Unit Transport" hidden="false" targetId="5876-534c-9b8d-a44b" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="cb2e-663a-0c23-c356" name="Hero BTR Rifle Company" hidden="false">
+      <profiles>
+        <profile id="fabc-5fdb-e723-583b" name="Hero BTR Motor Rifle Company" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
+          <characteristics>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+
+Komissar 3+</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+
+Assault 2+</characteristic>
+            <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
+            <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+            <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+            <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+            <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+            <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+            <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Komissar</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9ca8-6d4f-4019-432e" name="DP MG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+          </characteristics>
+        </profile>
+        <profile id="6a20-31d9-3690-641e" name="RPG-1 anti-tank team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm</characteristic>
+            <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+            <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+            <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">11</characteristic>
+            <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+            <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Slow Firing</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="708e-0540-35ad-7a4c" name="BTR-152" hidden="false" targetId="552c-e2f5-4ad8-febc" type="infoGroup"/>
+        <infoLink id="143e-30da-bf92-f116" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
+        <infoLink id="9422-a3c0-3899-a6a4" name="Komissar" hidden="false" targetId="cd04-8d13-53bf-4376" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+  </sharedInfoGroups>
+  <catalogueLinks>
+    <catalogueLink id="5b80-4e99-5b87-6973" name="Late-War - Berlin: Soviet" targetId="69b0-b9f5-2f03-636d" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>
